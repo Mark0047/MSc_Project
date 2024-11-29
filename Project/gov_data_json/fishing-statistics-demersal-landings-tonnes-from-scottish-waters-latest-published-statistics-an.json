@@ -1,0 +1,237 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "marine.gis@gov.scot",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "d4be4bbd-1a61-4186-af7c-b87dbec89a8c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-02-09T15:07:18.459720",
+        "metadata_modified": "2024-06-19T11:18:30.297269",
+        "name": "fishing-statistics-demersal-landings-tonnes-from-scottish-waters-latest-published-statistics-an",
+        "notes": "Landings by live weight (tonnes) for commercial fishing activity in Scottish seas of demersal (bottom dwelling) fish species, including UK registered fishing vessels wherever they land and non-UK vessels if landing into the UK, as recorded in last five years of published statistics. Data is redacted if less than five vessels operate within an ICES statistical rectangle (values = -1).",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Fishing Statistics - Demersal landings (tonnes) from Scottish waters - latest published statistics and previous 4 years",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"no limitations to public access\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.605066"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "63.88707"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.43328"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-14.89295"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2022-11-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "Marine_Scotland_FishDAC_1765"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "df68f4f5-2c70-4e42-9802-ccbb6ebb944c"
+            },
+            {
+                "key": "licence",
+                "value": "[\"The following attribution statement must be used: Contains information from Scottish Government (Marine Scotland) licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-09-12T16:12:20"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (pointOfContact, originator)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.605066, 54.43328], [-14.89295, 54.43328], [-14.89295, 63.88707], [2.605066, 63.88707], [2.605066, 54.43328]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "WGS84"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:30.326424",
+                "description": "fishing_demersal_tonnage",
+                "format": "",
+                "hash": "",
+                "id": "c2f0bdfb-ad82-4016-b546-d56b54af6341",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:30.302554",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "fishing_demersal_tonnage",
+                "package_id": "d4be4bbd-1a61-4186-af7c-b87dbec89a8c",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://msmap1.atkinsgeospatial.com/geoserver/nmpwfs/ows?token=d46ffd2a-e192-4e51-8a6a-b3292c20f1ee&service=wfs&version=1.1.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:30.326426",
+                "description": "fishing_demersal_tonnage",
+                "format": "",
+                "hash": "",
+                "id": "ed31dfc3-50ff-4931-a31d-366d34fc18b2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:30.302647",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "fishing_demersal_tonnage",
+                "package_id": "d4be4bbd-1a61-4186-af7c-b87dbec89a8c",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://msmap1.atkinsgeospatial.com/geoserver/nmpwfs/ows?token=d46ffd2a-e192-4e51-8a6a-b3292c20f1ee&service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:30.326427",
+                "description": "Download data as zipped shapefile on WGS84 datum",
+                "format": "",
+                "hash": "",
+                "id": "72880390-b5f7-4e51-90ae-c20aabe88de4",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:30.302717",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "fishing_demersal_tonnage",
+                "package_id": "d4be4bbd-1a61-4186-af7c-b87dbec89a8c",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-ftp--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://msmap1.atkinsgeospatial.com/geoserver/nmpwfs/ows?token=d46ffd2a-e192-4e51-8a6a-b3292c20f1ee&service=wfs&request=getFeature&typeName=nmpwfs:fishing_demersal_tonnage&outputFormat=shape-zip&srsName=EPSG:4326",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Species distribution",
+                "id": "0eed55a5-d9d8-4bcd-aa03-9a84030d9fbf",
+                "name": "Species distribution",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Statistical units",
+                "id": "5c1fe287-ebfd-4a64-9580-29baa322a3d0",
+                "name": "Statistical units",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "51a7d94c-7f3c-4cda-8c2a-32478dd23c93"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

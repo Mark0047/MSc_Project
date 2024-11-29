@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "865d6ac4-0978-4c8a-8f81-fab48ce27c50",
+        "metadata_created": "2019-01-23T11:49:16.783032",
+        "metadata_modified": "2019-07-11T12:25:53.632685",
+        "name": "ukme-wafb1e23",
+        "notes": "Royal Borough of Windsor and Maidenhead",
+        "organization": {
+            "id": "b7604054-3122-4f80-8c2f-2a43999af2e8",
+            "name": "royal-borough-of-windsor-and-maidenhead",
+            "title": "Royal Borough of Windsor and Maidenhead",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:37.846768",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "b7604054-3122-4f80-8c2f-2a43999af2e8",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/b7604054-3122-4f80-8c2f-2a43999af2e8/159-RBWM_Employment_Sites.xml",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 4,
+            "last_job": {
+                "id": "72e1b920-872e-4b0a-abc0-38b6df2de8ba",
+                "created": "2019-07-11 12:26:13.042788",
+                "gather_started": "2019-07-11 12:26:13.506753",
+                "gather_finished": "2019-07-11 12:26:13.851085",
+                "finished": "2019-07-11 12:26:13.851085",
+                "source_id": "865d6ac4-0978-4c8a-8f81-fab48ce27c50",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Couldn't find any links to metadata files",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

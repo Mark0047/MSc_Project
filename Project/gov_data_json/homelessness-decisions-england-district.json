@@ -1,0 +1,134 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "ODC@communities.gsi.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f4c398f3-5a6f-4e5a-a1ba-61269805ad47",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2014-10-27T18:14:25.026462",
+        "metadata_modified": "2018-02-26T15:12:26.453444",
+        "name": "homelessness-decisions-england-district",
+        "notes": "Decisions on whether a household is homeless and in priority need.\n\nThe term \"Homelessness\" is often considered to apply only to people \"sleeping rough\". However, most of our statistics on homelessness relate to the statutorily homeless i.e. those households which meet specific criteria of priority need set out in legislation, and to whom a homelessness duty has been accepted by a local authority. \r\n\r\nSuch households are rarely homeless in the literal sense of being without a roof over their heads, but are more likely to be threatened with the loss of, or are unable to continue with, their current accommodation.\r\n\r\nAll households that apply for assistance under the Housing and Homelessness Acts are referred to as \"decisions\". However, these do not include households found to be ineligible for assistance (some persons from abroad are ineligible for assistance).\r\n\r\nThis dataset provides statistics on the numbers of decisions made on applications for assistance.  The data is broken down by local authority and according to the outcome of the decision: either rejected, together with reason for rejection, or accepted. \r\n\r\nThe numbers are presented in terms of households, not individuals. A household is defined as: one person living alone, or a group of people living at the same address who share common housekeeping or a living room.\r\n\r\nValues of less than five households have been suppressed. In addition, some values of five or greater have been suppressed to prevent other suppressed values being calculated\r\n\r\nThis data is also available in Table 784a, available for download as an [Excel spreadsheet](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/437290/Table_784a.xlsx).",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "state": "active",
+        "theme-primary": "society",
+        "theme-secondary": [],
+        "title": "Homelessness Decisions , England, District",
+        "type": "dataset",
+        "url": "http://opendatacommunities.org/data/homelessness/homelessness-decisions/decisions",
+        "version": null,
+        "extras": [
+            {
+                "key": "contact_email",
+                "value": "ODC@communities.gsi.gov.uk"
+            },
+            {
+                "key": "data_issued",
+                "value": "2013-06-28T13:31:23+00:00"
+            },
+            {
+                "key": "data_modified",
+                "value": "2017-12-15T10:28:19+00:00"
+            },
+            {
+                "key": "dcat_publisher_uri",
+                "value": "http://reference.data.gov.uk/id/department/dclg"
+            },
+            {
+                "key": "dcat_subject",
+                "value": "http://opendatacommunities.org/def/concept/folders/organisations/department-for-communities-and-local-government http://opendatacommunities.org/def/concept/folders/themes/homelessness"
+            },
+            {
+                "key": "guid",
+                "value": "http://opendatacommunities.org/data/homelessness/homelessness-decisions/decisions"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "55ab7dda-904c-429d-a398-d196e33bb3c7"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://opendatacommunities.org/data.rdf\", \"harvest_source_type\": \"dcat_rdf\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Open Data Communities\", \"activity_occurred\": \"2018-02-26T15:12:26.379168\", \"activity\": \"harvest\", \"harvested_guid\": \"http://opendatacommunities.org/data/homelessness/homelessness-decisions/decisions\"}]"
+            },
+            {
+                "key": "metadata_uri",
+                "value": "http://opendatacommunities.org/data/homelessness/homelessness-decisions/decisions"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-18T09:20:30.669339",
+                "description": "",
+                "format": "SPARQL",
+                "hash": "",
+                "id": "21e9a52c-1469-4702-8074-5e5b29d14474",
+                "last_modified": null,
+                "metadata_modified": "2015-08-18T09:20:30.669339",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SPARQL Endpoint",
+                "package_id": "f4c398f3-5a6f-4e5a-a1ba-61269805ad47",
+                "position": 0,
+                "resource_type": "api",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/sparql",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-18T09:20:30.669349",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "903a2c76-13e6-44bf-981e-b0d963a6baf5",
+                "last_modified": null,
+                "metadata_modified": "2015-08-18T09:20:30.669349",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset home page",
+                "package_id": "f4c398f3-5a6f-4e5a-a1ba-61269805ad47",
+                "position": 1,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/data/homelessness/homelessness-decisions/decisions",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

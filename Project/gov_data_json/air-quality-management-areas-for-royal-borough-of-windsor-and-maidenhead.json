@@ -1,0 +1,179 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "Environmental.Protection@rbwm.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "89048b91-3e57-4251-a406-60df2d232a66",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-08-14T12:30:03.883828",
+        "metadata_modified": "2019-12-31T11:14:03.767003",
+        "name": "air-quality-management-areas-for-royal-borough-of-windsor-and-maidenhead",
+        "notes": "The Royal Borough of Windsor and Maidenhead assessment of air quality has declared Air Quality Management Areas (AQMA) for the towns of Windsor, Bray, and Maidenhead. These areas are monitored and this dataset is part of the Local Air Quality Action Plan. Each AQMA is recorded as a polygon, as at 31-07-2009.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "b7604054-3122-4f80-8c2f-2a43999af2e8",
+            "name": "royal-borough-of-windsor-and-maidenhead",
+            "title": "Royal Borough of Windsor and Maidenhead",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:37.846768",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "b7604054-3122-4f80-8c2f-2a43999af2e8",
+        "private": false,
+        "state": "active",
+        "theme-primary": "environment",
+        "title": "Air Quality Management Areas for Royal Borough of Windsor and Maidenhead",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.6008148169"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.5527397778"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.4415967567"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.7690429664"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2014-03-20\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "8dc2037a-5bfc-42d9-b2b7-de08e1118d46"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/b7604054-3122-4f80-8c2f-2a43999af2e8/159-AQMA.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Unknown"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-12-13"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Royal Borough of Windsor and Maidenhead"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Royal Borough of Windsor and Maidenhead (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.6008148169, 51.4415967567],[-0.6008148169, 51.5527397778], [-0.7690429664, 51.5527397778], [-0.7690429664, 51.4415967567], [-0.6008148169, 51.4415967567]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "71a0e986-b145-4e98-bece-1452a2533e60"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6f13a8e1-766d-485c-b7e6-bd0f6d76f282"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-12-19T14:32:42.377351",
+                "datafile-date": "2019-12-31",
+                "description": "information",
+                "format": "WMS",
+                "hash": "",
+                "id": "ee97efb0-28a3-4883-bc4e-9e56c5daeec9",
+                "last_modified": null,
+                "metadata_modified": "2018-12-19T14:32:42.377351",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RBWM WMS Service",
+                "package_id": "89048b91-3e57-4251-a406-60df2d232a66",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://geodata.rbwm.gov.uk/geoserver/wminspire/ows?service=WMS&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "71a0e986-b145-4e98-bece-1452a2533e60"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6f13a8e1-766d-485c-b7e6-bd0f6d76f282"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

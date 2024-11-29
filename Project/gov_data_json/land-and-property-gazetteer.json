@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "webteam@chichester.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "244808f2-807e-441e-ab99-63c9ba45fe9f",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2016-03-02T10:08:09.171193",
+        "metadata_modified": "2016-03-10T11:34:17.369871",
+        "name": "land-and-property-gazetteer",
+        "notes": "Dataset of land and property assets, where the Council has either has an ownership or occupational interest.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "86cb6d94-27be-4f99-b8b7-71899b942e39",
+            "name": "chichester-district-council",
+            "title": "Chichester District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:20.422699",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "86cb6d94-27be-4f99-b8b7-71899b942e39",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Land and Property Gazetteer",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/docs/licences/public-sector-end-user-licence-inspire.htm\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.502112"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.0505"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50.718"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.927778"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-10-14T14:15:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "af2dfa172699730f8d5f75fc7e75263896056d0e"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "cc36b61e-659e-4a5e-89c8-d93d947974c0"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.astuntechnology.com/chichester/Land%20and%20Property%20Gazetteer.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Use according to license"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-03-10"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Chichester District Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.502112, 50.718],[-0.502112, 51.0505], [-0.927778, 51.0505], [-0.927778, 50.718], [-0.502112, 50.718]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a45fd3f5-71e1-4c43-8215-649c4ce8336a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "INSPIRE data for Chichester District Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-03-02T10:08:09.276639",
+                "description": "Chichester District Council Land and Property Gazetteer",
+                "format": "WMS",
+                "hash": "",
+                "id": "542adf15-3728-4874-b67a-ee92f2d9b329",
+                "last_modified": null,
+                "metadata_modified": "2016-03-02T10:08:09.276639",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Land and Property Gazetteer",
+                "package_id": "244808f2-807e-441e-ab99-63c9ba45fe9f",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://mydistrict.chichester.gov.uk/getows.ashx?mapsource=Chichester/Inspire&version=1.1.1&request=GetCapabilities&service=WMS",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-03-10T11:34:06.121799",
+                "wms_base_urls": "http://mydistrict.chichester.gov.uk/getows.ashx"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-03-02T10:08:09.276656",
+                "description": "Chichester District Council Inspire Service Land and Property",
+                "format": "",
+                "hash": "",
+                "id": "798b5eb8-d377-4d86-b134-20cbe5c9f7ff",
+                "last_modified": null,
+                "metadata_modified": "2016-03-02T10:08:09.276656",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Land and Property Gazetteer",
+                "package_id": "244808f2-807e-441e-ab99-63c9ba45fe9f",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://mydistrict.chichester.gov.uk/getows.ashx?mapsource=Chichester/Inspire&TypeName=estates&version=1.1.0&request=GetFeature&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cc36b61e-659e-4a5e-89c8-d93d947974c0"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a45fd3f5-71e1-4c43-8215-649c4ce8336a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "INSPIRE data for Chichester District Council"
+            }
+        ]
+    }
+}

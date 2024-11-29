@@ -1,0 +1,221 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GIS@luton.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f908a7e6-c335-4714-a6d9-2848925735af",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-11-10T12:10:06.779841",
+        "metadata_modified": "2019-12-17T10:25:46.293574",
+        "name": "green-belt6",
+        "notes": "Land defined as Green Belt",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "2ecfa769-df58-4f4d-8d9f-7811cf3bb5f6",
+            "name": "luton-borough-council",
+            "title": "Luton Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:59.631441",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2ecfa769-df58-4f4d-8d9f-7811cf3bb5f6",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Green Belt",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Upon accessing this Licenced Data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE (http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html)\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.2616119345"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.0017923016"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.7814356018"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.5980682333"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2014-11-05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "b5095869-faf5-4461-914c-3a0203af3cb6"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "741fcd05-d6ca-4363-8dfb-c0c8fa411dd0"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-01-22T13:01:35"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Luton Borough Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.2616119345, 51.7814356018], [-0.5980682333, 51.7814356018], [-0.5980682333, 52.0017923016], [-0.2616119345, 52.0017923016], [-0.2616119345, 51.7814356018]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "cf729e2c-deee-4a7e-a72e-35fa9d7b35c3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Luton Borough Council INSPIRE WMS Service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-17T10:25:46.516543",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "81ebcf3a-bfe4-440f-957c-5328be312741",
+                "last_modified": null,
+                "metadata_modified": "2019-12-17T10:25:46.516543",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Luton Borough Councils WFS Service",
+                "package_id": "f908a7e6-c335-4714-a6d9-2848925735af",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://apps.luton.gov.uk/inspire/wfs.exe?REQUEST=GETCAPABILITIES&SERVICE=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-17T10:25:46.516549",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "3da7761d-c405-4d84-8fa5-70f55fbea428",
+                "last_modified": null,
+                "metadata_modified": "2019-12-17T10:25:46.516549",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Luton Borough Councils WMS Service",
+                "package_id": "f908a7e6-c335-4714-a6d9-2848925735af",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://apps.luton.gov.uk/inspire/wms.exe?REQUEST=GETCAPABILITIES&SERVICE=WMS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "greenbelt",
+                "id": "23e07502-8ea9-4c59-9b83-40953d8e255c",
+                "name": "greenbelt",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land_use",
+                "id": "126f70e7-1a3b-43d6-8d50-d3fe435b6a71",
+                "name": "land_use",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "741fcd05-d6ca-4363-8dfb-c0c8fa411dd0"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "cf729e2c-deee-4a7e-a72e-35fa9d7b35c3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Luton Borough Council INSPIRE WMS Service"
+            }
+        ]
+    }
+}

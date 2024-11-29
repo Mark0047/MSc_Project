@@ -1,0 +1,69 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "001a748c-481f-4229-92ab-c7384b2739da",
+        "frequency": "MANUAL",
+        "id": "df4279a3-e684-4cd9-bfbd-ee77eae99a2f",
+        "metadata_created": "2023-11-23T11:21:31.104980",
+        "metadata_modified": "2023-11-23T11:21:31.104986",
+        "name": "natural-england-dsp3-publication",
+        "notes": "Publication of metadata records relating to data publication onto external publication platforms.",
+        "organization": {
+            "id": "b1472b4f-b8c8-4ac2-9701-76995445f99b",
+            "name": "natural-england",
+            "title": "Natural England",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:10.959130",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b1472b4f-b8c8-4ac2-9701-76995445f99b",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "Natural England DSP3 publication",
+        "type": "harvest",
+        "url": "http://environment.data.gov.uk/discover/ne/csw",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 65,
+            "last_job": {
+                "id": "1ae0a57e-4fcd-4a7f-856b-64cbaaa66cf7",
+                "created": "2024-11-03 22:13:12.947966",
+                "gather_started": "2024-11-03 22:13:13.068027",
+                "gather_finished": "2024-11-03 22:18:49.277403",
+                "finished": "2024-11-03 22:55:39.980061",
+                "source_id": "df4279a3-e684-4cd9-bfbd-ee77eae99a2f",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 8,
+                    "not modified": 3059,
+                    "errored": 3049,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}MD_Keywords': This element is not expected.",
+                        "error_count": 3048
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}identifier': This element is not expected. Expected is one of ( {http://www.isotc211.org/2005/gmd}alternateTitle, {http://www.isotc211.org/2005/gmd}date ).\nElement '{http://www.isotc211.org/2005/gmd}MD_Keywords': This element is not expected.",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 3068
+        }
+    }
+}

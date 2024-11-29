@@ -1,0 +1,204 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "a988974d-9107-453c-937d-462cb1903455",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2018-11-07T11:12:01.162878",
+        "metadata_modified": "2021-08-04T16:54:03.264236",
+        "name": "fixed-penalty-notices-fpn",
+        "notes": "This dataset shows where fixed penalty notices have been issued by Leeds City Council.\u00a0It shows the amount of fine issued, how much was paid or whether it was cancelled.\n\nFixed Penalty Notices (FPNs) are served when offenders fail to comply with a notice that has been served, e.g. waste in gardens, fly-tipping, littering, dog fouling etc. Fines are either served on the spot or by post.\n\nColumn heading descriptions\n---------------------------\n\n*   FPN SERVED: Date when the FPN was first issued\n*   SRRECTYPE: Code for the description (below)\n*   SR TYPE DESC: Description of the Fixed Penalty Notice\n*   FPN TYPE: Code which highlights the piece of legislation which the FPN relates to (see Legislation table)\n*   TYPE DESC: Description of the piece of legislation that the FPN has been raised against (see Legislation table)\n*   WARD: Council ward where the FPN was issued\n*   PC: Postcode sector where the FPN was issued\n*   FINE_DUE: The value of the FPN (see Discounts table)\n*   FPN PAID: The actual value of the FPN paid (see Discounts table)\n*   FPN PAID DATE: Date when the FPN was paid (see Discounts table)\n*   PROSECUTION: Whether a court case has been launched as a result of non-payment\n*   FPN CANCELLED: If agreed, date when the FPN was cancelled\n\nPlease note\n-----------\n\n*   Some records use the Unique Property Reference Number (UPRN) to locate the ward. In a small number of cases this can result in the wrong ward being reported.\u00a0This only occurs in relation to Service Requests on streets where the street UPRN is located in a different ward.\u00a0This is not the case where Service Requests are made for a specific buildings.\u00a0It should be noted that the number of these cases is very small and it is felt that as there will be discrepancies across all wards, the data still provides a balanced picture.\n*   Where occurrences of fly tipping occur on land, e.g. in the middle of a field, a ward code may not be available due to the way the information has been historically recorded.\u00a0\n\nOther information\n-----------------\n\n*   **Discounts:** These are available to encourage people to pay promptly within 10 days. After this time the full amount is due, but all fines have to be paid within 14 days. On some fines no discount can be offered.\u00a0See the Discounts table for more information.\n*   **Prosecutions:\u00a0**If the fines are not paid after 14 days, a reminder letter is normally sent out (which is not a statutory requirement, but a service provided by Leeds City Council). Deferred payments for people on certain benefits who may need longer to pay the fines are also offered, but proof needs to be provided first. After a reminder is sent, if the payment is not made, a case for prosecution is then prepared and the details are passed over to the council\u2019s Legal team.\n\nAutomated dataset\n-----------------\n\n*   This dataset is automatically updated on the 1st of each month.\n*   The data contained within will periodically transfer to the historic dataset to aid uploading.",
+        "num_resources": 4,
+        "num_tags": 4,
+        "organization": {
+            "id": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+            "name": "leeds-city-council",
+            "title": "Leeds City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:43.477436",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+        "private": false,
+        "state": "active",
+        "title": "Fixed Penalty Notices (FPN)",
+        "type": "dataset",
+        "url": "https://datamillnorth.org/dataset/fixed-penalty-notices",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2017-12-18T09:51:17"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2020-11-26T16:18:01.633Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Leeds City Council"
+            },
+            {
+                "key": "guid",
+                "value": "d3d541fe-455d-4798-bb26-19352331c297"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9483a495-2563-4d44-a2ff-7ab79358c756"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "454ca6df-5da7-4c24-a2b0-2fa2ccd9a85e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Leeds"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:32:47.009202",
+                "description": "Fixed Penalty Notices",
+                "format": "HTML",
+                "hash": "",
+                "id": "7c65c559-8a9e-4f1a-bbf3-ff715580909f",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:32:47.009202",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Legislation table",
+                "package_id": "a988974d-9107-453c-937d-462cb1903455",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/fixed-penalty-notices/13a7cdbd-71e7-4bc3-9b93-cbada3d9c3e2/Legislation.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:32:47.009223",
+                "description": "Fixed Penalty Notices",
+                "format": "BIN",
+                "hash": "",
+                "id": "e2c4f0c2-1389-4e04-b02a-e466e4900fbc",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:32:47.009223",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "01/01/2012 - 31/12/2016",
+                "package_id": "a988974d-9107-453c-937d-462cb1903455",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/fixed-penalty-notices/33533b38-78e0-4aab-ab7f-371d17a06c35/FPN.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:32:47.009230",
+                "description": "Fixed Penalty Notice amounts payable",
+                "format": "CSV",
+                "hash": "",
+                "id": "e94f9fe3-89b7-4c5a-86b9-644e1958b32b",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:32:47.009230",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Discounts table",
+                "package_id": "a988974d-9107-453c-937d-462cb1903455",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/fixed-penalty-notices/993cb0a4-fb75-4833-a0a4-8748b87237b6/Discounts%2520table.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:32:47.009235",
+                "description": "Fixed Penalty Notices",
+                "format": "BIN",
+                "hash": "",
+                "id": "afec0b99-f7a5-4ac0-ae9f-dafe64d34744",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:32:47.009235",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "01/01/2017 - Present",
+                "package_id": "a988974d-9107-453c-937d-462cb1903455",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/fixed-penalty-notices/e0f3e5c5-51c8-41e9-b895-4b87de0abc3c/FPN.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Payments",
+                "id": "e3e9dc0e-9485-437c-ab9f-3a88a83dbdc7",
+                "name": "Payments",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "fixed penalty notice",
+                "id": "1e3846c2-f496-4ecd-81b3-d95bbe8358ee",
+                "name": "fixed penalty notice",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "grafitti",
+                "id": "3211f166-2509-4cbe-baed-8beb30918e3f",
+                "name": "grafitti",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "litter",
+                "id": "e038813e-3f01-41f8-81ec-902721893d60",
+                "name": "litter",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9483a495-2563-4d44-a2ff-7ab79358c756"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "454ca6df-5da7-4c24-a2b0-2fa2ccd9a85e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Leeds"
+            }
+        ]
+    }
+}

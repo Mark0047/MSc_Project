@@ -1,0 +1,490 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "123fd228-9033-4cac-afc4-4084977dd30a",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-07-30T13:13:14.601254",
+        "metadata_modified": "2024-06-14T14:45:27.912981",
+        "name": "lidar-ground-truth-surveys",
+        "notes": "The Environment Agency LIDAR Ground Truth surveys dataset is an archive of elevation points and attribute information that have been independently surveyed to verify the accuracy of the EA's LIDAR timestamped surveys. Captured by various independent surveyors, a ground truth survey is a collection of a few hundred points captured on a flat, unambiguous surface such as a tarmac car park or tennis court using GPS. Each ground truth point has an accuracy of +/-3cm R.M.S.E and contains attribute information such as the date of survey, surface type, survey method and transformation and geoidal models used. A ground truth survey may potentially be used for multiple LIDAR surveys provided it is less than 5 years old, or 3 years for coastal projects.\n\nThe LIDAR timestamped survey is compared against the ground truth survey to assess the Root Mean Square Error (R.M.S.E), standard deviation and random error of the LIDAR. All LIDAR surveys must report an error of less than +/-15cm RMSE and 10cm for standard deviation and random error to pass quality control. For the specific ground truth results for a LIDAR survey please contact us. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2015. All rights reserved.",
+        "num_resources": 12,
+        "num_tags": 8,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2019-01-01"
+        ],
+        "title": "LIDAR Ground Truth Surveys",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2019-06-12\"}, {\"type\": \"revision\", \"value\": \"2019-06-12\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "16b4d492-0c0d-410b-9732-65eebcc3d9f9"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "2c27355c-5ec3-4692-80cd-a3b85015d64d"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976500",
+                "description": "LIDAR Ground Truth Surveys Technical Note.docx download on Defra Data Services Platform",
+                "format": "DOCX",
+                "hash": "",
+                "id": "52a76cf4-d2d1-44ae-a965-aebedfc82ff6",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.918501",
+                "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "mimetype_inner": null,
+                "name": "LIDAR Ground Truth Surveys Technical Note.docx",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=8e22cfe5-4ae6-4cb3-8fc9-a041b4d0124d&fileName=LIDAR Ground Truth Surveys Technical Note.docx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976503",
+                "description": "LIDARGroundTruthSurveys-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "366a5ed2-d728-4d5a-93ff-4179173690bb",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.918596",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "LIDARGroundTruthSurveys-FGDB.zip",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=8e22cfe5-4ae6-4cb3-8fc9-a041b4d0124d&fileName=LIDARGroundTruthSurveys-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976504",
+                "description": "LIDARGroundTruthSurveys-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "756d4b34-d910-45c5-bb8f-7cdecfefa29f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.918665",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "LIDARGroundTruthSurveys-GeoJSON.zip",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=8e22cfe5-4ae6-4cb3-8fc9-a041b4d0124d&fileName=LIDARGroundTruthSurveys-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976505",
+                "description": "LIDARGroundTruthSurveys-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "feceb343-c805-4eec-ad16-9d2ffcf5cfd1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.918732",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "LIDARGroundTruthSurveys-GML.zip",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=8e22cfe5-4ae6-4cb3-8fc9-a041b4d0124d&fileName=LIDARGroundTruthSurveys-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976506",
+                "description": "LIDARGroundTruthSurveys-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "334619fc-8b1e-4063-b845-3826f1fb40b8",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.918797",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "LIDARGroundTruthSurveys-MID_MIF.zip",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=8e22cfe5-4ae6-4cb3-8fc9-a041b4d0124d&fileName=LIDARGroundTruthSurveys-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976507",
+                "description": "LIDARGroundTruthSurveys-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "609755ca-5371-4002-9355-a9b9231508d7",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.918862",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "LIDARGroundTruthSurveys-SHP.zip",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=8e22cfe5-4ae6-4cb3-8fc9-a041b4d0124d&fileName=LIDARGroundTruthSurveys-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976508",
+                "description": "LIDARGroundTruthSurveys-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "a0fb36fc-6534-4b7d-9eac-03d0b58371e0",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.918925",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "LIDARGroundTruthSurveys-TAB.zip",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=8e22cfe5-4ae6-4cb3-8fc9-a041b4d0124d&fileName=LIDARGroundTruthSurveys-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976509",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "264cb5ce-4ed1-4067-97e3-66a34e0b3315",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.918986",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey Data - Download",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/16b4d492-0c0d-410b-9732-65eebcc3d9f9?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976510",
+                "description": "LIDAR Ground Truth Surveys WMS",
+                "format": "",
+                "hash": "",
+                "id": "4904d3ba-263b-4b1b-a7d8-a2750e919f89",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.919047",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LIDAR Ground Truth Surveys WMS",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/lidar-ground-truth-surveys/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976511",
+                "description": "LIDAR Ground Truth Surveys WFS",
+                "format": "",
+                "hash": "",
+                "id": "31739361-2872-4d41-b6f1-20e13e00dde2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.919107",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LIDAR Ground Truth Surveys WFS",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/lidar-ground-truth-surveys/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976512",
+                "description": "Survey Data FAQs",
+                "format": "",
+                "hash": "",
+                "id": "880da8b1-d4fd-4f67-8435-dcdc0c7ff441",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.919168",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey Data FAQs",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://support.environment.data.gov.uk/space/DPK/15827049/Survey+Data+Catalogue",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:27.976513",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "e572ae91-07d2-45ff-b04a-5538db76afc9",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:27.919229",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "123fd228-9033-4cac-afc4-4084977dd30a",
+                "position": 11,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/lidar-ground-truth-surveys/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Elevation",
+                "id": "3daf450f-da9b-4dad-a339-66a66856defb",
+                "name": "Elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "GIS digital format",
+                "id": "ff104d23-7af4-49da-a1ed-9a8c7e1fb48c",
+                "name": "GIS digital format",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LIDAR",
+                "id": "591a7348-ac9a-4bf1-8b43-6ff3cd6e3613",
+                "name": "LIDAR",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "elevation",
+                "id": "99bac186-c0b3-4e2f-9593-649da4fff9f9",
+                "name": "elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mapping",
+                "id": "30d25a52-1974-410f-b063-19b46af2aa5e",
+                "name": "mapping",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "remote sensing",
+                "id": "a966b150-db31-4f8b-87f1-905c46d706ff",
+                "name": "remote sensing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "survey",
+                "id": "228f2437-16d2-4498-a53f-21273806fae3",
+                "name": "survey",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4fd23343-f52f-4339-a790-d17076da429d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

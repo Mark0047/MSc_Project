@@ -1,0 +1,202 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "maps@medway.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "1e700014-6287-4364-9d1e-3473860c5a44",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-05T14:30:24.624948",
+        "metadata_modified": "2022-01-21T15:45:14.378158",
+        "name": "env-outdoor-sports",
+        "notes": "Dataset contains areas identified as having facilities for sport such as football pitches, tennis courts, playing fields, etc. It does not denote authority ownership.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "e5862764-9001-4027-8c17-6a351ee790c6",
+            "name": "medway-council",
+            "title": "Medway Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-10-03T11:18:23.169630",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e5862764-9001-4027-8c17-6a351ee790c6",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "title": "ENV_OUTDOOR_SPORTS",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.743372678756714"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.5096130371094"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.3233947753906"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "0.392888575792313"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2008-12-31\"}, {\"type\": \"revision\", \"value\": \"2008-12-31\"}, {\"type\": \"publication\", \"value\": \"2015-03-05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "unknown"
+            },
+            {
+                "key": "guid",
+                "value": "3bd235e3-9cb1-4d97-8c79-a682c8898e57"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://maps.medway.gov.uk/inspire_waf/ENV_OUTDOOR_SPORTS.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-03-05"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Medway Council (distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[0.743372678756714, 51.3233947753906],[0.743372678756714, 51.5096130371094], [0.392888575792313, 51.5096130371094], [0.392888575792313, 51.3233947753906], [0.743372678756714, 51.3233947753906]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "50c83ffc-d8da-4542-b4f2-b74c52131cb7"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "653b4e6b-d4b9-46a4-ba6a-9d36f9ef374a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Medway Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-03-05T14:30:24.704694",
+                "datafile-date": "",
+                "description": null,
+                "format": "XML",
+                "hash": "",
+                "id": "6b0ec6ab-e6f0-4789-a503-973016f03901",
+                "last_modified": null,
+                "metadata_modified": "2022-01-21T15:44:57.885038",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFS Download",
+                "package_id": "1e700014-6287-4364-9d1e-3473860c5a44",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://medwaymaps.medway.gov.uk/WFS/wfs.exe?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-03-05T14:30:24.704711",
+                "datafile-date": "",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "43859054-02d0-4b95-b52a-41f40261bff8",
+                "last_modified": null,
+                "metadata_modified": "2022-01-21T15:45:14.382401",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WMS View",
+                "package_id": "1e700014-6287-4364-9d1e-3473860c5a44",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://medwaymaps.medway.gov.uk/WMS/wms.exe?",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "50c83ffc-d8da-4542-b4f2-b74c52131cb7"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "653b4e6b-d4b9-46a4-ba6a-9d36f9ef374a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Medway Council"
+            }
+        ]
+    }
+}

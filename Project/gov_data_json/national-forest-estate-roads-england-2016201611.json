@@ -1,0 +1,290 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mapping.geodata@forestry.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "c23cd1a8-240b-423c-85b6-e66115fe4974",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-06-02T16:03:39.444988",
+        "metadata_modified": "2024-05-09T06:06:47.672682",
+        "name": "national-forest-estate-roads-england-2016201611",
+        "notes": "Compiled from Forest road network data managed by Forestry Civil Engineering. The data relates to forest road Classification. \n\nForest Roads are categorised on the basis of intended usage (as listed below) rather than the specification used in their construction or upgrading. This can mean that, at a particular point in time, a Class A main road or a Class B spur road may have specification features that could limit its use. \n\nClass A - Main Roads\t\n\"\tPrincipal timber haulage route on a long-term basis.\n\"\tConstructed to high specification.\n\"\tMaintained to a high standard.\n\"\tLimiting features shown on road map.\n\"\tAll year but not all weather.\n\nClass B - Spur Roads\n\"\tUsed by timber haulage lorries for specific operations.\n\"\tFull geometric and safety standards for stated use.\n\"\tSpecification tailored to suit purpose.\n\"\tPossibility that surfacing not high quality or durable.\n\"\tLong term maintenance minimal.\n\"\tEach usage subject to individual engineering assessment.\n\"\tLimiting features noted for each particular contract.\n\nClass C - Other Roads\t\n\"\tRoads other than Main or Spur roads.\n\"\tMaintenance dependent on usage.\n\"\tNot normally used by timber haulage lorries.\n\"\tUse by timber haulage lorries subject to the same individual engineering assessment as Class B roads.\n\n\n\nAttributes;\n\nEVT_LEN       total length of classification event on road segment\nRD_REF         number prescribed by FCE to road segment\nRD_CLASS     current Forestry Civil Engineering classification type of road\nDISTRICT       Forest District in which road segment occurs\nCOUNTRY      National identifier\nRD_NAME      Local or colloquial identifier Attribution statement: Any maps produced using this data should contain the following Forestry Commission acknowledgement: \u201cContains, or is based on, information supplied by the Forestry Commission. \u00a9 Crown copyright and database right 2022 Ordnance Survey [100021242]\u201d",
+        "num_resources": 3,
+        "num_tags": 9,
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-03-31"
+        ],
+        "temporal_coverage-to": [
+            "2016-03-31"
+        ],
+        "title": "National Forest Estate Roads England 2016",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.913212"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.107638"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.55498"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.518291"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2000-04-01\"}, {\"type\": \"publication\", \"value\": \"2016-06-01\"}, {\"type\": \"revision\", \"value\": \"2016-03-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "b7bbe2fa-b5d3-47a2-81ce-aec4a286f40c"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "a5bc3003-a1d5-41fb-8eb5-2cd686f414ab"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Forestry Commission (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.913212, 49.55498], [-6.518291, 49.55498], [-6.518291, 56.107638], [2.913212, 56.107638], [2.913212, 49.55498]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-09T06:06:47.733488",
+                "description": "Forestry Commission Open Data Site",
+                "format": "",
+                "hash": "",
+                "id": "33aba74c-bbec-4387-a330-4f9ecbe35230",
+                "last_modified": null,
+                "metadata_modified": "2024-05-09T06:06:47.681100",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "c23cd1a8-240b-423c-85b6-e66115fe4974",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.forestry.gov.uk/datadownload",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-09T06:06:47.733492",
+                "description": "Forestry Commission Open Data Site",
+                "format": "",
+                "hash": "",
+                "id": "5fd62a2c-7ab5-428f-a9b3-2b2b3819333c",
+                "last_modified": null,
+                "metadata_modified": "2024-05-09T06:06:47.681212",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "c23cd1a8-240b-423c-85b6-e66115fe4974",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data-forestry.opendata.arcgis.com/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-09T06:06:47.733494",
+                "description": "Forestry Commission Open Data Site",
+                "format": "",
+                "hash": "",
+                "id": "23019121-6578-493e-acae-ef557c815e7a",
+                "last_modified": null,
+                "metadata_modified": "2024-05-09T06:06:47.681297",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "c23cd1a8-240b-423c-85b6-e66115fe4974",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://mapgateway.snh.gov.uk/ServicesWMS/FCS_National_Forest_Estate/MapServer/WMSServer?",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Forest Roads",
+                "id": "ad7f9574-2f78-436f-88d5-80adb86835c2",
+                "name": "Forest Roads",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Haulage",
+                "id": "e509798b-20cf-4cd3-88b2-cea90f1fec73",
+                "name": "Haulage",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "OpenDEFRA",
+                "id": "290f00c0-a5c0-4dc7-853b-2e23c0879579",
+                "name": "OpenDEFRA",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Roads",
+                "id": "4d7fd33b-500b-4bf9-beb3-e0cd31a27287",
+                "name": "Roads",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Transport",
+                "id": "3518fa70-3ee9-4152-b45d-5727372975e9",
+                "name": "Transport",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "classification",
+                "id": "40dc24ca-17dd-4ef8-a40b-59a4379e3464",
+                "name": "classification",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "economy",
+                "id": "d487f623-c6aa-48e4-92ce-ebe4261ed749",
+                "name": "economy",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "structure",
+                "id": "87ed4079-90b5-415f-9805-b3980401eb9e",
+                "name": "structure",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "transportation",
+                "id": "02b78b1c-d107-441b-8f53-0785b924a091",
+                "name": "transportation",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "03abf5c6-5a72-4aba-8859-3e8227699878"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ]
+    }
+}

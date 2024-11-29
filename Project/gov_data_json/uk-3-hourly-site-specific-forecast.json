@@ -1,0 +1,185 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@metoffice.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "d5eb69bb-6da9-4c5e-83bb-83526843b647",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2013-12-19T10:50:15.100018",
+        "metadata_modified": "2016-02-10T16:50:08.593952",
+        "name": "uk-3-hourly-site-specific-forecast",
+        "notes": "Site specific forecasts for over 5,000 sites in the UK, including airports, major landmarks and beaches.\n\t\t\t\t\t\n\t\t\t\t\tForecast weather data\n\t\t\t\t\t\n\t\t\t\t\tEach site has the following weather forecast data available for it in 3 hourly intervals out to 5 days:\n\t\t\t\t\tWind direction (16 point compass) \n\t\t\t\t\tWind speed (mph) \n\t\t\t\t\tScreen temperature (degrees Celsius) \n\t\t\t\t\tWeather Type (weather ID) \n\t\t\t\t\tVisibility (code) \n\t\t\t\t\tScreen relative humidity (%) \n\t\t\t\t\tWind gust (mph) \n\t\t\t\t\tFeels like temperature (degrees Celsius) \n\t\t\t\t\tUV Index (code) \n\t\t\t\t\tPrecipitation Probability (%)",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "e585ca29-681d-4298-a747-8a863ec60aec",
+            "name": "met-office",
+            "title": "Met Office",
+            "type": "organization",
+            "description": "The Met Office is the UK\u2019s national weather service. It provides weather and climate-related services to the Armed Forces, government departments, the public, civil aviation, shipping, industry, agriculture and commerce.",
+            "image_url": "",
+            "created": "2012-06-27T14:52:09.949242",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e585ca29-681d-4298-a747-8a863ec60aec",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "environment",
+        "theme-secondary": [
+            "Education"
+        ],
+        "title": "UK 3-hourly Site-Specific Forecast",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"no limitations\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "5"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "48"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-12"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2013-12-03\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "33f2811b-19fa-4f98-a3fc-6c13a2c1b112"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "5e24a2c8-1177-4c28-a0e7-0b5cc7449258"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://datapoint.metoffice.gov.uk/public/data/inspire/service/discovery/UK3HourlySiteSpecificForecast.xml"
+            },
+            {
+                "key": "last_major_modification",
+                "value": "2013-12-19T10:50:15.100018"
+            },
+            {
+                "key": "licence",
+                "value": "Fair Usage - http://www.metoffice.gov.uk/about-us/legal/fair-usage"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2013-08-30"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Met Office"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Met Office (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[5, 48],[5, 61], [-12, 61], [-12, 48], [5, 48]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG:3857"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "f14d7173-9fac-45e0-ad9f-8ef978bb267d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Met Office Inspire Discovery Service"
+            }
+        ],
+        "resources": [
+            {
+                "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T17:43:56.375367', 'cache_filepath': u'/media/hulk/ckan_resource_cache/f7/f746cd84-d63a-43af-9f76-d256147162b8/uk-3hourly-site-specific-forecast', 'last_success': '2016-02-06T17:43:56.375367', 'size': u'28088', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': None, 'hash': u'1ee72e56249b15207c2689fbf660e71ca984325f', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2016-01-26T12:00:41.573929', 'mimetype': u'text/html', 'cache_url': u'http://data.gov.uk/data/resource_cache/f7/f746cd84-d63a-43af-9f76-d256147162b8/uk-3hourly-site-specific-forecast', 'created': '2013-12-19T10:50:22.436180', 'first_failure': None}",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2013-12-19T10:50:15.338303",
+                "description": "Met Office DataPoint",
+                "format": "HTML",
+                "id": "f746cd84-d63a-43af-9f76-d256147162b8",
+                "last_modified": null,
+                "metadata_modified": "2013-12-19T10:50:15.338303",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "d5eb69bb-6da9-4c5e-83bb-83526843b647",
+                "position": 0,
+                "qa": "{'updated': '2016-02-07T11:52:30.532585', 'openness_score': 0, 'archival_timestamp': '2016-02-06T17:43:56.375367', 'format': u'HTML', 'created': '2014-05-10T08:13:33.208511', 'resource_timestamp': '2014-05-10T07:13:32.774767', 'openness_score_reason': u'Content of file appeared to be format \"HTML\" which receives openness score: 0.'}",
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://www.metoffice.gov.uk/datapoint/product/uk-3hourly-site-specific-forecast",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5e24a2c8-1177-4c28-a0e7-0b5cc7449258"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "f14d7173-9fac-45e0-ad9f-8ef978bb267d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Met Office Inspire Discovery Service"
+            }
+        ]
+    }
+}

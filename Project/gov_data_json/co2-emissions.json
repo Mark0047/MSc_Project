@@ -1,0 +1,130 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "24849e1d-7c5a-46dd-a07b-ee1e308b03fb",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2017-07-11T13:37:36.721590",
+        "metadata_modified": "2024-09-12T14:00:04.932662",
+        "name": "co2-emissions",
+        "notes": "This data shows estimates of carbon dioxide emissions within the scope of influence of local authorities, in tonnes of CO2 per Person per Year.\r\n\r\nThis government data aims to provide nationally consistent carbon dioxide emission estimates at local authority and regional level.  The data is regarded as sufficiently robust for setting baselines. On their own however, these estimates cannot give all the information needed to plan and monitor the progress of all local emissions reduction initiatives, which may require additional local monitoring.\r\n\r\nMethodology information and further data, for example CO2 sub-totals shown by sector, are available from the source weblink.  The methodology may be subject to refinement (hence estimates may be recalculated for previous years).\r\n\r\nSource: Department for Business, Energy and Industrial Strategy (DBEIS), UK local authority and regional carbon dioxide emissions national statistics.  This dataset is updated annually, usually June.\r\n",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+            "name": "lincolnshire-county-council",
+            "title": "Lincolnshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:38:51.868332",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+        "private": false,
+        "state": "active",
+        "title": "CO2 Emissions",
+        "type": "dataset",
+        "url": "https://www.gov.uk/government/collections/uk-local-authority-and-regional-carbon-dioxide-emissions-national-statistics",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-04-11T14:11:28.525741",
+                "datastore_active": true,
+                "description": "Dataset for CO2 Emissions estimates.",
+                "format": "CSV",
+                "hash": "",
+                "id": "8f3dc439-2167-49a1-97dd-5ca52f1df1e3",
+                "last_modified": "2024-08-20T13:28:35.442981",
+                "metadata_modified": "2024-09-12T14:00:04.939238",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CO2 Emissions",
+                "package_id": "24849e1d-7c5a-46dd-a07b-ee1e308b03fb",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/24849e1d-7c5a-46dd-a07b-ee1e308b03fb/resource/8f3dc439-2167-49a1-97dd-5ca52f1df1e3/download/co2emissions.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-04-11T14:12:38.056170",
+                "datastore_active": false,
+                "description": "Metadata for CO2 Emission estimates dataset.  This file contains Metadata (information about a dataset). It shows the schema for dataset fields and their contents. This file should be used along with the dataset, to aid correct interpretation of the data.\r\n\r\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "3055e89d-13fb-464f-94f0-5ed0a287ead2",
+                "last_modified": "2019-06-27T11:10:53.606970",
+                "metadata_modified": "2017-04-11T14:12:38.056170",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata",
+                "package_id": "24849e1d-7c5a-46dd-a07b-ee1e308b03fb",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/24849e1d-7c5a-46dd-a07b-ee1e308b03fb/resource/3055e89d-13fb-464f-94f0-5ed0a287ead2/download/metadata_co2emissions.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "emissions",
+                "id": "0e5ec9c4-2bdd-4269-8aac-a3ae8dddd1c3",
+                "name": "emissions",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "793acb08-a4a3-442c-92e0-f850fcc7f16b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "6724074f-254b-4da7-8c2f-4c6c8f014db9"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ]
+    }
+}

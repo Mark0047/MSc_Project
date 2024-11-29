@@ -1,0 +1,230 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "7a1c8918-7d04-4f83-9cc3-e99a25c060e8",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-06-28T12:19:34.221024",
+        "metadata_modified": "2024-01-05T11:48:55.451560",
+        "name": "fleet-utilisation",
+        "notes": "The dataset is an Excel spreadsheet of returns provided by Responsible Officers to indicate how many times each month a fleet asset is used. The period covered is April 2015 (period 1) to March 2016 (period 12). Registration numbers have been removed. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2016. All rights reserved.",
+        "num_resources": 1,
+        "num_tags": 7,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-03-08"
+        ],
+        "temporal_coverage-to": [
+            "2016-03-08"
+        ],
+        "title": "Fleet Utilisation",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2016-03-09\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "74b1d40e-8f1e-404c-a965-8f67f8d252ce"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "258f489b-3d3b-4e24-b429-72cc352ffdc7"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-01-05"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-01-05T11:48:55.504632",
+                "description": "Fleet_Utilisation.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "eff3dbf4-6b76-47d8-b13b-f6f7760d9752",
+                "last_modified": null,
+                "metadata_modified": "2024-01-05T11:48:55.456797",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Fleet_Utilisation.zip",
+                "package_id": "7a1c8918-7d04-4f83-9cc3-e99a25c060e8",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=f7f9b4a3-dbcd-4ed5-85b9-c0698fec469f&fileName=Fleet_Utilisation.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "agricultural equipment",
+                "id": "7f07c2c0-102a-4c78-880d-5b0d471d497b",
+                "name": "agricultural equipment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "commercial vehicle",
+                "id": "02ede31b-b3e5-48bd-8352-532a5bcf4f51",
+                "name": "commercial vehicle",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "construction equipment",
+                "id": "44071740-5560-4452-b544-61f69dc8d02f",
+                "name": "construction equipment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mechanical equipment",
+                "id": "2d5fd455-8222-4942-84e2-8a215c5e3d3c",
+                "name": "mechanical equipment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "plant equipment",
+                "id": "e39795c1-b380-4fe3-9cb6-f3bd17181aa6",
+                "name": "plant equipment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "resource utilisation",
+                "id": "eb35c3dc-375d-464c-9df1-64e53d6527b0",
+                "name": "resource utilisation",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "222528f1-1570-4067-b9c3-a11412c64b22"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

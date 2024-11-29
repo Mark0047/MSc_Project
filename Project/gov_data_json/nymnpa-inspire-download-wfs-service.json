@@ -1,0 +1,228 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@northyorkmoors.org.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "2b439489-2f5a-4693-9c4b-54b269d5a1e7",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2013-11-29T14:24:33.289666",
+        "metadata_modified": "2020-08-25T15:22:05.911556",
+        "name": "nymnpa-inspire-download-wfs-service",
+        "notes": "North York Moors National Park Authority INSPIRE WFS Service. Use of this data is subject to the terms at https://www.ordnancesurvey.co.uk/documents/licensing/inspire-end-user-licence.pdf or http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\n\u00a9 Crown copyright and database rights 2020 Ordnance Survey 100021930.This service replicates the individual data sets listed under www.data.gov.uk",
+        "num_resources": 1,
+        "num_tags": 7,
+        "organization": {
+            "id": "5608ab19-4e8e-4d16-b90a-f7382fd9f8d7",
+            "name": "north-york-moors-national-park-authority",
+            "title": "North York Moors National Park Authority",
+            "type": "organization",
+            "description": "North York Moors National Park Authority",
+            "image_url": "",
+            "created": "2013-01-29T13:43:16.250691",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "5608ab19-4e8e-4d16-b90a-f7382fd9f8d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "NYMNPA INSPIRE Download (WFS) Service",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.40649"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "54.67896"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.08569"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-1.3403300000000002"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"href\": [\"https://locationmde.data.gov.uk/metadata-harvesting/5608ab19-4e8e-4d16-b90a-f7382fd9f8d7/\"], \"uuid\": [], \"title\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2018-12-12\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "97c38a44-e002-4184-b210-0802507760e8"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "99ac35b9-ae88-49bc-a64c-d21872d75f03"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-08-19T16:04:13"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "North York Moors National Park Authority"
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "North York Moors National Park Authority (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.40649, 54.08569], [-1.3403300000000002, 54.08569], [-1.3403300000000002, 54.67896], [-0.40649, 54.67896], [-0.40649, 54.08569]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "download"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "41206885-4784-421d-8b17-73bf3dabb41b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-25T15:22:06.212193",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "fbaa865d-c282-449b-ac07-da347650f513",
+                "last_modified": null,
+                "metadata_modified": "2020-08-25T15:22:06.212193",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "North York Moors National Park Authority INSPIRE Download Service",
+                "package_id": "2b439489-2f5a-4693-9c4b-54b269d5a1e7",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.northyorkmoors.org.uk/geoserver/nymnpa_inspire/ows?service=WFS&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Built Environment",
+                "id": "d64baee4-170d-4269-afb0-cf9c432df238",
+                "name": "Built Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Car parks",
+                "id": "dace1c74-9e2c-4150-b2a9-a0cfa181d4ca",
+                "name": "Car parks",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Conservation areas",
+                "id": "176e8ada-d7ca-4c15-ac25-5b39f5fa7d6f",
+                "name": "Conservation areas",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Environment",
+                "id": "db7de4be-adbc-4ab6-9cec-d555c287d2d7",
+                "name": "Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land and Premises",
+                "id": "68d79ce3-eef8-49c1-9c3a-d553d6a150b1",
+                "name": "Land and Premises",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Local Development Plans",
+                "id": "c5113e08-b878-408c-b4a8-1a82aa803823",
+                "name": "Local Development Plans",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "infoMapAccessService",
+                "id": "061d2dbc-d2e4-429c-a613-e101834e6f73",
+                "name": "infoMapAccessService",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "99ac35b9-ae88-49bc-a64c-d21872d75f03"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "41206885-4784-421d-8b17-73bf3dabb41b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

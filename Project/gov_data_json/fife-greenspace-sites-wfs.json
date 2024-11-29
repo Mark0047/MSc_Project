@@ -1,0 +1,184 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "corporate.gis@fife.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "bda76c40-3124-4699-a8ff-333dbf595444",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2016-01-06T03:25:59.298135",
+        "metadata_modified": "2020-07-23T12:41:05.481763",
+        "name": "fife-greenspace-sites-wfs",
+        "notes": "WFS Service provides download capabilities for details of the location and description of Greenspace Sites in Fife",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Fife Greenspace Sites (WFS)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.415218528"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.523058044"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "55.870418744"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.9039416880000006"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"href\": [\"http://scotgovsdi.edina.ac.uk/srv/en/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=7a1bbc72-252c-4cd0-beca-ad3180875524\"], \"uuid\": [\"eec82f52-20be-42f7-bb1c-9fb8292ce0ee\"], \"title\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2016-01-05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "8b434ccf-e758-46ed-8aca-f5ee31cf5f02"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "26e41bc3-b9d1-4df0-8416-2dd463356913"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Fife Council has created the supplied data using Ordnance Survey data. The following attribution statement is required to acknowledge the source of information as \\\"Copyright Fife Council, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year)\\u201d.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-07-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Fife Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.415218528, 55.870418744], [-3.9039416880000006, 55.870418744], [-3.9039416880000006, 56.523058044], [-2.415218528, 56.523058044], [-2.415218528, 55.870418744]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "download"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-23T12:41:05.743198",
+                "description": "WFS: feature extract",
+                "format": "",
+                "hash": "",
+                "id": "0d9d9e86-7d09-469c-bd62-863ca790cd27",
+                "last_modified": null,
+                "metadata_modified": "2020-07-23T12:41:05.743198",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fife Greenspace Sites WFS",
+                "package_id": "bda76c40-3124-4699-a8ff-333dbf595444",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:GREENSPACE_SITES&maxFeatures=100&outputFormat=GML2",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "greenspace",
+                "id": "a9388514-353e-4167-97c7-4ca7110caf5b",
+                "name": "greenspace",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "26e41bc3-b9d1-4df0-8416-2dd463356913"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

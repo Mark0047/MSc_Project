@@ -1,0 +1,135 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "0ba9dfe2-d9ee-4b08-91e6-5ab576381c25",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-07-23T13:41:10.732890",
+        "metadata_modified": "2024-11-17T13:02:02.644677",
+        "name": "population-projections-latest-gla-set",
+        "notes": "The current set of GLA Population (borough and ward population only at present) being used to plan Camden services. \nUpdated annually. \nFurther information email population@camden.gov.uk",
+        "num_resources": 1,
+        "num_tags": 5,
+        "organization": {
+            "id": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+            "name": "london-borough-of-camden",
+            "title": "London Borough of Camden",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:32.040042",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+        "private": false,
+        "state": "active",
+        "title": "Population Projections (latest GLA Set)",
+        "type": "dataset",
+        "url": "https://opendata.camden.gov.uk/d/mnm7-vqke",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2015-06-18"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2023-07-13"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "opendata.camden.gov.uk"
+            },
+            {
+                "key": "guid",
+                "value": "https://opendata.camden.gov.uk/api/views/mnm7-vqke"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-06-02T12:02:42.728885",
+                "description": null,
+                "format": "XLS",
+                "hash": "",
+                "id": "d8c5919f-cbb6-4d36-8213-e95eb408e9e5",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:34:01.050771",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "0ba9dfe2-d9ee-4b08-91e6-5ab576381c25",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/download/mnm7-vqke/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "age",
+                "id": "981e058c-cfbf-4803-b669-3887405e9f08",
+                "name": "age",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "forecasts",
+                "id": "753036ed-0e24-441f-a93a-fd456e93482e",
+                "name": "forecasts",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "population",
+                "id": "40739b84-20b5-415f-87f6-7ab11b26d2b3",
+                "name": "population",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "projections",
+                "id": "454d87b1-17f5-4946-b46f-3486055d03d8",
+                "name": "projections",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "sex",
+                "id": "c1142114-0301-4937-97dd-fa3c965f1756",
+                "name": "sex",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "747bc77f-91b0-455e-b914-2fdb030d20b4"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8a82ef54-e704-498c-b662-141c854a4b5d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Camden Open Data"
+            }
+        ]
+    }
+}

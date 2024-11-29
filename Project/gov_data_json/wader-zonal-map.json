@@ -1,0 +1,258 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mapping.geodata@forestry.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "4b2e1d67-6453-49ee-8e39-3261b6e78096",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-02-17T22:59:24.492030",
+        "metadata_modified": "2024-06-12T22:08:23.355610",
+        "name": "wader-zonal-map",
+        "notes": "The Wader Zonal Map \u2013 a.k.a. Wader Sensitivity Map (WSM) and Breeding Wader Sensitivity Map \u2013 was produced by the British Trust for Ornithology (BTO) in partnership with the Forestry Commission and the Cairngorm National Park Authority. This layer shows the predicted relative abundance of ten species of breeding wader for each 1km square of England, Scotland and Wales. Predicted relative abundances are categorised into five strata identified by numbers under the two-letter code in the attribute table. The two-letter codes are: [cu] \u2013 Curlew [l] \u2013 Lapwing [rk] \u2013 Redshank [sn] \u2013 Snipe [oc] \u2013 Oystercatcher [gp] \u2013 Golden Plover [dn] \u2013 Dunlin [cs] \u2013 Common Sandpiper [rp] \u2013 Ringed Plover [gk] \u2013 Greenshank. Predictions were derived using statistical models (random forest regression tree) with bird data taken from the BTO/SOC/BWI Bird Atlas (which covered the period 2008 \u2013 11) and a range of environmental data sets, including climate (temperature and precipitation), topography (elevation and slope), habitat, wind farms and roads and predation risk. While overall the predictive models performed well as assessed by correlation with empirical data, it must be emphasised that these are predictions which will not be accurate in all cases. Full details of the models, sources of data and fuller discussion of the predictive capabilities and limitations of the models are found in the associated report, O\u2019Connell et al. 2021. This report (https://www.bto.org/our-science/publications/research-reports/sensitivity-mapping-breeding-waders-britain-towards) should be referred to when using this data. Additional attribute fields: [ONEKMREF] = the OS monad reference. [Cntry] = the GB country into which the 1km grid square falls \u2013 where a grid square is cross-border this is coded as such. Coding: 1 \u2013 England, 2- Scotland, 3 \u2013 Wales, 4 \u2013 England and Scotland, 5 \u2013 England and Wales. Attribution statement: Contains OS data \u00a9 Crown copyright [and database right] [year].",
+        "num_resources": 1,
+        "num_tags": 11,
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2021-11-03"
+        ],
+        "temporal_coverage-to": [
+            "2021-11-03"
+        ],
+        "title": "Wader Zonal Map",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.879883"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.031992"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.51848"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.545898"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2021-11-03\"}, {\"type\": \"revision\", \"value\": \"2021-11-03\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "unknown"
+            },
+            {
+                "key": "guid",
+                "value": "ae6714c3-1e9d-42bd-a8d3-1c9d545d6de5"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "40fc2a59-8fd3-4efc-9ae9-50f0e69a439c"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Contains Forestry Commission information licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Forestry Commission (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.879883, 49.51848], [-8.545898, 49.51848], [-8.545898, 61.031992], [2.879883, 61.031992], [2.879883, 49.51848]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-12T22:08:23.411754",
+                "description": "Forestry Commission Open Data Site",
+                "format": "",
+                "hash": "",
+                "id": "5431f368-fb23-4fd1-ac92-80a71653e727",
+                "last_modified": null,
+                "metadata_modified": "2024-06-12T22:08:23.359624",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Wader Zonal Map",
+                "package_id": "4b2e1d67-6453-49ee-8e39-3261b6e78096",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data-forestry.opendata.arcgis.com/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Birds",
+                "id": "6c551c2a-d5db-43a7-9e07-1292bca97548",
+                "name": "Birds",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "GB",
+                "id": "93d9fe64-c630-4aa4-bcd2-97f71e06ae13",
+                "name": "GB",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Habitats and biotopes",
+                "id": "a6591241-3108-42a5-b540-46a56883592e",
+                "name": "Habitats and biotopes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Species distribution",
+                "id": "0eed55a5-d9d8-4bcd-aa03-9a84030d9fbf",
+                "name": "Species distribution",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Woodland",
+                "id": "44ddd46e-49a2-4264-8ba4-3a401dd74e1f",
+                "name": "Woodland",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "bird species",
+                "id": "6ea01f5b-431a-4feb-acd0-10b52be10562",
+                "name": "bird species",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "breeding bird",
+                "id": "19f74647-04fa-4900-9d28-2f435d2332ec",
+                "name": "breeding bird",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "forestry",
+                "id": "ca41d85e-789b-410e-8c3f-d3c6fa3411d9",
+                "name": "forestry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "species",
+                "id": "2ea805f6-09bb-4b2e-a749-9be8938a23a1",
+                "name": "species",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wildlife protection",
+                "id": "98151a99-b83f-4e80-a14f-7a03045e1631",
+                "name": "wildlife protection",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c1a6c679-e0a5-44ee-ba50-205394abced7"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ]
+    }
+}

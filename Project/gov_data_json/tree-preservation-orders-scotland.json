@@ -1,0 +1,228 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "spatialhub@improvementservice.org.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "58ead064-8273-4a1a-a0da-d10f6c3942f3",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-07-31T20:01:39.719788",
+        "metadata_modified": "2024-09-05T16:14:57.198246",
+        "name": "tree-preservation-orders-scotland",
+        "notes": "Whilst TPOs are a legal requirement they may not always be digitised accurately. Users of this data should not assume this data is totally accurate and should consult the specific local authority for more detail before making any decisions\n\nA TPO is made by the Local Authority, under Section 160 of the Town and Country Planning (Scotland) Act 1997, and within the procedures set out in the Town and Country Planning (Tree Preservation Order and Trees in Conservation Areas) (Scotland) Regulations 2010. They are made to protect individual trees, groups of trees or woodlands which have particular amenity value, make a significant contribution to the landscape or townscape or because there may be a potential threat to the trees. In deciding which trees qualify to become protected the local authority must ensure that the trees contribute to the amenity and attractiveness of an area and be under threat in some way. Either individual specimens or groups can be protected in a single Order. More information and guidance on Tree Preservation orders and Trees in conservation can be found in Planning Circular 1/2011. Which provides an overview of the TPO procedures, explaining how the requirements from the Act and Regulations fit together. \n\nSome local authorities capture polygons of tree preservation areas. Others will identify actual trees as point TPOs. Several LAs capture both. We have initially created two separate layers - point and polygon, to represent TPOs. This may show duplication where a point falls within a polygon. We may adapt this rationale and methodology in due course as we know that there is a discrepancy with Registers of Scotland's TPO data.",
+        "num_resources": 2,
+        "num_tags": 4,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Tree Preservation Orders - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on public access\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.3225"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.7478"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.3811"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.0298"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2024-07-19\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "830f9a83-ae6b-4260-a82a-24c4851f7119"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c79e3040-c513-471b-8bac-f307c3d425ac"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-19T09:15:50.19Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Improvement Service (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.3225, 54.3811], [-8.0298, 54.3811], [-8.0298, 60.7478], [0.3225, 60.7478], [0.3225, 54.3811]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-05T16:14:57.235716",
+                "description": "A link to the CKAN metadata record on the Spatial Hub.  A direct link to the OGC Web Feature Service and Web Map Service is available here.",
+                "format": "",
+                "hash": "",
+                "id": "611ad5a4-3cad-4739-a237-ca8da1919667",
+                "last_modified": null,
+                "metadata_modified": "2024-09-05T16:14:57.203805",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Tree Preservation Orders - Scotland",
+                "package_id": "58ead064-8273-4a1a-a0da-d10f6c3942f3",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.spatialhub.scot/dataset/tree_preservation_orders-is",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-05T16:14:57.235719",
+                "description": "EDINA Digimap Service",
+                "format": "",
+                "hash": "",
+                "id": "95f37c42-8445-4d15-81a5-1fce40373965",
+                "last_modified": null,
+                "metadata_modified": "2024-09-05T16:14:57.203886",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "EDINA Digimap Service",
+                "package_id": "58ead064-8273-4a1a-a0da-d10f6c3942f3",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.spatialdata.gov.scot:443/geonetwork/srv/api/records/830f9a83-ae6b-4260-a82a-24c4851f7119/formatters/xml",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Area management/restriction/regulation zones and r",
+                "id": "85a96129-b6e5-46e1-8dd8-75fd5990e434",
+                "name": "Area management/restriction/regulation zones and r",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land cover",
+                "id": "6373de4c-8199-4a06-ab55-8c60c9a1c3f2",
+                "name": "Land cover",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "bda9be45-e9b2-434b-a7e3-c439b3576ae8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "inspire@broxtowe.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "0febe35b-c99c-4c2a-a0ff-775242e462be",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-05-29T07:40:05.677441",
+        "metadata_modified": "2018-01-25T14:24:00.140571",
+        "name": "local-plan-2004-existing-allotments",
+        "notes": "Allotments as shown on the 2004 Broxtowe Borough Council Local Plan",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "c04e176a-f808-4e3d-a702-0bcdedf38bbb",
+            "name": "broxtowe-borough-council",
+            "title": "Broxtowe Borough Council",
+            "type": "organization",
+            "description": "http://www.broxtowe.gov.uk/\r\n",
+            "image_url": "",
+            "created": "2013-11-04T10:36:45.104729",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c04e176a-f808-4e3d-a702-0bcdedf38bbb",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2003-06-26"
+        ],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Local Plan 2004 Existing Allotments",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Copyright Intellectual property rights License\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.192549"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.018293"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.909693"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-1.313158"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2013-11-27\"}, {\"type\": \"creation\", \"value\": \"2003-06-26\"}, {\"type\": \"revision\", \"value\": \"2003-06-26\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "{1aaa7960-7011-4edf-ad38-d48d30150003}"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9674d826-acc8-46a5-8a73-2352048ed069"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://data.broxtowe.gov.uk/LPExistingAllotments.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Subject to the Ordnance Survey Public Sector Mapping Agreement INSPIRE Licence"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-01-25"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Broxtowe Borough Council (custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.192549, 52.909693],[-1.192549, 53.018293], [-1.313158, 53.018293], [-1.313158, 52.909693], [-1.192549, 52.909693]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "bc9e6c13-a312-4db1-8d14-9f897877621c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Broxtowe Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-01-15T13:34:09.802969",
+                "description": "Resource locator",
+                "format": "WMS",
+                "hash": "",
+                "id": "03615109-74a1-43ce-83a2-443e64f54aa3",
+                "last_modified": null,
+                "metadata_modified": "2018-01-15T13:34:09.802969",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Web Mapping Service (WMS)",
+                "package_id": "0febe35b-c99c-4c2a-a0ff-775242e462be",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://maps.broxtowe.gov.uk/arcgis/services/INSPIRE/Broxtowe_INSPIRE/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-01-15T13:34:09.802992",
+                "description": "download",
+                "format": "",
+                "hash": "",
+                "id": "3818ff96-da28-4338-b44e-2752563bb11f",
+                "last_modified": null,
+                "metadata_modified": "2018-01-15T13:34:09.802992",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Web Feature Service (WFS)",
+                "package_id": "0febe35b-c99c-4c2a-a0ff-775242e462be",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://maps.broxtowe.gov.uk/arcgis/services/INSPIRE/Broxtowe_INSPIRE/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9674d826-acc8-46a5-8a73-2352048ed069"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "bc9e6c13-a312-4db1-8d14-9f897877621c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Broxtowe Data"
+            }
+        ]
+    }
+}

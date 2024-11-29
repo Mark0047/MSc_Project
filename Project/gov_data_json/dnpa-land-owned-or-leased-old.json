@@ -1,0 +1,143 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "gi@dartmoor.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "5a869bae-d00e-4142-a179-0f5bc2f38a92",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2013-11-28T16:10:09.956977",
+        "metadata_modified": "2020-02-13T15:36:38.520823",
+        "name": "dnpa-land-owned-or-leased-old",
+        "notes": "The Code of Recommended Practice for Local Authorities on Data Transparency requires all Local Authorities to publish \"The location of public land and building assets\" on their websites. The requirement was introduced in September 2011 by DCLG. This layer contains exact copies of parts of dataset 151 (LANDOWN) but only those land parcels where DNPA either own or lease land. For further information on Land Owned by other bodies and major land owners consult dataset 151(LANDOWN) . Where a boundary descrepancy occurs we have adopted the boundaries as shown by the Land Registry. This layer is available on our website in the publication schema area.",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "8011259e-de10-49e4-a010-169eb93d703c",
+            "name": "dartmoor-national-park-authority",
+            "title": "Dartmoor National Park Authority",
+            "type": "organization",
+            "description": "Dartmoor National Park Authority is a special purpose local authority created under the Environment Act 1995. The Authority is a freestanding local authority employing around 105 staff and is governed by 22 appointed Members. Prior to 1995 the National Park was administered as a committee of Devon County Council",
+            "image_url": "",
+            "created": "2013-10-30T12:27:05.209316",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8011259e-de10-49e4-a010-169eb93d703c",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "",
+        "title": "DNPA Land Owned or Leased",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-02-13T14:48:16.779962",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "73594ad9-b6ba-460f-8093-c246ec3142ad",
+                "last_modified": null,
+                "metadata_modified": "2020-02-13T14:48:16.779962",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DNPA Web Map",
+                "package_id": "5a869bae-d00e-4142-a179-0f5bc2f38a92",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.dartmoor.gov.uk/about-us/about-us-maps/land-owned-or-leased-by-dnpa-map",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-02-13T14:48:16.779969",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "f0d51fd0-5a92-4653-8092-4ce82b8a9641",
+                "last_modified": null,
+                "metadata_modified": "2020-02-13T14:48:16.779969",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DNPA Download CSV Format",
+                "package_id": "5a869bae-d00e-4142-a179-0f5bc2f38a92",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.dartmoor.gov.uk/geoserver/general/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=general:dnpa_owned_leased&outputFormat=csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Land",
+                "id": "1ef9aeed-c044-4c9d-bbd6-79d941b19209",
+                "name": "Land",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Ownership",
+                "id": "e4be7afc-86e7-4f50-82b0-9d66d34b9d26",
+                "name": "Ownership",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "fa0a6d70-7095-4d15-a4e8-d4600bfdd82c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6e189889-fc73-4583-9cbc-d970ca1fa08e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "fa0a6d70-7095-4d15-a4e8-d4600bfdd82c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6e189889-fc73-4583-9cbc-d970ca1fa08e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

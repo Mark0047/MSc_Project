@@ -1,0 +1,106 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "20cb3791-3a0e-4582-8981-58ebafe82619",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "c8fdf6fe-9558-44ac-b2cd-5fcb4391f24c",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-10-02T08:42:41.903781",
+        "metadata_modified": "2016-10-02T08:42:44.558345",
+        "name": "organogram-sir-john-soanes-museum",
+        "notes": "Organogram (organisation chart) showing all staff roles. Names and salaries are also listed for the Senior Civil Servants.\r\n\r\nOrganogram data is released by all central government departments and their agencies since 2010. Snapshots for 31st March and 30th September are published by 6th June and 6th December each year. The published data is validated and released in CSV format and OGL-licensed for reuse. For more information about this series, see: http://guidance.data.gov.uk/organogram-data.html",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "df009a00-36ee-4eb9-8e4f-1bff097a8ffb",
+            "name": "sir-john-soanes-museum",
+            "title": "Sir John Soane's Museum",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2016-02-23T21:33:53.518388",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "df009a00-36ee-4eb9-8e4f-1bff097a8ffb",
+        "private": false,
+        "schema-vocabulary": "d3c0b23f-6979-45e4-88ed-d2ab59b005d0",
+        "state": "active",
+        "temporal_coverage-from": 2010,
+        "theme-primary": "government-spending",
+        "title": "Organogram of Staff Roles & Salaries",
+        "type": "dataset",
+        "update_frequency": "biannually",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "date",
+                "value": "30/09/2011"
+            },
+            {
+                "key": "import_source",
+                "value": "organograms_v2"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-02T09:42:42.929380",
+                "date": "2011-09-30",
+                "description": "Organogram - Junior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "a3705a59-35bc-45ad-b9b8-cdb0bb8734eb",
+                "last_modified": null,
+                "metadata_modified": "2016-10-02T09:42:42.929380",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "c8fdf6fe-9558-44ac-b2cd-5fcb4391f24c",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/sir-john-soanes-museum/30/09/2011/sir_john_soanes_museum-2011-09-30-organogram-junior.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-02T09:42:43.731099",
+                "date": "2011-09-30",
+                "description": "Organogram - Senior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "de1880ee-a76b-431a-9c6a-cdff3eb9ca75",
+                "last_modified": null,
+                "metadata_modified": "2016-10-02T09:42:43.731099",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "c8fdf6fe-9558-44ac-b2cd-5fcb4391f24c",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/sir-john-soanes-museum/30/09/2011/sir_john_soanes_museum-2011-09-30-organogram-senior.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

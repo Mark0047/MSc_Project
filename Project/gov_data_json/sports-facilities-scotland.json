@@ -1,0 +1,213 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "spatialhub@improvementservice.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "f13873a2-e78c-4f2b-a1af-cfb8f9895330",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-08-29T09:10:53.424607",
+        "metadata_modified": "2024-08-29T09:10:53.424611",
+        "name": "sports-facilities-scotland",
+        "notes": "This dataset contains multiple themed layers of different types of sporting facilities across Scotland. The facilities are represented as point locations, which have been captured against Google Maps (along with attributes and details about them). Where there are multiple sports facilities at the same location there will be multiple points, meaning that calculations of total numbers of facilities can be calculated easily.\n\nWhere there were missing coordinates for some facilities, manual lookups of appropriate coordinates have been made. Also, a judgement has been made to delete some provided facilities where they appear to no longer exist (for whatever reason).\n\nProvided layers are:\n\nAthletics Tracks (incl velodromes, training areas, indoor and outdoor)\n\nBowling Greens (incl croquet, petanque and cricket squares)\n\nFitness Suites\n\nGolf Courses\n\nIce Rinks (incl curling rinks)\n\nPitches (incl size, sport and type)\n\nSports Halls (incl gyms and other types)\n\nSquash Court\n\nSwimming Pools (incl diving and other types)\n\nIndoor Tennis Courts\n\nOutdoor Tennis Courts\n\nPlease note that the information provided is provided by third parties and therefore we cannot guarantee its accuracy, but it is the most up to date information we hold. \n \nAs part of our work to keep this data up to date, we would kindly request that if you identify any issues, you share this with sportscotland at facilities@sportscotland.org.uk",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Sports Facilities - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on public access\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.3225"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.7478"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.3811"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.0298"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2024-07-26\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "6571a242-7345-4e2f-88d7-97f99046dc0d"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ea487c13-6b5f-43ec-8120-56811c6b737f"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-30T11:54:17.584Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Improvement Service (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.3225, 54.3811], [-8.0298, 54.3811], [-8.0298, 60.7478], [0.3225, 60.7478], [0.3225, 54.3811]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:10:53.432093",
+                "description": "EDINA Digimap Service",
+                "format": "",
+                "hash": "",
+                "id": "a4f191ed-8b91-4a92-998b-023ff3afe609",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:10:53.418797",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "EDINA Digimap Service",
+                "package_id": "f13873a2-e78c-4f2b-a1af-cfb8f9895330",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.spatialdata.gov.scot:443/geonetwork/srv/api/records/6571a242-7345-4e2f-88d7-97f99046dc0d/formatters/xml",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:10:53.432096",
+                "description": "A link to the CKAN metadata record on the Spatial Hub. A direct link to the OGC Web Feature Service and Web Map Service is available here.",
+                "format": "",
+                "hash": "",
+                "id": "8e730908-3932-43b7-b49c-7b78a93f8858",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:10:53.418889",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Sports Facilities - Scotland",
+                "package_id": "f13873a2-e78c-4f2b-a1af-cfb8f9895330",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.spatialhub.scot/dataset/sports_facilities-unknown",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Human health and safety",
+                "id": "48a55d2f-b77f-4193-a882-9371e30705a1",
+                "name": "Human health and safety",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Sport",
+                "id": "4f724e14-07df-4575-9ed5-0ded870db897",
+                "name": "Sport",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "ea487c13-6b5f-43ec-8120-56811c6b737f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

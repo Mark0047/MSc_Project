@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "7a5d02ca-c2ad-44eb-ba8d-d0c7c92bb6fa",
+        "frequency": "MANUAL",
+        "id": "fa340fc8-4e72-4e50-bd8c-cf8dfd507c07",
+        "metadata_created": "2021-03-10T15:36:06.940477",
+        "metadata_modified": "2021-03-10T15:36:06.940484",
+        "name": "north-lincolnshire-council",
+        "notes": "",
+        "organization": {
+            "id": "911b5bc7-c532-48b2-92cd-2781edcdc5c7",
+            "name": "north-lincolnshire-council",
+            "title": "North Lincolnshire Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-06-20T11:38:42.903646",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "911b5bc7-c532-48b2-92cd-2781edcdc5c7",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "North Lincolnshire Council",
+        "type": "harvest",
+        "url": "http://metadata.astuntechnology.com/geonetwork/northlincs-gov-uk/eng/csw-inspire",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1,
+            "last_job": {
+                "id": "6c3e32a8-16c9-42ce-b582-d91d5a6feb1f",
+                "created": "2021-03-10 15:36:18.751646",
+                "gather_started": "2021-03-26 06:06:31.261181",
+                "gather_finished": "2021-03-26 06:06:37.773633",
+                "finished": "2021-03-11 03:40:03.640888",
+                "source_id": "fa340fc8-4e72-4e50-bd8c-cf8dfd507c07",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 55,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Job timeout: 6c3e32a8-16c9-42ce-b582-d91d5a6feb1f is taking longer than 720 minutes",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

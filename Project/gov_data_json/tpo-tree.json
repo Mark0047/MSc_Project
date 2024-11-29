@@ -1,0 +1,128 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "gis@reigate-banstead.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "823de3d5-074f-4ef9-a8b6-439f778a6846",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "cc-by",
+        "license_title": "Creative Commons Attribution",
+        "license_url": "http://www.opendefinition.org/licenses/cc-by",
+        "metadata_created": "2015-04-22T09:43:19.545193",
+        "metadata_modified": "2024-02-01T13:42:00.008144",
+        "name": "tpo-tree",
+        "notes": "Tree Preservation Orders (Individual Trees) for Reigate and Banstead Borough Council.\r\n\r\nPlease note that this dataset is automatically updated on a frequent basis and has been refreshed after the date listed as \"Last Updated\".",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "e7c8bd35-15f3-4569-818f-973e1dd3a9a2",
+            "name": "reigate-and-banstead-borough-council",
+            "title": "Reigate and Banstead Borough Council",
+            "type": "organization",
+            "description": "Lower tier local authority in Surrey, England.",
+            "image_url": "",
+            "created": "2014-11-03T23:02:52.702818",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e7c8bd35-15f3-4569-818f-973e1dd3a9a2",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "environment",
+        "title": "TPO Trees",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "cd377518-71a6-4536-abb1-5310a35a4e5e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6c61c75c-8342-4cf8-84e7-de27c4a68eae"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "INSPIRE data for Reigate and Banstead Borough Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-04-24T10:32:40.472578",
+                "datafile-date": "",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "c816f7ec-0e7b-4e6c-b94c-30da7d25d4f1",
+                "last_modified": null,
+                "metadata_modified": "2023-04-28T11:18:12.564379",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "View Data",
+                "package_id": "823de3d5-074f-4ef9-a8b6-439f778a6846",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.reigate-banstead.gov.uk/getows.ashx?mapsource=RBBC/Inspire&version=1.1.1&request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-04-24T10:32:40.472596",
+                "datafile-date": "",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "6651e675-5146-49e2-9ab3-eb7c8826ddd3",
+                "last_modified": null,
+                "metadata_modified": "2024-02-01T13:42:00.013079",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download Data",
+                "package_id": "823de3d5-074f-4ef9-a8b6-439f778a6846",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.reigate-banstead.gov.uk/getows.ashx?mapsource=RBBC/Inspire&version=1.1.0&request=GetFeature&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cd377518-71a6-4536-abb1-5310a35a4e5e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6c61c75c-8342-4cf8-84e7-de27c4a68eae"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "INSPIRE data for Reigate and Banstead Borough Council"
+            }
+        ]
+    }
+}

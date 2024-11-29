@@ -1,0 +1,202 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@oldham.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "fbf557b6-0419-458b-8176-0b258923ac46",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-11-09T14:20:52.816456",
+        "metadata_modified": "2019-12-23T14:01:24.108984",
+        "name": "fire-stations",
+        "notes": "The locations of all fire stations in Oldham.\n\nThis dataset is currently under review and its accuracy is subject to the review.\n\nUpon accessing this Licensed Data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "1ba74267-09be-4402-98e4-d68d7231452a",
+            "name": "oldham-council",
+            "title": "Oldham Council",
+            "type": "organization",
+            "description": "Data publication from Oldham Council, for more information on the council, visit http://www.oldham.gov.uk/\r\n\r\n(Oldham Metropolitan Borough Council)",
+            "image_url": "",
+            "created": "2014-06-05T15:18:55.992749",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1ba74267-09be-4402-98e4-d68d7231452a",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "title": "Fire Stations",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Public Sector End User Licence \\u2013 INSPIRE\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.909621"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.624244"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.491139"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.185922"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2010-12-24\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "bc877d21-b7bf-44b3-aca7-5d2f8b6a263c"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/1ba74267-09be-4402-98e4-d68d7231452a/137-Fire_Station.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Upon accessing this Licensed Data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE."
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-11-09"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Oldham Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.909621, 53.491139],[-1.909621, 53.624244], [-2.185922, 53.624244], [-2.185922, 53.491139], [-1.909621, 53.491139]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "6eda8353-6796-4715-bdf2-9efa45a11b30"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "d633e710-d58e-485b-a413-033149a369f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-09T14:20:52.906260",
+                "datafile-date": "",
+                "description": "information",
+                "format": "WMS",
+                "hash": "",
+                "id": "9ec935ba-07b7-41eb-90d6-db31f8da1a0c",
+                "last_modified": null,
+                "metadata_modified": "2015-11-09T14:20:52.906260",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Oldham Metropolitan Borough Council WMS Service",
+                "package_id": "fbf557b6-0419-458b-8176-0b258923ac46",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://maps.oldham.gov.uk/wms/wms.exe?request=getcapabilities&service=wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-09T14:20:52.906281",
+                "datafile-date": "",
+                "description": "download",
+                "format": "WFS",
+                "hash": "",
+                "id": "79be4689-8dd1-42e0-9adb-89168a864f1d",
+                "last_modified": null,
+                "metadata_modified": "2015-11-09T14:20:52.906281",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Oldham Metropolitan Borough Council WFS Service",
+                "package_id": "fbf557b6-0419-458b-8176-0b258923ac46",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://maps.oldham.gov.uk/wfs/wfs.exe?request=getcapabilities&service=wfs",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "6eda8353-6796-4715-bdf2-9efa45a11b30"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "d633e710-d58e-485b-a413-033149a369f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

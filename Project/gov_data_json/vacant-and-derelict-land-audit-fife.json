@@ -1,0 +1,248 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "corporate.gis@fife.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "aeae162b-0910-4f92-9939-492123e45251",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-02-10T10:35:30.287022",
+        "metadata_modified": "2021-02-03T06:36:13.866543",
+        "name": "vacant-and-derelict-land-audit-fife",
+        "notes": "Dataset provides details of the location and description of vacant and or derelict land. This is previously developed land that is available for redevelopment. There  would normally be a physical constraint caused by its previous use that hampers its redevelopment or naturalisation.",
+        "num_resources": 3,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005"
+        ],
+        "temporal_coverage-to": [
+            "2020"
+        ],
+        "title": "Vacant and Derelict Land Audit - Fife",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Fife Council has created the Supplied Data using Ordnance Survey data, and publishes it to fulfil its obligations under the INSPIRE Regulations 2009. The use of the Supplied Data is governed by the provisions the Ordnance Survey Public Sector End User Licence - INSPIRE. This End User Licence will take effect, and will be deemed to have been accepted by you upon accessing or using the Supplied Data. Full details of End User Licence: http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.43565229"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.5465285"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "55.93622256"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.9420143500000004"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2012-08-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "0cce8073-0993-436a-b5d4-cf3b629b2e9d"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d0c11ad0-3d0f-4f86-903d-8c70f339f700"
+            },
+            {
+                "key": "licence",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-02-02"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Fife Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.43565229, 55.93622256], [-3.9420143500000004, 55.93622256], [-3.9420143500000004, 56.5465285], [-2.43565229, 56.5465285], [-2.43565229, 55.93622256]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-03T06:36:14.180567",
+                "description": "Fife WMS: For all datasets published",
+                "format": "",
+                "hash": "",
+                "id": "bb546c5f-316e-43da-9faa-a1bfe4dd3fb8",
+                "last_modified": null,
+                "metadata_modified": "2021-02-03T06:36:14.180567",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fife WMS",
+                "package_id": "aeae162b-0910-4f92-9939-492123e45251",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/wms?version=1.1.0&request=Getcapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-03T06:36:14.180573",
+                "description": "WFS Feature Extract:Vacant and Derelict Land Audit",
+                "format": "",
+                "hash": "",
+                "id": "42c19ea4-3dae-4885-9c6a-ef93a53900bf",
+                "last_modified": null,
+                "metadata_modified": "2021-02-03T06:36:14.180573",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Vacant and Derelict Land Audit WFS",
+                "package_id": "aeae162b-0910-4f92-9939-492123e45251",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:VACANT_AND_DERELICT_LAND&maxFeatures=1000000&outputFormat=GML2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-03T06:36:14.180575",
+                "description": "ESRI Shapefile Dowload:Vacant and Derelict Land Audit",
+                "format": "",
+                "hash": "",
+                "id": "983472e5-3e02-40ab-adbd-e786412be4cc",
+                "last_modified": null,
+                "metadata_modified": "2021-02-03T06:36:14.180575",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Vacant and Derelict Land Audit ESRI Shapefile",
+                "package_id": "aeae162b-0910-4f92-9939-492123e45251",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:VACANT_AND_DERELICT_LAND&outputformat=SHAPE-ZIP",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "derelict land",
+                "id": "0e6cbb75-ee8f-47f5-ba60-6e0ef7f38e25",
+                "name": "derelict land",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "development",
+                "id": "78e5fcbf-e9dc-4a44-b5d8-bb557233f951",
+                "name": "development",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "vacant land",
+                "id": "b804192d-e835-4ead-ab29-ef2f911dba37",
+                "name": "vacant land",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d0c11ad0-3d0f-4f86-903d-8c70f339f700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": null,
+        "date_released": "2011-01-31",
+        "date_update_future": "",
+        "date_updated": "2011-02-28",
+        "geographic_coverage": "100000: England",
+        "geographic_granularity": "local authority",
+        "id": "a413396b-fdf6-4478-9dd6-53ce80a3fa98",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2011-02-28T16:18:45.736248",
+        "metadata_modified": "2014-05-10T04:08:44.538390",
+        "name": "northyorks-transparency_january_2011",
+        "notes": "North Yorkshire County Council Transparency Figures - Expenditure over \u00a3500 - January 2011",
+        "num_resources": 2,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "North Yorkshire County Council Transparency Figures - Expenditure over \u00a3500",
+            "created_at": "2014-10-30T11:35:55Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/17387/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/17387/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "b37eb7e6-9a1a-4fbc-94e5-2d899818b990",
+            "name": "north-yorkshire-county-council",
+            "title": "North Yorkshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:45.764017",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b37eb7e6-9a1a-4fbc-94e5-2d899818b990",
+        "precision": "\u00a3 to two decimal places",
+        "private": false,
+        "schema-vocabulary": "[\"8e4fd0b6-ba36-4d06-a807-554a7c9fe679\"]",
+        "state": "active",
+        "temporal_coverage-from": "2011-01-01",
+        "temporal_coverage-to": "2011-01-31",
+        "temporal_granularity": "day",
+        "theme-primary": "government-spending",
+        "title": "North Yorkshire County Council Transparency Figures - Expenditure over \u00a3500",
+        "type": "dataset",
+        "update_frequency": "monthly",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "last_major_modification",
+                "value": "2014-03-03T05:59:14.848963"
+            },
+            {
+                "key": "national_statistic",
+                "value": "no"
+            },
+            {
+                "key": "taxonomy_url",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "NYCC January 2011 Transparency",
+                "format": "CSV",
+                "id": "3401f67e-fad3-495a-9036-4e0c1268a5e6",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": "",
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "a413396b-fdf6-4478-9dd6-53ce80a3fa98",
+                "position": 0,
+                "resource_type": null,
+                "size": 0,
+                "state": "active",
+                "url": "http://www.northyorks.gov.uk/CHttpHandler.ashx?service=WFS&request=GetCapabilities&version=2.0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "NYCC January 2011 Transparency",
+                "format": "PDF",
+                "id": "dd162732-5915-4bbe-93e6-7af68771db7d",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "a413396b-fdf6-4478-9dd6-53ce80a3fa98",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.northyorks.gov.uk/CHttpHandler.ashx?id=12039&p=0",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "507e4199-b039-473e-a750-79731942427d",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-12-11T21:30:11.452344",
+        "metadata_modified": "2017-11-11T13:30:20.905881",
+        "name": "assets-of-community-value1",
+        "notes": "The Community Right to Bid for Assets of Community Value allows voluntary and community organisations to nominate an asset which they consider has benefits for social well-being and social interests. \r\nIf the owner of a listed asset wants to sell, they must contact the council, who in turn will notify the nominating community group. The community then has an opportunity to bid for the property/land within the first six months of the property going on sale.\r\nThe right came into force on the 21 September 2012 under the Localism Act 2011 and will give community and voluntary bodies the opportunity to nominate, bid and take over the running of assets that are considered of value to the local community.\r\n \r\nWhat is an asset of community value?\r\nAn asset must be a building or land\r\nA building or land is of community value if the local authority decides that:\r\nthe current (non-ancillary) use of the building furthers the social well-being or social interests of the local community,\r\nand\r\n\r\nit is realistic to think that there can continue to be non-ancillary use that will further the social well-being or social interests of the local community\r\n\r\nThere are two resources listed one for the approved list and one for applications that were refused.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "d65220a4-e84c-4aa1-beab-0ed4f8c9adfe",
+            "name": "barrow-borough-council",
+            "title": "Barrow Borough Council",
+            "type": "organization",
+            "description": "(Barrow-in-Furness Borough Council)",
+            "image_url": "",
+            "created": "2012-06-27T14:54:32.292178",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d65220a4-e84c-4aa1-beab-0ed4f8c9adfe",
+        "private": false,
+        "state": "active",
+        "theme-primary": "society",
+        "theme-secondary": [
+            "Health"
+        ],
+        "title": "Assets of Community Value",
+        "type": "dataset",
+        "url": "http://www.barrowbc.gov.uk",
+        "version": "",
+        "extras": [
+            {
+                "key": "guid",
+                "value": "507e4199-b039-473e-a750-79731942427d"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "41bcbf13-e97b-4187-bb69-5fdd6f9e6a97"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-11-07"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://data.barrowbc.gov.uk\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2017-11-07T08:52:29.035341\", \"harvest_source_title\": \"Barrow Borough Council CKAN\", \"activity_occurred\": \"2017-11-11T13:30:20.852054\", \"activity\": \"harvest\", \"harvested_guid\": \"507e4199-b039-473e-a750-79731942427d\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "815dfd76-a72b-406c-9c75-6bcd5c603679"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Barrow Borough Council CKAN"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-12-09T10:59:07.914681",
+                "description": "Current Refused Applications to be on the Assets of Community Value Register",
+                "format": "CSV",
+                "hash": "",
+                "id": "24e5249d-1a8a-4350-a084-8aa3dcf33bac",
+                "last_modified": "2015-12-09T11:02:15.430277",
+                "metadata_modified": "2015-12-09T10:59:07.914681",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Current Refused Applications",
+                "package_id": "507e4199-b039-473e-a750-79731942427d",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.barrowbc.gov.uk/dataset/507e4199-b039-473e-a750-79731942427d/resource/24e5249d-1a8a-4350-a084-8aa3dcf33bac/download/assets-of-community-value-register-refused.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-11-07T08:52:29.078299",
+                "description": "Current Approved Registrations on the Assets of Community Value Register",
+                "format": "CSV",
+                "hash": "",
+                "id": "06b18d7b-e828-46a4-bab1-37ded1b20af3",
+                "last_modified": "2017-11-07T08:52:29.016627",
+                "metadata_modified": "2017-11-07T08:52:29.078299",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Current Approved Registrations",
+                "package_id": "507e4199-b039-473e-a750-79731942427d",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.barrowbc.gov.uk/dataset/507e4199-b039-473e-a750-79731942427d/resource/06b18d7b-e828-46a4-bab1-37ded1b20af3/download/assets-of-community-value-register-approved.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "41bcbf13-e97b-4187-bb69-5fdd6f9e6a97"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "815dfd76-a72b-406c-9c75-6bcd5c603679"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Barrow Borough Council CKAN"
+            }
+        ]
+    }
+}

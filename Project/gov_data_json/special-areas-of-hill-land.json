@@ -1,0 +1,260 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "1ce8b0e4-4bd5-4099-96d1-b887962d21cd",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2013-12-11T09:41:35.924396",
+        "metadata_modified": "2024-06-19T11:19:43.419064",
+        "name": "special-areas-of-hill-land",
+        "notes": "Identified by the Scottish Government, these boundaries relate to specially designated areas for hill farming.",
+        "num_resources": 4,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Special Areas of Hill Land",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year)\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"1998-01-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "unknown"
+            },
+            {
+                "key": "guid",
+                "value": "bd311c01-f795-40b8-a67a-cb8210bc727b"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ec3e96d0-3876-4dca-b3f9-38aeb8588255"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-01-14T13:16:16"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:43.452946",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "74f1eaa9-8b34-4eae-af2b-446c7a8bd6a6",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:43.425876",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SpecialAreasofHillLand",
+                "package_id": "1ce8b0e4-4bd5-4099-96d1-b887962d21cd",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/AgricultureEnvironment/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:43.452948",
+                "description": "OGC Download Service",
+                "format": "",
+                "hash": "",
+                "id": "8b633d4b-2d55-4203-be3b-d0b9b072b5ca",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:43.425968",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "AE:SpecialAreasofHillLand",
+                "package_id": "1ce8b0e4-4bd5-4099-96d1-b887962d21cd",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/AgricultureEnvironment/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:43.452949",
+                "description": "ESRI REST Service",
+                "format": "",
+                "hash": "",
+                "id": "495cac08-36d2-43bd-9270-6f74178f5431",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:43.426064",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Special Areas of Hill Land",
+                "package_id": "1ce8b0e4-4bd5-4099-96d1-b887962d21cd",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/rest/services/ScotGov/AgricultureEnvironment/MapServer/7",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:43.452950",
+                "description": "ESRI Shapefile Download",
+                "format": "ZIP",
+                "hash": "",
+                "id": "8274fba0-9669-4655-8cc4-6333154dd8d5",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:43.426136",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Special Areas of Hill Land",
+                "package_id": "1ce8b0e4-4bd5-4099-96d1-b887962d21cd",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/ATOM/shapefiles/SG_SpecialAreasofHillLand_1998.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Agricultural land",
+                "id": "4df73428-6a32-43fa-a53c-4df601005071",
+                "name": "Agricultural land",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land cover",
+                "id": "6373de4c-8199-4a06-ab55-8c60c9a1c3f2",
+                "name": "Land cover",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "1a5a07c9-429a-4659-b106-54b96ee317df"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

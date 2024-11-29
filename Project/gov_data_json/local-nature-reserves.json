@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@stockport.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "94faf1f7-c239-46d4-bbbf-00adc6054251",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-11T09:41:01.474776",
+        "metadata_modified": "2016-04-29T09:56:38.478446",
+        "name": "local-nature-reserves",
+        "notes": "Local Nature Reserves in Stockport",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "dca4cafe-88b8-4758-a470-ae6b32437efd",
+            "name": "stockport-metropolitan-borough-council",
+            "title": "Stockport Metropolitan Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:58:16.588164",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "dca4cafe-88b8-4758-a470-ae6b32437efd",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "environment",
+        "theme-secondary": [],
+        "title": "Local Nature Reserves",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/docs/licences/public-sector-end-user-licence-inspire.htm\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.03015"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.4399"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.3629"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.24173"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-02-26T10:38:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "547ddda9a0d52f35616b0ba11be538104db063f4"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "cac3c34e-5ab4-4a69-a063-e3d60b46410c"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.astuntechnology.com/stockport/Local%20Nature%20Reserves.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "use in accordance with OS licence"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-29"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Stockport Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-2.03015, 53.3629],[-2.03015, 53.4399], [-2.24173, 53.4399], [-2.24173, 53.3629], [-2.03015, 53.3629]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c0c0bc58-259b-4993-92fc-6ba83fca9f4c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stockport Metropolitan Borough Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-04-29T10:56:38.546808",
+                "description": "Local Nature Reserves",
+                "format": "WMS",
+                "hash": "",
+                "id": "575f118e-b356-4bf9-9111-d4dd36562a4c",
+                "last_modified": null,
+                "metadata_modified": "2016-04-29T10:56:38.546808",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "local_nature_reserves",
+                "package_id": "94faf1f7-c239-46d4-bbbf-00adc6054251",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx?mapsource=smbc/stockport_inspire&version=1.1.1&request=GetCapabilities&service=WMS",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-04-29T10:56:37.525502",
+                "wms_base_urls": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-29T10:56:38.546822",
+                "description": "Local Nature Reserves",
+                "format": "",
+                "hash": "",
+                "id": "02212cba-ca52-4b46-b73e-bbc7feec297d",
+                "last_modified": null,
+                "metadata_modified": "2016-04-29T10:56:38.546822",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "local_nature_reserves",
+                "package_id": "94faf1f7-c239-46d4-bbbf-00adc6054251",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx?mapsource=smbc/stockport_inspire&TypeName=local_nature_reserves&version=1.1.0&request=GetFeature&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cac3c34e-5ab4-4a69-a063-e3d60b46410c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c0c0bc58-259b-4993-92fc-6ba83fca9f4c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stockport Metropolitan Borough Council"
+            }
+        ]
+    }
+}

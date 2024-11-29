@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mikeroberts-urb@sthelens.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "7c26f354-1a56-4341-931b-e5e5bae26aec",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-12-01T10:54:16.278650",
+        "metadata_modified": "2024-04-29T15:43:35.164925",
+        "name": "sites-of-special-scientific-interest3",
+        "notes": "Polygon data showing the location of each SSSI within the St Helens MBC boundary. The data is admimistered by Natural England and the table is updated when notification of change is received from Natural England. The table fields include unique reference and name fields.",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+            "name": "st-helens-council",
+            "title": "St Helens Council",
+            "type": "organization",
+            "description": "(St Helens Metropolitan Borough Council)",
+            "image_url": "",
+            "created": "2012-06-27T14:50:48.582845",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2000-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2000-01-01"
+        ],
+        "title": "Sites of Special Scientific Interest",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations apply\", \"Use according to license\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.5758473272260085"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.47119894137234"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.45311388643231"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.705753405904824"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2000-01-01\"}, {\"type\": \"revision\", \"value\": \"2021-07-18T15:03:06\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "bd0e413b6f1d544bf7bbea01286408f056c170ccc4db0197949dc06be685d91b"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7def1fe0-e0a3-445c-adac-781b29738fa2"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-04-02T13:43:36"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "onGoing"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "St Helens MBC (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.5758473272260085, 53.45311388643231], [-2.705753405904824, 53.45311388643231], [-2.705753405904824, 53.47119894137234], [-2.5758473272260085, 53.47119894137234], [-2.5758473272260085, 53.45311388643231]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96423a5d-c812-4893-9e69-a565d00f87c0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "St Helens Council INSPIRE Metadata CSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-29T15:43:35.197842",
+                "description": "Site of Special Scientific Interest",
+                "format": "",
+                "hash": "",
+                "id": "248b9eaf-b340-4581-8178-a489c74c5e3a",
+                "last_modified": null,
+                "metadata_modified": "2024-04-29T15:43:35.170569",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Site_of_Special_Scientific_Interest",
+                "package_id": "7c26f354-1a56-4341-931b-e5e5bae26aec",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.sthelens.gov.uk/getows.ashx?MAPSOURCE=mapsources/inspire&service=WMS&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-29T15:43:35.197845",
+                "description": "Site of Special Scientific Interest",
+                "format": "",
+                "hash": "",
+                "id": "719572d7-666d-4be9-a5d5-00efb3a79937",
+                "last_modified": null,
+                "metadata_modified": "2024-04-29T15:43:35.170675",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": ":Site_of_Special_Scientific_Interest",
+                "package_id": "7c26f354-1a56-4341-931b-e5e5bae26aec",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.sthelens.gov.uk/getows.ashx?mapsource=mapsources/inspire&version=1.1.0&service=WFS&request=GetFeature&TypeName=Site_of_Special_Scientific_Interest",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Location",
+                "id": "34de5497-97a6-4765-afb0-010add38f5d7",
+                "name": "Location",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e4060305-23c8-462a-addc-5b9d0162d3dd"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96423a5d-c812-4893-9e69-a565d00f87c0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "St Helens Council INSPIRE Metadata CSW"
+            }
+        ]
+    }
+}

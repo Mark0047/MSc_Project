@@ -1,0 +1,163 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "17136b47-d5b4-4df7-9e88-b9653b34a060",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-03-23T09:17:45.653952",
+        "metadata_modified": "2017-04-27T10:23:10.499723",
+        "name": "crime-rates-in-the-metropolitan-police-area-by-ward",
+        "notes": "Crime Rates of offences per thousand population, by broad crime grouping, by financial year for wards. Offences: These are confirmed reports of crimes being committed. All data relates to \"notifiable offences\" - which are designated categories of crimes that all police forces in England and Wales are required to report to the Home Office. Ward data should not be aggregated to give a borough or London total. This is because a small percentage (less than 5%) of crimes in this dataset have not been geocoded to a ward. Therefore total numbers and rates are indicative only, and are not an exact measure at ward level. The rate is calculated using ward GLA 2012-based (SHLAA) population projections, and population data calculated and constrained to 2012 Borough (SHLAA) projections. The London figure only includes the Met Police area, not the City of London. The London total includes all offences in the Met Police Area including those that could not be geocoded. Therefore the London total will not equal the sum of the wards. Some ward boundaries changed in 2014. From 2013/14 the data shown is for the new boundaries. This only affects Hackney, Kensington and Chelsea, and Tower Hamlets. From 2013/14, the numbers and rates for 2013 ward boundaries in Hackney, K&C and Tower Hamlets, have all been modelled based on the proportion of population living in each area at the 2011 Census. Action Fraud have taken over the recording of fraud offences on behalf of individual police forces. This process began in April 2011 and was rolled out to all police forces by March 2013. Due to this change caution should be applied when comparing data over this transitional period and with earlier years. Data by detailed crime group and month are available from the MPS website .",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "theme-primary": "crime-and-justice",
+        "theme-secondary": [],
+        "title": "Crime Rates in the Metropolitan Police area by Ward",
+        "type": "dataset",
+        "url": "http://data.london.gov.uk/dataset/crime-rates-metropolitan-police-area-ward",
+        "version": null,
+        "extras": [
+            {
+                "key": "data_issued",
+                "value": "2014-09-15T14:42:00.000Z"
+            },
+            {
+                "key": "data_modified",
+                "value": "2015-05-07T11:44:56.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "d8b55b8c-1778-4744-9fd4-89fc28c07cbe"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c52ec644-0f68-494a-8fa1-812f2e5cd6b8"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.london.gov.uk/data.json?slug=gla\", \"harvest_source_type\": \"data_json\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"London Datastore - GLA\", \"activity_occurred\": \"2017-04-27T10:23:10.427479\", \"activity\": \"harvest\", \"harvested_guid\": \"d8b55b8c-1778-4744-9fd4-89fc28c07cbe\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:17:45.821250",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "d7c49822-65f5-47ed-9a4f-461a2c420342",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:17:45.821250",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "met-police-recorded-offences-rates-ward_Rates.csv",
+                "package_id": "17136b47-d5b4-4df7-9e88-b9653b34a060",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://files.datapress.com/london/dataset/crime-rates-metropolitan-police-area-ward/met-police-recorded-offences-rates-ward_Rates.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:17:45.821271",
+                "description": "",
+                "format": "XLS",
+                "hash": "",
+                "id": "fa419945-4d00-4e40-ac1d-c7ff6bd5f793",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:17:45.821271",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "met-police-recorded-offences-rates-ward.xls",
+                "package_id": "17136b47-d5b4-4df7-9e88-b9653b34a060",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://files.datapress.com/london/dataset/crime-rates-metropolitan-police-area-ward/2015-09-23T14:41:55/met-police-recorded-offences-rates-ward.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:17:45.821277",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "8f73ad30-0acd-4f1f-8e15-7ccd7a8ecf81",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:17:45.821277",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "met-police-recorded-offences-rates-ward_Numbers.csv",
+                "package_id": "17136b47-d5b4-4df7-9e88-b9653b34a060",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://files.datapress.com/london/dataset/crime-rates-metropolitan-police-area-ward/met-police-recorded-offences-rates-ward_Numbers.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:17:45.821283",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "8b302424-9d0e-4a54-b5c8-5552ad2e4192",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:17:45.821283",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landing page",
+                "package_id": "17136b47-d5b4-4df7-9e88-b9653b34a060",
+                "position": 3,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://data.london.gov.uk/dataset/crime-rates-metropolitan-police-area-ward",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

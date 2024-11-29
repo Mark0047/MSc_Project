@@ -1,0 +1,182 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "not available",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "a22ced6f-2e5c-481c-a11a-f0f62a298c75",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-12-09T17:16:42.614560",
+        "metadata_modified": "2024-11-17T14:28:13.986274",
+        "name": "leading-linear-growth-rates-for-steady-uniform-morphodynamic-overland-flows-at-different-froude",
+        "notes": "Shallow overland flows in steady state can become unstable and break up into destructive surges. The following data documents maximum growth rates for disturbances to uniform steady flows on a fixed slope in a one-dimensional shallow-layer model that incorporates the mechanics of erosion and deposition of monodisperse sediment, documented in sections 2 and 4 of the following freely available preprint: https://arxiv.org/abs/2007.15989. The data comprises the following 4 columns, separated by spaces: grain diameter, Froude number, solid fraction and maximum growth rate. Grain diameter refers to the characteristic diameter of erodible particles, non-dimensionalised by the steady flow depth h0. Froude number, Fr, is a dimensionless constant defined as Fr = u0 / sqrt(h0 * g'), where u0 is the velocity of the steady flow and g' is gravitational acceleration resolved perpendicular to the slope. Solid fraction is a number between 0 and 1 that describes the proportion of solid particles in the flowing mixture. A solid fraction of 0 denotes a purely fluid flow and a solid fraction of 1 denotes a saturated mixture containing a maximum packing of solid particles. Maximum growth rate refers to the largest linear growth rate for perturbations to a uniform flowing layer with the corresponding properties given in the prior 3 columns. The model formulation describes the dynamics of 4 unknown observables: flow height, flow velocity, solids concentration and bed height. By taking the 'maximum' in this case, we mean the maximum over these 4 flow fields that may be perturbed by an environmental disturbance and also the maximum over all possible wavelengths of disturbance. We note that in this dataset, flows with a maximum growth rate equal to zero or small positive values (e.g. up to machine precision) are stable; flows with strictly positive growth rate are unstable. Zero growth rate indicates that the maximum growth rate is given by a neutrally stable perturbation and such perturbations always exist for reasons of symmetry in the model. For each grain diameter and Froude number in the dataset, there exist two steady uniform states with different solid fractions. Therefore two files are supplied - one containing data for the more dilute states and the other containing data for the more concentrated states. These various technical details, as well as full documentation of the model and the parameters used are explained more fully in the aforementioned paper.",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+            "name": "british-geological-survey",
+            "title": "British Geological Survey (BGS)",
+            "type": "organization",
+            "description": "A world-leading geoscience centre for survey and monitoring; modelling and research; data and knowledge.\r\n\r\nhttps://www.bgs.ac.uk/home.html\r\n\r\n",
+            "image_url": "2020-08-17-104120.024946BGS-Logo-Pos-RGB-01.png",
+            "created": "2012-06-27T14:50:32.295517",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2020-12-01"
+        ],
+        "temporal_coverage-to": [
+            "2020-12-01"
+        ],
+        "title": "Leading linear growth rates for steady uniform morphodynamic overland flows at different Froude numbers and grain diameters (NERC Grant NE/S00274X/1)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The copyright of materials derived from the British Geological Survey's work is vested in the Natural Environment Research Council [NERC]. No part of this work may be reproduced or transmitted in any form or by any means, or stored in a retrieval system of any nature, without the prior permission of the copyright holder, via the BGS Intellectual Property Rights Manager. Use by customers of information provided by the BGS, is at the customer's own risk. In view of the disparate sources of information at BGS's disposal, including such material donated to BGS, that BGS accepts in good faith as being accurate, the Natural Environment Research Council (NERC) gives no warranty, expressed or implied, as to the quality or accuracy of the information supplied, or to the information's suitability for any use. NERC/BGS accepts no liability whatever in respect of loss, damage, injury or other occurence however caused.\", \"Available under the Open Government Licence subject to the following acknowledgement accompanying the reproduced NERC materials \\\"Contains NERC materials \\u00a9NERC [year]\\\"\"]"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2020-12-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notApplicable"
+            },
+            {
+                "key": "guid",
+                "value": "b5a2f6e0-6bb2-5684-e054-002128a47908"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "99f9dc80-0600-4de4-8bee-255db6d368e3"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-16"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "nonGeographicDataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "University of Bristol (principalInvestigator, originator); British Geological Survey (distributor, pointOfContact)"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:28:14.016845",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "e979918b-3723-41eb-a5a6-8d7c437c1a78",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:28:13.990991",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Data",
+                "package_id": "a22ced6f-2e5c-481c-a11a-f0f62a298c75",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://webapps.bgs.ac.uk/services/ngdc/accessions/index.html#item139765",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Fluid dynamics",
+                "id": "a97b7015-fc9e-4b52-9ff9-78a38b647ad5",
+                "name": "Fluid dynamics",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NERC_DDC",
+                "id": "d24aa95c-95ee-4ccd-92c6-c26cc7a202b6",
+                "name": "NERC_DDC",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NGDC Deposited Data",
+                "id": "6dfb920f-6bcf-4028-a66e-a47bdc8547a6",
+                "name": "NGDC Deposited Data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "acdf2aab-072d-47c6-ad34-4f3a57248eb3"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ]
+    }
+}

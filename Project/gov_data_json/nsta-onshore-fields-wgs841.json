@@ -1,0 +1,287 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "59498b51-7663-43a2-9f40-bb8516efe855",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-12-14T11:08:58.065639",
+        "metadata_modified": "2024-11-16T10:03:11.247037",
+        "name": "nsta-onshore-fields-wgs841",
+        "notes": "Onshore field outlines as provided by the operators at the&nbsp;point of field determination or re-determination&nbsp;",
+        "num_resources": 8,
+        "num_tags": 4,
+        "organization": {
+            "id": "34f903d4-91d8-4571-be4f-79362d39fba7",
+            "name": "north-sea-transition-authority",
+            "title": "North Sea Transition Authority",
+            "type": "organization",
+            "description": "We regulate and influence the oil and gas, offshore hydrogen, and carbon storage industries. We help drive North Sea energy transition, realising the significant potential of the UK Continental Shelf as a critical energy and carbon abatement resource. We hold industry to account on halving upstream emissions by 2030.",
+            "image_url": "",
+            "created": "2016-10-05T17:02:18.742739",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "34f903d4-91d8-4571-be4f-79362d39fba7",
+        "private": false,
+        "state": "active",
+        "title": "NSTA Onshore Fields (WGS84)",
+        "type": "dataset",
+        "url": "https://opendata-nstauthority.hub.arcgis.com/datasets/NSTAUTHORITY::nsta-onshore-fields-wgs84",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2016-07-14T09:29:36.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-11-16T06:25:13.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Oil and Gas Authority"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=4880739cfb114a35b86c9bdcfe1b8237&sublayer=0"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "291656b1-ba00-49ec-b207-7ca15b255c5a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "60366fe9-e095-400a-bdd1-262083d3d5ca"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "NSTA Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T07:04:22.315197",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "ab221fa5-55b0-4dd3-bf2d-b77e3f625df9",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T07:04:22.278012",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "59498b51-7663-43a2-9f40-bb8516efe855",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/datasets/NSTAUTHORITY::nsta-onshore-fields-wgs84",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-12-14T11:08:58.070802",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "b07b30ea-9986-4258-812d-52d60574fd70",
+                "last_modified": null,
+                "metadata_modified": "2023-12-14T11:08:58.053614",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "59498b51-7663-43a2-9f40-bb8516efe855",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.nstauthority.co.uk/arcgis/rest/services/Public_WGS84/ENG_Onshore_Fields_WGS84/MapServer/0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T07:04:22.315199",
+                "description": null,
+                "format": "OGC WFS",
+                "hash": "",
+                "id": "e8875cd3-7f8d-4b2c-b3e9-303093aebe68",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T07:04:22.278149",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WFS",
+                "package_id": "59498b51-7663-43a2-9f40-bb8516efe855",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.nstauthority.co.uk/arcgis/services/Public_WGS84/ENG_Onshore_Fields_WGS84/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T07:04:22.315200",
+                "description": null,
+                "format": "OGC WMS",
+                "hash": "",
+                "id": "ef17317c-887a-4038-8bd5-cacecdd36e96",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T07:04:22.278209",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WMS",
+                "package_id": "59498b51-7663-43a2-9f40-bb8516efe855",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.nstauthority.co.uk/arcgis/services/Public_WGS84/ENG_Onshore_Fields_WGS84/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:09:25.605011",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "209ef4bd-36a2-4715-986e-e6ebe408473b",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:09:25.567642",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "59498b51-7663-43a2-9f40-bb8516efe855",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/4880739cfb114a35b86c9bdcfe1b8237/csv?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:09:25.605018",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "3b1bf664-1263-47ae-9a85-2a70e31dcac6",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:09:25.567737",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "59498b51-7663-43a2-9f40-bb8516efe855",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/4880739cfb114a35b86c9bdcfe1b8237/geojson?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:09:25.605019",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "a7822e9f-a441-40f9-a3de-d36fc3a431fa",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:09:25.567816",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "59498b51-7663-43a2-9f40-bb8516efe855",
+                "position": 6,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/4880739cfb114a35b86c9bdcfe1b8237/shapefile?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:09:25.605021",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "e39bd050-ee12-4d96-b842-4c850da53e58",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:09:25.567894",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "59498b51-7663-43a2-9f40-bb8516efe855",
+                "position": 7,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/4880739cfb114a35b86c9bdcfe1b8237/kml?layers=0",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Fields",
+                "id": "72c2bc2a-9cde-4907-81fd-0eae444f5560",
+                "name": "Fields",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NSTA",
+                "id": "0fbb247b-6334-45e0-9b58-27dec05d5cbb",
+                "name": "NSTA",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Onshore Oil and Gas",
+                "id": "7439c2e6-3c34-4314-b231-d83990b1ba13",
+                "name": "Onshore Oil and Gas",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "WGS84",
+                "id": "49c570ac-2866-4ecc-820e-435178e1e7d1",
+                "name": "WGS84",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "291656b1-ba00-49ec-b207-7ca15b255c5a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "60366fe9-e095-400a-bdd1-262083d3d5ca"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "NSTA Open Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "customerservices@os.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "2dfb82b4-741a-4b93-807e-11abb4bb0875",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-06-03T12:23:18.743318",
+        "metadata_modified": "2024-10-18T17:00:54.580499",
+        "name": "os-postcodes-data1",
+        "notes": "The United Kingdom's (England, Scotland, Wales, Northern Ireland) postcodes represented as points and polygons. This data is often used for service delivery and statistical analysis. OS Postcodes Data is made available in a number of Ordnance Survey Products: Codepoint (point geometry), Codepoint Open (point geometry) and Codepoint with Polygons (polygon geometry). The postcode is sourced from Royal Mail. The polygon geometry is calculated using address geometry provided by Local Authority Land and Property Gazetteer custodians as a base.",
+        "num_resources": 3,
+        "num_tags": 7,
+        "organization": {
+            "id": "776f0897-ded1-411a-88c6-e8687ccf3875",
+            "name": "ordnance-survey",
+            "title": "Ordnance Survey",
+            "type": "organization",
+            "description": "Ordnance Survey is Great Britain\u2019s national mapping agency. It carries out the official surveying of GB, providing the most accurate and up-to-date geographic data, relied on by government, business and individuals.\r\n\r\nOS is a government owned company, accountable to Department for Business, Innovation & Skills\r\n\r\nhttps://os.uk/\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:53:10.634259",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "776f0897-ded1-411a-88c6-e8687ccf3875",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2021-03-01"
+        ],
+        "title": "OS Postcodes Data",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.86"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.86"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.45"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2021-04-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "28179b87-559b-49de-9fe7-d628c4779271"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b317685a-20aa-47be-ad1e-59d346bb4c0f"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-10-02T15:05:19"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Ordnance Survey"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Ordnance Survey (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.86], [-8.45, 49.86], [-8.45, 60.86], [1.78, 60.86], [1.78, 49.86]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:54.632156",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "d67f6525-8557-4eec-8011-238de0909547",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:54.586583",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Code-Point",
+                "package_id": "2dfb82b4-741a-4b93-807e-11abb4bb0875",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.ordnancesurvey.co.uk/products/code-point",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:54.632158",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "20349cc4-b677-4e93-97a1-900944c6b9df",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:54.586659",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Code-Point Open",
+                "package_id": "2dfb82b4-741a-4b93-807e-11abb4bb0875",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://osdatahub.os.uk/downloads/open/CodePointOpen",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:54.632159",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "198c4d8b-f989-4aa7-b091-44ceaf1b7ee7",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:54.586719",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Code-Point with Polygons",
+                "package_id": "2dfb82b4-741a-4b93-807e-11abb4bb0875",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.ordnancesurvey.co.uk/products/code-point-polygons",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Codepoint",
+                "id": "4b2e4704-1318-4c2b-8a90-4a7aef256f7f",
+                "name": "Codepoint",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Codepoint Open",
+                "id": "f18613d6-8384-4973-a35d-95ab2572b66f",
+                "name": "Codepoint Open",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Codepoint with Polygons",
+                "id": "8950910e-e781-49f2-b8de-645fcbdf6b3c",
+                "name": "Codepoint with Polygons",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Postcode Area",
+                "id": "dd459000-8db4-4b02-ae4d-20a8d1f6d61f",
+                "name": "Postcode Area",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Postcode District",
+                "id": "e0264113-7208-488d-9cad-81c212f595a7",
+                "name": "Postcode District",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Postcode Sector",
+                "id": "50c8aa85-7547-4dab-88dc-61a9a124a3c8",
+                "name": "Postcode Sector",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Postcode district",
+                "id": "74374ede-c69a-40ff-8795-5437d1b990ab",
+                "name": "Postcode district",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b317685a-20aa-47be-ad1e-59d346bb4c0f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ]
+    }
+}

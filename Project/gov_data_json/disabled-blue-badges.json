@@ -1,0 +1,141 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "883747ce-ebc3-4228-84af-71dfabd2903f",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-02-09T05:30:23.452588",
+        "metadata_modified": "2016-06-28T04:20:33.077354",
+        "name": "disabled-blue-badges",
+        "notes": "<p>Details of volumes of Disabled Blue Badge applications.&nbsp;</p>",
+        "num_resources": 2,
+        "num_tags": 0,
+        "odi-certificate": "",
+        "organization": {
+            "id": "8f45940b-a372-4709-9119-cf19ac249ede",
+            "name": "calderdale-metropolitan-borough-council",
+            "title": "Calderdale Metropolitan Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:08.577384",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "8f45940b-a372-4709-9119-cf19ac249ede",
+        "private": false,
+        "state": "active",
+        "theme-primary": "transport",
+        "theme-secondary": [],
+        "title": "Disabled Blue Badges",
+        "type": "dataset",
+        "update_frequency": "One off",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "dp_created",
+                "value": "2016-02-08T09:57:49"
+            },
+            {
+                "key": "dp_modified",
+                "value": "2016-06-27T15:31:11"
+            },
+            {
+                "key": "email_notify_author",
+                "value": "false"
+            },
+            {
+                "key": "email_notify_maintainer",
+                "value": "false"
+            },
+            {
+                "key": "guid",
+                "value": "883747ce-ebc3-4228-84af-71dfabd2903f"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e911e8d5-6cb8-4849-9a64-78e2b532a434"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_text",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-06-27"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://dataworks.calderdale.gov.uk/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2016-06-27T15:31:11\", \"harvest_source_title\": \"Calderdale Dataworks\", \"activity_occurred\": \"2016-06-28T04:20:33.021543\", \"activity\": \"harvest\", \"harvested_guid\": \"883747ce-ebc3-4228-84af-71dfabd2903f\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": "2016-02-08T10:16:32.957423",
+                "cache_url": null,
+                "coverage_end_date": "None",
+                "coverage_start_date": "None",
+                "created": "2016-02-08T10:16:32.481459",
+                "csvlint_json": "{\"in_progress\": false, \"data\": {\"num_errors\": 4, \"errors\": [{\"category\": \"structure\", \"column\": null, \"body_html\": \"<pre>,,,\\r\\n</pre><p>Remove the empty row from your CSV file.  If you were not expecting any empty rows then this may indicate a problem with your data</p>\", \"content\": \",,,\\r\\n\", \"title_html\": \"Structure problem: <strong>Empty row</strong> on row 6\", \"type\": \"blank_rows\", \"row\": 6}, {\"category\": \"structure\", \"column\": null, \"body_html\": \"<pre>,,,\\r\\n</pre><p>Remove the empty row from your CSV file.  If you were not expecting any empty rows then this may indicate a problem with your data</p>\", \"content\": \",,,\\r\\n\", \"title_html\": \"Structure problem: <strong>Empty row</strong> on row 13\", \"type\": \"blank_rows\", \"row\": 13}, {\"category\": \"structure\", \"column\": null, \"body_html\": \"<pre>,,,\\r\\n</pre><p>Remove the empty row from your CSV file.  If you were not expecting any empty rows then this may indicate a problem with your data</p>\", \"content\": \",,,\\r\\n\", \"title_html\": \"Structure problem: <strong>Empty row</strong> on row 18\", \"type\": \"blank_rows\", \"row\": 18}, {\"category\": \"structure\", \"column\": null, \"body_html\": \"<pre>,,,\\r\\n</pre><p>Remove the empty row from your CSV file.  If you were not expecting any empty rows then this may indicate a problem with your data</p>\", \"content\": \",,,\\r\\n\", \"title_html\": \"Structure problem: <strong>Empty row</strong> on row 22\", \"type\": \"blank_rows\", \"row\": 22}], \"success\": true, \"warnings\": [{\"category\": \"structure\", \"column\": null, \"body_html\": \"<p>Your CSV seems to contain unstructured text at the beginning of the file.<br> It is important that your CSV only contains structured data - any background information or metadata should be included on a referring web page or accompanying document.</p>\", \"content\": null, \"title_html\": \"Structure problem: <strong>Possible title row detected</strong>\", \"type\": \"title_row\", \"row\": null}, {\"category\": \"schema\", \"column\": 3, \"body_html\": \"<p>The data in column 3 is inconsistent with others values in the same column.</p>\", \"content\": null, \"title_html\": \"Schema problem: <strong>Inconsistent value</strong> in column 3\", \"type\": \"inconsistent_values\", \"row\": null}, {\"category\": \"context\", \"column\": null, \"body_html\": \"<p>The encoding of your CSV file is not being declared in the HTTP response.<br> We recommend that you configure your server to deliver CSV files with a <code>Content-Type</code> header of <code>text/csv; charset=utf-8</code><br> If you are using a different encoding, then use an appropriate value for the <code>charset</code> parameter.</p>\", \"content\": null, \"title_html\": \"Context problem: <strong>No encoding</strong>\", \"type\": \"no_encoding\", \"row\": null}], \"num_warnings\": 3, \"encoding\": \"UTF-8\", \"valid\": false, \"content_type\": \"text/csv\", \"num_info_messages\": 1, \"schema_uri\": null, \"info_messages\": [{\"category\": \"structure\", \"column\": null, \"body_html\": \"<p>As there is no machine readable way to tell if your CSV has a header row, we have assumed that your CSV has one.</p>\", \"content\": null, \"title_html\": \"Structure problem: <strong>Assumed header</strong>\", \"type\": \"assumed_header\", \"row\": null}]}}",
+                "datastore_json": "{}",
+                "description": "",
+                "format": "CSV",
+                "hash": "59ae7627079866857156d58f66d44493",
+                "id": "5c2313fc-a48a-4e93-870c-d8fb38a724a3",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2016-02-08T10:16:32.481459",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "disabled badge January",
+                "package_id": "883747ce-ebc3-4228-84af-71dfabd2903f",
+                "position": 0,
+                "resource_type": "file",
+                "size": 593,
+                "state": "active",
+                "url": "https://files.datapress.com/calderdale/dataset/disabled-blue-badges/2016-02-08T10:15:55/disabled badge January.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": "2016-02-08T10:17:55.414337",
+                "cache_url": null,
+                "coverage_end_date": "None",
+                "coverage_start_date": "None",
+                "created": "2016-02-08T10:17:55.073970",
+                "csvlint_json": "{}",
+                "datastore_json": "{}",
+                "description": "",
+                "format": "XLS",
+                "hash": "64563f3af64e92801282b738f67e3748",
+                "id": "25c33571-e32b-4586-bbb5-58b60c2863a5",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2016-02-08T10:17:55.073970",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "disabled badge January",
+                "package_id": "883747ce-ebc3-4228-84af-71dfabd2903f",
+                "position": 1,
+                "resource_type": "file",
+                "size": 11774,
+                "state": "active",
+                "url": "https://files.datapress.com/calderdale/dataset/disabled-blue-badges/2016-02-08T10:17:32/disabled badge January.xlsx",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

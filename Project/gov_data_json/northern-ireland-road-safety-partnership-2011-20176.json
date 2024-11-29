@@ -1,0 +1,122 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "21c13ec5-b46b-4fb3-bf35-ba41e3c32c7b",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-10-13T21:30:28.618898",
+        "metadata_modified": "2023-04-06T12:20:56.254986",
+        "name": "northern-ireland-road-safety-partnership-2011-20176",
+        "notes": "The Northern Ireland Road Safety Partnership (RSP) aims to support the government\u2019s Road Safety Strategy by reducing speeding and injury collisions through targeted enforcement and educational initiatives. The Partnership Board oversees the work of the RSP and includes representatives from the PSNI, Department for Infrastructure, Department of Justice, Policing Board and Courts Service. ",
+        "num_resources": 1,
+        "num_tags": 4,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "Northern Ireland Road Safety Partnership 2011-2019",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-09T11:56:20.345058",
+                "datastore_active": true,
+                "description": "The dataset contains information on the number of detections for speeding or red light running by the RSP between 2011 and 2019. The variables include a unique ID, offence date, offence time, camera type, speed limit, speed detected (grouped), outcome, Local Government District (based on where the offence occurred), offender age (grouped), offender gender. ",
+                "format": "CSV",
+                "hash": "",
+                "id": "00768644-f313-4f9a-a294-bf71157a0e4b",
+                "last_modified": "2020-06-29T11:23:04.689285",
+                "metadata_modified": "2023-04-06T12:20:56.258848",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Road Safety Partnership statistics 2011-2019",
+                "package_id": "21c13ec5-b46b-4fb3-bf35-ba41e3c32c7b",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://admin.opendatani.gov.uk/dataset/21c13ec5-b46b-4fb3-bf35-ba41e3c32c7b/resource/00768644-f313-4f9a-a294-bf71157a0e4b/download/rsp_2011-2019.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "RSP",
+                "id": "55cf8a98-3bce-4174-b113-9857d1f41ec3",
+                "name": "RSP",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Road Safety Partnership",
+                "id": "e142be8e-01a4-4f66-8495-62ebe9fd569c",
+                "name": "Road Safety Partnership",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "red light running",
+                "id": "d48d7b60-b6c7-481e-97e3-3339792ed317",
+                "name": "red light running",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "speeding",
+                "id": "54f5d07d-8e24-4c57-b0f5-cf54298f9518",
+                "name": "speeding",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "0d84781b-b6e5-4618-9e66-b4fb25fecb4e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0d84781b-b6e5-4618-9e66-b4fb25fecb4e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

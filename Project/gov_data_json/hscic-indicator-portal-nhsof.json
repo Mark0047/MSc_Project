@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "d2d3c337-1dd7-486d-9c38-65a544a959fc",
+        "metadata_created": "2019-01-23T11:06:18.786065",
+        "metadata_modified": "2019-01-23T11:06:18.786071",
+        "name": "hscic-indicator-portal-nhsof",
+        "notes": "",
+        "organization": {
+            "id": "2a638dd6-7ad6-4081-8de3-732200f553fa",
+            "name": "nhs-digital",
+            "title": "NHS Digital",
+            "type": "organization",
+            "description": "NHS Digital is the national provider of information, data and IT systems for health and social care.\r\n\r\nIt was previously called 'The Health and Social Care Information Centre (HSCIC)'",
+            "image_url": "",
+            "created": "2013-08-30T11:29:36.442429",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2a638dd6-7ad6-4081-8de3-732200f553fa",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "HSCIC Indicator Portal - NHSOF",
+        "type": "harvest",
+        "url": "https://raw.githubusercontent.com/hscic-open-data/indicator-portal/master/portal-nhsof.json",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 13,
+            "last_job": {
+                "id": "95b002c2-e52c-4204-a3b1-0bf9859185d9",
+                "created": "2019-07-02 14:46:02.851192",
+                "gather_started": "2019-07-02 14:46:03.323678",
+                "gather_finished": "2019-07-02 14:46:06.143973",
+                "finished": "2019-07-02 14:48:02.828384",
+                "source_id": "d2d3c337-1dd7-486d-9c38-65a544a959fc",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 51,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Validation Error: {'tags': [{}, {}, {}, {}, {}, u'Tag \"A&E\" must be alphanumeric characters or symbols: -_.', {}, {}, {}, {}]}",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 52
+        }
+    }
+}

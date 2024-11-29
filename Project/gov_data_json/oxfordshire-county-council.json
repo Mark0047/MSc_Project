@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "0a4d5f46-a7d6-4c70-a2f6-dce86b1c41ff",
+        "metadata_created": "2019-01-23T10:37:19.684299",
+        "metadata_modified": "2019-01-23T10:37:19.684305",
+        "name": "oxfordshire-county-council",
+        "notes": "",
+        "organization": {
+            "id": "77d52976-a3a8-4615-920e-c34f24204cc9",
+            "name": "oxfordshire-county-council",
+            "title": "Oxfordshire County Council",
+            "type": "organization",
+            "description": "Oxfordshire County Council is responsible for providing many key local services and employs over 20,000 people to deliver them. \r\n\r\nEach year the council manages \u00a3845 million of public money in the provision of these services on behalf of Oxfordshire's 615,000 people. This includes schools, social services, the fire service, roads, libraries and the museums service, trading standards, land use, transport planning and waste management.",
+            "image_url": "",
+            "created": "2014-06-09T10:43:23.493585",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "77d52976-a3a8-4615-920e-c34f24204cc9",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Oxfordshire County Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/Oxfordshire_County_Council",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 22,
+            "last_job": {
+                "id": "7bec0fa0-cfe2-4ede-8c57-ee1a7f9991ae",
+                "created": "2022-10-13 12:06:58.529689",
+                "gather_started": "2022-10-13 12:06:58.797881",
+                "gather_finished": "2022-10-13 12:06:59.624991",
+                "finished": "2022-10-13 12:07:02.331524",
+                "source_id": "0a4d5f46-a7d6-4c70-a2f6-dce86b1c41ff",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 16,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gco}Date': '2022-07-8' is not a valid value of the union type '{http://www.isotc211.org/2005/gco}Date_Type'.\nElement '{http://www.isotc211.org/2005/gco}Date': '2022-07-8' is not a valid value of the union type '{http://www.isotc211.org/2005/gco}Date_Type'.",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 16
+        }
+    }
+}

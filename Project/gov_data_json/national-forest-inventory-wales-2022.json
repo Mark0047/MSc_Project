@@ -1,0 +1,244 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mapping.geodata@forestry.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "6495699a-53f7-4e70-b416-c661db7d5ca5",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-02-23T14:13:35.232218",
+        "metadata_modified": "2024-05-09T06:10:33.053735",
+        "name": "national-forest-inventory-wales-2022",
+        "notes": "The National Forest Inventory (NFI) woodland map covers all forest and woodland area over 0.5 hectare with a minimum of 20% canopy cover, or the potential to achieve it, and a minimum width of 20 metres. This includes areas of new planting, clearfell, windblow and restock. The woodland map excludes all 'tarmac' roads and active railways, and forest roads, rivers and powerlines where the gap in the woodland is greater than 20 meters wide.\n\nAll woodland (both urban and rural), regardless of ownership, is 0.5 hectare or greater in extent, with the exception of Assumed woodland or Low density areas that can be 0.1 hectare or greater in extent. Also, in the case of woodland areas that cross the countries borders, the minimum size restriction does not apply if the overall area complies with the minimum size.\n\nWoodland less than 0.5 hectare in extent, with the expectation of the areas above, will not be described within the dataset but will be included in a separate sample survey of small woodland and tree features.\n\nThe woodland map is updated on an annual basis and the changes in the woodland boundaries use the Ordnance Survey MasterMap\u00ae (OSMM) as a reference where appropriated.\n\nThe changes in the canopy cover have been identified on:\n\u2022\tSentinel 2 imagery taken during spring/summer 2022 or colour aerial orthophotographic imagery available at the time of the assessment;\n\u2022\tNew planting information for the financial year 2021/2022, from grant schemes and the sub-compartment database covering the estate of Forestry England, Forestry and Land Scotland and Natural Resources Wales;\n\n\nWoodland areas, greater than 0.5 hectares, are classified as an interpreted forest type (IFT) from aerial photography and satellite imagery. Non-woodland areas, open areas greater than 0.5 hectare completely surrounded by woodland are described according to open area types.\n\nIFT categories are Conifer, Broadleaved, Mixed mainly conifer, Mixed mainly broadleaved, Coppice, Coppice with standards, Shrub, Young trees, Felled, Ground prep, Cloud \\ shadow, Uncertain, Low density, Assumed woodland, Failed, Windblow.\n\nIOA categories are Open water, Grassland, Agricultural land, Urban, Road, River, Powerline, Quarry, Bare area, Windfarm, Other vegetation.\n\nFor further information regarding the interpreted forest types (IFT) and the interpreted open areas (IOA) please see NFI description of attributes available on  www.forestresearch.gov.uk Attribution statement: \u00a9 Forestry Commission copyright and/or database right 2023. All rights reserved. ",
+        "num_resources": 1,
+        "num_tags": 9,
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2021-04-01"
+        ],
+        "temporal_coverage-to": [
+            "2022-04-01"
+        ],
+        "title": "National Forest Inventory Wales 2022",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.64"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.46"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.33"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.81"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2024-02-15\"}, {\"type\": \"publication\", \"value\": \"2024-02-22\"}, {\"type\": \"revision\", \"value\": \"2024-02-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "0ae50023-3911-4a77-bc08-73cca81d29ec"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7e7a9763-190b-45c0-b358-4ebd6183c964"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Forestry Commission (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.64, 51.33], [-5.81, 51.33], [-5.81, 53.46], [-2.64, 53.46], [-2.64, 51.33]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-09T06:10:33.109329",
+                "description": "The National Forest Inventory (NFI) woodland map covers all forest and woodland area over 0.5 hectare with a minimum of 20% canopy cover, or the potential to achieve it, and a minimum width of 20 metres. This includes new planting, clearfell, windblow and restock.",
+                "format": "",
+                "hash": "",
+                "id": "6047d942-62f3-4e37-b74b-81b0eeb7b03a",
+                "last_modified": null,
+                "metadata_modified": "2024-05-09T06:10:33.060312",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "National Forest Inventory Wales 2022",
+                "package_id": "6495699a-53f7-4e70-b416-c661db7d5ca5",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data-forestry.opendata.arcgis.com/datasets/5dd157f98e3343119c9ce719c276a664_0/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Interpreted forest type",
+                "id": "141bd61b-6957-4813-8a71-d7f6f5a025e6",
+                "name": "Interpreted forest type",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "aerial photography",
+                "id": "33af144a-594a-4b07-8ac4-49256a950c27",
+                "name": "aerial photography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "felled",
+                "id": "2e2547bc-4af5-45ba-a21c-4e9945a8aa54",
+                "name": "felled",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "forestry",
+                "id": "ca41d85e-789b-410e-8c3f-d3c6fa3411d9",
+                "name": "forestry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inventory of forest damage",
+                "id": "e0ab7fc5-1ed9-4c89-a0b0-330e90c1f643",
+                "name": "inventory of forest damage",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "windblow",
+                "id": "9dd2103d-7a8e-46ba-abc7-04b78ce312a3",
+                "name": "windblow",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "woodland inventory",
+                "id": "0a919327-6a38-43ab-954b-8c6bf79a2e0f",
+                "name": "woodland inventory",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "woodland survey",
+                "id": "576fe395-5777-4390-8e86-6fc36cfe67e3",
+                "name": "woodland survey",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e176fde7-f33d-4694-ae0b-2bb5785ea117"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ]
+    }
+}

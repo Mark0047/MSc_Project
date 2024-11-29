@@ -1,0 +1,182 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "40373b96-eef5-4cc5-bb5a-7f84f03a1603",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2023-02-08T16:07:15.824546",
+        "metadata_modified": "2023-04-06T12:54:20.415555",
+        "name": "covid-19-hospital-admissions-in-leicester-by-week",
+        "notes": "<p>Number of weekly Covid-19 related hospital admissions to University Hospitals Leicester (UHL) for Leicester residents.\u00a0 </p><p>Data where the count is less than 3 admissions have been suppressed to \"..\".\u00a0 </p><p>Data is updated weekly and previous week data is subject to change when data is refreshed.</p><p>Note: This dataset will soon be archived and not subject to updates. A replacement dataset is currently under development.</p>",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "428e76b4-8690-4d64-8586-a4e748c487d5",
+            "name": "leicester-city-council",
+            "title": "Leicester City Council",
+            "type": "organization",
+            "description": "Leicester City Council is the unitary authority serving the people, communities and businesses of Leicester.",
+            "image_url": "",
+            "created": "2013-09-05T10:56:36.089623",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "428e76b4-8690-4d64-8586-a4e748c487d5",
+        "private": false,
+        "state": "active",
+        "title": "Covid-19 - Hospital admissions in Leicester by week",
+        "type": "dataset",
+        "url": "https://data.leicester.gov.uk/explore/dataset/covid-19-hospital-admissions-in-leicester-by-week/",
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/covid-19-hospital-admissions-in-leicester-by-week"
+            },
+            {
+                "key": "identifier",
+                "value": "covid-19-hospital-admissions-in-leicester-by-week@leicester"
+            },
+            {
+                "key": "issued",
+                "value": "2023-01-27T13:32:27.037000+00:00"
+            },
+            {
+                "key": "language",
+                "value": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]"
+            },
+            {
+                "key": "modified",
+                "value": "2023-01-27T13:32:27.037000+00:00"
+            },
+            {
+                "key": "publisher_name",
+                "value": "Leicester City Council"
+            },
+            {
+                "key": "publisher_uri",
+                "value": "https://data.leicester.gov.uk/explore/?refine.publisher=Leicester+City+Council"
+            },
+            {
+                "key": "theme",
+                "value": "[\"https://data.leicester.gov.uk/explore/?refine.theme=City+%26+Governance\", \"https://data.leicester.gov.uk/explore/?refine.theme=Public+Safety+%26+Wellbeing\"]"
+            },
+            {
+                "key": "uri",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/covid-19-hospital-admissions-in-leicester-by-week"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "02f847cd-4846-4a39-bd2c-3bbd7f6cb773"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-19-hospital-admissions-in-leicester-by-week/exports/csv",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:07:15.827762",
+                "description": "Covid-19 - Hospital admissions in Leicester by week (csv)",
+                "format": "https://www.iana.org/assignments/media-types/text/csv",
+                "hash": "",
+                "id": "a00ea435-c5a5-4199-9bb1-8a2bb105f161",
+                "issued": "2023-01-27T13:32:27.037000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-02-08T16:07:15.815013",
+                "mimetype": "https://www.iana.org/assignments/media-types/text/csv",
+                "mimetype_inner": null,
+                "modified": "2023-01-27T13:32:27.037000+00:00",
+                "name": "csv",
+                "package_id": "40373b96-eef5-4cc5-bb5a-7f84f03a1603",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/covid-19-hospital-admissions-in-leicester-by-week-csv",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-19-hospital-admissions-in-leicester-by-week/exports/csv",
+                "url_type": null
+            },
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-19-hospital-admissions-in-leicester-by-week/exports/json",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:07:15.827767",
+                "description": "Covid-19 - Hospital admissions in Leicester by week (json)",
+                "format": "https://www.iana.org/assignments/media-types/application/json",
+                "hash": "",
+                "id": "efa06c16-154e-4bbe-b018-cf97e310e4e2",
+                "issued": "2023-01-27T13:32:27.037000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-02-08T16:07:15.815173",
+                "mimetype": "https://www.iana.org/assignments/media-types/application/json",
+                "mimetype_inner": null,
+                "modified": "2023-01-27T13:32:27.037000+00:00",
+                "name": "json",
+                "package_id": "40373b96-eef5-4cc5-bb5a-7f84f03a1603",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/covid-19-hospital-admissions-in-leicester-by-week-json",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-19-hospital-admissions-in-leicester-by-week/exports/json",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "COVID-19",
+                "id": "d4f92fad-a940-41b3-a1eb-60cee8940ddb",
+                "name": "COVID-19",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "COVID19",
+                "id": "59729fe8-e453-4571-9afc-50256192c09a",
+                "name": "COVID19",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Covid",
+                "id": "024f3a8e-9e07-427b-98e8-5aad0599fa12",
+                "name": "Covid",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "02f847cd-4846-4a39-bd2c-3bbd7f6cb773"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ]
+    }
+}

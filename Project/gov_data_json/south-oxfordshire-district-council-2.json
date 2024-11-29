@@ -1,0 +1,69 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "WEEKLY",
+        "id": "96f5df93-542d-44db-b503-6855dcaa1dc0",
+        "metadata_created": "2019-01-23T11:49:26.574831",
+        "metadata_modified": "2023-09-25T11:50:05.768700",
+        "name": "south-oxfordshire-district-council-2",
+        "notes": "",
+        "organization": {
+            "id": "96c45961-16ac-4e8f-bc75-d5ebb0c30286",
+            "name": "south-oxfordshire-district-council",
+            "title": "South Oxfordshire District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:55:47.502125",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "96c45961-16ac-4e8f-bc75-d5ebb0c30286",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "South Oxfordshire District Council 2",
+        "type": "harvest",
+        "url": "http://maps.southoxon.gov.uk/data/harvest/s/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 215,
+            "last_job": {
+                "id": "32890bac-9907-4905-addf-362e31a03810",
+                "created": "2024-11-14 07:00:06.005286",
+                "gather_started": "2024-11-14 07:00:06.083409",
+                "gather_finished": "2024-11-14 07:00:06.517971",
+                "finished": "2024-11-14 07:00:06.933356",
+                "source_id": "96f5df93-542d-44db-b503-6855dcaa1dc0",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 2,
+                    "errored": 3,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 3
+                    },
+                    {
+                        "message": "Error importing Gemini document: Application Error: more than one current record for GUID 71bc0585-ee45-46d3-b870-bd9ffafd4b1b",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 4
+        }
+    }
+}

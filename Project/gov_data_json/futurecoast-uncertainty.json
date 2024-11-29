@@ -1,0 +1,345 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "alistair.rennie@nature.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "d88517b6-5fef-47c8-9746-5d0dcdcf8eb9",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-07-21T17:26:15.998540",
+        "metadata_modified": "2024-09-19T12:07:15.168649",
+        "name": "futurecoast-uncertainty",
+        "notes": "A dataset showing areas where modelledFutureCoast results may be unreliable due to uncertainties in input data or other reasons.",
+        "num_resources": 8,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "FutureCoast Uncertainty",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Dynamic Coast analyses cannot be used for property-level assessments.\", \"Available under an Open Government Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2021-06-01\"}, {\"type\": \"publication\", \"value\": \"2021-07-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "f8aa2c57-03f2-417d-8577-5f5c8e08a185"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4945e863-b57a-4ab7-98e2-0945dac14767"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-09-18T11:46:25.326Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:15.205804",
+                "description": "Uncertainty",
+                "format": "",
+                "hash": "",
+                "id": "cf4692b4-e16a-4bfc-8c7a-71d645b08216",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:15.174400",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "dc2uncertainty",
+                "package_id": "d88517b6-5fef-47c8-9746-5d0dcdcf8eb9",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/dynamiccoast/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:15.205806",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "8483ccce-4e5b-412e-8831-3a8fe3946982",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:15.174481",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot OpenData Hub",
+                "package_id": "d88517b6-5fef-47c8-9746-5d0dcdcf8eb9",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.nature.scot/datasets/dynamiccoast-uncertainty/explore",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:15.205808",
+                "description": "Dynamic Coast project website",
+                "format": "",
+                "hash": "",
+                "id": "f5f098af-5cfd-4645-8f10-e7b066200c6d",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:15.174539",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dynamic Coast",
+                "package_id": "d88517b6-5fef-47c8-9746-5d0dcdcf8eb9",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.dynamiccoast.com",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:15.205808",
+                "description": "Uncertainty",
+                "format": "",
+                "hash": "",
+                "id": "ee141926-1ef7-4586-a236-c72eb0d6c44a",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:15.174594",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "dynamiccoast:dc2uncertainty",
+                "package_id": "d88517b6-5fef-47c8-9746-5d0dcdcf8eb9",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS-1.0.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/dynamiccoast/wfs?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:15.205809",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "6b0b0af0-2f6a-48cf-8055-ffedd69a6881",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:15.174651",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DynamicCoast database Shapefiles (EPSG:27700)",
+                "package_id": "d88517b6-5fef-47c8-9746-5d0dcdcf8eb9",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DYNAMICCOAST2_SCOTLAND_SHP_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:15.205810",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "d2acfff4-59ee-4fbe-883c-02492cff9430",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:15.174706",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DynamicCoast database ArcGIS Desktop map package (EPSG:27700)",
+                "package_id": "d88517b6-5fef-47c8-9746-5d0dcdcf8eb9",
+                "position": 5,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DYNAMICCOAST2_SCOTLAND_MPK_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:15.205811",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "59a3df8f-8160-424a-aaf8-024d2389f790",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:15.174761",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DynamicCoast database ArcGIS Pro map package (EPSG:27700)",
+                "package_id": "d88517b6-5fef-47c8-9746-5d0dcdcf8eb9",
+                "position": 6,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DYNAMICCOAST2_SCOTLAND_MPKX_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:15.205812",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "76602dbf-1e06-410b-a13b-76d28eb1b79e",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:15.174815",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DynamicCoast database Geopackage and QGIS project (EPSG:27700)",
+                "package_id": "d88517b6-5fef-47c8-9746-5d0dcdcf8eb9",
+                "position": 7,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DYNAMICCOAST2_SCOTLAND_GPKG_27700.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Natural risk zones",
+                "id": "9e1361e3-b61f-47f4-a499-04cdb2357e56",
+                "name": "Natural risk zones",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e6ee72d5-47df-4e62-8692-088ac716e4bc"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

@@ -1,0 +1,210 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "1254ce07-8f1d-4ec4-a64a-7032fe1416ed",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:15:04.436098",
+        "metadata_modified": "2024-11-16T22:02:21.240325",
+        "name": "london-elections-results-2016-wards-boroughs-constituency",
+        "notes": "The results for the Mayoral and Assembly elections down to constituency level are available (including turnout and spoils etc).\n\nPlease note that due to boundary changes, 2016 ward data is not comparable with previous years' data.\u00a0\n\nINTERACTIVE MAPPING\n-------------------\n\nThe 2000-2012 election data for wards, boroughs, and constituencies is presented using interactive maps and charts in an InstantAtlas report. [Click here to launch the tool](https://londondatastore-upload.s3.amazonaws.com/instant-atlas/gla-elections-2000-2016/atlas.html).\n\n![](https://airdrive-images.s3-eu-west-1.amazonaws.com/london/img/dataset/london-elections-results-2016-wards-boroughs-constituency/2024-10-08T17%3A40%3A32/IA-screenshot-1.png)\n\n\u00a0More info on the 2016 elections can be found on the [London Elects website](https://www.londonelects.org.uk/im-voter/election-results/results-2016).",
+        "num_resources": 3,
+        "num_tags": 8,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "London Elections Results 2016, Wards, Boroughs, Constituency",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/london-elections-results-2016-wards-boroughs-constituency",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2016-05-27T10:27:10.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2016-05-31T13:28:53.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "26865254-6aeb-4f7a-a29b-8c0ca064824b"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "50d333f6-d7f6-41c0-ba3a-f2daf4846863"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:17:26.204177",
+                "description": "This spreadsheet\u00a0includes data for Constituencies, Boroughs, Wards and postal votes. Also includes turnout figures and first choice by second choice Mayoral vote matrices.",
+                "format": "XLS",
+                "hash": "",
+                "id": "cfc00280-3fd9-4eb1-ad79-ffe38e052de3",
+                "last_modified": null,
+                "metadata_modified": "2024-10-12T17:02:22.710209",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "gla-elections-votes-all-2016",
+                "package_id": "1254ce07-8f1d-4ec4-a64a-7032fe1416ed",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-elections-results-2016-wards-boroughs-constituency/01f4ff3a-c562-4d61-977f-c2dfb36694ce/gla-elections-votes-all-2016.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:17:26.204194",
+                "description": "Contains elections data from 2000 to 2016 for\u00a0Constituency\u00a0and Borough level.",
+                "format": "XLS",
+                "hash": "",
+                "id": "3069149b-d237-40f4-a004-5e4c66b521cc",
+                "last_modified": null,
+                "metadata_modified": "2024-10-12T17:02:22.710268",
+                "mimetype": "application/vnd.ms-excel",
+                "mimetype_inner": null,
+                "name": "gla-elections-2000-2016",
+                "package_id": "1254ce07-8f1d-4ec4-a64a-7032fe1416ed",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-elections-results-2016-wards-boroughs-constituency/050b426c-53a5-4e78-af80-0e0530f62010/gla-elections-2000-2016.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:17:26.204201",
+                "description": "Contains more detailed\u00a0data at Constituency level. Includes percentages and a table showing how the London-wide assembly seats were allocated.",
+                "format": "XLS",
+                "hash": "",
+                "id": "20abc4d5-3142-4e11-9121-05b6af56d4aa",
+                "last_modified": null,
+                "metadata_modified": "2024-10-12T17:02:22.710310",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "gla-elections-votes-constituency-2016",
+                "package_id": "1254ce07-8f1d-4ec4-a64a-7032fe1416ed",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-elections-results-2016-wards-boroughs-constituency/0f376d39-78e6-4c5e-a1cc-aa8a21d9f4d7/gla-elections-votes-constituency-2016.xlsx",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "assembly",
+                "id": "f3f6a3d8-2909-44a9-b207-d1e7f2f86e0a",
+                "name": "assembly",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "elections",
+                "id": "3730dfb4-2654-4033-a799-78006617bb02",
+                "name": "elections",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "map",
+                "id": "5ae583ff-867a-475b-9d4d-db1e70d0f56e",
+                "name": "map",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mayor",
+                "id": "fa8681ae-fd52-4b82-87ac-bb29a5b53425",
+                "name": "mayor",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mayoral",
+                "id": "38b78db7-2576-45bf-955b-dcbe333b6b5c",
+                "name": "mayoral",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "poll",
+                "id": "ef42cb63-1248-4680-a066-b1a0cbc8211c",
+                "name": "poll",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "vote",
+                "id": "893b8c05-ae78-4047-bf7d-b0ea53dd1706",
+                "name": "vote",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "votes",
+                "id": "03a10ad0-a7b8-4131-ab69-fc2ee0cb33d5",
+                "name": "votes",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "50d333f6-d7f6-41c0-ba3a-f2daf4846863"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

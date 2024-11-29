@@ -1,0 +1,77 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "b21cd517-b5f9-4bb6-8467-54e2aa666855",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-05-03T19:47:06.246108",
+        "metadata_modified": "2024-11-16T22:00:52.255253",
+        "name": "green-job-postings",
+        "notes": "  /\\* Set a maximum width for text containers */ .text-container { max-width: 800px; /* Adjust the value as needed */ margin: auto; /* Center align the container */ line-height: 1.6; /* Adjust line spacing for better readability */ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family to Segoe UI */ font-size: 17px; /* Adjust font size as desired */ padding: 0 20px; /* Add padding to the container */ } /* Style for headings */ h2 { font-size: 26px; /* Increase font size for headings */ font-weight: bold; /* Make headings bold */ margin-bottom: 10px; /* Add extra spacing below headings */ } /* Adjust spacing between bullet points */ ul { padding-left: 20px; /* Adjust left padding to space out the bullet points */ } /* Increase spacing between bullet points */ li { margin-bottom: 16px; /* Increase the margin between list items */ } /* Add border between sections */ .section { border-bottom: 1px solid #000; /* Thin black border */ padding-bottom: 20px; /* Add some space below the border */ padding-top: 20px; /* Add some space above the border */ position: relative; /* Set position to relative */ } \n\n**Introduction**\n----------------\n\nThe [challenge of defining and analysing \u2018green jobs\u2019](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/thechallengesofdefiningagreenjob) has been well documented over recent years. In particular, traditional labour market data sources and taxonomies, such as the standard occupational (SOC) or industrial classifications (SIC), struggle to accurately capture the changing demand for green jobs given their relatively recent emergence and evolving nature. However, gaining a better understanding of these roles is of critical importance for both London \u2013 and the UK \u2013 given their net zero ambitions.\u00a0\n\nThe dataset presented here seeks to at least partially fill this gap by adopting a novel approach to **analysing online job postings** data from [Lightcast](https://lightcast.io/uk). By identifying and classifying postings as \u2018green\u2019 based on their job titles and specified skill requirements, job postings data can overcome some of the limitations of other data sources and serve as a useful, albeit imperfect, indicator of changing employer demand for green jobs and skills in London.\u00a0\n\nFrom the outset, it is important to note that the definitions as to what constitutes a green skill or job title are **experimental** and are frequently reviewed and refined. As such, the data presented is subject to revision and is also likely to be only a partial representation of the overall demand for green jobs and skills in the labour market. A short note on the definitions used in this analysis as well as the inferential limitations of job postings data can be found at the bottom of this page, along with links to further resources.\u00a0\n\n  \n\n**1) Headline figures**\n-----------------------\n\n*   Over the course of the last 12 months (Jul 2023 \u2013 Jun 2024), there were approximately 59,200 unique postings for jobs that required at least 1 green skill, while there were 7,800 postings with specifically green job titles.\u00a0\n*   Combining these two metrics together (excluding double counting), shows that **unique postings featuring either a green skill or job title accounted for 63,700 \u2013 or 4.8% \u2013 of London\u2019s total job postings in the last 12 months.** This represents a 13% increase in prevalence compared to the 4.2% share for the same period a year prior, between July 2022 to June 2023.\u00a0\n\n  \n\n**2) Analysis of trends over time**\n-----------------------------------\n\n*   Looking at the longer-term trends, it is clear that **demand for green skills and job titles has grown steadily over recent years, outpacing growth in other areas of London\u2019s labour market**. However, since the latter half of 2023, the absolute number of postings requiring green expertise has declined, down over 10% for the 12 months ending June 2024 compared to the same period a year prior.\u00a0\n*   In relative terms however, the latest data suggests that employer demand for green expertise has **exhibited a good degree of resilience**, remaining elevated above 2019 pre-COVID levels even as recruitment activity in capital\u2019s wider labour market has cooled sharply back down.\u00a0\n*   Similarly, the growing share of total online postings identified as requiring some element of green expertise overtime suggests that employers across industries are increasingly recognising the importance of both adopting and providing environmentally sustainable solutions and services in support of the net zero transition.\u00a0\n\n  \n\n  \n\n  \n\n  \n\n**3) Occupational distribution and prevalence of green demand**\n---------------------------------------------------------------\n\n*   This dataset can also help to examine the distribution of green skills and titles across more established occupational groups, as well as the prevalence of green skill needs within these occupations. For London, the data shows that **a wide variety of occupations require some element of green/sustainable expertise**, with specialist sustainability roles accounting for the largest number of green postings followed by mechanical, electrical, building and environment related engineers, and project managers.\u00a0\n\n  \n\n  \n\n**4) Most in demand green skills and green job titles**\n-------------------------------------------------------\n\n*   The specific green skills that featured most prevalently in online postings for jobs in London in the last 12 months included improving energy efficiency through building services engineering and automation, knowledge of environmental social and corporate governance (ESG) standards, renewable energy expertise, and an understanding of net-zero, while a range of sustainability specialists, renewable energy managers and environmental professionals were among the most sought after specific green job titles.\u00a0\n*   The occupational and skills data combined suggests that London appears to have a **particular strength in professional and strategic jobs** related to the green economy. However, occupational concentrations vary across the UK, depending on local industrial compositions.\u00a0\n\n  \n\n  \n\n  \n\n**5) Regional analysis**\n------------------------\n\n*   Comparing across UK regions, **London had amongst the highest prevalence of green job postings** in the last 12 months and accounts for the largest number in absolute terms. Only Scotland has a higher proportional level of demand for green expertise (5.4%) in the UK with a particular strength in the renewable energy and environmental protection roles.\n*   The data also points to different regions having different relative strengths when it comes to the green economy, something that is reflected in the unique labour and skill demands of regional employers.\n\n  \n\n  \n\n**Notes**\n---------\n\n**Notes on definitions**\n\nBuilding upon Lightcast\u2019s own working definition of green skills and job titles, GLA Economics has further developed and refined these definitions using Lightcast\u2019s open-source library of job titles and skills taxonomies. Through this process, GLA Economics have identified 420 job titles with green keywords (e.g. sustainability consultants, renewable energy analysts or solar PV installers) and over 550 specific skills and qualifications related to the green economy and environment more generally.\u00a0\n\nThese granular definitions can help provide insights into the demand for green jobs and skills in London, but they do not offer a complete picture. Some green job titles and skills may not yet have been identified, while other jobs in the green economy will have titles which are not so obviously green (e.g. civil engineer), but where expertise in sustainable practices is of growing importance within in the role.\u202fGLA Economics\u2019 definition of green skills and job titles remains experimental and is constantly being refined to reflect the evolving nature of the sector. As such, estimates can fluctuate with each iteration of this release.\u00a0\n\nFor enquiries on this analysis or definitions please email [Jeff Dwan-O'Reilly.](mailto:jeff.oreilly@london.gov.uk)\u00a0\n\n  \n\n**Notes on data sources**\n\nOnline job postings are not fully representative of all job roles in a local economy, particularly those not widely advertised online. The data captured from online postings can also be inconsistent, with varying levels of detail on skills requirements, salary and job locations, and is subject to revision. Despite these limitations, online postings data is increasingly being used to complement traditional sources of labour market information due to its granularity and near real-time nature. For more information see: [Understanding online job postings data](https://data.london.gov.uk/download/job-postings-analyses/bc5fa2a4-44be-41bf-8e6e-c5d866519d80/Understanding%20online%20job%20postings%20data%20-%20July%202022.html)\u00a0\n\n  \n\n**Additional resources**\n\nFor further information on the GLA\u2019s work related to green jobs, please also refer to:\u00a0\u00a0\n\n*   [Identifying Green Occupations in London, GLA Economics, 2022](https://www.london.gov.uk/business-and-economy-publications/identifying-green-occupations-london)\u00a0\n*   [London\u2019s Low Carbon Environmental Goods and Services Sector (LCEGS) snapshot, 2024.](https://www.london.gov.uk/programmes-strategies/environment-and-climate-change/environment-and-climate-change-publications/london-low-carbon-market-snapshot-2024)\u00a0\n*   [Blog: How can we measure the number of green jobs? 2024.](https://www.london.gov.uk/sites/default/files/2024-04/How%20can%20we%20measure%20the%20number%20of%20green%20jobs-April-2024-update.pdf)\u00a0\n\nFor broader analyses of London\u2019s labour market please see:\u00a0\n\n*   [London Labour Market Update - Monthly](https://data.london.gov.uk/dataset/gla-economics-covid-19-labour-market-analysis)\u00a0\n\n  \n\nBack to Top",
+        "num_resources": 0,
+        "num_tags": 0,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Green Job Postings",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/green-jobs-and-skills-postings",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2023-05-02T11:12:01.407Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-08-02T09:07:40.252Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "65ce1474-7e0f-4d5e-a6ce-ebba02aff3a4"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5b39cdf3-818b-408d-b166-cf40dc393f01"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

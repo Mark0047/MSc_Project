@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "eb3a4ca7-57c3-4af7-a674-0ca25fd394d0",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-09-22T11:29:49.096066",
+        "metadata_modified": "2016-05-10T13:50:56.320474",
+        "name": "council-managed-allotment-sites",
+        "notes": "<p>Details of all council allotment sites around the city. The dataset provides full postal address of sites along with plot sizes and numbers and any facilities.</p>\r\n<h2>Current charges for 2014/15</h2>\r\n<ul>\r\n<li>&pound;38.50 FULL PLOT (250 m.sq.) RENT ONLY</li>\r\n<li>&pound;19.25 HALF PLOT (125 m.sq.) RENT ONLY</li>\r\n<li>&pound;9.63 QUARTER PLOT (63 m.sq.) RENT ONLY</li>\r\n</ul>\r\n<h2>Water charges (council controlled sites only)</h2>\r\n<ul>\r\n<li>&pound;18.00 PER FULL PLOT</li>\r\n<li>&pound;11.50 PER HALF AND QUARTER PLOTS</li>\r\n</ul>",
+        "num_resources": 4,
+        "num_tags": 0,
+        "odi-certificate": "",
+        "organization": {
+            "id": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+            "name": "leeds-city-council",
+            "title": "Leeds City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:43.477436",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [
+            "Society"
+        ],
+        "title": "Council managed allotment sites",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "attribution",
+                "value": "<p>Click this link for information: <a href=\"http://www.leeds.gov.uk/opendata/Pages/Licences.aspx\" target=\"_blank\" rel=\"nofollow\">http://www.leeds.gov.uk/opendata/Pages/Licences.aspx</a>\r\n</p>"
+            },
+            {
+                "key": "dp_created",
+                "value": "2014-04-10T12:05:30"
+            },
+            {
+                "key": "dp_modified",
+                "value": "2015-12-21T14:46:38"
+            },
+            {
+                "key": "email_notify_author",
+                "value": "true"
+            },
+            {
+                "key": "email_notify_maintainer",
+                "value": "true"
+            },
+            {
+                "key": "guid",
+                "value": "eb3a4ca7-57c3-4af7-a674-0ca25fd394d0"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4ed77e72-449a-4386-8222-78f8f8ce365b"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "is_developer_dataset",
+                "value": "false"
+            },
+            {
+                "key": "license_text",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-12-21"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://leedsdatamill.org/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2015-12-21T14:46:38\", \"harvest_source_title\": \"Leeds Data Mill\", \"activity_occurred\": \"2016-05-10T13:50:56.252290\", \"activity\": \"harvest\", \"harvested_guid\": \"eb3a4ca7-57c3-4af7-a674-0ca25fd394d0\"}]"
+            },
+            {
+                "key": "next_review_date",
+                "value": "15/09/2016"
+            },
+            {
+                "key": "technical_documentation",
+                "value": ""
+            },
+            {
+                "key": "update_frequency_text",
+                "value": "Annually"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": "2015-10-14T05:00:07.388040",
+                "cache_url": null,
+                "created": "2015-09-15T10:06:58.759125",
+                "csvlint_json": "{\"in_progress\": false, \"data\": {\"num_errors\": 0, \"errors\": [], \"success\": true, \"warnings\": [{\"category\": \"context\", \"column\": null, \"body_html\": \"<p>The encoding of your CSV file is not being declared in the HTTP response.<br> We recommend that you configure your server to deliver CSV files with a <code>Content-Type</code> header of <code>text/csv; charset=utf-8</code><br> If you are using a different encoding, then use an appropriate value for the <code>charset</code> parameter.</p>\", \"content\": null, \"title_html\": \"Context problem: <strong>No encoding</strong>\", \"type\": \"no_encoding\", \"row\": null}], \"num_warnings\": 1, \"encoding\": null, \"valid\": true, \"content_type\": \"text/csv\", \"num_info_messages\": 1, \"schema_uri\": null, \"info_messages\": [{\"category\": \"structure\", \"column\": null, \"body_html\": \"<p>As there is no machine readable way to tell if your CSV has a header row, we have assumed that your CSV has one.</p>\", \"content\": null, \"title_html\": \"Structure problem: <strong>Assumed header</strong>\", \"type\": \"assumed_header\", \"row\": null}]}}",
+                "datastore_json": "{\"in_progress\": false, \"data\": {\"url\": \"http://api.datapress.io/api/3/action/datastore_search?resource_id=93084e08-8f1a-494c-95dd-3d5507603eba\", \"message\": \"DataStore API updated successfully.\", \"success\": true}}",
+                "description": "Council managed allotment sites",
+                "format": "CSV",
+                "hash": "fda2b3bb6634d547e20e97ad084102c8",
+                "id": "93084e08-8f1a-494c-95dd-3d5507603eba",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2015-09-15T10:06:58.759125",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "September 2015",
+                "package_id": "eb3a4ca7-57c3-4af7-a674-0ca25fd394d0",
+                "position": 0,
+                "resource_type": null,
+                "size": 3136,
+                "state": "active",
+                "temporal_coverage_from": "01/04/2014",
+                "temporal_coverage_to": "01/04/2014",
+                "url": "https://aql.datapress.com/leeds/dataset/council-managed-allotment-sites/2015-09-15T10:08:46/Council sites.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": "2015-10-14T05:00:10.979845",
+                "cache_url": null,
+                "created": "2014-09-30T11:56:19.579533",
+                "csvlint_json": "{}",
+                "datastore_json": "{}",
+                "description": "Council managed allotment sites",
+                "format": "CSV",
+                "hash": "38681563e6c824db307c40376cb64f1a",
+                "id": "88bd906b-ad06-4ebb-acb6-8b450b9b75bf",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2014-09-30T11:56:19.579533",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "September 2014",
+                "package_id": "eb3a4ca7-57c3-4af7-a674-0ca25fd394d0",
+                "position": 1,
+                "resource_type": "file",
+                "size": 2975,
+                "state": "active",
+                "temporal_coverage_from": "01/04/2014",
+                "temporal_coverage_to": "01/04/2014",
+                "url": "https://aql.datapress.com/leeds/dataset/council-managed-allotment-sites/city-controlled-sites-sept2014.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": "2015-10-14T05:00:09.830016",
+                "cache_url": null,
+                "created": "2014-07-08T15:13:16.005900",
+                "csvlint_json": "{}",
+                "datastore_json": "{}",
+                "description": "Council managed allotment sites",
+                "format": "CSV",
+                "hash": "2e6344e2c141a8da3195944b39f8395c",
+                "id": "74f3e38e-c4dc-4aec-817d-5433a7d80647",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2014-07-08T15:13:16.005900",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "July 2014",
+                "package_id": "eb3a4ca7-57c3-4af7-a674-0ca25fd394d0",
+                "position": 2,
+                "resource_type": "file",
+                "size": 2988,
+                "state": "active",
+                "temporal_coverage_from": "07/07/2014",
+                "temporal_coverage_to": "07/07/2014",
+                "url": "https://aql.datapress.com/leeds/dataset/council-managed-allotment-sites/council-managed.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": "2015-10-14T05:00:08.707457",
+                "cache_url": null,
+                "created": "2014-04-14T10:25:27.655067",
+                "csvlint_json": "{}",
+                "datastore_json": "{}",
+                "description": "Council managed allotment sites",
+                "format": "CSV",
+                "hash": "bdb784693e793116b45b15c537c64260",
+                "id": "101b2d61-21e2-4505-a40a-90ef9ca6381d",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2014-04-14T10:25:27.655067",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "April 2014",
+                "package_id": "eb3a4ca7-57c3-4af7-a674-0ca25fd394d0",
+                "position": 3,
+                "resource_type": "file",
+                "size": 2967,
+                "state": "active",
+                "temporal_coverage_from": "01/04/2014",
+                "temporal_coverage_to": "01/04/2014",
+                "url": "https://aql.datapress.com/leeds/dataset/council-managed-allotment-sites/councilmanaged.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

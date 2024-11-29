@@ -1,0 +1,70 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "{\"validator_profiles\": [\"iso19139eden\", \"constraints-1.4\", \"gemini2-3\"]}",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "f36ed138-04db-4303-a3cb-69666a1d9386",
+        "metadata_created": "2019-01-23T11:27:21.677416",
+        "metadata_modified": "2021-03-22T09:15:52.538936",
+        "name": "miltonkeynes-inspire-metadata",
+        "notes": "Milton Keynes enterprise metadata catalog, INSPIRE/public endpoint",
+        "organization": {
+            "id": "161243e1-6da0-45de-9b63-46d0ffc995d0",
+            "name": "milton-keynes-council",
+            "title": "Milton Keynes Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-08-11T14:30:34.437856",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "161243e1-6da0-45de-9b63-46d0ffc995d0",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "Milton Keynes INSPIRE metadata",
+        "type": "harvest",
+        "url": "https://metadata.astuntechnology.com/geonetwork/miltonkeynes-gov-uk/eng/csw-inspire",
+        "validator_profiles": [
+            "iso19139eden",
+            "constraints-1.4",
+            "gemini2-3"
+        ],
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 26,
+            "last_job": {
+                "id": "4207e06a-87b4-48cb-98eb-919d969fa88b",
+                "created": "2021-03-22 09:16:59.113816",
+                "gather_started": "2021-03-26 09:48:03.591205",
+                "gather_finished": "2021-03-26 09:48:05.426085",
+                "finished": "2021-03-22 21:20:04.124464",
+                "source_id": "f36ed138-04db-4303-a3cb-69666a1d9386",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 24,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Job timeout: 4207e06a-87b4-48cb-98eb-919d969fa88b is taking longer than 720 minutes",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 47
+        }
+    }
+}

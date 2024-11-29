@@ -1,0 +1,135 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "954048eb-3c1c-4a26-80ad-e345673fac98",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:21:02.042479",
+        "metadata_modified": "2024-11-16T22:02:37.178294",
+        "name": "public-toilets9",
+        "notes": "The London Assembly Health and Public Services Committee has published a [report into the availability of information about public toilets in London](https://www.london.gov.uk/moderngov/documents/s4497/Public%20Toilets%20-%20Appendix%201%20-%20draft%20repo.pdf). This package provides supporting information from the investigation.\n\n_Borough Summary Data_\n\nThis table (available in [xls](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/public-toilet-borough-grid.xls) or [csv](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/public-toilet-borough-grid.csv)) summarises the information collected by the Assembly for each London Borough.\n\n_Open Data Standard_\n\nThe Committee has also published a new standard open data format for recording information about public toilets (available in [xls](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/public-toilet-open-data-format.xls) or [csv](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/public-toilet-open-data-format.csv)).  \n[Supporting guidance](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/public-toilet-open-data-guidance.pdf) is also available in either [pdf](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/public-toilet-open-data-guidance.pdf) or [rtf](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/public-toilet-open-data-guidance.rtf) format.\n\nView the [blog about the new format from Victoria Borwick](/blog/new-standard-open-data-format-public-toilets), Chair of the Health and Public Services Committee.",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Public Toilets",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/public-toilets",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2011-07-05T13:46:54.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2014-07-04T15:58:27.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "d988ad6a-7a13-418d-8e44-94a2ce5c6da2"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:22:23.474572",
+                "description": null,
+                "format": "XLS",
+                "hash": "",
+                "id": "3ab01885-2fb7-40c4-b956-ca7b5a725692",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:53.412596",
+                "mimetype": "application/vnd.ms-excel",
+                "mimetype_inner": null,
+                "name": "public-toilet-borough-grid.xls",
+                "package_id": "954048eb-3c1c-4a26-80ad-e345673fac98",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/public-toilets/7b9b84fb-a65b-43ce-83fc-e761946d715b/public-toilet-borough-grid.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:22:23.474597",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "98709346-75b8-47a3-9496-163f88ccda5a",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:53.412719",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "public-toilet-borough-grid.csv",
+                "package_id": "954048eb-3c1c-4a26-80ad-e345673fac98",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/public-toilets/8a8c6d83-9220-4089-90f3-8e633b833136/public-toilet-borough-grid.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "public-toilets",
+                "id": "d03d8952-6155-4548-9295-6ed7a9ac6c72",
+                "name": "public-toilets",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "toilets",
+                "id": "88013c1d-066c-42a9-9516-6c16174fb8eb",
+                "name": "toilets",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "77e49ce6-0259-49ad-9833-63ce4bcbaaa8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

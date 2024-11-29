@@ -1,0 +1,211 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@northyorkmoors.org.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "0523efd0-b810-42f6-a719-fb8b84424255",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2013-11-13T09:10:11.068194",
+        "metadata_modified": "2020-08-25T15:21:18.222188",
+        "name": "nymnpa-owned-and-managed-car-parks",
+        "notes": "Location of North York Moors National Park Authority managed and owned car parks. Areas are recorded as a polygon.",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "5608ab19-4e8e-4d16-b90a-f7382fd9f8d7",
+            "name": "north-york-moors-national-park-authority",
+            "title": "North York Moors National Park Authority",
+            "type": "organization",
+            "description": "North York Moors National Park Authority",
+            "image_url": "",
+            "created": "2013-01-29T13:43:16.250691",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "5608ab19-4e8e-4d16-b90a-f7382fd9f8d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2008-11-24"
+        ],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "NYMNPA Owned and Managed Car Parks",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.40649"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "54.67896"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.08569"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-1.3403300000000002"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2013-10-02\"}, {\"type\": \"publication\", \"value\": \"2013-11-18\"}, {\"type\": \"revision\", \"value\": \"2015-11-24\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "ebef7519-246c-4531-a101-7b306374fe78"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "76287a94-eef5-4db3-bc7a-264940b9a767"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-08-18T16:26:27"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "North York Moors National Park Authority"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "North York Moors National Park Authority (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.40649, 54.08569], [-1.3403300000000002, 54.08569], [-1.3403300000000002, 54.67896], [-0.40649, 54.67896], [-0.40649, 54.08569]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "41206885-4784-421d-8b17-73bf3dabb41b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-25T15:21:18.509573",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "1d527326-7fae-46c1-b832-bd22860692e7",
+                "last_modified": null,
+                "metadata_modified": "2020-08-25T15:21:18.509573",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "North York Moors National Park Authority INSPIRE WMS Service",
+                "package_id": "0523efd0-b810-42f6-a719-fb8b84424255",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.northyorkmoors.org.uk/geoserver/nymnpa_inspire/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-25T15:21:18.509579",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "9b6869e3-dd6e-4009-aa2b-6a696a3fa653",
+                "last_modified": null,
+                "metadata_modified": "2020-08-25T15:21:18.509579",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "North York Moors National Park Authority INSPIRE WFS Service",
+                "package_id": "0523efd0-b810-42f6-a719-fb8b84424255",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.northyorkmoors.org.uk/geoserver/nymnpa_inspire/ows?service=WFS&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Car Parks",
+                "id": "eb85f59d-7326-4f76-aff7-cafeedc3ed99",
+                "name": "Car Parks",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "76287a94-eef5-4db3-bc7a-264940b9a767"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "41206885-4784-421d-8b17-73bf3dabb41b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

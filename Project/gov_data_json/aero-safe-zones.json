@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@carlisle.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "d7860e78-75a4-4718-ad19-f52ee20535a4",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-03-06T16:50:43.984346",
+        "metadata_modified": "2022-08-01T15:42:38.708405",
+        "name": "aero-safe-zones",
+        "notes": "Carlisle City Council Aero Safe Zones",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "969a9e9f-0c9d-49e6-9d2b-84b9b3b8183f",
+            "name": "carlisle-city-council",
+            "title": "Carlisle City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:12:12.267149",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "969a9e9f-0c9d-49e6-9d2b-84b9b3b8183f",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Aero Safe Zones",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/docs/licences/public-sector-end-user-licence-inspire.htm\", \"Use according to license\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.69814"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.0126"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.821"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.0845"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-02-26T15:44:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "a3e144e52348279c8821a425150742875875dbfd"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "3fb3de42-729b-4c28-9182-39f2b7a4ded1"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2022-07-28T08:43:06"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "completed"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Carlisle City Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.69814, 54.821], [-3.0845, 54.821], [-3.0845, 55.0126], [-2.69814, 55.0126], [-2.69814, 54.821]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "da862b5c-5db4-4d05-b651-578555cae562"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Carlisle City Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-01T15:42:38.739577",
+                "description": "Aero Safe Zones View (WMS)",
+                "format": "",
+                "hash": "",
+                "id": "f63914df-20ab-487e-bdf4-88287eedcc93",
+                "last_modified": null,
+                "metadata_modified": "2022-08-01T15:42:38.714911",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "View",
+                "package_id": "d7860e78-75a4-4718-ad19-f52ee20535a4",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.carlisle.gov.uk/getows.ashx?mapsource=CCC/Inspire&version=1.1.0&request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-01T15:42:38.739582",
+                "description": "Aero Safe Zones Download (WFS)",
+                "format": "",
+                "hash": "",
+                "id": "0c48c8f6-67e6-486c-beb4-252862e1b9db",
+                "last_modified": null,
+                "metadata_modified": "2022-08-01T15:42:38.715077",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "d7860e78-75a4-4718-ad19-f52ee20535a4",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.carlisle.gov.uk/getows.ashx?mapsource=CCC/inspire&TypeName=aero_safe_zones&version=1.1.0&request=GetFeature&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Statutory Safeguarding Zones",
+                "id": "e5d90a32-c9bf-478c-8a92-81b34ef5f0c7",
+                "name": "Statutory Safeguarding Zones",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3fb3de42-729b-4c28-9182-39f2b7a4ded1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "da862b5c-5db4-4d05-b651-578555cae562"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Carlisle City Council"
+            }
+        ]
+    }
+}

@@ -1,0 +1,211 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@stockport.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "b77ee84c-f9af-4f49-a1b7-0480a82ce714",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-09T15:20:47.721446",
+        "metadata_modified": "2016-04-29T09:58:18.692590",
+        "name": "manchester-airport-bird-consultation-zone",
+        "notes": "13 kilometre buffer around Manchester Airport representing the need for consultation for potential bird attractant developments",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "dca4cafe-88b8-4758-a470-ae6b32437efd",
+            "name": "stockport-metropolitan-borough-council",
+            "title": "Stockport Metropolitan Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:58:16.588164",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "dca4cafe-88b8-4758-a470-ae6b32437efd",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "transport",
+        "theme-secondary": [
+            "Towns & Cities"
+        ],
+        "title": "Manchester Airport bird consultation zone",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/docs/licences/public-sector-end-user-licence-inspire.htm\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.07438"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.4693"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.235"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.4676"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-02-26T10:38:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "fa4694ed67c8800aede7fcbd73250026afeaadba"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7edf4eda-c07c-4056-843d-284a97e31709"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.astuntechnology.com/stockport/Manchester%20Airport%20bird%20consultation%20zone.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "use in accordance with OS licence"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-29"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Stockport Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-2.07438, 53.235],[-2.07438, 53.4693], [-2.4676, 53.4693], [-2.4676, 53.235], [-2.07438, 53.235]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c0c0bc58-259b-4993-92fc-6ba83fca9f4c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stockport Metropolitan Borough Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-04-29T10:58:18.736353",
+                "description": "Manchester Airport bird consultation zone",
+                "format": "WMS",
+                "hash": "",
+                "id": "747bf1ab-3a2d-4f56-b8e3-038a4c6da6e0",
+                "last_modified": null,
+                "metadata_modified": "2016-04-29T10:58:18.736353",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "manc_all_apps_attracting_birds",
+                "package_id": "b77ee84c-f9af-4f49-a1b7-0480a82ce714",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx?mapsource=smbc/stockport_inspire&version=1.1.1&request=GetCapabilities&service=WMS",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-04-29T10:58:18.004292",
+                "wms_base_urls": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-29T10:58:18.736373",
+                "description": "Manchester Airport bird consultation zone",
+                "format": "",
+                "hash": "",
+                "id": "af0b167f-85cb-4c4b-b7f0-d604c00789f0",
+                "last_modified": null,
+                "metadata_modified": "2016-04-29T10:58:18.736373",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "manc_all_apps_attracting_birds",
+                "package_id": "b77ee84c-f9af-4f49-a1b7-0480a82ce714",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx?mapsource=smbc/stockport_inspire&TypeName=manc_all_apps_attracting_birds&version=1.1.0&request=GetFeature&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7edf4eda-c07c-4056-843d-284a97e31709"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c0c0bc58-259b-4993-92fc-6ba83fca9f4c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stockport Metropolitan Borough Council"
+            }
+        ]
+    }
+}

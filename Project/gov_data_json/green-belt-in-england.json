@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "cea423af-dac9-4224-b2ba-13de60dc85ce",
+        "frequency": "MANUAL",
+        "id": "02cc03e5-b44a-4f65-801b-e7d54273480e",
+        "metadata_created": "2021-11-25T14:53:41.136665",
+        "metadata_modified": "2021-11-25T14:53:41.136670",
+        "name": "green-belt-in-england",
+        "notes": "",
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "source_type": "gemini-single",
+        "state": "active",
+        "title": "Green Belt in England",
+        "type": "harvest",
+        "url": "https://maps.communities.gov.uk/dclg_inspire_waf/England_Green_Belt_2020-21_metadata_v2.xml",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1,
+            "last_job": {
+                "id": "cef171e5-84a0-41c7-a30a-cd5b42066fcb",
+                "created": "2021-11-25 14:54:19.100336",
+                "gather_started": "2021-11-25 14:54:19.216590",
+                "gather_finished": "2021-11-25 14:54:19.363760",
+                "finished": "2021-11-25 14:54:19.363760",
+                "source_id": "02cc03e5-b44a-4f65-801b-e7d54273480e",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Error parsing the document. Is this a valid Gemini document?: https://maps.communities.gov.uk/dclg_inspire_waf/England_Green_Belt_2020-21_metadata_v2.xml [XMLSyntaxError(\"EntityRef: expecting ';', line 313, column 119\",)]",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

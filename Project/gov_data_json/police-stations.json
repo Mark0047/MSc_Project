@@ -1,0 +1,141 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "3eb90cb4-c5d9-4f8e-93a0-f7c8abfad80f",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-01-16T01:40:41.951654",
+        "metadata_modified": "2016-04-07T08:51:18.234776",
+        "name": "police-stations",
+        "notes": "<p><span style=\"color: #666666; font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 20px;\">Details include names, location in eastings and northings and website link for each police station in Calderdale. A zipped TAB file is also published.</span></p>",
+        "num_resources": 2,
+        "num_tags": 0,
+        "odi-certificate": "",
+        "organization": {
+            "id": "8f45940b-a372-4709-9119-cf19ac249ede",
+            "name": "calderdale-metropolitan-borough-council",
+            "title": "Calderdale Metropolitan Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:08.577384",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "8f45940b-a372-4709-9119-cf19ac249ede",
+        "private": false,
+        "state": "active",
+        "theme-primary": "crime-and-justice",
+        "theme-secondary": [],
+        "title": "Police Stations",
+        "type": "dataset",
+        "update_frequency": "One off",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "dp_created",
+                "value": "2016-01-15T09:03:21"
+            },
+            {
+                "key": "dp_modified",
+                "value": "2016-01-15T09:12:04"
+            },
+            {
+                "key": "email_notify_author",
+                "value": "false"
+            },
+            {
+                "key": "email_notify_maintainer",
+                "value": "false"
+            },
+            {
+                "key": "guid",
+                "value": "3eb90cb4-c5d9-4f8e-93a0-f7c8abfad80f"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c91dc39e-ac97-4fbf-8a9f-0912d31a092c"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_text",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-01-15"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://dataworks.calderdale.gov.uk/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2016-01-15T09:12:04\", \"harvest_source_title\": \"Calderdale Dataworks\", \"activity_occurred\": \"2016-04-07T08:51:18.192528\", \"activity\": \"harvest\", \"harvested_guid\": \"3eb90cb4-c5d9-4f8e-93a0-f7c8abfad80f\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": "2016-01-15T09:08:05.651324",
+                "cache_url": null,
+                "coverage_end_date": "None",
+                "coverage_start_date": "None",
+                "created": "2016-01-15T09:08:05.110233",
+                "csvlint_json": "{\"in_progress\": false, \"data\": {\"num_errors\": 0, \"errors\": [], \"success\": true, \"warnings\": [{\"category\": \"context\", \"column\": null, \"body_html\": \"<p>The encoding of your CSV file is not being declared in the HTTP response.<br> We recommend that you configure your server to deliver CSV files with a <code>Content-Type</code> header of <code>text/csv; charset=utf-8</code><br> If you are using a different encoding, then use an appropriate value for the <code>charset</code> parameter.</p>\", \"content\": null, \"title_html\": \"Context problem: <strong>No encoding</strong>\", \"type\": \"no_encoding\", \"row\": null}], \"num_warnings\": 1, \"encoding\": \"UTF-8\", \"valid\": true, \"content_type\": \"text/csv\", \"num_info_messages\": 1, \"schema_uri\": null, \"info_messages\": [{\"category\": \"structure\", \"column\": null, \"body_html\": \"<p>As there is no machine readable way to tell if your CSV has a header row, we have assumed that your CSV has one.</p>\", \"content\": null, \"title_html\": \"Structure problem: <strong>Assumed header</strong>\", \"type\": \"assumed_header\", \"row\": null}]}}",
+                "datastore_json": "{}",
+                "description": "",
+                "format": "CSV",
+                "hash": "f04890765e6ef9aad179715e0b5380a9",
+                "id": "e8150e6f-8084-401d-a12d-3163f8b717aa",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2016-01-15T09:08:05.110233",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Police Stations",
+                "package_id": "3eb90cb4-c5d9-4f8e-93a0-f7c8abfad80f",
+                "position": 0,
+                "resource_type": "file",
+                "size": 827,
+                "state": "active",
+                "url": "https://files.datapress.com/calderdale/dataset/police-stations/2016-01-15T09:07:59/Police Stations.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": "2016-01-15T09:10:32.371974",
+                "cache_url": null,
+                "coverage_end_date": "None",
+                "coverage_start_date": "None",
+                "created": "2016-01-15T09:10:31.977638",
+                "csvlint_json": "{}",
+                "datastore_json": "{}",
+                "description": "",
+                "format": "ZIP",
+                "hash": "6bb8929320ce69466f7ec3db62bef965",
+                "id": "562d1895-5005-420d-b1ab-fdbd7c5c4f11",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2016-01-15T09:10:31.977638",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Police stationsTAB",
+                "package_id": "3eb90cb4-c5d9-4f8e-93a0-f7c8abfad80f",
+                "position": 1,
+                "resource_type": "file",
+                "size": 1485,
+                "state": "active",
+                "url": "https://files.datapress.com/calderdale/dataset/police-stations/2016-01-15T09:10:29/Police stationsTAB.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

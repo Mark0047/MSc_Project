@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "7d93a522-a871-4b04-9c99-df2511d644db",
+        "metadata_created": "2019-01-23T11:40:17.786840",
+        "metadata_modified": "2019-01-23T11:40:17.786850",
+        "name": "sheffield-city-council-inspire-datasets",
+        "notes": "Sheffield City Council INSPIRE Datasets",
+        "organization": {
+            "id": "52191226-791a-408b-bfd1-32f7dd491849",
+            "name": "sheffield-city-council",
+            "title": "Sheffield City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-06-19T14:30:33.024702",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "52191226-791a-408b-bfd1-32f7dd491849",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Sheffield City Council INSPIRE Datasets",
+        "type": "harvest",
+        "url": "https://testmaps.sheffield.gov.uk/LocalViewExt/InspireGISMetadata/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 17,
+            "last_job": {
+                "id": "16fb46a3-8180-41bb-8c16-23a7d88f0544",
+                "created": "2018-09-21 07:31:57.823250",
+                "gather_started": "2018-09-21 07:32:03.743819",
+                "gather_finished": "2018-09-21 07:33:07.043951",
+                "finished": null,
+                "source_id": "7d93a522-a871-4b04-9c99-df2511d644db",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Couldn't find any links to metadata files. (N.B. A common error is for the WAF to contain links that include path information. Links are discarded if they contain slashes. For example, it should be href=\"rivers.xml\" rather than href=\"/metadata/rivers.xml\".)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

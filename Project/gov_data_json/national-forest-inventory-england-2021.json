@@ -1,0 +1,279 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mapping.geodata@forestry.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "ce405f49-2c84-4bc8-91c3-479884b80209",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-11-30T13:12:54.089778",
+        "metadata_modified": "2024-05-09T06:05:25.080789",
+        "name": "national-forest-inventory-england-2021",
+        "notes": "The National Forest Inventory (NFI) woodland map covers all forest and woodland area over 0.5 hectare with a minimum of 20% canopy cover, or the potential to achieve it, and a minimum width of 20 metres. This includes areas of new planting, clearfell, windblow and restock. The woodland map excludes all 'tarmac' roads and active railways, and forest roads, rivers and powerlines where the gap in the woodland is greater than 20 meters wide. All woodland (both urban and rural), regardless of ownership, is 0.5 hectare or greater in extent, with the exception of Assumed woodland or Low density areas that can be 0.1 hectare or greater in extent. Also, in the case of woodland areas that cross the countries borders, the minimum size restriction does not apply if the overall area complies with the minimum size. Woodland less than 0.5 hectare in extent, with the expectation of the areas above, will not be described within the dataset but will be included in a separate sample survey of small woodland and tree features. \n\nThe woodland map is updated on an annual basis and the changes in the woodland boundaries use the Ordnance Survey MasterMap\u00ae (OSMM) as a reference where appropriated. The changes in the canopy cover have been identified on:\n\n \u2022 Sentinel 2 imagery taken during spring/summer 2021 or colour aerial orthophotographic imagery available at the time of the assessment; \n\u2022 New planting information for the financial year 2020/2021, from grant schemes and the sub-compartment database covering the estate of Forestry England;\n\nWoodland areas, greater than 0.5 hectares, are classified as an interpreted forest type (IFT) from aerial photography and satellite imagery. Non-woodland areas, open areas greater than 0.5 hectare completely surrounded by woodland are described according to open area types.\n\nIFT categories are Conifer, Broadleaved, Mixed mainly conifer, Mixed mainly broadleaved, Coppice, Coppice with standards, Shrub, Young trees, Felled, Ground prep, Cloud \\ shadow, Uncertain, Low density, Assumed woodland, Failed, Windblow.\n\nIOA categories are Open water, Grassland, Agricultural land, Urban, Road, River, Powerline, Quarry, Bare area, Windfarm, Other vegetation.\n\nFor further information regarding the interpreted forest types (IFT) and the interpreted open areas (IOA) please see NFI description of attributes available on  www.forestresearch.gov.uk Attribution statement: \u00a9 Forestry Commission copyright and/or database right 2023. All rights reserved. ",
+        "num_resources": 1,
+        "num_tags": 14,
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2020-04-01"
+        ],
+        "temporal_coverage-to": [
+            "2021-04-01"
+        ],
+        "title": "National Forest Inventory England 2021",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2023-09-30\"}, {\"type\": \"publication\", \"value\": \"2023-10-26\"}, {\"type\": \"revision\", \"value\": \"2023-09-30\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "4c0bcb3b-b3ab-4af2-8c66-bdfa8344c661"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "dca9de99-8f8c-4925-b7dc-ed377c8c29ab"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Forestry Commission (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-09T06:05:25.157109",
+                "description": "National Forest Inventory England 2021",
+                "format": "",
+                "hash": "",
+                "id": "a76f6fc4-7bcf-4363-ace6-54dcb28ca0c4",
+                "last_modified": null,
+                "metadata_modified": "2024-05-09T06:05:25.089939",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "National Forest Inventory England 2021",
+                "package_id": "ce405f49-2c84-4bc8-91c3-479884b80209",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data-forestry.opendata.arcgis.com/datasets/a73551a581074e5fa192418c65b43d55_0/about",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "2021",
+                "id": "3c639fe3-9869-4e15-9779-367bc71bfae1",
+                "name": "2021",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "England",
+                "id": "7af69110-4a85-408d-ae77-82e33b07c0d4",
+                "name": "England",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Interpreted forest type",
+                "id": "141bd61b-6957-4813-8a71-d7f6f5a025e6",
+                "name": "Interpreted forest type",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "OpenData",
+                "id": "6bc85120-d8ca-4fe1-91fa-d1831be59c7d",
+                "name": "OpenData",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "aerial photography",
+                "id": "33af144a-594a-4b07-8ac4-49256a950c27",
+                "name": "aerial photography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "biota",
+                "id": "fd223b7a-58e2-468c-9246-52df49abc606",
+                "name": "biota",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "felled",
+                "id": "2e2547bc-4af5-45ba-a21c-4e9945a8aa54",
+                "name": "felled",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "forestresearch",
+                "id": "e1841909-5b34-4b72-a839-eb30dffd17db",
+                "name": "forestresearch",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "forestry",
+                "id": "ca41d85e-789b-410e-8c3f-d3c6fa3411d9",
+                "name": "forestry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inventory of forest damage",
+                "id": "e0ab7fc5-1ed9-4c89-a0b0-330e90c1f643",
+                "name": "inventory of forest damage",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "windblow",
+                "id": "9dd2103d-7a8e-46ba-abc7-04b78ce312a3",
+                "name": "windblow",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "woodland inventory",
+                "id": "0a919327-6a38-43ab-954b-8c6bf79a2e0f",
+                "name": "woodland inventory",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "woodland survey",
+                "id": "576fe395-5777-4390-8e86-6fc36cfe67e3",
+                "name": "woodland survey",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b6a1caac-5ccc-4191-8422-bff50eb34152"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ]
+    }
+}

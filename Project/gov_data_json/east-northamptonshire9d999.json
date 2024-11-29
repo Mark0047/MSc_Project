@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "4ed3cd61-61a6-43e4-982d-45fd9140c1eb",
+        "metadata_created": "2019-01-23T10:56:54.602138",
+        "metadata_modified": "2019-01-23T10:56:54.602144",
+        "name": "east-northamptonshire9d999",
+        "notes": "",
+        "organization": {
+            "id": "8c4875da-2489-4212-9b2f-504a77522052",
+            "name": "east-northamptonshire-council",
+            "title": "East Northamptonshire Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-09-10T13:54:24.992875",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8c4875da-2489-4212-9b2f-504a77522052",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "East Northamptonshire",
+        "type": "harvest",
+        "url": "http://gistest.getmapping.com/inspire/eastnorthamptonshire",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1,
+            "last_job": {
+                "id": "6d8fc2d3-a9f7-4c1e-bee3-520224955ff8",
+                "created": "2014-12-03 15:32:55.100530",
+                "gather_started": "2014-12-03 15:40:03.490838",
+                "gather_finished": "2014-12-03 15:40:03.550279",
+                "finished": null,
+                "source_id": "4ed3cd61-61a6-43e4-982d-45fd9140c1eb",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get WAF content: GetContentError(u\"Server responded with an error when accessing URL: http://gistest.getmapping.com/inspire/eastnorthamptonshire Status: 404 Reason: 'Not Found'\",)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

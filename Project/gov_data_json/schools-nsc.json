@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "c0bf4ae0-81f3-4e19-b7c3-8336b267dfad",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-05-29T15:10:40.225236",
+        "metadata_modified": "2020-08-11T13:33:44.231004",
+        "name": "schools-nsc",
+        "notes": "<p>A complete list of all primary and secondary schools in North Somerset.</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+            "name": "north-somerset-council",
+            "title": "North Somerset Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:01.609923",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+        "private": false,
+        "state": "active",
+        "title": "Schools",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.n-somerset.gov.uk/children-young-people-and-education/schools"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "8c579958-3ad6-4940-b97b-51a780e72da9"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.n-somerset.gov.uk/children-young-people-and-education/schools"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "children-young-people-and-education/schools"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": "http://id.esd.org.uk/service/17"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-08-11"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.n-somerset.gov.uk/api/esdinventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2020-08-11T00:00:00\", \"harvest_source_title\": \"North Somerset Council\", \"activity_occurred\": \"2020-08-11T13:33:43.975951\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.n-somerset.gov.uk/children-young-people-and-education/schools\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:10:40.264469",
+                "description": "Schools - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "d2f24a8d-bb9a-4200-9c83-e14c06f9adca",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:10:40.264469",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "c0bf4ae0-81f3-4e19-b7c3-8336b267dfad",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/children-young-people-and-education/schools/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/Download/children-young-people-and-education/schools",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-11T13:33:44.589934",
+                "description": "School List  - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "61152277-fa1a-4447-9f61-da608c3a9248",
+                "last_modified": null,
+                "metadata_modified": "2020-08-11T13:33:44.589934",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "c0bf4ae0-81f3-4e19-b7c3-8336b267dfad",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.n-somerset.gov.uk/api/children-young-people-and-education/schools/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/children-young-people-and-education/schools/school-list/CSV?version=11/08/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-11T13:33:44.589940",
+                "description": "School List  - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "3434c58e-0a50-4484-8764-c31a6dbd8e82",
+                "last_modified": null,
+                "metadata_modified": "2020-08-11T13:33:44.589940",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "c0bf4ae0-81f3-4e19-b7c3-8336b267dfad",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/children-young-people-and-education/schools/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/children-young-people-and-education/schools/school-list/XML?version=11/08/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:10:40.264501",
+                "description": "School List  - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "4a2e819b-0df7-4a57-9e85-ff86a4be42db",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:10:40.264501",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "c0bf4ae0-81f3-4e19-b7c3-8336b267dfad",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/children-young-people-and-education/schools/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/children-young-people-and-education/schools/school-list?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:10:40.264507",
+                "description": "School List  - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "40d4320f-fb22-4d0e-ac8b-b87f41332f02",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:10:40.264507",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "c0bf4ae0-81f3-4e19-b7c3-8336b267dfad",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/children-young-people-and-education/schools/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/children-young-people-and-education/schools/school-list?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8c579958-3ad6-4940-b97b-51a780e72da9"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ]
+    }
+}

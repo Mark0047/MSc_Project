@@ -1,0 +1,604 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-06-30T14:38:59.323454",
+        "metadata_modified": "2024-06-07T14:09:37.803118",
+        "name": "drinking-water-protected-areas-surface-water",
+        "notes": "Drinking Water Protected Areas (Surface Water) are defined by the Water Environment (Water Framework Directive) (England & Wales) Regulations 2017 (or WFD Regulations) as locations where raw water is abstracted for human consumption providing, on average, more than 10 cubic metres per day, or serving more than 50 persons, or is intended for such future use. For surface water Drinking Water Protected Areas water may be abstracted from rivers, lakes, canals and reservoirs.\nDrinking Water Protected Areas are based on the River Basin Management Plan water body area within which the abstraction is located.\nWater sources used for drinking supplies need to be protected under the WFD Regulations to ensure they are not polluted and avoid / minimise the need for additional purification treatment which can be costly and resource intensive. \nThe water companies must ensure compliance with the Drinking Water Directive and the Priority Substances Directive chemical parameters at the tap, as regulated by the Drinking Water Inspectorate (DWI).\nWater Companies and the Environment Agency identify Drinking Water Protected Areas that are \u2018at risk\u2019 of deterioration from certain substances which could affect treatment and non-statutory Safeguard Zones are established. Within these zones, the Environment Agency works with the Water Companies to plan and implement targeted measures to address the identified risks.\nThis dataset includes all of the current Drinking Water Protected Areas with a qualifying abstraction, indications of whether or not the area is deemed \u2018at risk\u2019 and, if a Safeguard Zone has been defined, which substances are affecting them.\nFor more information on Safeguard Zones please refer to the \"Drinking Water Safeguard Zone (Surface Water)\" dataset also available on the Defra DSP.\nThis data has been updated in 2022 following a national review of surface water protected area records for the Cycle 3 River Basin Management Plans.\nPlease note the status of Drinking Water Protected Areas and any associated Safeguard Zones are continuously under review and details may change and/or become out of date once published. Please send any data or other enquiries in relation to this dataset to the point of contact identified below. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2022. All rights reserved.",
+        "num_resources": 13,
+        "num_tags": 21,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2012-07-09"
+        ],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Drinking Water Protected Areas (Surface Water)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2012-07-09\"}, {\"type\": \"revision\", \"value\": \"2022-11-23\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "b4f0e481-f5e3-4421-90b8-5f1cde58eb59"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "1d43819b-d9b5-4049-b27c-696f0e233fb3"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-31"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909491",
+                "description": "DrinkingWaterProtectedAreasSurfacewater-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "05c0ceee-fbdd-43d8-9494-8e3f7ed43b9d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.808700",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DrinkingWaterProtectedAreasSurfacewater-FGDB.zip",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ad9a0959-4c67-484d-9337-58084baf9b20&fileName=DrinkingWaterProtectedAreasSurfacewater-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909495",
+                "description": "DrinkingWaterProtectedAreasSurfacewater-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "f1e5f937-d542-4eb9-b926-0beafe8ea4c7",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.808848",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DrinkingWaterProtectedAreasSurfacewater-GeoJSON.zip",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ad9a0959-4c67-484d-9337-58084baf9b20&fileName=DrinkingWaterProtectedAreasSurfacewater-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909496",
+                "description": "DrinkingWaterProtectedAreasSurfacewater-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "6a389290-1236-4dab-b69b-19b00db4de5d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.808975",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DrinkingWaterProtectedAreasSurfacewater-GML.zip",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ad9a0959-4c67-484d-9337-58084baf9b20&fileName=DrinkingWaterProtectedAreasSurfacewater-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909497",
+                "description": "DrinkingWaterProtectedAreasSurfacewater-KML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b7b7cef0-a299-4605-822a-f395fd8566a5",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.809106",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DrinkingWaterProtectedAreasSurfacewater-KML.zip",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ad9a0959-4c67-484d-9337-58084baf9b20&fileName=DrinkingWaterProtectedAreasSurfacewater-KML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909498",
+                "description": "DrinkingWaterProtectedAreasSurfacewater-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "ab2da0e3-2408-42fd-92bb-800994476786",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.809226",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DrinkingWaterProtectedAreasSurfacewater-MID_MIF.zip",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ad9a0959-4c67-484d-9337-58084baf9b20&fileName=DrinkingWaterProtectedAreasSurfacewater-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909499",
+                "description": "DrinkingWaterProtectedAreasSurfacewater-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "f136e619-3e1d-4a3e-aec3-c9aab7e08f5f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.809900",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DrinkingWaterProtectedAreasSurfacewater-SHP.zip",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ad9a0959-4c67-484d-9337-58084baf9b20&fileName=DrinkingWaterProtectedAreasSurfacewater-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909500",
+                "description": "DrinkingWaterProtectedAreasSurfacewater-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c2d19b20-ff03-492f-ad7e-1b032a259b26",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.810035",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DrinkingWaterProtectedAreasSurfacewater-TAB.zip",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ad9a0959-4c67-484d-9337-58084baf9b20&fileName=DrinkingWaterProtectedAreasSurfacewater-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909501",
+                "description": "DrWPA_SW_AttributeDescriptions.csv download on Defra Data Services Platform",
+                "format": "CSV",
+                "hash": "",
+                "id": "a042b4a1-6c4b-45d5-b0e9-d4857f7cb10b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.810124",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "DrWPA_SW_AttributeDescriptions.csv",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ad9a0959-4c67-484d-9337-58084baf9b20&fileName=DrWPA_SW_AttributeDescriptions.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909502",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "f3995875-04e1-4773-808e-ac9e8c4617d3",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.810204",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Drinking_Water_Protected_Areas_(Surface Water)_-_Download",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/b4f0e481-f5e3-4421-90b8-5f1cde58eb59?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909502",
+                "description": "Drinking Water Protected Areas (Surface Water) - WMS",
+                "format": "",
+                "hash": "",
+                "id": "bca0855a-73c8-497e-acdd-59b9c9cfecd7",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.810282",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Drinking_Water_Protected_Areas_(Surface Water)_-_WMS",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/drinking-water-protected-areas-surface-water/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909503",
+                "description": "Drinking Water Protected Areas (Surface Water) - WFS",
+                "format": "",
+                "hash": "",
+                "id": "4cec6da8-9c72-45eb-b679-c8935f62357b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.810359",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Drinking_Water_Protected_Areas_(Surface Water)_-_WFS",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/drinking-water-protected-areas-surface-water/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909504",
+                "description": "View Drinking Water Safeguard Zones Map and Action Plans",
+                "format": "",
+                "hash": "",
+                "id": "11bce170-c8bb-4d30-b857-c58671bb36cf",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.810435",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "View Drinking Water Safeguard Zones Map and Action Plans",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 11,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/farmers/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:37.909505",
+                "description": "Drinking Water Protected Areas (Surface Water) - OGC API",
+                "format": "",
+                "hash": "",
+                "id": "d2d78c2a-6297-4a62-91f2-d42580b4decc",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:37.810511",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Drinking_Water_Protected_Areas_(Surface Water)_- OGC API",
+                "package_id": "3d136e9a-78cf-4452-824d-39d715ba5b69",
+                "position": 12,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/drinking-water-protected-areas-surface-water/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Blue Green Alga",
+                "id": "75a5802a-0eaf-4b0f-b3b7-eb0133d41425",
+                "name": "Blue Green Alga",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "agricultural pollution",
+                "id": "7fbf9356-2fd1-4a40-b0a1-f31443b69bf4",
+                "name": "agricultural pollution",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "agriculture",
+                "id": "98023107-863a-446b-befd-9bb4a28b4f8c",
+                "name": "agriculture",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "colour",
+                "id": "1b3c0b71-340f-4084-9403-137e9de6c8c8",
+                "name": "colour",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "drinking water",
+                "id": "27479a51-31d8-4f61-ac15-548ef8580249",
+                "name": "drinking water",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "drinking water protection area",
+                "id": "5be27c54-29d0-431e-b40f-c5dc37701e7f",
+                "name": "drinking water protection area",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "drinking water supply",
+                "id": "8901c7c3-b254-46cf-a073-1967e35636ad",
+                "name": "drinking water supply",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "drinking water treatment",
+                "id": "3bff7d0d-ff2a-49de-8709-864d09dd4b97",
+                "name": "drinking water treatment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environmental impact of agriculture",
+                "id": "0de2f678-f489-475b-a5cc-051e9baadb29",
+                "name": "environmental impact of agriculture",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inlandWaters",
+                "id": "cec0bb77-73e4-4884-a522-2dd31882fe82",
+                "name": "inlandWaters",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "nutrient",
+                "id": "a7a5a8d6-bf58-476d-87b3-e51b8a7c592f",
+                "name": "nutrient",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "nutrient removal",
+                "id": "3c3bf77b-7088-44b1-a882-4457f4ad8550",
+                "name": "nutrient removal",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "persistence of pesticides",
+                "id": "7046a5f7-a9a8-4748-810c-cf72cf366282",
+                "name": "persistence of pesticides",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "pesticide",
+                "id": "d8a88754-dc11-4044-b3ec-5f37132578c7",
+                "name": "pesticide",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "residual pesticide",
+                "id": "5145de75-6252-40db-b077-b5f57ccb3204",
+                "name": "residual pesticide",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "surface water",
+                "id": "b7294ddf-2a0c-4ca5-9a12-42ebca041f54",
+                "name": "surface water",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "urban water supply",
+                "id": "7d7d90f1-9873-4898-a064-653bad5bf3a5",
+                "name": "urban water supply",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "water pollution",
+                "id": "f75eee1d-2c98-4a6d-9534-04349001888a",
+                "name": "water pollution",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "water pollution prevention",
+                "id": "00988750-723e-42c1-bb73-729cfd607ddf",
+                "name": "water pollution prevention",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "water purification",
+                "id": "74dc85bd-5dd6-40f7-8cd7-9913212cba66",
+                "name": "water purification",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "35d87abc-60f1-44de-9740-edd14ecb30cb"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

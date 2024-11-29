@@ -1,0 +1,157 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": false,
+        "creator_user_id": "25a162d9-a128-4572-b683-2ccb15bd9361",
+        "date_released": "2010-06-10",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "geographic_granularity": "point",
+        "id": "cb00827c-4b32-46ac-8bf2-7b4e0e66bc44",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2010-07-30T15:05:56.759932",
+        "metadata_modified": "2017-02-03T14:50:30.779877",
+        "name": "decc-live-energy-data",
+        "notes": "Electricity and gas consumption data for the DECC headquarters building at 3-8 Whitehall Place.  It\u2019s generated in real-time from data taken every 5 seconds from the on-site meters.",
+        "num_resources": 3,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "DECC live data on electricity and gas consumption",
+            "created_at": "2014-10-28T12:25:08Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/5466/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/5466/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "fe347f22-886f-40e1-adf5-0a773afcdae7",
+            "name": "department-of-energy-and-climate-change",
+            "title": "Department of Energy and Climate Change",
+            "type": "organization",
+            "description": "The Department of Energy & Climate Change (DECC) closed in July 2016. DECC worked to make sure the UK has secure, clean, affordable energy supplies and promote international action to mitigate climate change.\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:39.711003",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "fe347f22-886f-40e1-adf5-0a773afcdae7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "temporal_granularity": "5 seconds",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [
+            "Environment"
+        ],
+        "title": "DECC live data on electricity and gas consumption",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "Every five seconds",
+        "url": "http://decc.gov.uk/en/content/cms/about/low_carbon/low_carbon.aspx",
+        "version": null,
+        "extras": [
+            {
+                "key": "categories",
+                "value": ""
+            },
+            {
+                "key": "external_reference",
+                "value": ""
+            },
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "last_major_modification",
+                "value": "2010-08-05T12:22:20.725967"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "DECC Live energy data",
+                "format": "HTML",
+                "id": "1dc2fd49-2b84-4127-b83d-47f7f7bc57f5",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "cb00827c-4b32-46ac-8bf2-7b4e0e66bc44",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://www.carbonculture.net/orgs/decc",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "DECC Gas use",
+                "format": "CSV",
+                "id": "fa851b5c-e940-4ec4-8dff-9f0111b053ba",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "cb00827c-4b32-46ac-8bf2-7b4e0e66bc44",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://data.carbonculture.net/orgs/decc/whitehall-place/reports/gas00.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "DECC Electricity use",
+                "format": "CSV",
+                "id": "d5b8c32b-90b3-4c1f-b532-792d2cb55e32",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "cb00827c-4b32-46ac-8bf2-7b4e0e66bc44",
+                "position": 2,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://data.carbonculture.net/orgs/decc/whitehall-place/reports/elec00.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

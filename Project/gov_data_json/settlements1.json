@@ -1,0 +1,206 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gisteam@wycombe.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "de55a24d-f144-4508-a982-87bbad65d8a8",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-07-22T10:12:23.696682",
+        "metadata_modified": "2018-06-20T09:09:46.300847",
+        "name": "settlements1",
+        "notes": "Urban and rural area settlement areas, and undefined areas in Wycombe District, polygons",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "09b7415e-2528-418e-93c4-f08a95ba8184",
+            "name": "wycombe-district-council",
+            "title": "Wycombe District Council",
+            "type": "organization",
+            "description": "Wycombe District Council",
+            "image_url": "",
+            "created": "2013-02-18T11:33:54.791786",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "09b7415e-2528-418e-93c4-f08a95ba8184",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Settlements",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.662393"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.7833"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.542"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.951662"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2013-12-09T15:23:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "057978b6-09c7-4755-840d-3070f85cc9c9"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "71411c6c-8691-4124-aa10-f3cc8e2d0b1f"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://inspire.astuntechnology.com/wycombe/Settlements.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-06-20"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Wycombe District Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.662393, 51.542],[-0.662393, 51.7833], [-0.951662, 51.7833], [-0.951662, 51.542], [-0.662393, 51.542]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "1a023fa7-18ab-495a-970a-d87d5a70270f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wycombe District Council INSPIRE service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-06-20T10:09:43.140507",
+                "description": "Settlements",
+                "format": "WMS",
+                "hash": "",
+                "id": "0449b292-1a0d-4a41-84d5-031c050cae92",
+                "last_modified": null,
+                "metadata_modified": "2018-06-20T10:09:43.140507",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Settlements View service",
+                "package_id": "de55a24d-f144-4508-a982-87bbad65d8a8",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.wycombe.gov.uk/getows.ashx?Mapsource=Wycombe/Inspire&service=WMS&version=1.1.0&Request=GetCapabilities",
+                "url_type": null,
+                "wms_base_urls": "http://inspire.wycombe.gov.uk/getows.ashx"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-06-20T10:09:43.140536",
+                "description": "Settlements",
+                "format": "",
+                "hash": "",
+                "id": "be42cdb8-a4f4-499f-acd8-6b0eb07869a2",
+                "last_modified": null,
+                "metadata_modified": "2018-06-20T10:09:43.140536",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Settlements Download Service",
+                "package_id": "de55a24d-f144-4508-a982-87bbad65d8a8",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.wycombe.gov.uk/getows.ashx?Mapsource=Wycombe/Inspire&service=WFS&version=1.1.0&Request=GetFeature&TypeName=Settlements",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "71411c6c-8691-4124-aa10-f3cc8e2d0b1f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "1a023fa7-18ab-495a-970a-d87d5a70270f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wycombe District Council INSPIRE service"
+            }
+        ]
+    }
+}

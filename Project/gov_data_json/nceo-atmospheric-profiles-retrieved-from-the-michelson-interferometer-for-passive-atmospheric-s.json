@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "neodc@rl.ac.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "4ee7c66b-1e0e-4342-b0cb-1de0bed9c938",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2016-09-12T09:17:18.078854",
+        "metadata_modified": "2017-07-17T17:50:00.713811",
+        "name": "nceo-atmospheric-profiles-retrieved-from-the-michelson-interferometer-for-passive-atmospheric-s",
+        "notes": "This dataset contains atmospheric profiles from the Michelson Interferometer for Passive Atmospheric Sounding (MIPAS) on Envisat, processed with the Oxford L2 retrieval algorithm MORSE. This differs from the European Space Agency L2 products in that it uses an optimal estimation approach rather than a regularised least squares fit, and has additional molecules. The L1B spectra are made available by ESA approximately 2 weeks after acquisition and L2 processing takes another week or so depending on the number of orbits and observation mode.\n\nThe dataset was produced by Anu Dudhia, University of Oxford and National Centre for Earth Observation (NCEO).\n\nIn the first processing version (v1.00-1.10) the following L2 products are generated: pT, H2O, O3, HNO3, CH4, N2O, NO2 (ie the ESA products), plus CFC-11, CFC-12, ClONO2, N2O5 and CO. However for the Middle Atmosphere (MA) and Upper Atmosphere (UA) mode data, only the ESA products plus CO are produced.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "9ea160c4-4e17-4b49-af74-155c64fa0df6",
+            "name": "centre-for-environmental-data-analysis",
+            "title": "Centre for Environmental Data Analysis",
+            "type": "organization",
+            "description": "The Centre for Environmental Data Analysis (CEDA) serves the environmental science community through four data centres, data analysis environments, and participation in a host of relevant research projects.\r\n\r\nWe aim to support environmental science, further environmental data archival practices, and develop and deploy new technologies to enhance access to data. Additionally we provide services to aid large scale data analysis.\r\n\r\nYou can learn more about our data centres, our data processing services, and project work using the links in the menu above. \r\n\r\nIf you have a particular project or data management issue that you would like to consult CEDA on please contact us and a member of the CEDA team will be happy to assist.\r\n\r\nThe Centre for Environmental Data Analysis, based within the RAL Space department of the Science and Technology Facilities Council's Rutherford Appleton Laboratory, hosts a range of activities associated with environmental data archives. \r\n\r\nThese activities include running a number of key environmental data centres for the environmental research community as well as being in the vanguard of the development of data archival and delivery practices and technologies. ",
+            "image_url": "",
+            "created": "2016-09-07T11:21:57.789587",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9ea160c4-4e17-4b49-af74-155c64fa0df6",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "-"
+        ],
+        "temporal_coverage-to": [
+            "-"
+        ],
+        "theme-primary": "mapping",
+        "theme-secondary": [],
+        "title": "NCEO atmospheric profiles retrieved from the Michelson Interferometer for Passive Atmospheric Sounding (MIPAS) instrument onboard ESA's Envisat satellite",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Restricted; Access groups: mipas_oxford; Licence: http://licences.ceda.ac.uk/image/data_access_condition/mipas_oxford.pdf\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "180.0"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "90.0"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "-90.0"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-180.0"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2010-06-02T13:31:04\"}, {\"type\": \"creation\", \"value\": \"2010-06-02T13:31:04\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "c17dae5d-a3e8-4646-bf41-8f40dccad51c"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b71c05a2-3bd6-47f9-8b4d-861fcc035200"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "c17dae5d-a3e8-4646-bf41-8f40dccad51c"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Restricted; Access groups: mipas_oxford; Licence: http://licences.ceda.ac.uk/image/data_access_condition/mipas_oxford.pdf"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-07-17"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "NERC - Earth Observation Data Centre"
+            },
+            {
+                "key": "resource-type",
+                "value": "series"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NERC - Earth Observation Data Centre (custodian, publisher, distributer, point_of_contact, metadata_owner, curator);  (ceda_officer); University of Oxford (author)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[180.0, -90.0],[180.0, 90.0], [-180.0, 90.0], [-180.0, -90.0], [180.0, -90.0]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0abe2b7a-d5c1-4873-981e-90289db5716c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Centre for Environmental Data Analysis (CEDA)"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-09-12T10:17:18.413028",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "e76fe617-a201-424d-ba02-1a460c099b23",
+                "last_modified": null,
+                "metadata_modified": "2016-09-12T10:17:18.413028",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset Homepage",
+                "package_id": "4ee7c66b-1e0e-4342-b0cb-1de0bed9c938",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://catalogue.ceda.ac.uk/uuid/48bb74ee7cf579712c04be88f3bd5e67",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-09-12T10:17:18.413053",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "90e5ff53-c016-4082-bb94-1f9077cb7e3c",
+                "last_modified": null,
+                "metadata_modified": "2016-09-12T10:17:18.413053",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Information (Oxford website)",
+                "package_id": "4ee7c66b-1e0e-4342-b0cb-1de0bed9c938",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.atm.ox.ac.uk/group/mipas",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b71c05a2-3bd6-47f9-8b4d-861fcc035200"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0abe2b7a-d5c1-4873-981e-90289db5716c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Centre for Environmental Data Analysis (CEDA)"
+            }
+        ]
+    }
+}

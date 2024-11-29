@@ -1,0 +1,221 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@bgs.ac.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "6bba0959-a820-4cff-96c3-3817675b481c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-07-01T15:12:12.522284",
+        "metadata_modified": "2024-11-17T14:06:32.735251",
+        "name": "newgeosure-insurance-product-version-7-2015-3",
+        "notes": "**This dataset has been superseded** The newGeoSure Insurance Product (newGIP) provides the potential insurance risk due to natural ground movement. It incorporates the combined effects of the 6 GeoSure hazards on (low-rise) buildings: landslides, shrink-swell clays, soluble rocks, running sands, compressible ground and collapsible deposits. The newGIP evaluates these hazards using a series of processes including statistical analyses and expert elicitation techniques to create a derived product that can be used for insurance purposes such as identifying and estimating risk and susceptibility. The newGIP is made up of 3 components. 1. Derived Postcode Database (DPD): this dataset contains generalised information at a postcode level and it\u2019s updated on a 6 monthly basis. The DPD is designed to provide a \u2018summary\u2019 value representing the combined effects of the GeoSure dataset across a postcode sector area. This product uses Code-Point\u00ae Open data to relate postcodes to Ordnance Survey grid references. This dataset is available in a range of GIS formats including Access (*.dbf), ArcGIS (*.shp) or MapInfo (*.tab). 2. Unified Hazards (Vector Dataset): This is a detailed vector dataset providing spatial GIS information that can be used for more specific analysis at a higher resolution (e.g. site/address specific at 1:50k resolution). This dataset also has additional attributes outlining the type and scale of the potential hazards at any one location. This dataset is updated with the release of each version of DiGMapGB-50 and is available in a range of GIS formats including ArcGIS (*.shp) or MapInfo (*.tab). 3. Unified Hazards (Gridded Dataset): This dataset consists of a raster grid derived from the vector dataset; however, due to the raster grid format, the grid only carries limited attribution. Data for the newGIP is provided for national coverage across Great Britain. The newGeoSure Insurance Product dataset is produced for use at 1:50 000 scale providing 50 m ground resolution.",
+        "num_resources": 1,
+        "num_tags": 6,
+        "organization": {
+            "id": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+            "name": "british-geological-survey",
+            "title": "British Geological Survey (BGS)",
+            "type": "organization",
+            "description": "A world-leading geoscience centre for survey and monitoring; modelling and research; data and knowledge.\r\n\r\nhttps://www.bgs.ac.uk/home.html\r\n\r\n",
+            "image_url": "2020-08-17-104120.024946BGS-Logo-Pos-RGB-01.png",
+            "created": "2012-06-27T14:50:32.295517",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2015-07-17"
+        ],
+        "title": "newGeoSure Insurance Product version 7 2015.3",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The copyright of materials derived from the British Geological Survey's work is vested in the Natural Environment Research Council [NERC]. No part of this work may be reproduced or transmitted in any form or by any means, or stored in a retrieval system of any nature, without the prior permission of the copyright holder, via the BGS Intellectual Property Rights Manager. Use by customers of information provided by the BGS, is at the customer's own risk. In view of the disparate sources of information at BGS's disposal, including such material donated to BGS, that BGS accepts in good faith as being accurate, the Natural Environment Research Council (NERC) gives no warranty, expressed or implied, as to the quality or accuracy of the information supplied, or to the information's suitability for any use. NERC/BGS accepts no liability whatever in respect of loss, damage, injury or other occurence however caused.\", \"The dataset is made available to external clients under BGS Digital Data Licence terms and conditions. Revert to the IPR Section (iprdigital@bgs.ac.uk) if further advice is required with regard to permitted usage.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.6900"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.8100"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.8800"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.1700"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2015-11\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "biannually"
+            },
+            {
+                "key": "guid",
+                "value": "268a6c43-3b29-12ab-e054-002128a47908"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "8a46bd5c-5a25-4eae-b414-b39b1a1f77e1"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-16"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "British Geological Survey (distributor, pointOfContact, processor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.6900, 49.8800], [-8.1700, 49.8800], [-8.1700, 60.8100], [2.6900, 60.8100], [2.6900, 49.8800]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:06:32.781916",
+                "description": "Resource locator",
+                "format": "HTML",
+                "hash": "",
+                "id": "826f6a5e-cf6f-4829-8dad-7cfe463d20ad",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:06:32.746438",
+                "mimetype": "text/html",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "6bba0959-a820-4cff-96c3-3817675b481c",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.bgs.ac.uk/products/geohazards/geosureInsurance.html",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Insurance",
+                "id": "dd955c93-bb1a-4d1e-acde-b803b4651f60",
+                "name": "Insurance",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NERC_DDC",
+                "id": "d24aa95c-95ee-4ccd-92c6-c26cc7a202b6",
+                "name": "NERC_DDC",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Natural hazards",
+                "id": "1f9e6fcb-516c-4b15-b441-b795fe60c6d5",
+                "name": "Natural hazards",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Risk analysis",
+                "id": "3a724ffe-5d7b-46e1-bb69-f15259bbf66b",
+                "name": "Risk analysis",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Risk management",
+                "id": "4d2ce4fa-8ca8-4a31-b127-661f74f9df5c",
+                "name": "Risk management",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "UK Location (INSPIRE)",
+                "id": "c85133c7-9731-4d66-a60f-b9d46c0f9145",
+                "name": "UK Location (INSPIRE)",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "af65b727-d7cd-4c5d-8943-60e080a26d7c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ]
+    }
+}

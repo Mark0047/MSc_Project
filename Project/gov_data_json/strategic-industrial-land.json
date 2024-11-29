@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "weakei@ealing.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "17a28f76-9b08-4866-a400-039821d66891",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-02-11T13:36:58.054836",
+        "metadata_modified": "2019-12-12T15:20:45.897121",
+        "name": "strategic-industrial-land",
+        "notes": "Strategic Industrial Land in the London Borough of Ealing",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "89383fd4-96d9-4837-8547-f494c952f6b1",
+            "name": "london-borough-of-ealing",
+            "title": "London Borough of Ealing",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-09-10T13:58:09.152984",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "89383fd4-96d9-4837-8547-f494c952f6b1",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2019-08-12"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Strategic Industrial Land",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"non commercial private and research\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.1984405494"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.6725551466"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.4505837551"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.5348968482"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2019-12-05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "abf458b0-a11d-4783-9f04-8275b916c814"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "34f316f8-4c8a-4614-bb4f-170fef5b2395"
+            },
+            {
+                "key": "licence",
+                "value": "[\"non commercial private and research\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-12-12T15:07:03"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "London Borough of Ealing (custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.1984405494, 51.4505837551], [-0.5348968482, 51.4505837551], [-0.5348968482, 51.6725551466], [-0.1984405494, 51.6725551466], [-0.1984405494, 51.4505837551]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "193c0a54-cfaf-4ed2-83ff-3f0a123b6fa4"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Borough of Ealing"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-12T15:20:46.106100",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "2f4036aa-af11-49fd-8faa-8cbad3c2401c",
+                "last_modified": null,
+                "metadata_modified": "2019-12-12T15:20:46.106100",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "17a28f76-9b08-4866-a400-039821d66891",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/london_borough_of_ealing_sil/wms?request=getCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-12T15:20:46.106106",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "973fd19e-8fc6-4bb6-b7a2-399305f8331a",
+                "last_modified": null,
+                "metadata_modified": "2019-12-12T15:20:46.106106",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "17a28f76-9b08-4866-a400-039821d66891",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/london_borough_of_ealing_sil/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Strategic Industrial Land",
+                "id": "95fa939e-62ef-41e1-bccc-9625d2a22d91",
+                "name": "Strategic Industrial Land",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "34f316f8-4c8a-4614-bb4f-170fef5b2395"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "193c0a54-cfaf-4ed2-83ff-3f0a123b6fa4"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Borough of Ealing"
+            }
+        ]
+    }
+}

@@ -1,0 +1,203 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "937d871a-5e45-42da-b6b4-1c1455c335a5",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-11-05T02:30:12.150272",
+        "metadata_modified": "2024-11-17T13:00:41.147610",
+        "name": "parking-services-penalty-charge-notices-current-financial-year",
+        "notes": "This dataset contains transactional penalty charge notice data held in the London Borough of Camden's parking management system; inclusive of penalty charge notices issued by Civil Enforcement Officers on street and those issued by Civil Enforcement Officers via CCTV. Attribution includes contravention code, ticket type, street, parking restriction, vehicle category and status of case.\r\n\r\nWhere possible, the approximate location of the PCN has been captured. The 'Spatial Accuracy' column can be used to determine what level of location has been captured:\r\n\r\nCivil Enforcement Officer GPS Location = the GPS location reported by the CEO's handheld device \r\nFixed CCTV Camera = the location of the CCTV camera, this could be many metres from the vehicle in contravention \r\nUnknown = No location has been captured",
+        "num_resources": 4,
+        "num_tags": 4,
+        "organization": {
+            "id": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+            "name": "london-borough-of-camden",
+            "title": "London Borough of Camden",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:32.040042",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+        "private": false,
+        "state": "active",
+        "title": "Parking Services Penalty Charge Notices Current Financial Year",
+        "type": "dataset",
+        "url": "https://opendata.camden.gov.uk/d/4k7m-4gkk",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2019-10-21"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-11-17"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "opendata.camden.gov.uk"
+            },
+            {
+                "key": "guid",
+                "value": "https://opendata.camden.gov.uk/api/views/4k7m-4gkk"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "eaa31f0b-9d05-4d53-b5c9-753e65fab948"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8a82ef54-e704-498c-b662-141c854a4b5d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Camden Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-05T02:30:12.271682",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "0a5943a8-e89d-4f04-91cc-4c02169377cc",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:28:45.780015",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "937d871a-5e45-42da-b6b4-1c1455c335a5",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/4k7m-4gkk/rows.csv?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-05T02:30:12.271705",
+                "description": null,
+                "format": "RDF",
+                "hash": "",
+                "id": "42a37dae-8280-4282-98fb-25888f1a323c",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:28:45.780129",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "937d871a-5e45-42da-b6b4-1c1455c335a5",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/4k7m-4gkk/rows.rdf?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-05T02:30:12.271714",
+                "description": null,
+                "format": "JSON",
+                "hash": "",
+                "id": "08c09f8b-e539-40bd-a02a-60fad5f819b3",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:28:45.780223",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "937d871a-5e45-42da-b6b4-1c1455c335a5",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/4k7m-4gkk/rows.json?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-05T02:30:12.271723",
+                "description": null,
+                "format": "XML",
+                "hash": "",
+                "id": "ae1a8feb-d410-4cc1-a25e-405b2abe15f0",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:28:45.780314",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "937d871a-5e45-42da-b6b4-1c1455c335a5",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/4k7m-4gkk/rows.xml?accessType=DOWNLOAD",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "contravention",
+                "id": "67334c67-d120-4737-b89f-110af703b184",
+                "name": "contravention",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "parking",
+                "id": "bed04230-3d56-4ab8-8b21-dd9c0d46db4c",
+                "name": "parking",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "parking ticket",
+                "id": "734449f3-6ba9-4171-af28-59527db716c2",
+                "name": "parking ticket",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "pcn",
+                "id": "167a5b83-426c-4519-a62d-a144c492dff7",
+                "name": "pcn",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "eaa31f0b-9d05-4d53-b5c9-753e65fab948"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8a82ef54-e704-498c-b662-141c854a4b5d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Camden Open Data"
+            }
+        ]
+    }
+}

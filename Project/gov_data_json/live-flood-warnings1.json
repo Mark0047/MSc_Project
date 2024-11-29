@@ -1,0 +1,235 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "cd279011-2f2c-4337-a86d-52e96b63b593",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-09-30T10:37:47.031589",
+        "metadata_modified": "2024-06-14T14:44:04.919912",
+        "name": "live-flood-warnings1",
+        "notes": "This record is for Approval for Access product AfA136. Flood Warnings are provided by the constant monitoring of stations and forecasting flooding from rivers or the sea:\n\n- Severe Flood Warning: Severe flooding. Danger to life.\n- Flood Warning: Flooding is expected. Immediate action required.\n- Flood Alert: Flooding is possible. Be prepared.\n- Warning no longer in force: Flood warnings and flood alerts that have been removed in the last 24 hours.\n\nFlood Warnings are available on our website and as a live feed. The live feed provides a summary of flood warnings (Alert, Warning and Severe) that have been issued and are currently in force. The Flood Warnings live feed provides the current status of each flood alert and flood warning area that is in force in England. This data is refreshed every minute within the Environment Agency and presented for external users at 5 minutes intervals. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2022. All rights reserved.",
+        "num_resources": 1,
+        "num_tags": 8,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Live Flood Warnings",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2022-02-09\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "880e471e-d465-11e4-8b54-f0def148f590"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "81baea6a-1cb2-46f7-8680-956293a11044"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:44:04.965007",
+                "description": "Flood Warnings live data feed",
+                "format": "Atom Feed",
+                "hash": "",
+                "id": "350ef82f-5be3-4a7e-aa1a-ff4afe527a9d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:44:04.923959",
+                "mimetype": "application/atom+xml",
+                "mimetype_inner": null,
+                "name": "Flood_Warnings_live_data_feed",
+                "package_id": "cd279011-2f2c-4337-a86d-52e96b63b593",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/cap/flood-alerts.atom",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Flood Warning CAP XML",
+                "id": "c8269d32-a1b7-4b16-93cb-14c32553aede",
+                "name": "Flood Warning CAP XML",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Flood Warnings",
+                "id": "aab508bf-e700-4942-b559-5add403c33c2",
+                "name": "Flood Warnings",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood",
+                "id": "90af076f-75b0-42fc-80aa-ac2ff7993443",
+                "name": "flood",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood forecast",
+                "id": "600b1726-af43-4daf-8bec-96dc5e6b9280",
+                "name": "flood forecast",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flooding",
+                "id": "abf228eb-a27c-4fd0-b66f-a5e84aca9dec",
+                "name": "flooding",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inlandWaters",
+                "id": "cec0bb77-73e4-4884-a522-2dd31882fe82",
+                "name": "inlandWaters",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "oceans",
+                "id": "47b818db-d190-4bbd-a6d1-2c8a5ba70fc4",
+                "name": "oceans",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "69b6900c-e3c7-4196-90d7-02fe21e0b49e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

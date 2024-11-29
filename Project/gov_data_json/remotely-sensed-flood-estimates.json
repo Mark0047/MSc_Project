@@ -1,0 +1,439 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-05-06T12:01:21.793330",
+        "metadata_modified": "2024-06-14T14:49:36.012111",
+        "name": "remotely-sensed-flood-estimates",
+        "notes": "The estimated flood extent is an un-validated raw product often processed rapidly to share with category one partners during an incident. You must refer to the limitations of the data when using this dataset. \n\nThis dataset is a GIS layer which shows raw, unvalidated flood estimates, derived from a variety of remotely sensed data during a flood incident. These extents are best estimates based upon what can be seen in the image at the time of image capture. Remotely sensed imagery can be acquired upon a variety of platforms, including satellite, aircraft and drones at differing resolutions.  \n\nEach estimated flood extent is attributed to describe the source of imagery, resolution and date of acquisition, as well as whether the digitised extent is permanent water, as described in the Ordinance Survey OpenMap Local Surface Water product, or our best estimate of \u2018flood\u2019. During an on-going incident we may produce several extents to assess how water is moving though the environment over a time-series. \n\nEach extent is assessed and validated by Environment Agency Area teams post-incident. This often involves combining the flood estimate with additional sources of information such as rack marks and local community knowledge to produce a single extent that best describes the peak of a flood event. If accepted and verified the flood estimate will be included in our Recorded Flood Outline records.  \n\nOnly once an estimate has been assessed for inclusion in the recorded flood outline will it be added to the remotely sensed flood estimates layer. This layer will be updated in parallel with the recorded flood outlines.  \n\nThe geometry of the remotely sensed flood estimates may not match the recorded flood outlines for a specific event. \n\nLimitations of the data: \n\nAll flood extent mapping is generated from imagery that is a snap-shot in time and is unlikely to represent the extent of peak flood. The extents show flooding to the land and does not necessarily indicate that properties were flooded internally and are therefore not suitable for identifying if an individual property has flooded. \n\nDuring incidents a variety of different satellites and sensors may be used with different qualities and effective resolutions, for example, RADAR data and Optical data. Different sensors will likely produce different outcomes. For example, Optical data of a given resolution will normally show more detail than RADAR data at the same resolution, in part due to the noise inherent in RADAR data. Generally, for RADAR data with a 10-metre pixel resolution, the minimum mappable unit will be about 1000 square metres (clusters of approximately 10 pixels). RADAR data is appropriate for generating an overview of flooding and for estimating flood extent in agricultural settings.  Attribution statement: \u00a9 Environment Agency copyright and/or database right 2016. All rights reserved.",
+        "num_resources": 11,
+        "num_tags": 4,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2013-12-06"
+        ],
+        "temporal_coverage-to": [
+            "2014-03-24"
+        ],
+        "title": "Remotely Sensed Flood Estimates",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2016-05-05\"}, {\"type\": \"revision\", \"value\": \"2023-12-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "irregular"
+            },
+            {
+                "key": "guid",
+                "value": "b0b524f5-254d-462b-ad69-57726dc92891"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "24f10fde-3439-4742-b2c0-f743b19c4f24"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:36.059207",
+                "description": "RemotelySensedFloodEstimates-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "25c7f670-01f4-4c97-8b75-2488048eb778",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:36.022158",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RemotelySensedFloodEstimates-FGDB.zip",
+                "package_id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0e329603-28c2-4c16-a47a-b268cc17efd5&fileName=RemotelySensedFloodEstimates-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:36.059210",
+                "description": "RemotelySensedFloodEstimates-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "66206740-198f-4707-95e1-cb685e1ac516",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:36.022255",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RemotelySensedFloodEstimates-GeoJSON.zip",
+                "package_id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0e329603-28c2-4c16-a47a-b268cc17efd5&fileName=RemotelySensedFloodEstimates-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:36.059211",
+                "description": "RemotelySensedFloodEstimates-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c1f2b467-8947-43a0-92ad-dcd714730367",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:36.022327",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RemotelySensedFloodEstimates-GML.zip",
+                "package_id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0e329603-28c2-4c16-a47a-b268cc17efd5&fileName=RemotelySensedFloodEstimates-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:36.059212",
+                "description": "RemotelySensedFloodEstimates-KML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "2e5846f5-3c6e-4853-ac55-d8f3e363dc6e",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:36.022393",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RemotelySensedFloodEstimates-KML.zip",
+                "package_id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0e329603-28c2-4c16-a47a-b268cc17efd5&fileName=RemotelySensedFloodEstimates-KML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:36.059213",
+                "description": "RemotelySensedFloodEstimates-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3f46975e-51b9-44d3-9d02-d43f82288abc",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:36.022459",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RemotelySensedFloodEstimates-MID_MIF.zip",
+                "package_id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0e329603-28c2-4c16-a47a-b268cc17efd5&fileName=RemotelySensedFloodEstimates-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:36.059214",
+                "description": "RemotelySensedFloodEstimates-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3409990b-0344-4987-aa5b-c9c5d75714a7",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:36.022529",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RemotelySensedFloodEstimates-SHP.zip",
+                "package_id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0e329603-28c2-4c16-a47a-b268cc17efd5&fileName=RemotelySensedFloodEstimates-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:36.059215",
+                "description": "RemotelySensedFloodEstimates-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "ee1aa2f1-d633-43c6-a7a5-a6fd0924f0f6",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:36.022593",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RemotelySensedFloodEstimates-TAB.zip",
+                "package_id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0e329603-28c2-4c16-a47a-b268cc17efd5&fileName=RemotelySensedFloodEstimates-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:36.059216",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "1a9da375-cdac-49af-abbf-433b0ac49eb2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:36.022654",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey Data - Download",
+                "package_id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/b0b524f5-254d-462b-ad69-57726dc92891?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:36.059217",
+                "description": "Remotely Sensed Flood Estimates WMS",
+                "format": "",
+                "hash": "",
+                "id": "4dcf69c0-d5da-47e0-b466-db790e8d0932",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:36.022716",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Remotely Sensed Flood Estimates WMS",
+                "package_id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/remotely-sensed-flood-estimates/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:36.059218",
+                "description": "Remotely Sensed Flood Estimates WFS",
+                "format": "",
+                "hash": "",
+                "id": "d5585883-8649-4d31-993a-28773a5a2011",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:36.022777",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Remotely Sensed Flood Estimates WFS",
+                "package_id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/remotely-sensed-flood-estimates/wfs?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:36.059219",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "c701bfec-f826-4027-bf07-dfd6e5522247",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:36.022838",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "d6c3993c-7d9e-4418-8427-ef5effac1b7e",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/remotely-sensed-flood-estimates/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "GIS digital format",
+                "id": "ff104d23-7af4-49da-a1ed-9a8c7e1fb48c",
+                "name": "GIS digital format",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood",
+                "id": "90af076f-75b0-42fc-80aa-ac2ff7993443",
+                "name": "flood",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flooding",
+                "id": "abf228eb-a27c-4fd0-b66f-a5e84aca9dec",
+                "name": "flooding",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "2e6a9507-873c-41c1-8f2b-1b7016a2567b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

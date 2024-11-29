@@ -1,0 +1,216 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "groundstability@coal.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "a9fb81a4-799d-4e58-a140-1b1025a93d98",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-08-31T16:47:19.859672",
+        "metadata_modified": "2024-06-19T11:14:49.629088",
+        "name": "coal-outcrops",
+        "notes": "Coal outcrops illustrate a location where a workable coal seam is present at or close to the surface. This layer identifies where an underground coal seam reaches rockhead, indicating coal that may have been worked at some time in the past. Whilst this dataset highlights areas of probable underground workings at shallow depth, it may also include areas where the un-viable seams of coal remain. This dataset contains a buffer of 50m on the dip side of the outcrops position as held by the Coal Authority.",
+        "num_resources": 1,
+        "num_tags": 5,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2014-08-14"
+        ],
+        "temporal_coverage-to": [
+            "2014-08-14"
+        ],
+        "title": "Coal Outcrops",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.475924"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.010291"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.766186"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-9.141715"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2014-09-26T00:00:03\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "667c256e0e52ecb42aebfecd1212d9ff3f3ed9c9"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "2e3ff498-cfb5-41be-ac03-f1a992891af5"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-08-26T12:46:36"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "completed"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Coal Authority (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.475924, 49.766186], [-9.141715, 49.766186], [-9.141715, 60.010291], [2.475924, 60.010291], [2.475924, 49.766186]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:49.668784",
+                "description": "Coal Outcrops",
+                "format": "",
+                "hash": "",
+                "id": "8b1339ba-0908-4f2f-bba3-8bda825bb114",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:49.634160",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Coal.Outcrops",
+                "package_id": "a9fb81a4-799d-4e58-a140-1b1025a93d98",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.bgs.ac.uk/arcgis/services/CoalAuthority/coalauthority_specific_risk/MapServer/WMSServer?",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "coal",
+                "id": "18c71358-751b-468a-b17c-1b86f5faad97",
+                "name": "coal",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "coal outcrops",
+                "id": "6ccf055e-89d1-4cf6-b584-b6c3269c1d23",
+                "name": "coal outcrops",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "ground stability",
+                "id": "1335556b-4a77-4bfe-b688-5f44dc23df0e",
+                "name": "ground stability",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mining",
+                "id": "b2836be4-8a8b-4509-8152-c49aab2c65e8",
+                "name": "mining",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mining report",
+                "id": "dda0e76a-765d-4248-83fa-78c7b4bb27bc",
+                "name": "mining report",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "17c0484a-099f-4fb9-851e-a505c54abc57"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

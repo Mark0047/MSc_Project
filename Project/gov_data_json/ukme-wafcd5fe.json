@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "4dcb0f58-4e8d-4e4e-97bc-ff40bc833a42",
+        "metadata_created": "2019-01-23T10:56:16.864941",
+        "metadata_modified": "2019-01-23T10:56:16.864949",
+        "name": "ukme-wafcd5fe",
+        "notes": "Import From UK Metadata Editor",
+        "organization": {
+            "id": "1626f20c-b5fb-4c17-9132-235dfb073f2b",
+            "name": "kettering-borough-council",
+            "title": "Kettering Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-22T16:53:37.452738",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1626f20c-b5fb-4c17-9132-235dfb073f2b",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/1626f20c-b5fb-4c17-9132-235dfb073f2b/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 5,
+            "last_job": {
+                "id": "cc6bcc81-a56c-4cd1-9c4e-bc24e2d3cf36",
+                "created": "2018-12-12 19:05:33.138377",
+                "gather_started": "2018-12-12 19:05:41.990911",
+                "gather_finished": "2018-12-12 19:05:42.337776",
+                "finished": null,
+                "source_id": "4dcb0f58-4e8d-4e4e-97bc-ff40bc833a42",
+                "status": "Finished",
+                "stats": {
+                    "added": 1,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error importing Gemini document\nThe contents of document with GUID 6ae3910a-1c04-4cce-ad29-3c3363d87b8a changed, but the metadata date has not been updated.\nDiff:\n--- \n\n+++ \n\n@@ -1,4 +1,4 @@\n\n-<gmd:MD_Metadata xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n+<gmd:MD_Metadata xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n     <gmd:fileIdentifier>\n         <gco:CharacterString>6ae3910a-1c04-4cce-ad29-3c3363d87b8a</gco:CharacterString>\n     </gmd:fileIdentifier>",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 2
+        }
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "aphaopendata@apha.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "8c4d53bd-b287-4464-88cd-685ec51932f7",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-05-20T13:02:13.950627",
+        "metadata_modified": "2023-11-01T13:28:25.342044",
+        "name": "number-of-confirmed-cases-of-fse-in-domestic-cats-by-year-reported",
+        "notes": "Number of confirmed cases of FSE (Feline Spongiform Ecephalopathy) in domestic cats by year reported. This dataset includes the following fields: Year reported (year case reported to APHA); Number of cases. Please note: this data is available as part of a wider report on TSE surveillance, published on gov.uk. Attribution statement: \u00a9Crown Copyright, APHA 2016",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+            "name": "animal-and-plant-health-agency",
+            "title": "Animal and Plant Health Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2015-02-04T13:40:13.046442",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1988-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2015-12-31"
+        ],
+        "title": "Number of confirmed cases of FSE in domestic cats by year reported",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.86"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.86"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.45"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2016-01-06\"}, {\"type\": \"publication\", \"value\": \"2016-01-06\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "b20d51ce-f4c9-47bc-a8a0-ba49f9bd5320"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "a6174be2-2431-4210-bcd3-22b90ba75398"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Animal & Plant Health Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.86], [-8.45, 49.86], [-8.45, 60.86], [1.78, 60.86], [1.78, 49.86]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "155dcaa5-1587-4af5-b770-c2e07a18163e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "APHA Metadata Catalogue Harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:28:25.375668",
+                "description": "Resource locator",
+                "format": "CSV",
+                "hash": "",
+                "id": "249b26cd-256c-4d41-aa8f-a5c0db636ddc",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:28:25.347687",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "8c4d53bd-b287-4464-88cd-685ec51932f7",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.defra.gov.uk/Agriculture/APHA0005-Confirmed_FSE_Cases_Domestic_Cats_by_year_reported.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "statistics",
+                "id": "8c698bb4-2710-484f-b359-24911320640f",
+                "name": "statistics",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "surveillance",
+                "id": "152602b6-3112-4e17-b994-8b4ff3311969",
+                "name": "surveillance",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c1752100-361b-4e3c-946b-b9be1333fd15"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "155dcaa5-1587-4af5-b770-c2e07a18163e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "APHA Metadata Catalogue Harvest"
+            }
+        ]
+    }
+}

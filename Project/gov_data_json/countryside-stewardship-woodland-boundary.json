@@ -1,0 +1,251 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mapping.geodata@forestry.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "e82b6610-6b3f-4cd2-be7b-33c249f529f6",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-06-09T07:02:28.517202",
+        "metadata_modified": "2024-06-12T22:07:49.724483",
+        "name": "countryside-stewardship-woodland-boundary",
+        "notes": "Countryside Stewardship (CS) was launched in 2015 and is a Rural Development Programme for England (RDPE) grant scheme. It will contribute around \u00a3900 million over six years to help farmers and woodland managers look after the environment.\n\nWoodland is one of the scheme\u2019s priorities and funding is available to:\n\n- create new woodland - support the preparation of management plans\n\n- address tree health issues\n\n- improve existing woodlands\n\nThis dataset contains the scheme or case boundaries that make up the CS applications approved by the Forestry Commission for the 2015 application window.  The data was recorded within the same system as the predecessor to CS, the English Woodland Grant Scheme (EWGS).  Therefore the structure of the data is very similar to that available for EWGS.\n\nFurther information can be found online here:\n\nhttps://www.gov.uk/government/collections/countryside-stewardship-woodland-support\n\nThere are two spatial datasets associated with the 2015 intake of CS.  These represent the Case Boundary - this dataset -  and the Sub-compartments that are encapsulated by a case boundary. Sub-compartments are available as a separate dataset and contain more detail about the grant activity associated with each case.\n\n\nCS 2015 sub-compartments vs case boundaries:\n\nSub-compartments are the smallest mapped unit of grant aided area under the 2015 intake of CS.  Sub-compartments are aggregated up to Case Boundaries, and these boundaries are subsequently used to describe the  overall extent of the 2015 CS case.   A single case represents one application from an applicant for grant aid, and there may be a number of different grant types contained within a single case.\n\nAll boundaries for cases that have been approved (and were not subsequently withdrawn without payment) from the inception of the CS are contained in this dataset.\n\nAttributes:\n\nCaseRef = EWGS Case unique identifier\nPropName = The case name\nFSArea = The Forestry Commission Area who dealt with the case\nCaseType = The case type\nDateApprv = The date the case was approved by the Forestry Commission\nCurrStat = The status of the case at the time the data was created\nAreaHa = Area in hectares of the case Attribution statement: Contains OS data \u00a9 Crown copyright [and database right] [year].",
+        "num_resources": 1,
+        "num_tags": 10,
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005-04-01"
+        ],
+        "temporal_coverage-to": [
+            "2016-03-31"
+        ],
+        "title": "Countryside Stewardship Woodland Boundary",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2016-03-31\"}, {\"type\": \"revision\", \"value\": \"2016-03-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "a07ce015-39dc-475d-b4ad-7e6e0d0b0608"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "606b745b-17ce-4b08-a28d-31604cbd764f"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Contains Forestry Commission information licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Forestry Commission (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-12T22:07:49.780830",
+                "description": "External version on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "a0dba690-6bec-446c-b443-d6c184873c89",
+                "last_modified": null,
+                "metadata_modified": "2024-06-12T22:07:49.729401",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "e82b6610-6b3f-4cd2-be7b-33c249f529f6",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data-forestry.opendata.arcgis.com/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "England",
+                "id": "7af69110-4a85-408d-ae77-82e33b07c0d4",
+                "name": "England",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Felling",
+                "id": "31c304ea-7d54-41fb-a772-fbad749a3d7c",
+                "name": "Felling",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Grant Schemes",
+                "id": "b7d99e3d-e862-4c77-9b94-75f1a9dde47a",
+                "name": "Grant Schemes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "New Planting",
+                "id": "0c0545a5-7157-4cae-9a6d-99b7ad9912bf",
+                "name": "New Planting",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Woodland",
+                "id": "44ddd46e-49a2-4264-8ba4-3a401dd74e1f",
+                "name": "Woodland",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "forestry",
+                "id": "ca41d85e-789b-410e-8c3f-d3c6fa3411d9",
+                "name": "forestry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land use",
+                "id": "4a61c115-d29b-47e2-b16d-d8b12e2862df",
+                "name": "land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "management",
+                "id": "41ab5cba-6e14-46e0-ae2d-410a6767a7e0",
+                "name": "management",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "planning",
+                "id": "d5e3a552-07a7-4262-a38d-337769833bda",
+                "name": "planning",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "6715a221-5be6-4f96-9b45-aaf7d7fa89c2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ]
+    }
+}

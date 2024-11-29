@@ -1,0 +1,310 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "37204a9a-07a7-4c39-9b36-23ac9366a5c9",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2021-04-24T17:20:34.705628",
+        "metadata_modified": "2021-04-24T17:20:34.705634",
+        "name": "osni-open-data-gazetteer-place-names11",
+        "notes": "The Place Names gazetteer contains a geographical index of 336 towns and villages across Northern Ireland. The data was derived from OSNI's 1:250,000 Ireland North mapping. The locations represent the label position on the mapping rather than precise real world position.\nA gazetteer is a geographical index. The Place Names gazetteer contains a list of 336 towns and villages across Northern Ireland. Published here for Open Data. By download or use of this dataset you agree to abide by the LPS Open Government Data Licence.<div><br /></div><div>Please Note for Open Data NI Users: Esri Rest API is not Broken, it will not open on its own in a Web Browser but can be copied and used in Desktop and Webmaps<br /></div>",
+        "num_resources": 6,
+        "num_tags": 10,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "OSNI Open Data - Gazetteer - Place Names",
+        "type": "dataset",
+        "url": "https://osni-spatialni.opendata.arcgis.com/datasets/c116f31b481044769b75377946afa1c2_1",
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "https://osni-spatialni.opendata.arcgis.com/datasets/c116f31b481044769b75377946afa1c2_1"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "070b267b-167f-4e24-8ed4-f2edfc8a0d87"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            },
+            {
+                "key": "identifier",
+                "value": "https://osni-spatialni.opendata.arcgis.com/datasets/c116f31b481044769b75377946afa1c2_1"
+            },
+            {
+                "key": "issued",
+                "value": "2018-11-20"
+            },
+            {
+                "key": "modified",
+                "value": "2020-02-26"
+            },
+            {
+                "key": "spatial_text",
+                "value": "-8.0924,54.0554,-5.3907,55.2205"
+            },
+            {
+                "key": "theme",
+                "value": "[\"geospatial\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-04-20T10:15:31.181864",
+                "datastore_active": false,
+                "description": "",
+                "format": "WMS",
+                "hash": "",
+                "id": "c6ab69dd-3502-41bb-a2d1-5ab8f2ab7442",
+                "last_modified": null,
+                "metadata_modified": "2021-04-20T10:15:31.181864",
+                "mimetype": "application/vnd.ogc.wms_xml",
+                "mimetype_inner": null,
+                "name": "OGC WMS",
+                "package_id": "37204a9a-07a7-4c39-9b36-23ac9366a5c9",
+                "position": 0,
+                "requested": "False",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://services.spatialni.gov.uk/opendata/services/OSNIVector/OSNIOpenData_Gazetteers/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-04-20T10:15:31.181869",
+                "datastore_active": false,
+                "description": "",
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "bf6d5f78-294b-4cf2-849c-f2d23a9d3d9b",
+                "last_modified": null,
+                "metadata_modified": "2021-04-20T10:15:31.181869",
+                "mimetype": "application/vnd.geo+json",
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "37204a9a-07a7-4c39-9b36-23ac9366a5c9",
+                "position": 1,
+                "requested": "True",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://osni-spatialni.opendata.arcgis.com/datasets/c116f31b481044769b75377946afa1c2_1.geojson?outSR=%7B%22latestWkid%22%3A29902%2C%22wkid%22%3A29900%7D",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-04-20T10:15:31.181874",
+                "datastore_active": true,
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "68fa6291-880b-4420-b25c-69fd1725bd3d",
+                "last_modified": null,
+                "metadata_modified": "2021-04-20T10:15:31.181874",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "37204a9a-07a7-4c39-9b36-23ac9366a5c9",
+                "position": 2,
+                "requested": "True",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://osni-spatialni.opendata.arcgis.com/datasets/c116f31b481044769b75377946afa1c2_1.csv?outSR=%7B%22latestWkid%22%3A29902%2C%22wkid%22%3A29900%7D",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-04-20T10:15:31.181876",
+                "datastore_active": false,
+                "description": "",
+                "format": "SHP",
+                "hash": "",
+                "id": "af8370b6-7b0b-493e-af96-f2e02e0e4f85",
+                "last_modified": null,
+                "metadata_modified": "2021-04-20T10:15:31.181876",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "37204a9a-07a7-4c39-9b36-23ac9366a5c9",
+                "position": 3,
+                "requested": "False",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://osni-spatialni.opendata.arcgis.com/datasets/c116f31b481044769b75377946afa1c2_1.zip?outSR=%7B%22latestWkid%22%3A29902%2C%22wkid%22%3A29900%7D",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-04-20T10:15:31.181878",
+                "datastore_active": false,
+                "description": "",
+                "format": "KML",
+                "hash": "",
+                "id": "0e097cc4-42ed-485b-a314-44109e0bc20b",
+                "last_modified": null,
+                "metadata_modified": "2021-04-20T10:15:31.181878",
+                "mimetype": "application/vnd.google-earth.kml+xml",
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "37204a9a-07a7-4c39-9b36-23ac9366a5c9",
+                "position": 4,
+                "requested": "True",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://osni-spatialni.opendata.arcgis.com/datasets/c116f31b481044769b75377946afa1c2_1.kml?outSR=%7B%22latestWkid%22%3A29902%2C%22wkid%22%3A29900%7D",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-04-20T10:15:31.181880",
+                "datastore_active": false,
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "49aa25f1-7307-4544-8be2-4092197ff599",
+                "last_modified": null,
+                "metadata_modified": "2021-04-20T10:15:31.181880",
+                "mimetype": "text/html",
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "37204a9a-07a7-4c39-9b36-23ac9366a5c9",
+                "position": 5,
+                "requested": "False",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://osni-spatialni.opendata.arcgis.com/datasets/c116f31b481044769b75377946afa1c2_1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Administrative",
+                "id": "c711e06c-f00a-47fa-b2a8-54a22e52b015",
+                "name": "Administrative",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LPS",
+                "id": "3f801728-cc2a-49e4-8bce-65a8a8590da0",
+                "name": "LPS",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NI",
+                "id": "0ea44d82-5681-4b3a-bd97-4a711e2a42e5",
+                "name": "NI",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Northern Ireland",
+                "id": "24c60a29-f10f-4579-8dc5-d425ae455b1e",
+                "name": "Northern Ireland",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "OSNI",
+                "id": "615fc2ab-10d1-4591-b983-f17b6272e561",
+                "name": "OSNI",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "OpenData",
+                "id": "6bc85120-d8ca-4fe1-91fa-d1831be59c7d",
+                "name": "OpenData",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Place names",
+                "id": "16a71077-9c85-40b8-997f-af47129f8f70",
+                "name": "Place names",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Places",
+                "id": "55a82f6b-67b3-4982-ba8d-ff92afeee123",
+                "name": "Places",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "SpatialNI",
+                "id": "828b5ffc-be3d-469c-b66b-f496ede9f3ce",
+                "name": "SpatialNI",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "open data",
+                "id": "1a504da1-ad7e-4eac-8da5-fd489a1cf968",
+                "name": "open data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "070b267b-167f-4e24-8ed4-f2edfc8a0d87"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

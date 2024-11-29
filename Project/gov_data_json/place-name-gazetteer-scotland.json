@@ -1,0 +1,188 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "spatialhub@improvementservice.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "4b656c40-af07-49f3-8960-42bf1b05cd44",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-10-21T19:44:43.245433",
+        "metadata_modified": "2024-06-19T11:14:07.119663",
+        "name": "place-name-gazetteer-scotland",
+        "notes": "Place-names represent a fundamental geographical identifier, which also have considerable cultural, historical and linguistic importance. Scotland had a great tradition of publishing descriptive (long-form) gazetteers in the 19th century. \n\nThis dataset is the GIS point format output from a project funded by the Scottish Government in the early 2010s, to create a Definitive Place-Name Gazetteer for Scotland, which helped meet the INSPIRE requirements for a place-name layer. The data also forms the underlying content for the Gazetteer for Scotland web pages: https://www.scottish-places.info/ \n\nIn 2009 a workshop was run in conjunction with the Royal Commission on the Ancient and Historic Monuments of Scotland (RCAHMS) to examine the range of gazetteers in use in Scotland, together with a broad set of requirements. This identified a number of organisations which hold or maintain at least 15 different gazetteers that include geographical names for Scotland. The two most significant gazetteers were the Gazetteer for Scotland and the Ordnance Survey 1:50000 (OS 1:50K) product \u2013 which together form the basis for this dataset. \n\nThe Gazetteer for Scotland is a descriptive gazetteer, with a modest number (22,000) of rich entries, including a textual description and rich feature-typing. At the time of creation, the OS 1:50K gazetteer had long been Ordnance Survey's only place-name gazetteer, used as part of numerous applications.\n\nIt was decided that, for this new 'definitive' place name gazetteer, any named feature could/ should potentially be included, but it was accepted that the list will always be incomplete. \n\nThis dataset could be used (and potentially linked with) other datasets like the Ordnance Survey Open Names, the One Scotland Gazetteer and the Historical Names gazetteer.\n\nThe methodology for this data was a combination of automated and manual editing. Automated methods were used in feature classification and duplicate detection. Manual editing was required both to confirm or provide a feature classification, but also to improve the spatial referencing.\n\nStandards had to be adopted; for example water bodies were spatially located by a point which approximated its centre, while rivers were spatially located at their termination and other liner features by a random point along their length. The former gives a useful spatial reference, the latter in many cases does not.\n\nQuality checking suggests that 95% of points were located to 100m or better, and 5% located to 20m or better. More than 90% of features are classified correctly, on the basis of the evidence available.\n\nCopyrights and acknowledgments. The dataset is (c) Bruce M. Gittings (University of Edinburgh) and the Scottish Government.\n\nThis dataset contains Ordnance Survey data (c) Crown copyright and database right 2010, released by The Secretary of State for Communities and Local Government, April 2010.",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2018-05-15"
+        ],
+        "temporal_coverage-to": [
+            "2118-05-15"
+        ],
+        "title": "Place Name Gazetteer - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Limitations on public access\", \"Use of the data is available to any organisation that is a member of the PSGA (Public Sector Geospatial  Agreement). It is not currently commercially available or accessible to academics.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.32254"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.74784"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.38113"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.02985"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2023-05-26\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "518f7c89-dd22-4615-b252-c3804df304d6"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "29ac6c01-526c-41cc-b320-a1e1703f0f2a"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-15T14:40:17"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Improvement Service (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.32254, 54.38113], [-8.02985, 54.38113], [-8.02985, 60.74784], [0.32254, 60.74784], [0.32254, 54.38113]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:07.145871",
+                "description": "A link to the CKAN metadata record on the Spatial Hub. A direct link to the OGC Web Feature Service and Web Map Service is available here",
+                "format": "",
+                "hash": "",
+                "id": "cbb91419-bea8-499b-8455-2b379e6b1119",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:07.128069",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Place Name Gazetteer - Scotland",
+                "package_id": "4b656c40-af07-49f3-8960-42bf1b05cd44",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.spatialhub.scot/dataset/place_name_gazetteer-is",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Geographical names",
+                "id": "14ee4297-a1ba-4d7f-8beb-da3936b2ea37",
+                "name": "Geographical names",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e6d49cea-3e7a-44f0-ae02-6aa41562bfdb"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

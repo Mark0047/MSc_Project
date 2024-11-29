@@ -1,0 +1,363 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "marine.gis@gov.scot",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "bd973a40-666c-42a2-82e5-dc3f783a39e4",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-12-05T15:51:36.508194",
+        "metadata_modified": "2024-06-19T11:18:37.950696",
+        "name": "predictions-of-river-temperature-and-sensitivity-to-climate-change-in-scotland",
+        "notes": "These layers are the outputs of research which developed a national river temperature model for Scotland capable of predicting both daily maximum river temperature and sensitivity to climate change. The layers show the following:\n\nsummer_max_tw_2015_16 \u2013 Predictions of maximum daily river temperatures for the hottest day between July 2015 and June 2016. \n\nsummer_max_tw_2003 \u2013 Predictions of maximum daily river temperatures for the hottest year in the last 20 years (2003).\n\nsummer_climate_change_sensitivity \u2013 Predictions of the change in river temperature that would result from a 1\u00b0C increase in air temperature.\n\nA fourth layer has been developed to combine the outputs from \u201csummer_max_tw_2003\u201d and \u201csummer_climate_change_sensitivity\u201d into a single layer that can be used to prioritise management where the relative importance of maximum temperature and temperature change are considered to be equal. This was achieved by (1) dividing the predictions of \u2018summer_max_tw_2003\u2019 and \u2018summer_climate_change_sensitivity\u2019 into 5 equal categories between the minimum and maximum observed values (2) assigning these categories a value ranging from 1  (the hottest / most sensitive rivers) to 5 (the coolest / least sensitive rivers) (3) sum the rankings (-1) to produce an overall priority ranking (1:9) where rivers ranked as 1 are the highest priority for management (i.e. high river temperature and high climate sensitivity) and 9 the lowest. \n\nManagement_Priority_Layer \u2013 Management priority on a scale of 1:9 where 1 is the highest priority (i.e. high river temperature and high climate sensitivity) and 9 the lowest.\n\n* Please Note * This layer was derived by the Scottish Government from a licensed dataset. It is not downloadable or routinely available.\n\nThe data can be shared on request if a user provides evidence that they hold a licence from the UK Centre for Ecology and Hydrology (UKCEH) for the 1:50,000 Digital River Network (https://www.ceh.ac.uk/data/15000-watercourse-network)",
+        "num_resources": 8,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2015-07-01"
+        ],
+        "temporal_coverage-to": [
+            "2016-06-30"
+        ],
+        "title": "Predictions of river temperature and sensitivity to climate change in Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"public access limited according to Article 13(1)(e) of the INSPIRE Directive\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.3955078"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.05828"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.52108"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-7.910156"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2017-10-23\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "Not Planned"
+            },
+            {
+                "key": "guid",
+                "value": "Marine_Scotland_FishDAC_1997"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "948e4d50-ab53-4725-b542-dbfbc08cdbf6"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Predictions are plotted on CEH Rivers dataset which is held under license so the underlying dataset cannot be available for download. \\n\\nWhere the predictions are used, reference must be made to the original publication: Jackson, F. L., Fryer, R. J., Hannah, D. M., Millar, C.P., and Malcolm, I. A. (2018) A spatio-temporal statistical model of maximum daily river temperatures to inform the management of Scotland's Atlantic salmon rivers under climate change. Science of The Total Environment., 612, 1543-1558.\", \"The following copyright and acknowledgement should be placed on all copies of information or images derived from the licensed CEH river network data: \\u2018\\u00a9 Scottish Government (Marine Scotland) [Year]. Based on digital spatial data licensed from the Centre for Ecology & Hydrology, \\u00a9 NERC (CEH)' (preceded if appropriate by 'Some features of this map are'). And: 'Contains Ordnance Survey data \\u00a9 Crown copyright and database right [year]'.\\n\\nThe following citation must be included in the reference list of any reports or publications in which the licensed CEH river network data, or derived data, have been used. \\u2018Moore RV, Morris DG and Flavin RW, 1994. Sub-set of UK digital 1:50,000 scale river centre-line network. NERC, Institute of Hydrology, Wallingford.\\u2019\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-02-15"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (pointOfContact, custodian, distributor, originator)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.3955078, 54.52108], [-7.910156, 54.52108], [-7.910156, 61.05828], [-0.3955078, 61.05828], [-0.3955078, 54.52108]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:37.996486",
+                "description": "View summer_max_tw_2015_16 on Marine Scotland Maps portal",
+                "format": "",
+                "hash": "",
+                "id": "710e9edf-177b-412a-8a19-f689e925a463",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:37.963133",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SRTMN - Predictions of maximum daily river temperatures for the hottest day between July 2015 and June 2016",
+                "package_id": "bd973a40-666c-42a2-82e5-dc3f783a39e4",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://marinescotland.atkinsgeospatial.com/nmpi/default.aspx?layers=1576",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:37.996489",
+                "description": "View summer_max_tw_2003 on Marine Scotland Maps portal",
+                "format": "",
+                "hash": "",
+                "id": "eaf85757-e1d8-48d6-96c1-ea80af7e065e",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:37.963227",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SRTMN - Predictions of maximum daily river temperatures for the hottest year in the last 20 years (2003)",
+                "package_id": "bd973a40-666c-42a2-82e5-dc3f783a39e4",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://marinescotland.atkinsgeospatial.com/nmpi/default.aspx?layers=1577",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:37.996490",
+                "description": "View summer_climate_change_sensitivity on Marine Scotland Maps portal",
+                "format": "",
+                "hash": "",
+                "id": "c59dea35-cb3f-4aa4-a3b9-e17670daa2a8",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:37.963314",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SRTMN - Predictions of the change in river temperature that would result from a 1\u00b0C increase in air temperature",
+                "package_id": "bd973a40-666c-42a2-82e5-dc3f783a39e4",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://marinescotland.atkinsgeospatial.com/nmpi/default.aspx?layers=1576",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:37.996491",
+                "description": "SRTMN - Predictions of the change in river temperature that would result from a 1\u00b0C increase in air temperature (hidden when zoomed in past 1:50",
+                "format": "",
+                "hash": "",
+                "id": "c006c548-15e3-4d6e-83a8-3a86caac0afd",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:37.963384",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SRTMN_summer_climate_change_sensitivity",
+                "package_id": "bd973a40-666c-42a2-82e5-dc3f783a39e4",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://msmap1.atkinsgeospatial.com/geoserver/nmpwms/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:37.996492",
+                "description": "SRTMN - Predictions of maximum daily river temperatures for the hottest year in the last 20 years (2003) (hidden when zoomed in past 1:50",
+                "format": "",
+                "hash": "",
+                "id": "f6b2722b-e7f0-457f-9ac7-d3fb82084497",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:37.963450",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SRTMN_summer_max_water_temp_2003",
+                "package_id": "bd973a40-666c-42a2-82e5-dc3f783a39e4",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://msmap1.atkinsgeospatial.com/geoserver/nmpwms/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:37.996493",
+                "description": "SRTMN - Predictions of maximum daily river temperatures for the hottest day between July 2015 and June 2016 (hidden when zoomed in past 1:50",
+                "format": "",
+                "hash": "",
+                "id": "44a77c13-68ae-48fb-b64b-7a5772aa60f4",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:37.963514",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SRTMN_summer_max_water_temp_2015_16",
+                "package_id": "bd973a40-666c-42a2-82e5-dc3f783a39e4",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://msmap1.atkinsgeospatial.com/geoserver/nmpwms/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:37.996494",
+                "description": "View SRTMN_Management_priority_layer on Marine Scotland Maps portal",
+                "format": "",
+                "hash": "",
+                "id": "d0530ad8-f87c-4331-998b-0c821915acf9",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:37.963577",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SRTMN - Management priority on a scale of 1:9 where 1 is highest priority (i.e. high river temperature and high climate sensitivity) and 9 is lowest (hidden when zoomed in past 1:5,000)",
+                "package_id": "bd973a40-666c-42a2-82e5-dc3f783a39e4",
+                "position": 6,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://marinescotland.atkinsgeospatial.com/nmpi/default.aspx?layers=1678",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:37.996495",
+                "description": "SRTMN - Management priority on a scale of 1:9 where 1 is highest priority (i.e. high river temperature and high climate sensitivity) and 9 is lowest (hidden when zoomed in past 1:5",
+                "format": "",
+                "hash": "",
+                "id": "5699773f-b6c1-43f3-ae12-5040ef70bc8a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:37.963639",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SRTMN_Management_priority_layer",
+                "package_id": "bd973a40-666c-42a2-82e5-dc3f783a39e4",
+                "position": 7,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://msmap1.atkinsgeospatial.com/geoserver/nmpwms/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Environment",
+                "id": "db7de4be-adbc-4ab6-9cec-d555c287d2d7",
+                "name": "Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Fisheries and aquaculture",
+                "id": "013565c1-a0ff-4fcc-9dd9-33c881aadc41",
+                "name": "Fisheries and aquaculture",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Hydrography",
+                "id": "a0e3af6e-dcf6-491b-8f22-867c0d62add6",
+                "name": "Hydrography",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "abf82578-6834-415f-b4ca-9fe824784564"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

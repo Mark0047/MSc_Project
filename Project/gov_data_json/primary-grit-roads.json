@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "William.cocodia@lewisham.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "6684f80a-71f4-4c62-877b-7235ca97e3ad",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-01-21T14:05:34.252403",
+        "metadata_modified": "2020-01-22T15:27:37.135781",
+        "name": "primary-grit-roads",
+        "notes": "Primary Grit Priority Roads for Lewisham Borough",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "306b202d-b24d-47b4-8482-985fed1695b8",
+            "name": "london-borough-of-lewisham",
+            "title": "London Borough of Lewisham",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:28:04.669565",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "306b202d-b24d-47b4-8482-985fed1695b8",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Primary Grit Roads",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.1028251692"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.5690677610"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.3465903545"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.2336311296"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2019-04-19\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "58f39f58-5a39-432d-814e-a115ce9ecfa7"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "babc1e46-5d0d-41dc-a93e-b3d778dc61ea"
+            },
+            {
+                "key": "licence",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-12-20T14:51:43"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "London Borough of Lewisham"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "London Borough of Lewisham (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.1028251692, 51.3465903545], [-0.2336311296, 51.3465903545], [-0.2336311296, 51.5690677610], [0.1028251692, 51.5690677610], [0.1028251692, 51.3465903545]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "1dd3f477-2b92-4302-ab46-83894a6785fc"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Borough of Lewisham"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-22T15:27:37.388489",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "32f21357-6045-4620-b90e-636ea6de0a90",
+                "last_modified": null,
+                "metadata_modified": "2020-01-22T15:27:37.388489",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "6684f80a-71f4-4c62-877b-7235ca97e3ad",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/london_borough_of_lewisham_primary_grit_roads/wms?request=getCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-22T15:27:37.388496",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "218f7914-ab71-49fa-8e67-6a0f6a1305d5",
+                "last_modified": null,
+                "metadata_modified": "2020-01-22T15:27:37.388496",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "6684f80a-71f4-4c62-877b-7235ca97e3ad",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/london_borough_of_lewisham_primary_grit_roads/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "road_salt",
+                "id": "383e2503-8455-4992-b0d1-4da58162e2dc",
+                "name": "road_salt",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "transportation_policy",
+                "id": "ea1e11db-03d4-4c59-8672-60023df80e8c",
+                "name": "transportation_policy",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "babc1e46-5d0d-41dc-a93e-b3d778dc61ea"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "1dd3f477-2b92-4302-ab46-83894a6785fc"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Borough of Lewisham"
+            }
+        ]
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@cheshirewestandchester.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "5b3f9b60-9c7f-4105-b492-c05f8c5b9828",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-10-16T20:00:10.803291",
+        "metadata_modified": "2021-09-09T12:07:05.406627",
+        "name": "ps-sd-hbsmrlistedbuildingsnowdelisted-poly-current",
+        "notes": "Historic or architecturally significant buildings formerly designated as Listed Buildings of Special Architectural or Historic Interest under the Planning (Listed Buildings and Conservation Areas) Act 1990. Please note that this data does not contain all formerly listed buildings.",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "b6b50d70-9d5c-4fef-9135-7756cca343c3",
+            "name": "cheshire-west-and-chester-council",
+            "title": "Cheshire West and Chester Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:13.423731",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "b6b50d70-9d5c-4fef-9135-7756cca343c3",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "PS_SD_HBSMRListedBuildingsNowDelisted_POLY_CURRENT",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Ordnance Survey Derived Data\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.8690490695"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.6108401590"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.7549965310"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.2148742648"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2018-03-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "as needed"
+            },
+            {
+                "key": "guid",
+                "value": "705_CWAC"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "567a8d9e-c175-460a-896a-2e7cfd2d6ca7"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-10-16T16:01:51"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Cheshire West and Chester Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.8690490695, 52.7549965310], [-3.2148742648, 52.7549965310], [-3.2148742648, 53.6108401590], [-1.8690490695, 53.6108401590], [-1.8690490695, 52.7549965310]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "7ed417cf-c599-4273-8548-49e2b27328ce"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "cheshirewestandchester-inspire"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-09-09T12:07:05.434134",
+                "description": "WMS (View Service)",
+                "format": "",
+                "hash": "",
+                "id": "ec296ff6-fa57-4319-9e28-77a568a0912d",
+                "last_modified": null,
+                "metadata_modified": "2021-09-09T12:07:05.411539",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "PS_SD_HBSMRListedBuildingsNowDelisted_POLY_CURRENT (WMS)",
+                "package_id": "5b3f9b60-9c7f-4105-b492-c05f8c5b9828",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CWaCOpenData/PS_SD_HBSMRListedBuildingsNowDelisted_POLY_CURRENT/wms?request=GetCapabilities&version=1.1.1&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-09-09T12:07:05.434139",
+                "description": "WFS (Download Service)",
+                "format": "",
+                "hash": "",
+                "id": "76150f27-9fa1-4602-8f4a-1000c788927c",
+                "last_modified": null,
+                "metadata_modified": "2021-09-09T12:07:05.411697",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "PS_SD_HBSMRListedBuildingsNowDelisted_POLY_CURRENT (WFS)",
+                "package_id": "5b3f9b60-9c7f-4105-b492-c05f8c5b9828",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CWaCOpenData/PS_SD_HBSMRListedBuildingsNowDelisted_POLY_CURRENT/wfs?request=Getfeature&TypeName=PS_SD_HBSMRListedBuildingsNowDelisted_POLY_CURRENT&version=1.1.0&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "567a8d9e-c175-460a-896a-2e7cfd2d6ca7"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "7ed417cf-c599-4273-8548-49e2b27328ce"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "cheshirewestandchester-inspire"
+            }
+        ]
+    }
+}

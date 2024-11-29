@@ -1,0 +1,219 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "da88514b-125c-4bff-b83a-1103dfea0c57",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-09-20T13:16:14.107243",
+        "metadata_modified": "2024-11-17T07:00:13.074609",
+        "name": "rainfall-gauge-oakworth9",
+        "notes": "<div style='text-align:Left;'><div><div><p><span>These data were measured using 'industry standard' tipping bucket rain gauges however they should not be considered as necessarily conforming to Met Office standards. Whilst suitable sites were sought, on occasion they were less than ideal locations e.g. at exposed areas, on sites elevated above ground level or too close to walls and trees.</span></p><p><span>These datasets are not complete as most sites were not in continuous operation. Rain gauges were moved between locations and were at times offline This can be for a number of reasons e.g. flat batteries, faulty loggers or intermittent GPRS connectivity. Timestamps are recorded after every 0.2mm of rain and zero or null records not included.</span></p></div></div></div>",
+        "num_resources": 6,
+        "num_tags": 2,
+        "organization": {
+            "id": "636f4913-6fc3-4cda-9770-9dfcf3219583",
+            "name": "city-of-bradford-metropolitan-district-council",
+            "title": "City of Bradford Metropolitan District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-04-23T16:30:54.280822",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "636f4913-6fc3-4cda-9770-9dfcf3219583",
+        "private": false,
+        "state": "active",
+        "title": "Rainfall Gauge Oakworth",
+        "type": "dataset",
+        "url": "https://spatialdata-cbmdc.hub.arcgis.com/datasets/CBMDC::rainfall-gauge-oakworth",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2020-01-24T15:29:25.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2019-12-30T00:00:00.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "City of Bradford Metropolitan District Council"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=c263daba1dbf4d8b94a8b4ffcec025e7&sublayer=11"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T09:02:30.568125",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "ed5ae652-bebe-4752-9ead-db2ae694a002",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T09:02:30.542156",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "da88514b-125c-4bff-b83a-1103dfea0c57",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/datasets/CBMDC::rainfall-gauge-oakworth",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-20T13:16:14.109861",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "5446b985-2fc9-4871-ad7c-3e6c9b027df2",
+                "last_modified": null,
+                "metadata_modified": "2023-09-20T13:16:14.100879",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "da88514b-125c-4bff-b83a-1103dfea0c57",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis.bradford.gov.uk/server/rest/services/Open_Data/Rainfall/MapServer/11",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:17.641372",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "a6722f2a-602c-4e14-8b9e-4a58cb49f44c",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:17.614500",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "da88514b-125c-4bff-b83a-1103dfea0c57",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/c263daba1dbf4d8b94a8b4ffcec025e7/csv?layers=11",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:17.641376",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "e0b084cd-f1da-4080-b1aa-a3423f02c72b",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:17.614606",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "da88514b-125c-4bff-b83a-1103dfea0c57",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/c263daba1dbf4d8b94a8b4ffcec025e7/geojson?layers=11",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:17.641378",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "5c55f559-3c2f-482f-bf12-b4fa71da6b43",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:17.614693",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "da88514b-125c-4bff-b83a-1103dfea0c57",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/c263daba1dbf4d8b94a8b4ffcec025e7/shapefile?layers=11",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:17.641379",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "19bf1900-631b-46b6-885f-8d03bd74d919",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:17.614775",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "da88514b-125c-4bff-b83a-1103dfea0c57",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/c263daba1dbf4d8b94a8b4ffcec025e7/kml?layers=11",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Environment",
+                "id": "db7de4be-adbc-4ab6-9cec-d555c287d2d7",
+                "name": "Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Rain Gauge",
+                "id": "21391699-ffbf-46eb-ae71-54142d4656e1",
+                "name": "Rain Gauge",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "836c7b93-8a21-4300-8309-8d1f946f7ce8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4c44dc41-ce61-434b-a464-97f2717611c2"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "spatialdata-cbmdc"
+            }
+        ]
+    }
+}

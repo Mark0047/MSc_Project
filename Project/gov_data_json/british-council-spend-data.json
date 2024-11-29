@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "8a44a2dd-38df-41ad-910e-7d6962ef830e",
+        "metadata_created": "2019-01-23T11:17:41.818739",
+        "metadata_modified": "2019-01-23T11:17:41.818749",
+        "name": "british-council-spend-data",
+        "notes": "",
+        "organization": {
+            "id": "663002cc-ebd9-4ae7-a46b-6f16e823781c",
+            "name": "british-council",
+            "title": "British Council",
+            "type": "organization",
+            "description": "The British Council is the UK\u2019s international organisation for cultural relations and educational opportunities, building lasting relationships between the UK and other countries. It is an essential part of our international effort to promote British values and interests.\r\n\r\nBritish Council is an executive non-departmental public body of the Foreign & Commonwealth Office\r\n\r\nhttp://www.britishcouncil.org\r\n",
+            "image_url": "",
+            "created": "2012-08-06T16:30:58.884082",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "663002cc-ebd9-4ae7-a46b-6f16e823781c",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "British Council Spend Data",
+        "type": "harvest",
+        "url": "www.britishcouncil.org/organisation/transparency/financial-data/spend-data",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1,
+            "last_job": {
+                "id": "b5dc67a0-14dd-4821-ab29-353355720e9b",
+                "created": "2018-02-09 14:35:57.724065",
+                "gather_started": "2018-02-09 14:36:02.921830",
+                "gather_finished": "2018-02-09 14:36:02.932762",
+                "finished": null,
+                "source_id": "8a44a2dd-38df-41ad-910e-7d6962ef830e",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get WAF content at URL: www.britishcouncil.org/organisation/transparency/financial-data/spend-data: ValueError(u'unknown url type: www.britishcouncil.org/organisation/transparency/financial-data/spend-data',)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

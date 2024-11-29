@@ -1,0 +1,166 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "gis@redcar-cleveland.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "790cf277-01a3-4ebc-a9a1-d69d3fd87377",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-03-30T16:50:29.954591",
+        "metadata_modified": "2023-08-21T12:33:13.009067",
+        "name": "redcar-and-cleveland-borough-landscape-character-tract-units",
+        "notes": "Broad landscape character areas have been identified, and areas designated as sensitive or restoration landscapes by the Council through the Landscape Character SPD (2010). They are a material consideration in the planning process. This spatial dataset represents the total area designated as Landscape Character Tract Units within Redcar and Cleveland.",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "fe8502f2-cfa5-4b91-908b-d6dc726a1e89",
+            "name": "redcar-and-cleveland-borough-council",
+            "title": "Redcar and Cleveland Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-07-16T11:02:33.572574",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "fe8502f2-cfa5-4b91-908b-d6dc726a1e89",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "mapping",
+        "title": "Redcar and Cleveland Borough Council Landscape Character Tract Units",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-23T16:14:22.642660",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "5846f925-07b0-4f98-9608-24c8474bb1fe",
+                "last_modified": null,
+                "metadata_modified": "2021-08-23T16:14:22.564782",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RCBC Inspire WMS Service",
+                "package_id": "790cf277-01a3-4ebc-a9a1-d69d3fd87377",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.redcar-cleveland.gov.uk/geoserver/RCBC_INSPIRE_WMS/wms?service=WMS&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-23T16:14:22.642665",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "3727e618-b6d3-411f-aaf7-b46f1cad681e",
+                "last_modified": null,
+                "metadata_modified": "2021-08-23T16:14:22.564954",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RCBC Inspire WFS Service",
+                "package_id": "790cf277-01a3-4ebc-a9a1-d69d3fd87377",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.redcar-cleveland.gov.uk/geoserver/RCBC_INSPIRE_WFS/wfs?request=getfeature&version=2.0.0&typeName=RCBC_INSPIRE_WFS:RCBC-LANDSCAPE_CHARACTER_TRACT_UNITS&outputformat=GML32",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-08-21T12:20:06.109165",
+                "datafile-date": "2023-08-21",
+                "description": null,
+                "format": "SHP",
+                "hash": "",
+                "id": "489621f4-d729-4b8a-b87c-387a6741e111",
+                "last_modified": null,
+                "metadata_modified": "2023-08-21T12:26:33.637884",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "esri Open Data",
+                "package_id": "790cf277-01a3-4ebc-a9a1-d69d3fd87377",
+                "position": 2,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data-rcbc.opendata.arcgis.com/datasets/4b9924fd60fe4c7e96eaeac4c6d71ffa_0/explore",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "local_authority",
+                "id": "a31ebafd-5175-461f-aa25-47e01486dc33",
+                "name": "local_authority",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "3ac627ea-32c9-4055-a56a-d371bac7a7ea"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "28b550b9-12a8-42b9-8698-ee0aad18d47a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3ac627ea-32c9-4055-a56a-d371bac7a7ea"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "28b550b9-12a8-42b9-8698-ee0aad18d47a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

@@ -1,0 +1,192 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "da79f7da-9eb2-4bc3-9785-f22cecff8c25",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-08-07T12:56:50.525142",
+        "metadata_modified": "2019-08-07T12:56:50.525148",
+        "name": "parking-services",
+        "notes": "shows boundaries and locations of lambeth parking services information",
+        "num_resources": 4,
+        "num_tags": 3,
+        "organization": {
+            "id": "e2f0e3e8-ce81-41c1-a9ab-16d65c6f92c9",
+            "name": "london-borough-of-lambeth",
+            "title": "London Borough of Lambeth",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:50.690510",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "e2f0e3e8-ce81-41c1-a9ab-16d65c6f92c9",
+        "private": false,
+        "state": "active",
+        "title": "Parking Services",
+        "type": "dataset",
+        "url": "http://lambethopenmappingdata-lambethcouncil.opendata.arcgis.com/datasets/e9996e9dbf4a4729bc5116ea56fe6b57",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2015-12-01T14:21:31.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2016-09-28T09:56:01.000Z"
+            },
+            {
+                "key": "guid",
+                "value": "http://lambethopenmappingdata-lambethcouncil.opendata.arcgis.com/datasets/e9996e9dbf4a4729bc5116ea56fe6b57"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ab7a7562-47ea-4daa-9907-bb515861e26d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "b730f0c1-cdb7-4378-9464-628f14dc1c25"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lambeth_Open_Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-08-07T12:56:50.534397",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "c81ef18a-b2c1-41cf-b40c-cdd278ebf79e",
+                "last_modified": null,
+                "metadata_modified": "2019-08-07T12:56:50.534397",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "da79f7da-9eb2-4bc3-9785-f22cecff8c25",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://lambethopenmappingdata-lambethcouncil.opendata.arcgis.com/datasets/e9996e9dbf4a4729bc5116ea56fe6b57",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-08-07T12:56:50.534401",
+                "description": "",
+                "format": "Esri REST",
+                "hash": "",
+                "id": "e015c993-f118-4f88-8ef1-fcb9525b9b4a",
+                "last_modified": null,
+                "metadata_modified": "2019-08-07T12:56:50.534401",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Esri Rest API",
+                "package_id": "da79f7da-9eb2-4bc3-9785-f22cecff8c25",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis.lambeth.gov.uk/arcgis/rest/services/ParkingServices/MapServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-08-07T12:56:50.534403",
+                "description": "",
+                "format": "OGC WFS",
+                "hash": "",
+                "id": "18184d6c-62b0-4632-8356-fd4cb788bf09",
+                "last_modified": null,
+                "metadata_modified": "2019-08-07T12:56:50.534403",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WFS",
+                "package_id": "da79f7da-9eb2-4bc3-9785-f22cecff8c25",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis.lambeth.gov.uk/arcgis/services/ParkingServices/MapServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-08-07T12:56:50.534405",
+                "description": "",
+                "format": "OGC WMS",
+                "hash": "",
+                "id": "d84a48a3-ac09-4fe3-ac82-8d4eda956b04",
+                "last_modified": null,
+                "metadata_modified": "2019-08-07T12:56:50.534405",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WMS",
+                "package_id": "da79f7da-9eb2-4bc3-9785-f22cecff8c25",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis.lambeth.gov.uk/arcgis/services/ParkingServices/MapServer",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "maps",
+                "id": "1c8951a7-f397-43a3-9307-297d57020995",
+                "name": "maps",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "open data",
+                "id": "1a504da1-ad7e-4eac-8da5-fd489a1cf968",
+                "name": "open data",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "parking",
+                "id": "bed04230-3d56-4ab8-8b21-dd9c0d46db4c",
+                "name": "parking",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "ab7a7562-47ea-4daa-9907-bb515861e26d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "b730f0c1-cdb7-4378-9464-628f14dc1c25"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lambeth_Open_Data"
+            }
+        ]
+    }
+}

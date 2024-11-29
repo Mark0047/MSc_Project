@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.services@mail.landregistry.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "c83f57ac-46cb-4d43-8774-ba0aa064b614",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-12-14T12:29:01.034721",
+        "metadata_modified": "2020-12-14T12:29:01.034727",
+        "name": "national-polygon-dataset",
+        "notes": "HM Land Registry\u2019s National Polygon dataset is a subset of HM Land Registry's Index Map containing the freehold and leasehold registration indexing for England and Wales. Every title, whether freehold or leasehold, contains at least one index polygon. The data includes metadata about the polygon and the record status (indicates additions, changes and deletions). The National Polygon dataset along with the Title Descriptor dataset, and the Title Number and UPRN Look Up dataset, comprise the complete National Polygon Service. Index polygon extents are indicative of the title registration, the Title Plan and Title Register should be consulted for full details",
+        "num_resources": 1,
+        "num_tags": 4,
+        "organization": {
+            "id": "531766d9-4ec5-4fd8-bb86-a479a0107254",
+            "name": "land-registry",
+            "title": "HM Land Registry",
+            "type": "organization",
+            "description": "HM Land Registry (HMLR) registers the ownership of land and property in England and Wales. It keeps and maintains the Land Register, where more than 29 million titles (the evidence of ownership) are documented.\r\n\r\nHM Land Registry is an executive agency of the Department for Business, Energy and Industrial Strategy.\r\n\r\nhttps://www.gov.uk/land-registry\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:46.564825",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "531766d9-4ec5-4fd8-bb86-a479a0107254",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2015-11-12"
+        ],
+        "temporal_coverage-to": [],
+        "title": "National Polygon Dataset",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.80"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.84"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.33"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2015-11-12\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "monthly"
+            },
+            {
+                "key": "guid",
+                "value": "2447f4a1-1960-48fc-bc65-d38b33bd7594"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "aba782b6-f304-4b89-a695-f9083801c2fa"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-12-10T09:55:22"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "HM Land Registry (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.84], [-6.33, 49.84], [-6.33, 55.80], [1.78, 55.80], [1.78, 49.84]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "06f1ae16-d9c0-4d3d-948c-af35e2f34f6c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UK Location Metadata Editor"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-12-14T12:29:01.068989",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "f2feee45-a4fc-4485-b23e-4dadaa9c7df2",
+                "last_modified": null,
+                "metadata_modified": "2020-12-14T12:29:01.068989",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Information Service",
+                "package_id": "c83f57ac-46cb-4d43-8774-ba0aa064b614",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://use-land-property-data.service.gov.uk/datasets/nps#polygon",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Index Polygon extents",
+                "id": "b5f99e37-4f7f-431c-a3b9-0adfbf5377a3",
+                "name": "Index Polygon extents",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "National Polygon Service",
+                "id": "d58fc4ee-c5e7-46d7-9d58-fcea5453f635",
+                "name": "National Polygon Service",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Registered Title Extent",
+                "id": "2cfbaa3c-7746-47fc-a576-1234bebcd34c",
+                "name": "Registered Title Extent",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land_and_property_register",
+                "id": "64e1f32a-9f1e-4379-aa0a-5150e0623724",
+                "name": "land_and_property_register",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "aba782b6-f304-4b89-a695-f9083801c2fa"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "06f1ae16-d9c0-4d3d-948c-af35e2f34f6c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UK Location Metadata Editor"
+            }
+        ]
+    }
+}

@@ -1,0 +1,215 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "myoung@east-northamptonshire.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "bf647105-15f3-4d8f-90bc-c8ed9118dea5",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-02-18T18:10:21.528767",
+        "metadata_modified": "2016-02-10T17:01:27.808918",
+        "name": "conservation-areas45",
+        "notes": "Conservation areas within the Borough Council of Wellingborough. Where a conservation has been extended there is more than one occurrence of the same conservation area name. However the second occurrence has a different date of designation and extent.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "4e8038e3-ecb5-4517-80b4-75616fef3902",
+            "name": "wellingborough-borough-council",
+            "title": "Wellingborough Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T12:07:33.991416",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4e8038e3-ecb5-4517-80b4-75616fef3902",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [
+            "Government"
+        ],
+        "title": "Conservation Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Not for commercial use.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.5506896945"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.4154038057"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.1970859800"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.8871459933"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-12-03\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "e9ce4c8f-4bb9-4f2a-bf8b-0a9688a8f7f3"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "31e61eec-9b96-4f4c-8f1f-ab6f28e930e2"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.misoportal.com/metadata/files/Borough_Council_of_Wellingborough/wellingborough_conservation_areas.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Intellectual property rights of Borough Council Wellingborough - http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-02-18"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Borough Council Wellingborough"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Borough Council Wellingborough (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.5506896945, 52.1970859800],[-0.5506896945, 52.4154038057], [-0.8871459933, 52.4154038057], [-0.8871459933, 52.1970859800], [-0.5506896945, 52.1970859800]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "411db792-811c-43b8-bc50-b8925e3d60f5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Borough Council of Wellingborough"
+            }
+        ],
+        "resources": [
+            {
+                "archiver": "{'is_broken_printable': 'Broken', 'updated': '2016-02-06T03:49:49.324136', 'cache_filepath': u'/media/hulk/ckan_resource_cache/3f/3ff40240-22aa-4f0c-b737-7a34088f776a/wms', 'last_success': '2016-01-30T05:39:17.322544', 'size': u'167112', 'is_broken': True, 'failure_count': 1, 'etag': None, 'status': 'Download error', 'url_redirected_to': None, 'hash': u'557fd25d2ff9625484b03b272149176664db3654', 'status_id': 12, 'reason': u\"Connection error: HTTPConnectionPool(host='inspire.misoportal.com', port=80): Max retries exceeded with url: /geoserver/borough_council_of_wellingborough_conservationareas/wms?request=getCapabilities (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb30b54d5d0>, 'Connection to inspire.misoportal.com timed out. (connect timeout=30)'))\", 'last_modified': None, 'resource_timestamp': '2015-02-18T18:10:21.528767', 'mimetype': u'text/xml', 'cache_url': u'http://data.gov.uk/data/resource_cache/3f/3ff40240-22aa-4f0c-b737-7a34088f776a/wms', 'created': '2015-02-18T18:10:33.706120', 'first_failure': '2016-02-06T03:49:49.324136'}",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2015-02-18T18:10:21.589324",
+                "description": "Resource locator",
+                "format": "WMS",
+                "hash": "",
+                "id": "3ff40240-22aa-4f0c-b737-7a34088f776a",
+                "last_modified": null,
+                "metadata_modified": "2015-02-18T18:10:21.589324",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "bf647105-15f3-4d8f-90bc-c8ed9118dea5",
+                "position": 0,
+                "qa": "{'updated': '2016-02-07T01:14:03.256676', 'openness_score': 0, 'archival_timestamp': '2016-02-06T03:49:49.324136', 'format': u'WMS', 'created': '2015-02-18T18:10:37.849593', 'resource_timestamp': None, 'openness_score_reason': u\"File could not be downloaded. Reason: Download error. Error details: Connection error: HTTPConnectionPool(host='inspire.misoportal.com', port=80): Max retries exceeded with url: /geoserver/borough_council_of_wellingborough_conservationareas/wms?request=getCapabilities (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb30b54d5d0>, 'Connection to inspire.misoportal.com timed out. (connect timeout=30)')). Attempted on 06/02/2016. This URL worked the previous time: 30/01/2016.\"}",
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/borough_council_of_wellingborough_conservationareas/wms?request=getCapabilities",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2015-02-18T18:10:21.284094",
+                "wms_base_urls": "http://inspire.misoportal.com:80/geoserver/borough_council_of_wellingborough_conservationareas/ows"
+            },
+            {
+                "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T03:49:49.722619', 'cache_filepath': u'/media/hulk/ckan_resource_cache/dc/dc0980e3-c1e5-4680-99e3-eb7340923837/1123', 'last_success': '2016-02-06T03:49:49.722619', 'size': u'10391', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': u'https://misoportal.com/portal/api/request-licenced-data/1123', 'hash': u'90b851fb31a482d466ebe767320e83093e711d3d', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2015-12-13T11:54:34.339392', 'mimetype': u'text/html', 'cache_url': u'http://data.gov.uk/data/resource_cache/dc/dc0980e3-c1e5-4680-99e3-eb7340923837/1123', 'created': '2015-02-18T18:10:35.902608', 'first_failure': None}",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-02-18T18:10:21.589340",
+                "description": "Resource locator",
+                "format": "HTML",
+                "hash": "",
+                "id": "dc0980e3-c1e5-4680-99e3-eb7340923837",
+                "last_modified": null,
+                "metadata_modified": "2015-02-18T18:10:21.589340",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "bf647105-15f3-4d8f-90bc-c8ed9118dea5",
+                "position": 1,
+                "qa": "{'updated': '2016-02-07T01:14:03.287144', 'openness_score': 0, 'archival_timestamp': '2016-02-06T03:49:49.722619', 'format': u'HTML', 'created': '2015-02-18T18:10:38.259077', 'resource_timestamp': None, 'openness_score_reason': u'Content of file appeared to be format \"HTML\" which receives openness score: 0.'}",
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://misoportal.com/portal/api/request-licenced-data/1123",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "31e61eec-9b96-4f4c-8f1f-ab6f28e930e2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "411db792-811c-43b8-bc50-b8925e3d60f5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Borough Council of Wellingborough"
+            }
+        ]
+    }
+}

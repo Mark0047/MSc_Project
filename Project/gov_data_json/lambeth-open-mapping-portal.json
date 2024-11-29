@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "4e670350-9502-48e3-a7b6-077d27463ef2",
+        "frequency": "MONTHLY",
+        "id": "5a8805dd-e3dc-43c7-b26f-b3ff64c665e1",
+        "metadata_created": "2021-06-02T10:55:00.764751",
+        "metadata_modified": "2021-06-02T10:55:00.764758",
+        "name": "lambeth-open-mapping-portal",
+        "notes": "Lambeth Open Mapping Portal",
+        "organization": {
+            "id": "e2f0e3e8-ce81-41c1-a9ab-16d65c6f92c9",
+            "name": "london-borough-of-lambeth",
+            "title": "London Borough of Lambeth",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:50.690510",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "e2f0e3e8-ce81-41c1-a9ab-16d65c6f92c9",
+        "private": false,
+        "source_type": "ckan",
+        "state": "active",
+        "title": "Lambeth Open Mapping Portal",
+        "type": "harvest",
+        "url": "https://lambethopenmappingdata-lambethcouncil.opendata.arcgis.com/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 42,
+            "last_job": {
+                "id": "3b7b65d7-925b-4d20-9961-ef377988e657",
+                "created": "2024-11-04 20:00:04.173423",
+                "gather_started": "2024-11-04 20:00:04.262970",
+                "gather_finished": "2024-11-04 20:00:04.529769",
+                "finished": "2024-11-04 20:00:04.529769",
+                "source_id": "5a8805dd-e3dc-43c7-b26f-b3ff64c665e1",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to search remote CKAN for datasets:Response from remote CKAN was not JSON: '<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n<meta charset=\"utf-8\">\\n<title>Error</title>\\n</head>\\n<body>\\n<pre>Cannot GET /api/3/action/package_search</pre>\\n</body>\\n</html>\\n' url:https://lambethopenmappingdata-lambethcouncil.opendata.arcgis.comterms:[]",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

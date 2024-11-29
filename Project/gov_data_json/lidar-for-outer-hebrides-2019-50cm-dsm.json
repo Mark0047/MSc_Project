@@ -1,0 +1,241 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "foi@sepa.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "3f787aec-956b-462c-b556-8d66da9ee9b2",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-03-26T13:38:42.431873",
+        "metadata_modified": "2024-06-19T11:20:07.562487",
+        "name": "lidar-for-outer-hebrides-2019-50cm-dsm",
+        "notes": "A lidar survey of the Outer Hebrides was commissioned by the Scottish Environment Protection Agency (SEPA) to improve the topographic data available for modelling coastal and surface water flood risk.  The aerial survey was carried out by Bluesky International Ltd. between June and September 2019.  The point cloud data was captured at 4 points per square metre (ppm) and processed by Bluesky using the OSGM15 geoid model, OSTN15 horizontal transformation and Newlyn datum.  The whole Outer Hebrides survey area had 11 ground control areas with RMSE values from 0.020m to 0.097m.  The data is available as open data under an Open Government Licence.  The 50 cm resolution data covers approximately 1705 km\u00b2 including the area captured at the higher resulition of 25 cm.  This dataset reflects the Digital Surface Model (DSM) produced from the point cloud data.",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2019-06-07"
+        ],
+        "temporal_coverage-to": [
+            "2019-09-21"
+        ],
+        "title": "LiDAR for Outer Hebrides 2019 - 50cm DSM",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: \\u00a9 SEPA (2019).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-5.58"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "59.14"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "56.74"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.88"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2021-04-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "ce2ecec7-bbac-49bf-a3f6-96f813b7691e"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "cf563ba9-153f-4ca3-a37e-ae6af68ad9a7"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-07-12T09:37:37"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Environment Protection Agency"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Environment Protection Agency (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-5.58, 56.74], [-8.88, 56.74], [-8.88, 59.14], [-5.58, 59.14], [-5.58, 56.74]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:20:07.591681",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "3180db99-2335-49c2-aebd-2f1f27d4c031",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:20:07.567885",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "scotland:outer-hebrides-2019-dsm-50cm",
+                "package_id": "3f787aec-956b-462c-b556-8d66da9ee9b2",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://srsp-ows.jncc.gov.uk/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:20:07.591684",
+                "description": "Digital Surface Model (DSM) Download Service",
+                "format": "",
+                "hash": "",
+                "id": "f38536e1-f746-4fde-b3ce-58fe0fa3db27",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:20:07.567981",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Digital Surface Model in GeoTIFF format",
+                "package_id": "3f787aec-956b-462c-b556-8d66da9ee9b2",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://remotesensingdata.gov.scot/data#/list?lidar/outerheb-2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:20:07.591685",
+                "description": "Scottish Remote Sensing Portal",
+                "format": "",
+                "hash": "",
+                "id": "d5fa1720-82ab-4de9-9f73-56920a05d072",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:20:07.568052",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scottish Remote Sensing Portal",
+                "package_id": "3f787aec-956b-462c-b556-8d66da9ee9b2",
+                "position": 2,
+                "resource_locator_function": "search",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://remotesensingdata.gov.scot/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Elevation",
+                "id": "3daf450f-da9b-4dad-a339-66a66856defb",
+                "name": "Elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Orthoimagery",
+                "id": "64b9ed71-3811-4c11-a6eb-fcb262370518",
+                "name": "Orthoimagery",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "1c5294db-5c69-4e54-94f1-53e77619f775"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

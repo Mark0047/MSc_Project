@@ -1,0 +1,345 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data_supply@nature.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "f6b35b73-7504-40b7-aefa-bc77a0cfc5df",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-10-16T17:12:41.286536",
+        "metadata_modified": "2024-06-19T11:21:20.863655",
+        "name": "habmos-mountain-woodland-restoration-projects",
+        "notes": "Polygon dataset providing boundaries of mountain woodland restoration sites. NatureScot has commissioned a new dataset of mountain woodland locations across Scotland; to be used to inform landscape scale restoration, 30x30 goals, Nature Networks, UK and European Reporting and Area based casework, and training data for habitat mapping.\nA total of 128 mountain woodland restoration sites have been compiled across Scotland, covering a total gross area of 10,844 ha. There are a total of 57 sites which contain a component targeting Annex 1 Habitat H4080, 4 sites which contain a component targeting H5130, and 8 sites which target both. Contributing organisations have participated in a purely voluntary capacity and the dataset will therefore not be an absolute list of all restoration work across Scotland. It is recommended that this new dataset is updated every three to five years.\nThis dataset contains the following fields:\nUID: Unique Identifier\nORG: Who was/is responsible for the restoration project\nLOCATION: Name of the geographical area\nSITE_NAME: Unique name for the restoration site\nSTATUS: Current/Proposed/Unknown i.e. an older site which may not have been recently assessed\nAREA: Area of the polygon (in ha), or total area combined if the site is composed of multiple polygons\nFENCED: Yes/No\nPOLY_FENCE: Does the polygon show the location of a fenceline? - Yes - No (within a larger fenced area): the fenced area is larger than the given polygon - No (within a larger proposed fenced area): the proposed fenced area is larger than the given polygon - No (smaller fenced areas are within this larger polygon): the polygon given is the larger restoration project area which contains several smaller unmapped fenced sites - N/A: Area is not fenced\nFENCE_NOTE: Further details on fencing, such as the date installed and the type of fencing\nMANAGEMENT: Fencing/planting/regeneration/low intervention\nTARGET_HAB: General description of the intended habitat as an outcome of restoration management at the site\nEUNIS_2017: Intended habitat type classed using the EUNIS habitat classification given by Strachan (2017)\nEUNIS_2021: Intended habitat type classed using the EUNIS habitat classification revised in 2021\nNVC: Intended habitat type classed using NVC codes given by Averis et al. (2004)\nUK_BAP: Intended habitat type classed using UK Biodiversity Action Plant habitats\nANNEX1: Intended habitat type classed using EU Habitats Directive Annex 1 definitions (if applicable)\nDATE_PLANT: Date or date range when tree planting took place (if applicable)\nTARGET_SP: Tree or shrub species featuring in the restoration project, either by planting and/or as the focus of natural regeneration\nINFO_PLANT: Details on the numbers of trees planted per species (if known).\nSPECIALIST_SP: List of specialist montane scrub species included in the project (if applicable)\nPRO_MS_SP: The provenance of planted arctic-alpine willows (if applicable)\nNOTES_MAN: Any other key management details of the restoration project not already given in previous columns",
+        "num_resources": 8,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "HabMoS - Mountain Woodland - Restoration Projects",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available under the Open Government Licence v3.0 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\", \"Available under the Open Government Licence v3.0 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\", \"Must use the following attribution statement: \\nContains public sector information licensed under the Open Government Licence v3.0.\", \"Must use the following attribution statement: \\nContains public sector information licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.3927"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.587746"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.940575"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-7.348652"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2023-03-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "f72339e7-9e8c-478b-a688-665e66e68397"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ec222e87-e13b-49e1-9162-f0cf3c7bf10f"
+            },
+            {
+                "key": "licence",
+                "value": "[\"No use limitations. Available under the Open Government Licence (https://www.nationalarchives.gov.uk/doc/open-government-licence/)\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-10-16T11:53:49"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (distributor, pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.3927, 54.940575], [-7.348652, 54.940575], [-7.348652, 60.587746], [-1.3927, 60.587746], [-1.3927, 54.940575]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:20.890874",
+                "description": "habitatsandspecies:habmosmw2023rp",
+                "format": "",
+                "hash": "",
+                "id": "a205679f-c386-4904-884b-604cb171b796",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:20.868972",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "habitatsandspecies:habmosmw2023rp",
+                "package_id": "f6b35b73-7504-40b7-aefa-bc77a0cfc5df",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS-1.0.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wfs?request=GetCapabilities&service=wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:20.890876",
+                "description": "habmosmw2023rp",
+                "format": "",
+                "hash": "",
+                "id": "f6f784d6-9a9f-4395-95f4-1cddb0abc550",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:20.869065",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "habmosmw2023rp",
+                "package_id": "f6b35b73-7504-40b7-aefa-bc77a0cfc5df",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:20.890878",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "006dc8b1-6bea-463b-b556-9c848c27c22c",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:20.869136",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI Shapefile (EPSG:27700)",
+                "package_id": "f6b35b73-7504-40b7-aefa-bc77a0cfc5df",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/HABMOS-MW2023-RS_SCOTLAND_SHP_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:20.890878",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c6bf53d8-010a-4229-8420-2d396ae37193",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:20.869203",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI File geodatabase (EPSG:27700)",
+                "package_id": "f6b35b73-7504-40b7-aefa-bc77a0cfc5df",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/HABMOS-MW2023-RS_SCOTLAND_GDB_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:20.890879",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "28378ce1-4b44-47ac-9eed-b6dd76a2061e",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:20.869269",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Geopackage (EPSG:27700)",
+                "package_id": "f6b35b73-7504-40b7-aefa-bc77a0cfc5df",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/HABMOS-MW2023-RS_SCOTLAND_GPKG_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:20.890880",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c3f26152-ca5b-4dae-9f4a-e77420ee7cc8",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:20.869334",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GML (EPSG:4258)",
+                "package_id": "f6b35b73-7504-40b7-aefa-bc77a0cfc5df",
+                "position": 5,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/HABMOS-MW2023-RS_SCOTLAND_GML_4258.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:20.890881",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3fefca66-af3a-4bc9-8b9b-c30dcaaf2ea6",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:20.869398",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoJSON (EPSG:4326)",
+                "package_id": "f6b35b73-7504-40b7-aefa-bc77a0cfc5df",
+                "position": 6,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/HABMOS-MW2023-RS_SCOTLAND_GEOJSON_4326.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:20.890882",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "cea47d52-04ba-4b08-83f9-abd3ca413abf",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:20.869459",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot OpenData Hub",
+                "package_id": "f6b35b73-7504-40b7-aefa-bc77a0cfc5df",
+                "position": 7,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.nature.scot/maps/habmos-mountain-woodland-2023-restoration-sites",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Habitats and biotopes",
+                "id": "a6591241-3108-42a5-b540-46a56883592e",
+                "name": "Habitats and biotopes",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c6d2b9e7-5f05-4af2-9e85-b9a059fca57a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

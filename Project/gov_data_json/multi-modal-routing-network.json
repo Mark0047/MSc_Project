@@ -1,0 +1,201 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "customerservices@os.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "2d37d513-263d-41ba-8b76-d477bacb1c23",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-03-23T14:00:58.176889",
+        "metadata_modified": "2024-10-18T17:00:58.305982",
+        "name": "multi-modal-routing-network",
+        "notes": "The Multi-modal Routing Network is a combination of OS Networks Data including Rail, Paths, Roads and Ferries combined with Modal Change Sites to create a fully topological network to enable routing applications.\n\t\t\t\n\t\t\tThe data is structured in a OpenStreetMap compliant way to enable the data to be used in a wide range of open software.  Data is supplied in both geopackage and Protocolbuffer Binary Format (PBF) the latter of which can be used directly in routing applications however some tailoring will be required to make full use of all of the attribution.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "776f0897-ded1-411a-88c6-e8687ccf3875",
+            "name": "ordnance-survey",
+            "title": "Ordnance Survey",
+            "type": "organization",
+            "description": "Ordnance Survey is Great Britain\u2019s national mapping agency. It carries out the official surveying of GB, providing the most accurate and up-to-date geographic data, relied on by government, business and individuals.\r\n\r\nOS is a government owned company, accountable to Department for Business, Innovation & Skills\r\n\r\nhttps://os.uk/\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:53:10.634259",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "776f0897-ded1-411a-88c6-e8687ccf3875",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1900"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Multi-modal Routing Network",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.79"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.85"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.90"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.655"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2024-03-27\"}, {\"type\": \"revision\", \"value\": \"2024-03-27\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "monthly"
+            },
+            {
+                "key": "guid",
+                "value": "2d7b9e1d-903f-47e5-87f3-12cf987c6c2e"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "23a5359e-bdb7-4f28-9fe6-75cea71a2d7c"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-03-19T15:42:24"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Ordnance Survey"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Ordnance Survey (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.79, 49.90], [-8.655, 49.90], [-8.655, 60.85], [1.79, 60.85], [1.79, 49.90]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/4326"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:58.337033",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "18817d9b-8794-41d2-9360-5e5fa51ed384",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:58.322022",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Product description",
+                "package_id": "2d37d513-263d-41ba-8b76-d477bacb1c23",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://docs.os.uk/osngd/premium-download-products/networks/os-multi-modal-routing-network",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:58.337035",
+                "description": "Sign up for Premium Product download",
+                "format": "",
+                "hash": "",
+                "id": "1d54e854-10bb-4258-967b-c8021850c82f",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:58.322100",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OS DataHub",
+                "package_id": "2d37d513-263d-41ba-8b76-d477bacb1c23",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://osdatahub.os.uk/",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "23a5359e-bdb7-4f28-9fe6-75cea71a2d7c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ]
+    }
+}

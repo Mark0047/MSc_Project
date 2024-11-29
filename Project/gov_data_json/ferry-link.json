@@ -1,0 +1,201 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "customerservices@os.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "6285abbf-05d3-4614-9bff-414f2c6e3e8d",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-09-28T14:31:45.981051",
+        "metadata_modified": "2024-11-05T14:02:16.092305",
+        "name": "ferry-link",
+        "notes": "A Ferry Link is a linear spatial object which represents the connectivity of a vehicular ferry route across a body of water. A Ferry Link will only be captured where both terminals are located within Great Britain and where there is a timetabled service which is available to the public. Ferry routes with a terminal located outside of Great Britain are not captured (for example, Dover to Calais) and neither are ferry routes where the service is not available to the public.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "776f0897-ded1-411a-88c6-e8687ccf3875",
+            "name": "ordnance-survey",
+            "title": "Ordnance Survey",
+            "type": "organization",
+            "description": "Ordnance Survey is Great Britain\u2019s national mapping agency. It carries out the official surveying of GB, providing the most accurate and up-to-date geographic data, relied on by government, business and individuals.\r\n\r\nOS is a government owned company, accountable to Department for Business, Innovation & Skills\r\n\r\nhttps://os.uk/\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:53:10.634259",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "776f0897-ded1-411a-88c6-e8687ccf3875",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1900"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Ferry Link",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"NGD data is available via OS Partners and to PSGA members\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.79"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.85"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.90"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.66"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2022-09-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "daily"
+            },
+            {
+                "key": "guid",
+                "value": "EAID_DB1BCA7E_7E7F_4a0e_91A8_3ED73452E78C"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "63da94fe-eb8f-4840-8208-3c32b424bdc9"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-10-02T14:14:55"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Ordnance Survey"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Ordnance Survey (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.79, 49.90], [-8.66, 49.90], [-8.66, 60.85], [1.79, 60.85], [1.79, 49.90]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-05T14:02:16.113721",
+                "description": "Sign up for API and Select+Build",
+                "format": "",
+                "hash": "",
+                "id": "7fdb9252-eb81-40dd-b909-dbda4d01c367",
+                "last_modified": null,
+                "metadata_modified": "2024-11-05T14:02:16.099158",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OS DataHub",
+                "package_id": "6285abbf-05d3-4614-9bff-414f2c6e3e8d",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://osdatahub.os.uk/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-05T14:02:16.113723",
+                "description": "PSGA product description",
+                "format": "",
+                "hash": "",
+                "id": "d919b4d0-1377-4b0a-8947-9ea7298d06cf",
+                "last_modified": null,
+                "metadata_modified": "2024-11-05T14:02:16.099289",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Product description",
+                "package_id": "6285abbf-05d3-4614-9bff-414f2c6e3e8d",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://docs.os.uk/osngd/data-structure/transport/transport-network/ferry-link",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "dec3011f-96e3-4b42-9f5a-e404712d93cb"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ]
+    }
+}

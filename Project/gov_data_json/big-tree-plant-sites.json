@@ -1,0 +1,265 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "forester.geodata@forestresearch.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "2ad276b4-2b2c-4834-ba15-663c31a852cd",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-02-03T14:39:48.880310",
+        "metadata_modified": "2023-05-23T20:03:47.448720",
+        "name": "big-tree-plant-sites",
+        "notes": "The Big Tree Plant was a national campaign that brought together a partnership of national organisations who already plant trees, as well as civic and community groups working with Defra and the Forestry Commission. It was launched in December 2010 to increase the number of trees  (individual, small groups, street trees and fruit trees) planted in towns, cities and neighbourhoods throughout England. The scheme encouraged and supported people to establish, protect and enhance local green spaces. The Big Tree Plant was supported by a Forestry Commission funding scheme, giving up to \u00a34 million in grants (2011 to 2015) to help pay for the planting of at least one million new trees in urban areas. It aimed to make neighbourhoods more attractive, healthy places to live; particularly in areas of greatest deprivation and/or where there is little greenery.\nThe data is sourced from Groundwork London, the grant administration contractor, and shows the location of each tree planting site. X and Y coordinates were derived from the postcode of each site. 93 of the 4231 site records had been given an invalid postcodes, so the x and y coordinates are 0,0 for those records. \n\nField descriptions: \nX: X coordinate\nY: Y coordinate \nPROPOSED_T: Proposed Tree Entry ID (each site has a unique ID)\nPROJECT_NU: project number\nPOSTCODE: postcode (invalid postcodes included)\nFINANCIAL: financial_year\nNUMBER_OF: number of trees planted at site\nTREE_SIZE: tree size\nSTREET_TRE: number of street trees planted\nFRUIT_TREE: number of fruit trees planted\nSPECIES: species of tree planted\nAPPLICATIO: application status\nORGANISATI: name of organisation.\nAttribution Statement: Contains OS data \u00a9 Crown copyright [and database right] [year].",
+        "num_resources": 1,
+        "num_tags": 12,
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-08-25"
+        ],
+        "temporal_coverage-to": [
+            "2016-08-25"
+        ],
+        "title": "Big Tree Plant Sites",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2016-08-25\"}, {\"type\": \"revision\", \"value\": \"2016-08-25\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "1c4a144d-2400-4918-84e4-3ab73cc83722"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4c879003-3548-478a-a7da-077e76a9dd0f"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Contains Forestry Commission information licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-08-28"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Forestry Commission (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-05-23T20:03:47.520843",
+                "description": "External version on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "18b63506-a9f8-4dc3-bc8d-85694ee72194",
+                "last_modified": null,
+                "metadata_modified": "2023-05-23T20:03:47.461312",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "2ad276b4-2b2c-4834-ba15-663c31a852cd",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data-forestry.opendata.arcgis.com/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Bio-geographical regions",
+                "id": "fcb82298-f96d-4fc5-a465-09011fdd5179",
+                "name": "Bio-geographical regions",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "England",
+                "id": "7af69110-4a85-408d-ae77-82e33b07c0d4",
+                "name": "England",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Grant",
+                "id": "1a60808b-ae5d-4fb2-98a3-a05ee79987bf",
+                "name": "Grant",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Opendata",
+                "id": "24d42bb5-ca44-4a07-8ddf-af6af1edae54",
+                "name": "Opendata",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Planting",
+                "id": "9cd4d4ae-d044-4d59-93b6-2ecae8a8536a",
+                "name": "Planting",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Woodland",
+                "id": "44ddd46e-49a2-4264-8ba4-3a401dd74e1f",
+                "name": "Woodland",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "broad-leaved tree",
+                "id": "12a4c23d-d201-405c-b0f6-f377b0ba8db3",
+                "name": "broad-leaved tree",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "coniferous tree",
+                "id": "af0fde11-e343-41f8-840d-f01f92c072bc",
+                "name": "coniferous tree",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "forestry",
+                "id": "ca41d85e-789b-410e-8c3f-d3c6fa3411d9",
+                "name": "forestry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "fruit tree",
+                "id": "9c4cfc54-5e02-4ba6-b142-9042987942c3",
+                "name": "fruit tree",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "tree",
+                "id": "60dec7e5-4185-4e2c-b80c-9e0490d04cdf",
+                "name": "tree",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "woodland ecosystem",
+                "id": "bef9319a-c2c9-4c61-9694-a8af7532af7b",
+                "name": "woodland ecosystem",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4c879003-3548-478a-a7da-077e76a9dd0f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ]
+    }
+}

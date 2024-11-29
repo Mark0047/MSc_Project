@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@cheshireeast.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "e8fed10f-9577-4866-b9c3-7eda5f54e1ca",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-03-31T09:45:43.927621",
+        "metadata_modified": "2021-09-09T12:07:41.510177",
+        "name": "ps-sd-hbsmrregisteredbattlefieldsnowdedesignated-poly-current1",
+        "notes": "Areas formerly designated as on the Register of Historic Battlefields. ",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+            "name": "cheshire-east-council",
+            "title": "Cheshire East Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T10:02:35.362710",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "PS_SD_HBSMRRegisteredBattlefieldsNowDedesignated_POLY_CURRENT",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Ordnance Survey Derived Data\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.8690490695"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.6108401590"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.7549965310"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.2148742648"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2018-03-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "as needed"
+            },
+            {
+                "key": "guid",
+                "value": "1727_CE"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9e22931b-034a-471b-a8fc-96b969de33ed"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-03-30T11:17:48"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Cheshire East Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.8690490695, 52.7549965310], [-3.2148742648, 52.7549965310], [-3.2148742648, 53.6108401590], [-1.8690490695, 53.6108401590], [-1.8690490695, 52.7549965310]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c2313407-de24-49b2-b652-70156a7f980a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-09-09T12:07:41.539927",
+                "description": "WMS (View Service)",
+                "format": "",
+                "hash": "",
+                "id": "1cdc27ae-28cb-4b0f-a8b3-016066d65b29",
+                "last_modified": null,
+                "metadata_modified": "2021-09-09T12:07:41.515471",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "PS_SD_HBSMRRegisteredBattlefieldsNowDedesignated_POLY_CURRENT (WMS)",
+                "package_id": "e8fed10f-9577-4866-b9c3-7eda5f54e1ca",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CEOpenData/PS_SD_HBSMRRegisteredBattlefieldsNowDedesignated_POLY_CURRENT/wms?request=GetCapabilities&version=1.1.1&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-09-09T12:07:41.539931",
+                "description": "WFS (Download Service)",
+                "format": "",
+                "hash": "",
+                "id": "08726f85-76b3-4efe-83d6-547013cb1c4e",
+                "last_modified": null,
+                "metadata_modified": "2021-09-09T12:07:41.515630",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "PS_SD_HBSMRRegisteredBattlefieldsNowDedesignated_POLY_CURRENT (WFS)",
+                "package_id": "e8fed10f-9577-4866-b9c3-7eda5f54e1ca",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CEOpenData/PS_SD_HBSMRRegisteredBattlefieldsNowDedesignated_POLY_CURRENT/wfs?request=Getfeature&TypeName=PS_SD_HBSMRRegisteredBattlefieldsNowDedesignated_POLY_CURRENT&version=1.1.0&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9e22931b-034a-471b-a8fc-96b969de33ed"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c2313407-de24-49b2-b652-70156a7f980a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ]
+    }
+}

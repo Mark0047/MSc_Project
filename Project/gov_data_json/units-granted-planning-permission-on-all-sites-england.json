@@ -1,0 +1,136 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "ODC@communities.gsi.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "edabdbd6-af0a-4029-97f8-3b4f3286a2ef",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-03-17T13:11:26.881646",
+        "metadata_modified": "2018-02-26T15:11:48.597359",
+        "name": "units-granted-planning-permission-on-all-sites-england",
+        "notes": "This Barbour provided dataset contains quarterly permissions for units granted planning permission in England for the given time period. Data are given as a rolling annual average. \n\nBarbour provide DCLG with up to date statistics on planning, construction, and house building across England to help provide better quality analysis for evidence based policy making under a contract (secured through open tender). The monthly and quarterly permissions are all the projects and units granted planning permission in England for the given time period. \r\n\r\n\r\n Assumptions\r\n\r\n\r\n* Permissions are broken down by size: \u2018major\u2019 and \u2018minor\u2019 with \u2018minor\u2019 being any project with fewer than 10 units. \r\n\r\n* Permissions are only counted if the project has reserved matters or detailed plans granted by the relevant authority. Outline Plans granted are not included.\r\n\r\n* All residential categories are included except elderly person\u2019s homes, hostels, student accommodation and any project with \u2018holiday\u2019 in its heading.\r\n\r\n* Developments only where there is an element of \u2018New Build\u2019 or a conversion into residential.\r\n\r\n* The totals are for England only\r\n\r\n\r\nThe figures exclude any re-permission awarded less than 1 year after any previous permission on a site.\r\n\r\nThis dataset differs from DCLG collected data on planning decisions. The figures collected by the Department are numbers of planning applications submitted to local planning authorities rather than the number of units included in each application.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "state": "active",
+        "theme-primary": "government",
+        "theme-secondary": [
+            "Towns & Cities"
+        ],
+        "title": "Units granted planning permission on all sites, England",
+        "type": "dataset",
+        "url": "http://opendatacommunities.org/data/planning/units-granted-permission/all-sites",
+        "version": null,
+        "extras": [
+            {
+                "key": "contact_email",
+                "value": "ODC@communities.gsi.gov.uk"
+            },
+            {
+                "key": "data_issued",
+                "value": "2016-02-26T16:21:02+00:00"
+            },
+            {
+                "key": "data_modified",
+                "value": "2018-02-02T17:41:21+00:00"
+            },
+            {
+                "key": "dcat_publisher_uri",
+                "value": "http://reference.data.gov.uk/id/department/dclg"
+            },
+            {
+                "key": "dcat_subject",
+                "value": "http://opendatacommunities.org/def/concept/folders/themes/planning http://opendatacommunities.org/def/concept/folders/organisations/department-for-communities-and-local-government"
+            },
+            {
+                "key": "guid",
+                "value": "http://opendatacommunities.org/data/planning/units-granted-permission/all-sites"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "3ba4621e-9245-47b8-8de7-a06ea08cd3b6"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://opendatacommunities.org/data.rdf\", \"harvest_source_type\": \"dcat_rdf\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Open Data Communities\", \"activity_occurred\": \"2018-02-26T15:11:48.531149\", \"activity\": \"harvest\", \"harvested_guid\": \"http://opendatacommunities.org/data/planning/units-granted-permission/all-sites\"}]"
+            },
+            {
+                "key": "metadata_uri",
+                "value": "http://opendatacommunities.org/data/planning/units-granted-permission/all-sites"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-02-26T15:11:48.631335",
+                "description": "",
+                "format": "SPARQL",
+                "hash": "",
+                "id": "9f3cfb7e-e4b0-4161-96d1-ca5051d0af3d",
+                "last_modified": null,
+                "metadata_modified": "2018-02-26T15:11:48.631335",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SPARQL Endpoint",
+                "package_id": "edabdbd6-af0a-4029-97f8-3b4f3286a2ef",
+                "position": 0,
+                "resource_type": "api",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/sparql",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-03-17T13:11:26.925353",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "662af276-e688-4c89-bd86-4629244cf8e1",
+                "last_modified": null,
+                "metadata_modified": "2016-03-17T13:11:26.925353",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset home page",
+                "package_id": "edabdbd6-af0a-4029-97f8-3b4f3286a2ef",
+                "position": 1,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/data/planning/units-granted-permission/all-sites",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "50dbbe7d-02d5-42b6-9352-2c833da7a376",
+        "metadata_created": "2019-01-23T10:57:31.969125",
+        "metadata_modified": "2019-01-23T10:57:31.969132",
+        "name": "cotswold-district-council",
+        "notes": "",
+        "organization": {
+            "id": "043bd82b-429a-476b-b57f-5f4f0543539e",
+            "name": "cotswold-district-council",
+            "title": "Cotswold District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-08-15T15:40:17.876186",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "043bd82b-429a-476b-b57f-5f4f0543539e",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Cotswold District Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/Cotswold_District_Council/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 42,
+            "last_job": {
+                "id": "52367f5a-aa08-44b3-8f4d-143da8c12807",
+                "created": "2021-06-17 15:49:31.092128",
+                "gather_started": "2021-06-17 15:49:31.278059",
+                "gather_finished": "2021-06-17 15:49:31.650700",
+                "finished": "2021-06-18 14:35:15.893309",
+                "source_id": "50dbbe7d-02d5-42b6-9352-2c833da7a376",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 10,
+                    "errored": 12,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 11
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": [
+                    {
+                        "message": "Job timeout: 52367f5a-aa08-44b3-8f4d-143da8c12807 is taking longer than 720 minutes",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 11
+        }
+    }
+}

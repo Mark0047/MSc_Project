@@ -1,0 +1,235 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "llpgqueries@bromsgroveandredditch.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "34a969cd-d30e-4174-939e-214c07653fa0",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-01-30T18:09:04.311867",
+        "metadata_modified": "2020-01-31T16:04:10.041350",
+        "name": "bromsgrove-brownfield-land-register",
+        "notes": "Brownfield sites within the Bromsgrove District Council administrative area",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "93d44489-3643-4d95-a289-2a89d6f08b2f",
+            "name": "bromsgrove-district-council",
+            "title": "Bromsgrove District Council",
+            "type": "organization",
+            "description": "http://www.bromsgrove.gov.uk/cms/default.aspx\r\n",
+            "image_url": "",
+            "created": "2013-11-04T11:10:48.580180",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "93d44489-3643-4d95-a289-2a89d6f08b2f",
+        "private": false,
+        "state": "active",
+        "title": "Bromsgrove Brownfield Land Register",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Public Sector INSPIRE WMS End User Licence - see https://www.ordnancesurvey.co.uk/business-government/licensing-agreements/eu-inspire-end-user-licence\\n\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.843965895704903"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.44489747252948"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.23485011136605"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.166376432615245"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2020-01-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "739fa4e4-4dd5-4c4d-980d-e9811e3bb3e4"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Personal Use Constraints and PSMA Sharing Constraints.\\n\\nThis data is restricted under the OS PSMA - click on download link for data licence \"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-01-30T17:35:38"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Bromsgrove District Council (custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.843965895704903, 52.23485011136605], [-2.166376432615245, 52.23485011136605], [-2.166376432615245, 52.44489747252948], [-1.843965895704903, 52.44489747252948], [-1.843965895704903, 52.23485011136605]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d7a5eb33-8e4a-4b5e-8d22-b75f6e468949"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5d302f08-dcb6-4ded-9a0d-21658384edc8"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Bromsgrove District Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-31T15:52:45.584202",
+                "datafile-date": "2020-01-31",
+                "description": "Resource locator",
+                "format": "WMS",
+                "hash": "",
+                "id": "4be5c086-51af-4749-82ef-9a59eae0faf2",
+                "last_modified": null,
+                "metadata_modified": "2020-01-31T15:52:45.584202",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "34a969cd-d30e-4174-939e-214c07653fa0",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/bromsgrove_district_council_brownfield_sites/wms?request=getCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-31T15:52:45.584211",
+                "datafile-date": "2020-01-31",
+                "description": "Resource locator",
+                "format": "HTML",
+                "hash": "",
+                "id": "1d499af5-427f-4ee7-ac87-b520814a11b1",
+                "last_modified": null,
+                "metadata_modified": "2020-01-31T15:52:45.584211",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "34a969cd-d30e-4174-939e-214c07653fa0",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://misoportal.com/portal/api/request-licenced-data/2844",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-31T16:04:11.113606",
+                "datafile-date": "2020-01-31",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "ed297c47-c647-4a8c-8e36-076bb67b8de2",
+                "last_modified": null,
+                "metadata_modified": "2020-01-31T16:04:11.113606",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "CSV Download",
+                "package_id": "34a969cd-d30e-4174-939e-214c07653fa0",
+                "position": 2,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/csv/files/bromsgrove_district_council/BBLR_2019.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Brownfield",
+                "id": "5f3c50a5-c441-42a6-8faa-c2280f9e1ced",
+                "name": "Brownfield",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d7a5eb33-8e4a-4b5e-8d22-b75f6e468949"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5d302f08-dcb6-4ded-9a0d-21658384edc8"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Bromsgrove District Council"
+            }
+        ]
+    }
+}

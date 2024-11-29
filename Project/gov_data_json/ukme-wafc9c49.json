@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "c9fc3a84-f39c-4c49-b664-eeeaec551440",
+        "metadata_created": "2019-01-23T11:43:18.090599",
+        "metadata_modified": "2024-02-01T14:33:19.516105",
+        "name": "ukme-wafc9c49",
+        "notes": "Import From UK Metadata Editor",
+        "organization": {
+            "id": "40624590-685f-4038-bc99-48cb1f9a723c",
+            "name": "stafford-borough-council",
+            "title": "Stafford Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-28T11:54:46.603802",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "40624590-685f-4038-bc99-48cb1f9a723c",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/40624590-685f-4038-bc99-48cb1f9a723c/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1195,
+            "last_job": {
+                "id": "89a16936-6347-4861-a2fd-b178e111cae2",
+                "created": "2024-11-02 18:00:05.821618",
+                "gather_started": "2024-11-02 18:00:07.488752",
+                "gather_finished": "2024-11-02 18:00:27.514194",
+                "finished": "2024-11-02 18:00:27.514194",
+                "source_id": "c9fc3a84-f39c-4c49-b664-eeeaec551440",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/40624590-685f-4038-bc99-48cb1f9a723c/: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/40624590-685f-4038-bc99-48cb1f9a723c/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb7e44d2810>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 5
+        }
+    }
+}

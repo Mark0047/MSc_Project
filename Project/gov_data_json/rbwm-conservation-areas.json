@@ -1,0 +1,179 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "conservation@rbwm.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "739ffcb2-54ba-49a0-b6ec-b273fe46f20d",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2019-01-09T21:19:11.883680",
+        "metadata_modified": "2019-12-31T11:11:07.325050",
+        "name": "rbwm-conservation-areas",
+        "notes": "The dataset shows the locations of Conservation areas within the Royal Borough of Windsor and Maidenhead that have special architectural and historic interest. Within these areas special planning controls exist which need to be considered when undertaking any development work. Please contact the planning officers for advice.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "b7604054-3122-4f80-8c2f-2a43999af2e8",
+            "name": "royal-borough-of-windsor-and-maidenhead",
+            "title": "Royal Borough of Windsor and Maidenhead",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:37.846768",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "b7604054-3122-4f80-8c2f-2a43999af2e8",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "title": "RBWM Conservation Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no restrictions on public access for this dataset.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.5232238758"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.5766428104"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.3542024183"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.8596801746"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2000-03-10\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "9e7bc398-f77c-4d3d-a2c8-40d01d431500"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/b7604054-3122-4f80-8c2f-2a43999af2e8/159-RBWM_Conservation_Areas.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Ordnance Survey derived data permits use of this data for own personal, non-commercial use (https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html)"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-01-02"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Royal Borough of Windsor and Maidenhead"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Royal Borough of Windsor and Maidenhead (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.5232238758, 51.3542024183],[-0.5232238758, 51.5766428104], [-0.8596801746, 51.5766428104], [-0.8596801746, 51.3542024183], [-0.5232238758, 51.3542024183]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b1364bfd-03ef-46e4-ae5d-3d303f16aa1c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6f13a8e1-766d-485c-b7e6-bd0f6d76f282"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-06T14:34:14.684989",
+                "datafile-date": "2019-12-06",
+                "description": "",
+                "format": "WMS",
+                "hash": "",
+                "id": "81241258-1843-4609-8074-1fc85dc67ddd",
+                "last_modified": null,
+                "metadata_modified": "2019-12-06T14:34:14.684989",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RBWM WMS Serice",
+                "package_id": "739ffcb2-54ba-49a0-b6ec-b273fe46f20d",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://geodata.rbwm.gov.uk/geoserver/wminspire/ows?service=WMS&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b1364bfd-03ef-46e4-ae5d-3d303f16aa1c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6f13a8e1-766d-485c-b7e6-bd0f6d76f282"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

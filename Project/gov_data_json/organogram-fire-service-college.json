@@ -1,0 +1,106 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "20cb3791-3a0e-4582-8981-58ebafe82619",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "0bf2efe9-2976-4002-b866-33ec8c5a1575",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-10-01T01:48:02.838274",
+        "metadata_modified": "2016-10-01T01:48:07.672461",
+        "name": "organogram-fire-service-college",
+        "notes": "Organogram (organisation chart) showing all staff roles. Names and salaries are also listed for the Senior Civil Servants.\r\n\r\nOrganogram data is released by all central government departments and their agencies since 2010. Snapshots for 31st March and 30th September are published by 6th June and 6th December each year. The published data is validated and released in CSV format and OGL-licensed for reuse. For more information about this series, see: http://guidance.data.gov.uk/organogram-data.html",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "865ca7c6-4cce-4632-8851-c6e9b255e560",
+            "name": "fire-service-college",
+            "title": "Fire Service College",
+            "type": "organization",
+            "description": "We specialise in providing dedicated training for fire and rescue services (FRSs), emergency responders and a wide spectrum of commercial and public sector clients globally. Our instructors are current serving fire officers seconded from individual FRSs across the UK. And, as you\u2019d expect, our tutors are professional and technical experts in their chosen fields.\r\n\r\nIn March 2013 the College moved from government ownership to Capita in order to secure future investment.\r\n\r\nhttp://www.fireservicecollege.ac.uk/\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:37.784309",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "865ca7c6-4cce-4632-8851-c6e9b255e560",
+        "private": false,
+        "schema-vocabulary": "d3c0b23f-6979-45e4-88ed-d2ab59b005d0",
+        "state": "active",
+        "temporal_coverage-from": 2010,
+        "theme-primary": "government-spending",
+        "title": "Organogram of Staff Roles & Salaries",
+        "type": "dataset",
+        "update_frequency": "biannually",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "date",
+                "value": "31/03/2012"
+            },
+            {
+                "key": "import_source",
+                "value": "organograms_v2"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T02:48:05.953540",
+                "date": "2012-03-31",
+                "description": "Organogram - Junior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "6b4ac613-1939-4f33-a725-28e2a58d904f",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T02:48:05.953540",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "0bf2efe9-2976-4002-b866-33ec8c5a1575",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/fire-service-college/31/03/2012/the-fire-service-college__31-03-2012__fireservicecollege_31032012-FSC-Organogram-V1-17-May-2012-junior.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T02:48:06.822170",
+                "date": "2012-03-31",
+                "description": "Organogram - Senior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "19671f25-5d4a-4567-b9bd-05daa9eed59d",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T02:48:06.822170",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "0bf2efe9-2976-4002-b866-33ec8c5a1575",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/fire-service-college/31/03/2012/the-fire-service-college__31-03-2012__fireservicecollege_31032012-FSC-Organogram-V1-17-May-2012-senior.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

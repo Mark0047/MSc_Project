@@ -1,0 +1,123 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "14b8a985-fc49-4d3e-947e-b4f12c9bf59b",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2015-08-16T16:01:18.323404",
+        "metadata_modified": "2024-07-06T16:01:11.154692",
+        "name": "free-school-meals",
+        "notes": "Numbers of eligible pupils and the take up of Free School Meals (__FSM__) for Maintained York Local Authority Schools (Excludes dual registered subsidiary pupils). \r\n\r\nAll data is taken from the January School Census and published around April time. Data for Academy schools is not available.\r\n\r\nPlease note that FSM taken data isn\u2019t available in the census data since 2018, and therefore columns relating to FSM taken has been removed from the dataset.\r\n\r\nDue to data protection requirements, we can't publish real values for FSMTotal or FSMTaken when those figures  are < 5. Thus, those values have been converted to 9999.\r\n\r\nIf a cell has no value it means that data is not collected for that field for that specific school.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+            "name": "city-of-york-council",
+            "title": "City of York Council",
+            "type": "organization",
+            "description": "Corporate Open Data platform - http://www.yorkopendata.org/\r\n\r\nCorporate map browser - http://maps.york.gov.uk/localviewexternal/sites/lv/",
+            "image_url": "",
+            "created": "2013-11-25T13:21:35.161579",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+        "private": false,
+        "state": "active",
+        "title": "Free School Meals",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "extras": [
+            {
+                "key": "Schema",
+                "value": "FreeSchoolMeals"
+            },
+            {
+                "key": "UpdateFrequency",
+                "value": "Annual"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4cc6e7f4-8ef0-41ab-9b28-a554cc71312f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-11T15:59:40.759604",
+                "datastore_active": true,
+                "description": "Free School Meals data from 2014 to 2017.\r\n\r\nPlease note that Free School Meals taken data is only partially available in the census data. Data is not available for Academy schools, only for Maintained schools.",
+                "format": "CSV",
+                "hash": "",
+                "id": "03b0ae33-f6fe-4431-94f8-4b811c8921ba",
+                "last_modified": "2023-09-20T10:36:16.459777",
+                "metadata_modified": "2023-09-21T08:17:24.731717",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Free School Meals 2014 - 2017",
+                "package_id": "14b8a985-fc49-4d3e-947e-b4f12c9bf59b",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/14b8a985-fc49-4d3e-947e-b4f12c9bf59b/resource/03b0ae33-f6fe-4431-94f8-4b811c8921ba/download/fsmdetails_2014_2017.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-01-05T12:47:51.302675",
+                "datastore_active": true,
+                "description": "Free School Meals data from 2018 onwards.\r\n\r\nPlease note that Free School Meals (FSM) taken data isn\u2019t available in the census data since 2018, and therefore columns relating to FSM taken has been removed from this dataset.",
+                "format": "CSV",
+                "hash": "",
+                "id": "54cd284a-c7ae-4005-8d16-a01ef1afe856",
+                "last_modified": "2024-07-03T09:55:07.262396",
+                "metadata_modified": "2024-07-06T16:01:11.165433",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Free School Meals 2018 onwards",
+                "package_id": "14b8a985-fc49-4d3e-947e-b4f12c9bf59b",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/14b8a985-fc49-4d3e-947e-b4f12c9bf59b/resource/54cd284a-c7ae-4005-8d16-a01ef1afe856/download/fsmdetails_2018_onwards1.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "850dbb0c-db29-4a41-a27e-fa75bc039d57"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ]
+    }
+}

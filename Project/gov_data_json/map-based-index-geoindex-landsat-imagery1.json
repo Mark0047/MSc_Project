@@ -1,0 +1,246 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@bgs.ac.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "ee5d33d3-e367-4c5e-9676-cb42de98b53d",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-02-18T16:46:29.873364",
+        "metadata_modified": "2020-07-23T12:48:44.119757",
+        "name": "map-based-index-geoindex-landsat-imagery1",
+        "notes": "This layer of the map based index (GeoIndex) shows satellite data at different resolutions depending on the current map scale. At small scales, it is shown in generalised form with each pixel covering 300 metres, and at larger scales it is shown at its actual resolution of 30 metres. The satellite imagery in GeoIndex was acquired by the Landsat Thematic Mapper sensor between 1984 and 1990. The imagery has been processed by the BGS Remote Sensing Section to increase contrast and thus enhance natural boundaries. Winter imagery was chosen due to the low sun angle, which enables geomorphic features on the landscape to be distinguished and interpreted. The colours in the image are not what one would normally expect to see because we have used infrared wavelengths to help us extract more geological information than would be possible if we had used visible bands. To create a single image of the whole country, many smaller images covering different rectangular areas and taken at different dates have been patched together. This will in some cases produce marked changes where the smaller images meet and is due to the different conditions when the images were taken.",
+        "num_resources": 3,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2014"
+        ],
+        "title": "Map based index (GeoIndex) landsat imagery",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"otherRestrictions\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.0000"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.8400"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.7700"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.6500"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2000\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "9df8df53-2a95-37a8-e044-0003ba9b0d98"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "281933a3-8060-4e9b-9b7f-62525f468ab3"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-07-08T09:40:56"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "British Geological Survey (pointOfContact, distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.0000, 49.7700], [-8.6500, 49.7700], [-8.6500, 60.8400], [2.0000, 60.8400], [2.0000, 49.7700]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-23T12:48:44.412589",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "f36cca4f-2306-44a5-8af1-ceea2d40223b",
+                "last_modified": null,
+                "metadata_modified": "2020-07-23T12:48:44.412589",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "TM landsat imagery",
+                "package_id": "ee5d33d3-e367-4c5e-9676-cb42de98b53d",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.bgs.ac.uk/GeoIndex/landsat.htm#landsatTM",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-23T12:48:44.412595",
+                "description": "The wms layer for 'Landsat imagery' is held within the 'Landsat' map theme WMS layer which this URL connects to.",
+                "format": "",
+                "hash": "",
+                "id": "97f02e8e-1c06-4ef6-a51f-1c2595f0d285",
+                "last_modified": null,
+                "metadata_modified": "2020-07-23T12:48:44.412595",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landsat map theme",
+                "package_id": "ee5d33d3-e367-4c5e-9676-cb42de98b53d",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://mapapps2.bgs.ac.uk/ArcGIS/services/GeoIndexLite/landsat/MapServer/WMSServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-23T12:48:44.412598",
+                "description": "The user will need to select 'Map layers' from the top left menu and select the 'TM Landsat grey' or 'TM Landsat colour' check box from the drop down menu to view the data.",
+                "format": "",
+                "hash": "",
+                "id": "51d117fd-1459-4e7a-a2b5-37672cf7fb37",
+                "last_modified": null,
+                "metadata_modified": "2020-07-23T12:48:44.412598",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landsat map theme",
+                "package_id": "ee5d33d3-e367-4c5e-9676-cb42de98b53d",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://mapapps2.bgs.ac.uk/geoindex/home.html?theme=landsat",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Landsat",
+                "id": "0c192fdd-5fdd-40c7-9cdf-939c934f05bf",
+                "name": "Landsat",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NERC_DDC",
+                "id": "d24aa95c-95ee-4ccd-92c6-c26cc7a202b6",
+                "name": "NERC_DDC",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Satellite imagery",
+                "id": "b980bf53-8a06-44c1-8d53-39e8f658a4d6",
+                "name": "Satellite imagery",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "281933a3-8060-4e9b-9b7f-62525f468ab3"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

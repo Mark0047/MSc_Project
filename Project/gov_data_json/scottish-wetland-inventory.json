@@ -1,0 +1,184 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "dataenquiries@sepa.org.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "e3cd6718-84f8-43b8-8f68-84dabb182e82",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2017-02-10T15:15:43.471370",
+        "metadata_modified": "2017-02-10T15:15:46.114029",
+        "name": "scottish-wetland-inventory",
+        "notes": "This data set has been developed by assimilating spatial data from Scottish Natural Heritage. The whole country has not yet been surveyed and as a result the data set only displays known wetlands. The wetland inventory database comprises a number of fields that include the main WFD95 wetland type, the original habitat survey information and whether the wetland polygon is within a statutory designated site. The wetland typology (WFD95) is used as the main identifying field for each polygon in the inventory database.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "environment",
+        "theme-secondary": [],
+        "title": "Scottish Wetland Inventory",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No conditions apply\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.3409470551863546"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.98785056578987"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.41744613745221"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-9.694702212695528"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2014-06-05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "irregular"
+            },
+            {
+                "key": "guid",
+                "value": "fd0773fc-5994-4a5f-9454-b1d1c0c707ff"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "5f6c393f-259c-4747-9f08-83c1944de6a2"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "fd0773fc-5994-4a5f-9454-b1d1c0c707ff"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "No conditions apply"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-02-09"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Environment Protection Agency"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Environment Protection Agency (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.3409470551863546, 54.41744613745221],[-0.3409470551863546, 60.98785056578987], [-9.694702212695528, 60.98785056578987], [-9.694702212695528, 54.41744613745221], [-0.3409470551863546, 54.41744613745221]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "ETRS89 (EPSG:4258)"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-02-10T15:15:43.571292",
+                "description": "This data set has been developed by assimilating spatial data from Scottish Natural Heritage. The whole country has not yet been surveyed and as a result the data set only displays known wetlands. The wetland inventory database comprises a number of fields that include the main WFD95 wetland type, the original habitat survey information and whether the wetland polygon is within a statutory designated site. The wetland typology (WFD95) is used as the main identifying field for each polygon in the inventory database.",
+                "format": "WMS",
+                "hash": "",
+                "id": "fd66599c-1d30-40e1-88f8-76db4468ebe4",
+                "last_modified": null,
+                "metadata_modified": "2017-02-10T15:15:43.571292",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scottish Wetland Inventory",
+                "package_id": "e3cd6718-84f8-43b8-8f68-84dabb182e82",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://map.sepa.org.uk/arcgis/services/WMS_Habitats_and_Biotopes/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null,
+                "wms_base_urls": "http://sgf-sep-app-001/arcgis/services/WMS_Habitats_and_Biotopes/MapServer/WMSServer"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-02-10T15:15:43.571319",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "1a7c16ec-2cbc-4bd0-9777-00ca88af25cf",
+                "last_modified": null,
+                "metadata_modified": "2017-02-10T15:15:43.571319",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "e3cd6718-84f8-43b8-8f68-84dabb182e82",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://map.sepa.org.uk/atom/SEPA_Scottish_Wetlands_Inventory.atom",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

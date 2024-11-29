@@ -1,0 +1,284 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@ros.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "b6c24c13-03c0-428a-b579-36e5b0029b0a",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2013-11-27T10:01:32.523270",
+        "metadata_modified": "2024-08-22T20:09:55.248994",
+        "name": "ros-cadastral-parcels-download-service",
+        "notes": "INSPIRE Cadastral Parcels is a dataset maintained and produced by the Registers of Scotland to comply with the INSPIRE Directive. It is a sub-set of the Cadastral Map and contains the location of ownership polygons at ground level in Scotland. The polygons contained within the dataset are shapes that show the position and indicative extent of ownership of the earth\u2019s surface for each registered property. Each cadastral parcel has a unique identifier called the inspire id that relates to a registered title on Scotland\u2019s Land Register. The extent of rights and land contained within a title registered in the land register cannot be established from the cadastral parcel. This service provides access to each of the 33 Registration Counties as a pre-defined dataset in csv format or as an ATOM feed. For more detailed information on land and property data in Scotland you can search free at https://scotlis.ros.gov.uk/.",
+        "num_resources": 2,
+        "num_tags": 12,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "ROS - Cadastral Parcels Download Service",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on public access\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.2177"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.8433"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.5211"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-9.8018"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"title\": [], \"href\": [\"http://scotgovsdi.edina.ac.uk/srv/en/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=85584261-9f2f-4c2a-ad53-fe0b8e605f28\"], \"uuid\": [\"85584261-9f2f-4c2a-ad53-fe0b8e605f28\"]}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2024-08-21\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "049c1a45-ff5d-49cb-a5c7-0abc812b8e12"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "2b1a7a34-3119-4b26-9c74-5db907d28c6d"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-08-22"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Registers of Scotland (custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.2177, 54.5211], [-9.8018, 54.5211], [-9.8018, 60.8433], [0.2177, 60.8433], [0.2177, 54.5211]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "download"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "OSGB 1936 / British National Grid (EPSG:27700)"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-22T20:09:55.329487",
+                "description": "Registers of Scotland File Download Site",
+                "format": "",
+                "hash": "",
+                "id": "535e85c2-303a-4af0-93b9-5758b4a7f9d3",
+                "last_modified": null,
+                "metadata_modified": "2024-08-22T20:09:55.255565",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "FILE DOWNLOAD SITE",
+                "package_id": "b6c24c13-03c0-428a-b579-36e5b0029b0a",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ros.locationcentre.co.uk/inspire/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-22T20:09:55.329489",
+                "description": "ROS - Cadastral Parcels Download Service (ATOM)",
+                "format": "",
+                "hash": "",
+                "id": "25cd7fde-c085-49f9-9127-bdd0eaf146bc",
+                "last_modified": null,
+                "metadata_modified": "2024-08-22T20:09:55.255676",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RoS ATOM SERVICE",
+                "package_id": "b6c24c13-03c0-428a-b579-36e5b0029b0a",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ros.locationcentre.co.uk/internet/inspireAtomService.aspx?id=KvuAI9BV6i4~",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "ATOM",
+                "id": "fa5dbdc0-640e-4dcb-89bd-bcb6a0cb5716",
+                "name": "ATOM",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Cadastral parcels",
+                "id": "73e219cb-0029-416b-b481-c97cb5d8fb30",
+                "name": "Cadastral parcels",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Download",
+                "id": "49bd32ae-9f41-4178-bd97-eb90281c8ec9",
+                "name": "Download",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land Register",
+                "id": "0d3e4997-b11d-4aee-ae9f-6c4f439fc81a",
+                "name": "Land Register",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Ownership",
+                "id": "e4be7afc-86e7-4f50-82b0-9d66d34b9d26",
+                "name": "Ownership",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Planning",
+                "id": "f015a039-1856-4f51-bbfe-e4df359b7239",
+                "name": "Planning",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "ROS",
+                "id": "467c3e1a-7a18-4a18-823e-07e96e6adf6b",
+                "name": "ROS",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Registers of Scotland",
+                "id": "021df1b9-c7fd-4d8d-b814-d12454e3421c",
+                "name": "Registers of Scotland",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Service",
+                "id": "acb9e665-4df4-4975-b36b-7cd3d8ab04b3",
+                "name": "Service",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Title",
+                "id": "1e769f05-fb6e-436c-8d96-4531a0b61156",
+                "name": "Title",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "United Kingdom",
+                "id": "3699e403-e19a-4817-bc51-1ccd042591e3",
+                "name": "United Kingdom",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "comTransferService",
+                "id": "a5af11c5-f51d-4e5d-9839-d69205da53e8",
+                "name": "comTransferService",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8b13ce6b-5708-46f8-b59f-d536a467d15c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

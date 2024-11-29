@@ -1,0 +1,144 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "3b68c63d-e947-496a-8aaf-4db6fa25fd06",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-03-31T09:37:29.550152",
+        "metadata_modified": "2023-09-28T08:12:20.046742",
+        "name": "lighting-assets",
+        "notes": "The data subsets contain information on the location of street lights that are maintained by DfI Roads.  ",
+        "num_resources": 2,
+        "num_tags": 4,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "Street Lighting Assets",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-06-30T17:31:14.907518",
+                "datastore_active": false,
+                "description": "This layer shows all street lighting column locations throughout Northern Ireland",
+                "format": "XML",
+                "hash": "",
+                "id": "369836ff-7139-4a4b-9730-36f6fed59395",
+                "last_modified": null,
+                "metadata_modified": "2023-09-20T22:19:39.404177",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "All Street Lighting Columns (NI)",
+                "package_id": "3b68c63d-e947-496a-8aaf-4db6fa25fd06",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://dfi.highway-iams.uk/OpenData//Street Lighting Assets.xml",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-06-30T17:32:05.187735",
+                "datastore_active": true,
+                "description": "This layer shows all street lighting column locations throughout Northern Ireland",
+                "format": "CSV",
+                "hash": "",
+                "id": "11bd3b3b-1a92-4be4-96a1-cf364e0697c9",
+                "last_modified": null,
+                "metadata_modified": "2023-09-20T22:19:39.404309",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "All Street Lighting Columns (NI)",
+                "package_id": "3b68c63d-e947-496a-8aaf-4db6fa25fd06",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://dfi.highway-iams.uk/OpenData//Street Lighting Assets.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Assets",
+                "id": "a8b29560-e636-4a34-b43d-0847b065db76",
+                "name": "Assets",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "DRD",
+                "id": "6f3fe3f6-5950-47f6-9c1f-04e0964eeb21",
+                "name": "DRD",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Lighting",
+                "id": "7361322e-bee1-4023-8ada-c05fc23f1ad6",
+                "name": "Lighting",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Street",
+                "id": "eeb60da9-5f6c-495e-949a-f60118433e1d",
+                "name": "Street",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "392e4402-c060-4627-99e0-ee7828dc8886"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "2a60ccfc-52ab-47c7-8141-89d4086ee132"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

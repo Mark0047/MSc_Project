@@ -1,0 +1,230 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mapping.geodata@forestry.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "06b55cc6-99dd-47b7-a133-5316a85d92ba",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-06-10T10:03:03.020670",
+        "metadata_modified": "2024-06-12T22:08:10.920574",
+        "name": "managed-woodland-headline-performance-indicator-england-31-march-2016",
+        "notes": "This data is the source dataset for the Forestry Commissions Headline Performance\nIndicator: 'Percentage of woodland in active management (including the Public Forest\nEstate)'.\n\nThis Indicator forms part of the Forestry Commissions Corporate Plan Performance\nIndicators and Woodland Indicators 2016/17.\n\nThis FC website gives more information about the Performance Indicators:\nhttp://www.forestry.gov.uk/website/forestry.nsf/byunique/infd-8kmhu6\n\nFor the purposes of the corporate indicator, 'Actively Managed\u2019 woodland is currently defined\nusing the following FC administrative data sources. It is recognised that there are\nother woodlands that could be considered to be 'managed'.\n\n1) Any English Woodland Grant Scheme (EWGS) Woodland Creation Grant (WCG)\nwhose first instalment payment date was < 15 years ago at the end of the reporting\nperiod.\n2) Any English Woodland Grant Scheme (EWGS) Woodland Management Grant\n(WMG) whose first instalment payment date was < 15 years ago at the end of the reporting period.\n3) Any English Woodland Grant Scheme (EWGS) Woodland Planning Grant (WPG)\nwhose first instalment payment date was < 15 years ago at the end of the reporting\nperiod.\n4) Any English Woodland Grant Scheme (EWGS) Woodland Improvement Grant\n(WIG) whose first instalment payment date was < 15 years ago at the end of the\nreporting period.\n5) Any Farm Woodland Premium Scheme (FWPS) and Farm Woodland Premium\n(FWP) whose scheme approval date was <15 years ago at the end of the reporting\nperiod.\n6) Any Woodland Grants Scheme Mk3 (WGS3) schemes that have been in contract\nin the 15 years up until the end of the reporting period.\n7) Any Felling Licence Applications (FLA) whose registration date was <15 years ago\nat the end of the reporting period.\n8) All Public Forest Estate land owned and/or managed by the Forestry Commission\nat the end of the reporting period.\n9) All woodland managed by the Defence Infrastructure Organisation department of the\nMOD classified as a Training Area.\n10) Any Countryside Stewardship Woodland Creation agreement whose first payment date was < 15 years ago at the end of the reporting period.\n\n\nEXCLUDED: EWGS Woodland Assessment Grant (WAG), EWGS Woodland\nRegeneration Grant (WRG), Forest Plans, Dedication, WGS2, WGS1 and Natural\nEngland\u2019s HLS.\n\nThe 'denominator' used for calculation of the indicator, i.e. the figure used as the entire\nwoodland area in England, was that obtained from the most recent version of the\nNational Forest Inventory (NFI) at the time of computation.\n\nThe administrative data sources are integrated to produce a single layer indicating woodland management status and this is provided as a georeferenced .tiff raster file here.\nCell values: 0 = Unmanaged woodland, 1 = Actively managed woodland. Cell size: 25m.\n\nPlease ensure that the following acknowledgement is displayed on any hard copy:\n\u00a9 Crown copyright and database right 'year'.\nOrdnance Survey Licence number 100021242. Attribution statement: Contains OS data \u00a9 Crown copyright [and database right] [year].",
+        "num_resources": 1,
+        "num_tags": 7,
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-03-31"
+        ],
+        "temporal_coverage-to": [
+            "2016-03-31"
+        ],
+        "title": "Managed Woodland Headline Performance Indicator England 31 March 2016",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2011-03-31\"}, {\"type\": \"revision\", \"value\": \"2016-03-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "ad6d6f20-c42b-4f05-bae6-47681c029277"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b5a07259-9719-4951-b0c3-e475543af47f"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Contains Forestry Commission information licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Forestry Commission (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-12T22:08:10.966813",
+                "description": "External version on AWS",
+                "format": "ZIP",
+                "hash": "",
+                "id": "63c5fd91-45fb-4c41-a76f-e19994def883",
+                "last_modified": null,
+                "metadata_modified": "2024-06-12T22:08:10.924997",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "06b55cc6-99dd-47b7-a133-5316a85d92ba",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/data.defra.gov.uk/Forestry/FC_OpenData/FCE/20160331_ENGLAND_MANAGED_WOODLAND.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "England",
+                "id": "7af69110-4a85-408d-ae77-82e33b07c0d4",
+                "name": "England",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Performance Indicator",
+                "id": "22273ffb-9688-4669-904a-0b8f8795b1d8",
+                "name": "Performance Indicator",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Woodland",
+                "id": "44ddd46e-49a2-4264-8ba4-3a401dd74e1f",
+                "name": "Woodland",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "forestry",
+                "id": "ca41d85e-789b-410e-8c3f-d3c6fa3411d9",
+                "name": "forestry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land use",
+                "id": "4a61c115-d29b-47e2-b16d-d8b12e2862df",
+                "name": "land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "management",
+                "id": "41ab5cba-6e14-46e0-ae2d-410a6767a7e0",
+                "name": "management",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "53263c9d-c228-4dd5-b7ec-ad035b53642d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ]
+    }
+}

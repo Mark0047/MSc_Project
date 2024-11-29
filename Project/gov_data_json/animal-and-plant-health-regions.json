@@ -1,0 +1,267 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "fd6fe1e8-7a9f-41c6-926f-d8cafb51697f",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2013-12-11T09:41:39.018597",
+        "metadata_modified": "2024-06-19T11:19:14.265825",
+        "name": "animal-and-plant-health-regions",
+        "notes": "These are the 5 animal health regions in Scotland. These are part of State Veterinary Service who are an executive agency responsible for delivering agreed services in public health and animal health and welfare within Great Britain (GB). SVS deliver on behalf of the Scottish Executive Environment and Rural Affairs Department (SEERAD) and work closely with them to help develop government policies that are both deliverable and focussed on outcomes, whilst being sensitive to the needs of those we deliver to.",
+        "num_resources": 4,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Animal and Plant Health Regions",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year)\", \"Derived from Agricultural Parishes, digitised at 1:250K.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2002-01-01\"}, {\"type\": \"revision\", \"value\": \"2016-11-16\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "unknown"
+            },
+            {
+                "key": "guid",
+                "value": "b23a63f4-262b-43fd-a072-e31c1ae5fe00"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c97a2e6d-4ddb-4df5-94d1-d8a1dd4459cf"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-01-14T13:28:36"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:14.306794",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "c2914ff4-181e-4654-94f4-b43c72f80747",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:14.272814",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "AnimalPlantHealthRegions",
+                "package_id": "fd6fe1e8-7a9f-41c6-926f-d8cafb51697f",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/AgricultureEnvironment/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:14.306797",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "8f0857c2-b88e-421c-a60a-3a8938990470",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:14.272910",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "AE:AnimalPlantHealthRegions",
+                "package_id": "fd6fe1e8-7a9f-41c6-926f-d8cafb51697f",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/AgricultureEnvironment/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:14.306798",
+                "description": "ESRI REST Service",
+                "format": "",
+                "hash": "",
+                "id": "cae9a66e-c427-435b-b821-42f82df8bf64",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:14.272979",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Animal and Plant Health Regions",
+                "package_id": "fd6fe1e8-7a9f-41c6-926f-d8cafb51697f",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/rest/services/ScotGov/AgricultureEnvironment/MapServer/2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:14.306799",
+                "description": "ESRI Shapefile Download",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c153f841-e097-45bc-b16b-09676c32c012",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:14.273048",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Animal and Plant Health Regions",
+                "package_id": "fd6fe1e8-7a9f-41c6-926f-d8cafb51697f",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/ATOM/shapefiles/SG_AnimalPlantHealthRegions_2016.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Animal health",
+                "id": "2b71ab6b-8d52-474d-a608-03a6d5ce4d78",
+                "name": "Animal health",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Area management/restriction/regulation zones and r",
+                "id": "85a96129-b6e5-46e1-8dd8-75fd5990e434",
+                "name": "Area management/restriction/regulation zones and r",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Plant health",
+                "id": "b139c308-fc95-4ad6-8a29-3cdf3b271171",
+                "name": "Plant health",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "69d7aee7-6652-4b40-8dbe-9165acb98198"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

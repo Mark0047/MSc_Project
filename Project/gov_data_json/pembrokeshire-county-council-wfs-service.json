@@ -1,0 +1,158 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "david.morgan@pembrokeshire.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "186131dd-a1f4-44de-a147-0ed43db4eef9",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-12-03T15:50:11.378400",
+        "metadata_modified": "2016-05-04T12:57:14.321902",
+        "name": "pembrokeshire-county-council-wfs-service",
+        "notes": "WFS download service for geographic data published by Pembrokeshire County Council",
+        "num_resources": 0,
+        "num_tags": 0,
+        "organization": {
+            "id": "6f143909-8ac0-4392-b103-6c138bc94776",
+            "name": "pembrokeshire-county-council",
+            "title": "Pembrokeshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-08-26T10:23:03.644720",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "6f143909-8ac0-4392-b103-6c138bc94776",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "government",
+        "theme-secondary": [],
+        "title": "Pembrokeshire County Council WFS Service",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-4.2984008777"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.3420516355"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.4608524456"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.6442260730"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"href\": [\"http://inspire.pembrokeshire.gov.uk/services/wms\"], \"uuid\": [], \"title\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2014-01-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "36289d01-5312-478d-acbd-c5a60abfccfc"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "42de0bc5-e358-44c0-b9b8-d7d5e90c1361"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/6f143909-8ac0-4392-b103-6c138bc94776/279-PCC_00_WFS.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Data subject to Ordnance Survey INSPIRE licence (http://www.ordnancesurvey.co.uk/docs/licences/public-sector-end-user-licence-inspire.htm) and /or Ordnance Survey OpenData licence (http://www.ordnancesurvey.co.uk/business-and-government/licensing/using-creating-data-with-os-products/os-opendata.html)"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2014-12-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Pembrokeshire County Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-4.2984008777, 51.4608524456],[-4.2984008777, 52.3420516355], [-5.6442260730, 52.3420516355], [-5.6442260730, 51.4608524456], [-4.2984008777, 51.4608524456]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "download"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "607c2f35-786f-4e70-8e7e-6f8660a3f027"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "42de0bc5-e358-44c0-b9b8-d7d5e90c1361"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "607c2f35-786f-4e70-8e7e-6f8660a3f027"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

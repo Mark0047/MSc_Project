@@ -1,0 +1,215 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@cornwall.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "65f5117d-d511-4cda-9de5-45f268e10b20",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2014-08-15T08:30:03.955247",
+        "metadata_modified": "2020-09-29T13:35:03.586813",
+        "name": "air-quality-management-areas4",
+        "notes": "In May 1997 the Government produced the National Air Quality Strategy (NAQS). The strategy represents a comprehensive approach to maintaining and improving the quality of ambient air in the United Kingdom.\n\nUnder the Environment Act 1995 Local Authorities are required to assess and, if necessary, take action in matters relating to air quality.  If, after monitoring we are of the opinion that levels have or are likely to exceed the Government standards there is a duty to initiate remedial action and to designate an Air Quality Management Area (AQMA) and produce an action plan to improve air quality in the area.\n\nThis data set shows the existing Air Quality Management Areas (AQMAs) in Cornwall.",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "b7cd9dde-95f0-4155-aabf-57898e28dda0",
+            "name": "cornwall-council",
+            "title": "Cornwall Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-02-24T15:22:03.828355",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b7cd9dde-95f0-4155-aabf-57898e28dda0",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Air Quality Management Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Contains public sector information licensed under the Open Government Licence v3.0\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-3.6776733382"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.3529159620"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.5341217452"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.3693237289"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2020-09-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "b2b0d02e-65a1-443f-87d3-bae01f4cee9f"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4d9943a9-902a-43ff-ae36-21bb00ff72e6"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-09-29T14:01:43"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Cornwall Council (resourceProvider)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-3.6776733382, 49.5341217452], [-6.3693237289, 49.5341217452], [-6.3693237289, 51.3529159620], [-3.6776733382, 51.3529159620], [-3.6776733382, 49.5341217452]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/4258"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "665ecda1-e5f8-4cee-8360-50e146ddc48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cornwall Council INSPIRE WMS Service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-09-29T13:35:03.858694",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "d4fe0625-06fd-4286-8849-62c45645f66f",
+                "last_modified": null,
+                "metadata_modified": "2020-09-29T13:35:03.858694",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Inspire Health WMS",
+                "package_id": "65f5117d-d511-4cda-9de5-45f268e10b20",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.cornwall.gov.uk/arcgis/services/inspire/inspire_health/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-09-29T13:35:03.858701",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "2348e031-f3d0-4cab-ab64-a2fc8ae9b9a4",
+                "last_modified": null,
+                "metadata_modified": "2020-09-29T13:35:03.858701",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Inspire Health WFS",
+                "package_id": "65f5117d-d511-4cda-9de5-45f268e10b20",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.cornwall.gov.uk/arcgis/services/inspire/inspire_health/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environmental_health",
+                "id": "c404079c-0247-401a-a120-f8700933e6fc",
+                "name": "environmental_health",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "pollution",
+                "id": "b00db874-3ebe-4863-938e-7c4824781a3e",
+                "name": "pollution",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4d9943a9-902a-43ff-ae36-21bb00ff72e6"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "665ecda1-e5f8-4cee-8360-50e146ddc48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cornwall Council INSPIRE WMS Service"
+            }
+        ]
+    }
+}

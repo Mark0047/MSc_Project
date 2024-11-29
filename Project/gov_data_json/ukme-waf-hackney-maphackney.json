@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "676dc6ba-25ce-460c-96d5-90bb452bd582",
+        "metadata_created": "2019-01-23T11:26:05.298270",
+        "metadata_modified": "2024-02-01T14:39:33.091687",
+        "name": "ukme-waf-hackney-maphackney",
+        "notes": "Import From UK Metadata Editor",
+        "organization": {
+            "id": "d0770619-b5b3-4fe6-b265-963eeb9485fb",
+            "name": "london-borough-of-hackney",
+            "title": "London Borough of Hackney",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:36.516425",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d0770619-b5b3-4fe6-b265-963eeb9485fb",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF hackney-maphackney",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/d0770619-b5b3-4fe6-b265-963eeb9485fb/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1420,
+            "last_job": {
+                "id": "93505f17-162d-4fc8-af35-22cc6a06b261",
+                "created": "2024-11-02 19:00:05.037762",
+                "gather_started": "2024-11-02 19:00:25.036376",
+                "gather_finished": "2024-11-02 19:00:45.084658",
+                "finished": "2024-11-02 19:00:45.084658",
+                "source_id": "676dc6ba-25ce-460c-96d5-90bb452bd582",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/d0770619-b5b3-4fe6-b265-963eeb9485fb/: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/d0770619-b5b3-4fe6-b265-963eeb9485fb/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb7e44d1150>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 49
+        }
+    }
+}

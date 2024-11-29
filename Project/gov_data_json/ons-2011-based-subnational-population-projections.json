@@ -1,0 +1,142 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "1fda5868-1aef-4853-a984-1e05a45c951a",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-01-24T04:59:23.813371",
+        "metadata_modified": "2024-11-16T22:02:47.790831",
+        "name": "ons-2011-based-subnational-population-projections",
+        "notes": "This report from the GLA Intelligence Unit analyses the ONS 2011 Sub-national Population Projections (SNPP) for London boroughs.\n\nThe report provides insight into the methodology employed by ONS in the production of the projections as well as comparing this projection to previous ONS SNPP projections.\n\nThe report is available to [download here](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/update-23-2012-snpp.pdf).\n\nThe data used in the report is available to [download here](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/2011snpp-data.xls).\n\nMore data available on the [ONS website](http://www.ons.gov.uk/ons/rel/snpp/sub-national-population-projections/index.html)",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "ONS 2011-based Subnational Population Projections",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/2011-snpp",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2012-10-23T10:02:29.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2014-05-29T13:31:23.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "689546ab-5537-4611-9001-63dfc029b346"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-24T04:59:24.001913",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "beacc5a6-1a0d-495e-b992-f3accf4b1b7a",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:57:48.699077",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Report",
+                "package_id": "1fda5868-1aef-4853-a984-1e05a45c951a",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/2011-snpp/2512c5d6-035d-4f9e-adb8-f46a8fa0aa67/update-23-2012-snpp.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-24T04:59:24.001919",
+                "description": null,
+                "format": "XLS",
+                "hash": "",
+                "id": "b89a54b5-74d6-40ce-8862-07cfbeeba878",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:57:48.699200",
+                "mimetype": "application/vnd.ms-excel",
+                "mimetype_inner": null,
+                "name": "Report data",
+                "package_id": "1fda5868-1aef-4853-a984-1e05a45c951a",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/2011-snpp/dca29fd8-c1bf-4794-8d69-295231aad68f/2011snpp-data.xls",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "population",
+                "id": "40739b84-20b5-415f-87f6-7ab11b26d2b3",
+                "name": "population",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "projections",
+                "id": "454d87b1-17f5-4946-b46f-3486055d03d8",
+                "name": "projections",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "snpp",
+                "id": "493eb310-08b3-4aa5-9ab8-b5bac6094586",
+                "name": "snpp",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "908340ea-ede2-42bd-b5bc-a326cb70d4db"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

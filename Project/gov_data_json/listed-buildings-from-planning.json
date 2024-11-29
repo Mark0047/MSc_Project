@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@carlisle.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "278ee000-5307-4f82-b0c4-914964590ddf",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-03-06T16:50:06.357423",
+        "metadata_modified": "2022-08-01T15:42:42.147166",
+        "name": "listed-buildings-from-planning",
+        "notes": "Carlisle City Council Listed Buildings from Planning. Areas recorded are polygons.  Upon accessing this Licensed Data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "969a9e9f-0c9d-49e6-9d2b-84b9b3b8183f",
+            "name": "carlisle-city-council",
+            "title": "Carlisle City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:12:12.267149",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "969a9e9f-0c9d-49e6-9d2b-84b9b3b8183f",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Listed Buildings from Planning",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/docs/licences/public-sector-end-user-licence-inspire.htm\", \"Ues according to license\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.69814"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.0126"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.821"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.0845"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-02-26T15:44:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "de3877dcbfe5e4dbdfe1e7a8ac98b8baa87990ba"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "cb6dc9b4-88ce-43a6-9c8d-8c3b1f462324"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2022-08-01T11:27:37"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "completed"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Carlisle City Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.69814, 54.821], [-3.0845, 54.821], [-3.0845, 55.0126], [-2.69814, 55.0126], [-2.69814, 54.821]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "da862b5c-5db4-4d05-b651-578555cae562"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Carlisle City Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-01T15:42:42.179806",
+                "description": "Listed Buildings from Planning View (WMS)",
+                "format": "",
+                "hash": "",
+                "id": "e575cf60-3a42-4355-a365-4113ae452656",
+                "last_modified": null,
+                "metadata_modified": "2022-08-01T15:42:42.151478",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "View",
+                "package_id": "278ee000-5307-4f82-b0c4-914964590ddf",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.carlisle.gov.uk/getows.ashx?mapsource=CCC/Inspire&version=1.1.0&request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-01T15:42:42.179810",
+                "description": "Listed Buildings from Planning Download (WFS)",
+                "format": "",
+                "hash": "",
+                "id": "db8614e4-8f35-4bd5-a9dc-a78221d717cb",
+                "last_modified": null,
+                "metadata_modified": "2022-08-01T15:42:42.151646",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "278ee000-5307-4f82-b0c4-914964590ddf",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.carlisle.gov.uk/getows.ashx?mapsource=CCC/inspire&TypeName=listed_buildings_planning&version=1.1.0&request=GetFeature&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Buildings",
+                "id": "156f103a-5436-4be5-87fd-2163a078a4f3",
+                "name": "Buildings",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Non-designated Heritage Assets",
+                "id": "c4984a22-7b97-421b-8d99-c6228ca5318d",
+                "name": "Non-designated Heritage Assets",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cb6dc9b4-88ce-43a6-9c8d-8c3b1f462324"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "da862b5c-5db4-4d05-b651-578555cae562"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Carlisle City Council"
+            }
+        ]
+    }
+}

@@ -1,0 +1,261 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gi@dartmoor.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "588e125a-df4d-4eec-867d-183e00bfdcda",
+        "isopen": true,
+        "license_id": "cc-by",
+        "license_title": "Creative Commons Attribution",
+        "license_url": "http://www.opendefinition.org/licenses/cc-by",
+        "metadata_created": "2013-11-28T14:20:06.877879",
+        "metadata_modified": "2022-08-17T11:37:54.022644",
+        "name": "dnpa-tree-preservation-orders-old",
+        "notes": "A Tree Preservation Order is an order made by a local planning authority (London Boroughs,district or unitary councils and sometimes county councils) which in general makes it an offence to cut down, top, lop, uproot, wilfully damage or wilfully destroy a tree without the planning authority\u2019s permission. This dataset is used as a planning constraint.",
+        "num_resources": 4,
+        "num_tags": 2,
+        "organization": {
+            "id": "8011259e-de10-49e4-a010-169eb93d703c",
+            "name": "dartmoor-national-park-authority",
+            "title": "Dartmoor National Park Authority",
+            "type": "organization",
+            "description": "Dartmoor National Park Authority is a special purpose local authority created under the Environment Act 1995. The Authority is a freestanding local authority employing around 105 staff and is governed by 22 appointed Members. Prior to 1995 the National Park was administered as a committee of Devon County Council",
+            "image_url": "",
+            "created": "2013-10-30T12:27:05.209316",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8011259e-de10-49e4-a010-169eb93d703c",
+        "private": false,
+        "state": "active",
+        "title": "DNPA Tree Preservation Orders",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"https://www.ordnancesurvey.co.uk/business-government/licensing-agreements/eu-inspire-end-user-licence\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-3.636"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "50.746"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50.386"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-4.155"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2011-05-31\"}, {\"type\": \"creation\", \"value\": \"2009-03-17\"}, {\"type\": \"revision\", \"value\": \"2011-05-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "irregular"
+            },
+            {
+                "key": "guid",
+                "value": "e6d08155-8eb6-448c-956b-131c63264f94"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Public Sector INSPIRE WMS End User Licence - Upon accessing this Licensed Data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-02-14T12:20:50"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Dartmoor National Park Authority"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Dartmoor National Park Authority (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-3.636, 50.386], [-4.155, 50.386], [-4.155, 50.746], [-3.636, 50.746], [-3.636, 50.386]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "6948b384-edf2-4ba6-b729-be6bee603c89"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6e189889-fc73-4583-9cbc-d970ca1fa08e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-02-14T12:27:23.933961",
+                "datafile-date": "",
+                "description": "Resource locator",
+                "format": "WMS",
+                "hash": "",
+                "id": "c093b4ce-ddf2-4436-907d-3bafd1065ca3",
+                "last_modified": null,
+                "metadata_modified": "2022-08-17T11:33:44.153406",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DNPA INSPIRE WMS View Service",
+                "package_id": "588e125a-df4d-4eec-867d-183e00bfdcda",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "revision_id": "d0466552-fd21-4c02-b817-ac42a2068f98",
+                "size": null,
+                "state": "active",
+                "url": "https://maps.dartmoor.gov.uk/geoserver/inspire/wms?service=WMS&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-02-14T12:27:23.933967",
+                "datafile-date": "",
+                "description": null,
+                "format": "SHP",
+                "hash": "",
+                "id": "11088e60-c9b4-48b1-9d26-ea5ba16b25a5",
+                "last_modified": null,
+                "metadata_modified": "2022-08-17T11:33:44.153534",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DNPA TPO (points) INSPIRE WFS Download (Shapefile)",
+                "package_id": "588e125a-df4d-4eec-867d-183e00bfdcda",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.dartmoor.gov.uk/geoserver/inspire/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=inspire:inspire_tpo_points&outputFormat=shape-zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-02-14T12:27:23.933970",
+                "datafile-date": "",
+                "description": "Resource locator",
+                "format": "HTML",
+                "hash": "",
+                "id": "8e974c8c-7e81-4e6e-87a6-9a62f09bb25e",
+                "last_modified": null,
+                "metadata_modified": "2022-08-17T11:33:44.153632",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DNPA TPO Webmap",
+                "package_id": "588e125a-df4d-4eec-867d-183e00bfdcda",
+                "position": 2,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "revision_id": "9c84e7ed-1b46-4021-9b12-0cb820d13f14",
+                "size": null,
+                "state": "active",
+                "url": "https://www.dartmoor.gov.uk/about-us/about-us-maps/tree-preservation-orders-map",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-17T11:37:54.055603",
+                "datafile-date": "",
+                "description": null,
+                "format": "SHP",
+                "hash": "",
+                "id": "2a4b7511-d286-499b-8521-43d3d42a938c",
+                "last_modified": null,
+                "metadata_modified": "2022-08-17T11:37:54.027808",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DNPA TPO (areas) INSPIRE WFS Download (Shapefile)",
+                "package_id": "588e125a-df4d-4eec-867d-183e00bfdcda",
+                "position": 3,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.dartmoor.gov.uk/geoserver/inspire/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=inspire:inspire_tpo_area&outputFormat=shape-zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Minerals",
+                "id": "dec4d764-8e63-4056-abb5-5ab5986002c0",
+                "name": "Minerals",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Planning",
+                "id": "f015a039-1856-4f51-bbfe-e4df359b7239",
+                "name": "Planning",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "6948b384-edf2-4ba6-b729-be6bee603c89"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6e189889-fc73-4583-9cbc-d970ca1fa08e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

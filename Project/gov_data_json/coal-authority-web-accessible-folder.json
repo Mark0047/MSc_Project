@@ -1,0 +1,93 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "e4d17867-b1af-42bf-89fa-e13b8c5b4383",
+        "frequency": "MANUAL",
+        "id": "b2c54045-365e-4979-974c-5d9367a5ef78",
+        "metadata_created": "2022-07-19T09:55:04.976260",
+        "metadata_modified": "2023-10-24T08:05:53.694198",
+        "name": "coal-authority-web-accessible-folder",
+        "notes": "Coal Authority Web Accessible Folder",
+        "organization": {
+            "id": "62474397-ebd4-48ca-9358-13756ca91221",
+            "name": "coal-authority",
+            "title": "Coal Authority",
+            "type": "organization",
+            "description": "The Coal Authority owns, on behalf of the country, the vast majority of the coal in Great Britain and licenses coal mining. It also manages the effects of past coal mining, including subsidence damage claims which are not the responsibility of licensed coal mine operators; deals with mine water pollution and other coal legacy issues and provides access to the mining information it holds. Its powers were extended in 2011 to enable it to deal with non-coal mine water pollution and subsidence when the necessary funding is made available.\r\n\r\nThe Coal Authority is an executive non-departmental public body of the Department of Energy & Climate Change\r\n\r\nhttps://www.gov.uk/coalauthority\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:50:09.782171",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "62474397-ebd4-48ca-9358-13756ca91221",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Coal Authority Web Accessible Folder",
+        "type": "harvest",
+        "url": "https://coalauthoritywebfolder.s3.eu-west-2.amazonaws.com/index.html",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 97,
+            "last_job": {
+                "id": "98c3ae9f-89ca-498a-b702-faefb224f76e",
+                "created": "2024-04-24 08:35:59.284050",
+                "gather_started": "2024-04-24 08:35:59.371616",
+                "gather_finished": "2024-04-24 08:36:00.302129",
+                "finished": "2024-04-24 08:36:00.302129",
+                "source_id": "b2c54045-365e-4979-974c-5d9367a5ef78",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 8,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Could not get GUID for source https://coalauthoritywebfolder.s3.eu-west-2.amazonaws.com/CL_HT_DEMAND.xml: AttributeError(\"module 'lxml.etree' has no attribute '_ElementStringResult'\")",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Could not get GUID for source https://coalauthoritywebfolder.s3.eu-west-2.amazonaws.com/coalfield.xml: AttributeError(\"module 'lxml.etree' has no attribute '_ElementStringResult'\")",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Could not get GUID for source https://coalauthoritywebfolder.s3.eu-west-2.amazonaws.com/coal_mine_entry.xml: AttributeError(\"module 'lxml.etree' has no attribute '_ElementStringResult'\")",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Could not get GUID for source https://coalauthoritywebfolder.s3.eu-west-2.amazonaws.com/DHRA.xml: AttributeError(\"module 'lxml.etree' has no attribute '_ElementStringResult'\")",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Could not get GUID for source https://coalauthoritywebfolder.s3.eu-west-2.amazonaws.com/DLRA.xml: AttributeError(\"module 'lxml.etree' has no attribute '_ElementStringResult'\")",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Could not get GUID for source https://coalauthoritywebfolder.s3.eu-west-2.amazonaws.com/livinglab.xml: AttributeError(\"module 'lxml.etree' has no attribute '_ElementStringResult'\")",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Could not get GUID for source https://coalauthoritywebfolder.s3.eu-west-2.amazonaws.com/shallow_workings.xml: AttributeError(\"module 'lxml.etree' has no attribute '_ElementStringResult'\")",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Couldn't find any links to metadata files",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 6
+        }
+    }
+}

@@ -1,0 +1,292 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "customerservices@os.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "7f8b7752-a49f-464e-84ae-b2551f62b926",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-11-05T14:55:12.074811",
+        "metadata_modified": "2024-10-18T17:00:58.899974",
+        "name": "os-open-toid",
+        "notes": "A dataset of unique identifiers for a wide range of landscape and built environment features, with a generalised location, extracted from OS MasterMap products.\n\nA TOID (Topographic Identifier) is a unique and persistent identifier for each and every feature found in OS MasterMap products.\n\n TOIDs are the authoritative identifier assigned to and uniquely identifying real world objects, being essential for customers to link their own data to and track change over time.\n\nOS Open TOID will enable data to be shared for a wide range of landscape and built environment features by providing them with a unique identity and generalised location that can be used by everyone. Watch our OS Open TOID introduction video.",
+        "num_resources": 5,
+        "num_tags": 3,
+        "organization": {
+            "id": "776f0897-ded1-411a-88c6-e8687ccf3875",
+            "name": "ordnance-survey",
+            "title": "Ordnance Survey",
+            "type": "organization",
+            "description": "Ordnance Survey is Great Britain\u2019s national mapping agency. It carries out the official surveying of GB, providing the most accurate and up-to-date geographic data, relied on by government, business and individuals.\r\n\r\nOS is a government owned company, accountable to Department for Business, Innovation & Skills\r\n\r\nhttps://os.uk/\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:53:10.634259",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "776f0897-ded1-411a-88c6-e8687ccf3875",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2022-09-15"
+        ],
+        "title": "OS Open TOID",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.86"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.86"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.45"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2020-07-01\"}, {\"type\": \"revision\", \"value\": \"2022-10-06\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "33858d93-fd9a-4ef7-a79b-5637443fad2d"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "db173282-d20f-434a-a27c-db0c8221a243"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-10-02T15:06:23"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Ordnance Survey"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Ordnance Survey (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.86], [-8.45, 49.86], [-8.45, 60.86], [1.78, 60.86], [1.78, 49.86]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:58.937707",
+                "description": "Select custom area and format, then download",
+                "format": "",
+                "hash": "",
+                "id": "78898dbf-651f-4b86-b100-510fd80ffff7",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:58.906272",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OS DataHub Open TOID",
+                "package_id": "7f8b7752-a49f-464e-84ae-b2551f62b926",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://osdatahub.os.uk/downloads/open/OpenTOID",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:58.937709",
+                "description": "Web page with product description and links to guides",
+                "format": "",
+                "hash": "",
+                "id": "20d657b9-6bb8-45d4-93cd-7683b84fee84",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:58.906420",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Product description",
+                "package_id": "7f8b7752-a49f-464e-84ae-b2551f62b926",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://os.uk/products/os-open-toid",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:58.937710",
+                "description": "Watch our OS Open TOID introduction video",
+                "format": "",
+                "hash": "",
+                "id": "d4377165-ab6a-4000-9b35-6144874b4979",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:58.906529",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Introduction video",
+                "package_id": "7f8b7752-a49f-464e-84ae-b2551f62b926",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://youtu.be/XHT7p-DbyIg",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:58.937711",
+                "description": "OS Open UPRN, USRN & TOID Products Overview (PDF)",
+                "format": "PDF",
+                "hash": "",
+                "id": "22c3fa09-6def-43f7-9c99-261fc6a74fa5",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:58.906632",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "OS Open UPRN, USRN & TOID Products Overview (PDF)",
+                "package_id": "7f8b7752-a49f-464e-84ae-b2551f62b926",
+                "position": 3,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://os.uk/documents/product-support/tech-spec/Open-ID-Family-Overview-V1.1.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:58.937712",
+                "description": "OS Open TOID - Technical Specification (PDF)",
+                "format": "PDF",
+                "hash": "",
+                "id": "b4b44d1f-bd51-4af4-915f-a4d506de1377",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:58.906732",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "OS Open TOID - Technical Specification",
+                "package_id": "7f8b7752-a49f-464e-84ae-b2551f62b926",
+                "position": 4,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://os.uk/documents/product-support/tech-spec/OS-Open-TOID-Tech-Spec-v1.1.pdf",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Buildings",
+                "id": "156f103a-5436-4be5-87fd-2163a078a4f3",
+                "name": "Buildings",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "TOID",
+                "id": "2b865344-cbcc-43ff-b3f7-35e13a9a3ca4",
+                "name": "TOID",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Transport networks",
+                "id": "83d966c8-b18a-4c8f-9d3f-6aa454713f70",
+                "name": "Transport networks",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "db173282-d20f-434a-a27c-db0c8221a243"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ]
+    }
+}

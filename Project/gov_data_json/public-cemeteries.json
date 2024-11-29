@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "5b6f5268-d8b1-4a99-a143-9015db531c74",
+        "frequency": "MONTHLY",
+        "id": "8746bf02-48de-43dc-9a24-cc1d5637fb4c",
+        "metadata_created": "2019-10-07T10:59:01.748733",
+        "metadata_modified": "2019-10-07T13:21:44.324160",
+        "name": "public-cemeteries",
+        "notes": "Manchester City Council's UKMDE WAF",
+        "organization": {
+            "id": "bb9f6a1c-d3d3-4e39-aee6-bf75ce49b5b7",
+            "name": "manchester-city-council",
+            "title": "Manchester City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-09-01T22:22:59.815968",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bb9f6a1c-d3d3-4e39-aee6-bf75ce49b5b7",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKMDE WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/bb9f6a1c-d3d3-4e39-aee6-bf75ce49b5b7/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 63,
+            "last_job": {
+                "id": "d8fc39ed-65b2-4b04-84fc-bffb97e070fb",
+                "created": "2024-11-07 22:00:05.603613",
+                "gather_started": "2024-11-07 22:00:05.672407",
+                "gather_finished": "2024-11-07 22:00:25.696022",
+                "finished": "2024-11-07 22:00:25.696022",
+                "source_id": "8746bf02-48de-43dc-9a24-cc1d5637fb4c",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/bb9f6a1c-d3d3-4e39-aee6-bf75ce49b5b7/: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/bb9f6a1c-d3d3-4e39-aee6-bf75ce49b5b7/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f9b1a443b10>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 1
+        }
+    }
+}

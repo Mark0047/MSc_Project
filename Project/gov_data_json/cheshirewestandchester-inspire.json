@@ -1,0 +1,74 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "7ed417cf-c599-4273-8548-49e2b27328ce",
+        "metadata_created": "2019-01-23T11:49:06.818269",
+        "metadata_modified": "2019-06-10T08:32:28.997174",
+        "name": "cheshirewestandchester-inspire",
+        "notes": "https://maps.cheshirewestandchester.gov.uk/cwac/inspire/",
+        "organization": {
+            "id": "b6b50d70-9d5c-4fef-9135-7756cca343c3",
+            "name": "cheshire-west-and-chester-council",
+            "title": "Cheshire West and Chester Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:13.423731",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "b6b50d70-9d5c-4fef-9135-7756cca343c3",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "cheshirewestandchester-inspire",
+        "type": "harvest",
+        "url": "https://maps.cheshirewestandchester.gov.uk/cwac/inspire/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2283,
+            "last_job": {
+                "id": "107cb7e9-3a8a-4588-95ba-a906462e2e20",
+                "created": "2024-11-17 10:00:07.113173",
+                "gather_started": "2024-11-17 10:00:07.323213",
+                "gather_finished": "2024-11-17 10:00:30.184117",
+                "finished": "2024-11-17 10:00:41.974072",
+                "source_id": "7ed417cf-c599-4273-8548-49e2b27328ce",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 89,
+                    "errored": 4,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gco}Integer': '' is not a valid value of the atomic type 'xs:integer'.",
+                        "error_count": 2
+                    }
+                ],
+                "gather_error_summary": [
+                    {
+                        "message": "Content is not a valid Gemini document without the gmd:MD_Metadata element",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Could not get GUID for source https://maps.cheshirewestandchester.gov.uk/cwac/inspire/690_CWAC.xml: TypeError(\"Type 'NoneType' cannot be serialized.\")",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 84
+        }
+    }
+}

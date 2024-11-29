@@ -1,0 +1,124 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "51eacfa9-6c79-4345-97a7-7dda4f73f47e",
+        "date_released": "2009-06-01",
+        "date_updated": "",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "e5261461-1182-45d9-958e-d39a2ff74bf6",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2011-01-26T09:58:58.385087",
+        "metadata_modified": "2016-02-10T17:04:09.276365",
+        "name": "ukcp09-25km-gridded-data-long-term-average-days-of-air-frost",
+        "notes": "UKCP09 25 km gridded data for days of air frost\nMonthly long-term averages for the 1961-1990 climate baseline are also available for the 25 x 25 km grid boxes of the HadRM3 regional climate model. Each 25 x 25 km grid box value is an average of the 5 x 5 km grid cell values that fall within it.\n\nThe datasets have been created with financial support from the Department for Environment, Food and Rural Affairs (Defra) and they are being promoted by the UK Climate Impacts Programme (UKCIP) as part of the UK Climate Projections (UKCP09). http://ukclimateprojections.defra.gov.uk/content/view/12/689/.\n\nZip file contains 17 text files (one for each month, season and the year as a whole). The individual grids are named according to the following convention:\nvvvvvv_1961-1990_LTA_25km_ppp.txt\nwhere 'vvvvvv' is the variable name and 'ppp' is the averaging period, i.e. jan, feb, mar, etc. (for individual months), djf (winter), mam (spring), jja (summer), son (autumn) or ann (for the annual average).\n\nSingle netCDF file that contains the data for all months, seasons and the year as a whole.\n\nTo view this data you will have to register on the Met Office website, here: http://www.metoffice.gov.uk/climatechange/science/monitoring/ukcp09/gds_form.html.\n",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "e585ca29-681d-4298-a747-8a863ec60aec",
+            "name": "met-office",
+            "title": "Met Office",
+            "type": "organization",
+            "description": "The Met Office is the UK\u2019s national weather service. It provides weather and climate-related services to the Armed Forces, government departments, the public, civil aviation, shipping, industry, agriculture and commerce.",
+            "image_url": "",
+            "created": "2012-06-27T14:52:09.949242",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e585ca29-681d-4298-a747-8a863ec60aec",
+        "precision": "Nearest Decimal Place",
+        "private": false,
+        "state": "active",
+        "theme-primary": "environment",
+        "title": "UKCP09: 25km gridded data Long-term average Days of air frost",
+        "type": "dataset",
+        "update_frequency": "Discontinued",
+        "url": "http://www.metoffice.gov.uk/climatechange/science/monitoring/ukcp09/available/longterm.html",
+        "version": null,
+        "extras": [
+            {
+                "key": "geographical_granularity",
+                "value": "national"
+            },
+            {
+                "key": "import_source",
+                "value": "COSPREAD-cospread-metoffice-11-01-12.xls"
+            },
+            {
+                "key": "licence",
+                "value": "met-office-cp"
+            },
+            {
+                "key": "national_statistic",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Ministry of Defence"
+            },
+            {
+                "key": "taxonomy_url",
+                "value": "http://www.metoffice.gov.uk/climatechange/science/monitoring/ukcp09/methods.html"
+            },
+            {
+                "key": "temporal_coverage_from",
+                "value": "1961"
+            },
+            {
+                "key": "temporal_coverage_to",
+                "value": "1990"
+            }
+        ],
+        "resources": [
+            {
+                "archiver": "{'is_broken_printable': 'Broken', 'updated': '2016-01-30T19:25:28.280410', 'cache_filepath': None, 'last_success': '2013-04-13T03:22:37.330511', 'size': u'21534', 'is_broken': True, 'failure_count': 139, 'etag': None, 'status': 'Download error', 'url_redirected_to': None, 'hash': u'56908762f75cf394ef066daa7e19e48227b18f3f', 'status_id': 12, 'reason': u'Server reported status error: 401 Unauthorized', 'last_modified': None, 'resource_timestamp': '2016-01-13T20:11:53.455231', 'mimetype': u'text/html', 'cache_url': u'', 'created': '2012-11-15T21:51:51.207108', 'first_failure': '2013-04-27T03:25:58.234763'}",
+                "cache_last_updated": null,
+                "cache_url": "",
+                "description": "25km gridded data Long-term average Days of air frost",
+                "format": "ZIP",
+                "id": "70bf1dd0-cba8-4d20-8567-94a47e9aec5a",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "e5261461-1182-45d9-958e-d39a2ff74bf6",
+                "position": 0,
+                "qa": "{'updated': '2016-02-01T16:40:06.233519', 'openness_score': 0, 'archival_timestamp': '2016-01-30T19:25:28.280410', 'format': None, 'created': '2014-05-10T08:28:04.661836', 'resource_timestamp': '2013-06-18T20:04:18.541734', 'openness_score_reason': u'File could not be downloaded. Reason: Download error. Error details: Server reported status error: 401 Unauthorized. Attempted on 30/01/2016. Tried 139 times since 27/04/2013. This URL last worked on: 13/04/2013.'}",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://www.metoffice.gov.uk/climatechange/science/monitoring/data/25km_text_files/AirFrost_1961-1990_LTA_25km.zip",
+                "url_type": null
+            },
+            {
+                "archiver": "{'is_broken_printable': 'Broken', 'updated': '2016-01-30T19:25:28.875177', 'cache_filepath': None, 'last_success': '2013-04-13T03:22:36.757559', 'size': u'21534', 'is_broken': True, 'failure_count': 139, 'etag': None, 'status': 'Download error', 'url_redirected_to': None, 'hash': u'56908762f75cf394ef066daa7e19e48227b18f3f', 'status_id': 12, 'reason': u'Server reported status error: 401 Unauthorized', 'last_modified': None, 'resource_timestamp': '2016-01-13T20:11:53.455231', 'mimetype': u'text/html', 'cache_url': u'', 'created': '2012-11-15T21:51:51.221232', 'first_failure': '2013-04-27T03:25:58.262606'}",
+                "cache_last_updated": null,
+                "cache_url": "",
+                "description": "25km gridded data Long-term average Days of air frost",
+                "format": "NetCDF",
+                "id": "26431af8-dd43-4986-a2f5-6a00d4b5179a",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "e5261461-1182-45d9-958e-d39a2ff74bf6",
+                "position": 1,
+                "qa": "{'updated': '2016-02-01T16:40:06.240825', 'openness_score': 0, 'archival_timestamp': '2016-01-30T19:25:28.875177', 'format': None, 'created': '2014-05-10T08:28:04.746735', 'resource_timestamp': '2013-06-18T20:04:18.541734', 'openness_score_reason': u'File could not be downloaded. Reason: Download error. Error details: Server reported status error: 401 Unauthorized. Attempted on 30/01/2016. Tried 139 times since 27/04/2013. This URL last worked on: 13/04/2013.'}",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://www.metoffice.gov.uk/climatechange/science/monitoring/data/25km_netCDF_files/AirFrost_1961-1990_LTA_25km.nc",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

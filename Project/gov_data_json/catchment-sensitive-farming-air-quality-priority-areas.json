@@ -1,0 +1,382 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.services@naturalengland.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "171a7bd7-d67f-4b6b-bc46-5e8ac730b5a3",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-07-30T17:02:13.396561",
+        "metadata_modified": "2024-09-09T10:12:06.764391",
+        "name": "catchment-sensitive-farming-air-quality-priority-areas",
+        "notes": "This is a spatial dataset that describes the priority areas for delivery of air quality advice from Catchment Sensitive Farming (CSF). This uses data created for the Nitrogen Futures project and data derived by JNCC summarising CEH critical load and critical levels data applied to SSSIs. The data shows those SSSIs where the critical load for nitrogen deposition and/or the critical level for ammonia are being exceeded. A 2km buffer has been applied around each site. The following sites have a 5km buffer to correspond with the area covered by the Shared Nitrogen Action Plan (SNAP) for the site: Fenn\u2019s & Whixall Moss, Breckland, Epping Forest, Sefton Coast, Braunton Burrows. Attribution statement: \u00a9 Natural England 2024, reproduced with the permission of Natural England, www.gov.uk/natural-england. \u00a9 Crown Copyright and database right 2024. Ordnance Survey licence number AC0000851168; \u00a9 UKCEH. Contains Ordnance Survey data \u00a9 Crown Copyright 2024, Licence number 100017572; \u00a9 Environment Agency; \u00a9 \u00a9 JNCC \u00a9 Crown Copyright and database right 2024. All rights reserved. Ordnance Survey Licence number 100022861.",
+        "num_resources": 8,
+        "num_tags": 6,
+        "organization": {
+            "id": "b1472b4f-b8c8-4ac2-9701-76995445f99b",
+            "name": "natural-england",
+            "title": "Natural England",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:10.959130",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b1472b4f-b8c8-4ac2-9701-76995445f99b",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Catchment Sensitive Farming Air Quality Priority Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2024-07-16\"}, {\"type\": \"revision\", \"value\": \"2024-07-16\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "9006f483-b393-46a5-b47e-d1e40d31c228"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e208f74b-8eea-4f0a-a6d1-b135915381a4"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-30"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Natural England (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "df4279a3-e684-4cd9-bfbd-ee77eae99a2f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Natural England DSP3 publication"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-09T10:12:06.839852",
+                "description": "Air Quality Priority Areas.lyr download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "d6655028-0fee-47bb-b7c4-905114a31731",
+                "last_modified": null,
+                "metadata_modified": "2024-09-09T10:12:06.788276",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Air Quality Priority Areas.lyr",
+                "package_id": "171a7bd7-d67f-4b6b-bc46-5e8ac730b5a3",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=1de2993a-3468-4841-881d-2893abdd8345&fileName=Air Quality Priority Areas.lyr",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-09T10:12:06.839854",
+                "description": "CSF Air Quality Priority Areas - Attribute Metadata.pdf download on Defra Data Services Platform",
+                "format": "PDF",
+                "hash": "",
+                "id": "3c5e3539-2243-4d89-946f-2320357f8eb0",
+                "last_modified": null,
+                "metadata_modified": "2024-09-09T10:12:06.788362",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "CSF Air Quality Priority Areas - Attribute Metadata.pdf",
+                "package_id": "171a7bd7-d67f-4b6b-bc46-5e8ac730b5a3",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=1de2993a-3468-4841-881d-2893abdd8345&fileName=CSF Air Quality Priority Areas - Attribute Metadata.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-09T10:12:06.839856",
+                "description": "CSF Air Quality Priority Areas - Publishing Metadata.pdf download on Defra Data Services Platform",
+                "format": "PDF",
+                "hash": "",
+                "id": "54ccb121-bfab-42df-ba57-dca3fa1e0fef",
+                "last_modified": null,
+                "metadata_modified": "2024-09-09T10:12:06.788432",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "CSF Air Quality Priority Areas - Publishing Metadata.pdf",
+                "package_id": "171a7bd7-d67f-4b6b-bc46-5e8ac730b5a3",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=1de2993a-3468-4841-881d-2893abdd8345&fileName=CSF Air Quality Priority Areas - Publishing Metadata.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-09T10:12:06.839857",
+                "description": "Natural England Open Data Geoportal dataset page",
+                "format": "",
+                "hash": "",
+                "id": "b9776401-9579-42a1-8803-0b1a1d77d8f9",
+                "last_modified": null,
+                "metadata_modified": "2024-09-09T10:12:06.788491",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Natural England Open Data Geoportal dataset page",
+                "package_id": "171a7bd7-d67f-4b6b-bc46-5e8ac730b5a3",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://naturalengland-defra.opendata.arcgis.com/datasets/Defra::catchment-sensitive-farming-air-quality-priority-areas-england/about",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-09T10:12:06.839857",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "903ce9d9-2005-4170-8682-c7ffffd67f59",
+                "last_modified": null,
+                "metadata_modified": "2024-09-09T10:12:06.788545",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CatchmentSensitiveFarmingAirQualityPriorityAreas_Download",
+                "package_id": "171a7bd7-d67f-4b6b-bc46-5e8ac730b5a3",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/9006f483-b393-46a5-b47e-d1e40d31c228?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-09T10:12:06.839858",
+                "description": "Catchment Sensitive Farming Air Quality Priority Areas - WMS ",
+                "format": "",
+                "hash": "",
+                "id": "e1f66983-1bc6-4b6d-b6f4-f6bf02bfdadd",
+                "last_modified": null,
+                "metadata_modified": "2024-09-09T10:12:06.788598",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CatchmentSensitiveFarmingAirQualityPriorityAreas_WMS ",
+                "package_id": "171a7bd7-d67f-4b6b-bc46-5e8ac730b5a3",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/catchment-sensitive-farming-air-quality-priority-areas/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-09T10:12:06.839859",
+                "description": "Catchment Sensitive Farming Air Quality Priority Areas - WFS",
+                "format": "",
+                "hash": "",
+                "id": "1eb48566-46a9-46b5-9f4d-29a5617e04c0",
+                "last_modified": null,
+                "metadata_modified": "2024-09-09T10:12:06.788651",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CatchmentSensitiveFarmingAirQualityPriorityAreas_WFS ",
+                "package_id": "171a7bd7-d67f-4b6b-bc46-5e8ac730b5a3",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/catchment-sensitive-farming-air-quality-priority-areas/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-09T10:12:06.839860",
+                "description": "Catchment Sensitive Farming Air Quality Priority Areas - OGC API",
+                "format": "",
+                "hash": "",
+                "id": "029cd175-8e63-4732-ad1c-4063ab492f6a",
+                "last_modified": null,
+                "metadata_modified": "2024-09-09T10:12:06.788716",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CatchmentSensitiveFarmingAirQualityPriorityAreas_OGC-API ",
+                "package_id": "171a7bd7-d67f-4b6b-bc46-5e8ac730b5a3",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/catchment-sensitive-farming-air-quality-priority-areas/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "CSF",
+                "id": "6a74a9b6-2138-495d-bd39-5270b3b82ab2",
+                "name": "CSF",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Catchments",
+                "id": "0ee814c1-190f-4ad7-a6a7-6c733b70d2d4",
+                "name": "Catchments",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "agriculture",
+                "id": "98023107-863a-446b-befd-9bb4a28b4f8c",
+                "name": "agriculture",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "air quality",
+                "id": "1ad4bad4-0836-4d1b-a28b-abafbf998cee",
+                "name": "air quality",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "catchment sensitive farming",
+                "id": "e6006eae-aaec-45b9-8c98-9695111ba2f5",
+                "name": "catchment sensitive farming",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4b73c688-e47a-4b98-990f-337e7cd642a0"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "df4279a3-e684-4cd9-bfbd-ee77eae99a2f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Natural England DSP3 publication"
+            }
+        ]
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "08379c97-d71a-4768-81cb-e9d6d05959bc",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-05-29T15:10:27.694701",
+        "metadata_modified": "2020-08-11T13:32:51.311947",
+        "name": "contracts-nsc",
+        "notes": "<p>Details of all councill contracts dating back to 2008 to present.</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+            "name": "north-somerset-council",
+            "title": "North Somerset Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:01.609923",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+        "private": false,
+        "state": "active",
+        "title": "Contracts",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.n-somerset.gov.uk/finance/contracts"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "3a26d1a2-f168-49ee-aff3-d7a5f0f5c3ca"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.n-somerset.gov.uk/finance/contracts"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "finance/contracts"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": "http://id.esd.org.uk/service/828"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-08-11"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.n-somerset.gov.uk/api/esdinventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2020-08-11T00:00:00\", \"harvest_source_title\": \"North Somerset Council\", \"activity_occurred\": \"2020-08-11T13:32:51.056843\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.n-somerset.gov.uk/finance/contracts\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:10:27.739149",
+                "description": "Contracts  - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "d4fa7c40-ef04-4135-ac48-7db9b163feea",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:10:27.739149",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "08379c97-d71a-4768-81cb-e9d6d05959bc",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/finance/contracts/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/Download/finance/contracts",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-11T13:32:51.645751",
+                "description": "Contracts - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "9493dd81-bcef-4bdd-9c3d-3dd012d05aa0",
+                "last_modified": null,
+                "metadata_modified": "2020-08-11T13:32:51.645751",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "08379c97-d71a-4768-81cb-e9d6d05959bc",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.n-somerset.gov.uk/api/finance/contracts/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/finance/contracts/contracts/CSV?version=11/08/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-11T13:32:51.645759",
+                "description": "Contracts - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "61fa6580-4d3e-4377-a3b9-af02444c41a4",
+                "last_modified": null,
+                "metadata_modified": "2020-08-11T13:32:51.645759",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "08379c97-d71a-4768-81cb-e9d6d05959bc",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/finance/contracts/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/finance/contracts/contracts/XML?version=11/08/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-12-04T14:40:11.529987",
+                "description": "Contracts - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "0d3a88ad-5a18-4498-8644-8a7960bd45c0",
+                "last_modified": null,
+                "metadata_modified": "2015-12-04T14:40:11.529987",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "08379c97-d71a-4768-81cb-e9d6d05959bc",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/finance/contracts/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/finance/contracts/contracts?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-12-04T14:40:11.529992",
+                "description": "Contracts - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "a796a5cf-d8d1-468b-a5f5-b83f69f5e511",
+                "last_modified": null,
+                "metadata_modified": "2015-12-04T14:40:11.529992",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "08379c97-d71a-4768-81cb-e9d6d05959bc",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/finance/contracts/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/finance/contracts/contracts?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3a26d1a2-f168-49ee-aff3-d7a5f0f5c3ca"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ]
+    }
+}

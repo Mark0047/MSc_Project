@@ -1,0 +1,143 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "c789c4da-2a05-438f-94a2-0099016c80ea",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-03-06T18:16:34.442469",
+        "metadata_modified": "2018-03-18T07:30:58.517672",
+        "name": "bradford-flood-network",
+        "notes": "We are having some technical difficulties with our flood sensors at present so do not have up to date data. We are working on the issues and hope to resume normal service soon. We're working with the ODI and installing five flood sensors around Bradford as part of Things Leeds and Bradford. These are joining the Flood Network map. Prefer to see a visualisation of the data instead of the raw data? Bradford Flood Network The structure of this API is http://odileeds.org/projects/floodnetwork/data.csv?since=2017-02-01T00:00Z&sensor=008000000000d60a All data since midnight on 1st February 2017 for Bradford Beck (Westholme Street) sensor. Sensor values 008000000000d60a = Bradford Beck (Westholme Street) (earliest data 17/02/2017 17:30) 008000000000d60b = Bradford Beck Flood Alleviation Channel (earliest data 22/02/2017 13:45)",
+        "num_resources": 3,
+        "num_tags": 0,
+        "odi-certificate": "",
+        "organization": {
+            "id": "636f4913-6fc3-4cda-9770-9dfcf3219583",
+            "name": "city-of-bradford-metropolitan-district-council",
+            "title": "City of Bradford Metropolitan District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-04-23T16:30:54.280822",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "636f4913-6fc3-4cda-9770-9dfcf3219583",
+        "private": false,
+        "state": "active",
+        "theme-primary": "environment",
+        "theme-secondary": [],
+        "title": "Bradford flood network",
+        "type": "dataset",
+        "url": "http://datamillnorth.org/dataset/bradford-flood-network",
+        "version": null,
+        "extras": [
+            {
+                "key": "data_issued",
+                "value": "2017-03-06T12:12:17"
+            },
+            {
+                "key": "data_modified",
+                "value": "2017-11-17T10:43:29"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "City of Bradford Metropolitan District Council"
+            },
+            {
+                "key": "guid",
+                "value": "c789c4da-2a05-438f-94a2-0099016c80ea"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "704c727a-38d9-4b5e-84c1-1372e315698e"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://datamillnorth.org/data.json?slug=city-of-bradford-metropolitan-district-council\", \"harvest_source_type\": \"data_json\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Bradford - Data Mill North\", \"activity_occurred\": \"2018-03-18T07:30:58.462184\", \"activity\": \"harvest\", \"harvested_guid\": \"c789c4da-2a05-438f-94a2-0099016c80ea\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": "2017-03-06T12:58:03.497632",
+                "cache_url": null,
+                "created": "2017-03-06T12:21:30.288172",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "2365d50c-3e82-4f58-8fba-707a751e7c07",
+                "last_modified": null,
+                "metadata_modified": "2017-03-06T12:21:30.288172",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Bradford Beck Flood Alleviation Channel since 22/02/2017 13:45",
+                "package_id": "c789c4da-2a05-438f-94a2-0099016c80ea",
+                "position": 0,
+                "resource_type": null,
+                "size": 0,
+                "state": "active",
+                "url": "http://odileeds.org/projects/floodnetwork/data.csv?since=2017-02-22T13:45Z&sensor=008000000000d60b",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": "2017-03-06T12:59:03.512131",
+                "cache_url": null,
+                "created": "2017-03-06T12:15:50.135041",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "9a563e16-0ad5-4023-9be0-b019b46c3ca3",
+                "last_modified": null,
+                "metadata_modified": "2017-03-06T12:15:50.135041",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Bradford Beck (Westholme Street) since 17/02/2017 17:30",
+                "package_id": "c789c4da-2a05-438f-94a2-0099016c80ea",
+                "position": 1,
+                "resource_type": null,
+                "size": 0,
+                "state": "active",
+                "url": "http://odileeds.org/projects/floodnetwork/data.csv?since=2017-02-17T17:30Z&sensor=008000000000d60a",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-24T15:44:03.189117",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "4393974b-1767-4af6-95d4-8b0e94829c0c",
+                "last_modified": null,
+                "metadata_modified": "2017-03-24T15:44:03.189117",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landing page",
+                "package_id": "c789c4da-2a05-438f-94a2-0099016c80ea",
+                "position": 2,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://datamillnorth.org/dataset/bradford-flood-network",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

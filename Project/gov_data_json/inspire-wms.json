@@ -1,0 +1,162 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@TunbridgeWells.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "546d34f9-423e-44c1-a92d-dbe4ca78f4cd",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-03-13T17:30:02.179929",
+        "metadata_modified": "2019-03-13T17:30:02.179936",
+        "name": "inspire-wms",
+        "notes": "INSPIRE Data as 1x WMS",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+            "id": "567678ed-130e-465b-910e-c10df8dc3ad1",
+            "name": "kent-county-council",
+            "title": "Kent County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:16.078976",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "567678ed-130e-465b-910e-c10df8dc3ad1",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "INSPIRE WMS",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"(g) the interests or protection of any person who supplied the information requested on a voluntary basis without being under, or capable of being put under, a legal obligation to do so, unless that person has consented to the release of the information concerned;\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.66569"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.21754"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.00619"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "0.13891"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"href\": [\"https://services.tunbridgewells.gov.uk/arcgis/services/INSPIRE/INSPIRE/MapServer/WMSServer\"], \"uuid\": [\"{0B70FF60-E610-4F1B-B6EC-87724F936766}\"], \"title\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2017-04-10\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "{0B70FF60-E610-4F1B-B6EC-87724F936766}"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "85065eb8-1734-48ff-af89-28937b98a3fd"
+            },
+            {
+                "key": "licence",
+                "value": "[\"conditions unknown\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-04-10"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Tunbridge Wells Borough Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.66569, 51.00619], [0.13891, 51.00619], [0.13891, 51.21754], [0.66569, 51.21754], [0.66569, 51.00619]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "discovery"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "27700"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-13T17:30:02.193776",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "d8017668-3aef-4ab0-b988-db14fe3d6558",
+                "last_modified": null,
+                "metadata_modified": "2019-03-13T17:30:02.193776",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "546d34f9-423e-44c1-a92d-dbe4ca78f4cd",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://services.tunbridgewells.gov.uk/arcgis/services/INSPIRE/INSPIRE/MapServer/WMSServer",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "infoMapAccessService",
+                "id": "061d2dbc-d2e4-429c-a613-e101834e6f73",
+                "name": "infoMapAccessService",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "c2d3319a-4a35-4e38-baa1-d85e33fd8d9c",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-10-11T13:52:50.997508",
+        "metadata_modified": "2024-04-12T10:03:29.401170",
+        "name": "house-prices1",
+        "notes": "Average monthly House Prices (\u00a3) for Lincolnshire and Districts.\r\n\r\nThe data shows prices for the following House types: All Houses, Detached, Semi-detached, Terraced, and Flat/maisonette.  House Prices shown are based on Land Registry methodology.\r\n\r\nThis dataset is updated on a monthly basis for a rolling 12 month period. Historical data is subject to revision.\r\n\r\nSource: Land Registry, UK House Price Index statistics.\r\n\r\nCopyright and licensing: *Contains HM Land Registry data \u00a9 Crown copyright and database right [year]. This data is licensed under the Open Government Licence v3.0.*",
+        "num_resources": 4,
+        "num_tags": 3,
+        "organization": {
+            "id": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+            "name": "lincolnshire-county-council",
+            "title": "Lincolnshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:38:51.868332",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+        "private": false,
+        "state": "active",
+        "title": "House Prices",
+        "type": "dataset",
+        "url": "http://landregistry.data.gov.uk/app/ukhpi/explore",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-18T14:10:46.726495",
+                "datastore_active": true,
+                "description": "Dataset for average monthly House Prices (\u00a3) by property type",
+                "format": "CSV",
+                "hash": "",
+                "id": "266fac8f-4409-4db6-adf8-cb76f1450445",
+                "last_modified": "2024-03-19T11:42:41.141704",
+                "metadata_modified": "2024-04-12T10:03:29.406282",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "House Prices",
+                "package_id": "c2d3319a-4a35-4e38-baa1-d85e33fd8d9c",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/c2d3319a-4a35-4e38-baa1-d85e33fd8d9c/resource/266fac8f-4409-4db6-adf8-cb76f1450445/download/houseprices.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-09-19T14:22:16.312117",
+                "datastore_active": true,
+                "description": "Metadata for monthly House Prices dataset. This file contains Metadata (information about a dataset). It shows the schema for dataset fields and their contents. This file should be used along with the dataset, to aid correct interpretation of the data.",
+                "format": "CSV",
+                "hash": "",
+                "id": "9e0af211-a243-4d8d-8414-a866ed7838eb",
+                "last_modified": "2018-06-07T13:36:41.775215",
+                "metadata_modified": "2017-09-19T14:22:16.312117",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata",
+                "package_id": "c2d3319a-4a35-4e38-baa1-d85e33fd8d9c",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/c2d3319a-4a35-4e38-baa1-d85e33fd8d9c/resource/9e0af211-a243-4d8d-8414-a866ed7838eb/download/metadata_houseprices.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-02T10:46:00.136342",
+                "datastore_active": false,
+                "description": "Guidance on UK House Price Index statistics",
+                "format": "HTML",
+                "hash": "",
+                "id": "837f79c7-72a2-4f12-ad5e-ca5e358bab8e",
+                "last_modified": null,
+                "metadata_modified": "2017-10-02T10:46:00.136342",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Land Registry",
+                "package_id": "c2d3319a-4a35-4e38-baa1-d85e33fd8d9c",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.gov.uk/government/publications/about-the-uk-house-price-index",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-07-15T08:49:31.280978",
+                "datastore_active": false,
+                "description": "Office for National Statistics (ONS)",
+                "format": "HTML",
+                "hash": "",
+                "id": "8f0127b0-992c-4d12-80c5-67d125176a50",
+                "last_modified": null,
+                "metadata_modified": "2019-07-15T08:49:31.280978",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Housing Statistics",
+                "package_id": "c2d3319a-4a35-4e38-baa1-d85e33fd8d9c",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "economy",
+                "id": "d487f623-c6aa-48e4-92ce-ebe4261ed749",
+                "name": "economy",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "house prices",
+                "id": "2dd323d4-0a21-4fa7-bba0-6eb1708191a8",
+                "name": "house prices",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "housing",
+                "id": "00a20d30-2585-49fc-aeef-137dff81627d",
+                "name": "housing",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "3e3314b3-11f0-433f-b8ee-bcd3e95f51a7"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "86aa64d9-e897-4416-b935-d40c403c83d6"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ]
+    }
+}

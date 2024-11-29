@@ -1,0 +1,136 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a552e9df-e46d-4ae7-ad06-a226174fc4cf",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-06-10T09:56:09.742784",
+        "metadata_modified": "2016-06-10T09:56:09.784351",
+        "name": "gsni-tellus-regional-airborne-geophysical-survey-radiometrics",
+        "notes": "This dataset presents the results of the Tellus Radiometric survey as xyz data. Channels in the dataset are: X: Grid Easting (m) Y: Grid Northing (m) LAT: WGS84 latitude in decimal degrees LONG: WGS84 longitude in decimal degrees FID: numerical sum of Julian day and seconds past previous midnight Flight: Flight number Day: Day number (Julian) Date: Date (YYYYMMDD) Time: Time (HHMMSS.SS) DIR: Flight direction (degrees clockwise) RALT: Radar altitude (m) BALT: Barometric altitude (m) TOUT: External temperature (degrees C) GPS_H: GPS altitude (m) above geoid (WGS84) DTM: Digital Terrain Model (m)\r\n\r\nD_TOT_CPS: Total Counts (Ur units) meaning sum of all counts from 400 to 3000 keV D_TOT_NGY: Total counts (nGy/h = nanoGray per hour) expressed as air absorbed dose rate D_KAL: Potassium (%K) D_URA: Uranium (ppm, eU) D_THO: Thorium (ppm, eTh) ",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "theme-primary": "environment",
+        "theme-secondary": [
+            "Mapping"
+        ],
+        "title": "GSNI Tellus Regional Airborne Geophysical Survey - Radiometrics",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "additional_info",
+                "value": "An airborne geophysical survey of the whole of Northern Ireland was flown by the Geological Survey of Northern Ireland in 2005 and 2006 as part of the Tellus project funded by the Department of Enterprise, Trade and Investment of Northern Ireland and by the Rural Development Programme through the Northern Ireland Programme for Building Sustainable Prosperity. Magnetic, electromagnetic and radiometric data were acquired at 200 m line spacing and a flying height of 56 m (240 m over built-up areas) using the Joint Airborne Capability of the British Geological Survey and the Geological Survey of Finland. In total, 82,000 line-km of data were acquired. "
+            },
+            {
+                "key": "contact_email",
+                "value": "gsni@economy-ni.gov.uk"
+            },
+            {
+                "key": "contact_name",
+                "value": "Alex Donald"
+            },
+            {
+                "key": "frequency",
+                "value": "irregular"
+            },
+            {
+                "key": "guid",
+                "value": "a552e9df-e46d-4ae7-ad06-a226174fc4cf"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "55beb719-860c-4d79-b96f-83b77589a8cd"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "lineage",
+                "value": "Information on survey, processing and data conditioning can be found in the following reports: Beamish, D.; Cuss, R.J.; Lahti, M.; Scheib, C.; Tartaras, E.. 2006 The Tellus airborne geophysical survey of Northern Ireland : final processing report. Nottingham, UK, British Geological Survey, 74pp. (IR/06/136) (Unpublished) http://nora.nerc.ac.uk/7427/ Beamish, D.; Cuss, R.J.; Lahti, M.. 2006 The Tellus Airborne Geophysical Survey of Northern Ireland. Phase 1, logistics report. Nottingham, UK, British Geological Survey, 55pp. (IR/06/032) (Unpublished) http://nora.nerc.ac.uk/7184/ Jones, D.G.; Scheib, C.. 2007 A preliminary interpretation of Tellus airborne radiometric data. British Geological Survey, 70pp. (CR/07/061N) (Unpublished) http://nora.nerc.ac.uk/16872/"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-06-03"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://www.opendatani.gov.uk/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2016-06-03T15:08:33.842273\", \"harvest_source_title\": \"OpenDataNI\", \"activity_occurred\": \"2016-06-10T09:56:09.703516\", \"activity\": \"harvest\", \"harvested_guid\": \"a552e9df-e46d-4ae7-ad06-a226174fc4cf\"}]"
+            },
+            {
+                "key": "topic_category",
+                "value": "[\"boundaries\", \"environment\", \"geoscientificInformation\", \"imageryBaseMapsEarthCover\"]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-06-03T15:02:23.996604",
+                "description": "This dataset presents the results of the Tellus Radiometric survey as xyz data. Channels in the dataset are: X: Grid Easting (m) Y: Grid Northing (m) LAT: WGS84 latitude in decimal degrees LONG: WGS84 longitude in decimal degrees FID: numerical sum of Julian day and seconds past previous midnight Flight: Flight number Day: Day number (Julian) Date: Date (YYYYMMDD) Time: Time (HHMMSS.SS) DIR: Flight direction (degrees clockwise) RALT: Radar altitude (m) BALT: Barometric altitude (m) TOUT: External temperature (degrees C) GPS_H: GPS altitude (m) above geoid (WGS84) DTM: Digital Terrain Model (m) ",
+                "format": "ZIP",
+                "hash": "",
+                "id": "16d38860-6ae8-412b-b615-2c5d69ded46f",
+                "last_modified": null,
+                "metadata_modified": "2016-06-03T15:02:23.996604",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GSNI Tellus Regional Airborne Geophysical Survey - Radiometrics",
+                "package_id": "a552e9df-e46d-4ae7-ad06-a226174fc4cf",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://resources.bgs.ac.uk/gsni/geophysics/Radiometrics.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "55beb719-860c-4d79-b96f-83b77589a8cd"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

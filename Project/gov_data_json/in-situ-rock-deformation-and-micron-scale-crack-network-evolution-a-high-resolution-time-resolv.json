@@ -1,0 +1,256 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "not available",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "427c66d2-6a8e-4ebe-841a-7c9b3f095b50",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-07-01T16:16:53.003752",
+        "metadata_modified": "2024-11-17T14:23:43.875466",
+        "name": "in-situ-rock-deformation-and-micron-scale-crack-network-evolution-a-high-resolution-time-resolv",
+        "notes": "This collection comprises two time-series of 3D in-situ synchrotron x-ray microtomography (\u03bcCT) volumes showing two Ailsa Craig micro-granite samples (ACfresh02 and ACHT01) undergoing triaxial deformation. These data were collected in-situ at the PSICHE beamline at the SOLEIL synchrotron, Gif-sur-Yvette, France in December 2016 (standard proposal 20160434) and are fully explained in Cartwright-Taylor A., Main, I.G., Butler, I.B., Fusseis, F., Flynn M. and King, A. (in press), Catastrophic failure: how and when? Insights from 4D in-situ x-ray micro-tomography, J. Geophys. Res. Solid Earth. Together, these two time-series show the influence of heterogeneity on the micro-crack network evolution. Ailsa Craig micro-granite is known for being virtually crack-free. One sample (ACfresh02) remained as-received from the quarry until it was deformed, while the second (ACHT01) was slowly heated to 600 degC and then slowly cooled prior to deformation in order to introduce material disorder in the form of a network of nano-scale thermal cracks. Thus these two samples represent two extreme end-members: (i) ACfresh02 with the lowest possible (to our knowledge) natural pre-existing crack density, and so is a relatively homogeneous sample and (ii) ACHT01 with a thermally-induced nano-crack network imprinted over the nominally crack-free microstructure, and therefore has increased heterogeneity relative to ACfresh02. Each 3D \u03bcCT volume shows the sub-region of each sample in which the majority of damage was located and has three parts. Part one is reconstructed 16-bit greyscale data. Part two is 8-bit binary data showing individual voids (pores and micro-cracks) in the dataset after segmentation. Part three is 32-bit data showing the local thickness of each void, as in Cartwright-Taylor et al. (in press) Figures 4 and 5. Each part is a zip file containing a sequence of 2D image files (.tif), sequentially numbered according to the depth (in pixels, parallel to the loading axis) at which it lies within the sample volume. File dimensions are in pixels (2D), with an edge length of 2.7 microns. Each zip file is labelled with the sample name, the relevant letter for each 3D volume as given in Cartwright-Taylor et al. (in press) Tables 3 and 4, part 1, 2 or 3 (depending whether the data are greyscale, binary or local thickness respectively), the differential stress (MPa) on the sample, and the associated ram pressure (bar) to link with individual file names. The following convention is used: sample_letter_part_differentialstress_rampressure_datatype. Also included are (i) two spreadsheets (.xlsx), one for each sample, containing processing parameters and the mechanical stress and strain at which each volume was scanned, and (ii) zip files containing .csv files containing measurement data for the labelled voids in each volume. N.B. void label numbers are not consistent between volumes so they can only be used to obtain global statistics, not to track individual voids.",
+        "num_resources": 3,
+        "num_tags": 7,
+        "organization": {
+            "id": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+            "name": "british-geological-survey",
+            "title": "British Geological Survey (BGS)",
+            "type": "organization",
+            "description": "A world-leading geoscience centre for survey and monitoring; modelling and research; data and knowledge.\r\n\r\nhttps://www.bgs.ac.uk/home.html\r\n\r\n",
+            "image_url": "2020-08-17-104120.024946BGS-Logo-Pos-RGB-01.png",
+            "created": "2012-06-27T14:50:32.295517",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-12-17"
+        ],
+        "temporal_coverage-to": [
+            "2016-12-18"
+        ],
+        "title": "In-situ rock deformation and micron-scale crack network evolution: a high-resolution time-resolved x-ray micro-tomography dataset (NERC Grant NE/R001693/1)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The copyright of materials derived from the British Geological Survey's work is vested in the Natural Environment Research Council [NERC]. No part of this work may be reproduced or transmitted in any form or by any means, or stored in a retrieval system of any nature, without the prior permission of the copyright holder, via the BGS Intellectual Property Rights Manager. Use by customers of information provided by the BGS, is at the customer's own risk. In view of the disparate sources of information at BGS's disposal, including such material donated to BGS, that BGS accepts in good faith as being accurate, the Natural Environment Research Council (NERC) gives no warranty, expressed or implied, as to the quality or accuracy of the information supplied, or to the information's suitability for any use. NERC/BGS accepts no liability whatever in respect of loss, damage, injury or other occurence however caused.\", \"Available under the Open Government Licence subject to the following acknowledgement accompanying the reproduced NERC materials \\\"Contains NERC materials \\u00a9NERC [year]\\\"\"]"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2020-05-12\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notApplicable"
+            },
+            {
+                "key": "guid",
+                "value": "a7b79176-cf84-6dce-e054-002128a47908"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "53978a60-8103-419c-be93-cd15af85b056"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-16"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "nonGeographicDataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "University of Edinburgh (originator, principalInvestigator); SOLEIL Synchrotron (originator); British Geological Survey (distributor, pointOfContact)"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:23:43.923098",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "ff1513b5-d4e6-48da-90d9-a2ff74b7b610",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:23:43.880491",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Data",
+                "package_id": "427c66d2-6a8e-4ebe-841a-7c9b3f095b50",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.bgs.ac.uk/services/ngdc/accessions/index.html#item135665",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:23:43.923100",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "53ea9b88-d986-4d9b-9127-ec0d96b641a4",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:23:43.880572",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Published Paper",
+                "package_id": "427c66d2-6a8e-4ebe-841a-7c9b3f095b50",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://doi.org/10.1029/2020JB019642",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:23:43.923101",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "ae9033c7-1149-4602-b1ab-e6d5f39394b4",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:23:43.880632",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Digital Object Identifier (DOI)",
+                "package_id": "427c66d2-6a8e-4ebe-841a-7c9b3f095b50",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://doi.org/10.5285/0dc00069-8da8-474a-8993-b63ef5c25fb8",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Compression tests",
+                "id": "61f90fd9-98ca-4e4a-a175-946c7645ab38",
+                "name": "Compression tests",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Faulting",
+                "id": "75653f18-635b-4907-bc12-e0b0f2352bb0",
+                "name": "Faulting",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Granite",
+                "id": "4760aaf8-5222-45a6-8f5c-39cef7461e33",
+                "name": "Granite",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Heterogeneity",
+                "id": "eca8c2ad-8d71-4d10-bde9-cb2f8003291c",
+                "name": "Heterogeneity",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NERC_DDC",
+                "id": "d24aa95c-95ee-4ccd-92c6-c26cc7a202b6",
+                "name": "NERC_DDC",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NGDC Deposited Data",
+                "id": "6dfb920f-6bcf-4028-a66e-a47bdc8547a6",
+                "name": "NGDC Deposited Data",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Rock deformation",
+                "id": "7be66f93-e8af-4f1b-a2a2-432120bf7337",
+                "name": "Rock deformation",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c48b4e44-0a8e-40d7-a2f4-6fca10eb4ab1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ]
+    }
+}

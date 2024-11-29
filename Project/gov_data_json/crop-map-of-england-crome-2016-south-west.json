@@ -1,0 +1,356 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "open.data@rpa.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "d43263ba-6f09-458e-995e-69720909365f",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-12-20T14:34:33.562423",
+        "metadata_modified": "2023-11-01T13:38:15.440864",
+        "name": "crop-map-of-england-crome-2016-south-west",
+        "notes": "The Crop Map of England (CROME) South West is a polygon vector dataset mainly containing the crop types of England. The dataset contains approximately 32 million hexagonal cells classifying England into over 20 main crop types, grassland, and non-agricultural land covers, such as Woodland, Water Bodies, Fallow Land and other non-agricultural land covers. The classification was created automatically using supervised classification (Random Forest Classification) from the combination of Sentinel-1 and Sentinel-2 images during the period late January 2016 \u2013 August 2016. The dataset was created to aid the classification of crop types from optical imagery, which can be affected by cloud cover. The results were checked against survey data collected by field inspectors and visually validated. refer to the CROME specification document Attribution statement: \u00a9 Rural Payments Agency",
+        "num_resources": 8,
+        "num_tags": 2,
+        "organization": {
+            "id": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+            "name": "rural-payments-agency",
+            "title": "Rural Payments Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:53:21.853113",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2016-08-31"
+        ],
+        "title": "Crop Map of England (CROME) 2016 - South West",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2017-08-30\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "04a8bdc2-5d36-4d8e-9042-23e69b45e513"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7959194d-0ec3-442c-8fbc-5c610515537e"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Rural Payments Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:38:15.478218",
+                "description": "AllCROME_ZONES_LUCODES.lyr download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "039f9977-afb7-49b0-8890-4f0b0ae3a962",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:38:15.447747",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "AllCROME_ZONES_LUCODES.lyr",
+                "package_id": "d43263ba-6f09-458e-995e-69720909365f",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=f5128c42-0da2-4482-991c-6d05fbf7eb18&fileName=AllCROME_ZONES_LUCODES.lyr",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:38:15.478221",
+                "description": "CropMapOfEngland2016SouthWest-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "cbe46f4c-2e6b-43bc-9936-4423d18bafed",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:38:15.447852",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016SouthWest-FGDB.zip",
+                "package_id": "d43263ba-6f09-458e-995e-69720909365f",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=f5128c42-0da2-4482-991c-6d05fbf7eb18&fileName=CropMapOfEngland2016SouthWest-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:38:15.478222",
+                "description": "CropMapOfEngland2016SouthWest-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "732a0837-66b6-4883-af7b-914fe5eaec15",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:38:15.447936",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016SouthWest-GML.zip",
+                "package_id": "d43263ba-6f09-458e-995e-69720909365f",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=f5128c42-0da2-4482-991c-6d05fbf7eb18&fileName=CropMapOfEngland2016SouthWest-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:38:15.478223",
+                "description": "CropMapOfEngland2016SouthWest-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "40bf3597-79e0-4d69-b14a-a42247558632",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:38:15.448016",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016SouthWest-MID_MIF.zip",
+                "package_id": "d43263ba-6f09-458e-995e-69720909365f",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=f5128c42-0da2-4482-991c-6d05fbf7eb18&fileName=CropMapOfEngland2016SouthWest-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:38:15.478224",
+                "description": "CropMapOfEngland2016SouthWest-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "1a31e0ec-43bf-4c1b-8a87-058d5e980ce8",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:38:15.448096",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016SouthWest-SHP.zip",
+                "package_id": "d43263ba-6f09-458e-995e-69720909365f",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=f5128c42-0da2-4482-991c-6d05fbf7eb18&fileName=CropMapOfEngland2016SouthWest-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:38:15.478225",
+                "description": "CropMapOfEngland2016SouthWest-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "42fe5677-f93c-437c-ae12-385a518c5422",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:38:15.448176",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016SouthWest-TAB.zip",
+                "package_id": "d43263ba-6f09-458e-995e-69720909365f",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=f5128c42-0da2-4482-991c-6d05fbf7eb18&fileName=CropMapOfEngland2016SouthWest-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:38:15.478226",
+                "description": "RPA CROME_Specification_v07.pdf download on Defra Data Services Platform",
+                "format": "PDF",
+                "hash": "",
+                "id": "d443b044-26bf-4e25-a2e2-805fbc868999",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:38:15.448255",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "RPA CROME_Specification_v07.pdf",
+                "package_id": "d43263ba-6f09-458e-995e-69720909365f",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=f5128c42-0da2-4482-991c-6d05fbf7eb18&fileName=RPA CROME_Specification_v07.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:38:15.478227",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "78097bac-982e-4660-bdff-fe9a4e0b6cf4",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:38:15.448330",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016SouthWest_Download",
+                "package_id": "d43263ba-6f09-458e-995e-69720909365f",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/04a8bdc2-5d36-4d8e-9042-23e69b45e513?download=true",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land cover",
+                "id": "13c054fd-aa73-4884-809f-2c972a391330",
+                "name": "land cover",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "350c8fa0-0199-4651-8650-15ffa67c91c1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ]
+    }
+}

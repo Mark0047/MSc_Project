@@ -1,0 +1,171 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "34ca9e03-e176-431a-b65f-5bf7da12c37b",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2024-08-31T17:00:50.867647",
+        "metadata_modified": "2024-09-21T20:00:47.363456",
+        "name": "prni",
+        "notes": "description",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "Poverty Rates - Northern Ireland",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_modified",
+                "value": "2024-04-30T9:30:00.000Z"
+            },
+            {
+                "key": "guid",
+                "value": "PRNI"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "25978a44-c2ca-4bae-99b5-aba58935aceb"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            },
+            {
+                "key": "language",
+                "value": "en"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:53.182996",
+                "datastore_active": false,
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "777be35a-de48-40da-9c00-2c57908cf32e",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:50.864184",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "csv",
+                "package_id": "34ca9e03-e176-431a-b65f-5bf7da12c37b",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PRNI/CSV/1.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:53.183002",
+                "datastore_active": false,
+                "description": "",
+                "format": "json2.0",
+                "hash": "",
+                "id": "334e5199-6845-47a9-b08c-9371be17bc06",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:50.864933",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "JSON 2.0",
+                "package_id": "34ca9e03-e176-431a-b65f-5bf7da12c37b",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PRNI/JSON-stat/2.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:53.183005",
+                "datastore_active": false,
+                "description": "",
+                "format": "json1.0",
+                "hash": "",
+                "id": "40feed52-a84d-429a-9eb4-f14ab9cd9053",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:50.865681",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "JSON 1.0",
+                "package_id": "34ca9e03-e176-431a-b65f-5bf7da12c37b",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PRNI/JSON-stat/1.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:53.183007",
+                "datastore_active": false,
+                "description": "",
+                "format": "XLSX",
+                "hash": "",
+                "id": "ce8acff9-3eeb-4380-8b5b-11a325df2375",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:50.866391",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Xlsx",
+                "package_id": "34ca9e03-e176-431a-b65f-5bf7da12c37b",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/PRNI/XLSX/2007/en",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "799597b7-1b8f-4f8a-8c7b-99b67a128f06"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

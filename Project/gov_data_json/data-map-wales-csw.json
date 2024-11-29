@@ -1,0 +1,142 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "5f708c83-e4a6-465f-a578-a752b9414541",
+        "frequency": "MANUAL",
+        "id": "e1ee5b17-a5e3-487f-81f8-52407270c59f",
+        "metadata_created": "2021-08-25T15:09:55.732423",
+        "metadata_modified": "2021-08-26T09:28:12.858008",
+        "name": "data-map-wales-csw",
+        "notes": "This service gathers the catalogue information from DataMapWales - see https://datamap.gov.wales",
+        "organization": {
+            "id": "25f50b7d-c0e4-4f5a-97f5-4f9baea2eda1",
+            "name": "welsh-government",
+            "title": "Welsh Government",
+            "type": "organization",
+            "description": "The Welsh Government is the devolved government for Wales. Led by the First Minister, it works across devolved areas that include key areas of public life such as health, education and the environment.",
+            "image_url": "",
+            "created": "2012-06-27T14:48:42.634257",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "25f50b7d-c0e4-4f5a-97f5-4f9baea2eda1",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "Data Map Wales CSW",
+        "type": "harvest",
+        "url": "http://datamap.gov.wales/catalogue/csw?service=CSW&version=2.0.2&request=GetRecords&ElementSetName=full&typenames=csw:Record&resulttype=results",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2,
+            "last_job": {
+                "id": "2a0c3ce2-c39c-4f8d-b9c2-b2dd6c21db9d",
+                "created": "2021-09-03 10:40:37.221738",
+                "gather_started": "2021-09-03 10:40:37.334772",
+                "gather_finished": "2021-09-03 10:42:21.819576",
+                "finished": "2021-09-03 10:42:21.819576",
+                "source_id": "e1ee5b17-a5e3-487f-81f8-52407270c59f",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 651,
+                    "deleted": 0,
+                    "null": 544
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}name': This element is not expected. Expected is ( {http://www.isotc211.org/2005/gmd}title ).\nElement '{http://www.isotc211.org/2005/gmd}includedWithDataset': This element is not expected. Expected is one of ( {http://www.isotc211.org/2005/gmd}AbstractMD_ContentInformation, {http://www.isotc211.org/2005/gmd}MD_FeatureCatalogueDescription, {http://www.isotc211.org/2005/gmd}MD_CoverageDescription, {http://www.isotc211.org/2005/gmd}MD_ImageDescription ).",
+                        "error_count": 2297
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}name': This element is not expected. Expected is ( {http://www.isotc211.org/2005/gmd}title ).",
+                        "error_count": 172
+                    },
+                    {
+                        "message": "Error contacting the CSW server: 502 Server Error: Bad Gateway for url: https://datamap.gov.wales/catalogue/csw?ElementSetName=full&typenames=csw%3ARecord&resulttype=results&service=CSW&version=2.0.2&request=GetCapabilities",
+                        "error_count": 71
+                    },
+                    {
+                        "message": "Error contacting the CSW server: 'CswService' object has no attribute 'startswith'",
+                        "error_count": 32
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}name': This element is not expected. Expected is ( {http://www.isotc211.org/2005/gmd}title ).\nElement '{http://www.opengis.net/gml}TimePeriod': This element is not expected. Expected is one of ( {http://www.opengis.net/gml/3.2}AbstractTimePrimitive, {http://www.opengis.net/gml/3.2}TimeInstant, {http://www.opengis.net/gml/3.2}TimePeriod, {http://www.opengis.net/gml/3.2}TimeNode, {http://www.opengis.net/gml/3.2}TimeEdge ).\nElement '{http://www.isotc211.org/2005/gmd}includedWithDataset': This element is not expected. Expected is one of ( {http://www.isotc211.org/2005/gmd}AbstractMD_ContentInformation, {http://www.isotc211.org/2005/gmd}MD_FeatureCatalogueDescription, {http://www.isotc211.org/2005/gmd}MD_CoverageDescription, {http://www.isotc211.org/2005/gmd}MD_ImageDescription ).",
+                        "error_count": 19
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 02c46f8a-a12e-11eb-99ca-c2aea982cb59 (2021-07-23T14:15:26Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 01d8ece2-8d59-11eb-aaa1-c2aea982cb59 (2021-07-12T20:02:35Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}name': This element is not expected. Expected is ( {http://www.isotc211.org/2005/gmd}title ).\nElement '{http://www.isotc211.org/2005/gco}Decimal': '-3.3237999958e-05' is not a valid value of the atomic type 'xs:decimal'.\nElement '{http://www.isotc211.org/2005/gmd}includedWithDataset': This element is not expected. Expected is one of ( {http://www.isotc211.org/2005/gmd}AbstractMD_ContentInformation, {http://www.isotc211.org/2005/gmd}MD_FeatureCatalogueDescription, {http://www.isotc211.org/2005/gmd}MD_CoverageDescription, {http://www.isotc211.org/2005/gmd}MD_ImageDescription ).",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 01b81110-42b3-4abf-9f15-e421377b0cd6 (2021-02-17T05:37:15Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 04995ead-b82e-4b74-a920-a8477f015d3a (2021-02-17T12:16:03Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 01757e2b-9c17-4854-b817-a69401aace07 (2021-04-15T20:23:43Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 026db2ef-af7c-42ae-b2b3-9b09976cd424 (2021-04-01T16:10:37Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 04336607-ce95-4bb1-ac7a-7cfc18a94270 (2021-07-08T15:19:45Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 02e70f2a-74fd-11eb-93ca-62c23a1fbb6c (2021-05-14T10:10:29Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 034896a4-9074-11eb-8da8-c2aea982cb59 (2021-06-30T08:31:32Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 0309c9fb-2dcb-4d8f-8050-532b4b5ea33f (2021-02-17T05:53:46Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 00e0d8ae-91ef-446f-b5aa-ff91b19762cd (2021-02-17T11:51:11Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 048090b4-af1c-11eb-ad0c-ae0996722727 (2021-06-14T13:25:17Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 04f22900-ca9b-11eb-b976-8e0021e30745 (2021-06-15T15:46:40Z)",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error importing Gemini document: Could not extract reference date for GUID 0536bcb1-15c0-49f2-9ad2-aaaa34a9e00b (2021-02-17T05:01:37Z)",
+                        "error_count": 4
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 0
+        }
+    }
+}

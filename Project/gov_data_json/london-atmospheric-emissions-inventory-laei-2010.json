@@ -1,0 +1,212 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "3d54b2c9-b492-4948-9040-10db3d71c6a5",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:15:49.568316",
+        "metadata_modified": "2024-11-16T22:02:22.576236",
+        "name": "london-atmospheric-emissions-inventory-laei-2010",
+        "notes": "> [The LAEI 2010 has since been superseded. Click here for the full list of releases.](/air-quality/)\n\nEstimates of eight key and six subisdary pollutants are included for the base year 2010 and projected forward to 2012, 2015, and 2020. The LAEI area covers the 32 London Boroughs and the City of London and up to the M25 motorway.\n\nDue to the size of the LAEI database this dataset has been zipped and needs to be downloaded in five parts.\n\n[0 - Documentation](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/0-Documentation.zip) (3MB)\n\n[0 - Supporting data](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/0-Supporting-data.zip) (118MB)\n\n[1 - Summary Emissions](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/1-Summary-Emissions.zip) (95 MB)\n\n[2 - Emissions](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/2-Emissions.zip) (1,685 MB)\n\n[3 - Concentrations](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/3-Concentrations.zip) (554MB)\n\nDue to the size of this database we recommend working on a local drive rather than over a network.\n\nRead about the Mayors' Air Quality Strategy ['Clearing the air'](http://www.london.gov.uk/priorities/environment/clearing-londons-air \"Clearing the air\").",
+        "num_resources": 5,
+        "num_tags": 4,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "London Atmospheric Emissions Inventory (LAEI) 2010",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/london-atmospheric-emissions-inventory-2010",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2013-07-09T12:45:09"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2016-03-18T09:07:50"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "09b417af-68b2-4a3c-87aa-d1b9ece21a2f"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:17:53.221394",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "4508607e-b505-4796-9954-737818569f10",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:24.576415",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "0 - Supporting data",
+                "package_id": "3d54b2c9-b492-4948-9040-10db3d71c6a5",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-atmospheric-emissions-inventory-2010/172324b0-9247-489e-aa0e-a983cfbebbb5/0-Supporting-data.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:17:53.221420",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "d54e5cf2-d03b-4a2e-9a33-07469fb2e573",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:24.576539",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "1 - Summary Emissions",
+                "package_id": "3d54b2c9-b492-4948-9040-10db3d71c6a5",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-atmospheric-emissions-inventory-2010/307df15b-da33-49bd-9ce8-e54e3e65f9bd/1-Summary-Emissions.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:17:53.221426",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "442de527-4eac-42e4-bd54-28faa9659820",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:24.576641",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "3 - Concentrations",
+                "package_id": "3d54b2c9-b492-4948-9040-10db3d71c6a5",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-atmospheric-emissions-inventory-2010/38a0c88a-709a-426d-acef-9b1c88e5d4e5/3-Concentrations.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:17:53.221432",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "807917c9-b5c5-4889-9b20-eabf404b3b19",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:24.576738",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "2 - Emissions",
+                "package_id": "3d54b2c9-b492-4948-9040-10db3d71c6a5",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-atmospheric-emissions-inventory-2010/a676209d-ba0f-4c5a-abe8-d97cd91241fb/2-Emissions.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:17:53.221437",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "b3a5fe1b-8525-4353-9348-00e1bc5ac84a",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:24.576832",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "0-Documentation.zip",
+                "package_id": "3d54b2c9-b492-4948-9040-10db3d71c6a5",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-atmospheric-emissions-inventory-2010/fbcb56ca-91e4-4433-a9e6-ebfebf9aa5e5/0-Documentation.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "air-pollution",
+                "id": "c4cc1620-2583-44de-a5bc-972ad9bb125e",
+                "name": "air-pollution",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "laei",
+                "id": "665ff7af-97a4-475b-92b3-3f97e40bc8ae",
+                "name": "laei",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "nitrogen-dioxide",
+                "id": "cd79fd9f-e8d3-4bd3-ad6b-f966c8ade6e9",
+                "name": "nitrogen-dioxide",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "particulate-matter",
+                "id": "9392244c-4572-4ee4-9274-4b7160ea622f",
+                "name": "particulate-matter",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "949eea29-4fd5-454e-96e5-089fecd26dd8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

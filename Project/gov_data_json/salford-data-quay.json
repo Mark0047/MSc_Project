@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "fef6f56e-0438-433a-83ad-5fe6a125f8c9",
+        "metadata_created": "2019-01-23T11:16:19.852490",
+        "metadata_modified": "2019-12-04T12:55:35.029113",
+        "name": "salford-data-quay",
+        "notes": "CKAN harvest from https://salforddataquay.uk/",
+        "organization": {
+            "id": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+            "name": "salford-city-council",
+            "title": "Salford City Council",
+            "type": "organization",
+            "description": "Salford City Council",
+            "image_url": "2019-01-31-104033.251731SCCmag.png",
+            "created": "2012-06-27T14:50:51.970331",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+        "private": false,
+        "source_type": "ckan",
+        "state": "active",
+        "title": "Salford Data Quay",
+        "type": "harvest",
+        "url": "https://salforddataquay.uk/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 3326,
+            "last_job": {
+                "id": "d3100412-4c65-48df-a53a-a0a5f8f7c800",
+                "created": "2024-11-17 13:00:06.501765",
+                "gather_started": "2024-11-17 13:00:15.327650",
+                "gather_finished": "2024-11-17 13:00:24.262189",
+                "finished": "2024-11-17 13:00:24.262189",
+                "source_id": "fef6f56e-0438-433a-83ad-5fe6a125f8c9",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to search remote CKAN for datasets:Error sending request to search remote CKAN instance https://salforddataquay.uk using URL 'https://salforddataquay.uk/api/3/action/package_search?rows=100&start=0&sort=id+asc'. Error: Request error: HTTPSConnectionPool(host='salforddataquay.uk', port=443): Max retries exceeded with url: /api/3/action/package_search?rows=100&start=0&sort=id+asc (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f1a92dacb10>: Failed to resolve 'salforddataquay.uk' ([Errno -3] Temporary failure in name resolution)\")) url:https://salforddataquay.ukterms:[]",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 41
+        }
+    }
+}

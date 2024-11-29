@@ -1,0 +1,106 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "20cb3791-3a0e-4582-8981-58ebafe82619",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "7184cb91-772e-4455-b76f-a920bb31a368",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-09-30T23:26:42.862168",
+        "metadata_modified": "2016-09-30T23:26:45.878553",
+        "name": "organogram-national-portrait-gallery",
+        "notes": "Organogram (organisation chart) showing all staff roles. Names and salaries are also listed for the Senior Civil Servants.\r\n\r\nOrganogram data is released by all central government departments and their agencies since 2010. Snapshots for 31st March and 30th September are published by 6th June and 6th December each year. The published data is validated and released in CSV format and OGL-licensed for reuse. For more information about this series, see: http://guidance.data.gov.uk/organogram-data.html",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "0d99c891-c400-45c4-a8ee-53ce4a0c6955",
+            "name": "national-portrait-gallery",
+            "title": "National Portrait Gallery",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:55:15.936285",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "0d99c891-c400-45c4-a8ee-53ce4a0c6955",
+        "private": false,
+        "schema-vocabulary": "d3c0b23f-6979-45e4-88ed-d2ab59b005d0",
+        "state": "active",
+        "temporal_coverage-from": 2010,
+        "theme-primary": "government-spending",
+        "title": "Organogram of Staff Roles & Salaries",
+        "type": "dataset",
+        "update_frequency": "biannually",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "date",
+                "value": "30/09/2011"
+            },
+            {
+                "key": "import_source",
+                "value": "organograms_v2"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T00:26:44.214717",
+                "date": "2011-09-30",
+                "description": "Organogram - Junior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "352f2b2d-b47a-4787-8ad3-e35acb429202",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T00:26:44.214717",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "7184cb91-772e-4455-b76f-a920bb31a368",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/national-portrait-gallery/30/09/2011/national_portrait_gallery-2011-09-30-organogram-junior.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T00:26:45.051747",
+                "date": "2011-09-30",
+                "description": "Organogram - Senior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "97390f8f-2633-4854-8dc9-55f24995cb9c",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T00:26:45.051747",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "7184cb91-772e-4455-b76f-a920bb31a368",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/national-portrait-gallery/30/09/2011/national_portrait_gallery-2011-09-30-organogram-senior.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "df223a81-879f-46a0-88db-4417069ea8c4",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:13:42.618788",
+        "metadata_modified": "2024-11-16T22:01:39.429934",
+        "name": "local-authority-maintained-trees",
+        "notes": "This dataset includes the locations and species information for over 880,000 of London's trees. It also includes additional information such as size and age for some of these trees. These are predominantly street trees, but also some trees in parks and other open spaces.\n\nThe data does not represent the entirety of the capital's urban forest - the London iTree report estimated that there are over eight million trees in London, which includes trees in woodlands, parks, streets, private gardens and more. The data includes 26 of London's 33 boroughs, the City of London and Transport for London.\n\nAs recognised in the [London Urban Forest Plan](https://www.london.gov.uk/sites/default/files/londonurbanforestplan_final.pdf), collating data about London's urban forest is challenging due to the number of landowners and managers involved, as well as the limited resources available. The Plan committed to undertaking regular updates to this map, and also, over time, to collating a London-wide inventory of publicly owned and managed trees, in line with emerging national standards.\n\nThe data is used on the [London Street Tree Map](https://apps.london.gov.uk/street-trees/).\n\nNotes on the data:\n\n*   The data on the map includes data provided in 2014-15, during initial data collection, and updated data provided in 2019-20. Where boroughs did not provide updated data in 2019-20, the 2014-15 data has been retained. However, trees may have been surveyed some time before this and so some records may be several years old.\n*   The map includes data from 26\u00a0of the London boroughs, the City of London and Transport for London (TfL).\u00a0TfL trees are shown London-wide.\n*   Data has not been\u00a0received to date from six boroughs. We aim to add any additional data received to the\u00a0 [**Datastore**](http://data.london.gov.uk/dataset/local-authority-maintained-trees) \u00a0and online map.\n*   Some large gaps on the map are due to large green spaces (including the Royal Parks), reservoirs, or airports, as well as those boroughs where data is missing.\n*   The data received varies significantly by borough. Some boroughs have only included trees on highways, whilst others have included trees on housing land, in schools or in parks. In some cases trees were recorded only when work was carried out.\n*   There is not a consistent or agreed format for collecting or recording tree data across London. This presents a challenge in collating data across multiple boroughs. Many boroughs collect a range of information about their trees (e.g. age, height). However this varied by borough in terms of the information collected and categorisations used so we were\u00a0not able to standardise this information.\n*   Tree species data has been standardised the names to come up with a simplified common name for display on the tree webmap (e. g. \u201cPear\u201d). These are the common names for the 24\u00a0types of tree appearing most frequently in the data (which encompass 90% of all trees), with the remaining trees categorised as \u201cOther\u201d. We have also left the species name as provided by the borough in the data.\n*   The \u2018tree ID\u2019 number has been added to the data to help map it. This number is not linked to borough\u2019s tree management systems.\n\n  \n\n**Warning: Large file size may result in a long download time**",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Local Authority Maintained Trees",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/local-authority-maintained-trees",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2016-05-31T07:47:57"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2021-07-15T08:44:34.006Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "75637c21-3f08-46e8-b871-bbea98dc278f"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:14:33.738412",
+                "description": "File in CSV format",
+                "format": "CSV",
+                "hash": "",
+                "id": "ccc5ab03-d484-45f6-9dd1-f1fb1a25b4ee",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:25.196440",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Borough_tree_list.csv",
+                "package_id": "df223a81-879f-46a0-88db-4417069ea8c4",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/local-authority-maintained-trees/c52e733d-bf7e-44b8-9c97-827cb2bc53be/london_street_trees_gla_20180214.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:14:33.738428",
+                "description": "File in .xlsx format",
+                "format": "XLS",
+                "hash": "",
+                "id": "b6504564-7093-4bf7-aa39-c276e996768f",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:25.196560",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "Borough_tree_list.xlsx",
+                "package_id": "df223a81-879f-46a0-88db-4417069ea8c4",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/local-authority-maintained-trees/eee72e56-300c-4d90-ae80-b065392358c3/london_street_trees_gla_20180214.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:42:12.833948",
+                "description": "File in CSV format",
+                "format": "CSV",
+                "hash": "",
+                "id": "20db29ab-4227-4a6b-8f5d-12eab1b3b985",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:25.196659",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Borough_tree_list_2021.csv",
+                "package_id": "df223a81-879f-46a0-88db-4417069ea8c4",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/local-authority-maintained-trees/61bd9591-ba63-4f0c-ab77-81db6347e856/Borough_tree_list_2021.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-07-30T18:12:59.405796",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "e2e20e98-2a7b-483f-b395-fd3a75e385c9",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:25.196757",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Borough_tree_list_2021July.csv",
+                "package_id": "df223a81-879f-46a0-88db-4417069ea8c4",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/local-authority-maintained-trees/a2a0ae91-cdf5-4bcd-8b23-2a40f1d854e9/Borough_tree_list_2021July.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cb4d121a-464f-40b1-9151-94559744c662"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

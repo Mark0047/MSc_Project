@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f56a42bf-a781-4bd3-aca0-986e04cc5d30",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-08-12T08:42:42.412357",
+        "metadata_modified": "2020-01-21T15:33:35.289529",
+        "name": "district-election-results-wdc",
+        "notes": "<p>Results for elections to elect members of Wycombe District Council. Elections for all seats take place every four years. There are currently 60 seats across 28 wards. Wards are the subdivisions of the district. Every ward has at least one members. Some wards have more than one member. If there are more candidates than seats available, then an election is held. Otherwise, members are elected uncontested.</p>\r\n<p>We aim to add historic results as resources permit.</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "09b7415e-2528-418e-93c4-f08a95ba8184",
+            "name": "wycombe-district-council",
+            "title": "Wycombe District Council",
+            "type": "organization",
+            "description": "Wycombe District Council",
+            "image_url": "",
+            "created": "2013-02-18T11:33:54.791786",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "09b7415e-2528-418e-93c4-f08a95ba8184",
+        "private": false,
+        "state": "active",
+        "title": "District election results",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.wycombe.gov.uk/elections/district-election-results"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "bc2e9c4c-1e2f-4038-bd10-ae198876fc0c"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.wycombe.gov.uk/elections/district-election-results"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "elections/district-election-results"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": "http://id.esd.org.uk/service/721"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-01-17"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.wycombe.gov.uk/api/esdInventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2020-01-17T00:00:00\", \"harvest_source_title\": \"Wycombe District Council data inventory\", \"activity_occurred\": \"2020-01-21T15:33:35.022492\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.wycombe.gov.uk/elections/district-election-results\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "bec6a03e-223e-4491-a0dc-1e390af49f08"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wycombe District Council data inventory"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-08-12T09:42:42.460748",
+                "description": "District election results - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "da970dd7-86af-42d1-bc75-e47e4538bbda",
+                "last_modified": null,
+                "metadata_modified": "2016-08-12T09:42:42.460748",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "f56a42bf-a781-4bd3-aca0-986e04cc5d30",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.wycombe.gov.uk/api/elections/district-election-results/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.wycombe.gov.uk/Download/elections/district-election-results",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-21T15:29:53.404806",
+                "description": "District election results 7 May 2015 - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "13793ef1-1be7-4142-9b0d-5c55313bf431",
+                "last_modified": null,
+                "metadata_modified": "2020-01-21T15:29:53.404806",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "f56a42bf-a781-4bd3-aca0-986e04cc5d30",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.wycombe.gov.uk/api/elections/district-election-results/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.wycombe.gov.uk/download/elections/district-election-results/district-election-results-7-may-2015/CSV?version=21/01/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-21T15:29:53.404814",
+                "description": "District election results 7 May 2015 - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "c86fa00c-5a86-451c-9cbf-526459d9aea7",
+                "last_modified": null,
+                "metadata_modified": "2020-01-21T15:29:53.404814",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "f56a42bf-a781-4bd3-aca0-986e04cc5d30",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.wycombe.gov.uk/api/elections/district-election-results/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.wycombe.gov.uk/download/elections/district-election-results/district-election-results-7-may-2015/XML?version=21/01/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-08-12T09:42:42.460789",
+                "description": "District election results 7 May 2015 - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "e8eb0584-3791-41ca-adde-7e50e37ecf6b",
+                "last_modified": null,
+                "metadata_modified": "2016-08-12T09:42:42.460789",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "f56a42bf-a781-4bd3-aca0-986e04cc5d30",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.wycombe.gov.uk/api/elections/district-election-results/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.wycombe.gov.uk/api/elections/district-election-results/district-election-results-7-may-2015?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-08-12T09:42:42.460795",
+                "description": "District election results 7 May 2015 - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "200153d9-7fa1-40e8-a6cc-717241cbfc2d",
+                "last_modified": null,
+                "metadata_modified": "2016-08-12T09:42:42.460795",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "f56a42bf-a781-4bd3-aca0-986e04cc5d30",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.wycombe.gov.uk/api/elections/district-election-results/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.wycombe.gov.uk/api/elections/district-election-results/district-election-results-7-may-2015?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "bc2e9c4c-1e2f-4038-bd10-ae198876fc0c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "bec6a03e-223e-4491-a0dc-1e390af49f08"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wycombe District Council data inventory"
+            }
+        ]
+    }
+}

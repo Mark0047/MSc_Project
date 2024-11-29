@@ -1,0 +1,196 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "not available",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "2e728d86-8b0a-4f7e-bd70-f2be15d6b131",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-03-23T02:48:06.997377",
+        "metadata_modified": "2024-11-17T14:35:16.731605",
+        "name": "the-effect-of-clay-content-on-the-dilatancy-and-frictional-properties-of-fault-gouge-nerc-grant",
+        "notes": "This information details the method of calculating dilatancy from pore volumometry measurements. In the velocity step tests, an initial shear enhanced compaction phase drastically reduces the sample pore volume until the sample yields. After the sample yields, the pore volume continues to decrease but at a lower rate of decrease. The imposed velocity steps cause compaction or dilation of the sample material that is superimposed on this overall compaction trend. Pore pressure is held at a set point in all tests and any volume changes in the control system are assumed to correspond directly to changes in pore volume in the sample. The method here is aimed at producing quantitative, reproducible values for dilatancy from experimental data. The script fits a polynomial function to all the volume data to give the overall trend of the shear enhanced compaction. The data position of the start of the velocity step of interest is entered manually into the function. When dilatancy occurs on a step change in velocity, this is not immediately recorded using volumometry, as the permeability of the sample will produce a transient response as pore fluid pressure equilibrates between the sample and the pore fluid pressure system. To discount time effects, every velocity step was processed with a \u2018time_dep\u2019 phase for the first 100\u00b5m of displacement after the imposed velocity step change. Using the values for \u2018vel_step\u2019 and \u2018time_dep\u2019, the volumometry data are split into separate matrices incorporating time and volume preceding and following the velocity step change. A linear regression model fits a polynomial curve to the pore volumometry data and returns the coefficient of determination (R2) for the fit of the model. The shear enhanced compaction phase prior to yield is included in the fit. The code incrementally adds the value entered for \u2018step\u2019 to the data in the velocity step of interest. This \u2018step\u2019 value is a positive or negative value depending on whether the velocity has increased or decreased, respectively. A new linear regression model is then fitted to the whole dataset and if the R2 value has increased, the code will continue to loop to add the value of \u2018step\u2019 to the pore volume data. It concludes when the R2 value reaches a peak and begins to decrease, as the fit is no longer improving. We assume at this point that the effect of the dilatancy due to the velocity step has been removed, and the cumulative sum of the \u2018step\u2019 values is equivalent to the dilatancy. As the loop goes one iteration past the optimum R2 value, the code reverts to the previous set of values with the best R2 value. In experiments with multiple velocity step changes, the code needs to retain the previous corrections of the data. The function \u2018pf_correct\u2019 is used to correct the velocity steps that have been previously processed. The values for \u2018vel_step\u2019, \u2018time_dep\u2019 and the returned value of \u2018offset\u2019 need to be given in the inputs for \u2018pf_correct\u2019.",
+        "num_resources": 1,
+        "num_tags": 5,
+        "organization": {
+            "id": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+            "name": "british-geological-survey",
+            "title": "British Geological Survey (BGS)",
+            "type": "organization",
+            "description": "A world-leading geoscience centre for survey and monitoring; modelling and research; data and knowledge.\r\n\r\nhttps://www.bgs.ac.uk/home.html\r\n\r\n",
+            "image_url": "2020-08-17-104120.024946BGS-Logo-Pos-RGB-01.png",
+            "created": "2012-06-27T14:50:32.295517",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2019-09-02"
+        ],
+        "temporal_coverage-to": [
+            "2023-02-07"
+        ],
+        "title": "The effect of clay content on the dilatancy and frictional properties of fault gouge (NERC Grant NE/L002469/1)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The copyright of materials derived from the British Geological Survey's work is vested in the Natural Environment Research Council [NERC]. No part of this work may be reproduced or transmitted in any form or by any means, or stored in a retrieval system of any nature, without the prior permission of the copyright holder, via the BGS Intellectual Property Rights Manager. Use by customers of information provided by the BGS, is at the customer's own risk. In view of the disparate sources of information at BGS's disposal, including such material donated to BGS, that BGS accepts in good faith as being accurate, the Natural Environment Research Council (NERC) gives no warranty, expressed or implied, as to the quality or accuracy of the information supplied, or to the information's suitability for any use. NERC/BGS accepts no liability whatever in respect of loss, damage, injury or other occurence however caused.\", \"Available under the Open Government Licence subject to the following acknowledgement accompanying the reproduced NERC materials \\\"Contains NERC materials \\u00a9NERC [year]\\\"\"]"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2023-02-17\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notApplicable"
+            },
+            {
+                "key": "guid",
+                "value": "f6f198b0-b40e-4a51-e053-0937940a7548"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e4ddcb3e-63fd-4282-90bc-1a72b7d5e2da"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-16"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "nonGeographicDataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "University of Liverpool (originator); British Geological Survey (distributor, pointOfContact)"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:35:16.769973",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "aeb25f99-20b5-4074-812c-6797a767a507",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:35:16.736355",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Data",
+                "package_id": "2e728d86-8b0a-4f7e-bd70-f2be15d6b131",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://webapps.bgs.ac.uk/services/ngdc/accessions/index.html#item177631",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Compaction",
+                "id": "931b6a52-501f-46c6-bd87-661a16071724",
+                "name": "Compaction",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Dilatancy",
+                "id": "3234f403-cee8-4bf0-ba09-76b3e5377d28",
+                "name": "Dilatancy",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Fault gouge",
+                "id": "7cf5714e-05f1-4e32-80b3-2981201209ae",
+                "name": "Fault gouge",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NERC_DDC",
+                "id": "d24aa95c-95ee-4ccd-92c6-c26cc7a202b6",
+                "name": "NERC_DDC",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NGDC Deposited Data",
+                "id": "6dfb920f-6bcf-4028-a66e-a47bdc8547a6",
+                "name": "NGDC Deposited Data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e4ddcb3e-63fd-4282-90bc-1a72b7d5e2da"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ]
+    }
+}

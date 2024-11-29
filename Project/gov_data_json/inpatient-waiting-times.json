@@ -1,0 +1,159 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a593a0b3-29ef-48f2-b2b2-ceb83d841a3c",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-06-03T12:58:36.468845",
+        "metadata_modified": "2019-12-21T12:05:45.853908",
+        "name": "inpatient-waiting-times",
+        "notes": "Details information on the number of patients waiting, and length of time waiting at the end of each quarter, for Inpatient and Day Case admissions at Health and Social Care (HSC) Trusts in Northern Ireland. Data are presented by HSC Trust, specialty, programme of care and time band. ",
+        "num_resources": 3,
+        "num_tags": 3,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "Inpatient waiting times",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-05-27T14:15:54.301043",
+                "datastore_active": true,
+                "description": "Details information on the number of patients waiting, and length of time waiting, for Day Case admissions at the end of each quarter in Northern Ireland. Data are presented by Health & Social Care (HSC) Trust, specialty, programme of care and time band. ",
+                "format": "CSV",
+                "hash": "",
+                "id": "1a40b0b4-4c8b-411b-a819-684967c30d3c",
+                "last_modified": null,
+                "metadata_modified": "2016-05-27T14:15:54.301043",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Day Case Waiting Times",
+                "package_id": "a593a0b3-29ef-48f2-b2b2-ceb83d841a3c",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.health-ni.gov.uk/sites/default/files/publications/health/hs-niwts-tables-day-cases-q2-19-20.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-05-27T14:16:49.376302",
+                "datastore_active": true,
+                "description": "Details information on the number of patients waiting, and length of time waiting, for Inpatient admissions at at the end of each quarter in Northern Ireland. Data are presented by Health & Social Care (HSC) Trust, specialty, programme of care and time band. ",
+                "format": "CSV",
+                "hash": "",
+                "id": "d9c48940-1aa3-45f6-97f3-1aeb93f878da",
+                "last_modified": null,
+                "metadata_modified": "2016-05-27T14:16:49.376302",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Inpatient Admission Waiting Times",
+                "package_id": "a593a0b3-29ef-48f2-b2b2-ceb83d841a3c",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.health-ni.gov.uk/sites/default/files/publications/health/hs-niwts-tables-inpatients-q2-19-20.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-05-27T14:17:22.108703",
+                "datastore_active": true,
+                "description": "Details information on the number of patients waiting, and length of time waiting, for Inpatient and Day Case admissions at at the end of each quarter in Northern Ireland. Data are presented by Health & Social Care (HSC) Trust, specialty, programme of care and time band.",
+                "format": "CSV",
+                "hash": "",
+                "id": "c7dd1fee-8492-422a-9045-3fad1189bff7",
+                "last_modified": null,
+                "metadata_modified": "2016-05-27T14:17:22.108703",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Total Admission Waiting Times",
+                "package_id": "a593a0b3-29ef-48f2-b2b2-ceb83d841a3c",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.health-ni.gov.uk/sites/default/files/publications/health/hs-niwts-tables-total-waiting-q2-19-20.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "day case",
+                "id": "944e661d-7a14-40fb-9949-26d033139cf1",
+                "name": "day case",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inpatient",
+                "id": "3b593cb7-f85a-4c8c-b617-316b1c64e8ef",
+                "name": "inpatient",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "waiting",
+                "id": "5abac148-44d1-4fcf-a1c4-be5569f4baa7",
+                "name": "waiting",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "0dd041c2-53b1-4435-86db-63f9a6783baf"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0dd041c2-53b1-4435-86db-63f9a6783baf"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

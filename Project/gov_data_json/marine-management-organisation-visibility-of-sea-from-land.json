@@ -1,0 +1,210 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "dkm@marinemanagement.org.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "6f46c292-4eab-4870-95af-39aecc9ab3c2",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-03-25T16:42:44.369225",
+        "metadata_modified": "2016-04-20T16:24:57.946825",
+        "name": "marine-management-organisation-visibility-of-sea-from-land",
+        "notes": "This layer has been developed in order to understand the extent of intervisibility in the Marine Plan Areas (as defined by the Marine Management Organisation) and the adjacent land onshore (in England). The colour of the grid cells in the sea represents the number of observation points (spaced 500m apart throughout the Marine Plan Areas) that can be seen from each location in the sea. The data has been classified into percentiles in order to highlight those areas in the marine plan areas that are visible from the most locations on land. The darker reds indicate locations within the highest percentile of visibility from land (can be seen from the most locations) and the darker blues indicate locations that are visible from land, but from relatively few locations.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "6b694e61-66c9-4cca-8eeb-75b2b0c66c4d",
+            "name": "marine-management-organisation",
+            "title": "Marine Management Organisation",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:54:49.334967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "6b694e61-66c9-4cca-8eeb-75b2b0c66c4d",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2013-09-19"
+        ],
+        "temporal_coverage-to": [
+            "2016-04-20"
+        ],
+        "theme-primary": "environment",
+        "theme-secondary": [],
+        "title": "Marine Management Organisation Visibility of sea from land",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on access, however copyright should be used at all times.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.4808"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.9780"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.5879"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-7.2096"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2015-03-31\"}, {\"type\": \"creation\", \"value\": \"2013-09-19\"}, {\"type\": \"revision\", \"value\": \"2014-05-02\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "2d68e2c11c4574801f39c3e06abb5780"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "03b32ddb-090b-433e-a32b-cca8415efb4d"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://s3-eu-west-1.amazonaws.com/inspire-mmo/marine_management_organisation_visibility_of_sea_from_land_2d68e2c11c4574801f39c3e06abb5780.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Open Government Licence. Acknowledgement of the Marine Management Organisation is required."
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-14"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Marine Management Organisation (originator, custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[2.4808, 49.5879],[2.4808, 55.9780], [-7.2096, 55.9780], [-7.2096, 49.5879], [2.4808, 49.5879]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::25830"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ac6fae6e-304a-406b-aab2-4bc3704f8482"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Management Organisation INSPIRE compliant data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-20T17:24:57.983232",
+                "description": "A link to the web service or dataset",
+                "format": "",
+                "hash": "",
+                "id": "62c83ea3-8600-4d9c-94f4-cffd68efd832",
+                "last_modified": null,
+                "metadata_modified": "2016-04-20T17:24:57.983232",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "6f46c292-4eab-4870-95af-39aecc9ab3c2",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://environment.data.gov.uk/ds/catalogue/#/2d68e2c11c4574801f39c3e06abb5780",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-20T17:24:57.983258",
+                "description": "A link to the general host site",
+                "format": "",
+                "hash": "",
+                "id": "9bae88ce-2b2a-4ff7-836a-9c2f4f8dc38d",
+                "last_modified": null,
+                "metadata_modified": "2016-04-20T17:24:57.983258",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "6f46c292-4eab-4870-95af-39aecc9ab3c2",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://environment.data.gov.uk/ds/catalogue/index.jsp#/catalogue",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "03b32ddb-090b-433e-a32b-cca8415efb4d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ac6fae6e-304a-406b-aab2-4bc3704f8482"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Management Organisation INSPIRE compliant data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gisteam@wycombe.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "27037279-f858-4ada-b564-45ad32c36f79",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-07-22T10:13:14.639076",
+        "metadata_modified": "2018-06-20T09:16:41.401092",
+        "name": "air-quality-management-area10",
+        "notes": "Air Quality Management Areas for main routes in Wycombe District",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "09b7415e-2528-418e-93c4-f08a95ba8184",
+            "name": "wycombe-district-council",
+            "title": "Wycombe District Council",
+            "type": "organization",
+            "description": "Wycombe District Council",
+            "image_url": "",
+            "created": "2013-02-18T11:33:54.791786",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "09b7415e-2528-418e-93c4-f08a95ba8184",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "environment",
+        "theme-secondary": [],
+        "title": "Air Quality Management Area",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No conditions apply.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.6111"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.6783"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.554"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.9429"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2013-12-09T15:23:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "70e05a3c-859d-4194-82d9-dfc65b579771"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d20f5328-0258-43ed-af3a-67963208a033"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://inspire.astuntechnology.com/wycombe/AirQualityManagementArea.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-06-20"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Wycombe District Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.6111, 51.554],[-0.6111, 51.6783], [-0.9429, 51.6783], [-0.9429, 51.554], [-0.6111, 51.554]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "1a023fa7-18ab-495a-970a-d87d5a70270f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wycombe District Council INSPIRE service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-06-20T10:11:47.354411",
+                "description": "Wycombe District Council Air Quality Management Area Web Map Service",
+                "format": "WMS",
+                "hash": "",
+                "id": "1cdaaf65-75aa-4818-9df2-632e8fd16199",
+                "last_modified": null,
+                "metadata_modified": "2018-06-20T10:11:47.354411",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Air Quality Management Area View Service",
+                "package_id": "27037279-f858-4ada-b564-45ad32c36f79",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.wycombe.gov.uk/getows.ashx?Mapsource=Wycombe/Inspire&service=WMS&version=1.1.0&Request=GetCapabilities",
+                "url_type": null,
+                "wms_base_urls": "http://inspire.wycombe.gov.uk/getows.ashx"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-06-20T10:11:47.354438",
+                "description": "Wycombe District Council Air Quality Management Area Web Feature Service",
+                "format": "",
+                "hash": "",
+                "id": "32b0d84f-67ad-4bf2-89b5-eea8442cf928",
+                "last_modified": null,
+                "metadata_modified": "2018-06-20T10:11:47.354438",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Air Quality Management Area Download Service",
+                "package_id": "27037279-f858-4ada-b564-45ad32c36f79",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.wycombe.gov.uk/getows.ashx?mapsource=Wycombe/Inspire&service=WFS&request=GetFeature&version=1.1.0&TypeName=AirQualityManagementArea",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-06-13T17:21:50.169133",
+                "description": "Wycombe District Council Service Web Page",
+                "format": "",
+                "hash": "",
+                "id": "cec55727-1dc9-45b9-b5fd-e598f1a1d9eb",
+                "last_modified": null,
+                "metadata_modified": "2018-06-13T17:21:50.169133",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Air Quality Management in Wycombe District Council",
+                "package_id": "27037279-f858-4ada-b564-45ad32c36f79",
+                "position": 2,
+                "qa": "{'updated': '2018-06-17T07:56:12.103478', 'openness_score': 0, 'archival_timestamp': '2018-06-16T02:08:00.995791', 'format': u'HTML', 'created': '2018-06-13T17:22:31.851051', 'resource_timestamp': None, 'openness_score_reason': u'Content of file appeared to be format \"HTML\" which receives openness score: 0.'}",
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://www.wycombe.gov.uk/pages/Environment/Air-pollution/Air-quality-management.aspx",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d20f5328-0258-43ed-af3a-67963208a033"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "1a023fa7-18ab-495a-970a-d87d5a70270f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wycombe District Council INSPIRE service"
+            }
+        ]
+    }
+}

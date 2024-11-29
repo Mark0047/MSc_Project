@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "69fd371e-0f6b-412d-b7e7-3eec3f875947",
+        "metadata_created": "2019-01-23T11:30:55.368979",
+        "metadata_modified": "2019-01-23T11:30:55.368986",
+        "name": "runnymede-borough-council-metadata",
+        "notes": "",
+        "organization": {
+            "id": "58a35214-8576-416b-8f9d-2a73ced98024",
+            "name": "runnymede-borough-council",
+            "title": "Runnymede Borough Council",
+            "type": "organization",
+            "description": "Welcome to Runnymede Borough Council's metadata library.\r\n\r\nThis page allows you to search through our datasets that we hold, providing information on what each dataset is and how it can be accessed.\r\n\r\nThis information is being added to and updated as an ongoing project.",
+            "image_url": "",
+            "created": "2013-06-19T14:42:12.375854",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "58a35214-8576-416b-8f9d-2a73ced98024",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Runnymede Borough Council Metadata",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/58a35214-8576-416b-8f9d-2a73ced98024/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 102,
+            "last_job": {
+                "id": "7aa9697e-81c8-48d3-8e18-837925adf6df",
+                "created": "2019-02-19 09:29:04.482765",
+                "gather_started": "2019-02-19 09:29:05.867109",
+                "gather_finished": "2019-02-19 09:29:05.972945",
+                "finished": "2019-02-19 09:29:05.972945",
+                "source_id": "69fd371e-0f6b-412d-b7e7-3eec3f875947",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/58a35214-8576-416b-8f9d-2a73ced98024/: SSLError(SSLError(SSLError(\"bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)\",),),)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 31
+        }
+    }
+}

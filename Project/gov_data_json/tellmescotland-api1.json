@@ -1,0 +1,205 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "tellme@improvementservice.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "30086371-5577-4315-8e9e-e2993a420b60",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-12-19T15:04:12.866559",
+        "metadata_modified": "2024-06-19T11:17:55.620291",
+        "name": "tellmescotland-api1",
+        "notes": "Tell Me Scotland is a portal for accessing public information notices issued by local authorities across Scotland.\n\nThe site allows users to:\n\n- Search for public notices such as planning and licensing in an area\n- Check roadworks and restrictions on any chosen route\n- Search archived notices across the country\n- Register to receive alerts by text or email on notices in an area\n- Select an area on the map, or from the list below to view notices in that area\n\nThis service is supported by an API that allows REST queries returning data in JSON or XML format.\n\nThe API allows GET requests for notices in bulk, individually, by type (Planning, Traffic, General, Licensing and Councillor Surgeries) and also details and lists of organisations.\n\nThe API also allows POST request for upload of notices by authorised users and organisations.\n\nIn order to access the data via the API, a TellMeScotland account is required with REST read-only permissions and associated authorisations.\n\nhttps://www.tellmescotland.gov.uk/api/docs (for authorised users)\nhttps://www.tellmescotland.gov.uk (main website)\n\nTo obtain a TellMeScotland account and associated authorisations, users should contact tellme@improvementservice.org.uk\n\nIt is also possible to register individually for notice alerts, or to view the website as an unregistered user, but this does not allow direct access to the API.",
+        "num_resources": 1,
+        "num_tags": 4,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "TellMeScotland API",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Limitations on public access\", \"Prior registration is required\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.53202"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.46459"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.53297"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-7.75714"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2019-12-18\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "9feeb966-98b9-4dd4-8ee7-a229fdc6ca68"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d02b9894-167b-4d35-aff8-fb0ff287fff4"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-07-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "The Improvement Service"
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Improvement Service (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.53202, 54.53297], [-7.75714, 54.53297], [-7.75714, 61.46459], [-0.53202, 61.46459], [-0.53202, 54.53297]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "download"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "OSGB 1936 / British National Grid (EPSG:27700)"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:17:55.652566",
+                "description": "REST service for authorised users",
+                "format": "",
+                "hash": "",
+                "id": "043db1d5-304c-439c-a3a5-624aa57ad46f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:17:55.625598",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "REST API",
+                "package_id": "30086371-5577-4315-8e9e-e2993a420b60",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--related",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.tellmescotland.gov.uk/api/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Area management/restriction/regulation zones and r",
+                "id": "85a96129-b6e5-46e1-8dd8-75fd5990e434",
+                "name": "Area management/restriction/regulation zones and r",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Transport networks",
+                "id": "83d966c8-b18a-4c8f-9d3f-6aa454713f70",
+                "name": "Transport networks",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "infoFeatureAccessService",
+                "id": "b96e0c65-66f2-4b2c-ae0b-7fb66251425e",
+                "name": "infoFeatureAccessService",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "69ea2105-5a3f-4b4b-9d0b-9a15996a48bd"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

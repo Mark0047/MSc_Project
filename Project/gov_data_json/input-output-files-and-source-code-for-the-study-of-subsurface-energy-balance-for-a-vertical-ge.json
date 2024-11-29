@@ -1,0 +1,182 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "not available",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "13552f1b-44a6-413c-b260-29f21da52276",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-10-13T21:56:34.759222",
+        "metadata_modified": "2024-11-17T14:30:42.747921",
+        "name": "input-output-files-and-source-code-for-the-study-of-subsurface-energy-balance-for-a-vertical-ge",
+        "notes": "The dataset consists of a series of input and output files for the 1D and 3D numerical models used to demonstrate the impact of heat mining for a 100-m long vertical Borehole Heat Exchanger (BHE) in Scotland, assuming a constant or fluctuating surface heat flux. Simulations for a constant heat extraction from the BHE were performed using an updated version of the open-source OpenGeoSys finite-element modelling software (https://www.opengeosys.org/) made available in this repository. This updated version allows for calculation of the energy change in each material group in the models, as part of the HEAT_TRANSPORT process. For each model, the input files include the mesh file (MSH), the Boundary conditions (BC), geometry (GLI), Initial conditions (IC), Fluid properties (MFP), Medium properties (MMP), Material solid properties (MSP), Numerical parameters (NUM), Ouput parameters (OUT), Process (PCS), Reference (RFD), Source-term (ST) and Time (TIM) files. The output files consists of temperature time-series, 1D and 2D temperature profiles extracted from the models domain at different time steps (i.e. Tecplot output files) and of a text file indicating the energy content of each material group at each time step.",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+            "name": "british-geological-survey",
+            "title": "British Geological Survey (BGS)",
+            "type": "organization",
+            "description": "A world-leading geoscience centre for survey and monitoring; modelling and research; data and knowledge.\r\n\r\nhttps://www.bgs.ac.uk/home.html\r\n\r\n",
+            "image_url": "2020-08-17-104120.024946BGS-Logo-Pos-RGB-01.png",
+            "created": "2012-06-27T14:50:32.295517",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2021-04-20"
+        ],
+        "temporal_coverage-to": [
+            "2021-06-17"
+        ],
+        "title": "Input, output files and source code for the study of subsurface energy balance for a vertical geothermal Ground-Source Heat Exchanger in Scotland (NERC Grant NE/S007407/1)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The copyright of materials derived from the British Geological Survey's work is vested in the Natural Environment Research Council [NERC]. No part of this work may be reproduced or transmitted in any form or by any means, or stored in a retrieval system of any nature, without the prior permission of the copyright holder, via the BGS Intellectual Property Rights Manager. Use by customers of information provided by the BGS, is at the customer's own risk. In view of the disparate sources of information at BGS's disposal, including such material donated to BGS, that BGS accepts in good faith as being accurate, the Natural Environment Research Council (NERC) gives no warranty, expressed or implied, as to the quality or accuracy of the information supplied, or to the information's suitability for any use. NERC/BGS accepts no liability whatever in respect of loss, damage, injury or other occurence however caused.\", \"Available under the Open Government Licence subject to the following acknowledgement accompanying the reproduced NERC materials \\\"Contains NERC materials \\u00a9NERC [year]\\\"\"]"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2021-09-26\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notApplicable"
+            },
+            {
+                "key": "guid",
+                "value": "cdd915a8-6a91-4e45-e054-002128a47908"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "90ddb44d-b73b-453e-a4eb-0d5ce24ce104"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-16"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "nonGeographicDataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "University of Edinburgh (originator, principalInvestigator); British Geological Survey (distributor, pointOfContact)"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:30:42.781457",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "044c1b29-a87b-4020-bf5f-afc2ebcfda61",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:30:42.753506",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Data",
+                "package_id": "13552f1b-44a6-413c-b260-29f21da52276",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://webapps.bgs.ac.uk/services/ngdc/accessions/index.html#item168776",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Mathematical models",
+                "id": "033bf5db-b302-4c24-a37e-d65956aa1237",
+                "name": "Mathematical models",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NERC_DDC",
+                "id": "d24aa95c-95ee-4ccd-92c6-c26cc7a202b6",
+                "name": "NERC_DDC",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NGDC Deposited Data",
+                "id": "6dfb920f-6bcf-4028-a66e-a47bdc8547a6",
+                "name": "NGDC Deposited Data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "90ddb44d-b73b-453e-a4eb-0d5ce24ce104"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ]
+    }
+}

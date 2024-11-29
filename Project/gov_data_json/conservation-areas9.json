@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "inspire@durham.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "fd5a99a2-96f2-4f68-a7db-e5ae327467a7",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2013-12-03T15:50:09.016569",
+        "metadata_modified": "2021-12-16T21:58:25.804642",
+        "name": "conservation-areas9",
+        "notes": "\nStatutory areas of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance as defined in the 1967 Civic Amenities Act.",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "d3bb54b5-4289-4ff9-9546-ff95442643fc",
+            "name": "durham-county-council",
+            "title": "Durham County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T10:07:41.896359",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d3bb54b5-4289-4ff9-9546-ff95442643fc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "01/01/1968"
+        ],
+        "temporal_coverage-to": [],
+        "title": "CONSERVATION AREAS",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"\\nhttps://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\\n\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.32"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "54.91"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.49"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.23"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"1994-01-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "irregular"
+            },
+            {
+                "key": "guid",
+                "value": "707d40eb-6c2d-4c78-b30e-10bdc92f9d47"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c089a935-c803-42c7-86fd-2570913ab5a1"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-05-18T11:43:02"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Durham County Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Durham County Council (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.32, 54.49], [-2.23, 54.49], [-2.23, 54.91], [-1.32, 54.91], [-1.32, 54.49]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "OSGB 1936 / British National Grid (EPSG:27700)"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c683e67e-5748-4298-a6f4-0f927bb31665"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Durham County Council INSPIRE Service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-12-16T21:58:25.842753",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "70b8847c-5768-40b4-9b59-45e6de5f95cb",
+                "last_modified": null,
+                "metadata_modified": "2021-12-16T21:58:25.809391",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Inspire View Service",
+                "package_id": "fd5a99a2-96f2-4f68-a7db-e5ae327467a7",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatial.durham.gov.uk/arcgis/services/INSPIRE/I100/MapServer/WMSServer?request=GetCapabilities&service=wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-12-16T21:58:25.842757",
+                "description": "Link to download the GML data",
+                "format": "application/gml+xml",
+                "hash": "",
+                "id": "9d7d9549-b195-41f6-9d5f-086a4d32842f",
+                "last_modified": null,
+                "metadata_modified": "2021-12-16T21:58:25.809565",
+                "mimetype": "application/gml+xml",
+                "mimetype_inner": null,
+                "name": "DCC INSPIRE GML Data Download",
+                "package_id": "fd5a99a2-96f2-4f68-a7db-e5ae327467a7",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.durham.gov.uk/inspire/GML/GB-DHM-147.gml",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c089a935-c803-42c7-86fd-2570913ab5a1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c683e67e-5748-4298-a6f4-0f927bb31665"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Durham County Council INSPIRE Service"
+            }
+        ]
+    }
+}

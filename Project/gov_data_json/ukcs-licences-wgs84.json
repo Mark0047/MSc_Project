@@ -1,0 +1,280 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "52fa1c3d-71da-4b7b-afba-8ac8f74b5017",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-11-21T15:05:16.822556",
+        "metadata_modified": "2024-11-16T10:02:51.029075",
+        "name": "ukcs-licences-wgs84",
+        "notes": "A Licence is a geographically defined area for prospecting, exploration or extraction of petroleum resources. The North Sea Transition Authority\u2019s licensing system covers oil and gas within Great Britain, its territorial sea and on the UK Continental Shelf (UKCS).<br />The Petroleum Act 1998 vests all rights to the nation\u2019s petroleum resources in the Crown, but the  NSTA can grant licences that confer exclusive rights to \u2018search and bore for and get\u2019 petroleum.<br />Licences fall into several categories. The principal distinctions are between onshore and offshore licences, and between exploration licences (which cover exploration alone) and production licences (which cover both exploration and production). The  NSTA has discretion in the granting of licences to help maximise the economic recovery of the UK\u2019s oil and gas resources.<br />Licence data is represented by 3 different datasets; Licences, Licence Blocks and Sub Areas. Licence polygons represent the whole licence and have one polygon per licence. Licenced Blocks and Sub areas represent finer divisions of these licences and may have many polygons per licence. Most Licenced Blocks are split with several sub areas, sometimes with differing operators and beneficiaries. ",
+        "num_resources": 8,
+        "num_tags": 3,
+        "organization": {
+            "id": "34f903d4-91d8-4571-be4f-79362d39fba7",
+            "name": "north-sea-transition-authority",
+            "title": "North Sea Transition Authority",
+            "type": "organization",
+            "description": "We regulate and influence the oil and gas, offshore hydrogen, and carbon storage industries. We help drive North Sea energy transition, realising the significant potential of the UK Continental Shelf as a critical energy and carbon abatement resource. We hold industry to account on halving upstream emissions by 2030.",
+            "image_url": "",
+            "created": "2016-10-05T17:02:18.742739",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "34f903d4-91d8-4571-be4f-79362d39fba7",
+        "private": false,
+        "state": "active",
+        "title": "UKCS Licences WGS84",
+        "type": "dataset",
+        "url": "https://opendata-nstauthority.hub.arcgis.com/datasets/NSTAUTHORITY::ukcs-licences-wgs84",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2016-07-14T09:30:01.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-11-16T08:22:19.363Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Oil and Gas Authority"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=3c950a2c8186438899f99ced733dd947&sublayer=0"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e5388980-50d3-49be-82c0-1133dafa6d0d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "60366fe9-e095-400a-bdd1-262083d3d5ca"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "NSTA Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T07:03:55.277762",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "dc10d490-86c8-400b-bf9e-84750d2eff68",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T07:03:55.232271",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "52fa1c3d-71da-4b7b-afba-8ac8f74b5017",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/datasets/NSTAUTHORITY::ukcs-licences-wgs84",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-21T15:05:16.829635",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "645a0630-1e0c-4e90-9024-95fffa6cde36",
+                "last_modified": null,
+                "metadata_modified": "2023-11-21T15:05:16.805501",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "52fa1c3d-71da-4b7b-afba-8ac8f74b5017",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.nstauthority.co.uk/arcgis/rest/services/Public_WGS84/UKCS_Licences_WGS84/MapServer/0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T07:03:55.277765",
+                "description": null,
+                "format": "OGC WFS",
+                "hash": "",
+                "id": "9f5c9afc-6a40-4800-9002-7b798fc41711",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T07:03:55.232435",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WFS",
+                "package_id": "52fa1c3d-71da-4b7b-afba-8ac8f74b5017",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.nstauthority.co.uk/arcgis/services/Public_WGS84/UKCS_Licences_WGS84/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T07:03:55.277765",
+                "description": null,
+                "format": "OGC WMS",
+                "hash": "",
+                "id": "a8d805ac-f448-4b0f-ae9b-279c1a525aa6",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T07:03:55.232526",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WMS",
+                "package_id": "52fa1c3d-71da-4b7b-afba-8ac8f74b5017",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.nstauthority.co.uk/arcgis/services/Public_WGS84/UKCS_Licences_WGS84/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:08:34.203107",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "74c28784-fecf-4400-8c7c-a404a13b38da",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:08:34.162399",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "52fa1c3d-71da-4b7b-afba-8ac8f74b5017",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/3c950a2c8186438899f99ced733dd947/csv?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:08:34.203113",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "2604eb82-db15-40fb-aa2c-2c5c93466dca",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:08:34.162492",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "52fa1c3d-71da-4b7b-afba-8ac8f74b5017",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/3c950a2c8186438899f99ced733dd947/geojson?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:08:34.203114",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "59e7086d-bcec-4dfb-83cc-bc7502b87012",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:08:34.162572",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "52fa1c3d-71da-4b7b-afba-8ac8f74b5017",
+                "position": 6,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/3c950a2c8186438899f99ced733dd947/shapefile?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:08:34.203115",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "74783966-619c-4bfc-a6bf-941f32e93f71",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:08:34.162649",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "52fa1c3d-71da-4b7b-afba-8ac8f74b5017",
+                "position": 7,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/3c950a2c8186438899f99ced733dd947/kml?layers=0",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "NSTA",
+                "id": "0fbb247b-6334-45e0-9b58-27dec05d5cbb",
+                "name": "NSTA",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Petroleum Licences",
+                "id": "9535a9ae-108d-4aff-8ba1-57796281aee6",
+                "name": "Petroleum Licences",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "WGS84",
+                "id": "49c570ac-2866-4ecc-820e-435178e1e7d1",
+                "name": "WGS84",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e5388980-50d3-49be-82c0-1133dafa6d0d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "60366fe9-e095-400a-bdd1-262083d3d5ca"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "NSTA Open Data"
+            }
+        ]
+    }
+}

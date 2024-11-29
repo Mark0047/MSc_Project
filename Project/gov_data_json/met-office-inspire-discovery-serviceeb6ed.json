@@ -1,0 +1,60 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "f14d7173-9fac-45e0-ad9f-8ef978bb267d",
+        "metadata_created": "2019-01-23T10:59:43.057384",
+        "metadata_modified": "2019-01-23T10:59:43.057390",
+        "name": "met-office-inspire-discovery-serviceeb6ed",
+        "notes": "Discovery service for Met Office data",
+        "organization": {
+            "id": "e585ca29-681d-4298-a747-8a863ec60aec",
+            "name": "met-office",
+            "title": "Met Office",
+            "type": "organization",
+            "description": "The Met Office is the UK\u2019s national weather service. It provides weather and climate-related services to the Armed Forces, government departments, the public, civil aviation, shipping, industry, agriculture and commerce.",
+            "image_url": "",
+            "created": "2012-06-27T14:52:09.949242",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e585ca29-681d-4298-a747-8a863ec60aec",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Met Office Inspire Discovery Service",
+        "type": "harvest",
+        "url": "http://datapoint.metoffice.gov.uk/public/data/inspire/service/discovery/index.html",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 23,
+            "last_job": {
+                "id": "212a17a7-95af-4076-94a6-d0628a29112b",
+                "created": "2018-12-13 10:55:11.634716",
+                "gather_started": "2018-12-13 10:55:18.002160",
+                "gather_finished": "2018-12-13 10:55:27.885154",
+                "finished": "2018-12-13 10:56:30.202983",
+                "source_id": "f14d7173-9fac-45e0-ad9f-8ef978bb267d",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 25,
+                    "errored": 0,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": []
+            },
+            "total_datasets": 25
+        }
+    }
+}

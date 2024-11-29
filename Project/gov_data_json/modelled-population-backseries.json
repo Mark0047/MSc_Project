@@ -1,0 +1,247 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "b44745e6-3af0-4e6a-9d4c-58fbf0950587",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-02-08T18:30:42.264704",
+        "metadata_modified": "2024-11-16T22:00:53.945090",
+        "name": "modelled-population-backseries",
+        "notes": "These modelled annual population estimates were created for use the [GLA's population projections](https://data.london.gov.uk/demography/population-and-household-projections/).\n\nThey are intended to provide a consistent series of annual population and components of change between census years with all change accounted for by the standard components of change (births, deaths, and migration).\n\nThe official mid-year population estimates published by ONS are available [here](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales).\n\nThe original detailed internal migration data published by ONS is available [here](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/internalmigrationinenglandandwales).\n\nAn overview of the general approach used to create these estimates is described in [this presentation](https://data.london.gov.uk/download/gla-demography-conference-presentations/e3ed5968-1cbf-4225-a349-d17bb35b1597/2022_BSPS_challenges_updating_projections_census21.pdf) delivered at the 2022 BSPS conference.\n\n\\* 17 April 2023 code for producing the modelled 2021 detailed internal migration flows is now available on [Github](https://github.com/Greater-London-Authority/model_detailed_migration_flows)",
+        "num_resources": 7,
+        "num_tags": 3,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Modelled population backseries",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/modelled-population-backseries",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2023-02-08T12:41:44.498Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-07-18T17:05:51.880Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "fb203828-bde5-4a50-96d9-8adfb4960631"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T18:30:42.272718",
+                "description": "*14 July 2023 - these have now been superseded\n\nModelled annual estimates of population from mid-2011 to mid-2021 for 2021 local authority districts and regions in England and Wales",
+                "format": "CSV",
+                "hash": "",
+                "id": "0c0f4a72-b9e8-4541-881b-3767c0c9614c",
+                "last_modified": null,
+                "metadata_modified": "2023-07-19T20:20:51.654791",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "modelled_backseries.csv",
+                "package_id": "b44745e6-3af0-4e6a-9d4c-58fbf0950587",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/modelled-population-backseries/80479250-e476-44db-af79-a163e301e88e/modelled_backseries.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T18:30:42.272722",
+                "description": "\\*Large file\\* Detailed annual internal migration flows by age, sex, origin and destination for years ending mid-2012 to mid-2021. Data up to year ending mid-2020 are based directly on the original estimates published by ONS. Data for the year ending mid-2021 is modelled by the GLA. These data are published on 2021 boundaries.",
+                "format": "CSV",
+                "hash": "",
+                "id": "760a05e6-05bb-4567-b4a7-1e904e9d2609",
+                "last_modified": null,
+                "metadata_modified": "2023-08-02T20:30:57.436511",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "origin_destination_lad_2012_2021.csv",
+                "package_id": "b44745e6-3af0-4e6a-9d4c-58fbf0950587",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/modelled-population-backseries/71a37944-6242-465c-a8ce-6d21ed1813ac/origin_destination_lad_2012_2021.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-04-19T19:15:39.872235",
+                "description": "Detailed annual migration flows by origin and destination from 2002 to 2020. Original data published by ONS. Series processed to consistent 2021 geography by GLA. Data is an input into process of modelling detailed 2021 flows and published here to allow results to be more easily reproduced.",
+                "format": "",
+                "hash": "",
+                "id": "b8ed32f8-117a-49c0-88fc-78a4de4eaf8b",
+                "last_modified": null,
+                "metadata_modified": "2023-04-19T19:15:39.845192",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "origin_destination_2002_to_2020_(2021_geog).rds",
+                "package_id": "b44745e6-3af0-4e6a-9d4c-58fbf0950587",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/modelled-population-backseries/6b9d6296-db41-4b7f-901c-2a5e5c5b44d5/origin_destination_2002_to_2020_%25282021_geog%2529.rds",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-07-19T20:20:51.687770",
+                "description": "*18 July 2024 - estimates including more recent ONS mid-year estimates are now available\n\nModelled annual estimates of population from mid-2011 to mid-2021 for 2021 local authority districts and regions in England and Wales.\n\nThe estimates were produced for use in the GLA interim 2021-based population projections.\n\nThese are an updated version of the original series published in February 2023. The modelling process used for these updated estimates has been improved to give results that better align with the official 2021 mid-year population estimates.",
+                "format": "CSV",
+                "hash": "",
+                "id": "38a1567e-4d26-4ed9-aa28-16da7220567f",
+                "last_modified": null,
+                "metadata_modified": "2024-07-19T22:01:15.943309",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "modelled_backseries (updated 14-07-2023).csv",
+                "package_id": "b44745e6-3af0-4e6a-9d4c-58fbf0950587",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/modelled-population-backseries/38ad55d2-1b32-4ce5-be7b-8f8742e0173c/modelled_backseries%2520%2528updated%252014-07-2023%2529.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-19T22:01:15.971519",
+                "description": "Modelled estimates of population and annual components of change from mid-2001 to mid-2023 for local authority districts (2023 geography) in England and Wales.\n\nThese estimates were produced for use in the GLA 2023-based population projections.",
+                "format": "CSV",
+                "hash": "",
+                "id": "7fbccdbf-902e-478c-8c70-c7fd64e23b63",
+                "last_modified": null,
+                "metadata_modified": "2024-07-19T22:01:15.943426",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "gla_modelled_estimates_series_LAD_EW_2001_2023_(2023_geog)_wide.csv",
+                "package_id": "b44745e6-3af0-4e6a-9d4c-58fbf0950587",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/modelled-population-backseries/2b5e071b-e5b4-4bbb-ab51-82f0f1f58e31/gla_modelled_estimates_series_LAD_EW_2001_2023_%25282023_geog%2529_wide.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-19T22:01:15.971522",
+                "description": "Modelled estimates of population and annual components of change from mid-2001 to mid-2022 for local authority districts (2021 geography) in England and Wales.\n\nThese estimates were produced for use in the GLA 2022-based population projections.",
+                "format": "CSV",
+                "hash": "",
+                "id": "4988d743-2f82-43bc-a11e-4163d9d005b9",
+                "last_modified": null,
+                "metadata_modified": "2024-07-19T22:01:15.943508",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "gla_modelled_estimates_series_LAD_EW_2001_2022_(2021_geog)_wide.csv",
+                "package_id": "b44745e6-3af0-4e6a-9d4c-58fbf0950587",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/modelled-population-backseries/d90c8f4c-6ae0-4838-b18b-240958550879/gla_modelled_estimates_series_LAD_EW_2001_2022_%25282021_geog%2529_wide.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-19T22:01:15.971523",
+                "description": "Modelled estimates of population and annual components of change from mid-2011 to mid-2022 for electoral wards (2022 geography) in London.\n\nThe estimates were produced for use in the GLA 2022-based population projections.",
+                "format": "CSV",
+                "hash": "",
+                "id": "564e48c4-ea5e-4af5-88f6-e7b59fe7d840",
+                "last_modified": null,
+                "metadata_modified": "2024-07-19T22:01:15.943579",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "gla_modelled_estimates_series_WD22_London_2011_2022_wide.csv",
+                "package_id": "b44745e6-3af0-4e6a-9d4c-58fbf0950587",
+                "position": 6,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/modelled-population-backseries/e8b6e836-42c0-4800-8099-9e2a50926d7e/gla_modelled_estimates_series_WD22_London_2011_2022_wide.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "demography",
+                "id": "dbff5a54-0319-4fd3-811d-5088dd3725f0",
+                "name": "demography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "internal migration",
+                "id": "1e1dbac8-b0e3-454a-be43-d2dba0b9ff63",
+                "name": "internal migration",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "population",
+                "id": "40739b84-20b5-415f-87f6-7ab11b26d2b3",
+                "name": "population",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "84d65a10-ad2a-44f9-93ef-a2ab7d8dd644"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

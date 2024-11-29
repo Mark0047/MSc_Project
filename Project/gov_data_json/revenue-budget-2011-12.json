@@ -1,0 +1,134 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "ODC@communities.gsi.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "167c0a8b-7d3e-4d32-8125-aa726e01e934",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2014-10-27T18:15:48.141978",
+        "metadata_modified": "2018-02-26T15:18:09.869108",
+        "name": "revenue-budget-2011-12",
+        "notes": "The revenue budget for each local authority in 2011-12, broken down by service category.\n\nThis dataset includes detailed information on the 2011-12 spending plans of every local authority in England.  It includes both upper and lower tiers of local government (county councils as well as district councils and local authorities) and other types of authorities such as police, fire, waste, transport and parks.\r\n\r\nNote that the dataset refers to budgets of local authorities as organisations.  It is not always the case that the money is spent in the geographical area that the authority is responsible for.\r\n\r\nSpending is broken down by the services provided.  The services have been identified using a DCLG coding scheme. These are in most cases an exact match with the CIPFA Service Reporting Code of Practice categories (SeRCOP) ([details here](http://doc.cipfa.org.uk/SeRCOP/GeneralFundRevenueAccount/EnglandWales/2011-2012.html)). A cross-reference to the SeRCOP codes will be added shortly.\r\n\r\nThis linked data representation of the revenue budget data is based on a spreadsheet that can be downloaded [here](http://www.communities.gov.uk/publications/corporate/statistics/revenuelocaldatabudget201112).  Further commentary, explanation and analysis of this dataset can be found [here (PDF)](http://www.communities.gov.uk/documents/statistics/pdf/1933771.pdf).",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "state": "active",
+        "theme-primary": "government",
+        "theme-secondary": [],
+        "title": "Revenue budget 2011-12",
+        "type": "dataset",
+        "url": "http://opendatacommunities.org/data/service-expenditure",
+        "version": null,
+        "extras": [
+            {
+                "key": "contact_email",
+                "value": "ODC@communities.gsi.gov.uk"
+            },
+            {
+                "key": "data_issued",
+                "value": "2012-03-16T17:56:42+00:00"
+            },
+            {
+                "key": "data_modified",
+                "value": "2012-03-16T18:10:25+00:00"
+            },
+            {
+                "key": "dcat_publisher_uri",
+                "value": "http://reference.data.gov.uk/id/department/dclg"
+            },
+            {
+                "key": "dcat_subject",
+                "value": "http://opendatacommunities.org/def/concept/themes/lg-finance-revenue"
+            },
+            {
+                "key": "guid",
+                "value": "http://opendatacommunities.org/data/service-expenditure"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9236d306-5e75-4221-8d76-a13677da3f5b"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://opendatacommunities.org/data.rdf\", \"harvest_source_type\": \"dcat_rdf\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Open Data Communities\", \"activity_occurred\": \"2018-02-26T15:18:09.805812\", \"activity\": \"harvest\", \"harvested_guid\": \"http://opendatacommunities.org/data/service-expenditure\"}]"
+            },
+            {
+                "key": "metadata_uri",
+                "value": "http://opendatacommunities.org/data/service-expenditure"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-18T09:21:36.943865",
+                "description": "",
+                "format": "SPARQL",
+                "hash": "",
+                "id": "d9f6f5e1-2499-4101-b44c-053cfa615c6e",
+                "last_modified": null,
+                "metadata_modified": "2015-08-18T09:21:36.943865",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SPARQL Endpoint",
+                "package_id": "167c0a8b-7d3e-4d32-8125-aa726e01e934",
+                "position": 0,
+                "resource_type": "api",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/sparql",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-18T09:21:36.943870",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "b36be858-a209-4003-a2d6-c7e970dfab58",
+                "last_modified": null,
+                "metadata_modified": "2015-08-18T09:21:36.943870",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset home page",
+                "package_id": "167c0a8b-7d3e-4d32-8125-aa726e01e934",
+                "position": 1,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/data/service-expenditure",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

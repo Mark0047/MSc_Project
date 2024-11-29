@@ -1,0 +1,485 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "42c31542-228d-439b-8dbe-e72135dae71c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-09-30T13:12:53.479117",
+        "metadata_modified": "2024-06-14T14:49:46.959408",
+        "name": "flood-risk-areas",
+        "notes": "This metadata record is for Approval for Access product AfA256.\n\nFlood Risk Areas identify locations where there is believed to be significant flood risk. The EU Floods Directive refers to Flood Risk Areas as 'Areas of Potentially Significant Flood Risk' (APSFR).\n\nFlood Risk Areas have been defined by the Environment Agency (main rivers and the sea) and Lead Local Flood Authorities (surface water). Other sources of flooding are not covered.   This dataset includes Flood Risk Areas defined for both Cycle 1 (December 2011) and Cycle 2 (December 2018).\n\nThe criteria used to determine significance are explained in supporting guidance document supplied with this data.\n\nFlood Risk Areas determine where Flood Hazard and Risk Maps and Flood Risk Management Plans must subsequently be produced to meet obligations under the EU Floods Directive.\n\nINFORMATION WARNING \n\nFlood Risk Areas are designed to meet the needs of the European Floods Directive. They are designed for broad planning purposes only and are not appropriate for any other type of flood mapping. Other flood mapping is available which is more appropriate to showing localised flood risk. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2019. All rights reserved.",
+        "num_resources": 13,
+        "num_tags": 4,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2011-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Flood Risk Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2018-12-22\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "f3d63ec5-a21a-49fb-803a-0fa0fb7238b6"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "8a20fea3-ea9c-4a34-8bff-5305d93c4a14"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015637",
+                "description": "Data Version.txt download on Defra Data Services Platform",
+                "format": "TXT",
+                "hash": "",
+                "id": "bcdc4b6c-8179-4076-ad7f-b0b672a2b3f8",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.967395",
+                "mimetype": "text/plain",
+                "mimetype_inner": null,
+                "name": "Data Version.txt",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ab4aae63-dc0a-4234-b7a3-367a8c566961&fileName=Data Version.txt",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015642",
+                "description": "FloodRiskAreas-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b0e210e9-91d7-49b7-abbc-c2699d32e98e",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.967535",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "FloodRiskAreas-FGDB.zip",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ab4aae63-dc0a-4234-b7a3-367a8c566961&fileName=FloodRiskAreas-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015644",
+                "description": "FloodRiskAreas-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "8daa468a-5565-48a2-aa3b-e1c29c394600",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.967644",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "FloodRiskAreas-GeoJSON.zip",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ab4aae63-dc0a-4234-b7a3-367a8c566961&fileName=FloodRiskAreas-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015646",
+                "description": "FloodRiskAreas-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "fc3f7ebb-3c44-4e0b-937d-41db1dcff5e1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.967740",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "FloodRiskAreas-GML.zip",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ab4aae63-dc0a-4234-b7a3-367a8c566961&fileName=FloodRiskAreas-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015648",
+                "description": "FloodRiskAreas-KML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "8e2bf11c-46b1-4a76-8ef5-66f060df3dbd",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.967835",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "FloodRiskAreas-KML.zip",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ab4aae63-dc0a-4234-b7a3-367a8c566961&fileName=FloodRiskAreas-KML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015649",
+                "description": "FloodRiskAreas-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "1de81ca4-1251-40bb-b706-c127bab22bf1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.967925",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "FloodRiskAreas-MID_MIF.zip",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ab4aae63-dc0a-4234-b7a3-367a8c566961&fileName=FloodRiskAreas-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015651",
+                "description": "FloodRiskAreas-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "1058b4cd-2e9f-410f-b518-04e9fa46afff",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.968022",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "FloodRiskAreas-SHP.zip",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ab4aae63-dc0a-4234-b7a3-367a8c566961&fileName=FloodRiskAreas-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015653",
+                "description": "FloodRiskAreas-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "84e05801-1067-444a-81f5-1f8a0ba6c82b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.968113",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "FloodRiskAreas-TAB.zip",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ab4aae63-dc0a-4234-b7a3-367a8c566961&fileName=FloodRiskAreas-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015655",
+                "description": "Guidance_Flood_Risk_Areas_v1.pdf download on Defra Data Services Platform",
+                "format": "PDF",
+                "hash": "",
+                "id": "f17bdc7b-bdee-4072-989c-8d1f1efeda99",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.968214",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Guidance_Flood_Risk_Areas_v1.pdf",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ab4aae63-dc0a-4234-b7a3-367a8c566961&fileName=Guidance_Flood_Risk_Areas_v1.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015657",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "5ac45eea-88d6-41ad-a5b7-0676cf4294e7",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.968316",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "FloodRiskAreas_Download",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/f3d63ec5-a21a-49fb-803a-0fa0fb7238b6?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015659",
+                "description": "Flood Risk Areas WMS",
+                "format": "",
+                "hash": "",
+                "id": "a9f85335-c7fe-4a1e-85df-3cf4dce21adc",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.968442",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "FloodRiskAreas_WMS",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/flood-risk-areas/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015661",
+                "description": "Flood Risk Areas WFS",
+                "format": "",
+                "hash": "",
+                "id": "2de71c3c-c27a-4297-96f3-d8c10bd07d64",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.968548",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "FloodRiskAreas_WFS",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 11,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/flood-risk-areas/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:47.015662",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "4eba847f-41cb-4562-926a-d3b95b528770",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:46.968633",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "42c31542-228d-439b-8dbe-e72135dae71c",
+                "position": 12,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/flood-risk-areas/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "civilian protection",
+                "id": "f8f15eb3-6296-461b-901a-6a7fd5cae8be",
+                "name": "civilian protection",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood forecast",
+                "id": "600b1726-af43-4daf-8bec-96dc5e6b9280",
+                "name": "flood forecast",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inlandWaters",
+                "id": "cec0bb77-73e4-4884-a522-2dd31882fe82",
+                "name": "inlandWaters",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e967c61d-8760-4e5c-a432-2321eef6292f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

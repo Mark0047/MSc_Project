@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "2d6d48b7-5427-4aa0-97ef-976b8713123e",
+        "metadata_created": "2019-01-23T10:48:47.076819",
+        "metadata_modified": "2023-11-01T13:34:35.925316",
+        "name": "rpa-metadata-catalogue-harvest",
+        "notes": "",
+        "organization": {
+            "id": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+            "name": "rural-payments-agency",
+            "title": "Rural Payments Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:53:21.853113",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "RPA metadata catalogue harvest",
+        "type": "harvest",
+        "url": "http://environment.data.gov.uk/discover/rpa/csw",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 388,
+            "last_job": {
+                "id": "96ca5e7f-f36b-49dd-9e2b-1b91358032d5",
+                "created": "2023-11-01 13:34:47.279193",
+                "gather_started": "2023-11-01 13:34:47.443119",
+                "gather_finished": "2023-11-01 13:36:29.022776",
+                "finished": "2023-11-01 13:51:23.985924",
+                "source_id": "2d6d48b7-5427-4aa0-97ef-976b8713123e",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1108,
+                    "not modified": 0,
+                    "errored": 1108,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}MD_Keywords': This element is not expected.",
+                        "error_count": 1108
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 1110
+        }
+    }
+}

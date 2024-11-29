@@ -1,0 +1,163 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f4481b10-3618-4d87-ac84-22d8ee242878",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-11-13T14:27:31.611470",
+        "metadata_modified": "2024-11-16T22:01:25.651682",
+        "name": "london-boroughs",
+        "notes": "Official Ordnance Survey polygons showing Borough boundaries and reference code to link to national statistics.2018. Data is an extract from Ordnance Survey Boundary-Line product which is a specialist 1:10 000 scale boundaries dataset. It contains all levels of electoral and administrative boundaries, from district, wards and civil parishes (or communities) up to parliamentary, assembly and European constituencies. The information is represented as vector digital data. The boundary information is updated twice a year, in May and October. The May release contains the boundaries that have become live in the first week of May, in the year of release. The October release contains the May boundaries plus additional information.\n\nOrdnance Survey Open Data - Contains public sector information licensed under the Open Government Licence v3.0",
+        "num_resources": 3,
+        "num_tags": 3,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "London Boroughs",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/london_boroughs",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2019-07-10T20:41:36.077Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2022-06-13T09:43:05.417Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "2e1659aa-4384-474c-a154-947b61f3747c"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-11-13T14:27:31.629141",
+                "description": "Geopackage of London Boroughs\n\nFormat: geopackage (gpkg)\n\nProjection: EPSG: 27700, British National Grid",
+                "format": "",
+                "hash": "",
+                "id": "9166e51b-1515-4e7f-b0fd-a4cb0fe9da42",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T18:01:05.531807",
+                "mimetype": "application/geopackage+sqlite3",
+                "mimetype_inner": null,
+                "name": "London Boroughs",
+                "package_id": "f4481b10-3618-4d87-ac84-22d8ee242878",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london_boroughs/9502cdec-5df0-46e3-8aa1-2b5c5233a31f/London_Boroughs.gpkg",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-11-13T14:27:31.629146",
+                "description": "This is a link to the web mapping service containing the London Borough layer. It provides the most recent version of the data and supports queries of the data.",
+                "format": "",
+                "hash": "",
+                "id": "52fbed1b-d267-4f84-a7e9-2a38c86dc90c",
+                "last_modified": null,
+                "metadata_modified": "2020-11-13T14:27:31.629146",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "London Boroughs",
+                "package_id": "f4481b10-3618-4d87-ac84-22d8ee242878",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london_boroughs/85161a4f-056b-45cc-b6ca-b7517b92cf88",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-06-13T19:51:04.362004",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "afcb06ca-2ce9-44e8-8335-98571a7b3958",
+                "last_modified": null,
+                "metadata_modified": "2022-06-13T19:51:04.334652",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "London Borough Boundary Map A4.pdf",
+                "package_id": "f4481b10-3618-4d87-ac84-22d8ee242878",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london_boroughs/f1d04c59-4590-4291-b4ea-3abc624156b7/London_Borough_Boundary_Map_A4.pdf",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "LB",
+                "id": "e22e880a-116c-41b7-815a-817e2b44337d",
+                "name": "LB",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "MapLondon",
+                "id": "e8c46c47-f07f-4682-ad39-b3db6c11330c",
+                "name": "MapLondon",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "unitary",
+                "id": "b3eeed98-3f83-452f-bd69-4074d9978531",
+                "name": "unitary",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "f944ae8a-5fcb-4c4f-a935-16ade8f58d50"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

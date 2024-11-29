@@ -1,0 +1,128 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "f91deabe-693f-4456-81cc-f1b2ff09b3f8",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:22:14.142828",
+        "metadata_modified": "2024-11-16T22:02:41.398399",
+        "name": "gla-establishment-list",
+        "notes": "List of all established posts in the GLA by directorate, department and grade, as at 30th September 2010.\n\nThe previous version of this dataset is also [available here](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/gla-establishment-list-20091231.csv).",
+        "num_resources": 1,
+        "num_tags": 4,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "GLA Establishment List",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/gla-establishment-list",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2010-02-02T15:34:52.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2014-07-04T14:28:16.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "f55b9dd6-6e0b-42f1-a866-1d4a28a8bad6"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:23:32.556340",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "29d987fb-0b7b-4400-8aa5-c5dfd4ebdee0",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:45.483435",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "gla-establishment-list-20100930.csv",
+                "package_id": "f91deabe-693f-4456-81cc-f1b2ff09b3f8",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/gla-establishment-list/a726528a-e2cf-4ab7-a8c2-eab5b2c46d7f/gla-establishment-list-20100930.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "establishment",
+                "id": "367209f7-a335-4432-a0bb-7c98bc0be606",
+                "name": "establishment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "jobs",
+                "id": "d2e09a99-8740-4ff0-82fa-ad0884ab4110",
+                "name": "jobs",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "posts",
+                "id": "7e959490-58e5-4052-9166-b6492143bdb6",
+                "name": "posts",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "staff",
+                "id": "5c4392aa-9343-4c17-b085-a57e282fbf57",
+                "name": "staff",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "94a08440-9f01-44e0-a80e-9cac3844c4f4"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

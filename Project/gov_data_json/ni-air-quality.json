@@ -1,0 +1,210 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a095804b-20c0-4b75-bf24-a2c0b9b95e57",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-07-01T10:29:29.278986",
+        "metadata_modified": "2021-01-23T16:30:52.204172",
+        "name": "ni-air-quality",
+        "notes": "Air pollution results from the introduction of a range of substances into the atmosphere from a wide variety of sources. It can cause both short term and long term effects on health, but also on the wider environment. The air quality in Northern Ireland is generally better now than it has been at any time since before the Industrial Revolution. \r\n\r\nThese improvements have been achieved through the introduction of legislation enforcing tighter controls on emissions of pollutants from key sources, notably industry, domestic combustion and transport.  However, despite the improvements made, air pollution is still recognised as a risk to health, and many people are concerned about pollution in the air that they breathe. \r\n\r\nGovernment statistics estimate that air pollution in the UK reduces the life expectancy of every person by an average of 7-8 months, with an associated cost of up to \u00a320 billion each year. Legislation and Policies aiming to further minimise and track the impact of air pollution on health and the environment have been introduced in Europe, the UK and Northern Ireland. ",
+        "num_resources": 5,
+        "num_tags": 4,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "NI Air Quality",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-06-29T10:05:16.654677",
+                "datastore_active": false,
+                "description": "Northern Ireland Air\u2019s Sensor Observation Service (SOS) provides a machine readable access point for air pollution measurements hosted on Northern Ireland Air.\r\n\r\nNorthern Ireland Air\u2019s SOS is based on the Open Geospatial Consortium\u2019s (OGC) Sensor Observation Service standard which has been extended to conform with INSPIRE download service specifications. The service provides an API type interface to Northern Ireland Air\u2019s measurement data for developers and machine to machine data transfer in open, machine readable data formats. It is not aimed at the general public nor traditional desktop air quality data users. We still recommend the resources on Northern Ireland Air\u2019s data archive for desktop activities\r\n\r\nFor more info on the SOS including support bindings (REST, JSON etc) see below link\r\n\r\nhttp://www.airqualityni.co.uk/data/sos/about/",
+                "format": "JSON",
+                "hash": "",
+                "id": "835a65a0-6cf3-424e-9823-221adbaaf03b",
+                "last_modified": null,
+                "metadata_modified": "2016-06-29T10:05:16.654677",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NI Air Sensor Observation Service",
+                "package_id": "a095804b-20c0-4b75-bf24-a2c0b9b95e57",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.airqualityni.co.uk/sos-ni/client",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-06-29T10:15:26.710583",
+                "datastore_active": false,
+                "description": "Northern Ireland Air\u2019s air quality Atom feeds provide users with a resource to download measurement data and metadata (attribute information) on measurement methods in open formats. The Atom feeds are aimed at users wanting to download larger volumes of data in a consistent format. The download formats and services conform to the INSPIRE data and service specifications for pre-defined downloads and are intended to support commitments to INSPIRE and wider governmental Open Data strategies. \r\n\r\nThe measurement data and metadata are encoded in XML using the European Air Quality e-Reporting data model. Each download is encapsulated in an Atom feed which can be subscribed to (like an RSS feed) in order to receive notifications of updates. \r\n\r\nFor more info on the Atom Feeds see below:\r\n\r\nhttp://www.airqualityni.co.uk/data/atom-dls/",
+                "format": "XML",
+                "hash": "",
+                "id": "24b7d6be-3100-4bf2-a6ee-9979a6bb8ec4",
+                "last_modified": null,
+                "metadata_modified": "2016-06-29T10:15:26.710583",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Automatic air quality measurement data",
+                "package_id": "a095804b-20c0-4b75-bf24-a2c0b9b95e57",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.airqualityni.co.uk/data/atom-dls/auto/atom.en.xml",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-06-29T10:16:22.431770",
+                "datastore_active": false,
+                "description": "Northern Ireland Air\u2019s air quality Atom feeds provide users with a resource to download measurement data and metadata (attribute information) on measurement methods in open formats. The Atom feeds are aimed at users wanting to download larger volumes of data in a consistent format. The download formats and services conform to the INSPIRE data and service specifications for pre-defined downloads and are intended to support commitments to INSPIRE and wider governmental Open Data strategies. \r\n\r\nThe measurement data and metadata are encoded in XML using the European Air Quality e-Reporting data model. Each download is encapsulated in an Atom feed which can be subscribed to (like an RSS feed) in order to receive notifications of updates. \r\n\r\nFor more info on the Atom Feeds see below:\r\n\r\nhttp://www.airqualityni.co.uk/data/atom-dls/",
+                "format": "XML",
+                "hash": "",
+                "id": "e1667b07-5f00-447c-affd-bf99e210051a",
+                "last_modified": null,
+                "metadata_modified": "2016-06-29T10:16:22.431770",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Non-automatic air quality measurement data",
+                "package_id": "a095804b-20c0-4b75-bf24-a2c0b9b95e57",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.airqualityni.co.uk/data/atom-dls/non-auto/atom.en.xml",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-06-29T10:17:15.771039",
+                "datastore_active": false,
+                "description": "Northern Ireland Air\u2019s air quality Atom feeds provide users with a resource to download measurement data and metadata (attribute information) on measurement methods in open formats. The Atom feeds are aimed at users wanting to download larger volumes of data in a consistent format. The download formats and services conform to the INSPIRE data and service specifications for pre-defined downloads and are intended to support commitments to INSPIRE and wider governmental Open Data strategies. \r\n\r\nThe measurement data and metadata are encoded in XML using the European Air Quality e-Reporting data model. Each download is encapsulated in an Atom feed which can be subscribed to (like an RSS feed) in order to receive notifications of updates. \r\n\r\nFor more info on the Atom Feeds see below:\r\n\r\nhttp://www.airqualityni.co.uk/data/atom-dls/",
+                "format": "XML",
+                "hash": "",
+                "id": "f82ec36e-a4b8-43ee-8948-52fb44dd2c05",
+                "last_modified": null,
+                "metadata_modified": "2016-06-29T10:17:15.771039",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Aggregated air quality statistics",
+                "package_id": "a095804b-20c0-4b75-bf24-a2c0b9b95e57",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.airqualityni.co.uk/data/atom-dls/aggregated/atom.en.xml",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-01-21T14:09:21.115479",
+                "datastore_active": false,
+                "description": "This link directs to the Northern Ireland Air Quality - Download Air Quality Data page where you can specify the parameters and formats required and generate your chosen data in a range of formats (including CSV format).",
+                "format": "HTML",
+                "hash": "",
+                "id": "840da256-c2b2-4e87-9e33-ffab7a3c526a",
+                "last_modified": null,
+                "metadata_modified": "2021-01-21T14:09:21.115479",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Northern Ireland Air - Download Air Quality Data",
+                "package_id": "a095804b-20c0-4b75-bf24-a2c0b9b95e57",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.airqualityni.co.uk/data/download-data",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "air",
+                "id": "17ec8eed-aeb1-4159-a40f-76ed08695d03",
+                "name": "air",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "air quality",
+                "id": "1ad4bad4-0836-4d1b-a28b-abafbf998cee",
+                "name": "air quality",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "monitoring",
+                "id": "ad6d585b-0e96-411a-89e8-13f62277d149",
+                "name": "monitoring",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "quality",
+                "id": "dda66b74-da1c-4e66-81fa-89abf1a97be1",
+                "name": "quality",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "17ef066f-e9bb-4032-b640-b49cd5396d2c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "17ef066f-e9bb-4032-b640-b49cd5396d2c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

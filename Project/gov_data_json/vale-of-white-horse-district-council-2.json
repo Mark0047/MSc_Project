@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "WEEKLY",
+        "id": "1b363cb8-8107-43f6-aa75-50b92110562c",
+        "metadata_created": "2019-01-23T10:42:41.462555",
+        "metadata_modified": "2023-09-25T11:48:54.741745",
+        "name": "vale-of-white-horse-district-council-2",
+        "notes": "",
+        "organization": {
+            "id": "cab07a0d-a07a-4ad7-8c21-501dabb5b082",
+            "name": "vale-of-white-horse-district-council",
+            "title": "Vale of White Horse District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T12:03:59.443306",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "cab07a0d-a07a-4ad7-8c21-501dabb5b082",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Vale of White Horse District Council 2",
+        "type": "harvest",
+        "url": "http://maps.whitehorsedc.gov.uk/data/harvest/v/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 194,
+            "last_job": {
+                "id": "fb443c5e-dd0b-4990-b197-34d2597f8617",
+                "created": "2024-11-13 19:00:05.663060",
+                "gather_started": "2024-11-13 19:00:07.580344",
+                "gather_finished": "2024-11-13 19:00:08.093977",
+                "finished": "2024-11-13 19:00:22.833016",
+                "source_id": "1b363cb8-8107-43f6-aa75-50b92110562c",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 3,
+                    "errored": 3,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 3
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 3
+        }
+    }
+}

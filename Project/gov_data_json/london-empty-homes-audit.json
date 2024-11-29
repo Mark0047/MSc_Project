@@ -1,0 +1,128 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "1941bdf9-5720-4473-b290-e3851bedcbf2",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:21:09.688401",
+        "metadata_modified": "2024-11-16T22:02:37.797591",
+        "name": "london-empty-homes-audit",
+        "notes": "This data relates to private sector empty homes in London that have been vacant for 12 months or more at 31 October 2010. This data was collected by the GLA from all London Boroughs.\n\nIn addition to reporting the total number of such properties, the audit records factors such as size and length of time empty. In order to assist policy development and decision making, properties have been assigned a nominal priority rating based on factors such as length of time empty, condition and size, with '1' the lowest priority band and '5' the highest.",
+        "num_resources": 1,
+        "num_tags": 4,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "London Empty Homes Audit",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/london-empty-homes-audit",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2012-01-10T00:00:00.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2014-07-04T15:52:14.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "4490acc8-4d3a-429f-aab5-64c8af167781"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:22:32.309826",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "88c02d2c-30ac-4fb2-9495-7465c75cb0a3",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:57:42.419882",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "empty-homes-audit-data.csv",
+                "package_id": "1941bdf9-5720-4473-b290-e3851bedcbf2",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-empty-homes-audit/2baf1040-c5c2-473e-8079-48f8a316874d/empty-homes-audit-data.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "empty",
+                "id": "d17f3552-f575-4b29-90e6-3abd6bb3c07e",
+                "name": "empty",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "homes",
+                "id": "c0ae7569-c9da-478d-835f-ee722aa7483a",
+                "name": "homes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "housing",
+                "id": "00a20d30-2585-49fc-aeef-137dff81627d",
+                "name": "housing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "private",
+                "id": "619c0682-4ed0-4f17-84c7-e51fdee75e91",
+                "name": "private",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d21d3283-6df8-427e-b339-6e1f80c7ea2c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

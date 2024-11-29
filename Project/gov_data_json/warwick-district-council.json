@@ -1,0 +1,69 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "5d20ba5f-8585-4c2a-b3b2-e1dddb77b3d5",
+        "metadata_created": "2019-01-23T11:01:41.707100",
+        "metadata_modified": "2019-01-23T11:01:41.707107",
+        "name": "warwick-district-council",
+        "notes": "",
+        "organization": {
+            "id": "522edeab-9ef2-4074-9f46-29582e583f20",
+            "name": "warwick-district-council",
+            "title": "Warwick District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-04-09T14:16:53.830872",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "522edeab-9ef2-4074-9f46-29582e583f20",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Warwick District Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/Warwick_District_Council",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 10,
+            "last_job": {
+                "id": "c005a5e3-208b-4b0d-947a-ab415bc68a2d",
+                "created": "2020-10-06 14:20:33.996765",
+                "gather_started": "2020-10-06 14:20:34.188404",
+                "gather_finished": "2020-10-06 14:20:34.487089",
+                "finished": "2020-10-06 14:20:38.168565",
+                "source_id": "5d20ba5f-8585-4c2a-b3b2-e1dddb77b3d5",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 3,
+                    "not modified": 6,
+                    "errored": 9,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 9
+                    },
+                    {
+                        "message": "Tag \"Area management/restriction/regulation zones and r\" must be alphanumeric characters or symbols: -_.",
+                        "error_count": 2
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 9
+        }
+    }
+}

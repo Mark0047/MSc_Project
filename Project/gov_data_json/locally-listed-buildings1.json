@@ -1,0 +1,230 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@epsom-ewell.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "60173e09-517a-43ac-a2ce-97e80cd19b1a",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-09-29T10:50:05.473068",
+        "metadata_modified": "2021-06-28T15:17:01.287750",
+        "name": "locally-listed-buildings1",
+        "notes": "Buildings which, whilst not meeting the national criteria for listing, are of considerable local historic, architectural or other special character interest.\nThese are known as locally listed buildings and have formal recognition in the planning system. These buildings or groups of buildings are identified and designated by the Council to ensure that all interested parties are aware of their local importance and merit.\nUpon accessing this Licensed Data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE \n\n",
+        "num_resources": 3,
+        "num_tags": 1,
+        "organization": {
+            "id": "1d700d8f-1f17-45f4-9217-88e04eb30f14",
+            "name": "epsom-and-ewell-borough-council",
+            "title": "Epsom and Ewell Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-15T09:56:08.177952",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1d700d8f-1f17-45f4-9217-88e04eb30f14",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Locally Listed Buildings",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"as per INSPIRE\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.302634"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.376228"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.304888"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.237736"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2015-05-11\"}, {\"type\": \"revision\", \"value\": \"2020-01-30\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "6543ae28-5890-49fd-9182-290cd453e365"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7a766c0c-883b-4151-952e-6b2878c42203"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-01-26T13:14:46"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Epsom and Ewell Borough Council (originator)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.302634, 51.304888], [-0.237736, 51.304888], [-0.237736, 51.376228], [-0.302634, 51.376228], [-0.302634, 51.304888]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "cd9bdfec-e36c-4f51-bb03-c455b481f297"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Epsom and Ewell Borough Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-06-28T15:17:01.596032",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "42857f25-91a1-41ba-bc72-e09c5677ae92",
+                "last_modified": null,
+                "metadata_modified": "2021-06-28T15:17:01.596032",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Epsom and Ewell INSPIRE Web Map Service",
+                "package_id": "60173e09-517a-43ac-a2ce-97e80cd19b1a",
+                "position": 0,
+                "resource_locator_function": "search",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.epsom-ewell.gov.uk/getOWS.ashx?MapSource=EEBC/inspire&service=WMS&version=1.1.1&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-06-28T15:17:01.596040",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "038a4344-3e84-4205-bafd-77606406f6bb",
+                "last_modified": null,
+                "metadata_modified": "2021-06-28T15:17:01.596040",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Epsom and Ewell INSPIRE Download service",
+                "package_id": "60173e09-517a-43ac-a2ce-97e80cd19b1a",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.epsom-ewell.gov.uk/getOWS.ashx?MapSource=EEBC/inspire&service=WFS&version=1.1.0&request=GetFeature&Typename=LocallyListedBuildings",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-06-28T15:17:01.596042",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "323d7622-3046-43d6-a23b-ce84e2a1ff76",
+                "last_modified": null,
+                "metadata_modified": "2021-06-28T15:17:01.596042",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Epsom and Ewell Website ",
+                "package_id": "60173e09-517a-43ac-a2ce-97e80cd19b1a",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.epsom-ewell.gov.uk/residents/planning/historic-environment/locally-listed-heritage-assets",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "historical_site",
+                "id": "94d56b28-c938-4a94-ba8c-dacd53b8b7d1",
+                "name": "historical_site",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7a766c0c-883b-4151-952e-6b2878c42203"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "cd9bdfec-e36c-4f51-bb03-c455b481f297"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Epsom and Ewell Borough Council"
+            }
+        ]
+    }
+}

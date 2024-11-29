@@ -1,0 +1,184 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "563a5530-a7a2-46aa-925e-41fe09de7ea3",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-02-18T18:10:14.451898",
+        "metadata_modified": "2024-11-17T13:00:55.403439",
+        "name": "parking-bays",
+        "notes": "This dataset contains the parking bays location in the London Borough of Camden. A parking bay consists of a number of parking spaces, therefore individual parking spaces cannot be identified in this dataset, however the attribution includes the approximate length of the parking bay in metres, and the approximate number of spaces in the parking bay. Other attribution includes restriction type, times of operation, maximum stay, tariff, road name and CPZ (Controlled Parking Zone). The Easting and Northing (and Longitude and Latitude) attributes are automatically calculated based on an arbitrary node along the polyline geometry of the parking bay; the WKT (Well Known Text) attributes can be used to redraw the full extent of each parking bay using a GIS (Geographic Information System).",
+        "num_resources": 4,
+        "num_tags": 3,
+        "organization": {
+            "id": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+            "name": "london-borough-of-camden",
+            "title": "London Borough of Camden",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:32.040042",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+        "private": false,
+        "state": "active",
+        "title": "Parking Bays",
+        "type": "dataset",
+        "url": "https://opendata.camden.gov.uk/d/7hiv-3r9k",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2023-03-31"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-11-13"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "opendata.camden.gov.uk"
+            },
+            {
+                "key": "guid",
+                "value": "https://opendata.camden.gov.uk/api/views/7hiv-3r9k"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-02-18T18:10:14.557989",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "c69c3d3f-0fdf-44af-9239-76a8842cf014",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:29:02.393363",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "563a5530-a7a2-46aa-925e-41fe09de7ea3",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/7hiv-3r9k/rows.csv?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-02-18T18:10:14.558013",
+                "description": null,
+                "format": "RDF",
+                "hash": "",
+                "id": "d89079c0-3106-4c70-8bdd-b939af610e46",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:29:02.393481",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "563a5530-a7a2-46aa-925e-41fe09de7ea3",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/7hiv-3r9k/rows.rdf?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-02-18T18:10:14.558023",
+                "description": null,
+                "format": "JSON",
+                "hash": "",
+                "id": "a5a6a105-88e2-4589-9366-886f58c34fef",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:29:02.393578",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "563a5530-a7a2-46aa-925e-41fe09de7ea3",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/7hiv-3r9k/rows.json?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-02-18T18:10:14.558032",
+                "description": null,
+                "format": "XML",
+                "hash": "",
+                "id": "69eeee45-4040-45eb-ac21-d5dbc8559dfd",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:29:02.393669",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "563a5530-a7a2-46aa-925e-41fe09de7ea3",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/7hiv-3r9k/rows.xml?accessType=DOWNLOAD",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "cpz",
+                "id": "ac412810-9908-4b4b-88e0-1499b1342559",
+                "name": "cpz",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "parking",
+                "id": "bed04230-3d56-4ab8-8b21-dd9c0d46db4c",
+                "name": "parking",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "permits",
+                "id": "f46fec00-1500-4f3d-bbea-f935059927cc",
+                "name": "permits",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "aa69b753-046a-4f72-97c6-25b4410733d2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8a82ef54-e704-498c-b662-141c854a4b5d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Camden Open Data"
+            }
+        ]
+    }
+}

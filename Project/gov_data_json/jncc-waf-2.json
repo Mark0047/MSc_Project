@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "dc30c4ac-2770-4eae-aa1c-472d3f4787ca",
+        "metadata_created": "2019-01-23T11:48:16.774757",
+        "metadata_modified": "2019-01-23T11:48:16.774767",
+        "name": "jncc-waf-2",
+        "notes": "",
+        "organization": {
+            "id": "d535271c-a76d-4af2-81e7-335b5da1a2bf",
+            "name": "joint-nature-conservation-committee",
+            "title": "Joint Nature Conservation Committee",
+            "type": "organization",
+            "description": "The Joint Nature Conservation Committee (JNCC) is the statutory adviser to the UK Government on national and international nature conservation. Its work contributes to maintaining and enriching biological diversity, conserving geological features and sustaining natural systems.",
+            "image_url": "",
+            "created": "2012-06-27T14:51:55.214152",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d535271c-a76d-4af2-81e7-335b5da1a2bf",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "JNCC WAF 2",
+        "type": "harvest",
+        "url": "https://data.jncc.gov.uk/waf/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2022,
+            "last_job": {
+                "id": "e283fca9-b201-406a-beb4-a3d6c51eb603",
+                "created": "2024-11-17 10:00:04.857174",
+                "gather_started": "2024-11-17 10:00:07.078987",
+                "gather_finished": "2024-11-17 10:00:07.312940",
+                "finished": "2024-11-17 10:00:07.312940",
+                "source_id": "dc30c4ac-2770-4eae-aa1c-472d3f4787ca",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Couldn't find any links to metadata files",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 321
+        }
+    }
+}

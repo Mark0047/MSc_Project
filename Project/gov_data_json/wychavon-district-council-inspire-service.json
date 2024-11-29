@@ -1,0 +1,81 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "949deb2d-1f10-4c8d-b869-48f6ad3ecb2d",
+        "metadata_created": "2019-01-23T11:18:31.699858",
+        "metadata_modified": "2019-05-13T13:57:58.529280",
+        "name": "wychavon-district-council-inspire-service",
+        "notes": "",
+        "organization": {
+            "id": "b11b25f2-ff9e-4ba5-bc0d-f09311d39227",
+            "name": "wychavon-district-council",
+            "title": "Wychavon District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-08-23T14:32:32.315813",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b11b25f2-ff9e-4ba5-bc0d-f09311d39227",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "Wychavon District Council - INSPIRE Service",
+        "type": "harvest",
+        "url": "http://inspire.wychavon.gov.uk/geonetwork/srv/eng/csw-wychavon",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 8,
+            "last_job": {
+                "id": "a3cc6984-8d68-4a03-9b2e-c49b4cf2b065",
+                "created": "2019-10-15 12:58:37.539323",
+                "gather_started": "2019-10-15 12:58:38.101211",
+                "gather_finished": "2019-10-15 12:58:39.544442",
+                "finished": "2019-10-15 12:58:50.900938",
+                "source_id": "949deb2d-1f10-4c8d-b869-48f6ad3ecb2d",
+                "status": "Finished",
+                "stats": {
+                    "added": 2,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 3,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}MD_Keywords': Missing child element(s). Expected is ( {http://www.isotc211.org/2005/gmd}keyword ).\nElement '{http://www.isotc211.org/2005/gmd}resourceConstraints': This element is not expected. Expected is one of ( {http://www.isotc211.org/2005/gmd}spatialRepresentationType, {http://www.isotc211.org/2005/gmd}spatialResolution, {http://www.isotc211.org/2005/gmd}language ).",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Validation Error: {'Spatial': u'Error decoding JSON object: Expecting value: line 1 column 81 (char 80)'}",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"Unique resource identifier is mandatory for datasets and series. One or more shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='citation' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CI_Citation' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"((../../../../gmd:hierarchyLevel[1]/*[1]/@codeListValue = 'dataset' or ../../../../gmd:hierarchyLevel[1]/*[1]/@codeListValue = 'series') and count(gmd:identifier) >= 1) or (../../../../gmd:hierarchyLevel[1]/*[1]/@codeListValue != 'dataset' and ../../../../gmd:hierarchyLevel[1]/*[1]/@codeListValue != 'series') or count(../../../../gmd:hierarchyLevel) = 0\":\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Service schemas (gmx.xsd & srv.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}MD_LegalConstraints': This element is not expected. Expected is one of ( {http://www.isotc211.org/2005/gmd}pointOfContact, {http://www.isotc211.org/2005/gmd}resourceMaintenance, {http://www.isotc211.org/2005/gmd}graphicOverview, {http://www.isotc211.org/2005/gmd}resourceFormat, {http://www.isotc211.org/2005/gmd}descriptiveKeywords, {http://www.isotc211.org/2005/gmd}resourceSpecificUsage, {http://www.isotc211.org/2005/gmd}resourceConstraints, {http://www.isotc211.org/2005/gmd}aggregationInfo, {http://www.isotc211.org/2005/srv}serviceType ).",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for http://inspire.wychavon.gov.uk:80/geoserver/wychavon/ows?SERVICE=WMS& failed with exception: 'NoneType' object has no attribute 'find'",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 1
+        }
+    }
+}

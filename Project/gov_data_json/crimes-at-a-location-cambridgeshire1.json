@@ -1,0 +1,154 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "96d69116-2513-4d29-afb4-11d79c8c7bf4",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-02-19T04:34:01.073420",
+        "metadata_modified": "2020-04-12T08:24:20.650700",
+        "name": "crimes-at-a-location-cambridgeshire1",
+        "notes": "<p>Crimes at a location</p>\n<p>Returns just the crimes which occurred at the specified location, rather than those within a radius. If given latitude and longitude, finds the nearest pre-defined location and returns the crimes which occurred there.</p>\n<p>Data taken from <a href=\"https://data.police.uk/\">https://data.police.uk/</a></p>\n",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+            "name": "cambridgeshire-insight",
+            "title": "Cambridgeshire Insight",
+            "type": "organization",
+            "description": "The Cambridgeshire Insight Partnership is made up of public, health and community bodies to provide a shared research knowledge base for the Cambridgeshire area. It allows users an easy way to access and share data, information and research for deeper insights about their local area. See more at https://cambridgeshireinsight.org.uk",
+            "image_url": "",
+            "created": "2014-05-19T12:10:18.790087",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+        "private": false,
+        "state": "active",
+        "title": "Crimes at a location-Cambridgeshire",
+        "type": "dataset",
+        "url": "https://data.cambridgeshireinsight.org.uk/dataset/crimes-location-cambridgeshire",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2018-07-30"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2018-08-13"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Cambridgeshire Research Group"
+            },
+            {
+                "key": "guid",
+                "value": "bc079457-7e7f-48ee-b739-4d690ac71c0c"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "66cf6a55-57d8-44e5-914c-2d42cfcacbbf"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:24:20.931697",
+                "description": "<p>Crimes at a location (Cambridgeshire). Taken from <a href=\"https://data.police.uk/\">https://data.police.uk/</a></p>\n",
+                "format": "JSON",
+                "hash": "",
+                "id": "4c136f06-20f0-4e0a-9a9d-6e545413a79e",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:24:20.931697",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Crimes at a location (Cambridgeshire)- August 2016",
+                "package_id": "96d69116-2513-4d29-afb4-11d79c8c7bf4",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://<div class=\"field field-name-field-link-remote-file field-type-file field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\">https://data.police.uk/api/crimes-at-location?date=2016-08&lat=52.20539&lng=0.1218</div></div></div>",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:24:20.931705",
+                "description": "<p>Crimes at a location (Cambridgeshire)- September 2016</p>\n",
+                "format": "JSON",
+                "hash": "",
+                "id": "0ea33b5a-4a0a-467a-ad4f-43e9fadd34ed",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:24:20.931705",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Crimes at a location (Cambridgeshire)- September 2016",
+                "package_id": "96d69116-2513-4d29-afb4-11d79c8c7bf4",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://<div class=\"field field-name-field-link-remote-file field-type-file field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\">https://data.police.uk/api/crimes-at-location?date=2016-09&lat=52.20539&lng=0.1218</div></div></div>",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Community Safety",
+                "id": "787d9c4e-821d-421f-8f63-040b3e34d659",
+                "name": "Community Safety",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "crime",
+                "id": "76f4d2ad-f7a8-497a-b848-10c6423cb626",
+                "name": "crime",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "police",
+                "id": "2e51fdd4-bb93-47ca-9b80-1c6a68a6c374",
+                "name": "police",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "66cf6a55-57d8-44e5-914c-2d42cfcacbbf"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ]
+    }
+}

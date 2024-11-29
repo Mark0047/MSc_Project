@@ -1,0 +1,142 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "3f2cc40a-2547-4cc2-9f12-0c9de9fe581e",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:22:01.706353",
+        "metadata_modified": "2024-11-16T22:02:40.541776",
+        "name": "openstreetmap",
+        "notes": "![](https://www.openstreetmap.org/images/osm_logo.png) OpenStreetMap ([openstreetmap.org](http://www.openstreetmap.org/)) is a global collaborative mapping project, which offers maps and map data released with an open license, encouraging free re-use and re-distribution. The data is created by a large community of volunteers who use a variety of simple on-the-ground surveying techniques, and wiki-syle editing tools to collaborate as they create the maps, in a process which is open to everyone. The project originated in London, and an active community of mappers and developers are based here. Mapping work in London is ongoing (and you can help!) but the coverage is already good enough for many uses.\n\n[Browse the map of London on OpenStreetMap.org](http://www.openstreetmap.org/?lat=51.498&lon=-0.115&zoom=11)\n\n### Downloads:\n\nThe whole of England updated daily:\n\n*   [england.osm.bz2](http://download.geofabrik.de/osm/europe/great_britain/england.osm.bz2) ~185M - .osm formatted raw XML data (compressed)\n*   [england.shp.zip](http://download.geofabrik.de/osm/europe/great_britain/england.shp.zip) ~156M - ESRI shapefiles\n\nFor more details of downloads available from OpenStreetMap, including downloading the whole planet, see ['planet.osm' on the wiki](http://wiki.openstreetmap.org/wiki/Planet.osm).\n\n### Data access APIs:\n\nDownload small areas of the map by bounding-box. For example this URL requests the data around Trafalgar Square:  \n[http://api.openstreetmap.org/api/0.6/map?bbox=-0.13062,51.5065,-0.12557,51.50969](http://api.openstreetmap.org/api/0.6/map?bbox=-0.13062,51.5065,-0.12557,51.50969)\n\nData filtered by \"tag\". For example this URL returns all elements in London tagged shop=supermarket:  \n[http://www.informationfreeway.org/api/0.6/*\\[shop=supermarket\\]\\[bbox=-0.48,51.30,0.21,51.70\\]](http://www.informationfreeway.org/api/0.6/*[shop=supermarket][bbox=-0.48,51.30,0.21,51.70])\n\n### The .osm format\n\nThe format of the data is a raw XML represention of all the elements making up the map. OpenStreetMap is composed of interconnected \"nodes\" and \"ways\" (and sometimes \"relations\") each with a set of name=value pairs called \"tags\". These classify and describe properties of the elements, and ultimately influence how they get drawn on the map. To understand more about tags, and different ways of working with this data format refer to the following pages on the OpenStreetMap wiki.\n\n*   [.osm](http://wiki.openstreetmap.org/wiki/.osm) \\- About the raw XML data format of OpenStreetMap\n*   [Downloading data](http://wiki.openstreetmap.org/wiki/Downloading_data) \\- More details of the API and extract download options\n*   [Xapi](http://wiki.openstreetmap.org/wiki/Xapi) \\- The extended api for filtering by tag\n*   [Map Features](http://wiki.openstreetmap.org/wiki/Map_Features) \\- A list of tags, and what map features they represent\n*   [Converting map data between formats](http://wiki.openstreetmap.org/wiki/Converting_map_data_between_formats) \\- catalogue of tools for converting from .osm to other formats\n\n### Simple embedded maps\n\nRather than working with raw map data, you may prefer to embed maps from OpenStreetMap on your website with a simple bit of javascript. You can also present overlays of other data, in a manner very similar to working with google maps. In fact you can even use the google maps API to do this. See [OSM on your own website](http://wiki.openstreetmap.org/wiki/OSM_on_your_own_website) for details and links to various javascript map libraries.\n\n### Help build the map!\n\nThe OpenStreetMap project aims to attract large numbers of contributors who all chip in a little bit to help build the map. Although the map editing tools take a little while to learn, they are designed to be as simple as possible, so that everyone can get involved. This project offers an exciting means of allowing local London communities to take ownership of their part of the map.\n\nRead about how to [Get Involved](http://wiki.openstreetmap.org/wiki/Getting_Involved) and see the [London](http://wiki.openstreetmap.org/wiki/London) page for details of OpenStreetMap community events.",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "OpenStreetMap",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/openstreetmap",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2010-03-03T17:39:57.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2014-07-04T14:51:26.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "706cacac-51ee-4b57-9d54-8e7e05a0dd9d"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:23:17.940798",
+                "description": "ESRI Shapefile version",
+                "format": "text/html; charset=iso-8859-1",
+                "hash": "",
+                "id": "49f93fe0-8d4f-4a87-83a2-12021ed70654",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:42.455616",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "OpenStreet MapEngland Shapefile",
+                "package_id": "3f2cc40a-2547-4cc2-9f12-0c9de9fe581e",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/openstreetmap/27399db5-a155-490b-a668-a77c0fb9f80e/england.shp.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:23:17.940812",
+                "description": "Compressed raw data",
+                "format": "text/html; charset=iso-8859-1",
+                "hash": "",
+                "id": "b73fb447-36fa-40f4-8734-c98faf16337a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T18:02:14.476432",
+                "mimetype": "application/vnd.openstreetmap.data+xml",
+                "mimetype_inner": null,
+                "name": "OpenStreetMap England",
+                "package_id": "3f2cc40a-2547-4cc2-9f12-0c9de9fe581e",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/openstreetmap/cee05798-b4a4-47fb-a72f-953b4352b10f/england.osm.bz2",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "geo",
+                "id": "aa790c62-039d-42b6-8852-451c19d43784",
+                "name": "geo",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "maps",
+                "id": "1c8951a7-f397-43a3-9307-297d57020995",
+                "name": "maps",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "osm",
+                "id": "707ed9aa-627c-402b-aebf-88ea2d58096d",
+                "name": "osm",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7c8c0a30-0db8-442b-8f2d-b255a68d8605"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

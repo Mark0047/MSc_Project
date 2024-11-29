@@ -1,0 +1,232 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "simon.brooks@nature.scot",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "2663c5fb-9671-4cab-836d-98a473001928",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2013-08-26T12:01:28.332322",
+        "metadata_modified": "2024-06-19T11:16:34.271242",
+        "name": "scotlands-wildness-composite",
+        "notes": "The purpose of this data is to indicate the relative wildness across Scotland. The dataset is on a scale of 1-256 indicating relative levels of wildness. Consequently the data is best viewed at a national or regional scale. The methodology is adapted from the 2008 Wildness Study in the Cairngorms National Park. Four principal attributes identified in SNH's policy statement (Wildness in Scotlands Countryside, 2002), namely perceived naturalness of land cover, ruggedness, remoteness and the lack of built modern artefacts are mapped using GIS based techniques and a combination of readily available datasets. An index of wild land quality is then derived by combining the individual attribute layers. The attribute layers are given equal weighting.",
+        "num_resources": 2,
+        "num_tags": 4,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2010"
+        ],
+        "temporal_coverage-to": [
+            "2013"
+        ],
+        "title": "Scotland's wildness - composite",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available under the UK Open Government Licence - https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/.\\n\\nYou must always use the following attribution statement to acknowledge the source of the information: Copyright NatureScot Contains Ordnance Survey data \\u00a9 Crown copyright and database right (year)\", \"no limitation\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.61912"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.863629"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.508673"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-9.286068"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2013-01-02\"}, {\"type\": \"creation\", \"value\": \"2014-01-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "977677fe-5688-4723-8a2f-d7baf2ad7324"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "afe4d3c6-706f-49e6-91a1-3d05fcadf948"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-10-25T10:31:38"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (custodian, originator, pointOfContact, distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.61912, 54.508673], [-9.286068, 54.508673], [-9.286068, 60.863629], [-0.61912, 60.863629], [-0.61912, 54.508673]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:16:34.306893",
+                "description": "Wildness - Composite",
+                "format": "",
+                "hash": "",
+                "id": "faab3343-bef9-43b7-b21d-146eeca54135",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:16:34.277249",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "landscape:wildness_cmp",
+                "package_id": "2663c5fb-9671-4cab-836d-98a473001928",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WCS-1.1.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/landscape/wcs?request=GetCapabilities&service=WCS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:16:34.306896",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "61c28c07-2171-4ba1-9be8-1332062d61ee",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:16:34.277342",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoTIFF (EPSG:27700)",
+                "package_id": "2663c5fb-9671-4cab-836d-98a473001928",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/WILDNESS-CMP_SCOTLAND_TIFF_27700.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Countryside conservation",
+                "id": "e2d0d853-c90a-4a10-8f54-1fd2600df80a",
+                "name": "Countryside conservation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Elevation",
+                "id": "3daf450f-da9b-4dad-a339-66a66856defb",
+                "name": "Elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Geology",
+                "id": "4aa03215-7870-4625-996a-f6a03df048bd",
+                "name": "Geology",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Soil",
+                "id": "2de8cd8d-8f9b-41cf-9307-87138d2f372a",
+                "name": "Soil",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "418fba5e-9dd8-4f4f-beeb-9c11c2921eaa"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

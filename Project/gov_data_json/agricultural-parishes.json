@@ -1,0 +1,260 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": null,
+        "id": "939fdd5e-7322-4ab7-9dc9-bbfc538c4477",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2011-06-20T14:42:08.299733",
+        "metadata_modified": "2024-06-19T11:19:49.276343",
+        "name": "agricultural-parishes",
+        "notes": "Agricultural parishes are based on Civil Parishes which were abolished as an administrative unit in Scotland in 1975.  Agricultural parishes continue to be used for boundary and statistical purposes. Agricultural parish boundaries were last updated in 2016. There are 891 agricultural parishes in Scotland and they are used in the Agricultural Census and for the payment of farming grants and subsidies. The dataset contains parish boundaries, parish names, parish codes and GSS codes (the latter were assigned in September 2023 to allow for the publication of Official Statistics for this geography, although the original parish codes also remain in use).",
+        "num_resources": 4,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Agricultural Parishes",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year)\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"1997-01-01\"}, {\"type\": \"revision\", \"value\": \"2016-11-16\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "c1d34a5d-28a7-4944-9892-196ca6b3be0c"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "68bd9dbe-7b35-4459-85ef-b83c9b4fe40b"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-09-04T11:08:43"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher); The James Hutton Institute (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:49.311032",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "4c4aab0f-e780-498d-bcab-9d8a773c0bc6",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:49.284388",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "AgriculturalParishes",
+                "package_id": "939fdd5e-7322-4ab7-9dc9-bbfc538c4477",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/AgricultureEnvironment/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:49.311035",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "9dc1b77b-3c41-44f5-8631-8c36c672f78d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:49.284502",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "AE:AgriculturalParishes",
+                "package_id": "939fdd5e-7322-4ab7-9dc9-bbfc538c4477",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/AgricultureEnvironment/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:49.311037",
+                "description": "ESRI REST Service",
+                "format": "",
+                "hash": "",
+                "id": "9e2d43e6-fd5c-4e98-8d7c-a99f789c8508",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:49.284573",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Agricultural Parishes",
+                "package_id": "939fdd5e-7322-4ab7-9dc9-bbfc538c4477",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/rest/services/ScotGov/AgricultureEnvironment/MapServer/1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:49.311038",
+                "description": "ESRI Shapefile Download",
+                "format": "ZIP",
+                "hash": "",
+                "id": "d0bd6041-a9da-45cd-87cf-b6915c6f8023",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:49.284641",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Agricultural Parishes",
+                "package_id": "939fdd5e-7322-4ab7-9dc9-bbfc538c4477",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/ATOM/shapefiles/SG_AgriculturalParishes_2016.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Agricultural land",
+                "id": "4df73428-6a32-43fa-a53c-4df601005071",
+                "name": "Agricultural land",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Area management/restriction/regulation zones and r",
+                "id": "85a96129-b6e5-46e1-8dd8-75fd5990e434",
+                "name": "Area management/restriction/regulation zones and r",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "65f3ffec-ae29-4c1a-8e18-305acc2eec0e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

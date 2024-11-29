@@ -1,0 +1,233 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "bdd4aa21-1270-4ac3-bc85-69c839beab3f",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-11-12T06:03:36.694738",
+        "metadata_modified": "2024-11-17T11:01:03.137978",
+        "name": "polling-districts26",
+        "notes": "Boundary of polling districts, and location of polling stations in Wigan",
+        "num_resources": 6,
+        "num_tags": 4,
+        "organization": {
+            "id": "5327851e-43b8-408c-bf83-a00d39f58dea",
+            "name": "wigan-metropolitan-borough-council",
+            "title": "Wigan Metropolitan Borough Council",
+            "type": "organization",
+            "description": "gis datasets harvested from Wigan Councils Open Data site http://opendata.wigan.gov.uk",
+            "image_url": "",
+            "created": "2012-06-27T14:49:35.957090",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "5327851e-43b8-408c-bf83-a00d39f58dea",
+        "private": false,
+        "state": "active",
+        "title": "Polling Districts",
+        "type": "dataset",
+        "url": "https://opendata.wigan.gov.uk/datasets/Wigan::polling-districts",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2018-03-15T11:59:13.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2022-07-20T00:00:00.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Wigan Council"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=1093902db1dc41d690a75977f6956e8c&sublayer=1"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:36.697938",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "33c48b31-5d71-4474-8f1f-d00d177f694e",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:36.688434",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "bdd4aa21-1270-4ac3-bc85-69c839beab3f",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/datasets/Wigan::polling-districts",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:36.697940",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "bdb8f754-886f-4bb3-ad44-1731ed4f53a5",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:36.688511",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "bdd4aa21-1270-4ac3-bc85-69c839beab3f",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.wigan.gov.uk/arcgis/rest/services/Elections/Elections/MapServer/1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:36.697941",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "2b733b94-37cc-40b9-ba5e-89a2e59787f4",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:36.688582",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "bdd4aa21-1270-4ac3-bc85-69c839beab3f",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/1093902db1dc41d690a75977f6956e8c/csv?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:36.697942",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "550d946c-ee63-4fa1-8cb8-ed66bdb493be",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:36.688641",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "bdd4aa21-1270-4ac3-bc85-69c839beab3f",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/1093902db1dc41d690a75977f6956e8c/geojson?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:36.697943",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "41d4cf19-1f8b-455b-90dd-bd8664c17c20",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:36.688698",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "bdd4aa21-1270-4ac3-bc85-69c839beab3f",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/1093902db1dc41d690a75977f6956e8c/shapefile?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:36.697943",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "41296ea8-ecde-4b4a-8acc-8cbf617bc8a2",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:36.688753",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "bdd4aa21-1270-4ac3-bc85-69c839beab3f",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/1093902db1dc41d690a75977f6956e8c/kml?layers=1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Constituency",
+                "id": "7c885512-34dc-4aa3-8691-760292f8198b",
+                "name": "Constituency",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "District",
+                "id": "18eeb27e-7ce6-48d8-8f99-8f978e38bb3b",
+                "name": "District",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Elections",
+                "id": "61800d69-e1db-47b6-9abf-91200d075307",
+                "name": "Elections",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Polling",
+                "id": "27840dde-7ab6-43c0-aac8-2f4d4b1cd570",
+                "name": "Polling",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "671410d0-bc09-49f7-b691-51c59852def2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c951075d-26cc-47cb-822b-d8de5fa5d3cb"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wigan Council"
+            }
+        ]
+    }
+}

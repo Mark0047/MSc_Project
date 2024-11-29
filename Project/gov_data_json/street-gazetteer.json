@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@stockport.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a4510687-29ce-41da-a683-ab512a27cd6f",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-09T15:20:15.665727",
+        "metadata_modified": "2016-04-29T09:57:26.736641",
+        "name": "street-gazetteer",
+        "notes": "Streets in Stockport taken from the Local Street Gazetteer (LSG)",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "dca4cafe-88b8-4758-a470-ae6b32437efd",
+            "name": "stockport-metropolitan-borough-council",
+            "title": "Stockport Metropolitan Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:58:16.588164",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "dca4cafe-88b8-4758-a470-ae6b32437efd",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "mapping",
+        "theme-secondary": [],
+        "title": "Street Gazetteer",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/docs/licences/public-sector-end-user-licence-inspire.htm\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.99331"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.4545"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.3275"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.2515"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-02-26T10:38:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "90903cba92c7b0850d997cb1f96b923b41b22e7a"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4ea78504-3a7e-4884-986b-3650675721ae"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.astuntechnology.com/stockport/Street%20Gazetteer.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "use in accordance with OS licence"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-29"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Stockport Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.99331, 53.3275],[-1.99331, 53.4545], [-2.2515, 53.4545], [-2.2515, 53.3275], [-1.99331, 53.3275]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c0c0bc58-259b-4993-92fc-6ba83fca9f4c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stockport Metropolitan Borough Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-04-29T10:57:26.771026",
+                "description": "Street Gazetteer",
+                "format": "WMS",
+                "hash": "",
+                "id": "2fc27a0f-6b47-4c2f-9ad8-8347bf201b89",
+                "last_modified": null,
+                "metadata_modified": "2016-04-29T10:57:26.771026",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "st_gazetteer_smbc",
+                "package_id": "a4510687-29ce-41da-a683-ab512a27cd6f",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx?mapsource=smbc/stockport_inspire&version=1.1.1&request=GetCapabilities&service=WMS",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-04-29T10:57:26.085571",
+                "wms_base_urls": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-29T10:57:26.771047",
+                "description": "Street Gazetteer",
+                "format": "",
+                "hash": "",
+                "id": "c1472521-f2e2-41e4-8552-de53757e26a3",
+                "last_modified": null,
+                "metadata_modified": "2016-04-29T10:57:26.771047",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "st_gazetteer_smbc",
+                "package_id": "a4510687-29ce-41da-a683-ab512a27cd6f",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx?mapsource=smbc/stockport_inspire&TypeName=air_traffic_consultation&version=1.1.0&request=GetFeature&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4ea78504-3a7e-4884-986b-3650675721ae"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c0c0bc58-259b-4993-92fc-6ba83fca9f4c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stockport Metropolitan Borough Council"
+            }
+        ]
+    }
+}

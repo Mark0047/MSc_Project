@@ -1,0 +1,146 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "{\"validator_profiles\": [\"iso19139eden\", \"constraints-1.4\", \"gemini2-3\"]}",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "WEEKLY",
+        "id": "064f731c-deca-4353-9165-3cfd863ac0ec",
+        "metadata_created": "2019-01-23T10:36:52.132579",
+        "metadata_modified": "2022-07-26T16:11:23.963717",
+        "name": "british-geological-survey-metadata",
+        "notes": "BGS production CSW service",
+        "organization": {
+            "id": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+            "name": "british-geological-survey",
+            "title": "British Geological Survey (BGS)",
+            "type": "organization",
+            "description": "A world-leading geoscience centre for survey and monitoring; modelling and research; data and knowledge.\r\n\r\nhttps://www.bgs.ac.uk/home.html\r\n\r\n",
+            "image_url": "2020-08-17-104120.024946BGS-Logo-Pos-RGB-01.png",
+            "created": "2012-06-27T14:50:32.295517",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "British Geological Survey Metadata",
+        "type": "harvest",
+        "url": "https://metadata.bgs.ac.uk/geonetwork/srv/eng/csw?",
+        "validator_profiles": [
+            "iso19139eden",
+            "constraints-1.4",
+            "gemini2-3"
+        ],
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 365,
+            "last_job": {
+                "id": "de22fcee-b11b-42b8-ad84-64d4223ddc80",
+                "created": "2024-11-17 14:00:04.572214",
+                "gather_started": "2024-11-17 14:00:04.867276",
+                "gather_finished": "2024-11-17 14:02:32.829001",
+                "finished": "2024-11-17 14:36:09.794208",
+                "source_id": "064f731c-deca-4353-9165-3cfd863ac0ec",
+                "status": "Finished",
+                "stats": {
+                    "added": 12,
+                    "updated": 3117,
+                    "not modified": 353,
+                    "errored": 3482,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 1087
+                    },
+                    {
+                        "message": "Metadata type not recognised \"nonGeographicDataset\" - cannot choose an ISO19139 validator.:\n",
+                        "error_count": 910
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}accessConstraints': This element is not expected. Expected is ( {http://www.isotc211.org/2005/gmd}MD_RestrictionCode ).\nElement '{http://www.isotc211.org/2005/gmd}useLimitation': This element is not expected. Expected is ( {http://www.isotc211.org/2005/gmd}otherConstraints ).",
+                        "error_count": 781
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}useLimitation': This element is not expected. Expected is ( {http://www.isotc211.org/2005/gmd}otherConstraints ).",
+                        "error_count": 736
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Limitations on public access shall be expressed using gmd:otherConstraints.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:otherConstraints) >= 1\"",
+                        "error_count": 139
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 30
+                    },
+                    {
+                        "message": "Metadata type not recognised \"model\" - cannot choose an ISO19139 validator.:\n",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Service schemas (gmx.xsd & srv.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}identifier': This element is not expected. Expected is one of ( {http://www.isotc211.org/2005/gmd}alternateTitle, {http://www.isotc211.org/2005/gmd}date ).",
+                        "error_count": 2
+                    },
+                    {
+                        "message": "WMS check for https://ogc2.bgs.ac.uk/1GEConnector/surface/?service=WFS&request=GetCapabilities failed with exception: ",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for https://ogc2.bgs.ac.uk/1GEConnector/surface/?service=WMS&request=GetCapabilities failed with exception: ",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for https://ogcapi.bgs.ac.uk/ failed with exception: \"<string>\"",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for https://ogc.bgs.ac.uk/cgi-bin/BGS_BGS-HPA_Radon_Potential/ows?service=WMS&request=GetCapabilities failed with exception: ",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for https://sensors.bgs.ac.uk/FROST-Server/v1.1 failed with exception: \"<string>\"",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for http://www.bgs.ac.uk/ failed with exception: \"<string>\"",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}identifier': This element is not expected. Expected is one of ( {http://www.isotc211.org/2005/gmd}alternateTitle, {http://www.isotc211.org/2005/gmd}date ).",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"Responsible organisation is mandatory. At least one shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:pointOfContact) >= 1\":\nError Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\"\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for http://earthserver.bgs.ac.uk/rasdaman/ows?service=WCS&Request=GetCapabilities&acceptversions=2.0.1& failed with exception: ",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for https://metadata.bgs.ac.uk/geonetwork/api failed with exception: ",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for https://metadata.bgs.ac.uk/geonetwork/ failed with exception: \"<string>\"",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for https://ogc2.bgs.ac.uk/1GEConnector/bedrock/?service=WFS&request=GetCapabilities& failed with exception: ",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 3504
+        }
+    }
+}

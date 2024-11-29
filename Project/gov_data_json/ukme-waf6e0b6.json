@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "b18d782e-e15a-44a0-b6be-acee4d546a65",
+        "metadata_created": "2019-01-23T11:48:56.821855",
+        "metadata_modified": "2019-01-23T11:48:56.821864",
+        "name": "ukme-waf6e0b6",
+        "notes": "Import From UK Metadata Editor",
+        "organization": {
+            "id": "fedabbe7-9bfa-4f09-adea-acd2d4f0b348",
+            "name": "mid-devon-district-council",
+            "title": "Mid Devon District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:40:37.945033",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "fedabbe7-9bfa-4f09-adea-acd2d4f0b348",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/fedabbe7-9bfa-4f09-adea-acd2d4f0b348/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 107,
+            "last_job": {
+                "id": "3d771d84-294d-4860-9389-c251d9175494",
+                "created": "2024-10-22 07:00:04.809956",
+                "gather_started": "2024-10-22 07:00:06.431879",
+                "gather_finished": "2024-10-22 07:00:26.472416",
+                "finished": "2024-10-22 07:00:26.472416",
+                "source_id": "b18d782e-e15a-44a0-b6be-acee4d546a65",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/fedabbe7-9bfa-4f09-adea-acd2d4f0b348/: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/fedabbe7-9bfa-4f09-adea-acd2d4f0b348/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f20ec8a7c50>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 11
+        }
+    }
+}

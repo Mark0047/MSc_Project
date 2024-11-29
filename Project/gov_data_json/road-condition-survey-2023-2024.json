@@ -1,0 +1,137 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "c52c2435-b0ef-46bf-a5b8-cca97a8a77b7",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2024-07-13T17:16:21.609873",
+        "metadata_modified": "2024-07-13T17:16:21.609878",
+        "name": "road-condition-survey-2023-2024",
+        "notes": "The data published within this resource represents an ongoing dataset of automated surface condition surveys which are carried out by the City of York Council (CoYC) in order to provide an element of the information required to prioritise schemes and help to extend the life of the UK\u2019s public infrastructure assets. \r\n\r\nThe data shown here is for road condition surveys captured within a financial year i.e. 2023/24 is for surveys between 1st April 2023 and 31st March 2024. The data published is used within wider analysis carried out by the Highways department, to help prioritise schemes to ensure more effective maintenance of highways, as well as to monitor and improve on previous maintenance techniques. \r\n\r\nThis data is provided within a __spreadsheet__, but can also be viewed as a map base on the Council Yorkview platform. A simple explanation of the methodology is that each section of road that has been able to be surveyed is given a score out of 100 and the mean score is for each street is calculated out of those road section scores. Roads may have been surveyed multiple times over the course of the year. The road condition scores are then split into four general categories:\r\n\r\n\u2022 Excellent (95-100)\r\n\r\n\u2022 Good (90-94)\r\n\r\n\u2022 Fair (75-89)\r\n\r\n\u2022 Poor (<75)\r\n\r\nThe data contains records which appear to be duplicated in this dataset, where a street has two road condition scores in the same ward. This is because a street can have multiple USRNs (unique street reference number) which is used to calculate the street road condition score, however City of York Council can\u2019t publish the USRN alongside this data giving the appearance of duplicated records. Each section of road is assigned a ward based on which ward the middle of the road segment is in, so there will also be multiple scores for roads if the road crosses over a ward boundary. This can be seen on YorkView.\r\n\r\nIt should be noted that condition data is collected covering the full CoYC road network with a condition score produced for every 10m length of carriageway surveyed. The process of averaging the data to align with the USRN does distort the Yorkview output meaning that the red/poor condition band is over represented. The Yorkview data does provide a good coarse visual guide to the condition of any particular street although the original 10m data is used for all analysis within our Asset Management Systems.                \r\n\r\nPrevious road condition data pre-March 2022 has been taken down as the supplier for the road condition data for 2022/23 and 2023/24 uses a different methodology to previous road condition data published 2016-2021. \r\n\r\nFor reporting a pothole or to look at City of York Council's responsibilities for highways please visit [__CYC's Roads and Pavements page.__](https://www.york.gov.uk/ReportRoadsPavementsPotholes)\r\n\r\nTo view this data on a map base please visit [__YorkView.__](https://cyc.maps.arcgis.com/apps/webappviewer/index.html?id=089c350ae7744418b96c5e4ff2bdb1ef)\r\n\r\nThere are also roads in the City of York Council area that are maintained by Highways England. For more information about such roads please visit the [__National Highways page for the North East.__](https://nationalhighways.co.uk/our-roads/yorkshire-and-north-east/)\r\n\r\nInformation will at a later date be held within the [__Council's Ward Profiles.__](https://data.yorkopendata.org/dataset?q=ward+profile)\r\n\r\nFor further information on percentage of roads where maintenance should be considered please view the following datasets:\r\n\r\n\u2022 [__% of Principal roads where maintenance should be considered (NI 130-01)__](https://data.yorkopendata.org/dataset/kpi-ces05)                           \r\n\r\n\u2022 [__% of Non-principal classified roads where maintenance should be considered (NI 130-02)__](https://data.yorkopendata.org/dataset/kpi-ces06)                        \r\n\r\n\u2022 [__% of Unclassified roads where maintenance should be considered (old BV224b)__](https://data.yorkopendata.org/dataset/kpi-ces07)                        ",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+            "name": "city-of-york-council",
+            "title": "City of York Council",
+            "type": "organization",
+            "description": "Corporate Open Data platform - http://www.yorkopendata.org/\r\n\r\nCorporate map browser - http://maps.york.gov.uk/localviewexternal/sites/lv/",
+            "image_url": "",
+            "created": "2013-11-25T13:21:35.161579",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+        "private": false,
+        "state": "active",
+        "title": "Road Condition Survey 2023-2024",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-22T11:07:45.158318",
+                "datastore_active": true,
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "9e27a384-c1a7-4a49-b4cd-b62a33484620",
+                "last_modified": "2024-04-30T10:36:42.125756",
+                "metadata_modified": "2024-07-13T17:16:21.607076",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Road Condition Survey 2023-2024",
+                "package_id": "c52c2435-b0ef-46bf-a5b8-cca97a8a77b7",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/c52c2435-b0ef-46bf-a5b8-cca97a8a77b7/resource/9e27a384-c1a7-4a49-b4cd-b62a33484620/download/23-24-road-condition-scores.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-04T07:44:35.992141",
+                "datastore_active": false,
+                "description": "",
+                "format": "PPT",
+                "hash": "",
+                "id": "2f9c0d44-8237-4a66-b4d1-fe6891af2fef",
+                "last_modified": "2024-07-10T11:34:16.384974",
+                "metadata_modified": "2024-07-13T17:16:21.607884",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Road Condition Data by Ward 2023-2024",
+                "package_id": "c52c2435-b0ef-46bf-a5b8-cca97a8a77b7",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/c52c2435-b0ef-46bf-a5b8-cca97a8a77b7/resource/2f9c0d44-8237-4a66-b4d1-fe6891af2fef/download/road-condition-data-by-ward-2023-24.pptx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-24T10:22:23.795243",
+                "datastore_active": false,
+                "description": "",
+                "format": "PDF",
+                "hash": "",
+                "id": "6575f19f-49bd-4f21-a8d5-abe014dd13e8",
+                "last_modified": "2024-06-24T10:22:23.753278",
+                "metadata_modified": "2024-07-13T17:16:21.608633",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Road Condition KPIs Overview 2023-2024",
+                "package_id": "c52c2435-b0ef-46bf-a5b8-cca97a8a77b7",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/c52c2435-b0ef-46bf-a5b8-cca97a8a77b7/resource/6575f19f-49bd-4f21-a8d5-abe014dd13e8/download/road-condition-kpis-overview-report.pdf",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "635fa500-bd92-4748-8af1-5ba8d3fcb98a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "635fa500-bd92-4748-8af1-5ba8d3fcb98a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ]
+    }
+}

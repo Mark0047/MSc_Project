@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "spatialhub@improvementservice.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "7b44882d-3c29-4a56-9a5d-6db5d4bcec95",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-02-18T21:29:42.376496",
+        "metadata_modified": "2023-08-16T04:23:24.655623",
+        "name": "building-standards-deprecated-scotland",
+        "notes": "A Building Standards Register is maintained by local authorities under the terms of Section 24 of the Building (Scotland) Act 2003. Local authorities are responsible for granting permission for work to be done (building warrant) and for a completed building to be occupied (completion certificate). These registers are online and searchable and published as weekly lists in a similar way to planning applications.\n\nRegisters typically contain details of applications at the following stages of the building warrant process:\n\n- Received\n- Decided\n- Commenced\n- Completed\n\nThe datasets are presented as follows:\n\n1. Building Standards - Weekly Lists (Points):\u00a0\u00a0A point layer showing an amalgamation of the current calendar year's weekly lists for all Scottish planning authorities in terms of applications registered and/or decided by a local authority. This should be a complete dataset across Scotland using X/Y co-ordinates, UPRN or postcode as corresponding\u00a0geometry. This is categorised by application status, local authority and date of weekly list.\n2. Building Standards - Weekly Lists (Polygons):\u00a0A polygon layer showing an amalgamation of the current calendar year's weekly lists for most Scottish\u00a0local authorities in terms of\u00a0applications registered and/or decided by a local authority. This is only for authorities that publish site boundary\u00a0mapping data online.\u00a0This is\u00a0categorised\u00a0by application status, local authority and date of weekly list.\n3. Building Standards - historic year layers (Points):\u00a0Point layer for all previous year's building standards applications with summary details for\u00a0most\u00a0Scottish\u00a0local\u00a0authorities. This should be a complete dataset across Scotland using X/Y co-ordinates, UPRN or postcode as corresponding\u00a0geometry.\n4. Building Standards - historic year layers (Polygons):\u00a0Polygon layers for all previous year's building standards applications with summary details for\u00a0most\u00a0Scottish\u00a0local\u00a0authorities. This is only for authorities that publish site boundary\u00a0mapping data online and is not complete across Scotland.\n\nThis data is collected and published weekly (for weekly lists) and this metadata record is updated weekly.\n\nWe strongly recommend that, when using the WFS for this dataset, because of it's size you should use it with a filter.\n\n*Moray's data has currently been removed from this dataset. We will find a solution to this in due course*",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Building Standards (DEPRECATED) - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Limitations on public access\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.32254"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.74784"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.38113"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.02985"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2023-08-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "weekly"
+            },
+            {
+                "key": "guid",
+                "value": "3f2c79f9-cb62-4110-807b-b1765033f73d"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9a03235c-f6ec-4f3a-8752-deaa6425b296"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-08-15T14:18:51"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Improvement Service (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.32254, 54.38113], [-8.02985, 54.38113], [-8.02985, 60.74784], [0.32254, 60.74784], [0.32254, 54.38113]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-08-16T04:23:24.959578",
+                "description": "A link to the CKAN metadata record on the Spatial Hub.  A direct link to the OGC Web Feature Service and Web Map Service are available here",
+                "format": "",
+                "hash": "",
+                "id": "96c3da0e-9986-4540-9609-6dae0adcad64",
+                "last_modified": null,
+                "metadata_modified": "2023-08-16T04:23:24.712203",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Building Standards - Scotland",
+                "package_id": "7b44882d-3c29-4a56-9a5d-6db5d4bcec95",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.spatialhub.scot/dataset/building_standards-is",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-08-16T04:23:24.959583",
+                "description": "EDINA Digimap Service",
+                "format": "",
+                "hash": "",
+                "id": "697f05cd-4572-4620-bdce-e58e9372551a",
+                "last_modified": null,
+                "metadata_modified": "2023-08-16T04:23:24.712385",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "EDINA Digimap Service",
+                "package_id": "7b44882d-3c29-4a56-9a5d-6db5d4bcec95",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.spatialdata.gov.scot:443/geonetwork/srv/api/records/b56b7117-21f6-49b4-bd82-c58b6ad73b69/formatters/xml",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Buildings",
+                "id": "156f103a-5436-4be5-87fd-2163a078a4f3",
+                "name": "Buildings",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9a03235c-f6ec-4f3a-8752-deaa6425b296"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

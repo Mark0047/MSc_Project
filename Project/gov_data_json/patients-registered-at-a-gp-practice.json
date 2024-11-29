@@ -1,0 +1,217 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "6d73a5fa-842b-4e0e-afd1-7a42edc31a42",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-02-08T18:30:43.891654",
+        "metadata_modified": "2024-11-16T22:00:37.229012",
+        "name": "patients-registered-at-a-gp-practice",
+        "notes": "Modelled counts of patients registered at a GP practice by single year of age (0-95+), sex, and local authority of residence.\n\nThese modelled data contain information from NHS Digital, licenced under the current version of the Open Government Licence:\n\n1.  Counts of patients by practice attended x sex x LSOA of residence - currently published quarterly\n2.  Counts of patients by practice attended x sex x single year of age - currently published monthly\n\nThese data are published by NHS Digital here: [https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice](https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice)\n\nPlease refer to NHS DIgital documentation for full [data quality](https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice/data-quality-statement) and [metadata](https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice/metadata) information about the original data.\n\nThe GLA modelled counts of patients by age, sex, and local authority of residence are created by a simple process of apportioning the data for each GP practice in (2) by the distribution for each practice in (1). As residence data is only published quarterly, distributions for other months are interpolated.\n\nA respository of the code used to generate the modelled counts is available on GitHub at:\u00a0[https://github.com/Greater-London-Authority/process-published-nhs-data](https://github.com/Greater-London-Authority/process-published-nhs-data)\n\nThis data is used as an input to [Modelled estimates of recent births](https://data.london.gov.uk/dataset/modelled-estimates-of-recent-births)\n\n**Notes on usage**\n\nPatient register data can be used to provide frequent low-latency indicators of changing population trends. However, patient counts should not be interpreted as a direct proxy for population. Patient counts have been prone to compounding inflation in recent years, primarily as a result of failures to remove former patients that have since moved overseas (local inflation/deficits also occur due to delays in patients updating their records or registering with a new GP when moving within the UK).\n\nThe rate of inflation varies by area, sex, and age, being greatest for:\n\n*   areas with high volumes of international migration\n*   adults age 20-30 (with the impact spreading to older groups over time)\n*   males - due to typically lower levels of interaction with health services",
+        "num_resources": 5,
+        "num_tags": 3,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Patients registered at a GP practice",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/patients-registered-at-a-gp-practice",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2022-10-26T10:45:59.064Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-11-14T13:21:15.094Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "59bfbe06-0e4e-4c72-a02a-4e923fc8eec9"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b2ed3756-64d9-4dd8-80ba-2573e4260372"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T18:30:43.902566",
+                "description": "Modelled counts of patients registered at a GP practice by single year of age, sex, and resident in England by date of extract",
+                "format": "CSV",
+                "hash": "",
+                "id": "7d3bdf1a-f468-4ff7-8cfc-8d832c317a0e",
+                "last_modified": null,
+                "metadata_modified": "2023-02-15T18:35:56.085647",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "gp_sya_ctry.csv",
+                "package_id": "6d73a5fa-842b-4e0e-afd1-7a42edc31a42",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/patients-registered-at-a-gp-practice/9e88c8d6-e33a-4f0a-83ec-a1e968e2e04b/gp_sya_ctry.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T18:30:43.902570",
+                "description": "Modelled counts of patients registered at a GP practice by single year of age, sex, and region of residence by date of extract",
+                "format": "CSV",
+                "hash": "",
+                "id": "20e2e3a5-b0b9-4d30-906b-42a7eada1678",
+                "last_modified": null,
+                "metadata_modified": "2023-02-15T18:35:56.085766",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "gp_sya_rgn.csv",
+                "package_id": "6d73a5fa-842b-4e0e-afd1-7a42edc31a42",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/patients-registered-at-a-gp-practice/0a83c945-0830-4d2e-b184-df3be7bd6511/gp_sya_rgn.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T18:30:43.902572",
+                "description": "Modelled counts of patients registered at a GP practice by single year of age, sex, and ITL 2 subregion of residence by date of extract",
+                "format": "CSV",
+                "hash": "",
+                "id": "dc50cbb2-88df-4066-9057-483cf6c4af4e",
+                "last_modified": null,
+                "metadata_modified": "2023-02-15T18:35:56.085863",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "gp_sya_itl.csv",
+                "package_id": "6d73a5fa-842b-4e0e-afd1-7a42edc31a42",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/patients-registered-at-a-gp-practice/aec1c0ab-4108-4356-bc29-a378134247f2/gp_sya_itl.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T18:30:43.902574",
+                "description": "Modelled counts of patients registered at a GP practice by single year of age, sex, and 2021 local authority of residence by date of extract. This file is saved in the RDS format native to the R programming language and is intended for use as an input to: https://github.com/Greater-London-Authority/nowcast-birth-estimates",
+                "format": "",
+                "hash": "",
+                "id": "71e02f4e-f874-4045-8c90-7b2b916775f5",
+                "last_modified": null,
+                "metadata_modified": "2023-02-08T18:30:43.884051",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "gp_sya_lad.rds",
+                "package_id": "6d73a5fa-842b-4e0e-afd1-7a42edc31a42",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/patients-registered-at-a-gp-practice/f47d4a48-4b03-447e-a9ac-918a8d0eecab/gp_sya_lad.rds",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T18:30:43.902575",
+                "description": "Modelled counts of patients registered at a GP practice by single year of age, sex, and 2021 local authority of residence by date of extract",
+                "format": "CSV",
+                "hash": "",
+                "id": "89023710-b299-4077-bbab-dce613dddfea",
+                "last_modified": null,
+                "metadata_modified": "2023-02-15T18:35:56.086041",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "gp_sya_lad.csv",
+                "package_id": "6d73a5fa-842b-4e0e-afd1-7a42edc31a42",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/patients-registered-at-a-gp-practice/a21f2771-6b57-4653-8caf-caf4075ecda1/gp_sya_lad.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "demography",
+                "id": "dbff5a54-0319-4fd3-811d-5088dd3725f0",
+                "name": "demography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "patients",
+                "id": "476cd271-729c-4e88-980d-e798a0d29425",
+                "name": "patients",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "population",
+                "id": "40739b84-20b5-415f-87f6-7ab11b26d2b3",
+                "name": "population",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b2ed3756-64d9-4dd8-80ba-2573e4260372"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

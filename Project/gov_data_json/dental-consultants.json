@@ -1,0 +1,118 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "[\"9b870ab5-2d5f-4d87-918a-c1f2ffebe647\", \"3b063793-61ec-47ca-bbd1-784ba4b5960b\", \"4d321c5a-c47f-4f7c-ac91-cff5c6cf9c34\"]",
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": true,
+        "creator_user_id": "c895ed6d-3479-4524-9ea6-f23284fc958a",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "24961e7c-a28b-4ba4-87df-c5aa4c16179a",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-03-24T15:48:29.844996",
+        "metadata_modified": "2017-10-19T11:03:37.351276",
+        "name": "dental-consultants",
+        "notes": "Dental Consultants in England \r\n\r\nContains: \r\n\r\nName and identifying codes for Dental Consultants employed by NHS Trusts in England. The codes are derived from the Practitioner\u2019s General Dental Council code (GDC code), to which a \u2018CD\u2019 prefix is added. GDC numbers can vary in length from 3 to 6 characters, so in order to maintain a standard \r\n\r\nlength of 8 characters (the same as medical consultant codes) filling zeros are used between the prefix and the GDC number, where required. \r\n\r\nMany consultants working in a dental specialty are also qualified doctors, and therefore have a GMC number in addition to their GDC number. In these cases, the consultants are allocated a Consultant Code (derived from their GMC number) and are therefore included in the consultant file econcur.csv \r\n\r\nor wconcur.csv (see above). Sometimes this is in addition to an entry in edconcur.csv; sometimes the practitioners will only have a record in econcur.csv or wconcur.csv. \r\n\r\nThere are some dental consultants however, who do not have a GMC number. They are qualified purely in their dental specialty and only have a GDC number. These consultants are included in edconcur.csv only.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "2a638dd6-7ad6-4081-8de3-732200f553fa",
+            "name": "nhs-digital",
+            "title": "NHS Digital",
+            "type": "organization",
+            "description": "NHS Digital is the national provider of information, data and IT systems for health and social care.\r\n\r\nIt was previously called 'The Health and Social Care Information Centre (HSCIC)'",
+            "image_url": "",
+            "created": "2013-08-30T11:29:36.442429",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2a638dd6-7ad6-4081-8de3-732200f553fa",
+        "private": false,
+        "schema-vocabulary": "[\"c5821fb0-e2ab-4acd-b2bc-65ccab53a04b\"]",
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "health",
+        "theme-secondary": [
+            ""
+        ],
+        "title": "Dental Consultants",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": "true"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-06-23T12:05:31.893074",
+                "description": "ODS news and change notification",
+                "format": "HTML",
+                "hash": "",
+                "id": "e2e31e48-7e6f-496b-bd4a-932343ccb288",
+                "last_modified": null,
+                "metadata_modified": "2015-06-23T12:05:31.893074",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "24961e7c-a28b-4ba4-87df-c5aa4c16179a",
+                "position": 0,
+                "resource_type": "documentation",
+                "scraper_url": "",
+                "size": null,
+                "state": "active",
+                "url": "https://digital.nhs.uk/organisation-data-service/news-and-updates",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-06-23T12:05:31.893080",
+                "description": "Dental Consultants",
+                "format": "ZIP",
+                "hash": "",
+                "id": "048a76b2-5063-4f67-b5d3-73be22b84402",
+                "last_modified": null,
+                "metadata_modified": "2015-06-23T12:05:31.893080",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "24961e7c-a28b-4ba4-87df-c5aa4c16179a",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://digital.nhs.uk/media/449/edconcur/zip/edconcur",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

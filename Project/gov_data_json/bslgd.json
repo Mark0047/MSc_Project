@@ -1,0 +1,171 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a17ea1f9-9ed4-46fb-b1ce-5da218416a17",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2024-08-31T17:00:53.563922",
+        "metadata_modified": "2024-10-27T07:02:03.268390",
+        "name": "bslgd",
+        "notes": "For further information on benefits statistics please follow links below:\r\n\r\n[Benefit Statistics - Further Information](https://www.communities-ni.gov.uk/topics/benefits-statistics)\r\n[Personal Independence Payment Statistics - Further information](https://www.communities-ni.gov.uk/articles/personal-independence-payment-statistics)\r\n\r\nGeographical boundaries for Universal Credit statistics for the years 2017- 2023 are based on the Claimants postcode at 2023.",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "Benefit Statistics",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_modified",
+                "value": "2024-09-24T15:47:23.52Z"
+            },
+            {
+                "key": "guid",
+                "value": "BSLGD"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "3452f8ca-76b8-484e-b812-dfdb7fd9abca"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            },
+            {
+                "key": "language",
+                "value": "en"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:50.192250",
+                "datastore_active": false,
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "f06dab9c-8020-4a7c-a26b-99a55f7f3e6b",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:53.560591",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "csv",
+                "package_id": "a17ea1f9-9ed4-46fb-b1ce-5da218416a17",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/BSLGD/CSV/1.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:50.192256",
+                "datastore_active": false,
+                "description": "",
+                "format": "json2.0",
+                "hash": "",
+                "id": "f938015a-e980-4d61-b130-1d1cf54955b8",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:53.561341",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "JSON 2.0",
+                "package_id": "a17ea1f9-9ed4-46fb-b1ce-5da218416a17",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/BSLGD/JSON-stat/2.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:50.192259",
+                "datastore_active": false,
+                "description": "",
+                "format": "json1.0",
+                "hash": "",
+                "id": "6b6ae7fe-9326-4d3b-8141-a84d99f5820a",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:53.562042",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "JSON 1.0",
+                "package_id": "a17ea1f9-9ed4-46fb-b1ce-5da218416a17",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/BSLGD/JSON-stat/1.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:50.192261",
+                "datastore_active": false,
+                "description": "",
+                "format": "XLSX",
+                "hash": "",
+                "id": "320eb6d1-bf43-4994-94d9-11a3e7992516",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:53.562723",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Xlsx",
+                "package_id": "a17ea1f9-9ed4-46fb-b1ce-5da218416a17",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/BSLGD/XLSX/2007/en",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3452f8ca-76b8-484e-b812-dfdb7fd9abca"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

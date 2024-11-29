@@ -1,0 +1,73 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "9dc0b8d5-7429-47d1-844b-0258f8829ef5",
+        "metadata_created": "2019-01-23T11:39:57.839081",
+        "metadata_modified": "2022-02-25T10:34:37.469826",
+        "name": "city-of-london-inspire-ogc-wms-service",
+        "notes": "WAF for UK Gemini INSPIRE directive",
+        "organization": {
+            "id": "e34362f3-b11b-47ee-8307-6f8c7d2e5bb2",
+            "name": "city-of-london",
+            "title": "City of London",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:32.506551",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "e34362f3-b11b-47ee-8307-6f8c7d2e5bb2",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "City of London INSPIRE OGC Service",
+        "type": "harvest",
+        "url": "https://www.mapping.cityoflondon.gov.uk/Public/metadata/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1532,
+            "last_job": {
+                "id": "2be42fda-be7f-472a-a4af-56245a6986e1",
+                "created": "2024-11-17 13:00:08.277104",
+                "gather_started": "2024-11-17 13:00:48.309148",
+                "gather_finished": "2024-11-17 13:00:58.173660",
+                "finished": "2024-11-17 13:04:37.654528",
+                "source_id": "9dc0b8d5-7429-47d1-844b-0258f8829ef5",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 136,
+                    "errored": 5,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"The 'verticalCRS' element has no child elements.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='extent' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='EX_Extent' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='verticalElement' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='EX_VerticalExtent' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='verticalCRS' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(*) > 0 or namespace-uri() = 'http://www.isotc211.org/2005/gco' or namespace-uri() = 'http://www.isotc211.org/2005/gmx' or namespace-uri() = 'http://www.opengis.net/gml/3.2' or namespace-uri() = 'http://www.opengis.net/gml' or @codeList or @codeListValue or local-name() = 'MD_TopicCategoryCode' or local-name() = 'URL' or (@gco:nilReason = 'inapplicable' or @gco:nilReason = 'missing' or @gco:nilReason = 'template' or @gco:nilReason = 'unknown' or @gco:nilReason = 'withheld') or @xlink:href\":\n",
+                        "error_count": 3
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 5c33198f-aa82-4267-a4ff-fcad080f35d9 (https://www.mapping.cityoflondon.gov.uk/Public/metadata/LISTED_BUILDINGS.xml) has a GUID 048f950770135292d3c22b479493b03e already in use by f1bcb9fc-5c1a-452a-9922-735927f494ef (https://www.mapping.cityoflondon.gov.uk/Public/metadata/Listed_Buildings.xml) in harvest source 9dc0b8d5-7429-47d1-844b-0258f8829ef5",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"MD_DataIdentification: The topicCategory element is mandatory if hierarchyLevel is dataset.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"(not(gmd:hierarchyLevel) or (gmd:hierarchyLevel/*/@codeListValue = 'dataset')) and (gmd:identificationInfo/*/gmd:topicCategory) or gmd:hierarchyLevel/*/@codeListValue != 'dataset'\":\n",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 139
+        }
+    }
+}

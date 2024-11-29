@@ -1,0 +1,481 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "43742442-71c2-457a-a288-1fca128e884e",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-08-08T14:25:21.397323",
+        "metadata_modified": "2024-06-14T14:49:26.242562",
+        "name": "wfd-artificial-water-bodies-canal-cycle-1",
+        "notes": "WFD Artificial Water Bodies \u2013 Canals Cycle 1 is a polyline Shapefile dataset containing Water Framework Directive (WFD) attributes that have been collated as defined for the implementation of the Water Framework Directive. The WFD defines an \u2018artificial water body\u2019 as a body of surface water created by human activity. \nWater bodies are attributed with a unique identifier \u2018EA_WB_ID' (equivalent to WB_ID in Cycle 2) so this dataset can be linked directly to other WFD data sources such as physical characteristics, risk, classification and proposed objectives as well as Cycle 2 datasets.\nThis dataset covers the layer for Cycle 1 of the Water Framework Directive and does not include natural water bodies; these are available as WFD RIVER WATER BODIES CYCLE 1.   However, the equivalent layer for Cycle 2 is covered under WFD River, Canal and Surface Water Transfer Water bodies Cycle 2 (ie both artificial and natural water bodies).\nThis dataset was previously known as WFD ARTIFICIAL WATERBODIES \u2013 CANALS.  \nPlease note that the Environment Agency no longer provide data for water bodies in Wales - this should now available from Natural Resources Wales. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2017. All rights reserved.\u00a9 Crown copyright and database rights 2008 Ordnance Survey 100024198.",
+        "num_resources": 12,
+        "num_tags": 7,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "WFD Artificial Water Bodies Canal Cycle 1",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2008-01-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "73ed6280-d465-11e4-8946-f0def148f590"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ff165fec-2540-4c6d-b9f1-152e5537fb4f"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310664",
+                "description": "WFDArtificialWaterBodiesCanalsCycle1-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "621c54f0-7aab-425a-959f-6c06dbafa7dd",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.249078",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDArtificialWaterBodiesCanalsCycle1-FGDB.zip",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9b19e15c-315f-43ce-944f-543278c20281&fileName=WFDArtificialWaterBodiesCanalsCycle1-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310667",
+                "description": "WFDArtificialWaterBodiesCanalsCycle1-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "fbab730e-4218-451d-b43b-5604469baba5",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.249244",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDArtificialWaterBodiesCanalsCycle1-GeoJSON.zip",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9b19e15c-315f-43ce-944f-543278c20281&fileName=WFDArtificialWaterBodiesCanalsCycle1-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310668",
+                "description": "WFDArtificialWaterBodiesCanalsCycle1-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "ec553f18-4c70-4be9-8bb8-e005f08f3f67",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.249380",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDArtificialWaterBodiesCanalsCycle1-GML.zip",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9b19e15c-315f-43ce-944f-543278c20281&fileName=WFDArtificialWaterBodiesCanalsCycle1-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310669",
+                "description": "WFDArtificialWaterBodiesCanalsCycle1-KML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "0904fe84-dd3f-42dc-a925-9b98947fd8e1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.249510",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDArtificialWaterBodiesCanalsCycle1-KML.zip",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9b19e15c-315f-43ce-944f-543278c20281&fileName=WFDArtificialWaterBodiesCanalsCycle1-KML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310670",
+                "description": "WFDArtificialWaterBodiesCanalsCycle1-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "0f1540ab-0634-4774-bd39-14a598e9854e",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.249633",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDArtificialWaterBodiesCanalsCycle1-MID_MIF.zip",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9b19e15c-315f-43ce-944f-543278c20281&fileName=WFDArtificialWaterBodiesCanalsCycle1-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310671",
+                "description": "WFDArtificialWaterBodiesCanalsCycle1-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b96adea0-0660-45dc-a6ca-4423ccbb94ac",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.249763",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDArtificialWaterBodiesCanalsCycle1-SHP.zip",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9b19e15c-315f-43ce-944f-543278c20281&fileName=WFDArtificialWaterBodiesCanalsCycle1-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310672",
+                "description": "WFDArtificialWaterBodiesCanalsCycle1-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "007dd62b-215d-4c3c-b1e8-c4e6cc653cb8",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.249846",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDArtificialWaterBodiesCanalsCycle1-TAB.zip",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9b19e15c-315f-43ce-944f-543278c20281&fileName=WFDArtificialWaterBodiesCanalsCycle1-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310673",
+                "description": "External Version available on the Environment Agency's Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "5f537f05-91cd-4109-ba4f-ae09772ed1dc",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.249912",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.geostore.com/environment-agency/ds/catalogue/#/73ed6280-d465-11e4-8946-f0def148f590",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310674",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "8157b01a-1137-4809-af1b-d0e8574e3f62",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.249974",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDArtificialWaterBodiesCanalsCycle1_Download",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/73ed6280-d465-11e4-8946-f0def148f590?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310675",
+                "description": "WFD - Artificial Water Bodies Canals Cycle 1 WFS",
+                "format": "",
+                "hash": "",
+                "id": "837240e7-7dc3-4c0b-b593-76a556dc2f07",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.250038",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDArtificialWaterBodiesCanalsCycle1_WFS",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-artificial-water-bodies-canals-cycle-1/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310676",
+                "description": "WFD - Artificial Water Bodies Canals Cycle 1 WMS",
+                "format": "",
+                "hash": "",
+                "id": "6906cc16-63bd-4375-bc80-1f84fe850778",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.250101",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDArtificialWaterBodiesCanalsCycle1_WMS",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-artificial-water-bodies-canals-cycle-1/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:26.310677",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "d72c56ec-fce7-4e82-9ff2-1621449b4d65",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:26.250164",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "43742442-71c2-457a-a288-1fca128e884e",
+                "position": 11,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-artificial-water-bodies-canals-cycle-1/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "WFD",
+                "id": "02f4dac3-3ff6-4d88-b62a-99ca259b0af6",
+                "name": "WFD",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "canal",
+                "id": "4eb5d5ed-da7f-4ead-9631-49ce55bf995c",
+                "name": "canal",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "imageryBaseMapsEarthCover",
+                "id": "af58a39d-4c69-4bfd-9dc1-ee0de09e3c2f",
+                "name": "imageryBaseMapsEarthCover",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inlandWaters",
+                "id": "cec0bb77-73e4-4884-a522-2dd31882fe82",
+                "name": "inlandWaters",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "water body",
+                "id": "dd7a1226-7035-40aa-afa9-ed066954b5f9",
+                "name": "water body",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "water quality",
+                "id": "12a3d176-f1ae-4610-af45-52a451d17bd9",
+                "name": "water quality",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3d07d8a5-6ce6-433d-b261-1c67014cdf50"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

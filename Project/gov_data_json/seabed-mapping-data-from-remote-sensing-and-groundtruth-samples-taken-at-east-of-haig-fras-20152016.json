@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "21b8f23e-ae43-4da9-a8b7-04d59247cef0",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:26:53.738643",
+        "metadata_modified": "2024-09-10T08:26:53.738648",
+        "name": "seabed-mapping-data-from-remote-sensing-and-groundtruth-samples-taken-at-east-of-haig-fras-20152016",
+        "notes": "Remotely sensed variables and ground truth samples were distributed as part of \na seabed mapping exercise. This holding contains the four raster layers \nprovided to all participants for the East of Haig Fras MCZ and the groundtruth \nsamples. These four rasters are: Multibeam echosounder bathymetry, multibeam \nechosounder backscatter, modelled maximum current velocity at the seabed and \nmodelled mean current velocity at the seabed. All rasters are in UTM29N \nprojection at a 2 m x 2 m resolution. The groundtruth samples were derived \nfrom drop camera still images of rock substrate and sediment substrate samples \nwere derived from grabs classified using Particle Size Analysis. Groundtruth \nsamples contain the field \"Test\". Test values of 0 were used to train the \nmodels and values of 1 were withheld from all analysts as an independent test \nset.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2012-07-31"
+        ],
+        "temporal_coverage-to": [
+            "2015-12-31"
+        ],
+        "title": "Seabed mapping data from remote sensing and groundtruth samples taken at East of Haig Fras Marine Conservation Zone from 2012 to 2015",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-6.50"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "50.75"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50.00"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-7.50"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2020-07-03\"}, {\"type\": \"revision\", \"value\": \"2024-07-24\"}, {\"type\": \"creation\", \"value\": \"2020-06-17\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "CEFASc68e93a7-83bd-4dba-a7a9-2564504f4733"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "2acdf2ed-1558-4af3-8f97-f0b089cc0b87"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-24T11:37:18"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS)"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor, owner); Department for Environment, Food and Rural Affairs (DEFRA) (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-6.50, 50.00], [-7.50, 50.00], [-7.50, 50.75], [-6.50, 50.75], [-6.50, 50.00]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:26:53.740857",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: Binary download.",
+                "format": "",
+                "hash": "",
+                "id": "bf92f3cb-8121-474e-90ea-492621daf8f7",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:26:53.736115",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "21b8f23e-ae43-4da9-a8b7-04d59247cef0",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/20666",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "2acdf2ed-1558-4af3-8f97-f0b089cc0b87"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

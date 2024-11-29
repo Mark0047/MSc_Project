@@ -1,0 +1,195 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "0b74f343-051e-4496-a483-301b69d4fae7",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2016-02-19T11:54:53.245161",
+        "metadata_modified": "2024-08-17T15:06:53.864719",
+        "name": "nihpi-by-propertytype",
+        "notes": "A quarterly index providing a measure of change in the price of a standardised residential property sold in NI.  The index is presented for each quarter from Q1 (January-March) 2005.",
+        "num_resources": 4,
+        "num_tags": 5,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "NI House Price Index",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-18T15:04:07.967475",
+                "datastore_active": true,
+                "description": "A quarterly index providing a measure of change in the price of a standardised residential property sold in NI.  The index is presented by property type and quarter.",
+                "format": "CSV",
+                "hash": "",
+                "id": "b47a047d-5ed1-41ea-af13-2954b4a2bd92",
+                "last_modified": "2024-08-15T14:13:48.514836",
+                "metadata_modified": "2024-08-17T15:06:53.871062",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NI House Price Index by Property Type",
+                "package_id": "0b74f343-051e-4496-a483-301b69d4fae7",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://admin.opendatani.gov.uk/dataset/0b74f343-051e-4496-a483-301b69d4fae7/resource/b47a047d-5ed1-41ea-af13-2954b4a2bd92/download/ni-hpi-by-property-type-q1-2005---q2-2024.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-27T12:01:59.139810",
+                "datastore_active": true,
+                "description": "A quarterly index providing a measure of change in the price of a standardised residential property sold in NI. The index is presented by LGD for each quarter from Q1 (January-March) 2005.",
+                "format": "CSV",
+                "hash": "",
+                "id": "dc7af407-bcb5-4820-81c0-a5e0dd7cbcb9",
+                "last_modified": "2024-08-15T14:14:25.075155",
+                "metadata_modified": "2024-08-17T15:06:53.871136",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Standardised price and index by LGD",
+                "package_id": "0b74f343-051e-4496-a483-301b69d4fae7",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://admin.opendatani.gov.uk/dataset/0b74f343-051e-4496-a483-301b69d4fae7/resource/dc7af407-bcb5-4820-81c0-a5e0dd7cbcb9/download/standardised-price-and-index-by-lgd-q1-2005---q2-2024.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-27T12:02:47.288785",
+                "datastore_active": true,
+                "description": "A quarterly index providing a measure of change in the price of a standardised residential property sold in NI. The dataset provides the index and standardised price by NUTS3 area and quarter.",
+                "format": "CSV",
+                "hash": "",
+                "id": "0195d6db-b1c8-4a2a-b451-36bc4eeb9361",
+                "last_modified": null,
+                "metadata_modified": "2023-04-06T12:20:28.868471",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Standardised price and index by NUTS3",
+                "package_id": "0b74f343-051e-4496-a483-301b69d4fae7",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://admin.opendatani.gov.uk/dataset/0b74f343-051e-4496-a483-301b69d4fae7/resource/0195d6db-b1c8-4a2a-b451-36bc4eeb9361/download/standardised-price-and-index-by-nuts3-q1-2005---q1-2018.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-27T12:03:39.137421",
+                "datastore_active": true,
+                "description": "A quarterly index providing a measure of change in the price of a standardised residential property sold in NI. The index is presented by urban-rural classification for each quarter from Q1 (January-March) 2005.",
+                "format": "CSV",
+                "hash": "",
+                "id": "4dfc8fe3-41d0-4357-9cc3-f4b0826ed088",
+                "last_modified": "2024-08-15T14:14:58.225318",
+                "metadata_modified": "2024-08-17T15:06:53.871242",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Standardised price and index by urban rural classification",
+                "package_id": "0b74f343-051e-4496-a483-301b69d4fae7",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://admin.opendatani.gov.uk/dataset/0b74f343-051e-4496-a483-301b69d4fae7/resource/4dfc8fe3-41d0-4357-9cc3-f4b0826ed088/download/standardised-price-and-index-by-urban-rural-classification-q1-2005---q2-2024.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "house price index",
+                "id": "859a54b1-51ad-4810-90d5-17652e3f5f8d",
+                "name": "house price index",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "house prices",
+                "id": "2dd323d4-0a21-4fa7-bba0-6eb1708191a8",
+                "name": "house prices",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "hpi",
+                "id": "c8c743fd-e9f6-4396-bf8e-27a945f0fd85",
+                "name": "hpi",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "nirppi",
+                "id": "919b4cfb-7add-46ea-9ca8-594e3c324cfd",
+                "name": "nirppi",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "rppi",
+                "id": "35820a7d-d0a6-4fd5-b2e3-63d2e823d70c",
+                "name": "rppi",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "45c1c2e7-a55d-49df-9388-9bdbd685dcbb"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "67dbd283-b763-4e86-b8c5-482e06a67738"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "3e3dd772-7ccf-499d-abb2-0e81791b98b7",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-12-27T04:54:30.369154",
+        "metadata_modified": "2024-11-16T22:02:05.705577",
+        "name": "london-input-output-tables",
+        "notes": "The London IO tables provide an overview of activity across sectors and key aggregates (production, consumption and expenditure) as well as the interlinkages between sectors and London\u2019s trade (with the rest of the UK, the EU and the rest of the world).\u00a0\n\nThe IO tables are product x product rather than industry x industry.\n\nThe data is for the product definition of sectors, and sector coverage aligns with the 2014 London Business Survey.\u00a0See [https://data.london.gov.uk/gla-economics/london-business-survey-2014](https://data.london.gov.uk/gla-economics/london-business-survey-2014)/\n\nExplanation of the content of the tables, applications of their use, and details on the methodology are available here: [https://www.london.gov.uk/business-and-economy-publications/london-input-output-tables](https://www.london.gov.uk/business-and-economy-publications/london-input-output-tables)",
+        "num_resources": 1,
+        "num_tags": 7,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "London input-output tables",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/london-input-output-tables",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2019-04-23T23:00:00.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2019-04-24T12:48:54.084Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "37bf7b01-3cc4-49f6-aa0e-f3db598ae15f"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-27T04:54:30.395337",
+                "description": null,
+                "format": "XLSX",
+                "hash": "",
+                "id": "1706b046-f03b-4578-904a-15e89263393d",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:02.983843",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "IO tables - London Datastore",
+                "package_id": "3e3dd772-7ccf-499d-abb2-0e81791b98b7",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-input-output-tables/47c56b23-a121-47de-b3d3-ab475ca26a82/IO%2520tables%2520-%2520London%2520Datastore%2520%2528no%2520links%2529.xlsx",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "GVA",
+                "id": "5d3d2966-b5b3-407b-8dc2-45dd6320ca11",
+                "name": "GVA",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Input-output",
+                "id": "feb8b311-fd42-4f02-a62a-8a7bf3035dee",
+                "name": "Input-output",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Sectors",
+                "id": "cb296ddd-7ac3-4f0e-aee7-466b3f9dcc49",
+                "name": "Sectors",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "consumption",
+                "id": "0ae74e33-e80d-4eba-a991-94549421603b",
+                "name": "consumption",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "expenditure",
+                "id": "4a657aea-d00e-4ef0-91f2-59fa696c6531",
+                "name": "expenditure",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "production",
+                "id": "f899662c-183d-4e27-b2a2-b9f0aa39b2ac",
+                "name": "production",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "trade",
+                "id": "c16f62c8-724e-4b90-a158-654cc69de83e",
+                "name": "trade",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3461d441-2161-4a59-ab35-c06cff0f41a2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

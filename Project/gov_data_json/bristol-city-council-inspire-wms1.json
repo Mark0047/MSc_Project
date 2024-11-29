@@ -1,0 +1,182 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis_supportteam@bristol.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "81b1dab8-badd-4906-b785-47e27d2491de",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-05-30T14:11:35.595035",
+        "metadata_modified": "2024-05-30T16:58:45.695785",
+        "name": "bristol-city-council-inspire-wms1",
+        "notes": " Web Map Service (WMS) providing access to INSPIRE datasets held by Bristol City Council. This service replicates the individual datasets listed under data.gov.uk. NOTE: Upon accessing the Licensed Data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+            "id": "7bbcdc7a-74d0-4a53-a07a-2c15bd7f6bd6",
+            "name": "bristol-city-council",
+            "title": "Bristol City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:56.618466",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "7bbcdc7a-74d0-4a53-a07a-2c15bd7f6bd6",
+        "private": false,
+        "state": "active",
+        "title": "Bristol City Council INSPIRE WMS",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Public access subject to use constraints\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.14"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.89"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.19"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.01"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-11-20\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "e29c2895-8bc8-4ad1-a8de-4d1e4feeddbb"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "07a1a83e-4112-4adb-bcd1-a05d5cdfd3c1"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Licence : By using or accessing the data in this service the INSPIRE End User is deemed to have accepted the Public Sector End User Licence - INSPIRE https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-22"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Bristol City Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Bristol City Council (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.14, 51.19], [-3.01, 51.19], [-3.01, 51.89], [-2.14, 51.89], [-2.14, 51.19]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "view"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "734a2016-6105-466d-bce4-6c85e93eeed5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Bristol City Council INSPIRE"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-30T14:11:35.596223",
+                "datafile-date": "",
+                "description": null,
+                "format": "GetCapabilities",
+                "hash": "",
+                "id": "eab19c68-184a-45e0-8c72-585ef10c82a0",
+                "last_modified": null,
+                "metadata_modified": "2024-05-30T16:58:45.702939",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "81b1dab8-badd-4906-b785-47e27d2491de",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps2.bristol.gov.uk/server2/rest/services/ext/INSPIRE/MapServer/WMSServer?service=WMS&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "infoMapAccessService",
+                "id": "061d2dbc-d2e4-429c-a613-e101834e6f73",
+                "name": "infoMapAccessService",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "07a1a83e-4112-4adb-bcd1-a05d5cdfd3c1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "734a2016-6105-466d-bce4-6c85e93eeed5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Bristol City Council INSPIRE"
+            }
+        ]
+    }
+}

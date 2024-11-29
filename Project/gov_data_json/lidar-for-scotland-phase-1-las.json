@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "75fc7ede-9faa-4129-a43b-121e87290754",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-10-24T08:45:18.919241",
+        "metadata_modified": "2024-06-19T11:13:26.828346",
+        "name": "lidar-for-scotland-phase-1-las",
+        "notes": "The Scottish Public Sector LiDAR (Phase I) dataset was commissioned in response to the Flood Risk Management Act (2009) by the Scottish Government, Scottish Environmental Protection Agency (SEPA), and Scottish Water collaboratively. Airborne LiDAR data was collected across 10 sites totalling 11,845 km2 (note the dataset does not have full national coverage) between March 2011 and May 2012.  Aside from flood risk management, this data has also been used for archaeological and orienteering purposes.  This dataset reflects the LAS format point cloud data.",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "LiDAR for Scotland Phase 1 - LAS",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Crown copyright Scottish Government, SEPA and Scottish Water (2012).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2012-05-02\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "3d53554e-1072-4039-8a51-d6701f345fe0"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7d2ffc1f-6d3a-4182-93f8-fd9ceb80c57f"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-07-24T12:59:30"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:26.853213",
+                "description": "LAS Download Service",
+                "format": "",
+                "hash": "",
+                "id": "6458b7f1-2dd8-4487-a89b-cca6e6d93a0f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:26.833920",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LAS File",
+                "package_id": "75fc7ede-9faa-4129-a43b-121e87290754",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://remotesensingdata.gov.scot/data#/list?lidar/phase-1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:26.853215",
+                "description": "Scottish Remote Sensing Portal",
+                "format": "",
+                "hash": "",
+                "id": "82b2c056-faee-49fc-b380-531088e7e72b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:26.834015",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scottish Remote Sensing Portal",
+                "package_id": "75fc7ede-9faa-4129-a43b-121e87290754",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://remotesensingdata.gov.scot/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Orthoimagery",
+                "id": "64b9ed71-3811-4c11-a6eb-fcb262370518",
+                "name": "Orthoimagery",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9ea27bbe-5532-486a-a682-73cdfc3b732c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "2eb08349-aea3-44fb-9e75-b489f6e0e95e",
+        "frequency": "MANUAL",
+        "id": "949fcae0-bd18-42e1-9088-9067a777b636",
+        "metadata_created": "2019-12-06T13:55:09.785691",
+        "metadata_modified": "2020-12-10T11:17:16.748875",
+        "name": "rbwm-wms-service",
+        "notes": "this is the link to the rbwm geoserver for harvesting data",
+        "organization": {
+            "id": "b7604054-3122-4f80-8c2f-2a43999af2e8",
+            "name": "royal-borough-of-windsor-and-maidenhead",
+            "title": "Royal Borough of Windsor and Maidenhead",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:37.846768",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "b7604054-3122-4f80-8c2f-2a43999af2e8",
+        "private": false,
+        "source_type": "inventory",
+        "state": "active",
+        "title": "RBWM WMS Service",
+        "type": "harvest",
+        "url": "https://geodata.rbwm.gov.uk:443/geoserver/wminspire/ows?service=WMS&request=GetCapabilities",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 6,
+            "last_job": {
+                "id": "ca46126f-91e8-4838-a1d0-e8a2c181c150",
+                "created": "2022-01-06 11:34:06.123107",
+                "gather_started": "2022-01-06 11:34:06.253253",
+                "gather_finished": "2022-01-06 11:34:08.039154",
+                "finished": "2022-01-06 11:34:08.039154",
+                "source_id": "949fcae0-bd18-42e1-9088-9067a777b636",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 0,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": []
+            },
+            "total_datasets": 0
+        }
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "Corporategis@sthelens.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "54681c4a-cc87-4178-b257-a0536710cd69",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-12-01T10:54:11.553689",
+        "metadata_modified": "2024-04-29T15:43:31.977121",
+        "name": "listed-buildings41",
+        "notes": "Point data showing the location of each listed building within the St Helens MBC boundary. The data is admimistered by Historic Engalnd and the table is updated when notification of change is received from Historic England. The table fields include unique HE reference, name and listing grade fields.",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+            "name": "st-helens-council",
+            "title": "St Helens Council",
+            "type": "organization",
+            "description": "(St Helens Metropolitan Borough Council)",
+            "image_url": "",
+            "created": "2012-06-27T14:50:48.582845",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2000-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2000-01-01"
+        ],
+        "title": "Listed Buildings",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations apply\", \"Use according to license\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.5992485665454157"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.51816358351642"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.400090688695954"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.808556974383418"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2000-01-01\"}, {\"type\": \"revision\", \"value\": \"2021-07-18T15:03:42\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "1f5912fdba2a95a5b69b4f92aad1a620a41f386007e44916e518cc8f3ae62818"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4c33c81b-8f5f-46df-a7b0-b50b51d55f13"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-04-02T13:35:21"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "onGoing"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "St Helens MBC (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.5992485665454157, 53.400090688695954], [-2.808556974383418, 53.400090688695954], [-2.808556974383418, 53.51816358351642], [-2.5992485665454157, 53.51816358351642], [-2.5992485665454157, 53.400090688695954]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96423a5d-c812-4893-9e69-a565d00f87c0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "St Helens Council INSPIRE Metadata CSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-29T15:43:32.006906",
+                "description": "Listed Buildings",
+                "format": "",
+                "hash": "",
+                "id": "34a763c8-5d8d-42b1-9245-7ade1afa50c8",
+                "last_modified": null,
+                "metadata_modified": "2024-04-29T15:43:31.982824",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Listed_Buildings",
+                "package_id": "54681c4a-cc87-4178-b257-a0536710cd69",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.sthelens.gov.uk/getows.ashx?MAPSOURCE=mapsources/inspire&service=WMS&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-29T15:43:32.006910",
+                "description": "Point data showing the location of each listed building within the St Helens MBC boundary. The data is admimistered by Historic Engalnd and the table is updated when notification of change is received from Historic England. The table fields include unique HE reference",
+                "format": "",
+                "hash": "",
+                "id": "ca252466-b215-4496-ba35-e2f0587e8f8b",
+                "last_modified": null,
+                "metadata_modified": "2024-04-29T15:43:31.982931",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": ":Listed_Buildings",
+                "package_id": "54681c4a-cc87-4178-b257-a0536710cd69",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.sthelens.gov.uk/getows.ashx?mapsource=mapsources/inspire&version=1.1.0&service=WFS&request=GetFeature&TypeName=listed_buildings",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Location",
+                "id": "34de5497-97a6-4765-afb0-010add38f5d7",
+                "name": "Location",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "096d182a-58f5-48f0-b9e8-8e1b3b174442"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96423a5d-c812-4893-9e69-a565d00f87c0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "St Helens Council INSPIRE Metadata CSW"
+            }
+        ]
+    }
+}

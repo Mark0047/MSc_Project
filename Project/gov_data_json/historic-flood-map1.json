@@ -1,0 +1,368 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "76292bec-7d8b-43e8-9c98-02734fd89c81",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-10-01T13:50:32.776936",
+        "metadata_modified": "2024-08-09T13:18:29.633616",
+        "name": "historic-flood-map1",
+        "notes": "The Historic Flood Map is a GIS layer showing the maximum extent of individual Recorded Flood Outlines from river, the sea and groundwater springs that meet a set criteria. It shows areas of land that have previously been subject to flooding in England. This excludes flooding from surface water, except in areas where it is impossible to determine whether the source is fluvial or surface water but the dominant source is fluvial. \n\nThe majority of records began in 1946 when predecessor bodies to the Environment Agency started collecting detailed information about flooding incidents, although we hold limited details about flooding incidents prior to this date. \n\nIf an area is not covered by the Historic Flood Map it does not mean that the area has never flooded, only that we do not currently have records of flooding in this area that meet the criteria for inclusion. It is also possible that the pattern of flooding in this area has changed and that this area would now flood or not flood under different circumstances. Outlines that don\u2019t meet this criteria are stored in the Recorded Flood Outlines dataset.\n\nThe Historic Flood Map takes into account the presence of defences, structures, and other infrastructure where they existed at the time of flooding. It will include flood extents that may have been affected by overtopping, breaches or blockages.\n\nFlooding is shown to the land and does not necessarily indicate that properties were flooded internally. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2023. All rights reserved",
+        "num_resources": 7,
+        "num_tags": 7,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1946-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Historic Flood Map",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2004-01-01\"}, {\"type\": \"revision\", \"value\": \"2024-08-07\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "889885c0-d465-11e4-9507-f0def148f590"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "2e73e98a-4067-4b46-acf2-8f119ad507a4"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-08-07"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:29.694676",
+                "description": "Data Version.txt download on Defra Data Services Platform",
+                "format": "TXT",
+                "hash": "",
+                "id": "47eb2e31-a00a-42c3-a812-2c6fc987d673",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:29.638301",
+                "mimetype": "text/plain",
+                "mimetype_inner": null,
+                "name": "Data Version.txt",
+                "package_id": "76292bec-7d8b-43e8-9c98-02734fd89c81",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=c3e82575-35c8-4ebe-ae39-c6f7b2fcfe40&fileName=Data Version.txt",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:29.694679",
+                "description": "Guidance_Historic Flood Map_v6_1.pdf download on Defra Data Services Platform",
+                "format": "PDF",
+                "hash": "",
+                "id": "1146153b-674f-4610-add3-81ac55656ca8",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:29.638394",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Guidance_Historic Flood Map_v6_1.pdf",
+                "package_id": "76292bec-7d8b-43e8-9c98-02734fd89c81",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=c3e82575-35c8-4ebe-ae39-c6f7b2fcfe40&fileName=Guidance_Historic Flood Map_v6_1.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:29.694680",
+                "description": "HISTORIC_FLOOD_MAP.lyr download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "bd2e5f5f-33a8-4824-bf83-16c5c558f5d6",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:29.638462",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "HISTORIC_FLOOD_MAP.lyr",
+                "package_id": "76292bec-7d8b-43e8-9c98-02734fd89c81",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=c3e82575-35c8-4ebe-ae39-c6f7b2fcfe40&fileName=HISTORIC_FLOOD_MAP.lyr",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:29.694681",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "10c2a23a-2757-4b89-a0c8-07bc5d5326fb",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:29.638526",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "HistoricFloodMap_Download",
+                "package_id": "76292bec-7d8b-43e8-9c98-02734fd89c81",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/889885c0-d465-11e4-9507-f0def148f590?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:29.694682",
+                "description": "Historic Flood Map - WMS",
+                "format": "",
+                "hash": "",
+                "id": "5f0ad88b-2848-4511-96e4-4bd6c7c66dbe",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:29.638589",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "HistoricFloodMap_WMS",
+                "package_id": "76292bec-7d8b-43e8-9c98-02734fd89c81",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/historic-flood-map/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:29.694683",
+                "description": "Historic Flood Map - WFS",
+                "format": "",
+                "hash": "",
+                "id": "61238260-db5a-47cf-b4bc-52178b720e6c",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:29.638652",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "HistoricFloodMap_WFS",
+                "package_id": "76292bec-7d8b-43e8-9c98-02734fd89c81",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/historic-flood-map/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:29.694684",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "b394abf6-f4f0-45c5-ac39-20c62a994f8a",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:29.638713",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "76292bec-7d8b-43e8-9c98-02734fd89c81",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/historic-flood-map/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Historic Flood Map",
+                "id": "7c209ca3-6d5d-4774-bad5-d199eb59f222",
+                "name": "Historic Flood Map",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Recorded Flood Outlines",
+                "id": "593e92b6-e81e-46a4-88c3-4efc14ced1ae",
+                "name": "Recorded Flood Outlines",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood",
+                "id": "90af076f-75b0-42fc-80aa-ac2ff7993443",
+                "name": "flood",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flooding",
+                "id": "abf228eb-a27c-4fd0-b66f-a5e84aca9dec",
+                "name": "flooding",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "imageryBaseMapsEarthCover",
+                "id": "af58a39d-4c69-4bfd-9dc1-ee0de09e3c2f",
+                "name": "imageryBaseMapsEarthCover",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inlandWaters",
+                "id": "cec0bb77-73e4-4884-a522-2dd31882fe82",
+                "name": "inlandWaters",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7861874f-506d-47d6-82d2-82db0aaa71df"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

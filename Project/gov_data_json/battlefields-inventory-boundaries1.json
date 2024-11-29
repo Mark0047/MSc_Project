@@ -1,0 +1,247 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GIEnquiries@hes.scot",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "e290e0b9-b85e-4c9a-a1a3-475acacf5dfe",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2013-07-03T13:32:25.609485",
+        "metadata_modified": "2020-08-19T14:36:06.597016",
+        "name": "battlefields-inventory-boundaries1",
+        "notes": "The Inventory of Historic Battlefields is a list of nationally important battlefields in Scotland that meet the criteria published in SHEP 2009. It provides information on the sites to raise awareness of their significance and assist in their protection and management for the future. It is a major resource for enhancing the understanding, appreciation and enjoyment of battlefields, for promoting education and stimulating further research, and for developing their potential as attractions for visitors.",
+        "num_resources": 3,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2011-03-21"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Battlefields Inventory Boundaries",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"If this data is reproduced it must be attributed with the following: Contains Historic Environment Scotland and Ordnance Survey data \\u00a9 Historic Environment Scotland - Scottish Charity No. SC045925 \\u00a9 Crown copyright and database right [year]\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.53202"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.46459"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.53297"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-7.75714"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2010-01-01\"}, {\"type\": \"revision\", \"value\": \"2016-09-28\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "451f5be3-c273-4919-b5a5-349ffbd3534e"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "54d7f2bc-2037-4007-a234-aebf3ca33029"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-08-18"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Historic Environment Scotland (pointOfContact, distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.53202, 54.53297], [-7.75714, 54.53297], [-7.75714, 61.46459], [-0.53202, 61.46459], [-0.53202, 54.53297]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-19T14:36:06.870623",
+                "description": "Download zip file with Battlefields Inventory Boundaries shapefile, layer file and metadata",
+                "format": "ZIP",
+                "hash": "",
+                "id": "dcae391c-c3dd-4671-9c2b-4b1917688c83",
+                "last_modified": null,
+                "metadata_modified": "2020-08-19T14:36:06.870623",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ESRI Shapefile Download",
+                "package_id": "e290e0b9-b85e-4c9a-a1a3-475acacf5dfe",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "FILE:GEO",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.hes.scot/AtomService/DATA/battlefields_scotland.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-19T14:36:06.870630",
+                "description": "WMS service for Battlefields Inventory Boundaries",
+                "format": "",
+                "hash": "",
+                "id": "12248848-008b-4837-93f9-56dba009eba4",
+                "last_modified": null,
+                "metadata_modified": "2020-08-19T14:36:06.870630",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "e290e0b9-b85e-4c9a-a1a3-475acacf5dfe",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.hes.scot/arcgis/services/HES/Battlefields_Inventory_Boundary/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-19T14:36:06.870633",
+                "description": "WFS service for Battlefields Inventory Boundaries",
+                "format": "",
+                "hash": "",
+                "id": "dd1ebc06-b679-42d5-aec2-2b12f207511d",
+                "last_modified": null,
+                "metadata_modified": "2020-08-19T14:36:06.870633",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "e290e0b9-b85e-4c9a-a1a3-475acacf5dfe",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.hes.scot/arcgis/services/HES/Battlefields_Inventory_Boundary/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Battlefields",
+                "id": "1f3019f9-ab49-42c8-9405-36ad003379ea",
+                "name": "Battlefields",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Historic sites",
+                "id": "f6c7193e-4e8f-4eef-828b-f73220eec0fe",
+                "name": "Historic sites",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "54d7f2bc-2037-4007-a234-aebf3ca33029"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

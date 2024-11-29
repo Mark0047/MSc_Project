@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "e0084b69-3f05-49d7-b1d5-2116205f26e0",
+        "metadata_created": "2019-01-23T11:32:45.757207",
+        "metadata_modified": "2024-10-01T10:09:48.864217",
+        "name": "nrw",
+        "notes": "Manual harvest of Natural Resources Wales discovery metadata from NRWs WAF",
+        "organization": {
+            "id": "1d3ba2bb-4fd5-4fe9-9436-3b5454dc19e3",
+            "name": "natural-resources-wales",
+            "title": "Natural Resources Wales",
+            "type": "organization",
+            "description": "Natural Resources Wales is a Welsh Government sponsored body that was formed in April 2013, when it took over the management of the natural resources of Wales. It was formed from a merger of the Countryside Council for Wales, Environment Agency Wales, and the Forestry Commission Wales. \r\n\r\nOur purpose is to make sure that the environment and natural resources of Wales are sustainably maintained, sustainably enhanced and sustainably used, now and in the future. ",
+            "image_url": "",
+            "created": "2015-07-31T12:15:39.290597",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1d3ba2bb-4fd5-4fe9-9436-3b5454dc19e3",
+        "private": false,
+        "source_type": "gemini-single",
+        "state": "active",
+        "title": "NRW",
+        "type": "harvest",
+        "url": "https://metadata.naturalresources.wales/geonetwork/srv/api/records/NRW_DS125685/formatters/xml",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 202,
+            "last_job": {
+                "id": "164dad0d-0882-420f-8465-67f5d1d894ad",
+                "created": "2024-10-01 10:09:59.724833",
+                "gather_started": "2024-10-01 10:09:59.899113",
+                "gather_finished": "2024-10-01 10:10:00.320637",
+                "finished": "2024-10-01 10:10:00.864738",
+                "source_id": "e0084b69-3f05-49d7-b1d5-2116205f26e0",
+                "status": "Finished",
+                "stats": {
+                    "added": 1,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://naturalresources.wales/nrw}MD_ContentInfo': This element is not expected. Expected is one of ( {http://www.isotc211.org/2005/gmd}AbstractMD_ContentInformation, {http://www.isotc211.org/2005/gmd}MD_FeatureCatalogueDescription, {http://www.isotc211.org/2005/gmd}MD_CoverageDescription, {http://www.isotc211.org/2005/gmd}MD_ImageDescription ).",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 175
+        }
+    }
+}

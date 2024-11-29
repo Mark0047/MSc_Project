@@ -1,0 +1,60 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "564ec31c-0a4f-496a-a322-fc7c9d5f2f68",
+        "frequency": "WEEKLY",
+        "id": "9f018f89-93cd-43c9-a3b7-9ebe96912def",
+        "metadata_created": "2024-01-30T12:43:51.864434",
+        "metadata_modified": "2024-01-31T12:50:19.756617",
+        "name": "hub-harvester",
+        "notes": "Harvest data from the Surrey Heath Open-Data Hub page",
+        "organization": {
+            "id": "1484cfe3-7d98-474e-bab5-e896c22a2ce3",
+            "name": "surrey-heath-borough-council",
+            "title": "Surrey Heath Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T10:58:02.529383",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1484cfe3-7d98-474e-bab5-e896c22a2ce3",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "Hub-harvester",
+        "type": "harvest",
+        "url": "https://xmap-hub.s3.eu-west-2.amazonaws.com/public-sector/surreyheath/data.json",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 40,
+            "last_job": {
+                "id": "309229cf-c4d9-4e40-b685-c735abf3fd30",
+                "created": "2024-11-16 19:00:04.217141",
+                "gather_started": "2024-11-16 19:00:04.294089",
+                "gather_finished": "2024-11-16 19:00:04.553043",
+                "finished": "2024-11-16 19:00:07.474632",
+                "source_id": "9f018f89-93cd-43c9-a3b7-9ebe96912def",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 6,
+                    "not modified": 0,
+                    "errored": 0,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": []
+            },
+            "total_datasets": 6
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "20cb3791-3a0e-4582-8981-58ebafe82619",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "89b31b05-b560-4f08-9a80-f89f71a1000f",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-10-01T11:58:32.225509",
+        "metadata_modified": "2016-10-01T11:58:37.032756",
+        "name": "organogram-royal-museums-greenwich",
+        "notes": "Organogram (organisation chart) showing all staff roles. Names and salaries are also listed for the Senior Civil Servants.\r\n\r\nOrganogram data is released by all central government departments and their agencies since 2010. Snapshots for 31st March and 30th September are published by 6th June and 6th December each year. The published data is validated and released in CSV format and OGL-licensed for reuse. For more information about this series, see: http://guidance.data.gov.uk/organogram-data.html",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "6c8e1ba7-ba29-465a-b5a0-92940b2f04fd",
+            "name": "royal-museums-greenwich",
+            "title": "Royal Museums Greenwich",
+            "type": "organization",
+            "description": "Royal Museums Greenwich is a collective name for four museums: National Maritime Museum, Queen's House, Royal Observatory, Greenwich and Cutty Sark.",
+            "image_url": "",
+            "created": "2016-02-23T21:57:31.890065",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "6c8e1ba7-ba29-465a-b5a0-92940b2f04fd",
+        "private": false,
+        "schema-vocabulary": "d3c0b23f-6979-45e4-88ed-d2ab59b005d0",
+        "state": "active",
+        "temporal_coverage-from": 2010,
+        "theme-primary": "government-spending",
+        "title": "Organogram of Staff Roles & Salaries",
+        "type": "dataset",
+        "update_frequency": "biannually",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "date",
+                "value": "30/09/2013"
+            },
+            {
+                "key": "import_source",
+                "value": "organograms_v2"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T12:58:35.383943",
+                "date": "2013-09-30",
+                "description": "Organogram - Junior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "8360b5bd-026f-4240-a138-012f707fceac",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T12:58:35.383943",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "89b31b05-b560-4f08-9a80-f89f71a1000f",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/royal-museums-greenwich/30/09/2013/royal-museums-greenwich__30-09-2013__rmg_Government-staff-and-salary-data-blank-template-September-2012-FINAL-junior.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T12:58:36.210752",
+                "date": "2013-09-30",
+                "description": "Organogram - Senior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "f540714b-c274-496f-840f-ebc07a7caf44",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T12:58:36.210752",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "89b31b05-b560-4f08-9a80-f89f71a1000f",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/royal-museums-greenwich/30/09/2013/royal-museums-greenwich__30-09-2013__rmg_Government-staff-and-salary-data-blank-template-September-2012-FINAL-senior.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

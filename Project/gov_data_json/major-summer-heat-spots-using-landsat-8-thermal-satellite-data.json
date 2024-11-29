@@ -1,0 +1,149 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "2938d72e-3f0b-485f-aea1-34a4ea027d54",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-03-26T15:41:50.637974",
+        "metadata_modified": "2024-11-16T22:01:41.742233",
+        "name": "major-summer-heat-spots-using-landsat-8-thermal-satellite-data",
+        "notes": "Fine resolution satellite thermal data can be used as a basis for mapping the spatial distribution of urban surface temperatures and identifying urban hotspots. This dataset has been produced from satellite-derived land surface temperature (LST) data for the Greater London Area by ARTi Analytics BV as part of [EXTREMA Global](http://www.extrema-global.com/) portfolio of services and reveals the city\u2019s major daytime summertime hotspots.",
+        "num_resources": 3,
+        "num_tags": 1,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Major Summer Heat Spots using Landsat-8 Thermal Satellite data",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/major-summer-heatspots-using-landsat-8-thermal-satellite-data",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2021-03-17T17:25:32.070Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2021-03-17T18:10:26.081Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "f8c056c3-e5de-4678-8d6c-ae8b902646d5"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:41:50.759382",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "0b5803a5-4847-430d-9955-6f9420b503e3",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:34.446512",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Methodology and Deliverables Report_LONDON_ARTi.pdf",
+                "package_id": "2938d72e-3f0b-485f-aea1-34a4ea027d54",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/major-summer-heatspots-using-landsat-8-thermal-satellite-data/3e3f218d-c0c5-4d23-b9b0-713e37712ac1/Methodology%2520and%2520Deliverables%2520Report_LONDON_ARTi.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:41:50.759388",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "b63cbc5b-7cec-436a-9665-b014052e517f",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:34.446740",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "EXTREMA GLA Presentation Delivered 18Feb2021.pdf",
+                "package_id": "2938d72e-3f0b-485f-aea1-34a4ea027d54",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/major-summer-heatspots-using-landsat-8-thermal-satellite-data/77f4fb74-e76f-4c4a-bea1-0858b6b06a21/EXTREMA%2520GLA%2520Presentation%2520Delivered%252018Feb2021.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:41:50.759390",
+                "description": null,
+                "format": "",
+                "hash": "",
+                "id": "a53090b9-4056-4d31-ab72-2c1c95ac381c",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T18:01:20.478300",
+                "mimetype": "application/geopackage+sqlite3",
+                "mimetype_inner": null,
+                "name": "avgLST_London_UrbanAtlas.gpkg",
+                "package_id": "2938d72e-3f0b-485f-aea1-34a4ea027d54",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/major-summer-heatspots-using-landsat-8-thermal-satellite-data/ccc9687b-962e-4fe7-aecb-282254e6bdae/avgLST_London_UrbanAtlas.gpkg",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "urban heat island",
+                "id": "f4f88da4-c097-40bf-8c12-f95840019bdb",
+                "name": "urban heat island",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "494a91ac-9659-470c-bcd2-e6188cdae811"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

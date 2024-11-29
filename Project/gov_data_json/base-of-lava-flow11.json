@@ -1,0 +1,299 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "fe29ff94-7ab1-46a2-90ad-d911f1333f40",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2024-10-13T06:03:09.533611",
+        "metadata_modified": "2024-11-17T10:03:15.719277",
+        "name": "base-of-lava-flow11",
+        "notes": "<div style='text-align:Left; font-size:12pt;'><p>The Geological Survey of Northern Ireland (GSNI) was commissioned to produce a Northern Ireland wide coastal geological dataset, detailing the bedrock geology.</p><div style='text-align:Left; font-size:12pt;'><p>GSNI used the 1;10,000 digital bedrock geology map to create a coastal dataset which extends inland 200 meters and out to a seaward depth of approx. 10 metres, matching the extend of the Northern Ireland 3-Dimensional Coastal Survey. This involved refinement of the existing 1;10,000 map where signification coastal change has occurred since the original survey. Where gaps existed, unpublished datasets were used.</p><div style='text-align:Left; font-size:12pt;'></div></div></div>",
+        "num_resources": 6,
+        "num_tags": 9,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "Base of Lava Flow",
+        "type": "dataset",
+        "url": "https://opendata-daerani.hub.arcgis.com/datasets/DAERANI::base-of-lava-flow",
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=23a10f1e629f4dab9d86fe8aeeacf15d&sublayer=4"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "0fca1ba5-9a97-4ee9-adb4-75e8adff9ef6"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            },
+            {
+                "key": "identifier",
+                "value": "https://www.arcgis.com/home/item.html?id=23a10f1e629f4dab9d86fe8aeeacf15d&sublayer=4"
+            },
+            {
+                "key": "issued",
+                "value": "2023-05-04"
+            },
+            {
+                "key": "modified",
+                "value": "2024-05-16"
+            },
+            {
+                "key": "theme",
+                "value": "[\"geospatial\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T08:42:44.956393",
+                "datastore_active": false,
+                "description": "",
+                "format": "JSON",
+                "hash": "",
+                "id": "5809c941-f7e4-4953-9b54-3f6c27397f53",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T10:03:15.725285",
+                "mimetype": "application/json",
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "fe29ff94-7ab1-46a2-90ad-d911f1333f40",
+                "position": 0,
+                "requested": "False",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://utility.arcgis.com/usrsvcs/servers/23a10f1e629f4dab9d86fe8aeeacf15d/rest/services/GSNI/Bedrock_Geology/MapServer/4",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T08:42:44.956406",
+                "datastore_active": true,
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "1777beb3-ed01-415f-92de-96b73b5ecf09",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T10:03:15.726204",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "fe29ff94-7ab1-46a2-90ad-d911f1333f40",
+                "position": 1,
+                "requested": "True",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://opendata-daerani.hub.arcgis.com/api/download/v1/items/23a10f1e629f4dab9d86fe8aeeacf15d/csv?layers=4",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T08:42:44.956411",
+                "datastore_active": false,
+                "description": "",
+                "format": "KML",
+                "hash": "",
+                "id": "f8a65711-344c-4dee-a026-7b7a3e8b2854",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T10:03:15.727051",
+                "mimetype": "application/vnd.google-earth.kml+xml",
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "fe29ff94-7ab1-46a2-90ad-d911f1333f40",
+                "position": 2,
+                "requested": "True",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://opendata-daerani.hub.arcgis.com/api/download/v1/items/23a10f1e629f4dab9d86fe8aeeacf15d/kml?layers=4",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T08:42:44.956415",
+                "datastore_active": false,
+                "description": "",
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "612391d0-fed2-4db6-9821-f421f6c2590e",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T10:03:15.727861",
+                "mimetype": "application/vnd.geo+json",
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "fe29ff94-7ab1-46a2-90ad-d911f1333f40",
+                "position": 3,
+                "requested": "True",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://opendata-daerani.hub.arcgis.com/api/download/v1/items/23a10f1e629f4dab9d86fe8aeeacf15d/geojson?layers=4",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T08:42:44.956419",
+                "datastore_active": false,
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "20dbf71c-08f2-49c6-b461-0208f54c005a",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T10:03:15.728708",
+                "mimetype": "text/html",
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "fe29ff94-7ab1-46a2-90ad-d911f1333f40",
+                "position": 4,
+                "requested": "False",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://opendata-daerani.hub.arcgis.com/datasets/DAERANI::base-of-lava-flow",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T08:42:44.956423",
+                "datastore_active": false,
+                "description": "",
+                "format": "SHP",
+                "hash": "",
+                "id": "ab8ecf38-4609-4347-af37-6dfd763225a9",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T10:03:15.729518",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "fe29ff94-7ab1-46a2-90ad-d911f1333f40",
+                "position": 5,
+                "requested": "False",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://opendata-daerani.hub.arcgis.com/api/download/v1/items/23a10f1e629f4dab9d86fe8aeeacf15d/shapefile?layers=4",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "3D",
+                "id": "7c1f82e0-d5b3-4506-a82b-9e4286807ceb",
+                "name": "3D",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Bedrock",
+                "id": "22329bea-1390-4ac4-ad97-01a09e23ba8a",
+                "name": "Bedrock",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Coastal",
+                "id": "96d372b0-9f4a-4b70-8838-bde06ad51f8d",
+                "name": "Coastal",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Geology",
+                "id": "4aa03215-7870-4625-996a-f6a03df048bd",
+                "name": "Geology",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Ireland",
+                "id": "cf9e8a1e-319b-4dcd-aac3-93c7bf07d554",
+                "name": "Ireland",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Marine",
+                "id": "26a2eaeb-b864-4c90-8499-12ac6bd6f5c0",
+                "name": "Marine",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Northern",
+                "id": "bfc6ad67-af26-4204-9b4d-800fddedb03c",
+                "name": "Northern",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Observatory",
+                "id": "2f0f117b-e466-4d24-a0eb-e8f053cc98e3",
+                "name": "Observatory",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Survey",
+                "id": "aaff5d45-5fc1-4bb4-afab-7ac14e1b273e",
+                "name": "Survey",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0fca1ba5-9a97-4ee9-adb4-75e8adff9ef6"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

@@ -1,0 +1,196 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "not available",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "92466efb-66d3-4b9d-ba44-406ed2eab399",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-02-26T14:44:06.748052",
+        "metadata_modified": "2024-11-17T14:11:05.832161",
+        "name": "micro-structural-images-and-analysis-of-chicxulub-peak-ring-material-and-numerical-simulation-d",
+        "notes": "The data within this repository contains results from IODP-ICDP Expedition 364 which drilled the Peak Ring of the Chicxulub Crater, offshore Mexico. The offshore phase of this expedition occurred in April-May 2016, while the onshore phase occurred in October 2016. Further details of the IODP expedition can be found in the expedition report (https://doi.org/10.14379/iodp.proc.364.2017). The data within the repository is sorted into 4 separate folders: 1 - Optical_Images 2 - SEM_Image_Processing 3 - UStage 4 - Numerical_Models 1 - Optical_Images This folder contains two sub-folders: Optical_WholeSection, which contains whole thin-section plane- and cross-polarised stitched images of thin sections from Hole M0077A, acquired using a Zeiss optical microscope at 4x magnification at Curtin Univesity, Perth. Section names follow IODP standard sample naming convention. Optical_Photos, which contains sub-sub-folders delimiting samples, each of which contains individual images of features of interest in thin sections from Hole M0077A, magnification and a brief description of the feature are indicated by the file name and scale bars are provided on the image. 2 - SEM_Image_Processing This folder contains 10 sub-folders, specific to the individual analysed section. Each sub-folder contains a whole thin-section Back-Scattered Electron (BSE) Scanning Electron Microscope (SEM) stitched tiff image with a pixel width of 750nm. Data was acquired using a Zeiss Ultra Plus SEM at the NHM London. The images were then processed to analyse pore spaces within the thin sections. All folders contain a text file called \u201cTOTAL.txt\u201d which records data from every pore within the thin section. If the thin section contained any cataclasite bodies, two additional text files \u201cCATACLASITE.txt\u201d and \u201cCATACLASITE_TOTALAREA.txt\u201d can be found, the former contains the pore analysis of the selected cataclasite area, the latter indicates the size of the selected cataclasite area. All image analysis was carried out using the ImageJ software package. 3 - UStage This folder contains one .xlsx file that summarises the results of universal-stage optical microscope analysis of quartz planar deformation features of thin sections within hole M0077A. 4 - Numerical Models This folder contains 5 text files. \u201casteroid.inp\u201d and \u201cmaterial.inp\u201d are the input model parameters of the iSALE shock physics code (http://www.isale-code.de/redmine/projects/isale), these inputs were used to model the Chicxulub impact. Post-processing of the data was achieved using python to track the Stress-Strain-time paths of peak ring material, the remaining three .txt files contain the results of that analysis at different temporal resolutions.",
+        "num_resources": 1,
+        "num_tags": 5,
+        "organization": {
+            "id": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+            "name": "british-geological-survey",
+            "title": "British Geological Survey (BGS)",
+            "type": "organization",
+            "description": "A world-leading geoscience centre for survey and monitoring; modelling and research; data and knowledge.\r\n\r\nhttps://www.bgs.ac.uk/home.html\r\n\r\n",
+            "image_url": "2020-08-17-104120.024946BGS-Logo-Pos-RGB-01.png",
+            "created": "2012-06-27T14:50:32.295517",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-10-01"
+        ],
+        "temporal_coverage-to": [
+            "2017-12-31"
+        ],
+        "title": "Micro-structural images and analysis of Chicxulub Peak Ring material and Numerical Simulation Data of the Chicxulub Impact (NERC grant NE/P011195/1)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The copyright of materials derived from the British Geological Survey's work is vested in the Natural Environment Research Council [NERC]. No part of this work may be reproduced or transmitted in any form or by any means, or stored in a retrieval system of any nature, without the prior permission of the copyright holder, via the BGS Intellectual Property Rights Manager. Use by customers of information provided by the BGS, is at the customer's own risk. In view of the disparate sources of information at BGS's disposal, including such material donated to BGS, that BGS accepts in good faith as being accurate, the Natural Environment Research Council (NERC) gives no warranty, expressed or implied, as to the quality or accuracy of the information supplied, or to the information's suitability for any use. NERC/BGS accepts no liability whatever in respect of loss, damage, injury or other occurence however caused.\", \"Available under the Open Government Licence subject to the following acknowledgement accompanying the reproduced NERC materials \\\"Contains NERC materials \\u00a9NERC [year]\\\"\"]"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2018-04-24\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notApplicable"
+            },
+            {
+                "key": "guid",
+                "value": "6b5d260f-f2e0-2e97-e054-002128a47908"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "467c7fbe-3e14-4249-84b1-a8e07907545c"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-16"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "nonGeographicDataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Imperial College London (pointOfContact, principalInvestigator)"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:11:05.875751",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "1c4b9c9e-dae1-4ca5-aeb0-50f322572106",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:11:05.843046",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "92466efb-66d3-4b9d-ba44-406ed2eab399",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.bgs.ac.uk/services/ngdc/accessions/index.html#item109609",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Impact structures",
+                "id": "6050ffe7-8078-49d0-ab45-1831b0d857c3",
+                "name": "Impact structures",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Metamorphism",
+                "id": "1477212d-296e-4c7d-802d-ca38c2f1da29",
+                "name": "Metamorphism",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NERC_DDC",
+                "id": "d24aa95c-95ee-4ccd-92c6-c26cc7a202b6",
+                "name": "NERC_DDC",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NGDC Deposited Data",
+                "id": "6dfb920f-6bcf-4028-a66e-a47bdc8547a6",
+                "name": "NGDC Deposited Data",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Petrophysics",
+                "id": "47b40c8f-e802-43e1-8647-4d6001deef17",
+                "name": "Petrophysics",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0cd9a91a-b3b4-4b4c-90e1-34a4a565a974"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ]
+    }
+}

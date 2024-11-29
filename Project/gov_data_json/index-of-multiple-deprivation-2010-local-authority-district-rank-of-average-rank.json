@@ -1,0 +1,134 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "ODC@communities.gsi.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "604236ca-18f2-4ef7-9b12-dc61fa492c98",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2014-10-27T18:14:43.180857",
+        "metadata_modified": "2018-02-26T15:17:50.135929",
+        "name": "index-of-multiple-deprivation-2010-local-authority-district-rank-of-average-rank",
+        "notes": "This dataset contains a summary measure of the Index of Multiple Deprivation 2010 at local authority district level. It puts the 326 Local Authority Districts into a rank order based the population weighted average rank of all LSOAs in the LAD. A rank of 1 is the most deprived.\n\nThe English Indices of Deprivation provide a relative measure of deprivation at small area level across England. Areas are ranked from least deprived to most deprived on seven different dimensions of deprivation and an overall composite measure of multiple deprivation. Most of the data underlying the 2010 indices are for the year 2008.\r\n\r\nThe Indices are designed for small areas, but one way of summarising relative deprivation at local authority level is by calculating the average rank of the LSOAs within it.\r\n\r\nFor the IMD and each domain, the summary measure is calculated by averaging all of the LSOA ranks in each local authority district. For the purpose of calculation, LSOAs are ranked such that the most deprived LSOA is given the rank of 32,482. The LSOA ranks are population weighted within a local authority district to take account of the fact that LSOA size can vary. (For simplicity in summarising the domains, the same total population size is used for all domains.) Finally the LADs are ranked according to the average rank of the LSOAs, from 1 to 326 where 1 is the most deprived.\r\n\r\nThe \u2018Rank of average rank\u2019 summary measure of for local authorities is also published for the IMD at: [http://www.communities.gov.uk/documents/statistics/xls/1871689.xls](http://www.communities.gov.uk/documents/statistics/xls/1871689.xls).",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "state": "active",
+        "theme-primary": "society",
+        "theme-secondary": [],
+        "title": "Index of Multiple Deprivation 2010, Local Authority District Rank of Average Rank",
+        "type": "dataset",
+        "url": "http://opendatacommunities.org/data/societal-wellbeing/deprivation/imd-rank-la-2010",
+        "version": null,
+        "extras": [
+            {
+                "key": "contact_email",
+                "value": "ODC@communities.gsi.gov.uk"
+            },
+            {
+                "key": "data_issued",
+                "value": "2013-08-05T15:04:29+01:00"
+            },
+            {
+                "key": "data_modified",
+                "value": "2013-08-05T15:04:29+01:00"
+            },
+            {
+                "key": "dcat_publisher_uri",
+                "value": "http://reference.data.gov.uk/id/department/dclg"
+            },
+            {
+                "key": "dcat_subject",
+                "value": "http://opendatacommunities.org/def/concept/themes/societal-wellbeing"
+            },
+            {
+                "key": "guid",
+                "value": "http://opendatacommunities.org/data/societal-wellbeing/deprivation/imd-rank-la-2010"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "bdb9c0f0-5df3-4eb7-ba61-e4227f9b7d9a"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://opendatacommunities.org/data.rdf\", \"harvest_source_type\": \"dcat_rdf\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Open Data Communities\", \"activity_occurred\": \"2018-02-26T15:17:50.062513\", \"activity\": \"harvest\", \"harvested_guid\": \"http://opendatacommunities.org/data/societal-wellbeing/deprivation/imd-rank-la-2010\"}]"
+            },
+            {
+                "key": "metadata_uri",
+                "value": "http://opendatacommunities.org/data/societal-wellbeing/deprivation/imd-rank-la-2010"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-18T09:20:50.740972",
+                "description": "",
+                "format": "SPARQL",
+                "hash": "",
+                "id": "b72724e7-313d-4e4e-994e-77578c003e68",
+                "last_modified": null,
+                "metadata_modified": "2015-08-18T09:20:50.740972",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SPARQL Endpoint",
+                "package_id": "604236ca-18f2-4ef7-9b12-dc61fa492c98",
+                "position": 0,
+                "resource_type": "api",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/sparql",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-18T09:20:50.740982",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "7016e358-e0af-4d16-a459-af37a7024cad",
+                "last_modified": null,
+                "metadata_modified": "2015-08-18T09:20:50.740982",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset home page",
+                "package_id": "604236ca-18f2-4ef7-9b12-dc61fa492c98",
+                "position": 1,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/data/societal-wellbeing/deprivation/imd-rank-la-2010",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

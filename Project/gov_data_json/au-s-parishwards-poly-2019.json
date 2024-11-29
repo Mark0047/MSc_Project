@@ -1,0 +1,169 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@cheshirewestandchester.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f3fe52f7-723d-43ba-9549-7620bc9d36ae",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-03-11T21:15:47.730448",
+        "metadata_modified": "2019-03-11T21:15:47.730455",
+        "name": "au-s-parishwards-poly-2019",
+        "notes": "Parish Wards decided during CWAC Community Governance Review and supplied by Boundary Commission",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+            "id": "b6b50d70-9d5c-4fef-9135-7756cca343c3",
+            "name": "cheshire-west-and-chester-council",
+            "title": "Cheshire West and Chester Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:13.423731",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "b6b50d70-9d5c-4fef-9135-7756cca343c3",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "AU_S_ParishWards_POLY_2019",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"internal only - QGIS and Staff Web Viewer - only made public once made live in May 2019\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.8690490695"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.6108401590"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.7549965310"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.2148742648"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2018-08-09\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "723_CWAC"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7634baa0-fe2a-4b79-913b-1da287a0f79a"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-08-10T11:26:52"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Cheshire West and Chester Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.8690490695, 52.7549965310], [-3.2148742648, 52.7549965310], [-3.2148742648, 53.6108401590], [-1.8690490695, 53.6108401590], [-1.8690490695, 52.7549965310]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-11T21:15:47.750747",
+                "description": "WMS (View Service)",
+                "format": "",
+                "hash": "",
+                "id": "aac21715-1b4a-4f43-9071-4af575876fb6",
+                "last_modified": null,
+                "metadata_modified": "2019-03-11T21:15:47.750747",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "AU_S_ParishWards_POLY_2019 (WMS)",
+                "package_id": "f3fe52f7-723d-43ba-9549-7620bc9d36ae",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CWaCOpenData/AU_S_ParishWards_POLY_2019/wms?request=GetCapabilities&version=1.1.1&service=WMS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Administrative units",
+                "id": "8d20781b-12df-4d16-809a-b340746e0775",
+                "name": "Administrative units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Parish Wards",
+                "id": "79870fd3-624b-44f0-8d11-d1af0123eaa6",
+                "name": "Parish Wards",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

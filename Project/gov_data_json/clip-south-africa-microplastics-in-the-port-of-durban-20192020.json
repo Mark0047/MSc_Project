@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "ddb32321-5498-400b-a020-6928446fdb5e",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:25:59.711383",
+        "metadata_modified": "2024-09-10T08:25:59.711386",
+        "name": "clip-south-africa-microplastics-in-the-port-of-durban-20192020",
+        "notes": "This dataset contains two csv files. The first one \n(South_Africa_Port_Durban_Microplastics.csv) reports the results of the study \ncarried out in the Port of Durban in 2019. The file contains water measurement \nfrom CTD casts, microplastic abundance in water sampled by microplastic pump\n, microplastic abundance in sediment and particulate size analysis (PSA) \nresults from Van Veen grab samples. GPS coordinates and time of deployment are \nreported for each measurement. CTD measured temperature, salinity and \nturbulence of the water. For microplastic pump casts, the amount of water \nfiltered, the size of the four sieves used and the number of particles found \non each filter are reported. Data from the grabs include PSA results and the \nnumber of particles found in the replicates (5g each) from each grab with lab \nblank values. A series of atmospheric blanks was also obtained leaving a jar \nopen during sampling operation and microplastics abundances are reported. The \ncsv second file (South_Africa_Port_Durban_Microplastics_FTIR) contains the \nprofiles of the ATR-FT-IR spectrum analysis of plastic pieces found in the \nwater samples. A .zip folder contains additional 18 FTIR profiles from water \nsamples for which only a .tif image is available. A README text file \ncontains the legend of the columns of the two csv files.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2019-09-10"
+        ],
+        "temporal_coverage-to": [
+            "2019-11-20"
+        ],
+        "title": "CLiP South Africa Microplastics in the Port of Durban 2019",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "40.00"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "-20.00"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "-30.00"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "30.00"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2020-05-14\"}, {\"type\": \"revision\", \"value\": \"2024-07-24\"}, {\"type\": \"creation\", \"value\": \"2020-04-21\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "CEFAS9ff912ca-e2e8-4294-9178-a5707aceca66"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d08fb491-172d-4305-9102-882ae92f5312"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-24T11:35:50"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS)"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor, owner); Department for Environment, Food and Rural Affairs (DEFRA) (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[40.00, -30.00], [30.00, -30.00], [30.00, -20.00], [40.00, -20.00], [40.00, -30.00]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:25:59.712798",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: Binary download, CSV, ESRI Shapefile. The data can also be accessed via the WFS and WMS protocols.",
+                "format": "",
+                "hash": "",
+                "id": "3e6261d1-d566-4207-90a2-05e9141262c3",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:25:59.709021",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "ddb32321-5498-400b-a020-6928446fdb5e",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/20510",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d08fb491-172d-4305-9102-882ae92f5312"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

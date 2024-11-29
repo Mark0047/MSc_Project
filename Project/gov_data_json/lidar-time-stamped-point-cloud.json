@@ -1,0 +1,329 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "977a4ca4-1759-4f26-baa7-b566bd7ca7bf",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-06-22T14:02:35.377436",
+        "metadata_modified": "2024-07-26T15:09:07.224580",
+        "name": "lidar-time-stamped-point-cloud",
+        "notes": "The LIDAR point cloud is an archive of hundreds of millions, or sometimes billions of highly accurate 3-dimensional x,y,z points and component attributes produced by the Environment Agency.\n\nThe environment agecy site specific LIDAR DSM and DTM Time Stamped Tiles gridded raster products are derived from the point cloud. The component attributes a point cloud contains can provide valuable additional information to supplement elevation and can enable the user to make bespoke raster products such as canopy height models or intensity rasters. \n\nSite specific LIDAR surveys have been carried out across England since 1998, with certain areas, such as the coastal zone, being surveyed multiple times. The point cloud is available for surveys going back to 2006. Although the DSM and DTM Tile Stamped Tiles products are derived from the point cloud data there may not necessarily be a matching point cloud for each surface model due to historic data archiving processes.\n\nDuring processing the point cloud classifies the laser returns in the 'ground' and 'surface objects'. Further manual editing undertkaen on the derived digital terrain model (DTM) means the classifed ground points in the point cloud data will not match the final derived DTM.\n\nData is available in 5km download zip files for each year of survey. Within each downloaded zip file are LAZ files aligned to the Ordinance Survey grid. The size of each tile is dependent upon the spatial resolution of the data. \n\nPlease refere to the coverage metadata files for the start and end date flown of a survey as well as additional component information the point cloud contains such as the average point density. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2019. All rights reserved.",
+        "num_resources": 5,
+        "num_tags": 8,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2004-11-25"
+        ],
+        "temporal_coverage-to": [
+            "2024-04-18"
+        ],
+        "title": "LIDAR Time Stamped Point Cloud",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.8"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.8"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.7"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2005-01-01\"}, {\"type\": \"revision\", \"value\": \"2024-07-18\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "094d4ec8-4c21-4aa6-817f-b7e45843c5e0"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "45d4f5e4-b3af-468e-b314-8c1ec5db0a2c"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-26"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.8, 50], [-5.7, 50], [-5.7, 55.8], [1.8, 55.8], [1.8, 50]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:09:07.297218",
+                "description": "Download the survey data",
+                "format": "",
+                "hash": "",
+                "id": "f329aa8a-b8b8-4a4d-82e1-b41fd09b6332",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:09:07.232092",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey Data - Download",
+                "package_id": "977a4ca4-1759-4f26-baa7-b566bd7ca7bf",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/DefraDataDownload/?Mode=survey",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:09:07.297222",
+                "description": "Download the coverage metadata file",
+                "format": "",
+                "hash": "",
+                "id": "500bb04c-2285-4e38-b742-0f82773eb2a8",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:09:07.232239",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Shapefile Index Catalogues - Download",
+                "package_id": "977a4ca4-1759-4f26-baa7-b566bd7ca7bf",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/9f0fa3fc-a860-4729-adc9-47fe53f658d0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:09:07.297224",
+                "description": "Coverage metadata files - Web Map Service",
+                "format": "",
+                "hash": "",
+                "id": "66824e28-378c-4749-9244-422706de4326",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:09:07.232348",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Index Catalogues - WMS",
+                "package_id": "977a4ca4-1759-4f26-baa7-b566bd7ca7bf",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:09:07.297226",
+                "description": "Coverage metadata files - Web Feature Service",
+                "format": "",
+                "hash": "",
+                "id": "dca9fc7c-e8b3-4805-bd60-c95bfe07ecca",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:09:07.232420",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Index Catalogues - WFS",
+                "package_id": "977a4ca4-1759-4f26-baa7-b566bd7ca7bf",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wfs?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:09:07.297228",
+                "description": "Survey Data FAQs",
+                "format": "",
+                "hash": "",
+                "id": "28cb53b7-1aac-4794-b9ad-0d29a090a81c",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:09:07.232487",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey Data FAQs",
+                "package_id": "977a4ca4-1759-4f26-baa7-b566bd7ca7bf",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://support.environment.data.gov.uk/space/DPK/15827049/Survey+Data+Catalogue",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Elevation",
+                "id": "3daf450f-da9b-4dad-a339-66a66856defb",
+                "name": "Elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "GIS digital format",
+                "id": "ff104d23-7af4-49da-a1ed-9a8c7e1fb48c",
+                "name": "GIS digital format",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LIDAR",
+                "id": "591a7348-ac9a-4bf1-8b43-6ff3cd6e3613",
+                "name": "LIDAR",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "elevation",
+                "id": "99bac186-c0b3-4e2f-9593-649da4fff9f9",
+                "name": "elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood",
+                "id": "90af076f-75b0-42fc-80aa-ac2ff7993443",
+                "name": "flood",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mapping",
+                "id": "30d25a52-1974-410f-b063-19b46af2aa5e",
+                "name": "mapping",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "remote sensing",
+                "id": "a966b150-db31-4f8b-87f1-905c46d706ff",
+                "name": "remote sensing",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "2c4b2ff9-3944-4101-a026-304148a4a0db"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

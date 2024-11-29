@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "2bb869b0-6eff-4e0b-b873-8043f98aa9dd",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:26:33.995029",
+        "metadata_modified": "2024-09-10T08:26:33.995032",
+        "name": "wavenet-near-real-time-data-feed-from-the-past-48-hours",
+        "notes": "These data are a subset of the WaveNet near real time data feed, consisting of \ntelemetry (automatically transmitted data) from the Cefas operated Directional \nWave Riders (DWR) within UK waters over the past 48 hours. As this is a \nnear-live feed, the data provided have not been fully quality checked or \nassured and hence should be used with due caution.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2023-09-26"
+        ],
+        "temporal_coverage-to": [
+            "2024-07-24"
+        ],
+        "title": "WaveNet near real-time data feed - from the past 48 hours",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "3.00"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "59.50"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.50"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-10.00"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2023-09-01\"}, {\"type\": \"revision\", \"value\": \"2024-07-24\"}, {\"type\": \"creation\", \"value\": \"2023-06-16\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "CEFASb819dd09-f91a-4b46-a3a4-fdf6615476a4"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "a2ced84a-b9f5-423f-8b77-7e7e1924814b"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-24T11:48:11"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Environment Agency"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor); Environment Agency (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[3.00, 49.50], [-10.00, 49.50], [-10.00, 59.50], [3.00, 59.50], [3.00, 49.50]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:26:33.999059",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: CSV, ESRI Shapefile. The data can also be accessed via the WFS and WMS protocols.",
+                "format": "",
+                "hash": "",
+                "id": "dc5516ab-30b1-4e85-9b5d-70bfa61566ed",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:26:33.992744",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "2bb869b0-6eff-4e0b-b873-8043f98aa9dd",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/21682",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "a2ced84a-b9f5-423f-8b77-7e7e1924814b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

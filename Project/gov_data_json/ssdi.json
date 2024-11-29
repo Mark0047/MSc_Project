@@ -1,0 +1,145 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "{\"skip-responsible-party\": [\"British Geological Survey\",\"The Coal Authority\"]}",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "c9eeaa17-2291-4170-93ca-aec634aa0d63",
+        "metadata_created": "2019-01-23T11:14:28.238029",
+        "metadata_modified": "2021-08-26T18:03:19.934328",
+        "name": "ssdi",
+        "notes": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations. ",
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "skip-responsible-party": [
+            "British Geological Survey",
+            "The Coal Authority"
+        ],
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "SpatialData.gov.scot",
+        "type": "harvest",
+        "url": "https://www.spatialdata.gov.scot/geonetwork/srv/eng/csw",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 3586,
+            "last_job": {
+                "id": "1402a58f-e0ef-423d-bb53-0914c0d9a3cb",
+                "created": "2024-11-16 16:00:04.512282",
+                "gather_started": "2024-11-16 16:00:06.308678",
+                "gather_finished": "2024-11-16 16:00:54.566022",
+                "finished": "2024-11-16 16:05:21.038893",
+                "source_id": "c9eeaa17-2291-4170-93ca-aec634aa0d63",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 2,
+                    "not modified": 1073,
+                    "errored": 581,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 297
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 57
+                    },
+                    {
+                        "message": "Metadata type not recognised \"\" - cannot choose an ISO19139 validator.:\n",
+                        "error_count": 38
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 30
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"\nError Message: \"The gmd:pass element is not nillable and shall have a value.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='dataQualityInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_DataQuality' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='report' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_DomainConsistency' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='result' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_ConformanceResult' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='pass' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"string-length(.) > 0 and count(./@gco:nilReason) = 0\"",
+                        "error_count": 28
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\n",
+                        "error_count": 15
+                    },
+                    {
+                        "message": "Error Message: \"The 'gmd:MD_DigitalTransferOptions' element has no child elements.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='distributionInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_Distribution' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='transferOptions' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_DigitalTransferOptions' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(*) > 0 or namespace-uri() = 'http://www.isotc211.org/2005/gco' or namespace-uri() = 'http://www.isotc211.org/2005/gmx' or namespace-uri() = 'http://www.opengis.net/gml/3.2' or namespace-uri() = 'http://www.opengis.net/gml' or @codeList or @codeListValue or local-name() = 'MD_TopicCategoryCode' or local-name() = 'URL' or (@gco:nilReason = 'inapplicable' or @gco:nilReason = 'missing' or @gco:nilReason = 'template' or @gco:nilReason = 'unknown' or @gco:nilReason = 'withheld') or @xlink:href\":\n",
+                        "error_count": 11
+                    },
+                    {
+                        "message": "Error Message: \"The 'gmd:geographicElement' element has no child elements.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='extent' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='EX_Extent' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='geographicElement' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]\"  Error Assert: \"count(*) > 0 or namespace-uri() = 'http://www.isotc211.org/2005/gco' or namespace-uri() = 'http://www.isotc211.org/2005/gmx' or namespace-uri() = 'http://www.opengis.net/gml/3.2' or namespace-uri() = 'http://www.opengis.net/gml' or @codeList or @codeListValue or local-name() = 'MD_TopicCategoryCode' or local-name() = 'URL' or (@gco:nilReason = 'inapplicable' or @gco:nilReason = 'missing' or @gco:nilReason = 'template' or @gco:nilReason = 'unknown' or @gco:nilReason = 'withheld') or @xlink:href\":\n",
+                        "error_count": 9
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gco}Integer': '' is not a valid value of the atomic type 'xs:integer'.",
+                        "error_count": 7
+                    },
+                    {
+                        "message": "Error Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\":\n",
+                        "error_count": 6
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\n",
+                        "error_count": 6
+                    },
+                    {
+                        "message": "Error Message: \"The 'gmd:CI_Telephone' element has no child elements.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='contact' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CI_ResponsibleParty' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='contactInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CI_Contact' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='phone' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CI_Telephone' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(*) > 0 or namespace-uri() = 'http://www.isotc211.org/2005/gco' or namespace-uri() = 'http://www.isotc211.org/2005/gmx' or namespace-uri() = 'http://www.opengis.net/gml/3.2' or namespace-uri() = 'http://www.opengis.net/gml' or @codeList or @codeListValue or local-name() = 'MD_TopicCategoryCode' or local-name() = 'URL' or (@gco:nilReason = 'inapplicable' or @gco:nilReason = 'missing' or @gco:nilReason = 'template' or @gco:nilReason = 'unknown' or @gco:nilReason = 'withheld') or @xlink:href\":\n",
+                        "error_count": 6
+                    },
+                    {
+                        "message": "Error Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\":\n",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"\nError Message: \"The gmd:code element is not nillable and shall have a value.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='citation' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CI_Citation' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identifier' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_Identifier' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='code' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"string-length(.) > 0 and count(./@gco:nilReason) = 0\"",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error Message: \"The 'gmd:MD_DigitalTransferOptions' element has no child elements.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='distributionInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_Distribution' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='transferOptions' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DigitalTransferOptions' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(*) > 0 or namespace-uri() = 'http://www.isotc211.org/2005/gco' or namespace-uri() = 'http://www.isotc211.org/2005/gmx' or namespace-uri() = 'http://www.opengis.net/gml/3.2' or namespace-uri() = 'http://www.opengis.net/gml' or @codeList or @codeListValue or local-name() = 'MD_TopicCategoryCode' or local-name() = 'URL' or (@gco:nilReason = 'inapplicable' or @gco:nilReason = 'missing' or @gco:nilReason = 'template' or @gco:nilReason = 'unknown' or @gco:nilReason = 'withheld') or @xlink:href\":\n",
+                        "error_count": 3
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/srv}SV_ServiceIdentification': This element is not expected. Expected is one of ( {http://www.isotc211.org/2005/gmd}AbstractMD_Identification, {http://www.isotc211.org/2005/gmd}MD_DataIdentification, {http://www.isotc211.org/2005/gmd}MD_ServiceIdentification ).",
+                        "error_count": 3
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"\nError Message: \"The gmd:pass element is not nillable and shall have a value.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='dataQualityInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_DataQuality' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='report' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_DomainConsistency' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='result' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_ConformanceResult' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='pass' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"string-length(.) > 0 and count(./@gco:nilReason) = 0\"",
+                        "error_count": 3
+                    },
+                    {
+                        "message": "Error Message: \"The 'gmd:thesaurusName' element has no child elements.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='descriptiveKeywords' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_Keywords' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='thesaurusName' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(*) > 0 or namespace-uri() = 'http://www.isotc211.org/2005/gco' or namespace-uri() = 'http://www.isotc211.org/2005/gmx' or namespace-uri() = 'http://www.opengis.net/gml/3.2' or namespace-uri() = 'http://www.opengis.net/gml' or @codeList or @codeListValue or local-name() = 'MD_TopicCategoryCode' or local-name() = 'URL' or (@gco:nilReason = 'inapplicable' or @gco:nilReason = 'missing' or @gco:nilReason = 'template' or @gco:nilReason = 'unknown' or @gco:nilReason = 'withheld') or @xlink:href\":\nError Message: \"The 'gmd:MD_DigitalTransferOptions' element has no child elements.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='distributionInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_Distribution' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='transferOptions' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_DigitalTransferOptions' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(*) > 0 or namespace-uri() = 'http://www.isotc211.org/2005/gco' or namespace-uri() = 'http://www.isotc211.org/2005/gmx' or namespace-uri() = 'http://www.opengis.net/gml/3.2' or namespace-uri() = 'http://www.opengis.net/gml' or @codeList or @codeListValue or local-name() = 'MD_TopicCategoryCode' or local-name() = 'URL' or (@gco:nilReason = 'inapplicable' or @gco:nilReason = 'missing' or @gco:nilReason = 'template' or @gco:nilReason = 'unknown' or @gco:nilReason = 'withheld') or @xlink:href\"",
+                        "error_count": 3
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}DQ_DomainConsistency': Missing child element(s). Expected is one of ( {http://www.isotc211.org/2005/gmd}nameOfMeasure, {http://www.isotc211.org/2005/gmd}measureIdentification, {http://www.isotc211.org/2005/gmd}measureDescription, {http://www.isotc211.org/2005/gmd}evaluationMethodType, {http://www.isotc211.org/2005/gmd}evaluationMethodDescription, {http://www.isotc211.org/2005/gmd}evaluationProcedure, {http://www.isotc211.org/2005/gmd}dateTime, {http://www.isotc211.org/2005/gmd}result ).",
+                        "error_count": 3
+                    },
+                    {
+                        "message": "Error Message: \"The 'gmd:onlineResource' element has no child elements.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='pointOfContact' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='CI_ResponsibleParty' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='contactInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CI_Contact' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='onlineResource' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(*) > 0 or namespace-uri() = 'http://www.isotc211.org/2005/gco' or namespace-uri() = 'http://www.isotc211.org/2005/gmx' or namespace-uri() = 'http://www.opengis.net/gml/3.2' or namespace-uri() = 'http://www.opengis.net/gml' or @codeList or @codeListValue or local-name() = 'MD_TopicCategoryCode' or local-name() = 'URL' or (@gco:nilReason = 'inapplicable' or @gco:nilReason = 'missing' or @gco:nilReason = 'template' or @gco:nilReason = 'unknown' or @gco:nilReason = 'withheld') or @xlink:href\":\n",
+                        "error_count": 2
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 1160
+        }
+    }
+}

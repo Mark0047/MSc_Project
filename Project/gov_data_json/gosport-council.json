@@ -1,0 +1,66 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "e1b0a98a-7fc9-4325-b9da-013a528bca6b",
+        "metadata_created": "2019-01-23T11:27:41.623378",
+        "metadata_modified": "2019-01-23T11:27:41.623387",
+        "name": "gosport-council",
+        "notes": "",
+        "organization": {
+            "id": "c3690194-5dec-490f-86ad-5690a9f35a3f",
+            "name": "gosport-borough-council",
+            "title": "Gosport Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-06-13T11:22:01.227068",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c3690194-5dec-490f-86ad-5690a9f35a3f",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Gosport Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/gosport/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 34,
+            "last_job": {
+                "id": "58e4d371-16ea-45f6-87dd-ca36a4b31d62",
+                "created": "2023-01-18 17:18:41.355788",
+                "gather_started": "2023-01-18 17:18:41.504547",
+                "gather_finished": "2023-01-18 17:18:41.702383",
+                "finished": "2023-01-18 17:18:43.461027",
+                "source_id": "e1b0a98a-7fc9-4325-b9da-013a528bca6b",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 6,
+                    "errored": 1,
+                    "deleted": 0,
+                    "null": 1
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error importing Gemini document: Harvest object 47f25134-4b61-47cc-9e3a-20eae170c6de (http://inspire.misoportal.com/metadata/files/gosport/LPA_GOSPORT_DM_PLAN_E_munitions.xml) has a GUID b08f41cd-b6c1-48c2-a821-e7a3c2b62819 already in use by cdc47f64-fdcb-44c1-9c4e-77b50d11f834 (http://inspire.misoportal.com/metadata/files/gosport/LPA_GOSPORT_DM_PLAN_E_(munitions).xml) in harvest source e1b0a98a-7fc9-4325-b9da-013a528bca6b",
+                        "error_count": 4
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 8
+        }
+    }
+}

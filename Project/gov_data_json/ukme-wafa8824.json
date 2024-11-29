@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "487e8a49-4799-4d14-a4a9-63af1ba75ecf",
+        "metadata_created": "2019-01-23T10:55:39.278424",
+        "metadata_modified": "2024-02-01T14:20:20.224684",
+        "name": "ukme-wafa8824",
+        "notes": "Location Metadata Editor WAF",
+        "organization": {
+            "id": "c628810b-961c-4e10-8562-86ebae7a068e",
+            "name": "royal-borough-of-kensington-and-chelsea",
+            "title": "Royal Borough of Kensington and Chelsea",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:54.248088",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "c628810b-961c-4e10-8562-86ebae7a068e",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Royal Borough of Kensington and Chelsea",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/c628810b-961c-4e10-8562-86ebae7a068e/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1620,
+            "last_job": {
+                "id": "32a02d6c-7e98-4ea6-bbaa-6949949347a9",
+                "created": "2024-11-02 19:00:05.292231",
+                "gather_started": "2024-11-02 19:01:05.136332",
+                "gather_finished": "2024-11-02 19:01:25.163933",
+                "finished": "2024-11-02 19:01:25.163933",
+                "source_id": "487e8a49-4799-4d14-a4a9-63af1ba75ecf",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/c628810b-961c-4e10-8562-86ebae7a068e/: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/c628810b-961c-4e10-8562-86ebae7a068e/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb83ede8550>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 16
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "{\"validator_profiles\": [\"iso19139eden\", \"constraints-1.4\", \"gemini2-3\"]}",
+        "creator_user_id": "7773778e-447e-4c37-8796-d04916efc3d7",
+        "frequency": "MANUAL",
+        "id": "96423a5d-c812-4893-9e69-a565d00f87c0",
+        "metadata_created": "2022-11-16T16:19:00.296841",
+        "metadata_modified": "2022-11-16T16:19:00.296846",
+        "name": "st-helens-council-inspire-metadata-csw",
+        "notes": "",
+        "organization": {
+            "id": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+            "name": "st-helens-council",
+            "title": "St Helens Council",
+            "type": "organization",
+            "description": "(St Helens Metropolitan Borough Council)",
+            "image_url": "",
+            "created": "2012-06-27T14:50:48.582845",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "St Helens Council INSPIRE Metadata CSW",
+        "type": "harvest",
+        "url": " https://metadata.astuntechnology.com/geonetwork/sthelens/eng/csw-inspire",
+        "validator_profiles": [
+            "iso19139eden",
+            "constraints-1.4",
+            "gemini2-3"
+        ],
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 13,
+            "last_job": {
+                "id": "7cc0bd97-3393-42ef-8213-1908fd634ecb",
+                "created": "2024-04-29 15:43:30.526509",
+                "gather_started": "2024-04-29 15:43:30.587133",
+                "gather_finished": "2024-04-29 15:43:31.321680",
+                "finished": "2024-04-29 15:43:40.080948",
+                "source_id": "96423a5d-c812-4893-9e69-a565d00f87c0",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 16,
+                    "not modified": 0,
+                    "errored": 0,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": []
+            },
+            "total_datasets": 16
+        }
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "087fa2f8-d389-4f2f-93b9-40c3f51c00d5",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-09-10T10:21:13.841960",
+        "metadata_modified": "2019-12-21T23:55:32.406458",
+        "name": "election-results-cbc",
+        "notes": "<p>Election results for Colchester borough</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "140fad04-d552-4757-ac79-bc9a06ef635d",
+            "name": "colchester-borough-council",
+            "title": "Colchester Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-01-16T11:49:46.028151",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "140fad04-d552-4757-ac79-bc9a06ef635d",
+        "private": false,
+        "state": "active",
+        "title": "Election Results",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.colchester.gov.uk/residents/democracy/election-results"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "cce98786-bbf5-4c41-b890-e5c54579c133"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.colchester.gov.uk/residents/democracy/election-results"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "democracy/election-results"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-12-02"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://datashare.colchester.gov.uk/api/esdInventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2019-12-02T00:00:00\", \"harvest_source_title\": \"Colchester datashare website\", \"activity_occurred\": \"2019-12-21T23:55:32.211568\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.colchester.gov.uk/residents/democracy/election-results\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T11:21:13.867086",
+                "description": "Election Results - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "d9c2f1ee-a043-4a0c-9844-d3bbfa863247",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T11:21:13.867086",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "087fa2f8-d389-4f2f-93b9-40c3f51c00d5",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/democracy/election-results/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/Download/democracy/election-results",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:24:25.503560",
+                "description": "Election Results - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "9a139630-8b87-4191-90a7-c970f4b7a742",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:24:25.503560",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "087fa2f8-d389-4f2f-93b9-40c3f51c00d5",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://datashare.colchester.gov.uk/api/democracy/election-results/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/democracy/election-results/election-results/CSV?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:24:25.503568",
+                "description": "Election Results - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "b7ab3dab-dc6a-44ed-aafe-b1a7f3278ca1",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:24:25.503568",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "087fa2f8-d389-4f2f-93b9-40c3f51c00d5",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/democracy/election-results/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/democracy/election-results/election-results/XML?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T11:21:13.867111",
+                "description": "Election Results - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "296c17ac-5a0f-4689-b139-54fa26486bf7",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T11:21:13.867111",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "087fa2f8-d389-4f2f-93b9-40c3f51c00d5",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/democracy/election-results/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/democracy/election-results/election-results?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T11:21:13.867116",
+                "description": "Election Results - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "72c1d911-cdeb-4a20-bbff-c8ccc9ee87eb",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T11:21:13.867116",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "087fa2f8-d389-4f2f-93b9-40c3f51c00d5",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/democracy/election-results/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/democracy/election-results/election-results?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cce98786-bbf5-4c41-b890-e5c54579c133"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ]
+    }
+}

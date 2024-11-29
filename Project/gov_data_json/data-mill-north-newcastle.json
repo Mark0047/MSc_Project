@@ -1,0 +1,63 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "{\"organizations_filter_include\": [\"Newcastle City Council\"]}",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "5d1280a9-ef1f-4bcb-9c7c-2377f8dcf56d",
+        "metadata_created": "2019-01-23T11:01:32.258206",
+        "metadata_modified": "2019-01-23T11:01:32.258213",
+        "name": "data-mill-north-newcastle",
+        "notes": "",
+        "organization": {
+            "id": "93062161-796c-4cfa-80a0-608cda55ad58",
+            "name": "newcastle-city-council",
+            "title": "Newcastle City Council",
+            "type": "organization",
+            "description": "Newcastle City Council",
+            "image_url": "",
+            "created": "2013-09-18T18:41:31.481045",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "organizations_filter_include": [
+            "Newcastle City Council"
+        ],
+        "owner_org": "93062161-796c-4cfa-80a0-608cda55ad58",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "Data Mill North - Newcastle",
+        "type": "harvest",
+        "url": "https://datamillnorth.org/data.json?slug=newcastle-city-council",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2361,
+            "last_job": {
+                "id": "03aee107-7712-4bdf-ba00-78308914f39b",
+                "created": "2024-11-17 10:00:08.282683",
+                "gather_started": "2024-11-17 10:00:50.160562",
+                "gather_finished": "2024-11-17 10:00:51.861068",
+                "finished": "2024-11-17 10:01:13.691819",
+                "source_id": "5d1280a9-ef1f-4bcb-9c7c-2377f8dcf56d",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 40,
+                    "not modified": 0,
+                    "errored": 0,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": []
+            },
+            "total_datasets": 40
+        }
+    }
+}

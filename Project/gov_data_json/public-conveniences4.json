@@ -1,0 +1,143 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "webgis@dudley.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "b78f28cc-a0ff-4dc0-b98b-26da613e86e1",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2016-06-03T15:41:57.366743",
+        "metadata_modified": "2024-09-25T11:10:44.991102",
+        "name": "public-conveniences4",
+        "notes": "Public Conveniences (both Dudley MBC and privately maintained facilities) located within the Dudley Borough.",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "4794adf4-223f-4bc0-ae17-4a276ca55004",
+            "name": "dudley-metropolitan-borough-council",
+            "title": "Dudley Metropolitan Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-10-16T13:11:34.097590",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4794adf4-223f-4bc0-ae17-4a276ca55004",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "",
+        "title": "Public Conveniences",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-25T10:29:59.563523",
+                "description": "Public Conveniences View",
+                "format": "",
+                "hash": "",
+                "id": "f06b0ee0-b288-4802-9558-4a02ba550212",
+                "last_modified": null,
+                "metadata_modified": "2024-09-25T10:29:59.536913",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Public Conveniences View",
+                "package_id": "b78f28cc-a0ff-4dc0-b98b-26da613e86e1",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.dudley.gov.uk/getows.ashx?mapsource=mapsources/inspire&service=WMS&language=English&request=GetCapabilities&version=1.1.0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-25T10:29:59.563525",
+                "description": "Public Conveniences Download",
+                "format": "",
+                "hash": "",
+                "id": "4a35407d-1f00-40f8-ba2c-58aa0fbe35aa",
+                "last_modified": null,
+                "metadata_modified": "2024-09-25T10:29:59.536996",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Public Conveniences Download",
+                "package_id": "b78f28cc-a0ff-4dc0-b98b-26da613e86e1",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.dudley.gov.uk/getows.ashx?mapsource=mapsources/inspire&service=WFS&language=English&version=1.0.0&request=getfeature&typename=public_toilets",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Human health and safety",
+                "id": "48a55d2f-b77f-4193-a882-9371e30705a1",
+                "name": "Human health and safety",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Public Conveniences",
+                "id": "1e42bb1f-5280-4fe8-af7b-804a30caf159",
+                "name": "Public Conveniences",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "38e66af9-1a7b-4cbd-9076-7ac9db2ca100"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "f76302f9-ad74-4b15-a05b-3b1d4dbb25b2"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "dudley-inspire-gemini23"
+            }
+        ],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "38e66af9-1a7b-4cbd-9076-7ac9db2ca100"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "f76302f9-ad74-4b15-a05b-3b1d4dbb25b2"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "dudley-inspire-gemini23"
+            }
+        ]
+    }
+}

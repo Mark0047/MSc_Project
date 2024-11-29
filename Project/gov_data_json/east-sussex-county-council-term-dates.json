@@ -1,0 +1,110 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "25a162d9-a128-4572-b683-2ccb15bd9361",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "3175397e-1aed-4530-b36e-06e0f63f3a92",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2011-01-26T12:45:07.797853",
+        "metadata_modified": "2022-03-08T14:49:12.766440",
+        "name": "east-sussex-county-council-term-dates",
+        "notes": "School term dates which apply to primary, secondary and special schools in East Sussex. Not applicable for  independent schools.\r\n\r\nYou can also download term dates for individual schools in iCalendar *.ics format by visiting the page for the individual school.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "12802345-6918-45a8-9fbc-dd78c9768439",
+            "name": "east-sussex-county-council",
+            "title": "East Sussex County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:24.195607",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "12802345-6918-45a8-9fbc-dd78c9768439",
+        "private": false,
+        "state": "active",
+        "theme-primary": "education",
+        "title": "School term dates in East Sussex",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            },
+            {
+                "key": "taxonomy_url",
+                "value": "http://microformats.org/wiki/hcalendar"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "Term dates in HTML using hCalendar microformat",
+                "format": "HTML",
+                "id": "aaa746e1-ba1c-40cb-a30e-cd20e4b36078",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "3175397e-1aed-4530-b36e-06e0f63f3a92",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://eastsussex.gov.uk/termdates",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2012-07-03T09:51:54.411272",
+                "datafile-date": "",
+                "description": null,
+                "format": "XML",
+                "id": "c7186737-4bb1-4907-82bd-989fb700fcd4",
+                "last_modified": null,
+                "metadata_modified": "2022-03-08T14:49:12.771030",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "School term dates XML",
+                "package_id": "3175397e-1aed-4530-b36e-06e0f63f3a92",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://new.eastsussex.gov.uk/api/schools/GetSchoolTermDates",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

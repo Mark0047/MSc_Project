@@ -1,0 +1,73 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "41206885-4784-421d-8b17-73bf3dabb41b",
+        "metadata_created": "2019-01-23T10:54:05.768071",
+        "metadata_modified": "2019-01-23T10:54:05.768078",
+        "name": "ukme-waf601fa",
+        "notes": "Import From UK Metadata Editor",
+        "organization": {
+            "id": "5608ab19-4e8e-4d16-b90a-f7382fd9f8d7",
+            "name": "north-york-moors-national-park-authority",
+            "title": "North York Moors National Park Authority",
+            "type": "organization",
+            "description": "North York Moors National Park Authority",
+            "image_url": "",
+            "created": "2013-01-29T13:43:16.250691",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "5608ab19-4e8e-4d16-b90a-f7382fd9f8d7",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/5608ab19-4e8e-4d16-b90a-f7382fd9f8d7/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 28,
+            "last_job": {
+                "id": "2f4423e2-e05b-43e3-a96a-be5b954d808f",
+                "created": "2020-12-14 14:11:48.132814",
+                "gather_started": "2020-12-14 14:11:48.285864",
+                "gather_finished": "2020-12-14 14:11:54.834019",
+                "finished": "2020-12-14 14:12:02.937980",
+                "source_id": "41206885-4784-421d-8b17-73bf3dabb41b",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 43,
+                    "errored": 44,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 44
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 42
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 2
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 51
+        }
+    }
+}

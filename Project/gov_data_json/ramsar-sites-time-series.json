@@ -1,0 +1,203 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.services@naturalengland.org.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "0eb596df-c479-472a-ba00-d03fffd62c91",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-06-28T08:13:37.417111",
+        "metadata_modified": "2019-04-09T10:40:27.082076",
+        "name": "ramsar-sites-time-series",
+        "notes": "Time series data for Ramsar sites. A Ramsar site is the land listed as a Wetland of International Importance under the Convention on Wetlands of International Importance Especially as Waterfowl Habitat (the Ramsar Convention) 1973. Data supplied has the status of \"Listed\". The data does not include \"proposed\" sites. Boundaries are mapped against Ordnance Survey MasterMap. Attribution statement: Attribution statement: \u00a9 Natural England copyright. Contains Ordnance Survey data \u00a9 Crown copyright and database right [year].",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "b1472b4f-b8c8-4ac2-9701-76995445f99b",
+            "name": "natural-england",
+            "title": "Natural England",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:10.959130",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b1472b4f-b8c8-4ac2-9701-76995445f99b",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1989-01-01"
+        ],
+        "temporal_coverage-to": [
+            "1999-12-31"
+        ],
+        "title": "Ramsar sites (time series)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.8"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.8"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50.0"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.7"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2016-06-27\"}, {\"type\": \"publication\", \"value\": \"2016-06-27\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "563148e2-fd2a-4941-abc9-0217bdeaced4"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "565a243b-6bae-4e48-ad04-bfba82f2823f"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-03-18"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Natural England (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.8, 50.0], [-5.7, 50.0], [-5.7, 55.8], [1.8, 55.8], [1.8, 50.0]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2be6eb1d-d56b-4c28-a1a2-4849e4d4a63e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Natural England publication"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-04-09T10:40:27.320813",
+                "description": "Natural England Amazon Cloud",
+                "format": "ZIP",
+                "hash": "",
+                "id": "fec2eabf-bada-4613-81cf-c154551d2788",
+                "last_modified": null,
+                "metadata_modified": "2019-04-09T10:40:27.320813",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "0eb596df-c479-472a-ba00-d03fffd62c91",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/data.defra.gov.uk/Wildlife/NE_Designations_Ramsar_timeseries.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NEbatch2",
+                "id": "c28dcc72-3957-4019-9f8c-e82d1c07a3ec",
+                "name": "NEbatch2",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "OpenData",
+                "id": "6bc85120-d8ca-4fe1-91fa-d1831be59c7d",
+                "name": "OpenData",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "565a243b-6bae-4e48-ad04-bfba82f2823f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2be6eb1d-d56b-4c28-a1a2-4849e4d4a63e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Natural England publication"
+            }
+        ]
+    }
+}

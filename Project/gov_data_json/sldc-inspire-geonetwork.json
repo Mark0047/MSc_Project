@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "63e12708-ebdb-4867-b22e-10ed9d4d1618",
+        "metadata_created": "2019-01-23T11:13:29.895398",
+        "metadata_modified": "2019-01-23T11:13:29.895404",
+        "name": "sldc-inspire-geonetwork",
+        "notes": "SLDC  Inspire Geonetwork",
+        "organization": {
+            "id": "a89f5a72-fba9-41be-af8e-a4cc00eebf12",
+            "name": "south-lakeland-district-council",
+            "title": "South Lakeland District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-04-23T16:34:01.522851",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "a89f5a72-fba9-41be-af8e-a4cc00eebf12",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "SLDC  Inspire Geonetwork",
+        "type": "harvest",
+        "url": "http://inspire.eden.gov.uk/geonetworksldc/srv/en/csw",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 11,
+            "last_job": {
+                "id": "81cf7190-ffe0-4dba-a88f-341f94142766",
+                "created": "2017-12-12 15:33:31.207284",
+                "gather_started": "2017-12-12 15:33:35.331128",
+                "gather_finished": "2017-12-12 15:33:36.454114",
+                "finished": null,
+                "source_id": "63e12708-ebdb-4867-b22e-10ed9d4d1618",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Error contacting the CSW server. URL: http://inspire.eden.gov.uk/geonetworksldc/srv/en/csw?version=2.0.2&request=GetCapabilities&service=CSW Error: HTTP Error 503: Service Temporarily Unavailable",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 3
+        }
+    }
+}

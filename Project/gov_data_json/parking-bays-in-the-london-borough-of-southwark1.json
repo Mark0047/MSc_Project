@@ -1,0 +1,206 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "stuart.carter@southwark.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "e73acb4d-b331-45f3-9191-9d2bd7999ee8",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-05-20T13:05:43.149139",
+        "metadata_modified": "2018-03-19T15:48:19.242101",
+        "name": "parking-bays-in-the-london-borough-of-southwark1",
+        "notes": "This dataset consists of polygons showing the extent of parking bays on the highway maintained at public expense by Southwark. Attributes include any day and time restrictions as well as estimated number of spaces. The type of parking bays include parking provisions for permit holders, paid (meter/phone/cash/paypoint), ambulances, disabled parking, doctors, coaches, cycle hire, car club, motorcycle, loading, taxis, short stay, electrical vehicle charging, and taxis.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "9ed34001-ef74-483a-b952-5bda217f37bd",
+            "name": "southwark-london-borough-council",
+            "title": "Southwark London Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-12T17:24:35.232608",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9ed34001-ef74-483a-b952-5bda217f37bd",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2015-07-31"
+        ],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [
+            "Transport"
+        ],
+        "title": "Parking Bays in the London Borough of Southwark",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Open government licence conditions https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.0041198758"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.5160070804"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.4047744027"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.1641082736"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2018-03-08\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "139c6da0-27b5-4f3a-aac3-80230fcd044b"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "a71ea065-d6bc-4479-a57f-4821af67e538"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.misoportal.com/metadata/files/southwark/Southwark_parking_bays.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-03-19"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Southwark London Borough Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[0.0041198758, 51.4047744027],[0.0041198758, 51.5160070804], [-0.1641082736, 51.5160070804], [-0.1641082736, 51.4047744027], [0.0041198758, 51.4047744027]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "74c5931b-e8f4-40b8-92f2-6ad5d9ffa301"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Southwark Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-03-19T15:48:19.306035",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "0dd459cb-96a0-42a2-846a-909a09855ff4",
+                "last_modified": null,
+                "metadata_modified": "2018-03-19T15:48:19.306035",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "e73acb4d-b331-45f3-9191-9d2bd7999ee8",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/southwark_council_parking_bays_polygon/wms?request=getCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-03-19T15:48:19.306053",
+                "description": "download",
+                "format": "",
+                "hash": "",
+                "id": "77617453-1b15-43be-b659-46d10ea2c503",
+                "last_modified": null,
+                "metadata_modified": "2018-03-19T15:48:19.306053",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "e73acb4d-b331-45f3-9191-9d2bd7999ee8",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/southwark_council_parking_bays_polygon/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "a71ea065-d6bc-4479-a57f-4821af67e538"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "74c5931b-e8f4-40b8-92f2-6ad5d9ffa301"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Southwark Council"
+            }
+        ]
+    }
+}

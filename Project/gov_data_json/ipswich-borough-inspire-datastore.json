@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "2009b78f-c8b3-466e-944c-3cb0c22622e1",
+        "metadata_created": "2019-01-23T10:44:13.999458",
+        "metadata_modified": "2024-02-01T16:32:57.478780",
+        "name": "ipswich-borough-inspire-datastore",
+        "notes": "",
+        "organization": {
+            "id": "a194e5e0-5874-4df4-8cd9-6bd8f0044e3d",
+            "name": "ipswich-borough-council",
+            "title": "Ipswich Borough Council",
+            "type": "organization",
+            "description": "http://opendatacommunities.org/doc/district-council/ipswich",
+            "image_url": "2020-08-26-094923.392202IBClogoSmall2.png",
+            "created": "2014-09-08T13:20:25.794468",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "a194e5e0-5874-4df4-8cd9-6bd8f0044e3d",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Ipswich Borough INSPIRE Datastore",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/a194e5e0-5874-4df4-8cd9-6bd8f0044e3d/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 360,
+            "last_job": {
+                "id": "658c2d2d-a86d-497d-9621-6e925c5559a0",
+                "created": "2024-11-02 14:00:08.874800",
+                "gather_started": "2024-11-02 14:01:01.516689",
+                "gather_finished": "2024-11-02 14:01:21.544116",
+                "finished": "2024-11-02 14:01:21.544116",
+                "source_id": "2009b78f-c8b3-466e-944c-3cb0c22622e1",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/a194e5e0-5874-4df4-8cd9-6bd8f0044e3d/: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/a194e5e0-5874-4df4-8cd9-6bd8f0044e3d/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb7e47fccd0>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 32
+        }
+    }
+}

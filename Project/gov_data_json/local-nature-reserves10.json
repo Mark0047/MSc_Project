@@ -1,0 +1,287 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "5e131bf7-8c42-433a-8c74-c159bc58ea1c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-11-12T16:49:17.226040",
+        "metadata_modified": "2024-11-12T16:49:17.226044",
+        "name": "local-nature-reserves10",
+        "notes": "<div style='text-align:Left;'><div><div><p><span>Dataset showing designated Local Nature Reserves as defined by Broxtowe Borough Council </span></p></div></div></div>",
+        "num_resources": 8,
+        "num_tags": 4,
+        "organization": {
+            "id": "c04e176a-f808-4e3d-a702-0bcdedf38bbb",
+            "name": "broxtowe-borough-council",
+            "title": "Broxtowe Borough Council",
+            "type": "organization",
+            "description": "http://www.broxtowe.gov.uk/\r\n",
+            "image_url": "",
+            "created": "2013-11-04T10:36:45.104729",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c04e176a-f808-4e3d-a702-0bcdedf38bbb",
+        "private": false,
+        "state": "active",
+        "title": "Local Nature Reserves",
+        "type": "dataset",
+        "url": "https://maps-broxtowe.opendata.arcgis.com/datasets/broxtowe::local-nature-reserves-1",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2024-11-12T16:19:08.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-11-12T16:37:01.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Broxtowe Borough Council"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=98785ee47a09488a9d84f6c1a8ac9abc&sublayer=20"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "500854f0-3553-44e0-9f80-41163de21b2a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "75766291-cdd1-4bed-a514-92d03910f1f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Broxtowe Maps Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T16:49:17.234735",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "ffbfe47a-c210-4384-8232-6e9a1c8eda85",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T16:49:17.218618",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "5e131bf7-8c42-433a-8c74-c159bc58ea1c",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps-broxtowe.opendata.arcgis.com/datasets/broxtowe::local-nature-reserves-1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T16:49:17.234738",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "5ce0f988-9a49-4fb8-a1e4-7277c495ab57",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T16:49:17.218700",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "5e131bf7-8c42-433a-8c74-c159bc58ea1c",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.broxtowe.gov.uk/arcgis/rest/services/OpenData/OpenData/MapServer/20",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T16:49:17.234739",
+                "description": null,
+                "format": "OGC WFS",
+                "hash": "",
+                "id": "8056783a-2fdb-404c-8c1f-15d67eb74244",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T16:49:17.218759",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WFS",
+                "package_id": "5e131bf7-8c42-433a-8c74-c159bc58ea1c",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.broxtowe.gov.uk/arcgis/services/OpenData/OpenData/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T16:49:17.234739",
+                "description": null,
+                "format": "OGC WMS",
+                "hash": "",
+                "id": "db3fb38b-aee5-4d03-af55-f23abc8d8bd6",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T16:49:17.218814",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WMS",
+                "package_id": "5e131bf7-8c42-433a-8c74-c159bc58ea1c",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.broxtowe.gov.uk/arcgis/services/OpenData/OpenData/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T16:49:17.234740",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "2a7b1379-7655-479a-8abe-9e56e2f4aacd",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T16:49:17.218868",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "5e131bf7-8c42-433a-8c74-c159bc58ea1c",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps-broxtowe.opendata.arcgis.com/api/download/v1/items/98785ee47a09488a9d84f6c1a8ac9abc/csv?layers=20",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T16:49:17.234741",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "dd929823-0069-4a7f-8448-71d047612d92",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T16:49:17.218924",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "5e131bf7-8c42-433a-8c74-c159bc58ea1c",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps-broxtowe.opendata.arcgis.com/api/download/v1/items/98785ee47a09488a9d84f6c1a8ac9abc/geojson?layers=20",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T16:49:17.234742",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "ca30e601-51ba-4859-8693-bd31b28c62c6",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T16:49:17.218978",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "5e131bf7-8c42-433a-8c74-c159bc58ea1c",
+                "position": 6,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps-broxtowe.opendata.arcgis.com/api/download/v1/items/98785ee47a09488a9d84f6c1a8ac9abc/shapefile?layers=20",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T16:49:17.234742",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "7573d3fd-cc79-408c-8f4a-ec77e6d51928",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T16:49:17.219033",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "5e131bf7-8c42-433a-8c74-c159bc58ea1c",
+                "position": 7,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps-broxtowe.opendata.arcgis.com/api/download/v1/items/98785ee47a09488a9d84f6c1a8ac9abc/kml?layers=20",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "LNR",
+                "id": "49aefbcf-b102-4e83-a315-4aa701e61f96",
+                "name": "LNR",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Local Nature Reserve",
+                "id": "311f2c93-2f0b-4351-beaa-a436c69f1626",
+                "name": "Local Nature Reserve",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Open Data",
+                "id": "71ad9cd7-cf9c-433d-aeb3-b4475c414df4",
+                "name": "Open Data",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Planning",
+                "id": "f015a039-1856-4f51-bbfe-e4df359b7239",
+                "name": "Planning",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "500854f0-3553-44e0-9f80-41163de21b2a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "75766291-cdd1-4bed-a514-92d03910f1f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Broxtowe Maps Open Data"
+            }
+        ]
+    }
+}

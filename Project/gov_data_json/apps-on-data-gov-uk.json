@@ -1,0 +1,91 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": false,
+        "creator_user_id": "c895ed6d-3479-4524-9ea6-f23284fc958a",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "4b2ddcf4-5e4f-4e0d-b1cd-b157346a3ce9",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-01-17T17:40:10.947869",
+        "metadata_modified": "2017-01-17T17:40:10.963820",
+        "name": "apps-on-data-gov-uk",
+        "notes": "The raw data behind the apps listed at https://data.gov.uk/apps\r\n\r\nThis is exported in a relatively raw format. It is refreshed nightly.\r\n\r\nThe fields should be relatively self-explanatory when comparing the data with the website. But these are the conversions provided:\r\n\r\n* Dates were originally in unix format (e.g. 'created_unix') and so the iso-version is provided too (e.g. 'created') .\r\n* 'uri' is an internal equivalent for a URL, and the external url is stored in 'uri_expanded'\r\n* tags have been converted from internal ids ('field_tags') to names ('tags')\r\n* related dataset ids have been converted from internal drupal IDs ('field_uses_dataset') to ckan IDs ('field_uses_dataset_ckan_ids'), which can in turn be converted to ckan names & URLs using the metadata dump.\r\n\r\nThe file is JSON lines format http://jsonlines.org/ , so you don't need to load the whole thing into memory to parse the json - just do a line at a time. It is also zipped with gzip.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "90aefa0d-0e92-4895-a7fd-c1adb2b3f14f",
+            "name": "government-digital-service",
+            "title": "Government Digital Service",
+            "type": "organization",
+            "description": "The Government Digital Service is a team within Cabinet Office tasked with transforming government digital services.\r\nEstablished in response to Martha Lane Fox\u2019s report, \u2018Directgov 2010 and beyond: revolution not evolution\u2019, our core purpose is to ensure the Government offers world-class digital products that meet people\u2019s needs.\r\n\r\nhttp://digital.cabinetoffice.gov.uk/category/gds/\r\n\r\n@gdsteam\r\n",
+            "image_url": "",
+            "created": "2012-07-12T19:31:11.722062",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "90aefa0d-0e92-4895-a7fd-c1adb2b3f14f",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "government",
+        "theme-secondary": [
+            "Business & Economy",
+            "Towns & Cities"
+        ],
+        "title": "Apps on data.gov.uk",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-01-17T17:40:11.084632",
+                "description": "Apps dump as JSON lines",
+                "format": "JSON",
+                "hash": "",
+                "id": "7d7e612b-4279-4518-97ae-1f598b1183e3",
+                "last_modified": null,
+                "metadata_modified": "2017-01-17T17:40:11.084632",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "4b2ddcf4-5e4f-4e0d-b1cd-b157346a3ce9",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://data.gov.uk/data/dumps/apps/apps_public.jsonl.gz",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

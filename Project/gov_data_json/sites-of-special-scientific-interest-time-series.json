@@ -1,0 +1,161 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@naturalengland.org.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "f188f051-20dd-46d7-acaa-15d154e93ddd",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-06-28T08:15:30.454277",
+        "metadata_modified": "2018-12-07T12:44:25.698505",
+        "name": "sites-of-special-scientific-interest-time-series",
+        "notes": "Time series data for Sites of Special Scientific Interest.\nA Site of Special Scientific Interest (SSSI) is the land notified as an SSSI under the Wildlife and Countryside Act (1981), as amended. Sites notified under the 1949 Act only are not included in the Data set. SSSI are the finest sites for wildlife and natural features in England, supporting many characteristic, rare and endangered species, habitats and natural features. The data do not include \"proposed\" sites. Boundaries are generally mapped against Ordnance Survey MasterMap. Attribution statement: \u00a9 Natural England copyright. Contains Ordnance Survey data \u00a9 Crown copyright and database right [year]. Attribution statement: Attribution statement: \u00a9 Natural England copyright. Contains Ordnance Survey data \u00a9 Crown copyright and database right [year].",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "b1472b4f-b8c8-4ac2-9701-76995445f99b",
+            "name": "natural-england",
+            "title": "Natural England",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:10.959130",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b1472b4f-b8c8-4ac2-9701-76995445f99b",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005-01-31"
+        ],
+        "temporal_coverage-to": [
+            "2016-01-12"
+        ],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Sites of Special Scientific Interest (time series)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.8"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.8"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.7"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2016-06-21\"}, {\"type\": \"publication\", \"value\": \"2016-06-24\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "2933626a-b49d-4073-b276-60c3eed5a777"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4a030097-996f-486a-a764-3fa9f7152312"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "2933626a-b49d-4073-b276-60c3eed5a777"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-07-24"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Natural England (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[1.8, 50],[1.8, 55.8], [-5.7, 55.8], [-5.7, 50], [1.8, 50]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-06-28T09:15:30.523060",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "5b698cd1-46d0-40b1-86c7-42c0085e28e5",
+                "last_modified": null,
+                "metadata_modified": "2016-06-28T09:15:30.523060",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "f188f051-20dd-46d7-acaa-15d154e93ddd",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/data.defra.gov.uk/Wildlife/NE_Designations_SSSI_timeseries.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

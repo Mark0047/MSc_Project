@@ -1,0 +1,262 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "geographycustomerservices@nrscotland.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "33b0c436-dfe2-448e-a61c-bb9b1449d15c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2013-11-15T16:41:39.333370",
+        "metadata_modified": "2024-06-19T11:13:13.573426",
+        "name": "census-1991-output-areas",
+        "notes": "NRS first created Output Areas (OAs) for the 1991 Census to allow comparability with small area statistics output from 1971 and 1981.    NRS used postcodes to plan 1981 Census enumeration districts and 1991 postcode based OA generally fell within 1981 ED.  1971 small area statistics were retabulated for 1981 Enumeration Districts thus provided an degree on continuity over 3 censuses.\n\nOAs are the lowest level for which small area statistics for the 1991 Census are available.  For confidentiality purposes each OA has at least 16 households and 50 usual residents.  There are 38,254 Census 1991 OAs in Scotland.\n\nOf the 38,254 1991 output areas, 38,098 have polygons, the remaining 156 are special output areas.\n\nRevisions and Corrections\nCorrection to 1991 Output Area boundaries\nAn anomaly was discovered in the 1991 Output Area boundaries where the boundaries for Output Areas 6341DX13 and 6341DX16B were not following the postcodes that they were built up from.",
+        "num_resources": 3,
+        "num_tags": 5,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1991"
+        ],
+        "temporal_coverage-to": [
+            "1991"
+        ],
+        "title": "Census 1991 - Output Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"no conditions apply\", \"The following statements must be used when reproducing or using this material: Copyright National Records of Scotland, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"1993-02-01\"}, {\"type\": \"publication\", \"value\": \"1993-02-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "360c6bb2-a59f-4530-aeb0-232b8ebeb5f7"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ce1f7277-908b-4cc2-b95a-9ff295f79bd8"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-06-14T11:39:44"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "National Records of Scotland"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "National Records of Scotland (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:13.619130",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "457da766-fbec-42b1-952b-fb466c4c7b01",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:13.583770",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OutputArea1991",
+                "package_id": "33b0c436-dfe2-448e-a61c-bb9b1449d15c",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census1991/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:13.619132",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "5c236cdf-1025-45c3-8360-124aaac6cc1d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:13.583925",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CEN1991:OutputArea1991",
+                "package_id": "33b0c436-dfe2-448e-a61c-bb9b1449d15c",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census1991/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:13.619133",
+                "description": "Geography \u2013 1991 Census Boundaries - ESRI Shapefiles",
+                "format": "",
+                "hash": "",
+                "id": "ef0adab8-e43c-42ac-84bf-843542644ff9",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:13.584045",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "National Records of Scotland website",
+                "package_id": "33b0c436-dfe2-448e-a61c-bb9b1449d15c",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/census-datasets/1991-census",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Boundaries",
+                "id": "761f5ab1-0549-4ea2-9f26-90e94153b09f",
+                "name": "Boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Censuses",
+                "id": "6681e351-a494-4ddd-8ee6-e0b076aacfe2",
+                "name": "Censuses",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Statistical units",
+                "id": "5c1fe287-ebfd-4a64-9580-29baa322a3d0",
+                "name": "Statistical units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "census survey",
+                "id": "28f851c8-04ff-4028-a6c5-0eafd84264a1",
+                "name": "census survey",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "statistical data",
+                "id": "8ce17b2c-73e1-4db1-a06b-7e32b83bc5ea",
+                "name": "statistical data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "104af728-ea69-4676-8929-3d9bc3394ce2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

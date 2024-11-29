@@ -1,0 +1,158 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "59590bee-dfd1-4d03-b515-fa890bc64f2e",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-12-08T23:06:57.020224",
+        "metadata_modified": "2019-12-21T12:05:29.835671",
+        "name": "diagnostic-waiting-times",
+        "notes": "Details information on the number of patients waiting, and length of time waiting, for diagnostic services, as well as diagnostic reporting turnaround times at Health and Social Care (HSC) Trusts in Northern Ireland. Data are presented by HSC Trust, diagnostic service and time band.",
+        "num_resources": 2,
+        "num_tags": 6,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "Diagnostic Waiting Times",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-05T10:12:34.209631",
+                "datastore_active": true,
+                "description": "Details information on the number of patients waiting, and length of time waiting, for a diagnostic service at the end of each quarter in Northern Ireland. Data are presented by Health & Social Care (HSC) Trust, diagnostic service and time band.",
+                "format": "CSV",
+                "hash": "",
+                "id": "335af396-befd-47f1-9dbb-4dfbcc75587e",
+                "last_modified": null,
+                "metadata_modified": "2017-10-05T10:12:34.209631",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Diagnostic Waiting Times",
+                "package_id": "59590bee-dfd1-4d03-b515-fa890bc64f2e",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.health-ni.gov.uk/sites/default/files/publications/health/hs-niwts-tables-diagnostic-waiting-times-q2-19-20.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-05T10:16:06.085300",
+                "datastore_active": true,
+                "description": "Details information on the number of diagnostic tests reported on and dispatched to the referring clinician at hospitals during each quarter in Northern Ireland. Data are presented by Health & Social Care (HSC) Trust, diagnostic service, priority and time band.",
+                "format": "CSV",
+                "hash": "",
+                "id": "6fb81d47-5a00-43e3-9d7d-72bd0c47f97b",
+                "last_modified": null,
+                "metadata_modified": "2017-10-05T10:16:06.085300",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Diagnostic Reporting Turnaround Times",
+                "package_id": "59590bee-dfd1-4d03-b515-fa890bc64f2e",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.health-ni.gov.uk/sites/default/files/publications/health/hs-niwts-tables-diagnostic-reporting-turnaround-q2-19-20.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "DRTT",
+                "id": "8956608c-ddcc-4e01-8ec0-ecd4318e195d",
+                "name": "DRTT",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "diagnostic",
+                "id": "64b3d778-5e6b-4a08-856a-65f7f7732c68",
+                "name": "diagnostic",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "endoscopy",
+                "id": "c6e5252e-68de-42bf-9095-f69a4934a432",
+                "name": "endoscopy",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "imaging",
+                "id": "741021cc-34a3-472c-b4c3-cccfb5f687be",
+                "name": "imaging",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "physiological measurement",
+                "id": "4b48abbf-dcd5-42e4-b0d8-dfb54fd7c82b",
+                "name": "physiological measurement",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "waiting",
+                "id": "5abac148-44d1-4fcf-a1c4-be5569f4baa7",
+                "name": "waiting",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "b8e86c01-fe82-4948-af49-fd3ae2142021"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b8e86c01-fe82-4948-af49-fd3ae2142021"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

@@ -1,0 +1,309 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "60a2ee98-5cae-4df8-ba0a-359b78505e1d",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-02-08T17:22:05.447505",
+        "metadata_modified": "2021-08-04T16:55:00.806408",
+        "name": "leeds-housing-construction",
+        "notes": "The virtual survey dataset is an experimental snapshot of basic building parameters consisting of:-\n\n*   Age Band\n*   Property Type\n*   Built Form\n*   System /Construction Type\n*   Main Wall Construction\n\nThe data has been derived, using existing data on Council Housing and using GIS in combination with internet maps/street view, Energy Performance Certificate (EPC) data, building control notifications scheme installation data, and estate scale planning applications.\n\nNo warranty is made as to the accuracy of the data, which is often subjective. Age Band for example is probably accurate to within one band. For example a property listed as \u201c1900-1929\u201d may actually be \u201cPre-1900\u201d.\n\nFurther information\n-------------------\n\n*   System - indicates the type of construction. Some houses are called 'system build' which refers to a variety of methods of construction houses,\u00a0and the \u201cSystem\u201d is the name given by the manufacturer of builder. The majority came in after the second world war, when there was shortage of houses & a need to provide dwellings quickly and at low cost. Some types were only intended to be temporary \u2013 with a lifespan of 20-30 years. Their construction varies, but generally they fall into ones which are built around a steel or concrete frame / timber frame; or \u201cPrefabricated Reinforced Concrete\u201d (PRC).\n*   Trad_NonTrad - O indicates other eg caravans\n\nPlease note\n-----------\n\nThe data will not be 100% accurate and will be updated on an ad hoc basis.",
+        "num_resources": 4,
+        "num_tags": 19,
+        "organization": {
+            "id": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+            "name": "leeds-city-council",
+            "title": "Leeds City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:43.477436",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+        "private": false,
+        "state": "active",
+        "title": "Leeds housing construction",
+        "type": "dataset",
+        "url": "https://datamillnorth.org/dataset/leeds-housing-construction",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2016-12-13T14:18:01.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2019-10-21T14:37:36.759Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Leeds City Council"
+            },
+            {
+                "key": "guid",
+                "value": "60a2ee98-5cae-4df8-ba0a-359b78505e1d"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "29015851-12a0-4afa-8d15-048c4ffcad96"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "454ca6df-5da7-4c24-a2b0-2fa2ccd9a85e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Leeds"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:41:03.354961",
+                "description": "Leeds housing construction lookup",
+                "format": "XLS",
+                "hash": "",
+                "id": "ace03147-f114-4723-be25-88b5cad54eba",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:41:03.354961",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "15/12/16",
+                "package_id": "60a2ee98-5cae-4df8-ba0a-359b78505e1d",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-housing-construction/20a52b86-d667-496b-98cb-bc4cd9d52339/VirtualSurveyLookups.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:41:03.354992",
+                "description": "Leeds housing construction survey data",
+                "format": "CSV",
+                "hash": "",
+                "id": "acd32dc6-e9f7-477b-b289-4c136d5f84cd",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:41:03.354992",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "15/12/16",
+                "package_id": "60a2ee98-5cae-4df8-ba0a-359b78505e1d",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-housing-construction/5c31537d-784b-4a90-bb4a-2f09127555f8/VirtualSurveyData.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T03:00:49.392007",
+                "description": "",
+                "format": "XLSX",
+                "hash": "",
+                "id": "96179de2-a723-4f58-95cd-aa20b8ab0547",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T03:00:49.392007",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Virtual Survey Lookups 21/09/2019",
+                "package_id": "60a2ee98-5cae-4df8-ba0a-359b78505e1d",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-housing-construction/e4f5e994-bbd2-4f10-b08d-39368bf1d9e9/VirtualSurveyLookups.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T03:00:49.392014",
+                "description": "",
+                "format": "XLSB",
+                "hash": "",
+                "id": "35848d4f-347d-4326-a497-3a6565ad5a04",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T03:00:49.392014",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "21/09/2019",
+                "package_id": "60a2ee98-5cae-4df8-ba0a-359b78505e1d",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-housing-construction/7d2bad35-f767-4d67-87a0-00e48f10040d/VirtualSurveyData%2520-%252020191021.xlsb",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "brick",
+                "id": "dae66f5b-8bbb-4ac1-b974-fe48323b0f31",
+                "name": "brick",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "bungalow",
+                "id": "2f971d2d-7277-488f-8a54-83755bbbe8b8",
+                "name": "bungalow",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "cavity",
+                "id": "7af9346f-54af-4d94-81ee-ecff2f2243a7",
+                "name": "cavity",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "cob",
+                "id": "7dd84d39-c1bb-4617-847f-4a91cb7c2de8",
+                "name": "cob",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "concrete",
+                "id": "ca6b381f-e745-4b6c-8fd5-69152abc68fc",
+                "name": "concrete",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "council housing",
+                "id": "26f80fd3-3b6f-45f8-a70b-cbdce9b81096",
+                "name": "council housing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "energy",
+                "id": "27294e91-c1f7-453d-a4cf-df89742ea4a3",
+                "name": "energy",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flat",
+                "id": "3db06e06-327b-4b7f-80c9-00df32258dda",
+                "name": "flat",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "frame",
+                "id": "ff40b97e-6a68-452a-9742-93f88dfccb73",
+                "name": "frame",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "granite",
+                "id": "18e648cf-a918-428f-9518-ef10fa26d042",
+                "name": "granite",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "housing",
+                "id": "00a20d30-2585-49fc-aeef-137dff81627d",
+                "name": "housing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "maisonette",
+                "id": "a0c99cf2-2500-49ba-9143-a989053d38b2",
+                "name": "maisonette",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "sandstone",
+                "id": "b8652005-2ae4-492d-b457-2e441234a48c",
+                "name": "sandstone",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "semi-detached",
+                "id": "4273198b-c097-4014-afc3-313a97a772ef",
+                "name": "semi-detached",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "stone",
+                "id": "c92b1270-5810-482c-ae1f-23de6ead906c",
+                "name": "stone",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "terrace",
+                "id": "0badea9a-22b7-43a5-b68e-62ffb5ecaed1",
+                "name": "terrace",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "timber",
+                "id": "f872a28f-beea-4eb6-b7c1-c838a14a3cbb",
+                "name": "timber",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "whinstone",
+                "id": "df70dd90-fe1b-4e00-82a8-2db0808818fc",
+                "name": "whinstone",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wood",
+                "id": "f9ee1b72-ba4b-4440-9c04-22e476be8acd",
+                "name": "wood",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "29015851-12a0-4afa-8d15-048c4ffcad96"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "454ca6df-5da7-4c24-a2b0-2fa2ccd9a85e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Leeds"
+            }
+        ]
+    }
+}

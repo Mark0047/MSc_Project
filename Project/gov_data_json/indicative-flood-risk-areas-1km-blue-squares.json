@@ -1,0 +1,409 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "4276328a-2aec-4caf-aae4-3516e1eab495",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2018-11-27T14:42:57.672202",
+        "metadata_modified": "2024-08-09T13:18:36.678708",
+        "name": "indicative-flood-risk-areas-1km-blue-squares",
+        "notes": "PLEASE NOTE: this dataset has been retired. It has been superseded by data for Flood Risk Areas: https://environment.data.gov.uk/dataset/f3d63ec5-a21a-49fb-803a-0fa0fb7238b6\n\nThe Indicative Flood Risk Areas are primarily based on an aggregated 1km square grid Updated Flood Map for Surface Water (1 in 100 and 1000 annual probability rainfall), informally referred to as the \u201cblue square map\u201d. \n\nThis dataset is a component of Indicative Flood Risk Areas (shapefiles)\n\nA bundle download of all Indicative Flood Risk Areas spatial datasets is also available from this record. Please see individual records for full details and metadata on each product. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2016. All rights reserved.",
+        "num_resources": 10,
+        "num_tags": 3,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2016-12-31"
+        ],
+        "title": "Indicative Flood Risk Areas - 1km Blue Squares",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2017-01-20\"}, {\"type\": \"revision\", \"value\": \"2017-01-20\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "f84a2729-c674-47b7-af7e-978ba42610fa"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ba49f124-6d20-4e9b-90fb-35f438e43340"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-08-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:36.718746",
+                "description": "BlueSquareGrid-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "28da35a6-9162-43d6-89a9-a933d03edc22",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:36.685392",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "BlueSquareGrid-FGDB.zip",
+                "package_id": "4276328a-2aec-4caf-aae4-3516e1eab495",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9856a079-4965-4985-8b21-3cdfca893257&fileName=BlueSquareGrid-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:36.718748",
+                "description": "BlueSquareGrid-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "db3a96b7-6506-423a-bc97-732ccc4ed923",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:36.685481",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "BlueSquareGrid-GeoJSON.zip",
+                "package_id": "4276328a-2aec-4caf-aae4-3516e1eab495",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9856a079-4965-4985-8b21-3cdfca893257&fileName=BlueSquareGrid-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:36.718750",
+                "description": "BlueSquareGrid-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "f984dc30-41c6-46db-b702-746c8bb805d5",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:36.685550",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "BlueSquareGrid-GML.zip",
+                "package_id": "4276328a-2aec-4caf-aae4-3516e1eab495",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9856a079-4965-4985-8b21-3cdfca893257&fileName=BlueSquareGrid-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:36.718751",
+                "description": "BlueSquareGrid-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b1804d03-e4f1-4b60-94b6-0a83ea357988",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:36.685616",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "BlueSquareGrid-MID_MIF.zip",
+                "package_id": "4276328a-2aec-4caf-aae4-3516e1eab495",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9856a079-4965-4985-8b21-3cdfca893257&fileName=BlueSquareGrid-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:36.718752",
+                "description": "BlueSquareGrid-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "e29dcf7a-6fb4-44a0-8b08-0d6adb02190e",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:36.685680",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "BlueSquareGrid-SHP.zip",
+                "package_id": "4276328a-2aec-4caf-aae4-3516e1eab495",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9856a079-4965-4985-8b21-3cdfca893257&fileName=BlueSquareGrid-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:36.718753",
+                "description": "BlueSquareGrid-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "697a92a9-1552-483a-b865-c2a7f5c0b93c",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:36.685746",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "BlueSquareGrid-TAB.zip",
+                "package_id": "4276328a-2aec-4caf-aae4-3516e1eab495",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=9856a079-4965-4985-8b21-3cdfca893257&fileName=BlueSquareGrid-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:36.718754",
+                "description": "Blue Square Grid WMS",
+                "format": "",
+                "hash": "",
+                "id": "471f1ab4-5aeb-4c16-9f04-8fd63fac7455",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:36.685807",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "BlueSquareGrid_WMS",
+                "package_id": "4276328a-2aec-4caf-aae4-3516e1eab495",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/blue-square-grid/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:36.718755",
+                "description": "Blue Square Grid WFS",
+                "format": "",
+                "hash": "",
+                "id": "bd56f4aa-716b-430e-a913-0bd473de3eff",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:36.685869",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "BlueSquareGrid_WFS",
+                "package_id": "4276328a-2aec-4caf-aae4-3516e1eab495",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/blue-square-grid/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:36.718756",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "afc85ddf-a1d5-4f30-a89a-dcaafeb04e58",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:36.685929",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "IndicativeFloodRiskAreas_bundle_Download",
+                "package_id": "4276328a-2aec-4caf-aae4-3516e1eab495",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/f84a2729-c674-47b7-af7e-978ba42610fa?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:36.718757",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "999210e6-c7ea-408b-a3bd-c25e6811ca25",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:36.685989",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "4276328a-2aec-4caf-aae4-3516e1eab495",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/blue-square-grid/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Indicative Flood Risk Areas",
+                "id": "0d567acb-0c8e-42b7-8045-9d94596c7594",
+                "name": "Indicative Flood Risk Areas",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood",
+                "id": "90af076f-75b0-42fc-80aa-ac2ff7993443",
+                "name": "flood",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7e0d0730-aebb-4c65-9cb6-37406824be9a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

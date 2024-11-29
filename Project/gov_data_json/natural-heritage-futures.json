@@ -1,0 +1,345 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data_supply@nature.scot",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "487f9e9e-ecc9-4203-bb02-ffc46183fdd5",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-01-12T04:26:51.899489",
+        "metadata_modified": "2024-06-19T11:18:48.514882",
+        "name": "natural-heritage-futures",
+        "notes": "Many countries around the world have begun to adopt zonation systems as a strategic framework to guide their approach to the conservation, enhancement, understanding and use of the natural heritage. The natural heritage zonation approach adopted by NatureScot is intended to provide a logical framework, reflecting the diversity of Scotland's natural heritage, within which NatureScot can clearly and simply plan and execute its work. The zones are not, therefore, intended as a classification of the natural heritage but, rather as an operational tool which is founded in the natural heritage.",
+        "num_resources": 8,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Natural Heritage Futures",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available under an OS Open Data licence. You must always use the following attribution statement to acknowledge the source of the information: Copyright NatureScot Contains Ordnance Survey data \\u00a9 Crown copyright and database right (year)\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.2068298247232634"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.22720489109619"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.39503064605986"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.973424529673677"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "a49083bb-3388-40f9-9db0-08bc8ff98955"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "90ee2528-c6e8-449f-8927-fa31066b2066"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-07-20T13:28:35"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.2068298247232634, 54.39503064605986], [-8.973424529673677, 54.39503064605986], [-8.973424529673677, 61.22720489109619], [-0.2068298247232634, 61.22720489109619], [-0.2068298247232634, 54.39503064605986]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:48.544297",
+                "description": "nhfz",
+                "format": "",
+                "hash": "",
+                "id": "4c5d047d-ccc2-4062-83f5-47a2dceb62e0",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:48.521331",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "nhfz",
+                "package_id": "487f9e9e-ecc9-4203-bb02-ffc46183fdd5",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/landscape/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:48.544300",
+                "description": "Natural Heritage Futures Zones",
+                "format": "",
+                "hash": "",
+                "id": "3178e065-63c6-466b-b146-329d2ced6028",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:48.521422",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "landscape:nhfz",
+                "package_id": "487f9e9e-ecc9-4203-bb02-ffc46183fdd5",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS-1.0.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/landscape/wfs?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:48.544301",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "87ef08f5-4a3a-4941-9573-6cba702ca8d6",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:48.521494",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI Shapefile (EPSG:27700)",
+                "package_id": "487f9e9e-ecc9-4203-bb02-ffc46183fdd5",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/NHFZ_SCOTLAND_SHP_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:48.544302",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "17227638-a496-48cc-bf18-db929b95c4bb",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:48.521560",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI File geodatabase (EPSG:27700)",
+                "package_id": "487f9e9e-ecc9-4203-bb02-ffc46183fdd5",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/NHFZ_SCOTLAND_GDB_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:48.544303",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3b37e409-3e4e-489a-95aa-848e743eeda1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:48.521626",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Geopackage (EPSG:27700)",
+                "package_id": "487f9e9e-ecc9-4203-bb02-ffc46183fdd5",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/NHFZ_SCOTLAND_GPKG_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:48.544304",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c828a380-c7de-476c-9adb-0922392e2954",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:48.521690",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GML (EPSG:4258)",
+                "package_id": "487f9e9e-ecc9-4203-bb02-ffc46183fdd5",
+                "position": 5,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/NHFZ_SCOTLAND_GML_4258.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:48.544305",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3ad82cec-7f60-4a74-8bf1-6e3432c88231",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:48.521753",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoJSON (EPSG:4326)",
+                "package_id": "487f9e9e-ecc9-4203-bb02-ffc46183fdd5",
+                "position": 6,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/NHFZ_SCOTLAND_GEOJSON_4326.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:48.544305",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "3aa4d031-cfed-46b4-ad8d-90e837ea9782",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:48.521816",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot OpenData Hub",
+                "package_id": "487f9e9e-ecc9-4203-bb02-ffc46183fdd5",
+                "position": 7,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.nature.scot/datasets/natural-heritage-futures-zones/explore",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cf35ecf9-2ac6-4c8c-a69a-e11885b63321"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

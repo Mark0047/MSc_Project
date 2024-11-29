@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "4f6b97d8-026a-442a-a38f-bf6ef3b2a242",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:24:52.168548",
+        "metadata_modified": "2024-09-10T08:24:52.168551",
+        "name": "management-strategy-evaluation-toolkit-for-ecopath-with-ecosim-model-output-and-technical-repor1",
+        "notes": "This dataset consists of output from a computer model that predicts responses \nof 69 functional groups from plankton to whales to changing fishing pressure. \nScenarios are run using the newly built plug-in (see report) that allows for \nan assessment of the effect of model parameter uncertainty. The base model is \nthe ICES key-run of EwE for the North Sea described here \n`http://data.cefas.co.uk/#/View/2847`_. Format of the data: Zipped csv files \ncovering the hindcast period 1991-2013 (inclusive) with 20 year forecasts. \nOutput includes annual average values for the whole North Sea: For both \nfunctional groups and fishing fleets: landings (tonnage and value, \u00a3), \ndiscards (tonnage),for functional groups only: biomass (tonnage) and fishing \nmortality (split by landings and discards), for fishing fleets only: fishing \neffort relative to 1990. Also identified are 'choke species' that lead to \nclosure of fisheries. The report (pdf) describes the development of a tool for \nassessing the effect of model parameter uncertainty on the performance of \nmanagement options simulated using an ecosystem model. It provides the \nrationale, description of methods and algorithms, and a step-by-step guide for \nusers of the tool. While the interface of the tool is designed to be user \nfriendly, the setup of input files and its application requires a thorough \nunderstanding of the parameterisation of Ecopath models, advanced experience \nwith Ecosim and understanding of Management Strategy Evaluation procedures.\n\n\n.. _`http://data.cefas.co.uk/#/view/2847`:\n    http://data.cefas.co.uk/#/View/2847",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1991-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2017-07-01"
+        ],
+        "title": "Management Strategy Evaluation toolkit for Ecopath with Ecosim (model output and technical report)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.74086"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.4595"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.4581"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "1.73881"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2017-10-05\"}, {\"type\": \"revision\", \"value\": \"2024-07-12\"}, {\"type\": \"creation\", \"value\": \"2017-10-04\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "CEFAS6d2142a9-03da-4ef1-9ff5-55a7f9e2afbc"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "644f494f-8a56-4d64-995b-63cb1518f8ce"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-12T10:26:06"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Department for Environment, Food and Rural Affairs (DEFRA)"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor); Department for Environment, Food and Rural Affairs (DEFRA) (owner); European Commission (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.74086, 52.4581], [1.73881, 52.4581], [1.73881, 52.4595], [1.74086, 52.4595], [1.74086, 52.4581]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:24:52.175469",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: Binary download.",
+                "format": "",
+                "hash": "",
+                "id": "0770b8c6-0d3e-4798-baee-9b278f7533f2",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:24:52.166248",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "4f6b97d8-026a-442a-a38f-bf6ef3b2a242",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/18782",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "644f494f-8a56-4d64-995b-63cb1518f8ce"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,280 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "ac8c3b15-29b0-4fd9-b29e-70e3115878f0",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-11-15T10:39:45.826650",
+        "metadata_modified": "2024-11-12T16:49:19.371546",
+        "name": "polling-districts17",
+        "notes": "Under Section 18A of the Representation of the People Act 1983 (as amended) the Council is required to divide each parliamentary constituency in the area into polling districts, to designate polling places for those polling districts. They layer details those polling districts\u00a0for Broxtowe Borough\u00a0with information about which borough\u00a0ward they fall within.",
+        "num_resources": 8,
+        "num_tags": 3,
+        "organization": {
+            "id": "c04e176a-f808-4e3d-a702-0bcdedf38bbb",
+            "name": "broxtowe-borough-council",
+            "title": "Broxtowe Borough Council",
+            "type": "organization",
+            "description": "http://www.broxtowe.gov.uk/\r\n",
+            "image_url": "",
+            "created": "2013-11-04T10:36:45.104729",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c04e176a-f808-4e3d-a702-0bcdedf38bbb",
+        "private": false,
+        "state": "active",
+        "title": "Polling Districts",
+        "type": "dataset",
+        "url": "https://maps-broxtowe.opendata.arcgis.com/datasets/broxtowe::polling-districts",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2018-01-15T08:11:46.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-03-30T00:00:00.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Broxtowe Borough Council"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=ace0ecbc348a41b5b804557f6a68f575&sublayer=1"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "13d943f7-0c22-4e8e-bf38-37886fd58b6c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "75766291-cdd1-4bed-a514-92d03910f1f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Broxtowe Maps Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T16:49:19.403343",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "381ce78b-59a5-4a0e-884f-89856ab21a2a",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T16:49:19.377450",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "ac8c3b15-29b0-4fd9-b29e-70e3115878f0",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps-broxtowe.opendata.arcgis.com/datasets/broxtowe::polling-districts",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-15T10:39:45.828764",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "97aeb336-1679-43ee-ace1-ada05430daa9",
+                "last_modified": null,
+                "metadata_modified": "2023-11-15T10:39:45.820058",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "ac8c3b15-29b0-4fd9-b29e-70e3115878f0",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.broxtowe.gov.uk/arcgis/rest/services/OpenData/OpenData/MapServer/1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T16:49:19.403345",
+                "description": null,
+                "format": "OGC WFS",
+                "hash": "",
+                "id": "2444dc6c-da7e-4c78-a279-115cd14b6b26",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T16:49:19.377592",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WFS",
+                "package_id": "ac8c3b15-29b0-4fd9-b29e-70e3115878f0",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.broxtowe.gov.uk/arcgis/services/OpenData/OpenData/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T16:49:19.403346",
+                "description": null,
+                "format": "OGC WMS",
+                "hash": "",
+                "id": "7f9bd6fa-b9c5-49b1-b275-eee48c9fe483",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T16:49:19.377651",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WMS",
+                "package_id": "ac8c3b15-29b0-4fd9-b29e-70e3115878f0",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.broxtowe.gov.uk/arcgis/services/OpenData/OpenData/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T12:57:50.266608",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "277ebde9-b233-4496-9565-0c1b19e2b747",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T12:57:50.243200",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "ac8c3b15-29b0-4fd9-b29e-70e3115878f0",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps-broxtowe.opendata.arcgis.com/api/download/v1/items/ace0ecbc348a41b5b804557f6a68f575/csv?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T12:57:50.266612",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "d1838aea-2318-4a4f-8390-a4271f2bd85a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T12:57:50.243310",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "ac8c3b15-29b0-4fd9-b29e-70e3115878f0",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps-broxtowe.opendata.arcgis.com/api/download/v1/items/ace0ecbc348a41b5b804557f6a68f575/geojson?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T12:57:50.266613",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "6a7ce341-1576-4db0-829e-9c33b4367e8b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T12:57:50.243394",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "ac8c3b15-29b0-4fd9-b29e-70e3115878f0",
+                "position": 6,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps-broxtowe.opendata.arcgis.com/api/download/v1/items/ace0ecbc348a41b5b804557f6a68f575/shapefile?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T12:57:50.266614",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "8bec0b0a-8974-4cf4-9770-fac7d3f1c285",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T12:57:50.243474",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "ac8c3b15-29b0-4fd9-b29e-70e3115878f0",
+                "position": 7,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps-broxtowe.opendata.arcgis.com/api/download/v1/items/ace0ecbc348a41b5b804557f6a68f575/kml?layers=1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Boundaries",
+                "id": "761f5ab1-0549-4ea2-9f26-90e94153b09f",
+                "name": "Boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Elections",
+                "id": "61800d69-e1db-47b6-9abf-91200d075307",
+                "name": "Elections",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Open Data",
+                "id": "71ad9cd7-cf9c-433d-aeb3-b4475c414df4",
+                "name": "Open Data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "13d943f7-0c22-4e8e-bf38-37886fd58b6c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "75766291-cdd1-4bed-a514-92d03910f1f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Broxtowe Maps Open Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "5ecd4fcd-1555-40bf-8235-cbb2900cded0",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2023-02-08T16:06:43.469471",
+        "metadata_modified": "2023-04-06T12:54:04.865256",
+        "name": "covid-19-mortality-within-28-days-of-diagnosis",
+        "notes": "<p>The number of deaths, based on a 7-day rolling sum of deaths recorded where a diagnosis of Covid-19 within 28 days of the date of death has been recorded.</p><p>This data will be updated weekly.</p>",
+        "num_resources": 2,
+        "num_tags": 4,
+        "organization": {
+            "id": "428e76b4-8690-4d64-8586-a4e748c487d5",
+            "name": "leicester-city-council",
+            "title": "Leicester City Council",
+            "type": "organization",
+            "description": "Leicester City Council is the unitary authority serving the people, communities and businesses of Leicester.",
+            "image_url": "",
+            "created": "2013-09-05T10:56:36.089623",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "428e76b4-8690-4d64-8586-a4e748c487d5",
+        "private": false,
+        "state": "active",
+        "title": "Covid-19 - Mortality within 28 days of diagnosis",
+        "type": "dataset",
+        "url": "https://data.leicester.gov.uk/explore/dataset/covid-19-mortality-within-28-days-of-diagnosis/",
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/covid-19-mortality-within-28-days-of-diagnosis"
+            },
+            {
+                "key": "identifier",
+                "value": "covid-19-mortality-within-28-days-of-diagnosis@leicester"
+            },
+            {
+                "key": "issued",
+                "value": "2023-03-31T05:00:05.879000+00:00"
+            },
+            {
+                "key": "language",
+                "value": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]"
+            },
+            {
+                "key": "modified",
+                "value": "2023-03-31T05:00:05.879000+00:00"
+            },
+            {
+                "key": "publisher_name",
+                "value": "Leicester City Council"
+            },
+            {
+                "key": "publisher_uri",
+                "value": "https://data.leicester.gov.uk/explore/?refine.publisher=Leicester+City+Council"
+            },
+            {
+                "key": "related_resource",
+                "value": "[\"https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&areaCode=E06000016&metric=newDeaths28DaysByDeathDateRollingSum&format=csv\"]"
+            },
+            {
+                "key": "theme",
+                "value": "[\"https://data.leicester.gov.uk/explore/?refine.theme=Public+Safety+%26+Wellbeing\", \"https://data.leicester.gov.uk/explore/?refine.theme=City+%26+Governance\"]"
+            },
+            {
+                "key": "uri",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/covid-19-mortality-within-28-days-of-diagnosis"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "067b287a-ced6-4f1d-8870-ae75f19fbea2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-19-mortality-within-28-days-of-diagnosis/exports/json",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:06:43.475654",
+                "description": "Covid-19 - Mortality within 28 days of diagnosis (json)",
+                "format": "https://www.iana.org/assignments/media-types/application/json",
+                "hash": "",
+                "id": "02a78654-9f63-43d3-81fb-7f565da2c8e3",
+                "issued": "2023-03-31T05:00:05.879000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-04-06T12:54:04.868434",
+                "mimetype": "https://www.iana.org/assignments/media-types/application/json",
+                "mimetype_inner": null,
+                "modified": "2023-03-31T05:00:05.879000+00:00",
+                "name": "json",
+                "package_id": "5ecd4fcd-1555-40bf-8235-cbb2900cded0",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/covid-19-mortality-within-28-days-of-diagnosis-json",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-19-mortality-within-28-days-of-diagnosis/exports/json",
+                "url_type": null
+            },
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-19-mortality-within-28-days-of-diagnosis/exports/csv",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:06:43.475657",
+                "description": "Covid-19 - Mortality within 28 days of diagnosis (csv)",
+                "format": "https://www.iana.org/assignments/media-types/text/csv",
+                "hash": "",
+                "id": "8991c4e0-7439-4eb3-b643-2856bfc21a36",
+                "issued": "2023-03-31T05:00:05.879000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-04-06T12:54:04.868551",
+                "mimetype": "https://www.iana.org/assignments/media-types/text/csv",
+                "mimetype_inner": null,
+                "modified": "2023-03-31T05:00:05.879000+00:00",
+                "name": "csv",
+                "package_id": "5ecd4fcd-1555-40bf-8235-cbb2900cded0",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/covid-19-mortality-within-28-days-of-diagnosis-csv",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-19-mortality-within-28-days-of-diagnosis/exports/csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "COVID-19",
+                "id": "d4f92fad-a940-41b3-a1eb-60cee8940ddb",
+                "name": "COVID-19",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "COVID19",
+                "id": "59729fe8-e453-4571-9afc-50256192c09a",
+                "name": "COVID19",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Coronavirus",
+                "id": "9c62ea88-6443-42d5-bf20-b79002ab8e09",
+                "name": "Coronavirus",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Covid",
+                "id": "024f3a8e-9e07-427b-98e8-5aad0599fa12",
+                "name": "Covid",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "067b287a-ced6-4f1d-8870-ae75f19fbea2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ]
+    }
+}

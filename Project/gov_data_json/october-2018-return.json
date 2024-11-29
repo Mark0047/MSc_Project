@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "7994f5e2-6f2c-476e-b90a-21d3b4cb6e7b",
+        "frequency": "MONTHLY",
+        "id": "67731fe5-5c68-41e7-ae06-f33a2b3191ee",
+        "metadata_created": "2019-02-05T14:16:03.030778",
+        "metadata_modified": "2019-02-05T14:16:55.062149",
+        "name": "october-2018-return",
+        "notes": "",
+        "organization": {
+            "id": "1c661adf-d548-4d59-959c-b3179ea05596",
+            "name": "croydon-health-services-nhs-trust",
+            "title": "Croydon Health Services NHS Trust",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:47.404581",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "1c661adf-d548-4d59-959c-b3179ea05596",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "October 2018 Return",
+        "type": "harvest",
+        "url": "https://www.croydonhealthservices.nhs.uk/what-we-spend-and-how-we-spend-it",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 70,
+            "last_job": {
+                "id": "032767c1-69d6-46fd-ac86-5a8e8d3d0f27",
+                "created": "2024-11-07 06:00:05.151989",
+                "gather_started": "2024-11-07 06:00:05.228678",
+                "gather_finished": "2024-11-07 06:00:05.697844",
+                "finished": "2024-11-07 06:00:05.697844",
+                "source_id": "67731fe5-5c68-41e7-ae06-f33a2b3191ee",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Couldn't find any links to metadata files",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

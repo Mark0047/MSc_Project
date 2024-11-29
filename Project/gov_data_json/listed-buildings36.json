@@ -1,0 +1,260 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GIEnquiries@hes.scot",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "722b93f3-75fd-47ce-9f06-0efcfa010ecf",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2011-08-16T12:43:32.431738",
+        "metadata_modified": "2024-06-19T11:21:11.290748",
+        "name": "listed-buildings36",
+        "notes": "The Listed Building Dataset comprises the statutory addresses and supplementary information for listed buildings in Scotland. \nListing is the recognition through the Planning (Listed Buildings and Conservation Areas) (Scotland) Act 1997 that a building or structure is of \u2018special\u2019 interest. Historic Environment Scotland lists buildings on behalf of Scottish Ministers.",
+        "num_resources": 3,
+        "num_tags": 5,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1957-02-04"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Listed Buildings",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"If this data is reproduced it must be attributed with the following: Contains Historic Environment Scotland and Ordnance Survey data \\u00a9 Historic Environment Scotland - Scottish Charity No. SC045925 \\u00a9 Crown copyright and database right [year]\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.53202"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.46459"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.53297"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-7.75714"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2003-01-01\"}, {\"type\": \"publication\", \"value\": \"2004-01-01\"}, {\"type\": \"revision\", \"value\": \"2020-08-18\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "f17b56f2-001c-4010-975a-016c7a6fe3c5"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "0991fce6-a437-4cab-bfc8-f21551d537e1"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-09-24T08:26:11"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Historic Environment Scotland (pointOfContact, distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.53202, 54.53297], [-7.75714, 54.53297], [-7.75714, 61.46459], [-0.53202, 61.46459], [-0.53202, 54.53297]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:11.360447",
+                "description": "Download zip file with Listed Buildings shapefile, layer file and metadata",
+                "format": "ZIP",
+                "hash": "",
+                "id": "1d24857a-28c2-4191-b32d-1e6d0939dd1d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:11.301601",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI Shapefile Download",
+                "package_id": "722b93f3-75fd-47ce-9f06-0efcfa010ecf",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "FILE:GEO",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.hes.scot/AtomService/DATA/lb_scotland.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:11.360449",
+                "description": "WMS service for Listed Buildings",
+                "format": "",
+                "hash": "",
+                "id": "23e472ac-e49a-444b-a976-046f064045af",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:11.301705",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "722b93f3-75fd-47ce-9f06-0efcfa010ecf",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.hes.scot/arcgis/services/HES/Listed_Buildings/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:11.360450",
+                "description": "WFS service for Listed Buildings",
+                "format": "",
+                "hash": "",
+                "id": "0af1d053-79b5-4696-940d-8eb2f1619dea",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:11.301778",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "722b93f3-75fd-47ce-9f06-0efcfa010ecf",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.hes.scot/arcgis/services/HES/Listed_Buildings/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Buildings",
+                "id": "156f103a-5436-4be5-87fd-2163a078a4f3",
+                "name": "Buildings",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Historic Centre",
+                "id": "cd5ebe05-c10f-40b4-8c6d-a0d025b3f646",
+                "name": "Historic Centre",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Listed buildings",
+                "id": "3379c8ba-19a7-49f6-837e-9d43905f008d",
+                "name": "Listed buildings",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "building planning",
+                "id": "018b3670-b9e9-499a-b389-85f36132a16d",
+                "name": "building planning",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5192a786-b985-4ce0-8bb5-7a5a553c31df"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

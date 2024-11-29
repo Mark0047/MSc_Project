@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@stockport.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "874d96c2-b423-4a3f-b67d-8e5acbbf418b",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-09T15:20:37.946546",
+        "metadata_modified": "2016-04-29T09:57:51.384788",
+        "name": "conservation-areas49",
+        "notes": "Conservation areas are areas of special architectural or historic interest where it is desirable to preserve or enhance the character or appearance of that area.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "dca4cafe-88b8-4758-a470-ae6b32437efd",
+            "name": "stockport-metropolitan-borough-council",
+            "title": "Stockport Metropolitan Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:58:16.588164",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "dca4cafe-88b8-4758-a470-ae6b32437efd",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Conservation Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/docs/licences/public-sector-end-user-licence-inspire.htm\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.00954"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.4412"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.3513"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.24061"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-02-26T10:38:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "b466ec183844c8bfa0213a79f21ae92ae1e48684"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "2630ed2b-a291-47db-8c75-68f39cde5857"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.astuntechnology.com/stockport/Conservation%20Areas.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "use in accordance with OS licence"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-29"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Stockport Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-2.00954, 53.3513],[-2.00954, 53.4412], [-2.24061, 53.4412], [-2.24061, 53.3513], [-2.00954, 53.3513]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c0c0bc58-259b-4993-92fc-6ba83fca9f4c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stockport Metropolitan Borough Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-04-29T10:57:51.423553",
+                "description": "Conservation Areas",
+                "format": "WMS",
+                "hash": "",
+                "id": "9ecdb5bf-e48c-48ec-a11d-dc212cbbadcc",
+                "last_modified": null,
+                "metadata_modified": "2016-04-29T10:57:51.423553",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "conservation_areas",
+                "package_id": "874d96c2-b423-4a3f-b67d-8e5acbbf418b",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx?mapsource=smbc/stockport_inspire&version=1.1.1&request=GetCapabilities&service=WMS",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-04-29T10:57:50.230502",
+                "wms_base_urls": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-29T10:57:51.423576",
+                "description": "Conservation Areas",
+                "format": "",
+                "hash": "",
+                "id": "975fc09f-22ca-4b38-be78-0b4726f422e6",
+                "last_modified": null,
+                "metadata_modified": "2016-04-29T10:57:51.423576",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "conservation_areas",
+                "package_id": "874d96c2-b423-4a3f-b67d-8e5acbbf418b",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx?mapsource=smbc/stockport_inspire&TypeName=conservation_areas&version=1.1.0&request=GetFeature&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "2630ed2b-a291-47db-8c75-68f39cde5857"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c0c0bc58-259b-4993-92fc-6ba83fca9f4c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stockport Metropolitan Borough Council"
+            }
+        ]
+    }
+}

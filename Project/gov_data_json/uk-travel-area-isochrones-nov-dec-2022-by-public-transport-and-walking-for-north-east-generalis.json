@@ -1,0 +1,247 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "34c916b5-27fc-4992-abbd-8eba55a0549c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-09-20T22:18:52.357101",
+        "metadata_modified": "2024-11-17T07:11:31.167193",
+        "name": "uk-travel-area-isochrones-nov-dec-2022-by-public-transport-and-walking-for-north-east-generalis",
+        "notes": "<p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>This data is experimental, see the \u2018Access Constraints or User Limitations\u2019 section for more details. This dataset has been generalised to 10 metre resolution where it is still but the space needed for downloads will be improved.</font></span></p><p style='margin:12pt 0cm; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; background-image:initial; background-position:initial; background-size:initial; background-repeat:initial; background-attachment:initial; background-origin:initial; background-clip:initial;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>A set of UK wide estimated travel area geometries (isochrones), from Output Area (across England, Scotland, and Wales) and Small Area (across Northern Ireland) population-weighted centroids. The modes used in the isochrone calculations are limited to public transport and walking. Generated using Open Trip Planner routing software in combination with Open Street Maps and open public transport schedule data (UK and Ireland).</span></p><p style='margin:12pt 0cm; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; background-image:initial; background-position:initial; background-size:initial; background-repeat:initial; background-attachment:initial; background-origin:initial; background-clip:initial;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The geometries provide an estimate of reachable areas by public transport and on foot between 7:15am and 9:15am for a range of maximum travel durations (15, 30, 45 and 60 minutes). For England, Scotland and Wales, these estimates were generated using public transport schedule data for Tuesday 15<span style='font-family:inherit; font-size:0.70721em;'>th</span>\u00a0November 2022. For Northern Ireland, the date used is Tuesday 6<span style='font-family:inherit; font-size:0.70721em;'>th</span>\u00a0December 2022.</span></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>The data is made available as a set of ESRI shape files, in .zip format. This corresponds to a total of 18 files; one for Northern Ireland, one for Wales, twelve for England (one per English region, where London, South East and North West have been split into two files each) and four for Scotland (one per NUTS2 region, where the \u2018North-East\u2019 and \u2018Highlands and Islands\u2019 have been combined into one shape file, and South West Scotland has been split into two files).</font></span></p><p style='margin:12pt 0cm; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; background-image:initial; background-position:initial; background-size:initial; background-repeat:initial; background-attachment:initial; background-origin:initial; background-clip:initial;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The shape files contain the following attributes. For further details, see the \u2018Access Constraints or User Limitations\u2019 section:</span></p><table border='0' cellpadding='0' cellspacing='0' style='margin-bottom:1.5rem; width:1004px; background-image:initial; background-position:initial; background-size:initial; background-repeat:initial; background-attachment:initial; background-origin:initial; background-clip:initial; border-collapse:collapse; border-spacing:0px; border:1px solid rgb(204, 204, 204); font-size:0.875rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><tbody><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(68, 114, 196); border-right:none; padding:0cm 5.4pt; width:113.15pt; border-top:1pt solid rgb(68, 114, 196); border-bottom:1pt solid rgb(68, 114, 196); border-image:initial; background:rgb(68, 114, 196);' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><b><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:white;'>Attribute</span></b></p></td><td style='border-left:none; border-right:1pt solid rgb(68, 114, 196); padding:0cm 5.4pt; width:337.65pt; border-top:1pt solid rgb(68, 114, 196); border-bottom:1pt solid rgb(68, 114, 196); border-image:initial; background:rgb(68, 114, 196);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><b><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:white;'>Description</span></b></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none; background:rgb(217, 226, 243);' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>OA21CD or SA2011 or OA11CD</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219); background:rgb(217, 226, 243);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>England and Wales: The 2021 Output Area code.</span></p><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>Northern Ireland: The 2011 Small Area code.</span></p><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>Scotland: The 2011 Output Area code.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none;' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>centre_lat</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The population-weighted centroid latitude.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none; background:rgb(217, 226, 243);' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>centre_lon</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219); background:rgb(217, 226, 243);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The population-weighted centroid longitude.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none;' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>node_lat</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The latitude of the nearest Open Street Map \u201chighway\u201d node to the population-weighted centroid.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none; background:rgb(217, 226, 243);' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>node_lon</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219); background:rgb(217, 226, 243);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The longitude of the nearest Open Street Map \u201chighway\u201d node to the population-weighted centroid.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none;' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>node_dist</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The distance, in meters, between the population-weighted centroid and the nearest Open Street Map \u201chighway\u201d node.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none; background:rgb(217, 226, 243);' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>stop_lat</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219); background:rgb(217, 226, 243);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The latitude of the nearest public transport stop to the population-weighted centroid.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none;' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>stop_lon</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The longitude of the nearest public transport stop to the population-weighted centroid.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none; background:rgb(217, 226, 243);' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>stop_dist</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219); background:rgb(217, 226, 243);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The distance, in metres, between the population-weighted centroid and the nearest public transport stop.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none;' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>centre_in</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>Binary value (0 or 1), where 1 signifies the population-weighted centroid lies within the Output Area/Small Area boundary. 0 indicates the population-weighted centroid lies outside the boundary.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none; background:rgb(217, 226, 243);' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>node_in</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219); background:rgb(217, 226, 243);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>Binary value (0 or 1), where 1 signifies the nearest Open Street Map \u201chighway\u201d node lies within the Output Area/Small Area boundary. 0 indicates the nearest Open Street Map node lies outside the boundary.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none;' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>stop_in</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>Binary value (0 or 1), where 1 signifies the nearest public transport stop lies within the Output Area/Small Area boundary. 0 indicates the nearest transport stop lies outside the boundary.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none; background:rgb(217, 226, 243);' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>iso_cutoff</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219); background:rgb(217, 226, 243);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The maximum travel time, in seconds, to construct the reachable\u00a0area/isochrone. Values are either 900, 1800, 2700, or 3600 which correspond to 15, 30, 45, and 60 minute limits respectively.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none;' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>iso_date</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The date for which the isochrones were estimated, in YYYY-MM-DD format.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none; background:rgb(217, 226, 243);' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>iso_type</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219); background:rgb(217, 226, 243);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The start point from which the estimated isochrone was calculated. Valid values are:</span></p><p style='margin:12pt 0cm 0cm;'><i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>from_centroid:</span></i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>\u00a0calculated using population weighted centroid.</span></p><p style='margin:12pt 0cm 0cm;'><i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>from_node:<b>\u00a0</b></span></i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>calculated using the nearest Open Street Map \u201chighway\u201d node.</span></p><p style='margin:12pt 0cm 0cm;'><i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>from_stop</span></i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>: calculated using the nearest public transport stop.</span></p><p style='margin:12pt 0cm 0cm;'><i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>no_trip_found:</span></i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>\u00a0no isochrone was calculated.</span></p></td></tr><tr style='border-bottom:1px solid rgb(204, 204, 204);'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none;' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>geometry</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The isochrone geometry.</span></p></td></tr><tr style='border-bottom:none;'><td style='border-left:1pt solid rgb(142, 170, 219); border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:113.15pt; border-bottom:1pt solid rgb(142, 170, 219); border-image:initial; border-top:none; background:rgb(217, 226, 243);' valign='top' width='151'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>iso_hectar</span></p></td><td style='border-left:none; border-right:1pt solid rgb(142, 170, 219); padding:0cm 5.4pt; width:337.65pt; border-top:none; border-bottom:1pt solid rgb(142, 170, 219); background:rgb(217, 226, 243);' valign='top' width='450'><p style='margin:12pt 0cm 0cm;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt; color:black;'>The area of the isochrone, in hectares.</span></p></td></tr></tbody></table><br /><div><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><b><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'>Access constraints or user limitations.</span></b></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>These data are experimental and will potentially have a wider degree of uncertainty. They remain subject to testing of quality, volatility, and ability to meet user needs. The methodologies used to generate them are still subject to modification and further evaluation.</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>These experimental data have been published with specific caveats outlined in this section. The data are shared with the analytical community with the purpose of benefitting from the community's scrutiny and in improving the quality and demand of potential future releases. There may be potential modification following user feedback on both its quality and suitability.</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>For England and Wales, where possible, the latest census 2021 Output Area population weighted centroids were used as the starting point from which isochrones were calculated.</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>For Northern Ireland, 2011 Small Area population weighted centroids were used as the starting point from which isochrones were calculated. Small Areas and Output Areas contain a similar number of households within their boundaries. 2011 data was used because this was the most up-to-date data available at the time of generating this dataset. Population weighted centroids for Northern Ireland were calculated internally but may be subject to change - in the future we aim to update these data to be consistent with Census 2021 across the UK.</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>For Scotland, 2011 Output Area population-weighted centroids were used as the starting point from which isochrones were calculated. 2011 data was used because this was the most up-to-date data available at the time of work.</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>The data for England, Scotland and Wales are released with the projection EPSG:27700 (British National Grid).</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>The data for Northern Ireland are released with the projection EPSG:29902 (Irish Grid).</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>The modes used in the isochrone calculations are limited to public transport and walking. Other modes were not considered when generating this data.</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><font color='#000000' style='font-family:inherit;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'>A maximum value of 1.5 kilometres walking distance was used when generating isochrones. This approximately represents typical walking distances during a commute (based on</span>\u00a0<span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><a href='https://www.gov.uk/government/statistical-data-sets/tsgb01-modal-comparisons#travel-to-work' style='color:rgb(0, 121, 193); text-decoration-line:none; font-family:inherit;' rel='nofollow ugc'>Department for Transport/Labour Force Survey</a>\u00a0data and\u00a0<a href='https://www.infrastructure-ni.gov.uk/articles/travel-survey-northern-ireland' style='color:rgb(0, 121, 193); text-decoration-line:none; font-family:inherit;' rel='nofollow ugc'>Travel Survey for Northern Ireland technical reports</a>).</span></font></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>When generating Northern Ireland data, public transport schedule data for both Northern Ireland and Republic of Ireland were used.</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>Isochrone geometries and calculated areas are subject to public transport schedule data accuracy, Open Trip Planner routing methods and Open Street Map accuracy. The location of the population-weighted centroid can also influence the validity of the isochrones, when this falls on land which is not possible or is difficult to traverse (e.g., private land and very remote locations).</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>The Northern Ireland public transport data were collated from several files, and as such required additional pre-processing. Location data are missing for two bus stops. Some services run by local public transport providers may also be missing. However, the missing data should have limited impact on the isochrone output. Due to the availability of Northern Ireland public transport data, the isochrones for Northern Ireland were calculated on a comparable but slight later date of 6<span style='font-family:inherit; font-size:0.70721em;'>th</span>\u00a0December 2022. Any potential future releases are likely to contained aligned dates between all four regions of the UK.</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>In cases where isochrones are not calculable from the population-weighted centroid, or when the calculated isochrones are unrealistically small, the nearest Open Street Map \u2018highway\u2019 node is used as an alternative starting point. If this then fails to yield a result, the nearest public transport stop is used as the isochrone origin. If this also fails to yield a result, the geometry will be \u2018None\u2019 and the \u2018iso_hectar\u2019 will be set to zero. The following information shows a further breakdown of the isochrone types for the UK as a whole:</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><font color='#000000' style='font-family:inherit;'><i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'>from_centroid:</span></i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'>\u00a099.8844%</span></font></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><font color='#000000' style='font-family:inherit;'><i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'>from_node:<b>\u00a0</b></span></i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'>0.0332%</span></font></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><font color='#000000' style='font-family:inherit;'><i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'>from_stop</span></i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'>: 0.0734%</span></font></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><font color='#000000' style='font-family:inherit;'><i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'>no_trip_found:</span></i><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'>\u00a00.0090%</span></font></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>The term \u2018unrealistically small\u2019 in the point above refers to outlier isochrones with a significantly smaller area when compared with both their neighbouring Output/Small Areas and the entire regional distribution. These reflect a very small fraction of circumstances whereby the isochrone extent was impacted by the centroid location and/or how Open Trip Planner handled them (e.g. remote location, private roads and/or no means of traversing the land). Analysis showed these outliers were consistently below 100 hectares for 60-minute isochrones. Therefore, In these cases, the isochrone point of origin was adjusted to the nearest node or stop, as outlined above.</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin-top:0px; margin-bottom:1.5rem;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>During the quality assurance checks, the extent of the isochrones was observed to be in good agreement with other routing software and within the limitations stated within this section. Additionally, the use of nearest node, nearest stop, and correction of \u2018unrealistically small areas\u2019 was implemented in a small fraction of cases only. This culminates in no data being available for 8 out of 239,768 Output/Small Areas.</font></span></p><p style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; margin:12pt 0cm; background-image:initial; background-position:initial; background-size:initial; background-repeat:initial; background-attachment:initial; background-origin:initial; background-clip:initial;'><span style='font-family:Helvetica, sans-serif; font-size:11.5pt;'><font color='#000000' style='font-family:inherit;'>Data is only available in ESRI shape file format (.zip) at this release.</font></span></p><p style='margin:12pt 0cm; background-image:initial; background-position:initial; background-size:initial; background-repeat:initial; background-attachment:initial; background-origin:initial; background-clip:initial;'><a href='https://www.openstreetmap.org/copyright' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.openstreetmap.org/copyright</a><font color='#000000'><br /></font></p></div>",
+        "num_resources": 6,
+        "num_tags": 6,
+        "organization": {
+            "id": "d5b50862-3f2a-4b7b-ad85-841b6def43be",
+            "name": "office-for-national-statistics",
+            "title": "Office for National Statistics",
+            "type": "organization",
+            "description": "The Office for National Statistics (ONS) is the UK\u2019s largest independent producer of official statistics and is the recognised national statistical institute for the UK. It is responsible for collecting and publishing statistics related to the economy, population and society at national, regional and local levels. It also conducts the census in England and Wales every ten years. \r\n\r\nThe ONS plays a leading role in national and international good practice in the production of official statistics. It is the executive office of the UK Statistics Authority and although they are separate, they are still closely related.\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:40.553767",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d5b50862-3f2a-4b7b-ad85-841b6def43be",
+        "private": false,
+        "state": "active",
+        "title": "UK Travel Area Isochrones (Nov/Dec 2022) by Public Transport and Walking for North East - Generalised to 10m",
+        "type": "dataset",
+        "url": "https://open-geography-portalx-ons.hub.arcgis.com/datasets/ons::uk-travel-area-isochrones-nov-dec-2022-by-public-transport-and-walking-for-north-east-generalised-to-10m",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2023-02-02T08:30:59.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2023-02-03T10:34:20.760Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "ONS Data Science Campus"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=8b4ab8cce9a745efa781d7859912d6cc&sublayer=0"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T08:23:08.327463",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "cbeafac1-2385-40da-9010-359452783728",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T08:23:08.283450",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "34c916b5-27fc-4992-abbd-8eba55a0549c",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://open-geography-portalx-ons.hub.arcgis.com/datasets/ons::uk-travel-area-isochrones-nov-dec-2022-by-public-transport-and-walking-for-north-east-generalised-to-10m",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-20T22:18:52.364838",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "29451314-f33c-42fd-9a91-60f3d9dba524",
+                "last_modified": null,
+                "metadata_modified": "2023-09-20T22:18:52.340610",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "34c916b5-27fc-4992-abbd-8eba55a0549c",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/North_East_Isochrones_Gen/FeatureServer/0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T22:04:23.908176",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "726ede21-fb3d-48de-8f78-ef984c46deb5",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T22:04:23.866059",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "34c916b5-27fc-4992-abbd-8eba55a0549c",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://open-geography-portalx-ons.hub.arcgis.com/api/download/v1/items/8b4ab8cce9a745efa781d7859912d6cc/csv?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T22:04:23.908181",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "6962854d-40de-4242-9a56-b291a66a8596",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T22:04:23.866153",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "34c916b5-27fc-4992-abbd-8eba55a0549c",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://open-geography-portalx-ons.hub.arcgis.com/api/download/v1/items/8b4ab8cce9a745efa781d7859912d6cc/geojson?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T22:04:23.908182",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "d3bedde1-656a-4b63-92c6-70414e7933b2",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T22:04:23.866232",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "34c916b5-27fc-4992-abbd-8eba55a0549c",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://open-geography-portalx-ons.hub.arcgis.com/api/download/v1/items/8b4ab8cce9a745efa781d7859912d6cc/shapefile?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T22:04:23.908183",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "5d635faa-9aee-4719-a930-54868e059c03",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T22:04:23.866309",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "34c916b5-27fc-4992-abbd-8eba55a0549c",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://open-geography-portalx-ons.hub.arcgis.com/api/download/v1/items/8b4ab8cce9a745efa781d7859912d6cc/kml?layers=0",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Access to Services",
+                "id": "d4e72c71-6fc2-48cf-a17e-fb9dcc45781e",
+                "name": "Access to Services",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Commuting",
+                "id": "0466ca46-b826-41de-bb1b-9d6be5a0a965",
+                "name": "Commuting",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Isochrones",
+                "id": "2ce7467a-3a03-470e-ae7a-f232ef3898c3",
+                "name": "Isochrones",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "PRD_ISO",
+                "id": "73f8b87d-fd0a-4099-84b7-6b53b4a03a7f",
+                "name": "PRD_ISO",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Public Transport",
+                "id": "11465fe3-2daa-4229-9f70-d731c0ded498",
+                "name": "Public Transport",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "UK travel areas",
+                "id": "ae3486d5-c2e7-490c-847c-bc006c1b711d",
+                "name": "UK travel areas",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "bd68e209-1628-46b0-9e1b-3c4455e7d9f4"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "d17fefd3-f723-4e12-becd-6b938795a9b3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "open-geography-portalx"
+            }
+        ]
+    }
+}

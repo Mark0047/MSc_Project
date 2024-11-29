@@ -1,0 +1,464 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.services@naturalengland.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-03-31T13:26:28.496754",
+        "metadata_modified": "2024-06-17T09:01:58.130573",
+        "name": "living-england-habitat-map-phase-4",
+        "notes": "The Living England project, led by Natural England, is a multi-year programme delivering a satellite-derived national habitat layer in support of the Environmental Land Management\u00a0(ELM) System\u00a0and the Natural Capital and Ecosystem Assessment (NCEA) Pilot. The project uses a machine learning approach to image classification, developed under the Defra Living Maps project (SD1705 \u2013 Kilcoyne\u00a0et al.,\u00a02017). The method first clusters homogeneous areas of habitat into segments, then assigns each segment to a defined list of habitat classes using Random Forest (a machine learning algorithm). The habitat probability map displays modelled likely broad habitat classifications, trained on field surveys and earth observation data from 2021 as well as historic data layers. This map is an output from Phase IV of the Living England project, with future work in Phase V (2022-23) intending to standardise the methodology and Phase VI (2023-24) to implement the agreed standardised methods.\n\nThe Living England habitat probability map will provide high-accuracy, spatially consistent data for a range of Defra policy delivery needs (e.g. 25YEP indicators and Environment Bill target reporting Natural capital accounting, Nature Strategy, ELM) as well as external users. As a probability map, it allows the extrapolation of data to areas that we do not have data. These data will also support better local and national decision making, policy development and evaluation, especially in areas where other forms of evidence are unavailable. \n\nProcess Description: A number of data layers are used to inform the model to provide a habitat probability map of England. The main sources layers are Sentinel-2 and Sentinel-1 satellite data from the ESA Copericus programme. Additional datasets were incorporated into the model (as detailed below) to aid the segmentation and classification of specific habitat classes.  \n\nDatasets used:\nAgri-Environment Higher Level Stewardship (HLS) Monitoring, British Geological Survey Bedrock Mapping 1:50k, Coastal Dune Geomatics Mapping Ground Truthing, Crop Map of England (RPA), Dark Peak Bog State Survey, Desktop Validation and Manual Points, EA Integrated Height Model 10m, EA Saltmarsh Zonation and Extent, Field Unit NEFU, Living England Collector App NEFU/EES, Long Term Monitoring Network (LTMN), Lowland Heathland Survey, National Forest Inventory (NFI), National Grassland Survey, National Plant Monitoring Scheme, NEFU Surveys, Northumberland Border Mires, OS Vector Map District , Priority Habitats Inventory (PHI) B Button, European Space Agency (ESA) Sentinel-1 and Sentinel-2 , Space2 Eye Lens: Ainsdale NNR, Space2 Eye Lens: State of the Bog Bowland Survey, Space2 Eye Lens: State of the Bog Dark Peak Condition Survey, Space2 Eye Lens: State of the Bog  (MMU) Mountain Hare Habitat Survey Dark Peak, Uplands Inventory, West Pennines Designation NVC Survey,  Wetland Inventories, WorldClim - Global Climate Data Attribution statement: \"Contains data supplied by \u00a9Natural England \u00a9Centre for Ecology and Hydrology, Natural England Licence No. 2011/052 British Geological  Survey \u00a9 NERC.  All rights reserved., \u00a9 Environment Agency copyright and/or database right 2015. All rights reserved.  \u00a9Natural England \u00a9 Crown copyright and database right [2014], \u00a9 Rural Payments Agency, \u00a9 Natural England \u00a9 1995\u20132020 Esri, Contains Environment Agency information \u00a9 Environment Agency and/or database rights. Some information used in this product is \u00a9 Bluesky International Ltd/Getmapping PLC. Contains freely available data supplied by Natural Environment Research Council (Centre for Ecology & Hydrology; British Antarctic Survey; British Geological Survey). Contains OS data \u00a9 Crown copyright [and database right] (2014), \u00a9 Environment Agency copyright and/or database right 2015. All rights reserved., Esri, Maxar, Earthstar Geographics, USDA FSA, USGS, Aerogrid, IGN, IGP, and the GIS User Community, Contains Ordnance Survey data \u00a9 Crown copyright and database right 2021., EODS / CEDA ARD: ESA Copernicus: 'Contains modified Copernicus Sentinel data [2021]', \u00a9 Carlos Bedson Manchester Metropolitan University, \u00a9 Copyright 2020, worldclim.org\"\n\nFick, S.E. and R.J. Hijmans, 2017. WorldClim 2: new 1km spatial resolution climate surfaces for global land areas. International Journal of Climatology 37 (12): 4302-4315.\n\nPescott, O.L.; Walker, K.J.; Day, J.; Harris, F.; Roy, D.B. (2020). National Plant Monitoring Scheme survey data (2015-2019). NERC Environmental Information Data Centre. https://doi.org/10.5285/cdb8707c-eed7-4da7-8fa3-299c65124ef2 \u00a9 UK Centre for Ecology & Hydrology \u00a9 Joint Nature Conservation Committee \u00a9 Plantlife \u00a9 Botanical Society of Britain and Ireland The following acknowledgement is required for use of this dataset: The National Plant Monitoring Scheme (NPMS) is organised and funded by the UK Centre for Ecology & Hydrology, Botanical Society of Britain and Ireland, Plantlife and the Joint Nature Conservation Committee. The NPMS is indebted to all volunteers who contribute data to the scheme.",
+        "num_resources": 13,
+        "num_tags": 1,
+        "organization": {
+            "id": "b1472b4f-b8c8-4ac2-9701-76995445f99b",
+            "name": "natural-england",
+            "title": "Natural England",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:10.959130",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b1472b4f-b8c8-4ac2-9701-76995445f99b",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1999-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Living England Habitat Map (Phase 4)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2022-03-31\"}, {\"type\": \"revision\", \"value\": \"2022-03-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "4aa716ce-f6af-454c-8ba2-833ebc1bde96"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "1f5aabcc-e2fb-4b14-b76c-6dc54c1c69e6"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Natural England (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "df4279a3-e684-4cd9-bfbd-ee77eae99a2f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Natural England DSP3 publication"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170659",
+                "description": "Edition 1 NERR108 Living England Satellite based habitat classification- Technical User Guide.pdf download on Defra Data Services Platform",
+                "format": "PDF",
+                "hash": "",
+                "id": "03d7b27b-e004-4e39-8ae4-a386e2e4128a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.136888",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Edition 1 NERR108 Living England Satellite based habitat classification- Technical User Guide.pdf",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=1e6bc6dd-ee15-4bf4-b913-9ccfdf557646&fileName=Edition 1 NERR108 Living England Satellite based habitat classification- Technical User Guide.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170662",
+                "description": "Living England Habitat Map Phase 4 Attribute Metadata.pdf download on Defra Data Services Platform",
+                "format": "PDF",
+                "hash": "",
+                "id": "26cfb19b-622e-4327-86e0-fc83fb7fa164",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.136985",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Living England Habitat Map Phase 4 Attribute Metadata.pdf",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=1e6bc6dd-ee15-4bf4-b913-9ccfdf557646&fileName=Living England Habitat Map Phase 4 Attribute Metadata.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170663",
+                "description": "Living England Habitat Map Phase 4 Spatial Metadata.pdf download on Defra Data Services Platform",
+                "format": "PDF",
+                "hash": "",
+                "id": "2a2d31ba-e667-421b-a663-a0ed85529e36",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.137071",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Living England Habitat Map Phase 4 Spatial Metadata.pdf",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=1e6bc6dd-ee15-4bf4-b913-9ccfdf557646&fileName=Living England Habitat Map Phase 4 Spatial Metadata.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170664",
+                "description": "Living_England_Habitat_Map_Phase_4.lyr download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "79c4093c-cbf6-4ad8-af40-45bf3df6f334",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.137137",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Living_England_Habitat_Map_Phase_4.lyr",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=1e6bc6dd-ee15-4bf4-b913-9ccfdf557646&fileName=Living_England_Habitat_Map_Phase_4.lyr",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170665",
+                "description": "OGL.url download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "43355da7-e532-4a57-a193-98346fbaaab6",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.137201",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGL.url",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=1e6bc6dd-ee15-4bf4-b913-9ccfdf557646&fileName=OGL.url",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170666",
+                "description": "ArcGIS Open Dataset record page",
+                "format": "",
+                "hash": "",
+                "id": "491b96a8-ee66-413b-91ee-fedd1d4bcba5",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.137265",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Open Dataset record page",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://naturalengland-defra.opendata.arcgis.com/datasets/Defra::living-england-habitat-map-phase-4/about",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170667",
+                "description": "Living England: Satellite-based habitat classification- Technical User Guide (NERR108)",
+                "format": "",
+                "hash": "",
+                "id": "400aabc8-2456-408b-89ab-505c8fd6b634",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.137328",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Technical User Guide (NERR108)",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://publications.naturalengland.org.uk/publication/4918342350798848",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170668",
+                "description": "Defra Data Services Platform WMS",
+                "format": "",
+                "hash": "",
+                "id": "1c99aa3c-549f-4a38-8c4a-9f3104819926",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.137390",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Defra Data Services Platform WMS",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/living-england-habitat-map-phase4/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170669",
+                "description": "Defra Data Services Platform WFS",
+                "format": "",
+                "hash": "",
+                "id": "788f2441-5ec8-4fd2-8074-7ef8f8d91488",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.137452",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Defra Data Services Platform WFS",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/living-england-habitat-map-phase4/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170670",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "7e755d15-faa9-424c-a11f-1fde13e0561d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.137515",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Defra Data Services Platform Download",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/4aa716ce-f6af-454c-8ba2-833ebc1bde96?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170671",
+                "description": "Living England Habitat Map (Phase 4) ESRI REST Map Server Endpoint",
+                "format": "",
+                "hash": "",
+                "id": "6fd30556-65ff-4a38-a5af-d4f42b9146bd",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.137576",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Living England Habitat Map (Phase 4) ESRI REST Map Server Endpoint",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/arcgis/rest/services/NE/LivingEnglandHabitatMapPhase4/MapServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170672",
+                "description": "Living England Habitat Map (Phase 4) ESRI REST Feature Server Endpoint",
+                "format": "",
+                "hash": "",
+                "id": "2fa7df32-98ac-4d23-b963-65466e9c2f39",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.137637",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Living England Habitat Map (Phase 4) ESRI REST Feature Server Endpoint",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 11,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/arcgis/rest/services/NE/BiogeographicZonesLivingEngland2021Phase4/FeatureServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-17T09:01:58.170673",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "78165f1a-4d57-4057-ad7d-d7385028a0ff",
+                "last_modified": null,
+                "metadata_modified": "2024-06-17T09:01:58.137698",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "e207e1b3-72e2-4b6a-8aec-0c7b8bb9998c",
+                "position": 12,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/living-england-habitat-map-phase4/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "28080585-8dce-4dcb-9f6c-3488d823e522"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "df4279a3-e684-4cd9-bfbd-ee77eae99a2f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Natural England DSP3 publication"
+            }
+        ]
+    }
+}

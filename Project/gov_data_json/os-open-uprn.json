@@ -1,0 +1,239 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "customerservices@ordnancesurvey.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "c4f80d19-8cfa-4bf6-a283-83183842f876",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-11-05T14:55:25.076521",
+        "metadata_modified": "2024-10-18T17:01:09.828181",
+        "name": "os-open-uprn",
+        "notes": "A Unique Property Reference Number (UPRN) is a unique numeric identifier for every addressable location in Great Britain, found in OS's AddressBase products. An addressable location may be any kind of building, residential or commercial, or it may be an object that might not have a \u2018postal \u2019 address \u2013 such as a bus shelter. \n\nOrdnance Survey's Open Unique Property Reference Product will enable you to share and link data related to UPRNs, which you can visualise using the accurate location.\n\nUPRNs are the authoritative identifier used to uniquely identify addressable locations in Great Britain. Essential for bringing property and address information together.",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "776f0897-ded1-411a-88c6-e8687ccf3875",
+            "name": "ordnance-survey",
+            "title": "Ordnance Survey",
+            "type": "organization",
+            "description": "Ordnance Survey is Great Britain\u2019s national mapping agency. It carries out the official surveying of GB, providing the most accurate and up-to-date geographic data, relied on by government, business and individuals.\r\n\r\nOS is a government owned company, accountable to Department for Business, Innovation & Skills\r\n\r\nhttps://os.uk/\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:53:10.634259",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "776f0897-ded1-411a-88c6-e8687ccf3875",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2020-11-30"
+        ],
+        "title": "OS Open UPRN",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.86"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.86"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.45"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2020-07-01\"}, {\"type\": \"revision\", \"value\": \"2021-01-07\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "649aa12c-8bcd-4ff2-9c02-0556a5be3d62"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f27fd3a0-9213-4ac8-84f7-28ed7b96d07f"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-10-02T15:06:34"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Ordnance Survey (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.86], [-8.45, 49.86], [-8.45, 60.86], [1.78, 60.86], [1.78, 49.86]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:01:09.855949",
+                "description": "Select format and download",
+                "format": "",
+                "hash": "",
+                "id": "a9f6d6ab-a948-412e-80d7-814c076041b4",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:01:09.833409",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OS DataHub Open UPRN",
+                "package_id": "c4f80d19-8cfa-4bf6-a283-83183842f876",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://osdatahub.os.uk/downloads/open/OpenUPRN",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:01:09.855951",
+                "description": "Web page with product description and links to guides",
+                "format": "",
+                "hash": "",
+                "id": "288eed11-ac0e-4f0e-ab5c-a24486cab760",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:01:09.833489",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Product description",
+                "package_id": "c4f80d19-8cfa-4bf6-a283-83183842f876",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://os.uk/products/os-open-uprn",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:01:09.855953",
+                "description": "OS Download API",
+                "format": "",
+                "hash": "",
+                "id": "8bb03539-9661-4a16-9343-a2d89b8286ad",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:01:09.833550",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OS Download API",
+                "package_id": "c4f80d19-8cfa-4bf6-a283-83183842f876",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://osmetadata.astuntechnology.com/geonetwork/srv/api/records/7987ab75-4f5a-4799-81b3-a9f747ee291e",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Addresses",
+                "id": "b050226a-5351-471c-9e73-73ba4ae794bb",
+                "name": "Addresses",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "UPRN",
+                "id": "90241250-bd19-496e-983b-bbbf095339e2",
+                "name": "UPRN",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "f27fd3a0-9213-4ac8-84f7-28ed7b96d07f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ]
+    }
+}

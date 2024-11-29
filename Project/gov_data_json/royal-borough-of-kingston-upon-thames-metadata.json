@@ -1,0 +1,141 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "dcf6175b-f148-4c3c-9bf6-5c6a40423709",
+        "frequency": "MANUAL",
+        "id": "203857bd-34cd-400e-afd0-62e5a8ab621b",
+        "metadata_created": "2020-07-23T08:39:58.131082",
+        "metadata_modified": "2023-07-11T14:32:49.507435",
+        "name": "royal-borough-of-kingston-upon-thames-metadata",
+        "notes": "WAF for UK Gemini INSPIRE Directive",
+        "organization": {
+            "id": "e7654f11-9ab6-4e78-8d79-df2446f4db9b",
+            "name": "royal-borough-of-kingston-upon-thames",
+            "title": "Royal Borough of Kingston upon Thames",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:19.987085",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e7654f11-9ab6-4e78-8d79-df2446f4db9b",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Royal Borough of Kingston upon Thames Metadata",
+        "type": "harvest",
+        "url": "https://maps.kingston.gov.uk/metadata/files/rbk/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 20,
+            "last_job": {
+                "id": "6d915268-dd11-4586-b678-f2adc110d768",
+                "created": "2023-07-14 08:33:39.298434",
+                "gather_started": "2023-07-14 08:33:39.883946",
+                "gather_finished": "2023-07-14 08:33:43.521877",
+                "finished": "2023-07-14 10:59:35.695715",
+                "source_id": "203857bd-34cd-400e-afd0-62e5a8ab621b",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 22,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}MD_Format': This element is not expected.",
+                        "error_count": 22
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 094e171b-f2e5-4554-baaa-6a4a35918fb7 (https://maps.kingston.gov.uk/metadata/files/rbk/metropolitan_open_land.xml) has a GUID f193a47d05f845569891c3a79bda3516 already in use by 321b3dcf-10d8-41f3-ac26-088a86bb44ea (https://maps-dev.kingston.gov.uk/websites/metadata/metropolitan_open_land.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 1372b3fe-e474-4f62-8df6-5de6c24d6138 (https://maps.kingston.gov.uk/metadata/files/rbk/sites_of_importance_for_nature_conservation.xml) has a GUID 3608ca80fcee4a57b517e8df23a1270f already in use by 234cec72-08b7-4d08-864e-7d310569a757 (https://maps-dev.kingston.gov.uk/websites/metadata/sites_of_importance_for_nature_conservation.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 1763ada5-7f31-4f27-872f-ed6760ac9366 (https://maps.kingston.gov.uk/metadata/files/rbk/local_nature_reserves.xml) has a GUID 86e75a0b770d4f1d8c1115886479945c already in use by b2981768-9566-41f9-a6cd-aeb8447b836f (https://maps-dev.kingston.gov.uk/websites/metadata/local_nature_reserves.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 18b92410-4556-40f1-a932-9312eebaf6d6 (https://maps.kingston.gov.uk/metadata/files/rbk/valuers.xml) has a GUID 772b78759e6f4d92b02343aab3c6c545 already in use by 5eba101c-dcd0-4722-a8e6-401ab2d1e401 (https://maps-dev.kingston.gov.uk/websites/metadata/valuers.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 2df2a000-367e-42a1-a381-f2931ffaebe1 (https://maps.kingston.gov.uk/metadata/files/rbk/tree_preservation_order_points.xml) has a GUID cc288d6bef7c4b00a577041c861d0cf1 already in use by f673a971-d401-4a0e-a664-314f7d654cae (https://maps-dev.kingston.gov.uk/websites/metadata/tree_preservation_order_points.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 3aa5779d-a23e-4b7f-9d64-f53267fff155 (https://maps.kingston.gov.uk/metadata/files/rbk/school_open_spaces.xml) has a GUID 5ab103a1e00b4f71a59da62dc4175413 already in use by e732dad1-8ede-4c2c-8329-d4c629d45733 (https://maps-dev.kingston.gov.uk/websites/metadata/school_open_spaces.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 5b9381e1-249c-4680-b4f6-79f9e97a47e2 (https://maps.kingston.gov.uk/metadata/files/rbk/strategic_industrial_locations.xml) has a GUID 965fb3500283422080858829874d3f57 already in use by c7e1758e-d903-4376-aee0-0174825dd58f (https://maps-dev.kingston.gov.uk/websites/metadata/strategic_industrial_locations.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 5dad93ed-1d4d-456c-81c0-261c3106fedc (https://maps.kingston.gov.uk/metadata/files/rbk/local_centre_boundaries.xml) has a GUID 7cd53be6a7d348129611b8cac6691b0a already in use by dea46bcd-4449-48c9-b1e4-78e6f140e18b (https://maps-dev.kingston.gov.uk/websites/metadata/local_centre_boundaries.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 62dcc26d-17df-4928-a27e-6041495c5e65 (https://maps.kingston.gov.uk/metadata/files/rbk/green_belt.xml) has a GUID f2d19af994d444a2bbfe99a4134be3ea already in use by e818d3ac-cc04-49e4-82d5-ff7297b93975 (https://maps-dev.kingston.gov.uk/websites/metadata/green_belt.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 665ceac4-3d89-4819-97b6-61dba083ea89 (https://maps.kingston.gov.uk/metadata/files/rbk/green_chains.xml) has a GUID 1e1c84ebf04e4ca2900aaa2bce687dde already in use by 1dca4ef5-fd54-43bf-97ab-86e05ebbf68e (https://maps-dev.kingston.gov.uk/websites/metadata/green_chains.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 7692899b-c6d5-4cc0-9d41-1a49bbd191b0 (https://maps.kingston.gov.uk/metadata/files/rbk/tree_preservation_order_polygons.xml) has a GUID 11ecea384db143eba0527922667ada9f already in use by 80faa5c7-c62a-497e-98b6-cae8e37bd6ec (https://maps-dev.kingston.gov.uk/websites/metadata/tree_preservation_order_polygons.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 7c38090c-557e-4b0b-97b4-9f0148931dce (https://maps.kingston.gov.uk/metadata/files/rbk/allotments.xml) has a GUID a423144e0dbd4a1286a7a0d105452454 already in use by 538688ce-f40e-4abd-b36e-75f81750a21c (https://maps-dev.kingston.gov.uk/websites/metadata/allotments.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 8fa7aded-1ff0-44c8-b4bd-da6406be7a8a (https://maps.kingston.gov.uk/metadata/files/rbk/green_corridors.xml) has a GUID b77198ddd4bc41e1963b165d4a6f5a3b already in use by 8318d110-e324-4592-83b5-ce766a787f3a (https://maps-dev.kingston.gov.uk/websites/metadata/green_corridors.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object 91bd25be-d62a-4854-9cc1-a1ea138e3b9c (https://maps.kingston.gov.uk/metadata/files/rbk/kingston_area_action_plan.xml) has a GUID a363cc5c5d014573b6423e229dd1bf7c already in use by f5cfd024-dd24-4e2b-8a15-56f1e9ce7907 (https://maps-dev.kingston.gov.uk/websites/metadata/kingston_area_action_plan.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object acf5b831-af45-43a5-8bed-2300167609e7 (https://maps.kingston.gov.uk/metadata/files/rbk/district_centre_inset_areas.xml) has a GUID 45a90277ada44802bae00982a0e050cb already in use by c0faa882-8cf7-468b-8050-3b6fd6416930 (https://maps-dev.kingston.gov.uk/websites/metadata/district_centre_inset_areas.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object b6c6aa14-a210-45db-8da8-adfdc1509a04 (https://maps.kingston.gov.uk/metadata/files/rbk/sites_of_special_scientific_interest.xml) has a GUID f1d21366ce894b7ba70df1e64124390d already in use by 90299e37-b6e8-4338-a9dc-341381c91445 (https://maps-dev.kingston.gov.uk/websites/metadata/sites_of_special_scientific_interest.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object be0a7bfe-0443-4b9b-968e-18b857ff38c5 (https://maps.kingston.gov.uk/metadata/files/rbk/thames_policy_area.xml) has a GUID ed4215fe17554f95b60705822c8f6728 already in use by 6f71f50a-a24c-46ad-b030-0e947ea0dd12 (https://maps-dev.kingston.gov.uk/websites/metadata/thames_policy_area.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object d17ae87a-c359-41e9-b143-2b71a6bd13f9 (https://maps.kingston.gov.uk/metadata/files/rbk/conservation_areas.xml) has a GUID 1632479811534r39396103233288615 already in use by 0e566bab-8fd7-4cf2-b5e3-4950d1765053 (https://maps-dev.kingston.gov.uk/websites/metadata/conservation_areas.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Harvest object d3bfc196-e8eb-4adf-abc9-c12248b96d92 (https://maps.kingston.gov.uk/metadata/files/rbk/local_open_spaces.xml) has a GUID 0396fb25ed4d4a77915781659de60d38 already in use by a9bc4320-bee0-4ced-b732-039cdbc316cb (https://maps-dev.kingston.gov.uk/websites/metadata/local_open_spaces.xml) in harvest source 203857bd-34cd-400e-afd0-62e5a8ab621b",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 22
+        }
+    }
+}

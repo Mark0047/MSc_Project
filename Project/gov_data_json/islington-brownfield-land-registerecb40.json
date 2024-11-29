@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "e49fea78-e7d4-4c2c-9828-6d5ff3908f47",
+        "metadata_created": "2019-01-23T11:47:46.994209",
+        "metadata_modified": "2024-02-01T14:36:27.938107",
+        "name": "islington-brownfield-land-registerecb40",
+        "notes": "",
+        "organization": {
+            "id": "5160f575-b652-4c47-9c4e-092ef70ac329",
+            "name": "london-borough-of-islington",
+            "title": "London Borough of Islington",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:19.546693",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "5160f575-b652-4c47-9c4e-092ef70ac329",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Islington Brownfield Land Register",
+        "type": "harvest",
+        "url": "https://www.islington.gov.uk/planning/brownfield-land-register",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2127,
+            "last_job": {
+                "id": "09e7a008-1ad7-4880-8aea-bc115dbd7106",
+                "created": "2024-11-02 18:00:05.682460",
+                "gather_started": "2024-11-02 18:00:07.214746",
+                "gather_finished": "2024-11-02 18:00:07.476462",
+                "finished": "2024-11-02 18:00:07.476462",
+                "source_id": "e49fea78-e7d4-4c2c-9828-6d5ff3908f47",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Couldn't find any links to metadata files",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

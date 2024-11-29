@@ -1,0 +1,237 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mapping.geodata@forestry.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "9bbc2a50-0fe0-430d-8037-15aafcf05fbb",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-12-10T13:26:36.700761",
+        "metadata_modified": "2024-05-09T06:10:58.539581",
+        "name": "coniferous-standing-sales-price-index-data-to-march-2019",
+        "notes": "Coniferous Standing Sales Price Index for years ending March 1985 to March 2019. The data also give underlying figures for volumes, total prices and average prices by average tree size in Great Britain.\n\nThe dataset provides supporting data to the National Statistics release Timber Price Indices.",
+        "num_resources": 2,
+        "num_tags": 5,
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Coniferous Standing Sales Price Index: data to March 2019",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.9"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2019-11-18\"}, {\"type\": \"publication\", \"value\": \"2019-05-16\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "biannually"
+            },
+            {
+                "key": "guid",
+                "value": "e268d922-b006-4a98-9665-5a91cb1f2af5"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "976f12be-a2dc-4d05-80e3-ed0424b5e6ed"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Contains Forestry Commission information licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Forestry Commission (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2, 49.9], [-8, 49.9], [-8, 61], [2, 61], [2, 49.9]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-09T06:10:58.582984",
+                "description": "Resource locator",
+                "format": "XLS",
+                "hash": "",
+                "id": "5220d44e-c23d-4cdf-9f58-b1449c18f9ee",
+                "last_modified": null,
+                "metadata_modified": "2024-05-09T06:10:58.546282",
+                "mimetype": "application/vnd.ms-excel",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "9bbc2a50-0fe0-430d-8037-15aafcf05fbb",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/data.defra.gov.uk/Forestry/FC_OpenData/Stats/csspi_to_Mar19.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-09T06:10:58.582989",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "1bff7963-abc3-4a12-8315-a56ee6f6d819",
+                "last_modified": null,
+                "metadata_modified": "2024-05-09T06:10:58.546394",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "9bbc2a50-0fe0-430d-8037-15aafcf05fbb",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.forestresearch.gov.uk/tools-and-resources/statistics/statistics-by-topic/timber-statistics/timber-price-indices/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "index",
+                "id": "099549bc-bf3a-4ec3-828f-362f985e8173",
+                "name": "index",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "price",
+                "id": "e3a6e0d4-154c-47d2-8447-debc704c1b7a",
+                "name": "price",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "statistics",
+                "id": "8c698bb4-2710-484f-b359-24911320640f",
+                "name": "statistics",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "timber",
+                "id": "f872a28f-beea-4eb6-b7c1-c838a14a3cbb",
+                "name": "timber",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "ae835a37-f7c1-466b-b57e-8a0f5846f2ec"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ]
+    }
+}

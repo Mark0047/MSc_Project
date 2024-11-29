@@ -1,0 +1,212 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "87fe9c23-bfc9-45c7-a297-5e80391b765e",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-09-22T11:28:18.035525",
+        "metadata_modified": "2016-05-10T13:51:40.315167",
+        "name": "association-managed-allotment-sites",
+        "notes": "<p>Details of all self managed allotment sites around the city. The dataset provides full postal address of sites along with plot sizes and numbers and any facilities.</p>\r\n<h2>Current charges for 2014/15:</h2>\r\n<ul>\r\n<li>&pound;38.50 FULL PLOT (250 m.sq.) RENT ONLY</li>\r\n<li>&pound;19.25 HALF PLOT (125 m.sq.) RENT ONLY</li>\r\n<li>&pound;9.63 QUARTER PLOT (63 m.sq.) RENT ONLY</li>\r\n</ul>",
+        "num_resources": 4,
+        "num_tags": 0,
+        "odi-certificate": "",
+        "organization": {
+            "id": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+            "name": "leeds-city-council",
+            "title": "Leeds City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:43.477436",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Association managed allotment sites",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "attribution",
+                "value": "<p>Click this link for information: <a href=\"http://www.leeds.gov.uk/opendata/Pages/Licences.aspx\" target=\"_blank\" rel=\"nofollow\">http://www.leeds.gov.uk/opendata/Pages/Licences.aspx</a>\r\n</p>"
+            },
+            {
+                "key": "dp_created",
+                "value": "2014-04-14T09:28:20"
+            },
+            {
+                "key": "dp_modified",
+                "value": "2016-04-04T14:17:22"
+            },
+            {
+                "key": "email_notify_author",
+                "value": "true"
+            },
+            {
+                "key": "email_notify_maintainer",
+                "value": "true"
+            },
+            {
+                "key": "guid",
+                "value": "87fe9c23-bfc9-45c7-a297-5e80391b765e"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d12a4e89-5863-42bf-a89f-4ab0d07378c5"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "is_developer_dataset",
+                "value": "false"
+            },
+            {
+                "key": "license_text",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-04"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://leedsdatamill.org/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2016-04-04T14:17:22\", \"harvest_source_title\": \"Leeds Data Mill\", \"activity_occurred\": \"2016-05-10T13:51:40.253268\", \"activity\": \"harvest\", \"harvested_guid\": \"87fe9c23-bfc9-45c7-a297-5e80391b765e\"}]"
+            },
+            {
+                "key": "next_review_date",
+                "value": "15/09/2016"
+            },
+            {
+                "key": "technical_documentation",
+                "value": ""
+            },
+            {
+                "key": "update_frequency_text",
+                "value": "Annually"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": "2015-10-14T01:00:05.298276",
+                "cache_url": null,
+                "created": "2015-09-15T10:10:43.747558",
+                "csvlint_json": "{\"in_progress\": false, \"data\": {\"num_errors\": 0, \"errors\": [], \"success\": true, \"warnings\": [{\"category\": \"context\", \"column\": null, \"body_html\": \"<p>The encoding of your CSV file is not being declared in the HTTP response.<br> We recommend that you configure your server to deliver CSV files with a <code>Content-Type</code> header of <code>text/csv; charset=utf-8</code><br> If you are using a different encoding, then use an appropriate value for the <code>charset</code> parameter.</p>\", \"content\": null, \"title_html\": \"Context problem: <strong>No encoding</strong>\", \"type\": \"no_encoding\", \"row\": null}], \"num_warnings\": 1, \"encoding\": null, \"valid\": true, \"content_type\": \"text/csv\", \"num_info_messages\": 1, \"schema_uri\": null, \"info_messages\": [{\"category\": \"structure\", \"column\": null, \"body_html\": \"<p>As there is no machine readable way to tell if your CSV has a header row, we have assumed that your CSV has one.</p>\", \"content\": null, \"title_html\": \"Structure problem: <strong>Assumed header</strong>\", \"type\": \"assumed_header\", \"row\": null}]}}",
+                "datastore_json": "{\"in_progress\": false, \"data\": {\"url\": \"http://api.datapress.io/api/3/action/datastore_search?resource_id=589ddce3-d4ed-4e5f-ba16-8431ef72b121\", \"message\": \"DataStore API updated successfully.\", \"success\": true}}",
+                "description": "Association managed allotment sites",
+                "format": "CSV",
+                "hash": "cd6793375806f6ea5ea99f8f20b44ff6",
+                "id": "589ddce3-d4ed-4e5f-ba16-8431ef72b121",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2015-09-15T10:10:43.747558",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "September 2015",
+                "package_id": "87fe9c23-bfc9-45c7-a297-5e80391b765e",
+                "position": 0,
+                "resource_type": null,
+                "size": 12624,
+                "state": "active",
+                "temporal_coverage_from": "01/04/2014",
+                "temporal_coverage_to": "01/04/2014",
+                "url": "https://aql.datapress.com/leeds/dataset/association-managed-allotment-sites/2015-09-15T10:12:30/SelfManagedSites Sept2015.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": "2015-10-14T01:00:07.569314",
+                "cache_url": null,
+                "created": "2014-09-30T12:01:57.610317",
+                "csvlint_json": "{}",
+                "datastore_json": "{}",
+                "description": "Association managed allotment sites",
+                "format": "CSV",
+                "hash": "8d5a83d66cec096ce18a847f646a4e43",
+                "id": "f18a572c-5c9b-43c7-a280-441946bb9eaa",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2014-09-30T12:01:57.610317",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "September 2014",
+                "package_id": "87fe9c23-bfc9-45c7-a297-5e80391b765e",
+                "position": 1,
+                "resource_type": "file",
+                "size": 13214,
+                "state": "active",
+                "temporal_coverage_from": "01/04/2014",
+                "temporal_coverage_to": "01/04/2014",
+                "url": "https://aql.datapress.com/leeds/dataset/association-managed-allotment-sites/copy-of-selfmanagedsites.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": "2015-10-14T01:00:06.456028",
+                "cache_url": null,
+                "created": "2014-07-08T15:09:59.719710",
+                "csvlint_json": "{}",
+                "datastore_json": "{}",
+                "description": "Association managed allotment sites",
+                "format": "CSV",
+                "hash": "b1a513136dca6761813c3b8595b748db",
+                "id": "a5a37a31-c6be-4edd-986b-2b44cfd27e22",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2014-07-08T15:09:59.719710",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "July 2014",
+                "package_id": "87fe9c23-bfc9-45c7-a297-5e80391b765e",
+                "position": 2,
+                "resource_type": "file",
+                "size": 13077,
+                "state": "active",
+                "temporal_coverage_from": "07/07/2014",
+                "temporal_coverage_to": "07/07/2014",
+                "url": "https://aql.datapress.com/leeds/dataset/association-managed-allotment-sites/selfmanaged.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": "2015-10-14T01:00:08.668112",
+                "cache_url": null,
+                "created": "2014-04-14T11:57:47.202047",
+                "csvlint_json": "{}",
+                "datastore_json": "{}",
+                "description": "Association managed allotment sites",
+                "format": "CSV",
+                "hash": "b1a513136dca6761813c3b8595b748db",
+                "id": "efe4c7f8-e1d4-448b-a326-e21616d1b518",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2014-04-14T11:57:47.202047",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "April 2014",
+                "package_id": "87fe9c23-bfc9-45c7-a297-5e80391b765e",
+                "position": 3,
+                "resource_type": "file",
+                "size": 13077,
+                "state": "active",
+                "temporal_coverage_from": "01/04/2014",
+                "temporal_coverage_to": "01/04/2014",
+                "url": "https://aql.datapress.com/leeds/dataset/association-managed-allotment-sites/selfmanaged.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

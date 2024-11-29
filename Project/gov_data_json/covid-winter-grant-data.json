@@ -1,0 +1,196 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "d9f7a5f6-68a4-47cf-ac2a-20723b399c50",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2023-02-08T16:06:40.120471",
+        "metadata_modified": "2023-04-06T12:54:51.553411",
+        "name": "covid-winter-grant-data",
+        "notes": "<p>The Covid Winter Grant (CWG) was a fund provided by the Department for Work and Pensions and administered by local authorities in England.</p><p>The purpose of the grant was to support those households which had been economically affected by the COVID pandemic and sought to provide immediate short term relief in the form of awards to these people.</p><p>The criteria for allocation of funds was dictated by the DWP and awards could be given to support the provision of food, payments of energy and water bills and other essential items required during the winter period.</p><p>The scheme ran from the 1st December 2020 through to 31st March 2021.</p><p>The data provided in this set highlights how Leicester City Council distributed the grant received showing the number of awards made, number of rejections and spend under the DWP categories.</p><p>This grant was also used to directly fund the provision of Free School Meals during the school holidays (Christmas break and February half term break) and this is highlighted in the dataset under \"Direct Awards\".</p><p>The dataset also shows a map detailing how the fund was distributed across the wards of Leicester and\u00a0 there is also a supporting data set named \"COVID Winter Grant Ward Data\" which also provides this more granular information.</p>",
+        "num_resources": 2,
+        "num_tags": 5,
+        "organization": {
+            "id": "428e76b4-8690-4d64-8586-a4e748c487d5",
+            "name": "leicester-city-council",
+            "title": "Leicester City Council",
+            "type": "organization",
+            "description": "Leicester City Council is the unitary authority serving the people, communities and businesses of Leicester.",
+            "image_url": "",
+            "created": "2013-09-05T10:56:36.089623",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "428e76b4-8690-4d64-8586-a4e748c487d5",
+        "private": false,
+        "state": "active",
+        "title": "COVID Winter Grant Data",
+        "type": "dataset",
+        "url": "https://data.leicester.gov.uk/explore/dataset/covid-winter-grant/",
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/covid-winter-grant"
+            },
+            {
+                "key": "identifier",
+                "value": "covid-winter-grant@leicester"
+            },
+            {
+                "key": "issued",
+                "value": "2022-06-29T08:50:47+00:00"
+            },
+            {
+                "key": "language",
+                "value": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]"
+            },
+            {
+                "key": "modified",
+                "value": "2022-06-29T08:50:47+00:00"
+            },
+            {
+                "key": "publisher_name",
+                "value": "Leicester City Council"
+            },
+            {
+                "key": "publisher_uri",
+                "value": "https://data.leicester.gov.uk/explore/?refine.publisher=Leicester+City+Council"
+            },
+            {
+                "key": "theme",
+                "value": "[\"https://data.leicester.gov.uk/explore/?refine.theme=City+%26+Governance\", \"https://data.leicester.gov.uk/explore/?refine.theme=Public+Safety+%26+Wellbeing\"]"
+            },
+            {
+                "key": "uri",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/covid-winter-grant"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b7e1f1cd-8196-4a96-ab56-d3782eed6ca1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-winter-grant/exports/csv",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:06:40.123231",
+                "description": "COVID Winter Grant Data (csv)",
+                "format": "https://www.iana.org/assignments/media-types/text/csv",
+                "hash": "",
+                "id": "8ac8860c-4fb8-4fed-97ab-cbe01daead01",
+                "issued": "2022-06-29T08:50:47+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-02-08T16:06:40.107599",
+                "mimetype": "https://www.iana.org/assignments/media-types/text/csv",
+                "mimetype_inner": null,
+                "modified": "2022-06-29T08:50:47+00:00",
+                "name": "csv",
+                "package_id": "d9f7a5f6-68a4-47cf-ac2a-20723b399c50",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/covid-winter-grant-csv",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-winter-grant/exports/csv",
+                "url_type": null
+            },
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-winter-grant/exports/json",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:06:40.123234",
+                "description": "COVID Winter Grant Data (json)",
+                "format": "https://www.iana.org/assignments/media-types/application/json",
+                "hash": "",
+                "id": "987fca7d-a64c-40f2-9084-0895e17a7e21",
+                "issued": "2022-06-29T08:50:47+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-02-08T16:06:40.107756",
+                "mimetype": "https://www.iana.org/assignments/media-types/application/json",
+                "mimetype_inner": null,
+                "modified": "2022-06-29T08:50:47+00:00",
+                "name": "json",
+                "package_id": "d9f7a5f6-68a4-47cf-ac2a-20723b399c50",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/covid-winter-grant-json",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/covid-winter-grant/exports/json",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "COVID-19",
+                "id": "d4f92fad-a940-41b3-a1eb-60cee8940ddb",
+                "name": "COVID-19",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Coronavirus",
+                "id": "9c62ea88-6443-42d5-bf20-b79002ab8e09",
+                "name": "Coronavirus",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Covid",
+                "id": "024f3a8e-9e07-427b-98e8-5aad0599fa12",
+                "name": "Covid",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Financial Support",
+                "id": "06bdb74c-8ac7-43fa-b450-ff61f7a8363e",
+                "name": "Financial Support",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Support",
+                "id": "8a1d08a7-c5b4-42c7-867b-0a5be512618a",
+                "name": "Support",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b7e1f1cd-8196-4a96-ab56-d3782eed6ca1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ]
+    }
+}

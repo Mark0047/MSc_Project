@@ -1,0 +1,212 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "stuart.carter@southwark.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "4db0bdef-bd6d-432a-9cd4-38bafcb6c90e",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2016-05-09T13:48:39.932503",
+        "metadata_modified": "2017-10-09T08:34:09.131993",
+        "name": "controlled-parking-zones-in-the-london-borough-of-southwark",
+        "notes": "Polygon dataset of Southwark Council's controlled parking zones (CPZs)",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "9ed34001-ef74-483a-b952-5bda217f37bd",
+            "name": "southwark-london-borough-council",
+            "title": "Southwark London Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-12T17:24:35.232608",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9ed34001-ef74-483a-b952-5bda217f37bd",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2013-11-01"
+        ],
+        "temporal_coverage-to": [
+            "2013-12-31"
+        ],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [
+            "Transport"
+        ],
+        "title": "Controlled Parking Zones",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\", \"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/end-user-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.1506"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.5103"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.4958"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.06650000000000002"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2013-12-06\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "cd00246a-d12a-4486-a067-b96cd9bdb499"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c7d0b5b8-8eb3-482f-8226-2955c319f145"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.misoportal.com/metadata/files/southwark/Controlled%20Parking%20Zones2.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "No Conditions Apply; Personal Use; PSMA Sharing Constraint"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-10-09"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Southwark Council (resourceProvider)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.1506, 51.4958],[-0.1506, 51.5103], [-0.06650000000000002, 51.5103], [-0.06650000000000002, 51.4958], [-0.1506, 51.4958]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "OSGB 1936 / British National Grid (EPSG:27700)"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "74c5931b-e8f4-40b8-92f2-6ad5d9ffa301"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Southwark Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-09T09:34:06.992640",
+                "description": "information",
+                "format": "WMS",
+                "hash": "",
+                "id": "00682e6b-d527-4061-9829-c010a5c6bd87",
+                "last_modified": null,
+                "metadata_modified": "2017-10-09T09:34:06.992640",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "4db0bdef-bd6d-432a-9cd4-38bafcb6c90e",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/southwark_council_controlled_parking_zones_southwark_polygon/wms?request=getCapabilities",
+                "url_type": null,
+                "wms_base_urls": "http://inspire.misoportal.com:80/geoserver/southwark_council_controlled_parking_zones_southwark_polygon/ows"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-09T09:34:06.992667",
+                "description": "download",
+                "format": "",
+                "hash": "",
+                "id": "5139f1fb-60bc-4d93-b878-da97cb5a8e92",
+                "last_modified": null,
+                "metadata_modified": "2017-10-09T09:34:06.992667",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "4db0bdef-bd6d-432a-9cd4-38bafcb6c90e",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/southwark_council_controlled_parking_zones_southwark_polygon/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c7d0b5b8-8eb3-482f-8226-2955c319f145"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "74c5931b-e8f4-40b8-92f2-6ad5d9ffa301"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Southwark Council"
+            }
+        ]
+    }
+}

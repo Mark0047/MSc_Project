@@ -1,0 +1,89 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "9675a228-4622-49e0-9cc6-9df26c67bf5b",
+        "metadata_created": "2019-01-23T11:26:15.175854",
+        "metadata_modified": "2019-01-23T11:26:15.175865",
+        "name": "knowsley-inspire-data",
+        "notes": "",
+        "organization": {
+            "id": "8ac3ac07-b93a-4b6d-97d7-9b86525d1e86",
+            "name": "knowsley-borough-council",
+            "title": "Knowsley Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-05-12T16:38:48.863417",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8ac3ac07-b93a-4b6d-97d7-9b86525d1e86",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Knowsley Inspire Data",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/8ac3ac07-b93a-4b6d-97d7-9b86525d1e86/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 17,
+            "last_job": {
+                "id": "c51a56c0-05d0-4151-95b6-ce4adbc7f635",
+                "created": "2018-10-01 07:54:07.033091",
+                "gather_started": "2018-10-01 07:54:13.518271",
+                "gather_finished": "2018-10-01 07:54:14.650127",
+                "finished": "2018-10-01 07:54:45.448578",
+                "source_id": "9675a228-4622-49e0-9cc6-9df26c67bf5b",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 1,
+                    "errored": 7,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error importing Gemini document\nThe contents of document with GUID 5723f0cf-07e8-48ef-acc4-b1a3fc3bf3c3 changed, but the metadata date has not been updated.\nDiff:\n--- \n\n+++ \n\n@@ -1,4 +1,4 @@\n\n-<gmd:MD_Metadata xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n+<gmd:MD_Metadata xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n     <gmd:fileIdentifier>\n         <gco:CharacterString>5723f0cf-07e8-48ef-acc4-b1a3fc3bf3c3</gco:CharacterString>\n     </gmd:fileIdentifier>",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document\nThe contents of document with GUID 6b8c1efb-a376-4b6b-93bb-71accffcd278 changed, but the metadata date has not been updated.\nDiff:\n--- \n\n+++ \n\n@@ -1,4 +1,4 @@\n\n-<gmd:MD_Metadata xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n+<gmd:MD_Metadata xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n     <gmd:fileIdentifier>\n         <gco:CharacterString>6b8c1efb-a376-4b6b-93bb-71accffcd278</gco:CharacterString>\n     </gmd:fileIdentifier>",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document\nThe contents of document with GUID 90fa206c-d662-446e-8f1b-452f9c590620 changed, but the metadata date has not been updated.\nDiff:\n--- \n\n+++ \n\n@@ -1,4 +1,4 @@\n\n-<gmd:MD_Metadata xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n+<gmd:MD_Metadata xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n     <gmd:fileIdentifier>\n         <gco:CharacterString>90fa206c-d662-446e-8f1b-452f9c590620</gco:CharacterString>\n     </gmd:fileIdentifier>",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document\nThe contents of document with GUID 98d2c8b6-286f-42c2-8728-846bfeb3d580 changed, but the metadata date has not been updated.\nDiff:\n--- \n\n+++ \n\n@@ -1,4 +1,4 @@\n\n-<gmd:MD_Metadata xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n+<gmd:MD_Metadata xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n     <gmd:fileIdentifier>\n         <gco:CharacterString>98d2c8b6-286f-42c2-8728-846bfeb3d580</gco:CharacterString>\n     </gmd:fileIdentifier>",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document\nThe contents of document with GUID a8ad3f3d-6863-4f07-ac6c-122f7a499e66 changed, but the metadata date has not been updated.\nDiff:\n--- \n\n+++ \n\n@@ -1,4 +1,4 @@\n\n-<gmd:MD_Metadata xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n+<gmd:MD_Metadata xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n     <gmd:fileIdentifier>\n         <gco:CharacterString>a8ad3f3d-6863-4f07-ac6c-122f7a499e66</gco:CharacterString>\n     </gmd:fileIdentifier>",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document\nThe contents of document with GUID dd0a0f33-06b6-48cb-abe0-a591e75f994c changed, but the metadata date has not been updated.\nDiff:\n--- \n\n+++ \n\n@@ -1,4 +1,4 @@\n\n-<gmd:MD_Metadata xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n+<gmd:MD_Metadata xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n     <gmd:fileIdentifier>\n         <gco:CharacterString>dd0a0f33-06b6-48cb-abe0-a591e75f994c</gco:CharacterString>\n     </gmd:fileIdentifier>",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document\nThe contents of document with GUID eb16a4fb-fe1c-4a08-86cd-f3520d99ef37 changed, but the metadata date has not been updated.\nDiff:\n--- \n\n+++ \n\n@@ -1,4 +1,4 @@\n\n-<gmd:MD_Metadata xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n+<gmd:MD_Metadata xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:gmx=\"http://www.isotc211.org/2005/gmx\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.isotc211.org/2005/gmx http://eden.ign.fr/xsd/isotc211/isofull/20090316/gmx/gmx.xsd\">\n     <gmd:fileIdentifier>\n         <gco:CharacterString>eb16a4fb-fe1c-4a08-86cd-f3520d99ef37</gco:CharacterString>\n     </gmd:fileIdentifier>",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 9
+        }
+    }
+}

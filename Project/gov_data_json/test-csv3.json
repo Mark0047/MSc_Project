@@ -1,0 +1,163 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "ba771d33-28b9-4b06-aa08-81c729d56f52",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-10-15T19:38:25.571437",
+        "metadata_modified": "2021-09-03T15:31:47.837689",
+        "name": "test-csv3",
+        "notes": "{{default.description}}",
+        "num_resources": 4,
+        "num_tags": 2,
+        "organization": {
+            "id": "1e7050e1-8370-4676-bb15-7630b806a8d2",
+            "name": "tunbridge-wells-borough-council",
+            "title": "Tunbridge Wells Borough Council",
+            "type": "organization",
+            "description": "Tunbridge Wells Borough Council Open Data on http://data.gov.uk",
+            "image_url": "",
+            "created": "2014-02-10T14:10:09.070629",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1e7050e1-8370-4676-bb15-7630b806a8d2",
+        "private": false,
+        "state": "active",
+        "title": "Test CSV",
+        "type": "dataset",
+        "url": "https://opendatanew-tunbridgewells.opendata.arcgis.com/datasets/03a9ec16cca74790a240ec26b8a12c4f_0",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2020-09-03T12:10:50.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2020-09-03T12:13:31.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Tunbridge Wells Borough Council"
+            },
+            {
+                "key": "guid",
+                "value": "https://opendatanew-tunbridgewells.opendata.arcgis.com/datasets/03a9ec16cca74790a240ec26b8a12c4f_0"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-10-15T19:38:25.611111",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "72c3c524-489f-4c7d-8b6e-c19e54cf33c7",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:16:38.177950",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "ba771d33-28b9-4b06-aa08-81c729d56f52",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendatanew-tunbridgewells.opendata.arcgis.com/datasets/03a9ec16cca74790a240ec26b8a12c4f_0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-10-15T19:38:25.611116",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "ea331580-7070-4a5d-95b1-e309db01d135",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:16:38.178067",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "ba771d33-28b9-4b06-aa08-81c729d56f52",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://services.arcgis.com/tghlG7ZjtJZbhYYT/arcgis/rest/services/Test_CSV/FeatureServer/0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-10-15T19:38:25.611118",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "a12fbcda-3918-4b5f-8327-d2766cca8e49",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:16:38.178170",
+                "mimetype": "application/json",
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "ba771d33-28b9-4b06-aa08-81c729d56f52",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendatanew-tunbridgewells.opendata.arcgis.com/datasets/03a9ec16cca74790a240ec26b8a12c4f_0.geojson",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-10-15T19:38:25.611120",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "8a635c9b-4031-4fe8-b0fa-380d9d36d99d",
+                "last_modified": null,
+                "metadata_modified": "2021-08-06T13:16:38.178267",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "ba771d33-28b9-4b06-aa08-81c729d56f52",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendatanew-tunbridgewells.opendata.arcgis.com/datasets/03a9ec16cca74790a240ec26b8a12c4f_0.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Card",
+                "id": "131102e4-cbbf-48a1-94ab-b00389cfdcf3",
+                "name": "Card",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "test",
+                "id": "64b98e41-f895-4f3b-bee1-1dce25743375",
+                "name": "test",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

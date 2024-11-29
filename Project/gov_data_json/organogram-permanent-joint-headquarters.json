@@ -1,0 +1,106 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "20cb3791-3a0e-4582-8981-58ebafe82619",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "a8e8c700-6d27-484a-a2f2-2cbad7e452a5",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-09-30T23:46:44.723477",
+        "metadata_modified": "2016-09-30T23:46:50.007464",
+        "name": "organogram-permanent-joint-headquarters",
+        "notes": "Organogram (organisation chart) showing all staff roles. Names and salaries are also listed for the Senior Civil Servants.\r\n\r\nOrganogram data is released by all central government departments and their agencies since 2010. Snapshots for 31st March and 30th September are published by 6th June and 6th December each year. The published data is validated and released in CSV format and OGL-licensed for reuse. For more information about this series, see: http://guidance.data.gov.uk/organogram-data.html",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "e42ea777-dab3-48ee-9f2c-4599b5cce61c",
+            "name": "permanent-joint-headquarters",
+            "title": "Permanent Joint Headquarters",
+            "type": "organization",
+            "description": "The PJHQ, based in Northwood, commanded joint and combined military operations and provides politically aware military advice to the MOD.",
+            "image_url": "",
+            "created": "2016-03-15T15:30:41.277954",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e42ea777-dab3-48ee-9f2c-4599b5cce61c",
+        "private": false,
+        "schema-vocabulary": "d3c0b23f-6979-45e4-88ed-d2ab59b005d0",
+        "state": "active",
+        "temporal_coverage-from": 2010,
+        "theme-primary": "government-spending",
+        "title": "Organogram of Staff Roles & Salaries",
+        "type": "dataset",
+        "update_frequency": "biannually",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "date",
+                "value": "30/09/2011"
+            },
+            {
+                "key": "import_source",
+                "value": "organograms_v2"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T00:46:48.197477",
+                "date": "2011-09-30",
+                "description": "Organogram - Junior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "b8e8d8a3-6f94-41c6-9f11-e5139bce0fa8",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T00:46:48.197477",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "a8e8c700-6d27-484a-a2f2-2cbad7e452a5",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/permanent-joint-headquarters/30/09/2011/ministry-of-defence__30-09-2011__mod_20111116-New_PJHQ_staff_and_salary_data_Release3-U-4--junior.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T00:46:49.260697",
+                "date": "2011-09-30",
+                "description": "Organogram - Senior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "7cd998fb-8038-4f04-9d62-0262bb572f1c",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T00:46:49.260697",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "a8e8c700-6d27-484a-a2f2-2cbad7e452a5",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/permanent-joint-headquarters/30/09/2011/ministry-of-defence__30-09-2011__mod_20111116-New_PJHQ_staff_and_salary_data_Release3-U-4--senior.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,201 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "customerservices@os.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "71621a2f-7e1a-410a-a722-92fa664d77c3",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-09-28T14:01:13.379221",
+        "metadata_modified": "2024-10-18T17:00:52.722642",
+        "name": "railway-node",
+        "notes": "A point spatial object that is used to break up the Railway Network for connectivity. The Railway Network splits for the following circumstances:\nThe location where an attribute changes\nThe intersection or crossing of Railway Links\nThe start / end of a Railway Link",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "776f0897-ded1-411a-88c6-e8687ccf3875",
+            "name": "ordnance-survey",
+            "title": "Ordnance Survey",
+            "type": "organization",
+            "description": "Ordnance Survey is Great Britain\u2019s national mapping agency. It carries out the official surveying of GB, providing the most accurate and up-to-date geographic data, relied on by government, business and individuals.\r\n\r\nOS is a government owned company, accountable to Department for Business, Innovation & Skills\r\n\r\nhttps://os.uk/\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:53:10.634259",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "776f0897-ded1-411a-88c6-e8687ccf3875",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1900"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Railway Node",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"NGD data is available via OS Partners and to PSGA members\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.92"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.94"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.79"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.82"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2023-09-27\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "Monthly"
+            },
+            {
+                "key": "guid",
+                "value": "18a69993-e7c2-4025-ae16-3290bb037256"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4438e507-94ce-4218-8903-0c766599e39b"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-09-29T05:19:21"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Ordnance Survey"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Ordnance Survey (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.92, 49.79], [-8.82, 49.79], [-8.82, 60.94], [1.92, 60.94], [1.92, 49.79]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:52.742048",
+                "description": "Sign up for API and Select+Build",
+                "format": "",
+                "hash": "",
+                "id": "7d749db4-a98f-4f5a-b8f9-37bbb68d4dcc",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:52.728237",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OS DataHub",
+                "package_id": "71621a2f-7e1a-410a-a722-92fa664d77c3",
+                "position": 0,
+                "resource_locator_function": "order",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://osdatahub.os.uk/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-18T17:00:52.742050",
+                "description": "detailed feature type description",
+                "format": "",
+                "hash": "",
+                "id": "2493a41d-5675-47b4-a869-eff1037cf842",
+                "last_modified": null,
+                "metadata_modified": "2024-10-18T17:00:52.728317",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Product description",
+                "package_id": "71621a2f-7e1a-410a-a722-92fa664d77c3",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://osngd.gitbook.io/osngd/data-structure/transport/transport-network/railway-node",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4438e507-94ce-4218-8903-0c766599e39b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ]
+    }
+}

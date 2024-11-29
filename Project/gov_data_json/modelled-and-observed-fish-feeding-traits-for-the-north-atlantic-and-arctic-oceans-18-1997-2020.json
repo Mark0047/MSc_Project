@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "3cccf482-e259-44be-848e-18ccbc472d8d",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:23:13.424572",
+        "metadata_modified": "2024-09-10T08:23:13.424575",
+        "name": "modelled-and-observed-fish-feeding-traits-for-the-north-atlantic-and-arctic-oceans-18-1997-2020",
+        "notes": "The data we provide here have been assembled to categorise fish into feeding \nguilds and determine change in populations of fish with different feeding \ntraits relevant to food web status assessment advocated by OSPAR. We provide \nfour datasets: the first is a csv file titled \u2018stomach data observations\u2019 \ncontains observations from fish stomach contents of individual prey weight, \nprey functional group (i.e., zooplankton, benthos, fish, nekton and other), \npredator taxonomy, predator size, and the region and year the samples were \ncollected (Table 1; see Column_headers_readme.txt); the second is a csv file \ntitled \u2018modelled stomach data\u2019 provides predictions from a linear mixed \neffects model of individual prey weight based on those stomach contents \nobservations, alongside modelled estimates of prey counts and biomass which \nenable the full collation of stomach contents information to be used in our \nfeeding guild classification (Table 2; feeding guilds are predatory categories \nassigned using cluster analysis on stomach content data; see Thompson et al., \n2023); the third dataset is a shapefile titled \u2018feeding guild responses in \nsurvey data\u2019 and provides haul-level estimates of feeding guild species \nrichness, numbers of fish and their biomass based on scientific trawl surveys \nfrom the Northeast Atlantic (Tables 3-4); the fourth is a shapefile titled \n\u2018temporal changes in feeding guilds\u2019 which contains correlation coefficients \nand *p* values following Kendall\u2019s \u03c4 trend analysis between mean haul-level \nvalues of feeding guild biomass and species richness for each assessment \nstrata and year. Kendall\u2019s \u03c4 scores of \u20131 to +1 represent a 100% probability \nof a decreasing or increasing trend, respectively (Table 5).",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1836-02-24"
+        ],
+        "temporal_coverage-to": [
+            "2020-10-08"
+        ],
+        "title": "Modelled and observed fish feeding traits for the North Atlantic and Arctic Oceans (1836-2020) and population estimates of fish with different feeding traits from Northeast Atlantic scientific trawl surveys (1997-2020)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.74086"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.4595"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.4581"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "1.73881"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2024-01-12\"}, {\"type\": \"revision\", \"value\": \"2024-06-20\"}, {\"type\": \"creation\", \"value\": \"2024-01-08\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "CEFAS18ea8930-3f4a-49d2-812e-0e22018d9364"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "65540e60-9cfe-424e-9575-ef2676a1a5b0"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-20T01:36:38"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS)"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor, owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.74086, 52.4581], [1.73881, 52.4581], [1.73881, 52.4595], [1.74086, 52.4595], [1.74086, 52.4581]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:23:13.431314",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: Binary download, CSV, ESRI Shapefile. The data can also be accessed via the WFS and WMS protocols.",
+                "format": "",
+                "hash": "",
+                "id": "1d02c51d-c4ad-4254-96a1-66621a413799",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:23:13.422259",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "3cccf482-e259-44be-848e-18ccbc472d8d",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/21771",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "65540e60-9cfe-424e-9575-ef2676a1a5b0"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@cheshireeast.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "672bd935-b16b-46ce-985c-75f1831decf2",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2018-07-02T13:43:05.880671",
+        "metadata_modified": "2024-09-03T11:01:35.278095",
+        "name": "tree-preservation-orders-areas4",
+        "notes": "tpo poly",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+            "name": "cheshire-east-council",
+            "title": "Cheshire East Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T10:02:35.362710",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Tree Preservation Orders (Areas)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"none\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.8690490695"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.6108401590"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.7549965310"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.2148742648"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2015-07-28\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "as needed"
+            },
+            {
+                "key": "guid",
+                "value": "54_CE"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "aae93edf-4f88-4f9c-812e-7345bb5c2efc"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-09-02T15:08:07"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Cheshire East Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.8690490695, 52.7549965310], [-3.2148742648, 52.7549965310], [-3.2148742648, 53.6108401590], [-1.8690490695, 53.6108401590], [-1.8690490695, 52.7549965310]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c2313407-de24-49b2-b652-70156a7f980a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-03T11:01:35.303125",
+                "description": "WMS (View Service)",
+                "format": "",
+                "hash": "",
+                "id": "7a105334-f0ad-4848-ac62-74ff115e5661",
+                "last_modified": null,
+                "metadata_modified": "2024-09-03T11:01:35.282600",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Tree Preservation Orders (Areas) (WMS)",
+                "package_id": "672bd935-b16b-46ce-985c-75f1831decf2",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CEOpenData/LU_S_TPO_POLY_current/wms?request=GetCapabilities&version=1.1.1&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-03T11:01:35.303127",
+                "description": "WFS (Download Service)",
+                "format": "",
+                "hash": "",
+                "id": "0e5c3fe3-f6c5-481f-afac-fe0676ecf745",
+                "last_modified": null,
+                "metadata_modified": "2024-09-03T11:01:35.282703",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Tree Preservation Orders (Areas) (WFS)",
+                "package_id": "672bd935-b16b-46ce-985c-75f1831decf2",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CEOpenData/LU_S_TPO_POLY_current/wfs?request=Getfeature&TypeName=LU_S_TPO_POLY_current&version=1.1.0&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "tree",
+                "id": "60dec7e5-4185-4e2c-b80c-9e0490d04cdf",
+                "name": "tree",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8f4257be-14f6-40e5-9f1c-f4af0cdbb071"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c2313407-de24-49b2-b652-70156a7f980a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ]
+    }
+}

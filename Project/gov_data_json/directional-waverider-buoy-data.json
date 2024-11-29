@@ -1,0 +1,257 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "9efa0d94-5bd7-45ec-95d4-85574823c627",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-03-07T13:11:03.412100",
+        "metadata_modified": "2019-12-16T14:59:43.517700",
+        "name": "directional-waverider-buoy-data",
+        "notes": "This metadata record is for Approval for Access product AfA464. The Environment Agency has many offshore wave buoys and these measure specific attributes of waves that pass through the buoys and they records data every 30 minutes. The Environment Agency currently uses a Directional Waverider buoy, as this is the national standard, however historic datasets and future outputs may come from different types of buoy instruments. The buoys float on the water surface and log data every 30 minutes. Each logged data point is a time-averaged measurement of the waves that have passed through the buoy during the preceding 30 minutes. From measurements of the buoys movement, a spectrum of different wave frequencies is recorded. The buoy also measures or calculates some additional observations or statistical wave parameters including: \n\n\u2022\tsignificant wave height\n\u2022\twave period \n\u2022\twave direction\n\u2022\tdirectional spread \n\u2022\tsea surface temperature. \n\nData are available as a real-time feed as well as download for historic records in either CSV or TXT format via the CEFAS wavenet website. You will be required to register before being able to download historic data. The CEFAS website contains hydrodynamic data from various sources, some of which is not freely available for download. This record relates specifically to Environment Agency Waverider Buoy data hosted on the CEFAS waverider website. The specific waveriders are:\n\n\u2022\tBlakney Waverider\n\u2022\tNorthwell Waverider\n\u2022\tChapel Point Waverider\n\u2022\tLowestoft Waverider\n\u2022\tFelixstowe Waverider\n\u2022\tHaysborough Waverider Attribution statement: \u00a9 Environment Agency copyright and/or database right 2017. All rights reserved.",
+        "num_resources": 2,
+        "num_tags": 8,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Directional Waverider Buoy Data",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.462074522899272"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.632658980233984"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.405894886163935"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.69398273367042"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2017-02-21\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "28c3f7f1-87a6-44e6-878e-66b05f3c1d48"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "0dafaac8-22ab-4b87-9bee-a04f8a38038d"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-03-18"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.462074522899272, 51.405894886163935], [-0.69398273367042, 51.405894886163935], [-0.69398273367042, 53.632658980233984], [2.462074522899272, 53.632658980233984], [2.462074522899272, 51.405894886163935]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-16T14:59:43.732961",
+                "description": "Link to CEFAS Website to Download Data",
+                "format": "",
+                "hash": "",
+                "id": "88f820bf-08b1-46bd-81a4-39073a6963db",
+                "last_modified": null,
+                "metadata_modified": "2019-12-16T14:59:43.732961",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "9efa0d94-5bd7-45ec-95d4-85574823c627",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "https://www.cefas.co.uk/cefas-data-hub/wavenet/",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.cefas.co.uk/cefas-data-hub/wavenet/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-16T14:59:43.732968",
+                "description": "DEFRA Data Services Platform Customer Forum",
+                "format": "",
+                "hash": "",
+                "id": "924afab1-abbd-4541-8179-fa5f2a67e8ce",
+                "last_modified": null,
+                "metadata_modified": "2019-12-16T14:59:43.732968",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DSP_CUSTOMER_FORUM",
+                "package_id": "9efa0d94-5bd7-45ec-95d4-85574823c627",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http:",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://support.environment.data.gov.uk/hc/en-gb",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "EAbatch2",
+                "id": "35b34ed9-39b5-4c93-ac0c-1b53d3e97eea",
+                "name": "EAbatch2",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "OpenData",
+                "id": "6bc85120-d8ca-4fe1-91fa-d1831be59c7d",
+                "name": "OpenData",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "ocean temperature",
+                "id": "212c49c0-fa88-4cc4-9f08-ef3b3fcc69e6",
+                "name": "ocean temperature",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "oceanography",
+                "id": "87dc1680-89a7-4d76-bd79-6e6a95180d8c",
+                "name": "oceanography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "open sea",
+                "id": "8ff4d042-9b48-4ee6-afbf-572c5efaee4f",
+                "name": "open sea",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "physical oceanography",
+                "id": "ee30ac12-4997-4fbc-b1f1-47d7747e361b",
+                "name": "physical oceanography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "sea wave",
+                "id": "b478e9b6-69c9-40d7-9cff-ba0def83e1af",
+                "name": "sea wave",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wave energy",
+                "id": "ded4e54c-23af-4822-a33c-d701df67f425",
+                "name": "wave energy",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0dafaac8-22ab-4b87-9bee-a04f8a38038d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "3d5b6f3e-53c8-4ecd-8bfa-5fec06dbb7e6",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2019-03-11T16:56:34.022049",
+        "metadata_modified": "2023-10-11T20:00:06.752531",
+        "name": "tourism-visitors-to-attractions",
+        "notes": "This dataset shows how many people visited Attractions in Lincolnshire by calendar year.  Visitor numbers for a wide range of attractions are shown, along with other key information such as entrance fees.\r\n\r\nThe data's source is the Annual Survey of Visits to Visitor Attractions, run by Visit England.  (As usual with survey data there are some limitations, such as not all visitor attractions participating in the survey, and where visitor numbers are estimated that is indicated in the data).\r\n\r\nThis dataset is updated annually from statistics published by Visit Britain, see the Source link for more information.\r\n",
+        "num_resources": 3,
+        "num_tags": 1,
+        "organization": {
+            "id": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+            "name": "lincolnshire-county-council",
+            "title": "Lincolnshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:38:51.868332",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+        "private": false,
+        "state": "active",
+        "title": "Tourism - Visitors to Attractions",
+        "type": "dataset",
+        "url": "https://www.visitbritain.org/official-statistics",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-01T14:17:29.478307",
+                "datastore_active": true,
+                "description": "Dataset showing annual numbers of Visits to Attractions in Lincolnshire.  A Visit is assumed to mean one Visitor, so the terms are used interchangeably.  Where visitor numbers are estimated, that is indicated in the data. (Source: Visit Britain: England)",
+                "format": "CSV",
+                "hash": "",
+                "id": "cbba514f-f3b2-46da-8232-666a16e5fee1",
+                "last_modified": "2023-09-22T12:22:43.259459",
+                "metadata_modified": "2023-10-11T20:00:06.761737",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Visitors to Attractions",
+                "package_id": "3d5b6f3e-53c8-4ecd-8bfa-5fec06dbb7e6",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/3d5b6f3e-53c8-4ecd-8bfa-5fec06dbb7e6/resource/cbba514f-f3b2-46da-8232-666a16e5fee1/download/visitstoattractions.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-01T15:50:53.588841",
+                "datastore_active": true,
+                "description": "Metadata for the Tourism - Visits to Attractions dataset. This file contains Metadata (information about a dataset). It shows the schema for dataset fields and their contents. This file should be used along with the dataset, to aid correct interpretation of the data.",
+                "format": "CSV",
+                "hash": "",
+                "id": "efd004e6-fc1f-4a22-81e7-27f29ec34971",
+                "last_modified": "2022-09-23T15:18:51.829162",
+                "metadata_modified": "2022-10-11T19:25:09.361272",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata",
+                "package_id": "3d5b6f3e-53c8-4ecd-8bfa-5fec06dbb7e6",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/3d5b6f3e-53c8-4ecd-8bfa-5fec06dbb7e6/resource/efd004e6-fc1f-4a22-81e7-27f29ec34971/download/metadata_visitstoattractions.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-01T15:28:12.753045",
+                "datastore_active": false,
+                "description": "The Visit Britain website has further local [Tourism data](http://www.t-stats-uk.co.uk/visitengland/), and [Visit England research insights](https://www.visitbritain.org/england-research-insights) on Tourism and the Tourism economy in Lincolnshire.  For example, see ['Destination-specific research'](https://www.visitbritain.org/destination-specific-research).",
+                "format": "HTML",
+                "hash": "",
+                "id": "fc318247-f5af-4699-9875-0c49c07b206c",
+                "last_modified": null,
+                "metadata_modified": "2019-03-01T15:28:12.753045",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Visit Britain",
+                "package_id": "3d5b6f3e-53c8-4ecd-8bfa-5fec06dbb7e6",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.visitbritain.org/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Tourism",
+                "id": "e2381b9e-15f2-4b25-b6ae-400cf1c60164",
+                "name": "Tourism",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "dd215065-c31f-4ea6-a80b-5c57804e4370"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "eefa0699-ea90-40e9-ba5b-f9276f7fd3ea"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ]
+    }
+}

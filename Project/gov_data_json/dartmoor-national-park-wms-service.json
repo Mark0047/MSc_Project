@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "d25683c7-a387-4a4e-82bb-d8cacb5ab2e9",
+        "metadata_created": "2019-01-23T11:39:28.115541",
+        "metadata_modified": "2019-07-19T11:00:04.709952",
+        "name": "dartmoor-national-park-wms-service",
+        "notes": "WAF for Gemini XMLs files for INSPIRE",
+        "organization": {
+            "id": "8011259e-de10-49e4-a010-169eb93d703c",
+            "name": "dartmoor-national-park-authority",
+            "title": "Dartmoor National Park Authority",
+            "type": "organization",
+            "description": "Dartmoor National Park Authority is a special purpose local authority created under the Environment Act 1995. The Authority is a freestanding local authority employing around 105 staff and is governed by 22 appointed Members. Prior to 1995 the National Park was administered as a committee of Devon County Council",
+            "image_url": "",
+            "created": "2013-10-30T12:27:05.209316",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8011259e-de10-49e4-a010-169eb93d703c",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Dartmoor National Park WMS Service",
+        "type": "harvest",
+        "url": "https://www.dartmoor.gov.uk/about-us/about-us-maps/inspire/inspire",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 62,
+            "last_job": {
+                "id": "b07a624b-b056-4b71-b182-b5086fc29b11",
+                "created": "2019-06-17 13:28:09.815182",
+                "gather_started": "2019-06-17 13:28:10.278664",
+                "gather_finished": "2019-06-17 13:28:11.364484",
+                "finished": "2019-06-17 13:28:11.364484",
+                "source_id": "d25683c7-a387-4a4e-82bb-d8cacb5ab2e9",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: http://www.dartmoor.gov.uk/visiting/maps/inspire/Inspire.html: HTTPError(u'404 Client Error: Not Found for url: https://www.dartmoor.gov.uk/visiting/maps/inspire/Inspire.html',)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "5ed98b97-a37b-418f-9174-a01922761b31",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-11-12T03:40:13.961186",
+        "metadata_modified": "2017-08-08T20:44:16.777516",
+        "name": "parking-services-penalty-charge-notices-2010-11",
+        "notes": "This dataset contains transactional penalty charge notice data held in the London Borough of Camden's parking management system; inclusive of penalty charge notices issued by Civil Enforcement Officers on street and those issued by Civil Enforcement Officers via CCTV. Attribution includes contravention code, ticket type, street, parking restriction, vehicle category and status of case.\n\nWhere possible, the approximate location of the PCN has been captured. The 'Spatial Accuracy' column can be used to determine what level of location has been captured:\n\nCivil Enforcement Officer GPS Location = the GPS location reported by the CEO's handheld device \nFixed CCTV Camera = the location of the CCTV camera, this could be many metres from the vehicle in contravention \nUnknown = No location has been captured",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+            "name": "london-borough-of-camden",
+            "title": "London Borough of Camden",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:32.040042",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+        "private": false,
+        "state": "active",
+        "theme-primary": "transport",
+        "theme-secondary": [
+            "Crime & Justice"
+        ],
+        "title": "Parking Services Penalty Charge Notices 2010-11",
+        "type": "dataset",
+        "url": "https://opendata.camden.gov.uk/d/29k2-arrr",
+        "version": null,
+        "extras": [
+            {
+                "key": "data_issued",
+                "value": "2015-11-11"
+            },
+            {
+                "key": "data_modified",
+                "value": "2015-11-11"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "opendata.camden.gov.uk"
+            },
+            {
+                "key": "guid",
+                "value": "https://opendata.camden.gov.uk/api/views/29k2-arrr"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "25529c6b-24ed-4c6a-bfa7-0ffedee49481"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://opendata.camden.gov.uk/data.json\", \"harvest_source_type\": \"data_json\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Camden Open Data\", \"activity_occurred\": \"2017-08-08T20:44:16.725913\", \"activity\": \"harvest\", \"harvested_guid\": \"https://opendata.camden.gov.uk/api/views/29k2-arrr\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-12T03:40:14.055922",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "9a06902e-9739-4a79-ad37-9aabc3043c2d",
+                "last_modified": null,
+                "metadata_modified": "2015-11-12T03:40:14.055922",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "5ed98b97-a37b-418f-9174-a01922761b31",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/29k2-arrr/rows.csv?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-12T03:40:14.055945",
+                "description": "",
+                "format": "RDF",
+                "hash": "",
+                "id": "37f1b458-dcd2-4288-a3be-5a1a45545900",
+                "last_modified": null,
+                "metadata_modified": "2015-11-12T03:40:14.055945",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "5ed98b97-a37b-418f-9174-a01922761b31",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/29k2-arrr/rows.rdf?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-12T03:40:14.055954",
+                "description": "",
+                "format": "JSON",
+                "hash": "",
+                "id": "6851eaf5-9fa0-431c-929c-dcacb0d1e7a3",
+                "last_modified": null,
+                "metadata_modified": "2015-11-12T03:40:14.055954",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "5ed98b97-a37b-418f-9174-a01922761b31",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/29k2-arrr/rows.json?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-12T03:40:14.055963",
+                "description": "",
+                "format": "XML",
+                "hash": "",
+                "id": "73233cef-6d9b-4dc5-aeb3-82450c850494",
+                "last_modified": null,
+                "metadata_modified": "2015-11-12T03:40:14.055963",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "5ed98b97-a37b-418f-9174-a01922761b31",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/29k2-arrr/rows.xml?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-12T03:40:14.055971",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "6aa9b67f-56f4-40de-b309-a92258b8caca",
+                "last_modified": null,
+                "metadata_modified": "2015-11-12T03:40:14.055971",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landing page",
+                "package_id": "5ed98b97-a37b-418f-9174-a01922761b31",
+                "position": 4,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/d/29k2-arrr",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

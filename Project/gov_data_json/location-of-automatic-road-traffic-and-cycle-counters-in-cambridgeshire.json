@@ -1,0 +1,196 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "bbf04746-9471-4209-8936-24388182da98",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-03-06T09:06:23.182294",
+        "metadata_modified": "2020-04-12T08:18:19.688285",
+        "name": "location-of-automatic-road-traffic-and-cycle-counters-in-cambridgeshire",
+        "notes": "<p>This is an open data release of the physical state and location of Automatic Traffic Counters (ATC) across Cambridgeshire. This includes the location of all cycle counters across the county.</p>\n<p>The dataset includes the point location of the devices with Easting/Northing and Latitude/Longitude.</p>\n<p>The dataset includes each individual site reference number for all counters as well as the channel breakdown for all cycle counters.</p>\n<p>Please note that the weekly average counts for each <strong>cycle </strong>counter across 2018 has been published <a href=\"https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-annual-cycle-counts-2018\">here</a> with the counts for all counters to follow. This will form part of a series of data releases surrounding road traffic and cycle movements.</p>\n<p>Please note that these ATC's are part of a legacy system and there are issues surrounding data reliability and the accuracy of counts.\u00a0</p>\n",
+        "num_resources": 4,
+        "num_tags": 3,
+        "organization": {
+            "id": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+            "name": "cambridgeshire-insight",
+            "title": "Cambridgeshire Insight",
+            "type": "organization",
+            "description": "The Cambridgeshire Insight Partnership is made up of public, health and community bodies to provide a shared research knowledge base for the Cambridgeshire area. It allows users an easy way to access and share data, information and research for deeper insights about their local area. See more at https://cambridgeshireinsight.org.uk",
+            "image_url": "",
+            "created": "2014-05-19T12:10:18.790087",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+        "private": false,
+        "state": "active",
+        "title": "Location of Automatic Road Traffic and Cycle Counters in Cambridgeshire",
+        "type": "dataset",
+        "url": "https://data.cambridgeshireinsight.org.uk/dataset/location-automatic-road-traffic-and-cycle-counters-cambridgeshire",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2019-02-08"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2019-02-28"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Cambridgeshire County Council"
+            },
+            {
+                "key": "guid",
+                "value": "d378b37e-2ce8-4020-b64a-dfbb5ea82837"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e355d8e6-1377-4c53-ad87-17f2a0cf7439"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-06T09:06:23.190569",
+                "description": "<p>xls file of locations and physical attributes of Automatic Road Traffic and Cycle Counters</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "cdfe0cef-5b3c-4531-a00b-89b1df6456c9",
+                "last_modified": null,
+                "metadata_modified": "2019-03-06T09:06:23.190569",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Location of Automatic Road Traffic and Cycle Counters",
+                "package_id": "bbf04746-9471-4209-8936-24388182da98",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/ATC%20Location%20and%20Type%20Physical%20Attributes_All_1.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-06T09:06:23.190574",
+                "description": "<p><span style=\"color: rgb(94, 102, 111); font-family: Montserrat; font-size: 16px;\">geojson file of locations of Automatic Road Traffic and Cycle Counters across Cambridgeshire</span></p>\n",
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "4e092f06-c729-4a4b-a4d1-14b88ecf60f9",
+                "last_modified": null,
+                "metadata_modified": "2019-03-06T09:06:23.190574",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Location of Automatic Road Traffic and Cycle Counters",
+                "package_id": "bbf04746-9471-4209-8936-24388182da98",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/ATC%20Location%20and%20Type%20Physical%20Attributes_AllCounters_geojson.txt",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-06T09:06:23.190577",
+                "description": "<p>xls file of locations and physical attributes Automatic Cycle Counters across Cambridgeshire</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "b14f9953-a7b6-4aa9-ad6c-4a96dfbe6280",
+                "last_modified": null,
+                "metadata_modified": "2019-03-06T09:06:23.190577",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Location of Automatic Cycle Counters only",
+                "package_id": "bbf04746-9471-4209-8936-24388182da98",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/ATC%20Location%20and%20Type%20Physical%20Attributes_CycleOnly_0.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-06T09:06:23.190578",
+                "description": "<p>geojson file of locations and physical attributes of Cycle Counters across Cambridgeshire</p>\n",
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "cc846998-babf-4551-9cd1-030f0195277f",
+                "last_modified": null,
+                "metadata_modified": "2019-03-06T09:06:23.190578",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Location of Automatic Cycle Counters only",
+                "package_id": "bbf04746-9471-4209-8936-24388182da98",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/ATC%20Location%20and%20Type%20Physical%20Attributes_CycleCounters_geojson.txt",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Traffic",
+                "id": "8e919db4-4507-40e2-a67f-7abc019a68eb",
+                "name": "Traffic",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "cycle",
+                "id": "5406a782-742f-4084-84d5-ea578aa9b264",
+                "name": "cycle",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "travel",
+                "id": "2b251b5c-e349-4407-8995-44b62c924771",
+                "name": "travel",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e355d8e6-1377-4c53-ad87-17f2a0cf7439"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "3df21be4-9971-4ac8-8b9c-ce591bdbffae",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-09-10T10:20:54.010425",
+        "metadata_modified": "2019-12-21T23:55:46.792729",
+        "name": "performance-cbc",
+        "notes": "<p>Resource showing Colchester Borough Council's strategic plan, performance & improvement framework, statement of accounts and other relevant information</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "140fad04-d552-4757-ac79-bc9a06ef635d",
+            "name": "colchester-borough-council",
+            "title": "Colchester Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-01-16T11:49:46.028151",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "140fad04-d552-4757-ac79-bc9a06ef635d",
+        "private": false,
+        "state": "active",
+        "title": "Performance",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.colchester.gov.uk/residents/council-information/performance"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "43a851a4-4149-43b2-87e1-04fdf0f98aa3"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.colchester.gov.uk/residents/council-information/performance"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "council-information/performance"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-12-02"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://datashare.colchester.gov.uk/api/esdInventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2019-12-02T00:00:00\", \"harvest_source_title\": \"Colchester datashare website\", \"activity_occurred\": \"2019-12-21T23:55:46.598010\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.colchester.gov.uk/residents/council-information/performance\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T11:20:54.040733",
+                "description": "Performance - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "84cea829-d014-4036-9b16-4bb842e9b9ae",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T11:20:54.040733",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "3df21be4-9971-4ac8-8b9c-ce591bdbffae",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-information/performance/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/Download/council-information/performance",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:22:56.788499",
+                "description": "Performance Link updated Aug18 - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "64ef6273-f4b8-4a69-86b5-977e65b9b5ce",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:22:56.788499",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "3df21be4-9971-4ac8-8b9c-ce591bdbffae",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-information/performance/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/council-information/performance/performance-link-updated-aug18/CSV?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:22:56.788506",
+                "description": "Performance Link updated Aug18 - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "50a3865e-f7f0-4f94-b206-e969356dbf0c",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:22:56.788506",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "3df21be4-9971-4ac8-8b9c-ce591bdbffae",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-information/performance/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/council-information/performance/performance-link-updated-aug18/XML?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-08-04T10:03:46.708850",
+                "description": "Performance Link updated Aug18 - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "8cac3426-4599-4bcd-8b22-55d790e8608f",
+                "last_modified": null,
+                "metadata_modified": "2018-08-04T10:03:46.708850",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "3df21be4-9971-4ac8-8b9c-ce591bdbffae",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-information/performance/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/council-information/performance/performance-link-updated-aug18?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-08-04T10:03:46.708856",
+                "description": "Performance Link updated Aug18 - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "58da901b-0b45-4590-8830-501ce1ccca41",
+                "last_modified": null,
+                "metadata_modified": "2018-08-04T10:03:46.708856",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "3df21be4-9971-4ac8-8b9c-ce591bdbffae",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-information/performance/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/council-information/performance/performance-link-updated-aug18?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "43a851a4-4149-43b2-87e1-04fdf0f98aa3"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "c99da517-a543-487b-86f8-fa15d11067bd",
+        "frequency": "MANUAL",
+        "id": "03058720-b8a0-42b3-8c2c-fbd6d8e3f0f8",
+        "metadata_created": "2019-03-04T11:00:30.086148",
+        "metadata_modified": "2020-04-24T13:47:01.088743",
+        "name": "bathnes",
+        "notes": "",
+        "organization": {
+            "id": "deb46864-6d7b-4779-b6fd-60d6f719b426",
+            "name": "bath-and-north-east-somerset-council",
+            "title": "Bath and North East Somerset Council",
+            "type": "organization",
+            "description": "BANES Council is a Unitary Local Government Authority covering Bath and the North East corner of Somerset, west of Bath, including Keynsham, Midsomer Norton, Radstock and Peasedown St John.",
+            "image_url": "",
+            "created": "2013-08-01T17:23:21.020167",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "deb46864-6d7b-4779-b6fd-60d6f719b426",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "XMAP Publisher - Harvester",
+        "type": "harvest",
+        "url": "https://inspire.xmap.cloud/bathnes",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 103,
+            "last_job": {
+                "id": "f6aef810-7b20-4337-8100-a7e01cab6b66",
+                "created": "2020-04-24 15:15:57.425551",
+                "gather_started": null,
+                "gather_finished": null,
+                "finished": "2020-06-11 10:50:10.523905",
+                "source_id": "03058720-b8a0-42b3-8c2c-fbd6d8e3f0f8",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Job timeout: f6aef810-7b20-4337-8100-a7e01cab6b66 is taking longer than 720 minutes",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 1
+        }
+    }
+}

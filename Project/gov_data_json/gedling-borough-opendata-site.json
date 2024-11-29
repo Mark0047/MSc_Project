@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "9e8dbe4b-b6f2-496b-a99f-91aee2456a7f",
+        "metadata_created": "2019-01-23T11:08:42.312425",
+        "metadata_modified": "2022-01-18T10:18:00.320215",
+        "name": "gedling-borough-opendata-site",
+        "notes": "",
+        "organization": {
+            "id": "08d9dab1-a603-440d-9dc4-a01295e9acfb",
+            "name": "gedling-borough-council",
+            "title": "Gedling Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:45.298633",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "08d9dab1-a603-440d-9dc4-a01295e9acfb",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "Gedling Borough OpenData Site",
+        "type": "harvest",
+        "url": "http://data-gedlingbc.opendata.arcgis.com/api/feed/dcat-us/1.1.json",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 54,
+            "last_job": {
+                "id": "2abcad1d-48ba-405b-aff1-718bce26d118",
+                "created": "2024-07-10 10:30:13.171213",
+                "gather_started": "2024-07-10 10:30:13.242887",
+                "gather_finished": "2024-07-10 10:30:15.106866",
+                "finished": "2024-07-10 13:13:11.275806",
+                "source_id": "9e8dbe4b-b6f2-496b-a99f-91aee2456a7f",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 50,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Error parsing file: Expecting value: line 1 column 1 (char 0)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 50
+        }
+    }
+}

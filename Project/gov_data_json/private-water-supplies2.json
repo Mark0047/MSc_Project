@@ -1,0 +1,208 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@cornwall.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "7d1c02c2-7673-4afb-9c29-91a64491da57",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-11-30T14:20:55.613527",
+        "metadata_modified": "2020-09-29T13:35:19.486204",
+        "name": "private-water-supplies2",
+        "notes": "This dataset has been derived from information contained in the UNI-form Private Water Supplies module and as such the positioning of the point features is based on the position of the relevant Basic Land Property Unit and not the confirmed position of the water supply.\n\nFurther information on these PWS' can be obtained by contacting the Public Health and Environment Service.",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "b7cd9dde-95f0-4155-aabf-57898e28dda0",
+            "name": "cornwall-council",
+            "title": "Cornwall Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-02-24T15:22:03.828355",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b7cd9dde-95f0-4155-aabf-57898e28dda0",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Private Water Supplies",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Contains public sector information licensed under the Open Government Licence v3.0\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-3.6776733382"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.3529159620"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.5341217452"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.3693237289"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2020-09-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "c1d7588e-47ea-4032-a2d8-19ce3c810b0f"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d6bcd92a-eae1-4ce4-a32f-a4f42d6f2a2b"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-09-29T14:08:19"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Cornwall Council (resourceProvider)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-3.6776733382, 49.5341217452], [-6.3693237289, 49.5341217452], [-6.3693237289, 51.3529159620], [-3.6776733382, 51.3529159620], [-3.6776733382, 49.5341217452]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/4258"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "665ecda1-e5f8-4cee-8360-50e146ddc48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cornwall Council INSPIRE WMS Service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-09-29T13:35:19.743056",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "5060b8f2-7eaf-4380-a93d-11bfe8e001b7",
+                "last_modified": null,
+                "metadata_modified": "2020-09-29T13:35:19.743056",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Inspire Health WMS",
+                "package_id": "7d1c02c2-7673-4afb-9c29-91a64491da57",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.cornwall.gov.uk/arcgis/services/inspire/inspire_health/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-09-29T13:35:19.743062",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "010aa107-44fb-4b22-a5df-ca1136767f50",
+                "last_modified": null,
+                "metadata_modified": "2020-09-29T13:35:19.743062",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Inspire Health WFS",
+                "package_id": "7d1c02c2-7673-4afb-9c29-91a64491da57",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.cornwall.gov.uk/arcgis/services/inspire/inspire_health/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "water_supply",
+                "id": "7c1d989c-1be3-45cc-8d8e-e58c5093039a",
+                "name": "water_supply",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d6bcd92a-eae1-4ce4-a32f-a4f42d6f2a2b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "665ecda1-e5f8-4cee-8360-50e146ddc48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cornwall Council INSPIRE WMS Service"
+            }
+        ]
+    }
+}

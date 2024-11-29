@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "28b550b9-12a8-42b9-8698-ee0aad18d47a",
+        "metadata_created": "2019-01-23T10:46:06.733873",
+        "metadata_modified": "2024-02-01T14:24:33.200900",
+        "name": "ukme-waff0df8",
+        "notes": "Import From UK Metadata Editor",
+        "organization": {
+            "id": "fe8502f2-cfa5-4b91-908b-d6dc726a1e89",
+            "name": "redcar-and-cleveland-borough-council",
+            "title": "Redcar and Cleveland Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-07-16T11:02:33.572574",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "fe8502f2-cfa5-4b91-908b-d6dc726a1e89",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "http://locationmde.data.gov.uk/metadata-harvesting/fe8502f2-cfa5-4b91-908b-d6dc726a1e89/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1877,
+            "last_job": {
+                "id": "d539a0ae-beb4-4d25-9fbe-64298eec4f31",
+                "created": "2024-11-02 19:00:05.155626",
+                "gather_started": "2024-11-02 19:00:45.097230",
+                "gather_finished": "2024-11-02 19:01:05.124413",
+                "finished": "2024-11-02 19:01:05.124413",
+                "source_id": "28b550b9-12a8-42b9-8698-ee0aad18d47a",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: http://locationmde.data.gov.uk/metadata-harvesting/fe8502f2-cfa5-4b91-908b-d6dc726a1e89/: ConnectTimeout(MaxRetryError(\"HTTPConnectionPool(host='locationmde.data.gov.uk', port=80): Max retries exceeded with url: /metadata-harvesting/fe8502f2-cfa5-4b91-908b-d6dc726a1e89/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fb7e4662290>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 11
+        }
+    }
+}

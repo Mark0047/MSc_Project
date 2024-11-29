@@ -1,0 +1,117 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": false,
+        "creator_user_id": "23f5eacf-6039-4352-9bd5-98ab0809d432",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "geographic_coverage": "100000: England",
+        "id": "fccb7002-ccbb-4143-8f6c-ae7da340c41d",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-07-08T11:33:43.142855",
+        "metadata_modified": "2017-10-19T10:56:08.491121",
+        "name": "care-trusts-and-sites",
+        "notes": "NHS Care Trusts and Sites \r\nContains: \r\nCare Trust and Care Trust Site data. Ecare.csv contains both parent organisations and sites. All \r\nthree Care Trust files follow the same format and conventions, although field 14 is only populated for \r\nparent codes and field 15 is only populated for site codes. This data is for current organisations, plus \r\ndata for organisations that have closed in the current or previous financial year. Care Trusts only \r\nexist in England. \r\n",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "2a638dd6-7ad6-4081-8de3-732200f553fa",
+            "name": "nhs-digital",
+            "title": "NHS Digital",
+            "type": "organization",
+            "description": "NHS Digital is the national provider of information, data and IT systems for health and social care.\r\n\r\nIt was previously called 'The Health and Social Care Information Centre (HSCIC)'",
+            "image_url": "",
+            "created": "2013-08-30T11:29:36.442429",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2a638dd6-7ad6-4081-8de3-732200f553fa",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "health",
+        "theme-secondary": [
+            ""
+        ],
+        "title": "Care Trusts and Sites",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-07-08T12:33:43.182034",
+                "description": "ODS news and change notification",
+                "format": "HTML",
+                "hash": "",
+                "id": "f7c391b7-1e5d-4b99-8841-c8f0091ef6b8",
+                "last_modified": null,
+                "metadata_modified": "2015-07-08T12:33:43.182034",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "fccb7002-ccbb-4143-8f6c-ae7da340c41d",
+                "position": 0,
+                "resource_type": "documentation",
+                "scraper_url": "",
+                "size": null,
+                "state": "active",
+                "url": "https://digital.nhs.uk/organisation-data-service/news-and-updates",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-07-08T12:33:43.182041",
+                "description": "Care Trusts and Sites",
+                "format": "ZIP",
+                "hash": "",
+                "id": "36441b04-8754-45db-80e9-a0e4d25865c4",
+                "last_modified": null,
+                "metadata_modified": "2015-07-08T12:33:43.182041",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "fccb7002-ccbb-4143-8f6c-ae7da340c41d",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://digital.nhs.uk/media/347/ecare/zip/ecare",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

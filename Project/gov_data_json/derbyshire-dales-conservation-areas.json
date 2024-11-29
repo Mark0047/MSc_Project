@@ -1,0 +1,179 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "Technical@derbyshiredales.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "00e6e7c1-74c0-43c3-ac95-dc9c58429285",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-03-21T14:25:04.732837",
+        "metadata_modified": "2024-10-24T12:50:33.699511",
+        "name": "derbyshire-dales-conservation-areas",
+        "notes": "Conservation Area polygons in the Derbyshire Dales District Council planning area. This is the part of the Derbyshire Dales which lies outside the Peak District.",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "62eb67f1-ab8c-472a-adb2-dad0515293ad",
+            "name": "derbyshire-dales-district-council",
+            "title": "Derbyshire Dales District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:54:42.734166",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "62eb67f1-ab8c-472a-adb2-dad0515293ad",
+        "private": false,
+        "state": "active",
+        "title": "Derbyshire Dales Conservation Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.3586022627"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.2531758946"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.8238007272"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.0315148603"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2019-01-18\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "9170d9e9-47e9-4daf-9ea3-911fe37fa747"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Personal use\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-01-25T11:39:06"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Derbyshire Dales District Council (custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.3586022627, 52.8238007272], [-2.0315148603, 52.8238007272], [-2.0315148603, 53.2531758946], [-1.3586022627, 53.2531758946], [-1.3586022627, 52.8238007272]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-21T14:25:04.752135",
+                "datafile-date": "2024-10-24",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "91efb4b0-7a17-403a-b23f-5323fb2f5db7",
+                "last_modified": null,
+                "metadata_modified": "2024-10-24T11:45:31.534823",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "00e6e7c1-74c0-43c3-ac95-dc9c58429285",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://derbyshiredales.maps.xmap.cloud/derbyshiredales_public/consarea/ows?SERVICE=WMS&",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-21T14:25:04.752140",
+                "datafile-date": "2024-10-24",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "c7beb51c-fe62-4986-a97e-641c2ce160b8",
+                "last_modified": null,
+                "metadata_modified": "2024-10-24T12:50:33.703314",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "00e6e7c1-74c0-43c3-ac95-dc9c58429285",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://derbyshiredales.maps.xmap.cloud/derbyshiredales_public/consarea/wfs",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

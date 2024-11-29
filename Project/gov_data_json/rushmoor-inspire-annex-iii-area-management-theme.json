@@ -1,0 +1,120 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": false,
+        "creator_user_id": "3c53c882-cf3d-470f-8643-9b1f06d65a19",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "geographic_coverage": "100000: England",
+        "id": "f6979fc3-66d9-48e6-bc74-8ceea3b88f9f",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-24T16:08:39.959000",
+        "metadata_modified": "2016-02-10T18:27:33.802330",
+        "name": "rushmoor-inspire-annex-iii-area-management-theme",
+        "notes": "Data falling under the theme of 'Area Management' for Rushmoor Borough Council in the INSPIRE legislation\r\n\r\nRushmoor Borough Council INSPIRE WMS Services are licenced under the terms of the Public Sector End User Licence \u2013 INSPIRE \r\n\r\nhttp://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html \r\n\r\nUpon accessing the Licensed Data you will be deemed to have accepted the terms of the Public Sector End User Licence \u2013 INSPIRE \r\n\r\nRushmoor's INSPIRE Annex iii services are still in testing and maybe intermittently available at present (This message will be updated when all issues are resolved) ",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "f50296cf-8d58-4eb7-8598-d22ed6f82391",
+            "name": "rushmoor-borough-council",
+            "title": "Rushmoor Borough Council",
+            "type": "organization",
+            "description": "Rushmoor Borough Council is the Local Authority responsible for the towns of Aldershot and Farnborough in North-East Hampshire",
+            "image_url": "",
+            "created": "2013-11-05T12:00:26.782678",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "f50296cf-8d58-4eb7-8598-d22ed6f82391",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "mapping",
+        "theme-secondary": [
+            "Environment",
+            "Towns & Cities"
+        ],
+        "title": "Rushmoor INSPIRE Annex iii Area Management Theme",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "licence",
+                "value": "http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"http://www.legislation.gov.uk/uksi/2009/3157/contents/made\"]"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T14:17:41.282490', 'cache_filepath': u'/media/hulk/ckan_resource_cache/e2/e20c42da-b23c-4cf1-a9ae-2323b2ebfef6/352-Area_Management.xml', 'last_success': '2016-02-06T14:17:41.282490', 'size': u'23858', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': None, 'hash': u'f27ef84c80a711ca410af5528a1b8f82459da6d7', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2015-03-24T16:08:39.959000', 'mimetype': u'application/xml', 'cache_url': u'http://data.gov.uk/data/resource_cache/e2/e20c42da-b23c-4cf1-a9ae-2323b2ebfef6/352-Area_Management.xml', 'created': '2015-03-29T14:12:54.051348', 'first_failure': None}",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-03-24T16:08:40.020956",
+                "description": "Rushmoor INSPIRE Annex iii Area Management Metadata",
+                "format": "XML",
+                "hash": "",
+                "id": "e20c42da-b23c-4cf1-a9ae-2323b2ebfef6",
+                "last_modified": null,
+                "metadata_modified": "2015-03-24T16:08:40.020956",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "f6979fc3-66d9-48e6-bc74-8ceea3b88f9f",
+                "position": 0,
+                "qa": "{'updated': '2016-02-07T09:51:06.469846', 'openness_score': 0, 'archival_timestamp': '2016-02-06T14:17:41.282490', 'format': u'XML', 'created': '2015-03-31T06:53:03.334545', 'resource_timestamp': None, 'openness_score_reason': u'License not open'}",
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "https://locationmde.data.gov.uk/metadata-harvesting/f50296cf-8d58-4eb7-8598-d22ed6f82391/352-Area_Management.xml",
+                "url_type": null
+            },
+            {
+                "archiver": "{'is_broken_printable': 'Broken', 'updated': '2016-02-06T14:19:41.624524', 'cache_filepath': None, 'last_success': None, 'size': u'0', 'is_broken': True, 'failure_count': 44, 'etag': None, 'status': 'Download error', 'url_redirected_to': None, 'hash': None, 'status_id': 12, 'reason': u\"Connection error: HTTPConnectionPool(host='geoserver.rushmoor.gov.uk', port=80): Max retries exceeded with url: /geoserver/INSPIRE_Area_Management/wms?service=WMS&version=1.3.0&request=Getcapabilities (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb371a18b90>, 'Connection to geoserver.rushmoor.gov.uk timed out. (connect timeout=30)'))\", 'last_modified': None, 'resource_timestamp': '2015-05-13T15:32:53.073949', 'mimetype': None, 'cache_url': None, 'created': '2015-03-29T14:12:54.238558', 'first_failure': '2015-03-29T14:12:54.230677'}",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-03-24T16:08:40.020976",
+                "description": "Rushmoor INSPIRE Annex iii Area Management Theme",
+                "format": "WMS",
+                "hash": "",
+                "id": "a3a27f50-4c24-42db-9ed4-5873c27b2cc8",
+                "last_modified": null,
+                "metadata_modified": "2015-03-24T16:08:40.020976",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "f6979fc3-66d9-48e6-bc74-8ceea3b88f9f",
+                "position": 1,
+                "qa": "{'updated': '2016-02-07T09:51:06.476929', 'openness_score': 0, 'archival_timestamp': '2016-02-06T14:19:41.624524', 'format': None, 'created': '2015-03-31T06:53:03.332414', 'resource_timestamp': None, 'openness_score_reason': u\"File could not be downloaded. Reason: Download error. Error details: Connection error: HTTPConnectionPool(host='geoserver.rushmoor.gov.uk', port=80): Max retries exceeded with url: /geoserver/INSPIRE_Area_Management/wms?service=WMS&version=1.3.0&request=Getcapabilities (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb371a18b90>, 'Connection to geoserver.rushmoor.gov.uk timed out. (connect timeout=30)')). Attempted on 06/02/2016. Tried 44 times since 29/03/2015. This URL has not worked in the history of this tool.\"}",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://geoserver.rushmoor.gov.uk/geoserver/INSPIRE_Area_Management/wms?service=WMS&version=1.3.0&request=Getcapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": true,
+        "creator_user_id": "7ed6fc4b-4d0d-4a9f-9407-ead4c0dab203",
+        "date_released": "2011-11-29",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "geographic_coverage": "111000: Great Britain (England, Scotland, Wales)",
+        "geographic_granularity": "Both UK and per Met Office site code",
+        "id": "ac7e514d-6012-4761-ad13-3dc63cfc26a2",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2011-11-29T20:12:15.955630",
+        "metadata_modified": "2017-03-10T13:28:37.932665",
+        "name": "metoffice_uklocs3hr_fc",
+        "notes": "## Datamarket closure\r\n\r\nAs Microsoft have announced that they are shutting down their DataMarket service, the API access currently at https://datamarket.azure.com/dataset/datagovuk/metofficeweatheropendata will no longer be available after March 31st 2017.\r\n\r\n----\r\n\r\nThe interface gives access to three datasets, hourly observations for approximately 150 UK observing stations, daily site specific and 3 hourly site specific forecasts for approximately 5000 UK locations.\r\n\r\n\r\nBoth the 3 hourly and daily forecast datasets provide forecasts out to 5 days with updates issued hourly.\r\n \r\nDaily forecasts provide data for day and night using the following data time intervals.\r\n\r\n\u00b7         Weather symbols: Day \u2013 Sunrise to sunset, Night Sunset to Sunrise\r\n\r\n\u00b7         Temperature: Max \u2013 Maximum during 0600-18:00, Minimum during 18:00-06:00\r\n\r\n\u00b7         All other parameters are calculated for midday or midnight.\r\n\r\n \r\nHourly observation reports as recorded in real time by the Met Office UK Monitoring System. It should be noted that sites will only report parameters based on the instrumentation installed at each site and we only make available those parameters published on the Met Office website. Observations are subject to final quality control by the Met Office after publication by data.gov.uk, any changes made will not be retrospectively applied to this dataset.\r\n\r\nThe Chancellor's Autumn Statement 2011 announced that this release is open (OGL) and unrestricted (bulk download API):\r\nhttps://www.gov.uk/government/uploads/system/uploads/attachment_data/file/61959/Further_detail_on_Open_Data_measures_in_the_Autumn_Statement_2011.pdf\r\nwhich is different to the access provided by the Met Office directly.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "3 hourly weather forecast and observational data - UK locations",
+            "created_at": "2014-10-27T15:12:35Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/2978/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/2978/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "e585ca29-681d-4298-a747-8a863ec60aec",
+            "name": "met-office",
+            "title": "Met Office",
+            "type": "organization",
+            "description": "The Met Office is the UK\u2019s national weather service. It provides weather and climate-related services to the Armed Forces, government departments, the public, civil aviation, shipping, industry, agriculture and commerce.",
+            "image_url": "",
+            "created": "2012-06-27T14:52:09.949242",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e585ca29-681d-4298-a747-8a863ec60aec",
+        "precision": "As supplied by Met Office",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "temporal_granularity": "hour",
+        "theme-primary": "environment",
+        "theme-secondary": [
+            ""
+        ],
+        "title": "3 hourly weather forecast and observational data - UK locations",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "Hourly",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "provider",
+                "value": "Met Office"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            },
+            {
+                "key": "taxonomy_url",
+                "value": "http://www.metoffice.gov.uk/weather/uk/guide/key.html"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "DataStore interface",
+                "format": "HTML",
+                "id": "ae6e8526-13fb-4526-9b69-66f957bdb418",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ac7e514d-6012-4761-ad13-3dc63cfc26a2",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://data.gov.uk/metoffice-data-archive",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@stockport.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "c777cc2e-e2c3-418d-b420-ca814fbbe720",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-09T15:20:23.214161",
+        "metadata_modified": "2016-04-29T09:56:47.478614",
+        "name": "pollution-monitoring",
+        "notes": "Pollution monitoring sites",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "dca4cafe-88b8-4758-a470-ae6b32437efd",
+            "name": "stockport-metropolitan-borough-council",
+            "title": "Stockport Metropolitan Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:58:16.588164",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "dca4cafe-88b8-4758-a470-ae6b32437efd",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "environment",
+        "theme-secondary": [],
+        "title": "Pollution Monitoring",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/docs/licences/public-sector-end-user-licence-inspire.htm\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.1022"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.4377"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.3572"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.22509"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-02-26T10:38:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "04f4c89efc64012481f5dac2246f80fc4faba43c"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "95bfc577-b9c6-47fb-a972-3612be157b41"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.astuntechnology.com/stockport/Pollution%20Monitoring.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "use in accordance with OS licence"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-29"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Stockport Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-2.1022, 53.3572],[-2.1022, 53.4377], [-2.22509, 53.4377], [-2.22509, 53.3572], [-2.1022, 53.3572]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c0c0bc58-259b-4993-92fc-6ba83fca9f4c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stockport Metropolitan Borough Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-04-29T10:56:47.515089",
+                "description": "Pollution Monitoring",
+                "format": "WMS",
+                "hash": "",
+                "id": "1b8d4149-1588-4e46-8ffa-14a8f743de31",
+                "last_modified": null,
+                "metadata_modified": "2016-04-29T10:56:47.515089",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "receptor_points",
+                "package_id": "c777cc2e-e2c3-418d-b420-ca814fbbe720",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx?mapsource=smbc/stockport_inspire&version=1.1.1&request=GetCapabilities&service=WMS",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-04-29T10:56:46.755702",
+                "wms_base_urls": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-29T10:56:47.515114",
+                "description": "Pollution Monitoring",
+                "format": "",
+                "hash": "",
+                "id": "5861b096-8511-48fc-9bb9-fc910b75598f",
+                "last_modified": null,
+                "metadata_modified": "2016-04-29T10:56:47.515114",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "receptor_points",
+                "package_id": "c777cc2e-e2c3-418d-b420-ca814fbbe720",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.stockport.gov.uk/ishare5.0.web/getows.ashx?mapsource=smbc/stockport_inspire&TypeName=receptor_points&version=1.1.0&request=GetFeature&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "95bfc577-b9c6-47fb-a972-3612be157b41"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c0c0bc58-259b-4993-92fc-6ba83fca9f4c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stockport Metropolitan Borough Council"
+            }
+        ]
+    }
+}

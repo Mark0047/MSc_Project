@@ -1,0 +1,69 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "ef48834e-8169-4016-8597-81ead874db32",
+        "metadata_created": "2019-01-23T11:18:51.671828",
+        "metadata_modified": "2019-08-13T09:14:44.042951",
+        "name": "fareham-borough-council",
+        "notes": "",
+        "organization": {
+            "id": "c8da4839-ebfa-4dd9-8900-aaaf56a44771",
+            "name": "fareham-borough-council",
+            "title": "Fareham Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:32.925733",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "c8da4839-ebfa-4dd9-8900-aaaf56a44771",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Fareham Borough Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/Fareham_Borough_Council/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 27,
+            "last_job": {
+                "id": "965f1f07-4ccb-482f-bcb0-27f4547fdf1b",
+                "created": "2021-07-05 10:07:29.508410",
+                "gather_started": "2021-07-05 10:07:29.672348",
+                "gather_finished": "2021-07-05 10:07:29.967835",
+                "finished": "2021-07-05 10:07:33.263119",
+                "source_id": "ef48834e-8169-4016-8597-81ead874db32",
+                "status": "Finished",
+                "stats": {
+                    "added": 1,
+                    "updated": 0,
+                    "not modified": 13,
+                    "errored": 14,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 14
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 4
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 8
+        }
+    }
+}

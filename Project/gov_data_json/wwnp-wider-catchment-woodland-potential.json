@@ -1,0 +1,474 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-10-31T10:47:36.635800",
+        "metadata_modified": "2024-07-26T15:05:28.496885",
+        "name": "wwnp-wider-catchment-woodland-potential",
+        "notes": "This dataset has been produced as part of the Mapping Potential for Working with Natural Processes research project (SC150005). The project created a toolbox of mapped data and methods which enable operational staff in England to identify potential locations for Working with Natural Processes (WWNP). \n\nData has been produced for each intervention covered by the project. The final outputs include the following datasets:\n\u2022\tFloodplain Woodland Planting Potential\n\u2022\tRiparian Woodland Planting Potential\n\u2022\tWider Catchment Woodland\n\u2022\tFloodplain Reconnection Potential\n\u2022\tRunoff Attenuation Features 3.3% AEP\n\u2022\tRunoff Attenuation Features 1% AEP\n\u2022\tWoodland Constraints\n\nWWNP Wider Catchment Woodland Potential is our best estimate of locations where there are slowly permeable soils, where scrub and tree planting may be most effective to increase infiltration and hydrological losses. The dataset is designed to support signposting of areas not already wooded. The dataset is based upon the 1:50k BGS geology survey, and relies upon identifying drift and bedrock geologies that are characteristic of slowly permeable soils. A set of open access constraints data was used to erase areas which contained existing woodland, watercourses, peat, roads, rail and urban locations.\n\nThe information provided is largely based on a 100m gridded version of the BGS 1:50k superficial and bedrock data, along with open constraints data, and is indicative rather than specific. Locations identified may have more recent building or land use than available data indicates. It is important to note that land ownership and change to flood risk have not been considered, and it may be necessary to model the impacts of significant planting.\n\nFurther information on the Working with Natural Processes project, including a mapping user guide, can be found in the reports published here:\n\nhttps://www.gov.uk/government/publications/working-with-natural-processes-to-reduce-flood-risk Attribution statement: \u00a9 Environment Agency copyright and/or database right 2015. All rights reserved.",
+        "num_resources": 11,
+        "num_tags": 9,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2017-09-01"
+        ],
+        "temporal_coverage-to": [
+            "2030-01-01"
+        ],
+        "title": "WWNP Wider Catchment Woodland Potential",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2017-09-01\"}, {\"type\": \"publication\", \"value\": \"2017-01-09\"}, {\"type\": \"revision\", \"value\": \"2024-05-30\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "7b6c23f0-200e-453d-b3f9-1ace36974bce"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "5d35c5a5-4f1a-49d1-a839-c5a715e6affe"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-19"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:05:28.571323",
+                "description": "WWNPWiderCatchmentWoodlandPotential-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "1259fddd-6196-4694-922a-2b80d3745edc",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:05:28.514615",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WWNPWiderCatchmentWoodlandPotential-FGDB.zip",
+                "package_id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=e1f9f388-617e-41ab-8186-99177d7f0e86&fileName=WWNPWiderCatchmentWoodlandPotential-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:05:28.571326",
+                "description": "WWNPWiderCatchmentWoodlandPotential-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c598ab5e-97d1-466a-828e-999b86a366cc",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:05:28.514713",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WWNPWiderCatchmentWoodlandPotential-GML.zip",
+                "package_id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=e1f9f388-617e-41ab-8186-99177d7f0e86&fileName=WWNPWiderCatchmentWoodlandPotential-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:05:28.571327",
+                "description": "WWNPWiderCatchmentWoodlandPotential-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b6ee5882-6f97-4310-9bf5-fb2d56d6c523",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:05:28.514787",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WWNPWiderCatchmentWoodlandPotential-MID_MIF.zip",
+                "package_id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=e1f9f388-617e-41ab-8186-99177d7f0e86&fileName=WWNPWiderCatchmentWoodlandPotential-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:05:28.571328",
+                "description": "WWNPWiderCatchmentWoodlandPotential-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "fc943e33-39d0-42fd-8b40-f73328bcd1d1",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:05:28.514855",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WWNPWiderCatchmentWoodlandPotential-SHP.zip",
+                "package_id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=e1f9f388-617e-41ab-8186-99177d7f0e86&fileName=WWNPWiderCatchmentWoodlandPotential-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:05:28.571329",
+                "description": "WWNPWiderCatchmentWoodlandPotential-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "0ff89bfa-cb88-42a1-97eb-663193be3745",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:05:28.514922",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WWNPWiderCatchmentWoodlandPotential-TAB.zip",
+                "package_id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=e1f9f388-617e-41ab-8186-99177d7f0e86&fileName=WWNPWiderCatchmentWoodlandPotential-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:05:28.571330",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "7db97efa-36bd-4011-9195-7c045c9e468b",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:05:28.514990",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WWNPWiderCatchmentWoodlandPotential_Download",
+                "package_id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/7b6c23f0-200e-453d-b3f9-1ace36974bce?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:05:28.571331",
+                "description": "WWNP Wider Catchment Woodland Potential WFS",
+                "format": "",
+                "hash": "",
+                "id": "99337064-11d7-4f0d-bf12-9be37a6bec7a",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:05:28.515054",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WWNPWiderCatchmentWoodlandPotential_WFS",
+                "package_id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wwnp-wider-catchment-woodland-potential/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:05:28.571332",
+                "description": "WWNP Wider Catchment Woodland Potential WMS",
+                "format": "",
+                "hash": "",
+                "id": "1a7f4a02-db06-40ba-95ee-af7afd95c146",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:05:28.515117",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WWNPWiderCatchmentWoodlandPotential_WMS",
+                "package_id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wwnp-wider-catchment-woodland-potential/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:05:28.571333",
+                "description": "ArcGIS Online Feature Service",
+                "format": "",
+                "hash": "",
+                "id": "eff4a7b0-bad8-4b00-ab20-39d96b162a96",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:05:28.515194",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Online Feature Service",
+                "package_id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.arcgis.com/home/item.html?id=3440a723f00a4d66933a6e707b535b15",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:05:28.571334",
+                "description": "ArcGIS Online Tile Service (all woodland categories combined)",
+                "format": "",
+                "hash": "",
+                "id": "e5d44fb7-2740-48b7-a52a-d061002f516d",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:05:28.515259",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Online Tile Service",
+                "package_id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.arcgis.com/home/item.html?id=c9db8bbef58f4b26b1ec01eab48f6ac4",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-26T15:05:28.571335",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "39437568-6d1f-4632-af76-a87e355b4dd3",
+                "last_modified": null,
+                "metadata_modified": "2024-07-26T15:05:28.515323",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "abe0c86f-4088-4d3a-8517-c6e70e2a57a3",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wwnp-wider-catchment-woodland-potential/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "NBS",
+                "id": "eae55e02-d097-416d-9111-4fb0e0293d16",
+                "name": "NBS",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NFM",
+                "id": "f3cbd898-ab09-4acd-99fb-2fa45d8eca35",
+                "name": "NFM",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Natural Flood Management",
+                "id": "d6858cf3-eea2-4dc3-af21-edb04e9c08d1",
+                "name": "Natural Flood Management",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Nature based solutions",
+                "id": "0e2724da-78c6-41ef-b511-ff100165faa4",
+                "name": "Nature based solutions",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "WWNP",
+                "id": "124576c0-469e-447a-ba76-d57eb8d71d24",
+                "name": "WWNP",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Working With Natural Processes",
+                "id": "77be24bb-7b78-4be4-8557-604e321a1c7c",
+                "name": "Working With Natural Processes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood",
+                "id": "90af076f-75b0-42fc-80aa-ac2ff7993443",
+                "name": "flood",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "natural environment",
+                "id": "51381995-e4a3-4d99-931f-4a70eaa946ab",
+                "name": "natural environment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e0af9580-16dd-4fe3-92f7-0510b647119b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

@@ -1,0 +1,262 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "geographycustomerservices@nrscotland.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "92d0e6e6-c869-4e17-a8ee-70cd291829fa",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-05-21T18:18:02.464344",
+        "metadata_modified": "2024-06-19T11:18:41.032789",
+        "name": "census-2022-output-areas",
+        "notes": "Output Areas (OAs) are the key geography for dissemination of small area statistics from the Census.  OAs are large enough for Census statistics to be released without infringing confidentiality.  They are designed to have relatively small numbers of households (in the range of 25 to 89) and population (>=60), while nesting within Council areas.  They also act as the basic \u201cbuilding-blocks\u201d for the creation of other geographies such as Data Zones.  There are 46,363 Census 2022 OAs in Scotland.",
+        "num_resources": 3,
+        "num_tags": 5,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2022"
+        ],
+        "temporal_coverage-to": [
+            "2022"
+        ],
+        "title": "Census 2022 \u2013 Output Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following statements must be used when reproducing or using this material: Copyright National Records of Scotland, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2024-05-21\"}, {\"type\": \"publication\", \"value\": \"2024-05-21\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "a0a643ba-c0ed-4860-93a9-5fee11ac492a"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "dd078eb9-d529-4d38-80b5-7c6002b9ffb6"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-17T14:21:33"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "National Records of Scotland"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "National Records of Scotland (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:41.080260",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "de99bc17-f942-4d4f-8a2b-14672e6a8dba",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:41.038539",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OutputArea2022",
+                "package_id": "92d0e6e6-c869-4e17-a8ee-70cd291829fa",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2022/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:41.080263",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "2da40f70-d079-4b6b-ad82-063f91c6cddf",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:41.038630",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CEN2022:OutputArea2022",
+                "package_id": "92d0e6e6-c869-4e17-a8ee-70cd291829fa",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2022/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:41.080264",
+                "description": "Geography \u2013 Census",
+                "format": "",
+                "hash": "",
+                "id": "27e2e489-c001-4967-86bf-1b113b40d6e1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:41.038700",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "National Records of Scotland website",
+                "package_id": "92d0e6e6-c869-4e17-a8ee-70cd291829fa",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/census-datasets",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Boundaries",
+                "id": "761f5ab1-0549-4ea2-9f26-90e94153b09f",
+                "name": "Boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Censuses",
+                "id": "6681e351-a494-4ddd-8ee6-e0b076aacfe2",
+                "name": "Censuses",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Statistical units",
+                "id": "5c1fe287-ebfd-4a64-9580-29baa322a3d0",
+                "name": "Statistical units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "census survey",
+                "id": "28f851c8-04ff-4028-a6c5-0eafd84264a1",
+                "name": "census survey",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "statistical data",
+                "id": "8ce17b2c-73e1-4db1-a06b-7e32b83bc5ea",
+                "name": "statistical data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c40b1ea7-e6b6-40f4-921f-b4b2ce179a53"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

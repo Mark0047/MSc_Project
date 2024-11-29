@@ -1,0 +1,106 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "20cb3791-3a0e-4582-8981-58ebafe82619",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "058913a5-d299-41e7-8f3e-1eac2a718855",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-10-01T15:08:57.746341",
+        "metadata_modified": "2016-10-01T15:09:02.804652",
+        "name": "organogram-government-actuarys-department",
+        "notes": "Organogram (organisation chart) showing all staff roles. Names and salaries are also listed for the Senior Civil Servants.\r\n\r\nOrganogram data is released by all central government departments and their agencies since 2010. Snapshots for 31st March and 30th September are published by 6th June and 6th December each year. The published data is validated and released in CSV format and OGL-licensed for reuse. For more information about this series, see: http://guidance.data.gov.uk/organogram-data.html",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "b6b2868f-a8fe-4996-bf4b-8a735f451f3b",
+            "name": "government-actuarys-department",
+            "title": "Government Actuary's Department",
+            "type": "organization",
+            "description": "The Government Actuary's Department is responsible for providing actuarial advice to public sector clients.\r\n\r\nGAD is a non-ministerial department of HM Treasury\r\n\r\nhttp://www.gad.gov.uk/\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:20.189509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b6b2868f-a8fe-4996-bf4b-8a735f451f3b",
+        "private": false,
+        "schema-vocabulary": "d3c0b23f-6979-45e4-88ed-d2ab59b005d0",
+        "state": "active",
+        "temporal_coverage-from": 2010,
+        "theme-primary": "government-spending",
+        "title": "Organogram of Staff Roles & Salaries",
+        "type": "dataset",
+        "update_frequency": "biannually",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "date",
+                "value": "30/09/2014"
+            },
+            {
+                "key": "import_source",
+                "value": "organograms_v2"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T16:09:00.984722",
+                "date": "2014-09-30",
+                "description": "Organogram - Junior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "533b8463-ab03-492c-b8c4-a60d5458474d",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T16:09:00.984722",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "058913a5-d299-41e7-8f3e-1eac2a718855",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/government-actuarys-department/30/09/2014/government-actuarys-department__30-09-2014__gad_Government-staff-and-salary-data-2014_V5_FINAL_Downloaded-junior.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T16:09:01.903344",
+                "date": "2014-09-30",
+                "description": "Organogram - Senior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "5a2683da-efa5-4558-8841-4027099ad656",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T16:09:01.903344",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "058913a5-d299-41e7-8f3e-1eac2a718855",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/government-actuarys-department/30/09/2014/government-actuarys-department__30-09-2014__gad_Government-staff-and-salary-data-2014_V5_FINAL_Downloaded-senior.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

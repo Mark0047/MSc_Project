@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "inspire@kingston.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "d246ebf1-ee97-4827-89dc-c7ffb06d99ea",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-08-07T11:39:50.721065",
+        "metadata_modified": "2022-08-04T11:18:51.072389",
+        "name": "school-open-spaces-in-the-royal-borough-of-kingston-upon-thames2",
+        "notes": "This data identifies school open spaces, e.g. playing fields, which are protected by planning policy.",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "e7654f11-9ab6-4e78-8d79-df2446f4db9b",
+            "name": "royal-borough-of-kingston-upon-thames",
+            "title": "Royal Borough of Kingston upon Thames",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:19.987085",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e7654f11-9ab6-4e78-8d79-df2446f4db9b",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "School Open Spaces in The Royal Borough of Kingston upon Thames",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"https://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess\", \"Licence\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.28"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.435788"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.39"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.32"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2012-11-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "5ab103a1e00b4f71a59da62dc4175413"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e732dad1-8ede-4c2c-8329-d4c629d45733"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Kingston Council is committed to providing good quality information and every attempt has been made to present up-to-date and accurate information. However, Kingston Council gives no warranty as to the accuracy of the information in this dataset and accepts no liability for any loss, damage or inconvenience caused as a result of reliance on such information. The information should not be used for any unlawful, malicious, otherwise objectionable activities of any kind.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-08-06"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Royal Borough of Kingston upon Thames (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.28, 51.39], [-0.32, 51.39], [-0.32, 51.435788], [-0.28, 51.435788], [-0.28, 51.39]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "203857bd-34cd-400e-afd0-62e5a8ab621b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Royal Borough of Kingston upon Thames Metadata"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-04T11:18:51.114021",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "2ae56a90-5d17-43d9-824b-fd2275d58b1f",
+                "last_modified": null,
+                "metadata_modified": "2022-08-04T11:18:51.076561",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Kingston upon Thames WFS Service",
+                "package_id": "d246ebf1-ee97-4827-89dc-c7ffb06d99ea",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://kingston.statmap.co.uk/map/wfs.svc/open_data_wfs?service=WFS&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-04T11:18:51.114025",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "d1f0b417-fef8-4231-9fc5-2e60faf6b1d1",
+                "last_modified": null,
+                "metadata_modified": "2022-08-04T11:18:51.076723",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Kingston upon Thames WMS Service",
+                "package_id": "d246ebf1-ee97-4827-89dc-c7ffb06d99ea",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://kingston.statmap.co.uk/map/wms.svc/open_data_wms?service=WMS&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "school",
+                "id": "7c5cc023-202f-4d49-84d4-8e16acbeb6a2",
+                "name": "school",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e732dad1-8ede-4c2c-8329-d4c629d45733"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "203857bd-34cd-400e-afd0-62e5a8ab621b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Royal Borough of Kingston upon Thames Metadata"
+            }
+        ]
+    }
+}

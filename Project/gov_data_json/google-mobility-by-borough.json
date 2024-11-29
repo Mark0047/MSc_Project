@@ -1,0 +1,114 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f272d8d5-6da3-4fea-9f3c-79c7fd9ab6d7",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-01-15T15:00:57.989651",
+        "metadata_modified": "2024-11-16T22:01:19.692649",
+        "name": "google-mobility-by-borough",
+        "notes": "These data provide evidence of how movement in London was been affected by the various control measures for COVID-19 and how much they recovered once those measures were eased.\n\n**NOTE: Google stopped updates on 15th Oct 2022**\n\n  \n\nThis page summarises changes in activity from baseline obtained from [Google's Mobility Report](https://www.google.com/covid19/mobility/)\u00a0including:\n\n*   Retail and recreation\n*   Grocery and pharmacy\n*   Parks\n*   Transit stations\n*   Workplaces percent\n*   Residential\n\n[Google](https://www.google.com/covid19/mobility/data_documentation.html)\u00a0collects location data shared by users of Android smartphones, and compares the time and duration of visits to locations to the median values on the same day of the week in the five weeks from 3 Jan 2020.",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Google Mobility by Borough",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/google-mobility-by-borough",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2020-12-21T14:13:16.645Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2023-02-02T08:11:51.896Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "e6ecfbf1-d042-45f1-888b-119c9d35d0f9"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-09-26T21:00:57.455360",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "dfeea50c-18ef-43e3-8e3e-eb90fe279187",
+                "last_modified": null,
+                "metadata_modified": "2022-09-26T21:00:57.424551",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "google_activity_by_London_Borough.csv",
+                "package_id": "f272d8d5-6da3-4fea-9f3c-79c7fd9ab6d7",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/google-mobility-by-borough/01dcf23c-e18e-401f-ac1a-384b26f36375/google_activity_by_London_Borough.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "CAZmodel",
+                "id": "350fe2d5-0671-46b6-bca9-01d831e74b71",
+                "name": "CAZmodel",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "highstreetdata",
+                "id": "386c8664-6b2a-46c0-aeb1-cf1ef04d122b",
+                "name": "highstreetdata",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cebf3331-ced2-46d8-8c34-f6eedd49b8cb"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

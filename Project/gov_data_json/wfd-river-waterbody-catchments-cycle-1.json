@@ -1,0 +1,458 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-05-24T14:45:47.136523",
+        "metadata_modified": "2024-06-14T14:45:37.936016",
+        "name": "wfd-river-waterbody-catchments-cycle-1",
+        "notes": "The 'WFD River Water body Catchments Cycle 1' dataset is a polygon Shapefile defined for the implementation of the Water Framework Directive. Catchments are defined as an area of land from which all surface run-off flows through a series of streams, rivers and, possibly, lakes to a particular point in the water course such as a river confluence.\nWater bodies are attributed with a unique identifier \u2018EA_WB_ID' (equivalent to WB_ID in Cycle 2) so this dataset can be linked directly to other WFD data sources such as river water body catchment, physical characteristics, risk, classification and proposed objectives as well as Cycle 2 datasets.  NB Not all catchments have a designated WFD river water body within them.\nThis dataset was previously known as WFD River Waterbody Catchments.\nThis dataset covers the layer for Cycle 1 of the Water Framework Directive. The equivalent layer for Cycle 2 is covered under WFD River Water body Catchments Cycle 2\n\nPlease note that the Environment Agency no longer provide data for water bodies in Wales - this should now available from Natural Resources Wales. Attribution statement: Contains Environment Agency information \u00a9 Environment Agency and/or database rights 2017.Contains Ordnance Survey data \u00a9 Crown copyright and database rights 2013. Based on digital spatial data licensed from the Centre for Ecology & Hydrology, \u00a9 NERC (CEH).",
+        "num_resources": 11,
+        "num_tags": 7,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "WFD River Waterbody Catchments Cycle 1",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2008-01-01\"}, {\"type\": \"revision\", \"value\": \"2011-01-18\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "7826031e-d465-11e4-b7b9-f0def148f590"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ee8b0739-6bbb-4957-84bd-c2fffcba51a6"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.996742",
+                "description": "WFDRiverWaterBodyCatchmentsCycle1-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "991f5877-4b97-4ced-8498-cbfeec4a71c3",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.942462",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverWaterBodyCatchmentsCycle1-FGDB.zip",
+                "package_id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=6068e229-70ec-4492-9919-dbcac27ea1b4&fileName=WFDRiverWaterBodyCatchmentsCycle1-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.996745",
+                "description": "WFDRiverWaterBodyCatchmentsCycle1-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "623f9e54-ed92-4768-8ca3-2f5402fc1c5c",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.942556",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverWaterBodyCatchmentsCycle1-GeoJSON.zip",
+                "package_id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=6068e229-70ec-4492-9919-dbcac27ea1b4&fileName=WFDRiverWaterBodyCatchmentsCycle1-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.996746",
+                "description": "WFDRiverWaterBodyCatchmentsCycle1-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c6da0391-0575-4765-a3d3-918049fadc4c",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.942629",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverWaterBodyCatchmentsCycle1-GML.zip",
+                "package_id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=6068e229-70ec-4492-9919-dbcac27ea1b4&fileName=WFDRiverWaterBodyCatchmentsCycle1-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.996747",
+                "description": "WFDRiverWaterBodyCatchmentsCycle1-KML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "f0f7e3ce-6b6e-4da6-8cfe-4744dd1be859",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.942698",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverWaterBodyCatchmentsCycle1-KML.zip",
+                "package_id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=6068e229-70ec-4492-9919-dbcac27ea1b4&fileName=WFDRiverWaterBodyCatchmentsCycle1-KML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.996748",
+                "description": "WFDRiverWaterBodyCatchmentsCycle1-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "749cf80a-d38b-4ff4-81ae-4152dadec469",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.942764",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverWaterBodyCatchmentsCycle1-MID_MIF.zip",
+                "package_id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=6068e229-70ec-4492-9919-dbcac27ea1b4&fileName=WFDRiverWaterBodyCatchmentsCycle1-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.996749",
+                "description": "WFDRiverWaterBodyCatchmentsCycle1-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3c971489-1c04-4ba6-97b3-4840c5e804a8",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.942830",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverWaterBodyCatchmentsCycle1-SHP.zip",
+                "package_id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=6068e229-70ec-4492-9919-dbcac27ea1b4&fileName=WFDRiverWaterBodyCatchmentsCycle1-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.996750",
+                "description": "WFDRiverWaterBodyCatchmentsCycle1-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "dbf760bc-6fc3-4ac3-a758-f02623b2a86f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.942896",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverWaterBodyCatchmentsCycle1-TAB.zip",
+                "package_id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=6068e229-70ec-4492-9919-dbcac27ea1b4&fileName=WFDRiverWaterBodyCatchmentsCycle1-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.996751",
+                "description": "Link",
+                "format": "",
+                "hash": "",
+                "id": "cc1ee097-6d0b-4896-8c05-68acd20f1ca2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.942959",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDRiverWaterBodyCatchmentsCycle1",
+                "package_id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-river-waterbody-catchments/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.996752",
+                "description": "Link",
+                "format": "",
+                "hash": "",
+                "id": "ee508e5a-cc12-4fce-9fec-4a4ad017ab45",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.943022",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDRiverWaterBodyCatchmentsCycle1",
+                "package_id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/7826031e-d465-11e4-b7b9-f0def148f590?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.996753",
+                "description": "Link",
+                "format": "",
+                "hash": "",
+                "id": "e5b65522-318f-455c-be1c-c0dc4153b164",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.943085",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDRiverWaterBodyCatchmentsCycle1",
+                "package_id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-river-waterbody-catchments/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.996754",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "368e5dd8-af55-4889-be69-2f0e8123afa8",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.943146",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "15edb3ad-1517-412b-97a2-539d62d6ad34",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-river-waterbody-catchments/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "WFD",
+                "id": "02f4dac3-3ff6-4d88-b62a-99ca259b0af6",
+                "name": "WFD",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "catchment",
+                "id": "4f2bdab5-4533-4c42-8dbd-f49db3b0f56a",
+                "name": "catchment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inlandWaters",
+                "id": "cec0bb77-73e4-4884-a522-2dd31882fe82",
+                "name": "inlandWaters",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "river",
+                "id": "0d871f42-5d74-450f-b9da-6e47d6e00f32",
+                "name": "river",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "stream",
+                "id": "c3545920-5dd1-490c-bcbc-778f420df894",
+                "name": "stream",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "water body",
+                "id": "dd7a1226-7035-40aa-afa9-ed066954b5f9",
+                "name": "water body",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3bb12a6d-f581-4fbd-94f5-72988bdcf7b4"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

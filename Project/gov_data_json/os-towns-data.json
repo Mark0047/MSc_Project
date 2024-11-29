@@ -1,0 +1,212 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "customerservices@os.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "86e2cb65-51d5-42cf-96cf-7fe3ef0ce3d0",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-06-03T12:23:09.116408",
+        "metadata_modified": "2024-08-28T13:56:00.727722",
+        "name": "os-towns-data",
+        "notes": "Great Britain's (England, Scotland, Wales) towns named and represented as point features with an indicative bounding box. This data is often used for geocoding, service delivery and statistical analysis. OS Towns Data is available in a number of Ordnance Survey (OS) products: OS Open Names (bounding box and point geometry), OS Names API, MasterMap Topography Layer (point geometry), Vector Map Local (point geometry) and Vector Map District (point geometry). Small-scale cartographic representations are also available in OS cartographic products. All data is collected by Ordnance Survey as part of their role as the National Mapping Agency of Great Britain.",
+        "num_resources": 1,
+        "num_tags": 5,
+        "organization": {
+            "id": "776f0897-ded1-411a-88c6-e8687ccf3875",
+            "name": "ordnance-survey",
+            "title": "Ordnance Survey",
+            "type": "organization",
+            "description": "Ordnance Survey is Great Britain\u2019s national mapping agency. It carries out the official surveying of GB, providing the most accurate and up-to-date geographic data, relied on by government, business and individuals.\r\n\r\nOS is a government owned company, accountable to Department for Business, Innovation & Skills\r\n\r\nhttps://os.uk/\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:53:10.634259",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "776f0897-ded1-411a-88c6-e8687ccf3875",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "OS Towns Data",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.86"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.86"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.45"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2021-03-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "0ef85287-ef32-49ff-a559-1464de1d2663"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "beee5eb1-df24-4b73-99de-dc16ba712683"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-08-14T16:04:40.916Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Ordnance Survey"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Ordnance Survey (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.86], [-8.45, 49.86], [-8.45, 60.86], [1.78, 60.86], [1.78, 49.86]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-28T13:56:00.783287",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "89002781-c15a-4e4a-a92f-b86517678aa6",
+                "last_modified": null,
+                "metadata_modified": "2024-08-28T13:56:00.744928",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OS Open Names Download",
+                "package_id": "86e2cb65-51d5-42cf-96cf-7fe3ef0ce3d0",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://osdatahub.os.uk/downloads/open/OpenNames",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Town",
+                "id": "b2e9a9f6-fb82-43e7-9c30-d27cdadb29cb",
+                "name": "Town",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "human settlement",
+                "id": "413c97b2-91ee-4640-b733-ef3ea5a06d21",
+                "name": "human settlement",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "new town",
+                "id": "af124aa9-d417-4e9d-bfe3-79063be13d47",
+                "name": "new town",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "population density",
+                "id": "ef54f3e6-083b-4354-9c7c-ae9052e88409",
+                "name": "population density",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "urban area",
+                "id": "2a515694-813e-4ef2-a31c-419f0a3eed52",
+                "name": "urban area",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "461f59b2-8c65-42e4-9a13-2247944137c0"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ]
+    }
+}

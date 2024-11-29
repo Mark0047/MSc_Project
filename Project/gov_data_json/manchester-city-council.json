@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "27fff697-3caf-45f2-8565-377e45fbc590",
+        "metadata_created": "2019-01-23T10:45:57.439412",
+        "metadata_modified": "2019-01-23T10:45:57.439421",
+        "name": "manchester-city-council",
+        "notes": "",
+        "organization": {
+            "id": "bb9f6a1c-d3d3-4e39-aee6-bf75ce49b5b7",
+            "name": "manchester-city-council",
+            "title": "Manchester City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-09-01T22:22:59.815968",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bb9f6a1c-d3d3-4e39-aee6-bf75ce49b5b7",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Manchester City Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/manchester/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 32,
+            "last_job": {
+                "id": "aa0a9be9-ff34-4a32-8c18-b6f207d6f290",
+                "created": "2019-03-08 10:46:15.974333",
+                "gather_started": "2019-03-08 10:46:17.436051",
+                "gather_finished": "2019-03-08 10:46:17.803577",
+                "finished": "2019-03-08 10:46:40.204882",
+                "source_id": "27fff697-3caf-45f2-8565-377e45fbc590",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 9
+                },
+                "object_error_summary": [
+                    {
+                        "message": "[u'Tag \"Brownfield, regeneration\" must be alphanumeric characters or symbols: -_.']",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 8
+        }
+    }
+}

@@ -1,0 +1,289 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "469cff5a-d6ef-486b-a07d-bcc57e6f2972",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-11-12T06:03:43.891736",
+        "metadata_modified": "2024-11-17T11:01:05.571762",
+        "name": "air-quality-management-areas74",
+        "notes": "Under the Environmental Protection Act 1995 local authorities are required to review air quality in their areas. When pollutants exceed their air quality objectives, local authorities must designate an air quality management area (AQMA).Upon accessing licenced data, you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE ",
+        "num_resources": 7,
+        "num_tags": 9,
+        "organization": {
+            "id": "5327851e-43b8-408c-bf83-a00d39f58dea",
+            "name": "wigan-metropolitan-borough-council",
+            "title": "Wigan Metropolitan Borough Council",
+            "type": "organization",
+            "description": "gis datasets harvested from Wigan Councils Open Data site http://opendata.wigan.gov.uk",
+            "image_url": "",
+            "created": "2012-06-27T14:49:35.957090",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "5327851e-43b8-408c-bf83-a00d39f58dea",
+        "private": false,
+        "state": "active",
+        "title": "Air Quality Management Areas",
+        "type": "dataset",
+        "url": "https://opendata.wigan.gov.uk/datasets/Wigan::air-quality-management-areas",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2018-01-02T11:25:11.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2021-04-07T08:41:27.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Wigan Council"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=bcc7dfa3031c45b593ca00332c66b7f6&sublayer=0"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:43.904846",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "bb68fd75-6927-4a90-bc9b-f33308dcf4bc",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:43.884327",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "469cff5a-d6ef-486b-a07d-bcc57e6f2972",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/datasets/Wigan::air-quality-management-areas",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:43.904848",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "f323b0a5-09d2-4831-ac7e-ac4670fccbaf",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:43.884403",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "469cff5a-d6ef-486b-a07d-bcc57e6f2972",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.wigan.gov.uk/arcgis/rest/services/OpenData/Air_Quality_Management_Areas/MapServer/0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:43.904849",
+                "description": null,
+                "format": "OGC WMS",
+                "hash": "",
+                "id": "905d5def-771f-4b04-99da-4ca486a32916",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:43.884464",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WMS",
+                "package_id": "469cff5a-d6ef-486b-a07d-bcc57e6f2972",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.wigan.gov.uk/arcgis/services/OpenData/Air_Quality_Management_Areas/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:43.904850",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "51da7ee3-165c-49f5-a5e7-6e51ace12a25",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:43.884534",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "469cff5a-d6ef-486b-a07d-bcc57e6f2972",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/bcc7dfa3031c45b593ca00332c66b7f6/csv?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:43.904851",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "de9a1650-e52c-4bf9-8783-cda043e5cd2f",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:43.884590",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "469cff5a-d6ef-486b-a07d-bcc57e6f2972",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/bcc7dfa3031c45b593ca00332c66b7f6/geojson?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:43.904852",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "f7a95154-4b3a-4a59-88ff-f8bc8d2c6ef0",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:43.884645",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "469cff5a-d6ef-486b-a07d-bcc57e6f2972",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/bcc7dfa3031c45b593ca00332c66b7f6/shapefile?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:43.904852",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "65d94178-76ec-49b6-9562-d60a0a002dbe",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:43.884701",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "469cff5a-d6ef-486b-a07d-bcc57e6f2972",
+                "position": 6,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/bcc7dfa3031c45b593ca00332c66b7f6/kml?layers=0",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "air",
+                "id": "17ec8eed-aeb1-4159-a40f-76ed08695d03",
+                "name": "air",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "areas",
+                "id": "d46ea5fb-9a07-4142-b331-87d271f17795",
+                "name": "areas",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "data",
+                "id": "b550a6be-36bb-44e2-a9c8-09e1cac3fb4a",
+                "name": "data",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "health",
+                "id": "6a1869cc-7df6-4484-b185-eb045d8570e6",
+                "name": "health",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "management",
+                "id": "41ab5cba-6e14-46e0-ae2d-410a6767a7e0",
+                "name": "management",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "open",
+                "id": "799402d5-f0db-481f-b512-414c07e5210e",
+                "name": "open",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "quality",
+                "id": "dda66b74-da1c-4e66-81fa-89abf1a97be1",
+                "name": "quality",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wigan",
+                "id": "26e0a82b-b856-4fec-88d2-830b255aa1bd",
+                "name": "wigan",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "39df4c7e-c154-4278-8c0f-35ac2af3c3d1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c951075d-26cc-47cb-822b-d8de5fa5d3cb"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wigan Council"
+            }
+        ]
+    }
+}

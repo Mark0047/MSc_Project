@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a30070f9-7627-463f-867a-e351e1d15dd7",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2017-07-28T08:30:53.949189",
+        "metadata_modified": "2024-10-12T15:00:25.696505",
+        "name": "deaths-from-all-cancers",
+        "notes": "This data shows premature deaths (Age under 75) from all Cancers, numbers and rates by gender, as 3-year moving-averages.\r\n\r\nCancers are a major cause of premature deaths. Inequalities exist in cancer rates between the most deprived areas and the most affluent areas.\r\n\r\nDirectly Age-Standardised Rates (DASR) are shown in the data (where numbers are sufficient) so that death rates can be directly compared between areas.  The DASR calculation applies Age-specific rates to a Standard (European) population to cancel out possible effects on crude rates due to different age structures among populations, thus enabling direct comparisons of rates.\r\n\r\nA limitation on using mortalities as a proxy for prevalence of health conditions is that mortalities may give an incomplete view of health conditions in an area, as ill-health might not lead to premature death.\r\n\r\nData source: Office for Health Improvement and Disparities (OHID), indicator ID 40501, E05a.  This data is updated annually.\r\n",
+        "num_resources": 5,
+        "num_tags": 3,
+        "organization": {
+            "id": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+            "name": "lincolnshire-county-council",
+            "title": "Lincolnshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:38:51.868332",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+        "private": false,
+        "state": "active",
+        "title": "Deaths from All Cancers",
+        "type": "dataset",
+        "url": "https://fingertips.phe.org.uk/",
+        "version": "",
+        "extras": [
+            {
+                "key": "Statistics at OHID - weblink:",
+                "value": "https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities/about/statistics"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "6a7bcb3f-2000-46d8-8c28-ac97d458cecc"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-05-09T13:28:25.690732",
+                "datastore_active": true,
+                "description": "Dataset for Deaths from All Cancers age under 75.  Data for 2010-2012 and onwards has been Directly Age-Standardised to the 2013 European Standard Population. This means earlier data would not be comparable (because that was Standardised to the earlier 1976 version of European Standard Population).",
+                "format": "CSV",
+                "hash": "",
+                "id": "f77ad392-7548-4a23-b3a1-e351b98ad214",
+                "last_modified": "2024-10-09T15:55:08.078007",
+                "metadata_modified": "2024-10-12T15:00:25.710679",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Deaths from All Cancers",
+                "package_id": "a30070f9-7627-463f-867a-e351e1d15dd7",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/a30070f9-7627-463f-867a-e351e1d15dd7/resource/f77ad392-7548-4a23-b3a1-e351b98ad214/download/deathsallcancers.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-05-09T13:43:27.697458",
+                "datastore_active": true,
+                "description": "Metadata for Deaths from All Cancers dataset.  This file contains Metadata (information about a dataset). It shows the schema for dataset fields and their contents. This file should be used along with the dataset, to aid correct interpretation of the data.\r\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "a86fe0b7-e73a-4290-96ce-18306f4abe82",
+                "last_modified": null,
+                "metadata_modified": "2017-05-09T13:43:27.697458",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata",
+                "package_id": "a30070f9-7627-463f-867a-e351e1d15dd7",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/a30070f9-7627-463f-867a-e351e1d15dd7/resource/a86fe0b7-e73a-4290-96ce-18306f4abe82/download/metadatadeathsallcancers.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-06-20T15:14:57.484218",
+                "datastore_active": false,
+                "description": "Cancer data and analysis tools published by Public Health England (PHE), now the Office for Health Improvement and Disparities (OHID).",
+                "format": "HTML",
+                "hash": "",
+                "id": "6dc2d73e-b8df-4504-adee-690b2925fbb0",
+                "last_modified": null,
+                "metadata_modified": "2022-03-11T18:50:21.725608",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OHID: Cancer data and analysis tools",
+                "package_id": "a30070f9-7627-463f-867a-e351e1d15dd7",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.gov.uk/guidance/phe-data-and-analysis-tools#a-to-z-list",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-22T09:46:32.431859",
+                "datastore_active": false,
+                "description": "Office for Health Improvement and Disparities (OHID) - data and profiles on key health issues.  For data and profiles of key Health conditions in local areas, see the links for Local Authority Health profiles, and Local Health.",
+                "format": "HTML",
+                "hash": "",
+                "id": "a13049f6-31c1-4b32-b2a4-67e791cbe0e0",
+                "last_modified": null,
+                "metadata_modified": "2022-03-11T18:50:21.725709",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OHID: Public Health Outcomes Framework (PHOF)",
+                "package_id": "a30070f9-7627-463f-867a-e351e1d15dd7",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://fingertips.phe.org.uk/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-04-12T13:11:45.246638",
+                "datastore_active": false,
+                "description": "Key documents and information on the Health and Wellbeing of Lincolnshire\u2019s population.  Its resources include the Lincolnshire Joint Strategic Needs Assessment (JSNA).",
+                "format": "HTML",
+                "hash": "",
+                "id": "d2688ee8-36f1-4c10-b351-aeb827de1774",
+                "last_modified": null,
+                "metadata_modified": "2023-05-11T20:34:01.980317",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Lincolnshire Health Intelligence Hub",
+                "package_id": "a30070f9-7627-463f-867a-e351e1d15dd7",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lhih.org.uk/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "cancer",
+                "id": "b7174fc1-4f60-4d15-85a7-fd00ea8432f2",
+                "name": "cancer",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "deaths",
+                "id": "65020601-e619-4bd2-b632-b88109bd174e",
+                "name": "deaths",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "health",
+                "id": "6a1869cc-7df6-4484-b185-eb045d8570e6",
+                "name": "health",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "6a7bcb3f-2000-46d8-8c28-ac97d458cecc"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@oceannet.org",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "598c9b6b-890d-462f-960c-62de615dce27",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:36:54.554208",
+        "metadata_modified": "2024-09-10T08:36:54.554212",
+        "name": "seavox-regional-seas-around-the-uk",
+        "notes": "A polygon subset of sea areas around the UK taken from The SeaVoX Salt and Fresh Water Body Gazetteer (v14 published April 2013). Sea areas included are Iceland Sea, Norwegian Sea, North Sea, Inner Seas off the West Coast of Scotland, Irish Sea and St. George's Channel, Bristol Channel, English Channel, Celtic Sea, Bay of Biscay and Skagerrak.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2013-02-18"
+        ],
+        "temporal_coverage-to": [
+            "2023-07-25"
+        ],
+        "title": "SeaVoX regional seas around the UK",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"unrestricted\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "26.0000"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "76.5000"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "43.0000"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-30.0000"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2013-02-18\"}, {\"type\": \"creation\", \"value\": \"2013-02-18\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "8feaa3d5ca3b6c9b8151c6e72ca709de"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "40712371-f9d2-4d1e-9d59-99eb1195d986"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Data is freely available for research or commercial use providing that the originators are acknowledged in any publications produced.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-07-25"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Marine Environmental Data and Information Network (originator, custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[26.0000, 43.0000], [-30.0000, 43.0000], [-30.0000, 76.5000], [26.0000, 76.5000], [26.0000, 43.0000]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::4326"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:36:54.556724",
+                "description": "A link to the web service or dataset",
+                "format": "",
+                "hash": "",
+                "id": "2f4bf70a-aeec-4a3b-9495-635af4fb67ab",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:36:54.551901",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "598c9b6b-890d-462f-960c-62de615dce27",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.bodc.ac.uk/data/download/asset/225/generic/",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "40712371-f9d2-4d1e-9d59-99eb1195d986"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

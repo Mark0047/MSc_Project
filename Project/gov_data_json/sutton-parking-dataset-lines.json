@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "Parkingservices@sutton.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "bd943ff7-e654-4922-b1a4-4b242292cb15",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-01-11T11:40:37.618895",
+        "metadata_modified": "2023-07-13T14:32:07.960051",
+        "name": "sutton-parking-dataset-lines",
+        "notes": "Dataset shows parking restrictions on adopted highways within Sutton",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "bbbf51d0-6ebd-4c71-ae69-f2c4f4492e87",
+            "name": "london-borough-of-sutton",
+            "title": "London Borough of Sutton",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:04.022634",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "bbbf51d0-6ebd-4c71-ae69-f2c4f4492e87",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2017-06-01"
+        ],
+        "temporal_coverage-to": [
+            "2020-07-01"
+        ],
+        "title": "Sutton Parking Dataset Lines",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/end-user-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.0985336280"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.4257582177"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.3143054570"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.2667617774"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2018-12-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "1c8f4fbf-f4f0-444e-afcf-660b798e94ff"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "795074e7-5025-4194-9d90-b26201910e9d"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Personal Use\", \"PSMA Sharing Constraint. This data is restricted under the Ordnance Survey (OS) Public Sector Mapping Agreement (PSMA). Click on Download to request access.\", \"No Conditions Apply\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-01-11T09:16:55"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "London Borough of Sutton (resourceProvider)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.0985336280, 51.3143054570], [-0.2667617774, 51.3143054570], [-0.2667617774, 51.4257582177], [-0.0985336280, 51.4257582177], [-0.0985336280, 51.3143054570]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "d45cbd40-c925-4116-8230-56a18641c23a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Borough of Sutton"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-07-13T14:32:07.987706",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "9098f391-ab62-421a-ac55-51c0243e69af",
+                "last_modified": null,
+                "metadata_modified": "2023-07-13T14:32:07.963770",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "bd943ff7-e654-4922-b1a4-4b242292cb15",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://sutton.statmap.co.uk/map/wms.svc/open_data_lbs_wms?service=WMS&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-07-13T14:32:07.987710",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "7db9d2e4-df08-40ac-9a24-99b2cebde696",
+                "last_modified": null,
+                "metadata_modified": "2023-07-13T14:32:07.963938",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "bd943ff7-e654-4922-b1a4-4b242292cb15",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://sutton.statmap.co.uk/map/wfs.svc/open_data_lbs_wfs?service=WFS&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Transport networks",
+                "id": "83d966c8-b18a-4c8f-9d3f-6aa454713f70",
+                "name": "Transport networks",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Utility and governmental services",
+                "id": "3d5bf038-bc42-446f-95d6-fb9c1ea73905",
+                "name": "Utility and governmental services",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "795074e7-5025-4194-9d90-b26201910e9d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "d45cbd40-c925-4116-8230-56a18641c23a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Borough of Sutton"
+            }
+        ]
+    }
+}

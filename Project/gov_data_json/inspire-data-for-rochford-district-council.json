@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "e1bfe61e-a308-432b-a908-0f6f4c116615",
+        "metadata_created": "2019-01-23T11:45:55.558901",
+        "metadata_modified": "2019-01-23T11:45:55.558912",
+        "name": "inspire-data-for-rochford-district-council",
+        "notes": "",
+        "organization": {
+            "id": "00b8a483-134e-47b2-acf8-0ba3040979a1",
+            "name": "rochford-district-council",
+            "title": "Rochford District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-02-07T17:22:11.930046",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "00b8a483-134e-47b2-acf8-0ba3040979a1",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "INSPIRE data for Rochford District Council",
+        "type": "harvest",
+        "url": "http://essex.astuntechnology.com/rochford",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 6,
+            "last_job": {
+                "id": "7449c116-2a5d-4269-b732-7662bc0075c6",
+                "created": "2014-10-24 13:06:59.474771",
+                "gather_started": "2014-10-24 14:10:02.888197",
+                "gather_finished": "2014-10-24 14:10:05.694032",
+                "finished": null,
+                "source_id": "e1bfe61e-a308-432b-a908-0f6f4c116615",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 36,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Content is not a valid Gemini document without the gmd:MD_Metadata element (http://essex.astuntechnology.com/rochford/index.html)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 36
+        }
+    }
+}

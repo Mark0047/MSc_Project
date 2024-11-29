@@ -1,0 +1,219 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "be1821b1-e888-4440-8804-5d3510faad54",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-10-19T15:50:29.614511",
+        "metadata_modified": "2017-03-21T03:31:05.428853",
+        "name": "parking-account-pcc",
+        "notes": "<p>Parking account</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "e70862ec-8167-48e6-a27c-a0e9db1ebc87",
+            "name": "peterborough-city-council",
+            "title": "Peterborough City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-01-31T16:33:33.959076",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e70862ec-8167-48e6-a27c-a0e9db1ebc87",
+        "private": false,
+        "state": "active",
+        "theme-primary": "transport",
+        "title": "Parking account",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.peterborough.gov.uk/parking/parking-account"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "15a8026b-b11e-4bc9-bb30-6f3947efb289"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.peterborough.gov.uk/parking/parking-account"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "parking/parking-account"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-03-14"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.peterborough.gov.uk/api/esdInventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2017-03-14T00:00:00\", \"harvest_source_title\": \"Peterborough Open Data Feed\", \"activity_occurred\": \"2017-03-21T03:31:05.387610\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.peterborough.gov.uk/parking/parking-account\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "58412448-06ff-48f8-8472-969d3e646516"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Peterborough Open Data Feed"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-10-19T16:50:29.648335",
+                "description": "Parking account - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "260cfffa-c019-4891-97b6-86409f17894e",
+                "last_modified": null,
+                "metadata_modified": "2015-10-19T16:50:29.648335",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "be1821b1-e888-4440-8804-5d3510faad54",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.peterborough.gov.uk/api/parking/parking-account/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.peterborough.gov.uk/Download/parking/parking-account",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-21T03:31:05.479007",
+                "description": "parking-account 2015-16 - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "92b37a91-e0e1-4bec-a21d-cfe664f6329f",
+                "last_modified": null,
+                "metadata_modified": "2017-03-21T03:31:05.479007",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "be1821b1-e888-4440-8804-5d3510faad54",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.peterborough.gov.uk/api/parking/parking-account/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.peterborough.gov.uk/download/parking/parking-account/parking-account-2015-16/CSV?version=21/03/2017",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-21T03:31:05.479029",
+                "description": "parking-account 2015-16 - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "2124ac83-102e-49d2-b9bd-e2fce5a771f3",
+                "last_modified": null,
+                "metadata_modified": "2017-03-21T03:31:05.479029",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "be1821b1-e888-4440-8804-5d3510faad54",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.peterborough.gov.uk/api/parking/parking-account/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.peterborough.gov.uk/download/parking/parking-account/parking-account-2015-16/XML?version=21/03/2017",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-02-07T02:30:58.823473",
+                "description": "parking-account 2015-16 - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "496657ea-bfd7-4411-adfb-49179a08b110",
+                "last_modified": null,
+                "metadata_modified": "2017-02-07T02:30:58.823473",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "be1821b1-e888-4440-8804-5d3510faad54",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.peterborough.gov.uk/api/parking/parking-account/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.peterborough.gov.uk/api/parking/parking-account/parking-account-2015-16?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-02-07T02:30:58.823479",
+                "description": "parking-account 2015-16 - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "00d37229-b540-4e12-96cb-6ec5a1c2969e",
+                "last_modified": null,
+                "metadata_modified": "2017-02-07T02:30:58.823479",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "be1821b1-e888-4440-8804-5d3510faad54",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.peterborough.gov.uk/api/parking/parking-account/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.peterborough.gov.uk/api/parking/parking-account/parking-account-2015-16?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "15a8026b-b11e-4bc9-bb30-6f3947efb289"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "58412448-06ff-48f8-8472-969d3e646516"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Peterborough Open Data Feed"
+            }
+        ]
+    }
+}

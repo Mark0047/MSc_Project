@@ -1,0 +1,196 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "2cd1ef74-c902-4a6d-bf5e-bc9580af9395",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-02-19T04:30:15.106243",
+        "metadata_modified": "2020-04-12T08:21:03.365577",
+        "name": "how-old-is-our-housing1",
+        "notes": "<p>This dataset provides information for Cambridgeshire, West Suffolk and Peterborough, showing the age of homes as provided by the Valuation Office Agency, based on council tax records.<br />\nThe first file of data is specifically focussed on identifying homes with solid walls, as part of the Warm Homes project, so the data has been grouped to highlight the small areas (known as Lower Super Output Areas) where homes fall into three specific age bands:<br />\nBuilt before 1929<br />\nBuilt between 1930 to 1939<br />\nBuilt between 1945 and 2015</p>\n<p>Some build dates are unknown, there are also counted in the data.</p>\n<p>Homes built before 1929 all tend to have solid walls, as cavity walls had not been invented. Homes built between 1930 and 1939 may or may not have solid walls, in the period when cavity walls were becoming more popular but not yet \"the norm\". Few homes were built 1939 to 1945. On the whole, homes built since 1945 tend to have cavity walls.</p>\n<p>So this data set helps us identify where we can find homes which are most likely to have solid walls, and therefore where a solid wall insulation project might want ot focus its attention.</p>\n<p>The second data file is more detailed and adds further information on the date homes were built, grouped into ten-year bands, and adds the number of homes in each LSO which falls into council tax bands A to H as well.</p>\n",
+        "num_resources": 4,
+        "num_tags": 3,
+        "organization": {
+            "id": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+            "name": "cambridgeshire-insight",
+            "title": "Cambridgeshire Insight",
+            "type": "organization",
+            "description": "The Cambridgeshire Insight Partnership is made up of public, health and community bodies to provide a shared research knowledge base for the Cambridgeshire area. It allows users an easy way to access and share data, information and research for deeper insights about their local area. See more at https://cambridgeshireinsight.org.uk",
+            "image_url": "",
+            "created": "2014-05-19T12:10:18.790087",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+        "private": false,
+        "state": "active",
+        "title": "How old is our housing?",
+        "type": "dataset",
+        "url": "https://data.cambridgeshireinsight.org.uk/dataset/how-old-our-housing",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2018-07-30"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2018-09-27"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "The Housing Board"
+            },
+            {
+                "key": "guid",
+                "value": "15b2b1f7-6fa4-46bb-bdde-ba032bf3161f"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "afc11866-c248-4a9a-a716-b5db9858c165"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:21:03.696482",
+                "description": "<p>This excel file provides data, at LSOA level, for Cambridgeshire, West Suffolk and Peterbrough, grouping homes into four categories of date when they were built:</p>\n<ul>\n<li>Built before 1929</li>\n<li>Built 1930 to 1939</li>\n<li>Built 1945 to 2015</li>\n<li>Unknown built date</li>\n</ul>\n<p>It is based on data released by VOA, using Council Tax records.<br />\nWhen trying to identify homes with solid walls, data of construction is very useful as homes built before 1930 tend to all have soild walls, from 1930 to after the second workld war they then to be mixed, and since 1945 cavity wall construcitno was the most common.</p>\n<p>Local naming has been added to clarify the geographies covered by each LSOA. Further detail will be posted on how these local geographies have been identified shortly.</p>\n",
+                "format": "XLS",
+                "hash": "",
+                "id": "1e6254c4-f51d-43f3-accf-29e3518da7ba",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:21:03.696482",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Where can we find homes with solid walls?",
+                "package_id": "2cd1ef74-c902-4a6d-bf5e-bc9580af9395",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/VOA-stock-age-by-LSOA-for-swi-xls2_0.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:21:03.696490",
+                "description": "<p>This CSV file provides data, at LSOA level, for Cambridgeshire, West Suffolk and Peterbrough, grouping homes into four categories of date when they were built:<br />\n\u2022Built before 1929<br />\n \u2022Built 1930 to 1939<br />\n\u2022Built 1945 to 2015<br />\n\u2022Unknown built date</p>\n<p>It is based on data released by VOA, using Council Tax records. When trying to identify homes with solid walls, data of construction is very useful as homes built before 1930 tend to all have soild walls, from 1930 to after the second workld war they then to be mixed, and since 1945 cavity wall construcitno was the most common.</p>\n<p>Local naming has been added to clarify the geographies covered by each LSOA. Further detail will be posted on how these local geographies have been identified shortly.</p>\n<p>This csv file was amended in May 2016 to remove some minor coding errors. The data remains exactly the same as in previous versions.</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "7095ff0b-3689-4a72-add4-9b0c68d9cbea",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:21:03.696490",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Where can we find homes with solid walls?",
+                "package_id": "2cd1ef74-c902-4a6d-bf5e-bc9580af9395",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/VOA-stock-age-by-LSOA-for-swi-csv2_0.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:21:03.696493",
+                "description": "<p>This data is proivded nationally by the Valuation Office Agency (VOA) and groups all homes into age band and council tax band.<br />\nThe age bands are:</p>\n<ul>\n<li>Built before 1900</li>\n<li>\n<p>Built 1900 to 1918</p>\n</li>\n<li>\n<p>Built 1919 to 1929</p>\n</li>\n<li>Built 1930 to 1939</li>\n<li>Built 1945 to 1954</li>\n<li>Built 1955 to 1964</li>\n<li>Built 1965 to 1972</li>\n<li>Built 1973 to 1982</li>\n<li>Built 1983 to 1992</li>\n<li>Built 1993 to 1999</li>\n<li>Built 2000 to 2009</li>\n<li>Built 2010 to 2015</li>\n<li>Built date unknown</li>\n<li>Total (simply the number of homes in each age band, totalled).</li>\n</ul>\n<p>Council tax bands are provided as values A to G.</p>\n<p>The data is labelled with a local 2011 LSOA name, which denotes a rough correlation to ward names. Furhter detail on the naming will be added to this site soon.</p>\n",
+                "format": "XLS",
+                "hash": "",
+                "id": "fb31b36d-9d5a-47bd-b95e-dde66a66e740",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:21:03.696493",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Homes by age built and council tax band",
+                "package_id": "2cd1ef74-c902-4a6d-bf5e-bc9580af9395",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/voa-data-stock-age-ct-band-lsoa_0_0.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:21:03.696494",
+                "description": "<p>This CSV data is provided nationally by the Valuation Office Agency (VOA) and groups all homes into age band and council tax band. The age bands are:</p>\n<ul>\n<li>Built before 1900</li>\n<li>Built 1900 to 1918</li>\n<li>Built 1919 to 1929</li>\n<li>Built 1930 to 1939</li>\n<li>Built 1945 to 1954</li>\n<li>Built 1955 to 1964</li>\n<li>Built 1965 to 1972</li>\n<li>Built 1973 to 1982</li>\n<li>Built 1983 to 1992</li>\n<li>Built 1993 to 1999</li>\n<li>Built 2000 to 2009</li>\n<li>Built 2010 to 2015</li>\n<li>Built date unknown</li>\n<li>Total (simply the number of homes in each age band, totalled).</li>\n</ul>\n<p>Council tax bands are provided as values A to G.</p>\n<p>The data is labelled with a local 2011 LSOA name, which denotes a rough correlation to ward names. Furhter detail on the naming will be added to this site soon.</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "bf82534e-d9d2-4d86-ad1e-69ab94622f5b",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:21:03.696494",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Homes by age built and council tax band",
+                "package_id": "2cd1ef74-c902-4a6d-bf5e-bc9580af9395",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/voa-data-stock-age-ct-band-lsoa_0_0.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Fuel poverty",
+                "id": "cec08400-bdfe-4cee-99ae-f6314d640f03",
+                "name": "Fuel poverty",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Housing",
+                "id": "fdf67b17-b833-436e-8245-d610ddfd2b6c",
+                "name": "Housing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "warm homes",
+                "id": "fb1cbf58-36cb-490c-8a78-729181007191",
+                "name": "warm homes",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "afc11866-c248-4a9a-a716-b5db9858c165"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ]
+    }
+}

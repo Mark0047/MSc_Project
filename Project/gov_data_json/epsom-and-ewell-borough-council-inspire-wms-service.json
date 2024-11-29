@@ -1,0 +1,184 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@epsom-ewell.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "7a19adb9-0c42-4f60-9c0f-ae20e59f9e42",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-02-16T14:00:18.348907",
+        "metadata_modified": "2021-06-28T15:17:06.338855",
+        "name": "epsom-and-ewell-borough-council-inspire-wms-service",
+        "notes": "Epsom and Ewell Borough Council INSPIRE WMS service. This service provides INSPIRE data and is available for personal non commercial use. The data this device provides is released under the Public Sector INSPIRE End User License. http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html ",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+            "id": "1d700d8f-1f17-45f4-9217-88e04eb30f14",
+            "name": "epsom-and-ewell-borough-council",
+            "title": "Epsom and Ewell Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-15T09:56:08.177952",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1d700d8f-1f17-45f4-9217-88e04eb30f14",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Epsom and Ewell Borough Council INSPIRE WMS Service",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"as per inspire\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.343"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.700"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.055"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.850"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"href\": [\"https://maps.epsom-ewell.gov.uk/getOWS.ashx?MapSource=EEBC/inspire&service=WMS&version=1.3&request=GetCapabilities\"], \"uuid\": [], \"title\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2021-01-26\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "71da135d-b8fd-4994-a3b0-6b4a1d96df7a"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "96e738a4-aa49-48b6-a2fa-7734dc81714e"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-01-26T13:48:05"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Epsom and Ewell Borough Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.343, 51.055], [-0.850, 51.055], [-0.850, 51.700], [0.343, 51.700], [0.343, 51.055]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "view"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "cd9bdfec-e36c-4f51-bb03-c455b481f297"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Epsom and Ewell Borough Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-06-28T15:17:06.627514",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "9ad05fa2-ca87-4898-a9a9-43d07bcf9d64",
+                "last_modified": null,
+                "metadata_modified": "2021-06-28T15:17:06.627514",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Epsom and Ewell INSPIRE Web Map Service",
+                "package_id": "7a19adb9-0c42-4f60-9c0f-ae20e59f9e42",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.epsom-ewell.gov.uk/getOWS.ashx?MapSource=EEBC/inspire&service=WMS&version=1.3&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "humanGeographicViewer",
+                "id": "6b66ddfa-7cd1-4ad3-b66c-a719a877a831",
+                "name": "humanGeographicViewer",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "96e738a4-aa49-48b6-a2fa-7734dc81714e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "cd9bdfec-e36c-4f51-bb03-c455b481f297"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Epsom and Ewell Borough Council"
+            }
+        ]
+    }
+}

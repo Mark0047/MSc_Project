@@ -1,0 +1,223 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mapping.geodata@forestry.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "1f170d7b-77fc-417d-aad6-0af1881a23ab",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-12-10T13:24:56.348387",
+        "metadata_modified": "2024-05-09T06:06:29.352439",
+        "name": "wood-production-roundwood-removals-1976-to-2018-provisional",
+        "notes": "Wood production (roundwood removals) for 1976 to 2018 (provisional). The data are broken down by:\n\n-England, Wales, Scotland, Northern Ireland, GB and UK;\n-Softwood and hardwood;\n-Forestry Commission/Natural Resources Wales/Forest Service (FC/NRW/FS) and private sector.\n\nThe dataset is released twice a year: \nProvisional figures are available in May to support the National Statistics release UK Wood Production and Trade; \nFinal figures are available in September to support the National Statistics releases Forestry Statistics and Forestry Facts & Figures.",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Wood Production (roundwood removals): 1976 to 2018 (provisional)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.9"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2019-11-18\"}, {\"type\": \"publication\", \"value\": \"2019-05-16\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "biannually"
+            },
+            {
+                "key": "guid",
+                "value": "abf8e5b5-0a7e-449f-9b54-10f6edd30ccf"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "bd5ce556-42bb-4b29-b21d-6b7fb902e468"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Contains Forestry Commission information licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Forestry Commission (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2, 49.9], [-8, 49.9], [-8, 61], [2, 61], [2, 49.9]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-09T06:06:29.387496",
+                "description": "Resource locator",
+                "format": "XLS",
+                "hash": "",
+                "id": "2b12969b-0c51-4708-8f1e-4cbeb47b4f09",
+                "last_modified": null,
+                "metadata_modified": "2024-05-09T06:06:29.358234",
+                "mimetype": "application/vnd.ms-excel",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "1f170d7b-77fc-417d-aad6-0af1881a23ab",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/data.defra.gov.uk/Forestry/FC_OpenData/Stats/Woodproduction1976-2018prov.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-09T06:06:29.387499",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "2300b687-97f0-48dd-816f-35ac593ed345",
+                "last_modified": null,
+                "metadata_modified": "2024-05-09T06:06:29.358346",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "1f170d7b-77fc-417d-aad6-0af1881a23ab",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.forestresearch.gov.uk/tools-and-resources/statistics/statistics-by-topic/timber-statistics/uk-wood-production-and-trade-provisional-figures/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "statistics",
+                "id": "8c698bb4-2710-484f-b359-24911320640f",
+                "name": "statistics",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "timber",
+                "id": "f872a28f-beea-4eb6-b7c1-c838a14a3cbb",
+                "name": "timber",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4249df14-abc5-4cb4-b818-21380bc1b18a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ]
+    }
+}

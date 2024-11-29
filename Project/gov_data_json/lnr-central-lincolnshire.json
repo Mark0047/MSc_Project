@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@west-lindsey.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "d0988bbf-0e30-42ce-84bd-c842c0dfbcee",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-01-22T16:13:18.680112",
+        "metadata_modified": "2020-01-22T16:13:18.680120",
+        "name": "lnr-central-lincolnshire",
+        "notes": "LNR Central Lincolnshire",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "bcd50892-e1e4-46f3-9468-5f624a8fd461",
+            "name": "west-lindsey-district-council",
+            "title": "West Lindsey District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-07-01T15:42:40.502916",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bcd50892-e1e4-46f3-9468-5f624a8fd461",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "LNR Central Lincolnshire",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Public Record\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.3481"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.5482"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.2431"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.8218"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2020-01-03\"}, {\"type\": \"revision\", \"value\": \"2020-01-03\"}, {\"type\": \"creation\", \"value\": \"2006-01-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "39ab238a-1a5d-427a-9fd8-9d1b84cfde41"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "20ffe2d3-bf4e-445d-9141-265b9c1774f6"
+            },
+            {
+                "key": "licence",
+                "value": "[\"No conditions apply\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2014-07-21"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "West Lindsey District Council (custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.3481, 53.2431], [-0.8218, 53.2431], [-0.8218, 53.5482], [-0.3481, 53.5482], [-0.3481, 53.2431]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a9f95375-442a-42fc-a77b-1ea9cd3b4b4e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "West Lindsey District Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-22T16:13:19.122744",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "61af2276-3161-4f71-8a22-384a8bdf73e7",
+                "last_modified": null,
+                "metadata_modified": "2020-01-22T16:13:19.122744",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "d0988bbf-0e30-42ce-84bd-c842c0dfbcee",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/west_lindsey_district_council_lnr_central_lincolnshire/wms?request=getCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-22T16:13:19.122751",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "6b677846-95e5-4e02-998b-f7a3f98eab44",
+                "last_modified": null,
+                "metadata_modified": "2020-01-22T16:13:19.122751",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "d0988bbf-0e30-42ce-84bd-c842c0dfbcee",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://misoportal.com/portal/api/request-licenced-data/2824",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "20ffe2d3-bf4e-445d-9141-265b9c1774f6"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a9f95375-442a-42fc-a77b-1ea9cd3b4b4e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "West Lindsey District Council"
+            }
+        ]
+    }
+}

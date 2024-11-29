@@ -1,0 +1,130 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "76819d43-da5c-4736-8908-88127e7f09a0",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-10-17T10:55:51.578157",
+        "metadata_modified": "2024-01-11T22:08:09.507098",
+        "name": "employment-by-broad-industrial-group1",
+        "notes": "This data uses a national employer survey to show numbers and percentages of people employed in jobs in industries in each broad industrial group.  Data is shown for Lincolnshire and Districts, and also for smaller areas (such as Wards, and Lower super output areas (LSOAs from the 2011 Census)).\r\n\r\nSome limitations of the dataset are that figures for small areas (Wards and LSOAs) exclude employees in farm agriculture (Standard Industrial Classification subclass 01000).  The figures include businesses registered for PAYE but not for VAT.   Values may be rounded and low numbers suppressed (particularly at smaller geographies) so numbers may not tally precisely with figures for larger areas. Figures are shown for the most recent year available, although these are provisional and may be subject to later revision by ONS.\r\n\r\nThis data is based on the ONS Business Register and Employment Survey (BRES, open access) sourced from the Office for National Statistics (ONS) Nomis website. More detailed breakouts of Standard Industrial Classifications are available from the Source weblink.\r\n\r\nThis dataset is updated annually\r\n",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+            "name": "lincolnshire-county-council",
+            "title": "Lincolnshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:38:51.868332",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+        "private": false,
+        "state": "active",
+        "title": "Employment by Broad Industrial Group",
+        "type": "dataset",
+        "url": "http://www.nomisweb.co.uk",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-09-29T14:48:45.172282",
+                "datastore_active": true,
+                "description": "Dataset for Employment by Broad Industrial Group.",
+                "format": "CSV",
+                "hash": "",
+                "id": "9318d50c-0771-4dc9-8364-36c96db825da",
+                "last_modified": "2023-12-19T15:43:21.400697",
+                "metadata_modified": "2024-01-11T22:08:09.515148",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Employment by Broad Industrial Group",
+                "package_id": "76819d43-da5c-4736-8908-88127e7f09a0",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/76819d43-da5c-4736-8908-88127e7f09a0/resource/9318d50c-0771-4dc9-8364-36c96db825da/download/employmentbybroadindustrialgroup--working-on.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-02T10:05:52.926887",
+                "datastore_active": true,
+                "description": "Metadata for Dataset for Employment by Broad industrial Group  dataset.  This file contains Metadata (information about a dataset). It shows the schema for dataset fields and their contents. This file should be used along with the dataset, to aid correct interpretation of the data.",
+                "format": "CSV",
+                "hash": "",
+                "id": "c35406ec-664c-4d73-acae-7720c2e59560",
+                "last_modified": "2018-10-10T15:40:54.858495",
+                "metadata_modified": "2017-10-02T10:05:52.926887",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata",
+                "package_id": "76819d43-da5c-4736-8908-88127e7f09a0",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/76819d43-da5c-4736-8908-88127e7f09a0/resource/c35406ec-664c-4d73-acae-7720c2e59560/download/metadata_employmentbybroadindustrialgroup.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "economy",
+                "id": "d487f623-c6aa-48e4-92ce-ebe4261ed749",
+                "name": "economy",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "employment",
+                "id": "de55ca0b-32d2-4d5f-a030-7419902aeecf",
+                "name": "employment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "f25acd70-e01c-4564-b7f4-832fd40f7452"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b1af1b14-3481-4daa-8808-912e96b9dabc"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,208 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "landcharges@waverley.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "97ca9e35-da66-4f69-b5a6-2c78a8cf2897",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2017-02-28T13:20:49.292051",
+        "metadata_modified": "2017-02-28T13:20:51.697454",
+        "name": "article-4-directions48",
+        "notes": "Waverley Borough Council dataset recording the location of the removal of certain Permitted Development rights. Areas represented by polygons.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "d2746065-1059-44b0-86b9-78a616da1532",
+            "name": "waverley-borough-council",
+            "title": "Waverley Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-12-03T09:47:45.605708",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d2746065-1059-44b0-86b9-78a616da1532",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2002-07-27"
+        ],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Article 4 Directions",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No restriction on public access. Not for commercial use - See Ordnance Survey PSMA Licence\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.4093"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.24036"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.0731"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.8523"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2002-07-27\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "64fa8052-3af1-4441-aca2-a632df57c7a1"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e0bac8c2-2a28-4120-9bd6-5a1187b087a9"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.misoportal.com/metadata/files/waverley_borough_council/Waverley_Article4_Directions.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Use subject to PSMA licensing.  See http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html (http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html)"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-02-28"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Waverley Borough Council (originator)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.4093, 51.0731],[-0.4093, 51.24036], [-0.8523, 51.24036], [-0.8523, 51.0731], [-0.4093, 51.0731]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "77ce02a6-df6e-4143-a69a-002ed2449ff3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Waverley Borough Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-02-28T13:20:49.378460",
+                "description": "information",
+                "format": "WMS",
+                "hash": "",
+                "id": "33e4c178-5572-479a-851a-550798e7f203",
+                "last_modified": null,
+                "metadata_modified": "2017-02-28T13:20:49.378460",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "97ca9e35-da66-4f69-b5a6-2c78a8cf2897",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/waverley_borough_council_20170227_article4_polygon/wms?request=getCapabilities",
+                "url_type": null,
+                "wms_base_urls": "http://inspire.misoportal.com:80/geoserver/waverley_borough_council_20170227_article4_polygon/ows"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-02-28T13:20:49.378492",
+                "description": "download",
+                "format": "",
+                "hash": "",
+                "id": "062cbe95-c077-47f9-b35f-b2c0eae206b9",
+                "last_modified": null,
+                "metadata_modified": "2017-02-28T13:20:49.378492",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "97ca9e35-da66-4f69-b5a6-2c78a8cf2897",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/waverley_borough_council_20170227_article4_polygon/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e0bac8c2-2a28-4120-9bd6-5a1187b087a9"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "77ce02a6-df6e-4143-a69a-002ed2449ff3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Waverley Borough Council"
+            }
+        ]
+    }
+}

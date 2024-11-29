@@ -1,0 +1,205 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "dab5dccd-4d0e-4b40-b333-178e13ce49fe",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-11-26T17:36:55.068038",
+        "metadata_modified": "2024-11-16T22:01:27.787271",
+        "name": "annual-births-by-age-of-mother",
+        "notes": "Number of annual live births by broad age group of mother in England and Wales for mid-year to mid-year periods from 1 July 2000 to 30 June 2020.\n\nOriginal data for Lower Super Output Areas (LSOA) published by the Office for National Statistics [here](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/adhocs/12627birthsbylowerlayersuperoutputarealsoaenglandandwalesmidyear2001to2019) and [here](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/adhocs/14318birthsbylowerlayersuperoutputarealsoaenglandandwalesmidyearperiods1julyto30june2011to2020).\n\nData aggregated to higher geographies by the Greater London Authority.",
+        "num_resources": 5,
+        "num_tags": 3,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Annual births by age of mother",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/annual-births-by-age-of-mother",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2021-11-18T18:26:41.697Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2022-03-09T16:09:02.684Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "1b274a66-b4bb-490b-ae35-ea369a460c71"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-03-14T18:55:22.999920",
+                "description": "data aggregated to 2011 MSOAs",
+                "format": "CSV",
+                "hash": "",
+                "id": "485917aa-24af-4c0b-ae66-f243c3b1d99b",
+                "last_modified": null,
+                "metadata_modified": "2022-03-14T18:55:22.957504",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "birthsbymsoamidyear01to20.csv",
+                "package_id": "dab5dccd-4d0e-4b40-b333-178e13ce49fe",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/annual-births-by-age-of-mother/0f22059e-d547-4307-a3ae-3f848cdf3588/birthsbymsoamidyear01to20.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-03-14T18:55:22.999925",
+                "description": "data aggregated to regions",
+                "format": "CSV",
+                "hash": "",
+                "id": "c4a255d3-1cf4-449e-9eec-cefc37950a76",
+                "last_modified": null,
+                "metadata_modified": "2022-03-14T18:55:22.957674",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "birthsbyregionmidyear01to20.csv",
+                "package_id": "dab5dccd-4d0e-4b40-b333-178e13ce49fe",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/annual-births-by-age-of-mother/d98b4ec8-6d89-4bd7-a553-bf11f2205725/birthsbyregionmidyear01to20.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-03-14T18:55:22.999927",
+                "description": "data aggregated to 2011 local authority districts",
+                "format": "CSV",
+                "hash": "",
+                "id": "b6f433eb-f2a8-42ae-aaab-3b0758df164d",
+                "last_modified": null,
+                "metadata_modified": "2022-03-14T18:55:22.957818",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "birthsbylad11midyear01to20.csv",
+                "package_id": "dab5dccd-4d0e-4b40-b333-178e13ce49fe",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/annual-births-by-age-of-mother/8390bb13-893b-4504-9d7f-966a42277d8f/birthsbylad11midyear01to20.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-03-14T18:55:22.999928",
+                "description": "data aggregated to 2020 local authority districts",
+                "format": "CSV",
+                "hash": "",
+                "id": "1c1ef6ed-7205-4602-b53e-671f2282b2ea",
+                "last_modified": null,
+                "metadata_modified": "2022-03-14T18:55:22.957956",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "birthsbylad20midyear01to20.csv",
+                "package_id": "dab5dccd-4d0e-4b40-b333-178e13ce49fe",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/annual-births-by-age-of-mother/6e84b604-77bb-4ab0-af1a-cc507d149fd8/birthsbylad20midyear01to20.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-03-14T18:55:22.999930",
+                "description": "data best fit and aggregated to 2020 ward boundaries",
+                "format": "CSV",
+                "hash": "",
+                "id": "46a3c767-e462-4437-9bb5-7ac9cc580188",
+                "last_modified": null,
+                "metadata_modified": "2022-03-14T18:55:22.958093",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "birthsbyward20midyear01to20.csv",
+                "package_id": "dab5dccd-4d0e-4b40-b333-178e13ce49fe",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/annual-births-by-age-of-mother/93107b64-749a-480f-aebd-5747f1fb0e81/birthsbyward20midyear01to20.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "births",
+                "id": "342e4589-f297-4bef-b9d6-ce984bd1f5aa",
+                "name": "births",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "demography",
+                "id": "dbff5a54-0319-4fd3-811d-5088dd3725f0",
+                "name": "demography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "population",
+                "id": "40739b84-20b5-415f-87f6-7ab11b26d2b3",
+                "name": "population",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5a2d424a-8d21-4b8e-bb82-b922ec6d64ed"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

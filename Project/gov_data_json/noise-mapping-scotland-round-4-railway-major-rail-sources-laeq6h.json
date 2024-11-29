@@ -1,0 +1,241 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "environment.protection.team@gov.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "5b6185f8-72ac-45b0-9089-2ec9b865b62c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-08-29T09:15:10.695709",
+        "metadata_modified": "2024-08-29T09:15:10.695713",
+        "name": "noise-mapping-scotland-round-4-railway-major-rail-sources-laeq6h",
+        "notes": "Noise maps showing areas that are relatively louder or quieter, measured in decibels (dB), for major railway traffic noise in Scotland in 2021. Major railways are defined as those with more than 30,000 train passages per year. The data represents the 6-hour night-time level (LAeq,6h) - the A-weighted equivalent continuous sound level over a 6-hour time period (24:00-06:00).\n\nScottish Ministers commissioned strategic noise mapping analysis to meet the requirements of the Environmental Noise Directive (Directive 2002/49/EC), which is legally implemented in Scotland thorough the Environmental Noise (Scotland) Regulations 2006, as amended by the Environmental Noise (Scotland) Amendment Regulations 2018.\n\nNoise maps are used to identify areas where noise levels are high and, by linking population data, estimate how many people are affected. This aids in the production of noise action plans to manage noise and reduce noise levels where appropriate.",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2021-01-28"
+        ],
+        "temporal_coverage-to": [
+            "2021-12-31"
+        ],
+        "title": "Noise Mapping Scotland - Round 4 - Railway (major rail sources) - LAeq6h",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available under the terms of the Open Government Licence. The following attribution statement must be used to acknowledge the source of the information: \\u00a9 Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right 2024.\", \"This noise mapping data has been developed for strategic purposes and should be used accordingly. It does not represent a definitive assessment of risk for point locations or individual properties and is therefore not suitable for insurance purposes or property enquiries.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.7244"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.8608"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.6332"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.65"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2024-08-05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "fa25af13-076c-4964-83a4-990eb635b048"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "41692dd8-8381-4d44-8511-5a46629978ba"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-25T09:48:37.984Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (pointOfContact); Scottish Environment Protection Agency (distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.7244, 54.6332], [-8.65, 54.6332], [-8.65, 60.8608], [-0.7244, 60.8608], [-0.7244, 54.6332]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:15:10.697135",
+                "description": "Compressed file (.zip) containing georeferenced raster imagery",
+                "format": "ZIP",
+                "hash": "",
+                "id": "0e684849-3aed-4cff-abdd-70d631030169",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:15:10.693568",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Noise_Rail_L06H_Major",
+                "package_id": "5b6185f8-72ac-45b0-9089-2ec9b865b62c",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.sepa.org.uk/atom/noise/Noise_Rail_L06H_Major.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:15:10.697138",
+                "description": "Esri REST endpoint",
+                "format": "",
+                "hash": "",
+                "id": "96c0d5c1-2826-4582-8cef-d130725131f7",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:15:10.693659",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Noise_Rail_L06H_Major",
+                "package_id": "5b6185f8-72ac-45b0-9089-2ec9b865b62c",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.sepa.org.uk/server/rest/services/Noise/Noise/MapServer/11",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:15:10.697139",
+                "description": "Noise_Rail_L06H_Major",
+                "format": "",
+                "hash": "",
+                "id": "e00b658e-d53c-4020-9863-d27b3132f2dc",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:15:10.693727",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Noise_Rail_L06H_Major",
+                "package_id": "5b6185f8-72ac-45b0-9089-2ec9b865b62c",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.sepa.org.uk/server/services/Noise/Noise/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:15:10.697140",
+                "description": "Website providing information relating to Scotland's noise mapping.",
+                "format": "",
+                "hash": "",
+                "id": "76a70c3c-7f2f-499a-a2ec-ce8293adc219",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:15:10.693789",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scotland's Noise",
+                "package_id": "5b6185f8-72ac-45b0-9089-2ec9b865b62c",
+                "position": 3,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://noise.environment.gov.scot/",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "41692dd8-8381-4d44-8511-5a46629978ba"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

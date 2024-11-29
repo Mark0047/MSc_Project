@@ -1,0 +1,177 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "foi@sepa.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "a8892ebc-9bfd-48b3-b81b-2a06c764d429",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-07-10T13:26:25.558277",
+        "metadata_modified": "2024-07-10T13:26:25.558280",
+        "name": "river-flood-maps-frm-fh-river-velocity-m-cc391",
+        "notes": "These maps have been produced to meet SEPA\u2019s duty to publish flood hazard maps as set out in the Flood Risk Management (Scotland) Act 2009.  The maps show where there is a risk of flooding from the sea, from rivers and from surface water.The following probabilities are available for river flooding: - High - 10 year return period - Medium - 200 year return period - Low - 1000 year return period and 200 year return period plus climate change using the UKCP09 high emissions scenario for the 2080s.The river hazard maps show (where available): - Flood extent - Flood depth - Flood velocities where appropriate. The climate change scenario has been defined by United Kingdom Climate Projection 2009 (UKCP09) predictions for 2080 high emissions 95%ile predictions. Velocity is presented, where appropriate; this is determined by considering the confidence in input data, modelling method and impact. It is currently represented as one of four bandsMedium and low probability flood events were selected for consistency with return periods used in Scottish Planning Policy, whereas the high probability was chosen as it is reflective of observed events experienced over the last few decades.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "River Flood Maps (FRM_FH_RIVER_VELOCITY_M_CC)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": ""
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": ""
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": ""
+            },
+            {
+                "key": "bbox-west-long",
+                "value": ""
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"\", \"value\": \"\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "as needed"
+            },
+            {
+                "key": "guid",
+                "value": "412ebe26-04ab-4bf6-9928-9f4d0c73d774"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "72c372a7-f482-440d-bbdb-d4fb28a33db5"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-03-25T14:13:41"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": ""
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Environment Protection Agency ()"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[, ], [, ], [, ], [, ], [, ]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-10T13:26:25.564975",
+                "description": "SEPA Data publications access page",
+                "format": "",
+                "hash": "",
+                "id": "f536a4a1-fe47-4340-b186-32e28a335586",
+                "last_modified": null,
+                "metadata_modified": "2024-07-10T13:26:25.556321",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SEPA Data publication",
+                "package_id": "a8892ebc-9bfd-48b3-b81b-2a06c764d429",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.sepa.org.uk/environment/environmental-data/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-10T13:26:25.564977",
+                "description": "SEPA River Flood Maps v2 Zipped ESRI Filegeodatabase",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c7020a2a-e2e3-4684-9aec-da1ea04508fc",
+                "last_modified": null,
+                "metadata_modified": "2024-07-10T13:26:25.556418",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SEPA_River_Flood_Maps_v2_1.zip",
+                "package_id": "a8892ebc-9bfd-48b3-b81b-2a06c764d429",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www2.sepa.org.uk/flooddata/SEPA_River_Flood_Maps_v2_1.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

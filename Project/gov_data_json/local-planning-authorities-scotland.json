@@ -1,0 +1,274 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "9edeedb2-e880-469b-8f01-c25f9d6d4cfd",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-04-21T13:32:07.320751",
+        "metadata_modified": "2024-06-19T11:21:32.509729",
+        "name": "local-planning-authorities-scotland",
+        "notes": "This dataset provides digital boundaries for Local Planning Authorities (LPA) in Scotland. LPAs have primary responsibility for the delivery of the planning service in Scotland including preparing development plans, deciding applications for planning permission and enforcing planning controls. There are currently 34 LPAs in Scotland comprised of the 32 Local Authorities and 2 National Park Authorities.",
+        "num_resources": 4,
+        "num_tags": 4,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Local Planning Authorities - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year)\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2019-04-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "fcbbcb99-a04a-423f-be3a-9c3aac1c2216"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b4520f44-3b2c-4296-80bd-498e38460e0c"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-04-20T14:55:47"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher, pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:32.542670",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "a5b864a3-3d42-400f-a215-2aff3bfeec0d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:32.515579",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LocalPlanningAuthorities",
+                "package_id": "9edeedb2-e880-469b-8f01-c25f9d6d4cfd",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/Planning/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:32.542673",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "acd697f6-e29a-4934-bcaf-95a193853066",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:32.515672",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "PL:LocalPlanningAuthorities",
+                "package_id": "9edeedb2-e880-469b-8f01-c25f9d6d4cfd",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/Planning/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:32.542674",
+                "description": "ESRI REST Service",
+                "format": "",
+                "hash": "",
+                "id": "deede935-0ec0-4628-815b-02c5d8b90371",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:32.515740",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Planning Authorities",
+                "package_id": "9edeedb2-e880-469b-8f01-c25f9d6d4cfd",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/rest/services/ScotGov/Planning/MapServer/0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:32.542674",
+                "description": "ESRI Shapefile Download",
+                "format": "ZIP",
+                "hash": "",
+                "id": "8fee43f1-b422-4648-a4ca-35c109a4121d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:32.515810",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "9edeedb2-e880-469b-8f01-c25f9d6d4cfd",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/ATOM/shapefiles/SG_LocalPlanningAuthorities_2019.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Area management/restriction/regulation zones and r",
+                "id": "85a96129-b6e5-46e1-8dd8-75fd5990e434",
+                "name": "Area management/restriction/regulation zones and r",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Boundaries",
+                "id": "761f5ab1-0549-4ea2-9f26-90e94153b09f",
+                "name": "Boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Planning (town and country)",
+                "id": "9d12819f-2aa6-4a06-8b4d-a0d91445d617",
+                "name": "Planning (town and country)",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "planning",
+                "id": "d5e3a552-07a7-4262-a38d-337769833bda",
+                "name": "planning",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "712a4fac-c9f3-43d7-8b4e-5c25b1723569"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

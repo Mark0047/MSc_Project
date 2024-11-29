@@ -1,0 +1,171 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "6f236d87-a761-4546-a558-8038cbd6cfbe",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2024-08-31T17:00:52.046208",
+        "metadata_modified": "2024-09-21T20:00:56.711238",
+        "name": "s2slgd",
+        "notes": "description",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "Steps 2 Success",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_modified",
+                "value": "2023-12-11T9:30:00.000Z"
+            },
+            {
+                "key": "guid",
+                "value": "S2SLGD"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7843c6d3-57d3-4dd8-9795-ad6c89421659"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            },
+            {
+                "key": "language",
+                "value": "en"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:44.478810",
+                "datastore_active": false,
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "7274b3ff-6fed-44c6-8978-5165e7d64b28",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:52.042801",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "csv",
+                "package_id": "6f236d87-a761-4546-a558-8038cbd6cfbe",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/S2SLGD/CSV/1.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:44.478816",
+                "datastore_active": false,
+                "description": "",
+                "format": "json2.0",
+                "hash": "",
+                "id": "1c4f1b39-3ed0-4389-8d22-cacb7cce4e28",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:52.043551",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "JSON 2.0",
+                "package_id": "6f236d87-a761-4546-a558-8038cbd6cfbe",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/S2SLGD/JSON-stat/2.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:44.478818",
+                "datastore_active": false,
+                "description": "",
+                "format": "json1.0",
+                "hash": "",
+                "id": "cb487a13-b698-4d7a-bc7c-44e28daae71e",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:52.044265",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "JSON 1.0",
+                "package_id": "6f236d87-a761-4546-a558-8038cbd6cfbe",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/S2SLGD/JSON-stat/1.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-31T07:51:44.478821",
+                "datastore_active": false,
+                "description": "",
+                "format": "XLSX",
+                "hash": "",
+                "id": "61748d8a-19fe-48fa-8a84-b77d0ab7de50",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:00:52.044960",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Xlsx",
+                "package_id": "6f236d87-a761-4546-a558-8038cbd6cfbe",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/S2SLGD/XLSX/2007/en",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "44ea5b6a-5ebd-4945-b839-9b71a4f4d7b3"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

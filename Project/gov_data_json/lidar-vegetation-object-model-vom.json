@@ -1,0 +1,428 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "227ab487-e8f2-4cbb-b26a-9e6d3b662265",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-11-09T16:58:59.936931",
+        "metadata_modified": "2024-06-14T14:45:15.856171",
+        "name": "lidar-vegetation-object-model-vom",
+        "notes": "The LIDAR derived Vegetation Object Model (VOM) is a raster product produced as part of the Environment Agency\u2019s \u201cKeeping Rivers Cool\u201d project. It is an attempt to identify riparian tree cover and the opportunities for tree planting to increase future shading of streams & rivers.  \n\nThe dataset has been produced by complex GIS modelling of the Environment Agency national LIDAR programme 1m elevation data into discrete objects, with spatial proximity queries against features in Ordnance Survey mapping and Sentinel 2 imagery aiding in the classification of vegetation and non-vegetation objects.  \n\nThe result is a raster product where each pixel represents the height of top of canopy above ground, for all classified vegetation objects above a threshold of 2.5 metres. The data production is fully automated, with no manual QC and editing of the output, other than visual checks. Because of the process to classify objects based on proximity to features within OS mapping there could be some mis-classifications of objects not included in the OS mapping (especially static caravans, shipping containers, large tents / marquees, coastal cliffs and new buildings constructed directly under tree cover). This is a first release of this dataset, the quality of the production methods will be reviewed over the next year, improvements will be made where possible. \n\nAs there are many potential environmental applications for an open data, national coverage, high resolution Vegetation Object Model the product will be released for all national LIDAR programme survey data captured by the Environment Agency.  \n\nThe Vegetation Object Model is available to download as 5km GeoTiff tiles in the same structure as the other derived products from the national LIDAR programme. Contained within each 5km zip file is the Vegetation Object Model and a hillshade raster produced by adding the VOM onto the Digital Terrain Model. \n\nPlease refer to the metadata record: https://environment.data.gov.uk/dataset/2e8d0733-4f43-48b4-9e51-631c25d1b0a9 for downloading all other products derived from the national LIDAR programme, including the digital surface and terrain models, intensity rasters or point cloud.  Attribution statement: \u00a9 Environment Agency copyright and/or database right 2022. All rights reserved.",
+        "num_resources": 9,
+        "num_tags": 9,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-11-11"
+        ],
+        "temporal_coverage-to": [
+            "2021-04-21"
+        ],
+        "title": "LIDAR Vegetation Object Model (VOM)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2021-11-01\"}, {\"type\": \"revision\", \"value\": \"2023-12-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "ecae3bef-1e1d-4051-887b-9dc613c928ec"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "08cd6344-d722-44c8-a2b6-de37d16dcc1e"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:15.919048",
+                "description": "Download the survey data",
+                "format": "",
+                "hash": "",
+                "id": "ff035614-6f1d-495c-8f77-fcb351f27b2d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:15.863967",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey Data - Download",
+                "package_id": "227ab487-e8f2-4cbb-b26a-9e6d3b662265",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/DefraDataDownload/?Mode=survey",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:15.919052",
+                "description": "Download the survey coverage metadata files",
+                "format": "",
+                "hash": "",
+                "id": "ff835f2f-2f37-43bb-951d-19d1cb153ed2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:15.864055",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Survey Index Catalogues - Download",
+                "package_id": "227ab487-e8f2-4cbb-b26a-9e6d3b662265",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/9f0fa3fc-a860-4729-adc9-47fe53f658d0?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:15.919053",
+                "description": "Vegetation Object Model - WMS",
+                "format": "",
+                "hash": "",
+                "id": "12058033-ea09-4642-af53-9843c8b0f910",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:15.864124",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Vegetation Object Model - WMS",
+                "package_id": "227ab487-e8f2-4cbb-b26a-9e6d3b662265",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wms?request=GetCapabilities&service=WMS&version=1.3.0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:15.919054",
+                "description": "Vegetation Object Model - WCS",
+                "format": "",
+                "hash": "",
+                "id": "c2a2fb4e-dc3c-4161-88b7-4b6bf47ded2b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:15.864189",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Vegetation Object Model - WCS",
+                "package_id": "227ab487-e8f2-4cbb-b26a-9e6d3b662265",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wcs?request=GetCapabilities&service=WCS&version=2.0.1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:15.919055",
+                "description": "Metadata Survey Index Catalogues - WMS",
+                "format": "",
+                "hash": "",
+                "id": "8610ad06-5235-4630-8c78-7b0287fbf0f4",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:15.864253",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Survey Index Catalogues - WMS",
+                "package_id": "227ab487-e8f2-4cbb-b26a-9e6d3b662265",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:15.919056",
+                "description": "Metadata Survey Index Catalogues - WFS",
+                "format": "",
+                "hash": "",
+                "id": "e776c29b-939c-45ec-a930-9632880ca673",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:15.864315",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Survey Index Catalogues - WFS",
+                "package_id": "227ab487-e8f2-4cbb-b26a-9e6d3b662265",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wfs?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:15.919057",
+                "description": "Survey Data FAQs",
+                "format": "",
+                "hash": "",
+                "id": "98568b63-d387-4d27-9e87-609b697309ad",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:15.864376",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey Data FAQs",
+                "package_id": "227ab487-e8f2-4cbb-b26a-9e6d3b662265",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://support.environment.data.gov.uk/space/DPK/15827049/Survey+Data+Catalogue",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:15.919058",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "1e7c181f-f1b9-4c3b-a443-ebc1293dabae",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:15.864436",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Vegetation Object Model - WMTS",
+                "package_id": "227ab487-e8f2-4cbb-b26a-9e6d3b662265",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wmts?request=GetCapabilities&service=WMTS&version=2.0.1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:15.919059",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "9dae82ce-e42d-4075-9668-c484a379529b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:15.864497",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "227ab487-e8f2-4cbb-b26a-9e6d3b662265",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Elevation",
+                "id": "3daf450f-da9b-4dad-a339-66a66856defb",
+                "name": "Elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Habitats and biotopes",
+                "id": "a6591241-3108-42a5-b540-46a56883592e",
+                "name": "Habitats and biotopes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Keeping Rivers Cool",
+                "id": "c344587d-9bb0-4c98-bfc1-2caf2cd9edd9",
+                "name": "Keeping Rivers Cool",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LIDAR",
+                "id": "591a7348-ac9a-4bf1-8b43-6ff3cd6e3613",
+                "name": "LIDAR",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "elevation",
+                "id": "99bac186-c0b3-4e2f-9593-649da4fff9f9",
+                "name": "elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land cover",
+                "id": "13c054fd-aa73-4884-809f-2c972a391330",
+                "name": "land cover",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "remote sensing",
+                "id": "a966b150-db31-4f8b-87f1-905c46d706ff",
+                "name": "remote sensing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "survey",
+                "id": "228f2437-16d2-4498-a53f-21273806fae3",
+                "name": "survey",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c43e42ba-c921-4c96-a4ab-4f5d14c1dff8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

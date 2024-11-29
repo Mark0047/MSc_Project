@@ -1,0 +1,323 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "5f6f7d5b-3f4c-4476-bfb8-cda490c9cf0e",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-09-30T10:36:26.193530",
+        "metadata_modified": "2022-08-18T09:40:30.713204",
+        "name": "lidar-composite-dtm-2017-50cm",
+        "notes": "This dataset is no longer available on the Data Services Platform.\nNew version of the LIDAR Composite DSM data is available here:\nhttps://environment.data.gov.uk/searchresults;query=lidar%20composite%202020;searchtype=All;page=1;pagesize=20;orderby=Relevancy\n\nThe LIDAR Composite DTM (Digital Terrain Model) is a raster elevation model covering areas of England at 50cm spatial resolution. Produced by the Environment Agency in 2017, this dataset is derived from a combination of our full time stamped archive, which has been merged and re-sampled to give the best possible coverage. Where repeat surveys have been undertaken the newest, best resolution data is used. The composite is updated on an annual basis to include the latest surveys.\n\nThe DTM (Digital Terrain Model) is produced from the last return LIDAR signal. We remove surface objects from the Digital Surface Model (DSM), using bespoke algorithms and manual editing of the data, to produce a terrain model of just the surface. Available to download as ASCII files in 2km grids, data is presented in metres, referenced to Ordinance Survey Newlyn, using the OSTN\u201915 transformation. All LIDAR data has a vertical accuracy of +/-15cm RMSE. A tinted shaded relief, which is an image showing what LIDAR looks like when loaded into specialist software, is also available as a WMS feed. You can also download survey index files which shows, for any location, what Time Stamped survey went into the production of the LIDAR composite.\n\nLight Detection and Ranging (LIDAR) is an airborne mapping technique, which uses a laser to measure the distance between the aircraft and the ground. Up to 500,000 measurements per second are made of the ground, allowing highly detailed terrain models to be generated at spatial resolutions of between 25cm and 2 metres. The Environment Agency\u2019s open data LIDAR archives includes the Point Cloud data, and derived raster surface models of survey specific areas and composites of the best data available in any location. \n\nTo find out more about LIDAR and the various surface models we produce please read our story map\n\nThis metadata record is for Approval for Access product AfA458. Attribution statement: (c) Environment Agency copyright and/or database right 2019. All rights reserved.\nAttribution Statement: \u00a9 Environment Agency copyright and/or database right 2019. All rights reserved.",
+        "num_resources": 5,
+        "num_tags": 8,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "title": "LIDAR Composite DTM 2017 - 50cm",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.80"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.80"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50.00"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.70"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2014-10-01\"}, {\"type\": \"revision\", \"value\": \"2019-04-18\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "576b6ade-d31f-470b-a044-624a3e7c77c0"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2022-08-18"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.80, 50.00], [-5.70, 50.00], [-5.70, 55.80], [1.80, 55.80], [1.80, 50.00]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "073898ee-d06e-4d38-bca1-55862831163e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-18T09:11:40.646838",
+                "description": "Survey Download",
+                "format": "",
+                "hash": "",
+                "id": "1b2ce43f-2c5d-4f62-aaf9-2935ade70c5a",
+                "last_modified": null,
+                "metadata_modified": "2022-08-18T09:11:40.512696",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey_Download",
+                "package_id": "5f6f7d5b-3f4c-4476-bfb8-cda490c9cf0e",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "DSP:ESRI",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/DefraDataDownload/?Mode=survey",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-18T09:11:40.646845",
+                "description": "Download the coverage metadata files",
+                "format": "",
+                "hash": "",
+                "id": "bb91ba6e-b2f2-45d9-9264-36529d1733a1",
+                "last_modified": null,
+                "metadata_modified": "2022-08-18T09:11:40.512999",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Shapefile Index Catalogues - Download",
+                "package_id": "5f6f7d5b-3f4c-4476-bfb8-cda490c9cf0e",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "DSP:ESRI",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/DefraDataDownload/?mapService=EA/SurveyIndexFiles&Mode=spatial",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-18T09:11:40.646847",
+                "description": "Coverage metadata files - Web Map Service",
+                "format": "",
+                "hash": "",
+                "id": "14b10b1c-ad62-43db-be23-68f1709cc74a",
+                "last_modified": null,
+                "metadata_modified": "2022-08-18T09:11:40.513133",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Index Catalogues - WMS",
+                "package_id": "5f6f7d5b-3f4c-4476-bfb8-cda490c9cf0e",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-18T09:11:40.646848",
+                "description": "Coverage metadata files - Web Feature Service",
+                "format": "",
+                "hash": "",
+                "id": "04e0d4b2-577a-4e24-ad19-44d2e8cbaacb",
+                "last_modified": null,
+                "metadata_modified": "2022-08-18T09:11:40.513265",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Index Catalogues - WFS",
+                "package_id": "5f6f7d5b-3f4c-4476-bfb8-cda490c9cf0e",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-18T09:11:40.646850",
+                "description": "Survey Data Catalogue FAQs",
+                "format": "",
+                "hash": "",
+                "id": "dd1aaca2-c432-47e5-84de-b49ff9f9fde1",
+                "last_modified": null,
+                "metadata_modified": "2022-08-18T09:11:40.513397",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey_Data_FAQs",
+                "package_id": "5f6f7d5b-3f4c-4476-bfb8-cda490c9cf0e",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http:",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://support.environment.data.gov.uk/hc/en-gb/sections/360001747351-Survey-Data-Catalogue",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Elevation",
+                "id": "3daf450f-da9b-4dad-a339-66a66856defb",
+                "name": "Elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "GIS digital format",
+                "id": "ff104d23-7af4-49da-a1ed-9a8c7e1fb48c",
+                "name": "GIS digital format",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LIDAR",
+                "id": "591a7348-ac9a-4bf1-8b43-6ff3cd6e3613",
+                "name": "LIDAR",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Mapping",
+                "id": "d257b48f-3b14-4bfb-94ce-6a5c20a8398a",
+                "name": "Mapping",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "OpenData",
+                "id": "6bc85120-d8ca-4fe1-91fa-d1831be59c7d",
+                "name": "OpenData",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood",
+                "id": "90af076f-75b0-42fc-80aa-ac2ff7993443",
+                "name": "flood",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mapping",
+                "id": "30d25a52-1974-410f-b063-19b46af2aa5e",
+                "name": "mapping",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "remote sensing",
+                "id": "a966b150-db31-4f8b-87f1-905c46d706ff",
+                "name": "remote sensing",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "073898ee-d06e-4d38-bca1-55862831163e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

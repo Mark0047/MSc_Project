@@ -1,0 +1,177 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "foi@sepa.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "8ea5dc29-f583-42a0-a04d-112f3b9492e2",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-05-14T11:15:19.637382",
+        "metadata_modified": "2024-05-14T11:15:19.637386",
+        "name": "coastal-flood-maps-frm-fh-coastal-extent-m-cc360",
+        "notes": "The following probabilities are available for coastal flooding: - High - 10 year return period - Medium - 200 year return period - Low - 1000 year return period and 200 year return period plus climate change using the UKCP09 high emissions scenario for the 2080s.The coastal hazard maps show (where available): - Flood extent - Flood depth's where appropriate. The climate change scenario has been defined by United Kingdom Climate Projection 2009 (UKCP09) predictions for 2080 high emissions 95%ile predictions. Medium and low probability flood events were selected for consistency with return periods used in Scottish Planning Policy, whereas the high probability was chosen as it is reflective of observed events experienced over the last few decades",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Coastal Flood Maps (FRM_FH_COASTAL_EXTENT_M_CC)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": ""
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": ""
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": ""
+            },
+            {
+                "key": "bbox-west-long",
+                "value": ""
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"\", \"value\": \"\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "as needed"
+            },
+            {
+                "key": "guid",
+                "value": "22937032-e8aa-4e8e-aa94-03b4abdd12dd"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e208191e-8061-4ba8-acac-323f8e2b06d1"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-03-25T14:11:01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": ""
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Environment Protection Agency ()"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[, ], [, ], [, ], [, ], [, ]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-14T11:15:19.643903",
+                "description": "SEPA Data publications access page",
+                "format": "",
+                "hash": "",
+                "id": "525e64ce-e46c-4987-91a7-61df2eac9a22",
+                "last_modified": null,
+                "metadata_modified": "2024-05-14T11:15:19.632848",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SEPA Data publication",
+                "package_id": "8ea5dc29-f583-42a0-a04d-112f3b9492e2",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.sepa.org.uk/environment/environmental-data/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-14T11:15:19.643906",
+                "description": "SEPA Coastal Flood Maps v2 Zipped ESRI Filegeodatabase",
+                "format": "ZIP",
+                "hash": "",
+                "id": "eb512621-7a9c-4f0f-a358-e237c9269121",
+                "last_modified": null,
+                "metadata_modified": "2024-05-14T11:15:19.632963",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SEPA_Coastal_Flood_Maps_v2_1.zip",
+                "package_id": "8ea5dc29-f583-42a0-a04d-112f3b9492e2",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www2.sepa.org.uk/flooddata/SEPA_Coastal_Flood_Maps_v2_1.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

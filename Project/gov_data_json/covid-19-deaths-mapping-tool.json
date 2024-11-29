@@ -1,0 +1,120 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "24138b09-db9d-4c5e-a002-8b238691a855",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-06-05T06:15:48.529463",
+        "metadata_modified": "2024-11-16T22:01:50.970799",
+        "name": "covid-19-deaths-mapping-tool",
+        "notes": "This mapping tool enables you to see how COVID-19 deaths in your area may relate to factors in the local population, which research has shown are associated with COVID-19 mortality.\n\nIt maps COVID-19 deaths rates for small areas of London (known as MSOAs) and enables you to compare these to a number of other factors including the Index of Multiple Deprivation, the age and ethnicity of the local population, extent of pre-existing health conditions in the local population, and occupational data.\n\nResearch has shown that the mortality risk from COVID-19 is higher for people of older age groups, for men, for people with pre-existing health conditions, and for people from BAME backgrounds. London boroughs had some of the highest mortality rates from COVID-19 based on data to April 17th 2020, based on data from the Office for National Statistics (ONS). Analysis from the ONS has also shown how mortality is also related to socio-economic issues such as occupations classified \u2018at risk\u2019 and area deprivation. There is much about COVID-19-related mortality that is still not fully understood, including the intersection between the different factors e.g. relationship between BAME groups and occupation.\n\nOn their own, none of these individual factors correlate strongly with deaths for these small areas. This is most likely because the most relevant factors will vary from area to area. In some cases it may relate to the age of the population, in others it may relate to the prevalence of underlying health conditions, area deprivation or the proportion of the population working in \u2018at risk occupations\u2019, and in some cases a combination of these or none of them.\n\nFurther descriptive analysis of the factors in this tool can be found here:\n\n[https://data.london.gov.uk/dataset/covid-19--socio-economic-risk-factors-briefing](https://data.london.gov.uk/dataset/covid-19--socio-economic-risk-factors-briefing)",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "COVID-19 Deaths Mapping Tool",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/covid-19-deaths-mapping-tool",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2020-05-15T09:45:00.726Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2020-05-31T21:03:52.762Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "95049930-e5a0-4279-b3ba-a649ac1ff1b5"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-06-05T06:15:48.540552",
+                "description": "Underlying data used in the mapping tool",
+                "format": "XLSX",
+                "hash": "",
+                "id": "9ead1c99-9fae-4ab0-b422-72438af1a199",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:42.128256",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "underlying_data_2020_06_01.xlsx",
+                "package_id": "24138b09-db9d-4c5e-a002-8b238691a855",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/covid-19-deaths-mapping-tool/9e3a5224-dc33-468d-b723-782be2b00967/underlying_data_2020_06_01.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-06-05T06:15:48.540558",
+                "description": "Choropleth\u00a0map COVID-19 related deaths per thousand population by MSOA occurring between 1 March and 17 April 2020",
+                "format": "PNG",
+                "hash": "",
+                "id": "b6edfde0-58b6-484e-9045-8a0545cc32d8",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:42.128376",
+                "mimetype": "image/png",
+                "mimetype_inner": null,
+                "name": "deaths_per_thousand_msoa_map.png",
+                "package_id": "24138b09-db9d-4c5e-a002-8b238691a855",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/covid-19-deaths-mapping-tool/1f7ffe75-d15f-48e0-947a-d0b4c34d0692/deaths_per_thousand_msoa_map.png",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "90ee5f72-760f-4bd5-b4ae-acc0352123d8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

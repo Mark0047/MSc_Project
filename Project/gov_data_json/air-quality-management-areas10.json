@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@carlisle.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "1ad7fbff-79e7-47ab-8350-f38296891c76",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-03-06T16:50:18.218554",
+        "metadata_modified": "2022-08-01T15:42:37.986846",
+        "name": "air-quality-management-areas10",
+        "notes": "Carlisle City Council Air Quality Management Areas.  Upon accessing this Licensed Data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "969a9e9f-0c9d-49e6-9d2b-84b9b3b8183f",
+            "name": "carlisle-city-council",
+            "title": "Carlisle City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:12:12.267149",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "969a9e9f-0c9d-49e6-9d2b-84b9b3b8183f",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Air Quality Management Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/docs/licences/public-sector-end-user-licence-inspire.htm\", \"Use according to license\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.69814"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.0126"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.821"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.0845"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-02-26T15:44:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "9f72fa76b5d47d19e715e51ced129588eae3247c"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d661b832-33ff-44bf-b160-6ef809476c9b"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2022-08-01T11:25:34"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "completed"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Carlisle City Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.69814, 54.821], [-3.0845, 54.821], [-3.0845, 55.0126], [-2.69814, 55.0126], [-2.69814, 54.821]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "da862b5c-5db4-4d05-b651-578555cae562"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Carlisle City Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-01T15:42:38.017073",
+                "description": "Air Quality Management Areas View (WMS)",
+                "format": "",
+                "hash": "",
+                "id": "34727282-5aa9-4ee5-a9b5-471ffdf28433",
+                "last_modified": null,
+                "metadata_modified": "2022-08-01T15:42:37.991071",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "View",
+                "package_id": "1ad7fbff-79e7-47ab-8350-f38296891c76",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.carlisle.gov.uk/getows.ashx?mapsource=CCC/Inspire&version=1.1.0&request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-01T15:42:38.017078",
+                "description": "Air Quality Management Areas Download (WFS)",
+                "format": "",
+                "hash": "",
+                "id": "fbd97606-2c00-43d4-88d9-97e9668e96f7",
+                "last_modified": null,
+                "metadata_modified": "2022-08-01T15:42:37.991232",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "1ad7fbff-79e7-47ab-8350-f38296891c76",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.carlisle.gov.uk/getows.ashx?mapsource=CCC/inspire&TypeName=air_quality_management_areas&version=1.1.0&request=GetFeature&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Local Air Quality Monitoring",
+                "id": "88251a33-35bf-42b7-9bfd-e1924c1a3933",
+                "name": "Local Air Quality Monitoring",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d661b832-33ff-44bf-b160-6ef809476c9b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "da862b5c-5db4-4d05-b651-578555cae562"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Carlisle City Council"
+            }
+        ]
+    }
+}

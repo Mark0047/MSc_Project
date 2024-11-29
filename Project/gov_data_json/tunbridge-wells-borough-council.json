@@ -1,0 +1,69 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "cda3dbb5-eddd-4270-9222-9e77508856c1",
+        "frequency": "DAILY",
+        "id": "9db5b5da-846a-4b38-895b-f08a15712f27",
+        "metadata_created": "2021-11-25T12:34:20.797233",
+        "metadata_modified": "2021-11-25T12:34:20.797238",
+        "name": "tunbridge-wells-borough-council",
+        "notes": "",
+        "organization": {
+            "id": "1e7050e1-8370-4676-bb15-7630b806a8d2",
+            "name": "tunbridge-wells-borough-council",
+            "title": "Tunbridge Wells Borough Council",
+            "type": "organization",
+            "description": "Tunbridge Wells Borough Council Open Data on http://data.gov.uk",
+            "image_url": "",
+            "created": "2014-02-10T14:10:09.070629",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1e7050e1-8370-4676-bb15-7630b806a8d2",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "Tunbridge Wells Borough Council",
+        "type": "harvest",
+        "url": "https://opendatanew-tunbridgewells.opendata.arcgis.com/data.json",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1044,
+            "last_job": {
+                "id": "0efd9055-e732-4756-912a-55b405f7e29f",
+                "created": "2024-11-17 06:00:04.947615",
+                "gather_started": "2024-11-17 06:00:20.054367",
+                "gather_finished": "2024-11-17 06:00:24.536313",
+                "finished": "2024-11-17 06:02:12.340216",
+                "source_id": "9db5b5da-846a-4b38-895b-f08a15712f27",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 157,
+                    "not modified": 0,
+                    "errored": 4,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/update.py\", line 318, in package_update\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'resources': [{'id': ['Resource id already exists.']}]}\n",
+                        "error_count": 3
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/update.py\", line 318, in package_update\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'resources': [{}, {'id': ['Resource id already exists.']}, {'id': ['Resource id already exists.']}, {'id': ['Resource id already exists.']}, {'id': ['Resource id already exists.']}, {'id': ['Resource id already exists.']}]}\n",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 161
+        }
+    }
+}

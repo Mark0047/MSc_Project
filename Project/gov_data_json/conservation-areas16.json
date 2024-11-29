@@ -1,0 +1,211 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "vince.warwick@stroud.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "542af87e-d638-471b-8df1-aed2c18bf253",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-06-06T11:20:04.960150",
+        "metadata_modified": "2016-02-11T16:39:11.951700",
+        "name": "conservation-areas16",
+        "notes": "Conservation area taken from Stroud District Council Local Plan",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "9065477d-fdce-4b7d-b111-6b4a7c5e72b8",
+            "name": "stroud-district-council",
+            "title": "Stroud District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-06-03T14:55:59.547536",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9065477d-fdce-4b7d-b111-6b4a7c5e72b8",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005-04-01"
+        ],
+        "temporal_coverage-to": [
+            "now"
+        ],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [
+            "Government"
+        ],
+        "title": "Conservation Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\", \"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/end-user-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.04634"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.86797"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.5732507432"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.56138"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-06-06\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "08f80682-7d8d-4eb0-a285-45045abbdfc7"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d7cd8b3c-4cb5-467e-a4c0-05e285dfc82f"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.misoportal.com/metadata/files/stroud/conservation_areas.xml"
+            },
+            {
+                "key": "licence",
+                "value": "No Conditions Apply; Personal Use; PSMA Sharing Constraint"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2014-06-06"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Stroud District Council (resourceProvider)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-2.04634, 51.5732507432],[-2.04634, 51.86797], [-2.56138, 51.86797], [-2.56138, 51.5732507432], [-2.04634, 51.5732507432]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "OSGB 1936 / British National Grid (EPSG:27700)"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "36c03d55-677e-4497-8524-d6ae0a285f54"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stroud District Council"
+            }
+        ],
+        "resources": [
+            {
+                "archiver": "{'is_broken_printable': 'Broken', 'updated': '2016-02-06T03:40:34.419389', 'cache_filepath': u'/media/hulk/ckan_resource_cache/d8/d89e8af7-fbf6-4065-884c-54ec4fc7906c/wms', 'last_success': '2016-01-30T05:38:44.751941', 'size': u'167042', 'is_broken': True, 'failure_count': 1, 'etag': None, 'status': 'Download error', 'url_redirected_to': None, 'hash': u'b83bc60454b6b91a79da38e48b94ba78c7b471fc', 'status_id': 12, 'reason': u\"Connection error: HTTPConnectionPool(host='inspire.misoportal.com', port=80): Max retries exceeded with url: /geoserver/stroud_district_council_conservation_area/wms?request=getCapabilities (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb316feb510>, 'Connection to inspire.misoportal.com timed out. (connect timeout=30)'))\", 'last_modified': None, 'resource_timestamp': '2015-12-13T11:51:54.743187', 'mimetype': u'text/xml', 'cache_url': u'http://data.gov.uk/data/resource_cache/d8/d89e8af7-fbf6-4065-884c-54ec4fc7906c/wms', 'created': '2014-06-06T23:19:00.171600', 'first_failure': '2016-02-06T03:40:34.419389'}",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-06-06T12:20:05.026768",
+                "description": "Resource locator",
+                "format": "WMS",
+                "hash": "",
+                "id": "d89e8af7-fbf6-4065-884c-54ec4fc7906c",
+                "last_modified": null,
+                "metadata_modified": "2014-06-06T12:20:05.026768",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "542af87e-d638-471b-8df1-aed2c18bf253",
+                "position": 0,
+                "qa": "{'updated': '2016-02-07T01:12:29.711974', 'openness_score': 0, 'archival_timestamp': '2016-02-06T03:40:34.419389', 'format': u'WMS', 'created': '2014-06-24T11:33:34.932487', 'resource_timestamp': None, 'openness_score_reason': u\"File could not be downloaded. Reason: Download error. Error details: Connection error: HTTPConnectionPool(host='inspire.misoportal.com', port=80): Max retries exceeded with url: /geoserver/stroud_district_council_conservation_area/wms?request=getCapabilities (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb316feb510>, 'Connection to inspire.misoportal.com timed out. (connect timeout=30)')). Attempted on 06/02/2016. This URL worked the previous time: 30/01/2016.\"}",
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/stroud_district_council_conservation_area/wms?request=getCapabilities",
+                "url_type": null
+            },
+            {
+                "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T03:40:34.790897', 'cache_filepath': u'/media/hulk/ckan_resource_cache/82/828d0b88-fdb4-4691-be6f-b966ee110282/551', 'last_success': '2016-02-06T03:40:34.790897', 'size': u'10373', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': u'https://misoportal.com/portal/api/request-licenced-data/551', 'hash': u'bd6a7fefd7f49db3343cb1262a81661e54e3b229', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2015-12-13T11:51:54.781230', 'mimetype': u'text/html', 'cache_url': u'http://data.gov.uk/data/resource_cache/82/828d0b88-fdb4-4691-be6f-b966ee110282/551', 'created': '2014-06-06T23:19:00.390964', 'first_failure': None}",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-06-06T12:20:05.026789",
+                "description": "This data is restricted under the PSMA License. Click this link to request access",
+                "format": "HTML",
+                "hash": "",
+                "id": "828d0b88-fdb4-4691-be6f-b966ee110282",
+                "last_modified": null,
+                "metadata_modified": "2014-06-06T12:20:05.026789",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "542af87e-d638-471b-8df1-aed2c18bf253",
+                "position": 1,
+                "qa": "{'updated': '2016-02-07T01:12:29.721512', 'openness_score': 0, 'archival_timestamp': '2016-02-06T03:40:34.790897', 'format': u'HTML', 'created': '2014-06-09T19:33:54.060008', 'resource_timestamp': None, 'openness_score_reason': u'Content of file appeared to be format \"HTML\" which receives openness score: 0.'}",
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://misoportal.com/portal/api/request-licenced-data/551",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d7cd8b3c-4cb5-467e-a4c0-05e285dfc82f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "36c03d55-677e-4497-8524-d6ae0a285f54"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Stroud District Council"
+            }
+        ]
+    }
+}

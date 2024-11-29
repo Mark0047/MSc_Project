@@ -1,0 +1,73 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "53f84ccd-5c2a-4648-97c6-7fb88bfe903e",
+        "metadata_created": "2019-01-23T10:58:18.887278",
+        "metadata_modified": "2019-01-23T10:58:18.887285",
+        "name": "birmingham-city-council",
+        "notes": "",
+        "organization": {
+            "id": "25cdd7f0-4acc-4c27-b317-0edee995acfd",
+            "name": "birmingham-city-council",
+            "title": "Birmingham City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:29.274275",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "25cdd7f0-4acc-4c27-b317-0edee995acfd",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Birmingham City Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/birmingham/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 35,
+            "last_job": {
+                "id": "978f93cb-c902-407b-91b4-4ec3c8564445",
+                "created": "2021-09-09 16:35:21.061103",
+                "gather_started": "2021-09-09 16:35:21.218416",
+                "gather_finished": "2021-09-09 16:35:21.535841",
+                "finished": "2021-09-09 16:35:24.864123",
+                "source_id": "53f84ccd-5c2a-4648-97c6-7fb88bfe903e",
+                "status": "Finished",
+                "stats": {
+                    "added": 1,
+                    "updated": 1,
+                    "not modified": 11,
+                    "errored": 2,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"South bound latitude has a value of \n                                -1.723000\n                             which is outside bounds.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='extent' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='EX_Extent' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='geographicElement' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='EX_GeographicBoundingBox' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"string-length(gmd:southBoundLatitude) = 0 or (gmd:southBoundLatitude >= -90.0 and gmd:southBoundLatitude <= gmd:northBoundLatitude)\":\nError Message: \"North bound latitude has a value of \n                                -2.034000\n                             which is outside bounds.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='extent' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='EX_Extent' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='geographicElement' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='EX_GeographicBoundingBox' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"string-length(gmd:northBoundLatitude) = 0 or (gmd:northBoundLatitude <= 90.0 and gmd:northBoundLatitude >= gmd:southBoundLatitude)\"",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Tag \"Area management/restriction/regulation zones and r\" must be alphanumeric characters or symbols: -_.",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 13
+        }
+    }
+}

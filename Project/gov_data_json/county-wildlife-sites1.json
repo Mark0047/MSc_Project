@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@carlisle.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "22795d9e-d0e0-4759-bc7e-d4c61e1a560d",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-03-06T16:50:45.920380",
+        "metadata_modified": "2022-08-01T15:42:30.837963",
+        "name": "county-wildlife-sites1",
+        "notes": "Carlisle City Council County Wildlife Sites",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "969a9e9f-0c9d-49e6-9d2b-84b9b3b8183f",
+            "name": "carlisle-city-council",
+            "title": "Carlisle City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:12:12.267149",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "969a9e9f-0c9d-49e6-9d2b-84b9b3b8183f",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "County Wildlife Sites",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/docs/licences/public-sector-end-user-licence-inspire.htm\", \"Use according to license\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.45824"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.0873"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.4565"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.57632"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-02-26T15:44:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "3e080dd7a55337e3b75b12fff6980c643da85047"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "0ae52efb-ef09-474f-ad71-ec3eab90dc0b"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2022-07-28T08:42:47"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "completed"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Carlisle City Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.45824, 54.4565], [-3.57632, 54.4565], [-3.57632, 55.0873], [-2.45824, 55.0873], [-2.45824, 54.4565]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "da862b5c-5db4-4d05-b651-578555cae562"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Carlisle City Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-01T15:42:30.872662",
+                "description": "County Wildlife Sites View (WMS)",
+                "format": "",
+                "hash": "",
+                "id": "ccef2978-7de4-4446-b3b4-91ec87b7118e",
+                "last_modified": null,
+                "metadata_modified": "2022-08-01T15:42:30.842570",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "View",
+                "package_id": "22795d9e-d0e0-4759-bc7e-d4c61e1a560d",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.carlisle.gov.uk/getows.ashx?mapsource=CCC/Inspire&version=1.1.0&request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-08-01T15:42:30.872666",
+                "description": "County Wildlife Sites Download (WFS)",
+                "format": "",
+                "hash": "",
+                "id": "8264c5b4-e9d0-4b78-9958-00a622f5874b",
+                "last_modified": null,
+                "metadata_modified": "2022-08-01T15:42:30.842731",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "22795d9e-d0e0-4759-bc7e-d4c61e1a560d",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.carlisle.gov.uk/getows.ashx?mapsource=CCC/inspire&TypeName=county_wildlife_sites&version=1.1.0&request=GetFeature&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Local Wildlife Sites",
+                "id": "f47f37db-7496-4c1f-83d3-ff3c64078bba",
+                "name": "Local Wildlife Sites",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0ae52efb-ef09-474f-ad71-ec3eab90dc0b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "da862b5c-5db4-4d05-b651-578555cae562"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Carlisle City Council"
+            }
+        ]
+    }
+}

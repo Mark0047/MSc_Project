@@ -1,0 +1,262 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "geographycustomerservices@nrscotland.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "334d210c-4e60-4e9d-840d-4327bab76a5c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-05-21T18:15:31.675914",
+        "metadata_modified": "2024-06-19T11:14:17.327082",
+        "name": "census-2022-postcode-unit-grid-references",
+        "notes": "This dataset contains grid references for the 2022 frozen Postcode boundaries. \n\nEach individual Postcode polygon holds a grid reference.   Grid references have been assigned by NRS, choosing the building nearest to the centre of the most populous part of the Postcode, or the grid reference is from Gridlink\u00ae.",
+        "num_resources": 3,
+        "num_tags": 5,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2022"
+        ],
+        "temporal_coverage-to": [
+            "2022"
+        ],
+        "title": "Census 2022 \u2013 Postcode Unit Grid References",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following statements must be used when reproducing or using this material: Copyright National Records of Scotland, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2024-05-21\"}, {\"type\": \"publication\", \"value\": \"2024-05-21\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "5729692c-7395-4048-912c-53466324356f"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e60d7d22-b7e5-40e7-988d-f54c332378ee"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-17T13:33:21"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "National Records of Scotland"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "National Records of Scotland (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:17.367066",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "2942e738-fbc9-4063-934e-01df543f9046",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:17.332363",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "PostcodeGridRef2022",
+                "package_id": "334d210c-4e60-4e9d-840d-4327bab76a5c",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2022/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:17.367069",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "e7ef40ad-a589-4aa3-adbc-ea3b38e3d6a9",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:17.332457",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CEN2022:PostcodeGridRef2022",
+                "package_id": "334d210c-4e60-4e9d-840d-4327bab76a5c",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2022/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:17.367071",
+                "description": "Geography - Census",
+                "format": "",
+                "hash": "",
+                "id": "22e82861-0ca6-45fa-a8c4-57f993a0cacc",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:17.332525",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "National Records of Scotland",
+                "package_id": "334d210c-4e60-4e9d-840d-4327bab76a5c",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/census-datasets",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Boundaries",
+                "id": "761f5ab1-0549-4ea2-9f26-90e94153b09f",
+                "name": "Boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Postcodes",
+                "id": "ba7b4273-f2b1-4d69-9f57-abc6f551fcfa",
+                "name": "Postcodes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Statistical units",
+                "id": "5c1fe287-ebfd-4a64-9580-29baa322a3d0",
+                "name": "Statistical units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "census survey",
+                "id": "28f851c8-04ff-4028-a6c5-0eafd84264a1",
+                "name": "census survey",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "statistical data",
+                "id": "8ce17b2c-73e1-4db1-a06b-7e32b83bc5ea",
+                "name": "statistical data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "09b76b28-76a3-4907-b6be-ac57d3574646"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

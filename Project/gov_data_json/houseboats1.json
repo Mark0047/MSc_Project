@@ -1,0 +1,210 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "0cd0d5c0-f170-4899-ba45-e7d227bbd0e4",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-02-19T04:27:41.325442",
+        "metadata_modified": "2020-04-12T08:18:56.936984",
+        "name": "houseboats1",
+        "notes": "<p>Houseboat and caravan dwellers form part of our local housing market.</p>\n<p>This dataset aims to bring together some information to help us see the scale of the issue in our local area. This includes</p>\n<ul><li>Cambridge</li>\n<li>East Cambridgeshire</li>\n<li>Fenland</li>\n<li>Huntingdonshire</li>\n<li>South Cambridgeshire</li>\n<li>Forest Heath</li>\n<li>St Edmundsbury</li>\n<li>Peterborough</li>\n</ul><p>This data is simply a starting point, being launched in April 2017, and at this stage is looking to bring existing data together to shed some light on the scale of this part of our housing market.<br />There are two source of data:</p>\n<ol><li>Council Tax records identifying the number of houseboat dwellers in 2015 and 2016. The government data is published in response to an external request for information seeking a record of the number of households who are boat dwellers in each local authority in England. They note that: \"Caseworkers use Dwelling Type \u201cTH\u201d and Dwelling Group \u201c72\u201d when they identify a houseboat, captured as part of the property attributes on the VOA administrative database. Total counts for each local authority district in England are provided. Counts are rounded to the nearest 10. However, counts of zero are reported as \u201c0\u201d and counts between one and four (inclusive) are reported as negligible and denoted by \u201c-\u201c. Totals may not sum due to rounding.\" As the figures are rounded to the nearest 10, we can see this only gives an indication of the number of houseboats in each local authority area; in addition, a local correspondent informs us that this is \"not an accurate way of calculating the numbers of houseboats since houseboats are not liable to pay council tax if the land they are moored on is not a hereditment\".</li>\n<li>A web search for local marinas and moorings in the local area, undertaken in April 2017.</li>\n</ol><p>We are very pleased to have now uploaded geo-coded data on the location of some of the marinas and moorings across the area in 2017, which has enabled us to produce a local map. We continue to seek new and improved sources of data, and updates to the goverment figures, as time progresses.</p>\n",
+        "num_resources": 5,
+        "num_tags": 2,
+        "organization": {
+            "id": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+            "name": "cambridgeshire-insight",
+            "title": "Cambridgeshire Insight",
+            "type": "organization",
+            "description": "The Cambridgeshire Insight Partnership is made up of public, health and community bodies to provide a shared research knowledge base for the Cambridgeshire area. It allows users an easy way to access and share data, information and research for deeper insights about their local area. See more at https://cambridgeshireinsight.org.uk",
+            "image_url": "",
+            "created": "2014-05-19T12:10:18.790087",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+        "private": false,
+        "state": "active",
+        "title": "Houseboats",
+        "type": "dataset",
+        "url": "https://data.cambridgeshireinsight.org.uk/dataset/houseboats",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2018-09-21"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2018-12-06"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "The Housing Board"
+            },
+            {
+                "key": "guid",
+                "value": "2b6c6701-bba1-4c3a-9450-1b685325711a"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "71c70f23-f7e6-4798-bcf7-eeb5b9e9e5f8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-19T04:27:41.335568",
+                "description": "<p>A list of marinas and moorings based on existing websites and web searches in April 2017.</p>\n<p>Published to initiate work to identify where houseboats might be found across our local area. This is not an exhaustive list and will be added to over time.</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "e2d43188-d1ae-4522-b79e-df46b82cf921",
+                "last_modified": null,
+                "metadata_modified": "2019-02-19T04:27:41.335568",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Marina and moorings list, April 2017, csv",
+                "package_id": "0cd0d5c0-f170-4899-ba45-e7d227bbd0e4",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/marina-and-moorings-list-apr-2017-csv_map_0.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-19T04:27:41.335574",
+                "description": "<p>A list of some of the local area's marinas and moorings, based on websites and web searches undertaken in April 2017.</p>\n<p>The list is not exhaustive and simply aims to help us start work identifying where local houseboats and houseboat dwellers might be found, across our area.</p>\n",
+                "format": "XLS",
+                "hash": "",
+                "id": "846112bd-eb7d-479a-8627-02ddba68e5a7",
+                "last_modified": null,
+                "metadata_modified": "2019-02-19T04:27:41.335574",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Marina and moorings list, April 2017, xls",
+                "package_id": "0cd0d5c0-f170-4899-ba45-e7d227bbd0e4",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/marina-and-moorings-list-apr-2017%20%281%29.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-19T04:27:41.335576",
+                "description": "<p>VOA data on houseboats, published in response to two freedom of information requests. This csv file sets out the count of houseboats at 31 March 2015 and 31 March 2016, for each district and unitary authority area in England and Wales.</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "e0c4a744-2f09-499b-bb15-2cae8e67d4a7",
+                "last_modified": null,
+                "metadata_modified": "2019-02-19T04:27:41.335576",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Houseboats from council tax records, 2015 and 2016, csv",
+                "package_id": "0cd0d5c0-f170-4899-ba45-e7d227bbd0e4",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/houseboats-voa-2015-and-2016%20%281%29.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-19T04:27:41.335578",
+                "description": "<p>VOA data on the number of houseboats across England and Wales, at 31 March 2015 and 31 March 2016.</p>\n",
+                "format": "XLS",
+                "hash": "",
+                "id": "facef842-6408-49c9-9482-3f1fa3d9fc8c",
+                "last_modified": null,
+                "metadata_modified": "2019-02-19T04:27:41.335578",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Houseboats from council tax records, 2015 and 2016, xls",
+                "package_id": "0cd0d5c0-f170-4899-ba45-e7d227bbd0e4",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/houseboats-voa-2015-and-2016-xls_0.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-19T04:27:41.335580",
+                "description": "<p>Here is a list and map of local marinas and moorings across Cambridgeshire, West Suffolk and Peterborough. If you click on the \"map\" view a flag will appear at each location listed, based on the centre point of the marina's postcode. If you click on the flag, the name of the marina and simple address details will appear in a bubble.</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "4c91ec6c-fde5-4fbc-9282-65ffd60ce5e2",
+                "last_modified": null,
+                "metadata_modified": "2019-02-19T04:27:41.335580",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "List of local marinas and moorings, csv",
+                "package_id": "0cd0d5c0-f170-4899-ba45-e7d227bbd0e4",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/Map-marina-and-moorings-apr-2017-csv_0.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Housing",
+                "id": "fdf67b17-b833-436e-8245-d610ddfd2b6c",
+                "name": "Housing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "houseboat",
+                "id": "a0de5495-32e5-4a62-bdf1-ab880fe9e025",
+                "name": "houseboat",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "71c70f23-f7e6-4798-bcf7-eeb5b9e9e5f8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ]
+    }
+}

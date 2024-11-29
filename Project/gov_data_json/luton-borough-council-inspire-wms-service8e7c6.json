@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "cf729e2c-deee-4a7e-a72e-35fa9d7b35c3",
+        "metadata_created": "2019-01-23T11:45:29.949350",
+        "metadata_modified": "2019-01-23T11:45:29.949359",
+        "name": "luton-borough-council-inspire-wms-service8e7c6",
+        "notes": "",
+        "organization": {
+            "id": "2ecfa769-df58-4f4d-8d9f-7811cf3bb5f6",
+            "name": "luton-borough-council",
+            "title": "Luton Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:59.631441",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2ecfa769-df58-4f4d-8d9f-7811cf3bb5f6",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Luton Borough Council INSPIRE WMS Service",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/2ecfa769-df58-4f4d-8d9f-7811cf3bb5f6/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 47,
+            "last_job": {
+                "id": "6f06b509-a360-45a1-8e03-c2d0b7bf58ed",
+                "created": "2019-12-17 10:25:42.582586",
+                "gather_started": "2019-12-17 10:25:43.169589",
+                "gather_finished": "2019-12-17 10:25:45.578807",
+                "finished": "2019-12-17 10:26:21.198532",
+                "source_id": "cf729e2c-deee-4a7e-a72e-35fa9d7b35c3",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 15,
+                    "not modified": 0,
+                    "errored": 15,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 15
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 16
+        }
+    }
+}

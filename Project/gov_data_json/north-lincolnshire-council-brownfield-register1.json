@@ -1,0 +1,150 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "inspire@northlincs.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "39b2fa5e-f326-4365-ad60-7e2bc3200566",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "cc-by",
+        "license_title": "Creative Commons Attribution",
+        "license_url": "http://www.opendefinition.org/licenses/cc-by",
+        "metadata_created": "2019-12-19T15:15:56.901867",
+        "metadata_modified": "2023-12-15T14:45:45.307017",
+        "name": "north-lincolnshire-council-brownfield-register1",
+        "notes": "The statutory register of brownfield sites in North Lincolnshire.",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "911b5bc7-c532-48b2-92cd-2781edcdc5c7",
+            "name": "north-lincolnshire-council",
+            "title": "North Lincolnshire Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-06-20T11:38:42.903646",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "911b5bc7-c532-48b2-92cd-2781edcdc5c7",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "",
+        "title": "North Lincolnshire Council Brownfield Register",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "0142e1c0-05e2-4270-9eee-0e7ca16f4942"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a6bb799f-6339-41c8-84c8-3f75ab4b3165"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Lincolnshire Council CSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-19T15:15:56.917566",
+                "datafile-date": "19/12/2019",
+                "description": "Resource locator",
+                "format": "WMS",
+                "hash": "",
+                "id": "84d6bf05-64a7-4097-868e-2665f96a5219",
+                "last_modified": null,
+                "metadata_modified": "2019-12-19T15:15:56.917566",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "39b2fa5e-f326-4365-ad60-7e2bc3200566",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.northlincs.gov.uk/GetOWS.ashx?VERSION=1.1.0&MAPSOURCE=nlincs_mapsources/AllMaps&REQUEST=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-19T15:15:56.917571",
+                "datafile-date": "2020-12-17",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "d7adeca2-b13d-44d9-aac0-64d63b53489c",
+                "last_modified": null,
+                "metadata_modified": "2023-12-15T14:45:45.312498",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "39b2fa5e-f326-4365-ad60-7e2bc3200566",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://m.northlincs.gov.uk/public/brownfield_register/Brownfield_register_15_12_23.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Brownfield",
+                "id": "5f3c50a5-c441-42a6-8faa-c2280f9e1ced",
+                "name": "Brownfield",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Location",
+                "id": "34de5497-97a6-4765-afb0-010add38f5d7",
+                "name": "Location",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0142e1c0-05e2-4270-9eee-0e7ca16f4942"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a6bb799f-6339-41c8-84c8-3f75ab4b3165"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Lincolnshire Council CSW"
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "c951075d-26cc-47cb-822b-d8de5fa5d3cb",
+        "metadata_created": "2019-01-23T11:16:09.896002",
+        "metadata_modified": "2019-06-18T10:52:34.167699",
+        "name": "wigan-council80412",
+        "notes": "",
+        "organization": {
+            "id": "5327851e-43b8-408c-bf83-a00d39f58dea",
+            "name": "wigan-metropolitan-borough-council",
+            "title": "Wigan Metropolitan Borough Council",
+            "type": "organization",
+            "description": "gis datasets harvested from Wigan Councils Open Data site http://opendata.wigan.gov.uk",
+            "image_url": "",
+            "created": "2012-06-27T14:49:35.957090",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "5327851e-43b8-408c-bf83-a00d39f58dea",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "Wigan Council",
+        "type": "harvest",
+        "url": "http://opendata.wigan.gov.uk/data.json",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2139,
+            "last_job": {
+                "id": "77b71af4-bba4-479e-8b5f-2f29c62febb5",
+                "created": "2024-11-17 10:00:07.570091",
+                "gather_started": "2024-11-17 10:00:46.151510",
+                "gather_finished": "2024-11-17 10:00:48.907432",
+                "finished": "2024-11-17 11:01:21.910157",
+                "source_id": "c951075d-26cc-47cb-822b-d8de5fa5d3cb",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 93,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Error parsing file: Expecting value: line 1 column 1 (char 0)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 93
+        }
+    }
+}

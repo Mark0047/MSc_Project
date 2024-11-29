@@ -1,0 +1,150 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "0015ce8a-71d0-46f8-8701-730b3622b334",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2014-10-23T10:31:38.858509",
+        "metadata_modified": "2017-02-20T17:04:20.989766",
+        "name": "scc-public-toilets",
+        "notes": "Public toilets (public conveniences) managed by Salford City Council.  \r\n\r\nDataset is formatted to comply with the Local Government Open Data Incentive Scheme Schema compliance - Public toilets: http://schemas.opendata.esd.org.uk/PublicToilets",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+            "name": "salford-city-council",
+            "title": "Salford City Council",
+            "type": "organization",
+            "description": "Salford City Council",
+            "image_url": "2019-01-31-104033.251731SCCmag.png",
+            "created": "2012-06-27T14:50:51.970331",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Salford City Council - Public toilets",
+        "type": "dataset",
+        "update_frequency": "",
+        "url": "",
+        "version": "",
+        "extras": [
+            {
+                "key": "guid",
+                "value": "0015ce8a-71d0-46f8-8701-730b3622b334"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "cf11c0d5-b7d5-4644-9a89-a36f956af466"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "information_class",
+                "value": "Services provided by the council"
+            },
+            {
+                "key": "la_function",
+                "value": "http://id.esd.org.uk/function/62"
+            },
+            {
+                "key": "la_service",
+                "value": "http://id.esd.org.uk/service/579"
+            },
+            {
+                "key": "mandate",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-02-20"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://salforddataquay.uk/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2017-02-20T11:05:01.799025\", \"harvest_source_title\": \"Salford Data Quay\", \"activity_occurred\": \"2017-02-20T17:04:20.947398\", \"activity\": \"harvest\", \"harvested_guid\": \"0015ce8a-71d0-46f8-8701-730b3622b334\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "fef6f56e-0438-433a-83ad-5fe6a125f8c9"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Salford Data Quay"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-10-23T11:31:38.928793",
+                "description": "Link to Salford City Council's details of accessible toilets in Salford webpage",
+                "format": "HTML",
+                "hash": "",
+                "id": "ee6a8f64-bbcb-4744-a9e1-709b55329fce",
+                "last_modified": null,
+                "metadata_modified": "2014-10-23T11:31:38.928793",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "HTML format",
+                "package_id": "0015ce8a-71d0-46f8-8701-730b3622b334",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.salford.gov.uk/accessible-toilets.htm",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-10-23T11:31:38.928810",
+                "description": "View the data in a table",
+                "format": "CSV",
+                "hash": "",
+                "id": "acc4919b-3cda-4d9c-bf0d-c5849d30997c",
+                "last_modified": null,
+                "metadata_modified": "2014-10-23T11:31:38.928810",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV format",
+                "package_id": "0015ce8a-71d0-46f8-8701-730b3622b334",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://map.salford.gov.uk/maps/opendata/SCC-public-toilets.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cf11c0d5-b7d5-4644-9a89-a36f956af466"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "fef6f56e-0438-433a-83ad-5fe6a125f8c9"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Salford Data Quay"
+            }
+        ]
+    }
+}

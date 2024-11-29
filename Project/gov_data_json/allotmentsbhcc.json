@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "a447d157-21a8-4039-851f-111bd4440b23",
+        "frequency": "MANUAL",
+        "id": "540c3a48-f5ae-4512-827c-26fe6bf6ea83",
+        "metadata_created": "2019-09-19T11:24:04.895474",
+        "metadata_modified": "2019-09-26T09:37:21.529217",
+        "name": "allotmentsbhcc",
+        "notes": "",
+        "organization": {
+            "id": "d3600188-91a9-4ac5-847e-bcf31afca1fe",
+            "name": "brighton-and-hove-city-council",
+            "title": "Brighton and Hove City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:12.574821",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "d3600188-91a9-4ac5-847e-bcf31afca1fe",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "AllotmentsBHCC",
+        "type": "harvest",
+        "url": "https://wap-gis.brighton-hove.gov.uk/arcgis/services/INSPIRE/Allotments/MapServer/WmsServer?",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1,
+            "last_job": {
+                "id": "ea063eca-199a-4e36-a743-fbb58e773f93",
+                "created": "2019-09-19 11:24:43.801613",
+                "gather_started": "2019-09-19 11:24:44.322668",
+                "gather_finished": "2019-09-19 11:24:44.484739",
+                "finished": "2019-09-19 11:24:44.484739",
+                "source_id": "540c3a48-f5ae-4512-827c-26fe6bf6ea83",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://wap-gis.brighton-hove.gov.uk/arcgis/services/INSPIRE/Allotments/MapServer/WmsServer?: ConnectionError(MaxRetryError(\"HTTPSConnectionPool(host='wap-gis.brighton-hove.gov.uk', port=443): Max retries exceeded with url: /arcgis/services/INSPIRE/Allotments/MapServer/WmsServer (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f37e08ea190>: Failed to establish a new connection: [Errno -2] Name or service not known',))\",),)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

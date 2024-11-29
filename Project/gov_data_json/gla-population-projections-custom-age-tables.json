@@ -1,0 +1,310 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "432f10b7-3e8d-4e8c-8281-2033c43f1c59",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:12:01.240184",
+        "metadata_modified": "2024-11-16T22:01:40.597430",
+        "name": "gla-population-projections-custom-age-tables",
+        "notes": "This Excel based tool enables users to query the raw single year of age data so that any age range can easily be calculated without having to carry out often complex, and time consuming formulas that could also be open to human error. Each year the GLA demography team produce sets of population projections.\u00a0\n\nThe full raw data by single year of age (SYA) and gender are available as Datastore packages at the links below.\n\n**How to use the tool**\n\nSimply select the lower and upper age range for both males and females (starting in cell C3) and the spreadsheet will return the total population for the range.\n\nFind out more about GLA population projections on the [GLA Demographic Projections page](/demography/)\n\nClick here for an [archive of population projections from previous years that have since been superseded.](/gla-population-projections-superseded-custom-age-tables/)\n\n**2019-based projections** (published November 2020)\n\n*   Central range (upper bound)\n*   Central range (lower bound)\n*   Low population variant\n*   High population variant\n\n  \n\n**2016-based projections** (published July 2017)\n\n*   Housing-linked projection incorporating data from the 2016 SHLAA\u00a0\n*   Ward-level projections consistent with the borough housing-led model\n*   Ethnic group projections consistent with the borough housing-led model (50MB file)",
+        "num_resources": 7,
+        "num_tags": 12,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "GLA Population Projections - Custom Age Tables",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/gla-population-projections-custom-age-tables",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2014-10-16T13:26:59"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2021-04-08T09:09:06.631Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "a713a4be-0891-42f0-b5d4-3bcb7e7525a0"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:14:24.534575",
+                "description": "2016-based ward-level population projections (constrained to the 2016-based housing-led projection, 2011 wards)",
+                "format": "XLS",
+                "hash": "",
+                "id": "647529ea-df9d-4b78-9db0-68db9b6eacdf",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:55.684334",
+                "mimetype": "application/vnd.ms-excel",
+                "mimetype_inner": null,
+                "name": "Ward population projections",
+                "package_id": "432f10b7-3e8d-4e8c-8281-2033c43f1c59",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/gla-population-projections-custom-age-tables/0d24f0a2-e687-4049-b610-777b053f9865/Ward_Housing_led_projection_age_range_creator_2016includingcity.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:14:24.534593",
+                "description": "2016-based ethnic group population projections (constrained to 2016-based housing-led population projections)",
+                "format": "XLS",
+                "hash": "",
+                "id": "7f23d422-1dcb-4dae-9329-9eed2ce56910",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:55.684457",
+                "mimetype": "application/vnd.ms-excel",
+                "mimetype_inner": null,
+                "name": "Housing-led Ethnic Group",
+                "package_id": "432f10b7-3e8d-4e8c-8281-2033c43f1c59",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/gla-population-projections-custom-age-tables/2b74a52d-0136-4f6d-a8f0-295f400df1d7/Housing_led_EGPP_age_range_creator_2016.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-04-09T15:50:55.383640",
+                "description": "2019-based trend projection Central Range (upper bound)",
+                "format": "XLSX",
+                "hash": "",
+                "id": "1bb0b3e3-bb85-4e97-b169-b15c768362ac",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:55.684557",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "Central Range (upper bound)",
+                "package_id": "432f10b7-3e8d-4e8c-8281-2033c43f1c59",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/gla-population-projections-custom-age-tables/4c7f998b-ae3a-4558-8ae1-b976a2b16382/custom_age_tool_Central_Upper_2019.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-04-09T15:50:55.383646",
+                "description": "2019-based trend projection Central Range (lower bound)",
+                "format": "XLSX",
+                "hash": "",
+                "id": "6709797b-8319-4406-8a42-670e20d93695",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:55.684654",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "Central Range (lower bound)",
+                "package_id": "432f10b7-3e8d-4e8c-8281-2033c43f1c59",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/gla-population-projections-custom-age-tables/4c81c6fa-648f-46f1-bc93-42d21b0067a1/custom_age_tool_Central_Lower_2019.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:14:24.534611",
+                "description": "2016-based housing-led population projection",
+                "format": "XLS",
+                "hash": "",
+                "id": "75c0793a-4ce3-40bb-b98f-e362f9bcb1b8",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:55.684749",
+                "mimetype": "application/vnd.ms-excel",
+                "mimetype_inner": null,
+                "name": "Housing-led population projection",
+                "package_id": "432f10b7-3e8d-4e8c-8281-2033c43f1c59",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/gla-population-projections-custom-age-tables/5b389c26-f5e4-47ce-88df-a8cce3a9b7e0/Housing_led_projection_age_range_creator_2016.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-04-09T15:50:55.383649",
+                "description": "2019-based trend projection High Population variant",
+                "format": "XLSX",
+                "hash": "",
+                "id": "0f1ef575-fba0-4c03-a87c-d4e3b928dd17",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:55.684842",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": " High Population variant",
+                "package_id": "432f10b7-3e8d-4e8c-8281-2033c43f1c59",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/gla-population-projections-custom-age-tables/7fb72b54-a4ee-4926-9011-a29cc12428aa/custom_age_tool_High_population_2019.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-04-09T15:50:55.383651",
+                "description": "2019-based trend projection Low Population variant",
+                "format": "XLSX",
+                "hash": "",
+                "id": "e8831ff0-0467-4e54-b028-4d029448abf5",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:55.684934",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "Low Population variant",
+                "package_id": "432f10b7-3e8d-4e8c-8281-2033c43f1c59",
+                "position": 6,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/gla-population-projections-custom-age-tables/af51a79b-50df-43cc-a658-0865ca4af7a9/custom_age_tool_Low_population_2019.xlsx",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "age",
+                "id": "981e058c-cfbf-4803-b669-3887405e9f08",
+                "name": "age",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "bespoke",
+                "id": "fba54cbd-4ecf-49ad-bc54-29048491fdb1",
+                "name": "bespoke",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "boroughs",
+                "id": "941bc4df-eaf5-443a-b249-f9f05d5316d2",
+                "name": "boroughs",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "custom",
+                "id": "34c2bcec-fc6d-419e-ab53-1f9a5afd7741",
+                "name": "custom",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "demographics",
+                "id": "f7bec042-e618-4f60-bad4-028a2f4ad418",
+                "name": "demographics",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "demography",
+                "id": "dbff5a54-0319-4fd3-811d-5088dd3725f0",
+                "name": "demography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "estimates",
+                "id": "f4b27192-4744-43a6-b94e-70d48da56cb4",
+                "name": "estimates",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "growth",
+                "id": "125f591d-7cdb-46df-85bd-de50d870fbf0",
+                "name": "growth",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "population",
+                "id": "40739b84-20b5-415f-87f6-7ab11b26d2b3",
+                "name": "population",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "table",
+                "id": "82420b01-d03f-4cbc-908d-80129641fd9d",
+                "name": "table",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "tool",
+                "id": "773beed3-39b1-4e64-8a24-112a20c35200",
+                "name": "tool",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wards",
+                "id": "0ccd5b6f-6085-4db7-9e16-4e1a74deace4",
+                "name": "wards",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "91f5fcc2-f9f3-41f6-a0fe-40f5ada94683"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

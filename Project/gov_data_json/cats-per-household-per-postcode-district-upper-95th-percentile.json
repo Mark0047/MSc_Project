@@ -1,0 +1,202 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "aphaopendata@apha.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "679faff1-fbf0-4af8-8897-4961cb686dfb",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-06-27T09:49:17.089583",
+        "metadata_modified": "2023-11-01T13:25:09.273477",
+        "name": "cats-per-household-per-postcode-district-upper-95th-percentile",
+        "notes": "This dataset is a modelled dataset, describing the upper estimate of cat ownership characteristics per household at a postcode district  level(e.g. YO41). This dataset gives the mean household owership rate for each district, and was generated as part of the delivery of commissioned research. The data contained within this dataset are modelled figures, based on upper 95th percentile national estimates for pet population, and available information on Veterinary activity across GB. The data are accurate as of 01/01/2015. The data provided are summarised to the postcode district level.  Further information on this research is available in a research publication by James Aegerter, David Fouracre & Graham C. Smith, discussing the structure and density of pet cat and dog populations across Great Britain. Attribution statement: \u00a9Crown Copyright, APHA 2016",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+            "name": "animal-and-plant-health-agency",
+            "title": "Animal and Plant Health Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2015-02-04T13:40:13.046442",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2015-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2015-01-01"
+        ],
+        "title": "Cats per household per postcode district- upper 95th percentile",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.86"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.86"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.54"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2016-04-01\"}, {\"type\": \"publication\", \"value\": \"2016-06-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "unknown"
+            },
+            {
+                "key": "guid",
+                "value": "c197770e-abd3-48f0-b92d-0bfdded62938"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b01e604b-e3df-4ba0-a691-89f8678ad3d5"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Animal & Plant Health Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.86], [-8.54, 49.86], [-8.54, 60.86], [1.78, 60.86], [1.78, 49.86]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "155dcaa5-1587-4af5-b770-c2e07a18163e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "APHA Metadata Catalogue Harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:25:09.309915",
+                "description": "CSV File",
+                "format": "CSV",
+                "hash": "",
+                "id": "e23d90aa-61fa-4c00-b90a-0078fb04f0ea",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:25:09.279223",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "679faff1-fbf0-4af8-8897-4961cb686dfb",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.defra.gov.uk/Agriculture/APHA0380-Cats_Per_Household_upper95.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "pet",
+                "id": "75df4134-6877-41ff-92bc-87135cf2858d",
+                "name": "pet",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "research project",
+                "id": "752870ae-fe5a-448d-b5e6-7ed5ed3472a9",
+                "name": "research project",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "339f6d3a-54c6-4edd-90f2-f97f15e9e427"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "155dcaa5-1587-4af5-b770-c2e07a18163e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "APHA Metadata Catalogue Harvest"
+            }
+        ]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "cc1c2289-3e11-48a5-81f1-17a2203156ac",
+        "frequency": "MANUAL",
+        "id": "8f03bdbe-f6fb-43cb-9e84-3777e8527dbd",
+        "metadata_created": "2021-01-19T14:01:58.127028",
+        "metadata_modified": "2021-03-19T15:33:54.044653",
+        "name": "west-oxfordshire",
+        "notes": "Import From UK Metadata Editor",
+        "organization": {
+            "id": "dde94b9f-9dac-44e9-b10a-6bc333e12b95",
+            "name": "west-oxfordshire-district-council",
+            "title": "West Oxfordshire District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T12:09:01.814051",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "dde94b9f-9dac-44e9-b10a-6bc333e12b95",
+        "private": false,
+        "source_type": "ckan",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/dde94b9f-9dac-44e9-b10a-6bc333e12b95/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 9,
+            "last_job": {
+                "id": "82b69142-de14-434d-8eaa-1df36d5136ac",
+                "created": "2021-03-19 15:26:11.477309",
+                "gather_started": "2021-03-26 09:13:53.364833",
+                "gather_finished": "2021-03-26 09:13:53.658037",
+                "finished": "2021-03-20 04:00:05.364605",
+                "source_id": "8f03bdbe-f6fb-43cb-9e84-3777e8527dbd",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 2,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Job timeout: 82b69142-de14-434d-8eaa-1df36d5136ac is taking longer than 720 minutes",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Unable to search remote CKAN for datasets:Response from remote CKAN was not JSON: u'<!DOCTYPE html>\\n\\n<html lang=\"en\">\\n  <head>\\n    <meta charset=\"utf-8\">\\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\\n    <meta name=\"description\" content=\"The UK Location Metadata Editor is designed to assist in the creation, management and publication of standards compliant geospatial metadata.\">\\n    \\n    <title>UK Location Metadata Editor</title>\\n    \\n    <link href=\"/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">\\n    \\n    <link href=\"/css/ukme/ukme.css\" rel=\"stylesheet\">\\n    \\n    <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"></script>\\n    <script src=\"//ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.min.js\"></script>\\n    <script src=\"//ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/additional-methods.min.js\"></script>\\n    <script src=\"/bootstrap/js/bootstrap.min.js\"></script>\\n    <script src=\"/js/jquery/jquery.tablesorter.min.js\"></script>\\n    \\n    \\n    \\n    <script>\\n  (function(i,s,o,g,r,a,m){i[\\'GoogleAnalyticsObject\\']=r;i[r]=i[r]||function(){\\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\\n  })(window,document,\\'script\\',\\'//www.google-analytics.com/analytics.js\\',\\'ga\\');\\n\\n  ga(\\'create\\', \\'UA-52068130-1\\', \\'data.gov.uk\\');\\n  ga(\\'send\\', \\'pageview\\');\\n</script>\\n\\n    \\n    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->\\n    <!-- WARNING: Respond.js doesn\\'t work if you view the page via file:// -->\\n<!--       <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script> -->\\n<!--       <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script> -->\\n    <!--[if lt IE 9]>\\n      <script src=\"/bootstrap/ie8/html5shiv.js\"></script>\\n      <script src=\"/bootstrap/ie8/respond.min.js\"></script>\\n    <![endif]-->\\n    \\n    <noscript>\\n      <style type=\"text/css\">\\n        .main-content {\\n          display: none;\\n        }\\n      </style>\\n      <div class=\"nojavascript\">You need to enable JavaScript for this site to work.</div>\\n    </noscript>\\n  </head>\\n\\n\\n\\n\\n\\n  \\n\\n\\n<body>\\n  <div class=\"main-content\"> <!-- Hide this div if there is no javascript -->\\n    <nav class=\"navbar navbar-default navbar-static-top\" role=\"navigation\">\\n      <div class=\"container-fluid\">\\n        <div class=\"navbar-header\">\\n          <ul class=\"nav navbar-nav\">\\n            <li><a class=\"navbar-brand\" href=\"/\"> <img src=\"/images/ukme/logo.png\" />\\n            </a></li>\\n            <li>\\n              <p class=\"navbar-text navbar-brand\">UK Location Metadata Editor</p>\\n            </li>\\n          </ul>\\n        </div>\\n  \\n        <div class=\"collapse navbar-collapse\">\\n          <ul class=\"nav navbar-nav navbar-right\">\\n            <li><a class=\"navbar-brand\" href=\"http://data.gov.uk\"> <img\\n                src=\"/images/ukme/logo-inverted.png\" />\\n            </a></li>\\n          </ul>\\n        </div>\\n      </div>\\n    </nav>\\n  \\n    <div class=\"header-bar\"></div>\\n  \\n    \\n  \\n    \\n\\n\\n<div class=\"container-fluid\">\\n  <p>\\n    We couldn\\'t find the page you requested. Please click <a href=\"/editor/start\">here</a> to start again.\\n  </p>\\n</div>\\n\\n\\n\\n<!-- Check context path this way because of Orbeon forms link transformations -->\\n\\n  \\n\\n\\n      <footer>\\n        <div class=\"container-fluid footer-container\">\\n          <ul>\\n            <li>\\n              <a href=\"/UKMDE-PRIVACY-V1.pdf\" target=\"ukmeHelp\">Privacy Policy</a>\\n            </li>\\n            <li>\\n              <a href=\"http://edina.ac.uk/privacyandcookies.html\" target=\"ukmePopup\">Cookies Policy</a>\\n            </li>\\n            <li>\\n              <a href=\"/tac\" target=\"ukmePopup\">Terms and Conditions</a>\\n            </li>\\n            <li>\\n              <a href=\"mailto:UK-INSPIRE-Help@defra.gsi.gov.uk?subject=UK MDE Feedback\">Contact Us</a>\\n            </li>\\n            <li>\\n              <a href=\"/about\" target=\"ukmePopup\">About</a>\\n            </li>\\n          </ul>\\n        </div>\\n        <div class=\"pull-right edina-logo\">\\n          <p class=\"text-center\">UK Location Metadata Editor provided by:</p>\\n          <p class=\"text-right\"><a href=\"http://edina.ac.uk\"><img src=\"/images/edina.png\" /></a></p>\\n        </div>\\n        <div class=\"clearfix\"></div>\\n      </footer>\\n    </div> <!-- End of No Javascript Div -->\\n  </body>\\n</html>\\n\\n' url:https://locationmde.data.gov.uk/metadata-harvesting/dde94b9f-9dac-44e9-b10a-6bc333e12b95terms:[]",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 2
+        }
+    }
+}

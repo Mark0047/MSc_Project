@@ -1,0 +1,210 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "neodc@rl.ac.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "905f41bb-b56d-45f5-8fec-64e7597099f1",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2018-06-19T15:46:22.586824",
+        "metadata_modified": "2018-06-19T15:46:22.600287",
+        "name": "seviri-spinning-enhanced-visible-and-infrared-imager-fire-radiative-power-frp-data-from-the-met1",
+        "notes": "The Fire Radiative Power (FRP) is a measure of the rate of radiant heat output from a fire. It has been demonstrated in small-scale experimental fires that the FRP of a fire is related to the rate at which fuel is being consumed (Wooster et al., 2005) and smoke emissions released (Freeborn et al., 2008). This is a direct result of the combustion process, whereby carbon-based fuel is oxidised to CO2 (and other compounds) with the release of a certain \"heat yield\". Therefore, measuring this FRP and integrating it over the lifetime of the fire provides an estimate of the total Fire Radiative Energy (FRE), which for wildfires should be approximately proportional to the total mass of fuel biomass consumed.\n\nThis dataset contains Fire Radiative Power (FRP) data over Africa from Meteosat Second Generation (MSG) Spinning Enhanced Visible and InfraRed Imager (SEVIRI) data.  Fires are detected by applying Roberts and Wooster's (2008) detection algorithm to SEVIRI data. FRP is estimated using the Middle InfraRed (MIR) radiance method (Wooster et al., 2003). The dataset was produced by Gareth Roberts and Martin Wooster (National Centre for Earth Observation (NCEO), Kings College London).\n\nThe original SEVIRI FRP (in units of MegaWatts; MW) data are produced at the native spatial resolution of 3 km (at the Meteosat sub-satellite point, decreasing away from this) and a temporal resolution of 15 minutes. See the Section on SEVIRI LSA SAF FRP Product in the SEVIRI FRP data description document for details of how to access these data.\n\nThe gridded product provided here are spatially degraded to a 1deg x 1deg grid-cell resolution, but keep the 15 minute temporal resolution. The gridded data are netCDF format files, each file containing 4 parameters. Each of the parameters comprise of an FRP dataset consisting of 71 columns, 73 rows and 96 frames, covering the African continent only (not Europe or South America) on a daily basis. The data cover a 12 month time period between February (2004) and January (2005)\u2026which is the first full year of SEVIRI post-commissioning phase data.\n\nThe spatial coverage of these gridded data are: \nUpper left Lat = +36.5\u00b0 \nUpper Left Lon = -19.5\u00b0\nBottom Right Lat = -35.5\u00b0\nBottom Right Lon = +50.5\u00b0\nParameters:\n\nTotal_fire_radiative_power\nTotal Fire Radiative Power (FRP) in grid cell\nNumber_of_fire_pixels\nAdjusted_total_fire_radiative_power\nMean_fire_radiative_power\n\nThe naming convention for the gridded files is: SEVIRI_FRP_[year]-[month]-[day].nc for example SEVIRI_FRP_2004-02-16.nc corresponds to data from 16th February 2004. Each netCDF file contains 96 frames (15 minute frequency) between 00:12 \u2013 23:57. These acquisition times correspond to the end of the SEVIRI image scan where each scan takes ~12minutes to complete. The times are in UTC.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "9ea160c4-4e17-4b49-af74-155c64fa0df6",
+            "name": "centre-for-environmental-data-analysis",
+            "title": "Centre for Environmental Data Analysis",
+            "type": "organization",
+            "description": "The Centre for Environmental Data Analysis (CEDA) serves the environmental science community through four data centres, data analysis environments, and participation in a host of relevant research projects.\r\n\r\nWe aim to support environmental science, further environmental data archival practices, and develop and deploy new technologies to enhance access to data. Additionally we provide services to aid large scale data analysis.\r\n\r\nYou can learn more about our data centres, our data processing services, and project work using the links in the menu above. \r\n\r\nIf you have a particular project or data management issue that you would like to consult CEDA on please contact us and a member of the CEDA team will be happy to assist.\r\n\r\nThe Centre for Environmental Data Analysis, based within the RAL Space department of the Science and Technology Facilities Council's Rutherford Appleton Laboratory, hosts a range of activities associated with environmental data archives. \r\n\r\nThese activities include running a number of key environmental data centres for the environmental research community as well as being in the vanguard of the development of data archival and delivery practices and technologies. ",
+            "image_url": "",
+            "created": "2016-09-07T11:21:57.789587",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9ea160c4-4e17-4b49-af74-155c64fa0df6",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "-"
+        ],
+        "temporal_coverage-to": [
+            "-"
+        ],
+        "theme-primary": "mapping",
+        "theme-secondary": [],
+        "title": "SEVIRI (Spinning Enhanced Visible and InfraRed Imager) Fire Radiative Power (FRP) data from the Meteosat Second Generation (MSG) Satellite",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Public; Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "50.5"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "36.5"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "-35.5"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-19.5"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2010-02-19T16:14:37\"}, {\"type\": \"creation\", \"value\": \"2010-02-19T16:14:37\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "9192420b6b74965d76cd69ce9222046d"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "bb0d059f-25db-4e3f-9207-dbeafb6cff6a"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "9192420b6b74965d76cd69ce9222046d"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Public; Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-11-02"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "NERC - Earth Observation Data Centre"
+            },
+            {
+                "key": "resource-type",
+                "value": "series"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NERC - Earth Observation Data Centre (custodian, publisher, distributer, point_of_contact, metadata_owner, curator);  (author, ceda_officer); King's College, London (author); Polaris House (author); King's College London (author)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[50.5, -35.5],[50.5, 36.5], [-19.5, 36.5], [-19.5, -35.5], [50.5, -35.5]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0abe2b7a-d5c1-4873-981e-90289db5716c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Centre for Environmental Data Analysis (CEDA)"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-06-19T16:46:22.643163",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "41b66a78-97bc-4849-8958-88fabd163450",
+                "last_modified": null,
+                "metadata_modified": "2018-06-19T16:46:22.643163",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset Homepage",
+                "package_id": "905f41bb-b56d-45f5-8fec-64e7597099f1",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://catalogue.ceda.ac.uk/uuid/9192420b6b74965d76cd69ce9222046d",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-06-19T16:46:22.643367",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "abdbf933-613a-4117-9ed4-d185d4a0b4cc",
+                "last_modified": null,
+                "metadata_modified": "2018-06-19T16:46:22.643367",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SEVIRI FRP Documentation",
+                "package_id": "905f41bb-b56d-45f5-8fec-64e7597099f1",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://cedadocs.badc.rl.ac.uk/770/1/SEVIRI_FRP_documentdesc.pdf",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "bb0d059f-25db-4e3f-9207-dbeafb6cff6a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0abe2b7a-d5c1-4873-981e-90289db5716c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Centre for Environmental Data Analysis (CEDA)"
+            }
+        ]
+    }
+}

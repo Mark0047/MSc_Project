@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "spatialhub@improvementservice.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "0580b2af-4d9c-48f0-a462-c3bde805b76b",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-10-16T09:49:01.076869",
+        "metadata_modified": "2024-09-05T16:13:19.129679",
+        "name": "sgn-gas-network-scotland",
+        "notes": "SGN create 4 separate data layers (by pressure tier) to depict the location of their gas network:\n\nLP           - Low Pressure (19 mbar - 75 mbar)\n\nMP         - Medium Pressure (75mbar - 2 bar)\n\nIP            - Intermediate Pressure (2 bar - 7 bar)\n\nHP          - Regional High Pressure (>7 bar)\n\nIn order to assess the risk of planning applications affecting the gas infrastructure, there is a requirement to buffer the above pipe network by different distances. The Spatial Hub has provided these buffered polygons as separate data layers. These are consultation zones where SGN should be informed about relevant planning applications. Major developments with potentially widespread effects should have larger consultation distances of up to 1km: e.g. quarrying, deep mining, demolition, blasting, siting of High Voltage Infrastructure.\n\nCurrent buffers:\nHP buffer (75m either side of pipe - 150m total)\n\nIP buffer (25m either side of pipe - 50m total)\n\nMP buffer (12.5m either side of pipe - 25m total)\n\nThe gas network data is up to date at the time of publication, but it is given without warranty as to the accuracy of the information shown.  Service pipes, valves, siphons, sub-connections etc. are not shown but their presence should be anticipated.  No liability of any kind whatsoever is accepted by SGN or its agents, servants or sub-contractors for any error or omission.  \n\nShould the user wish to excavate in the vicinity of pipelines, the User should visit SGN via sgn.co.uk/Safety/Dig-safely for further information. SGN use an on-line mapping system, accessible via the sgn.co.uk/Safety/Dig-safely web pages or linesearchbeforeudig.co.uk, this process should be used to obtain up to date maps and safety information before you excavate.  However if you need more information please contact our Safety Admin team on 0800 912 1722 or by email: plantlocation@sgn.co.uk.\n\nFor the avoidance of doubt, safe digging practices, in accordance with HS (G) 47, must be used to verify and establish the actual position of mains, pipes, services and other apparatus on site before any mechanical plant is used.  It is your responsibility to ensure that this information is provided to all persons (whether direct labour or contractors) working for you on or near gas apparatus.\n\nMains shown in the data are those owned by SGN by virtue of being a licensed Gas Transporter (GT).  Gas pipes owned by other GT\u2019s, or third parties, may also be present in the area and are not shown in the data.  Information with regard to such pipes should be obtained from the relevant owners",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2017-01-09"
+        ],
+        "title": "SGN gas network - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Limitations on public access\", \"This data is specifically available to any local authority in Scotland as per the Improvement service/ SGN Data Sharing Agreement.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.7244"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.8608"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.6332"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.65"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2024-08-05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "4045a4a7-62fd-48e7-b558-18963a314c98"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d9fb622a-f8ad-4ba8-84c6-14235966ce3c"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-08-05T11:19:06.51Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Improvement Service (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.7244, 54.6332], [-8.65, 54.6332], [-8.65, 60.8608], [-0.7244, 60.8608], [-0.7244, 54.6332]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-05T16:13:19.167853",
+                "description": "A link to the CKAN metadata record on the Spatial Hub.  A direct link to the OGC Web Feature Service and Web Map Service is available here.",
+                "format": "",
+                "hash": "",
+                "id": "2efa5b1f-9ebe-4bb3-a024-01e5e83e7041",
+                "last_modified": null,
+                "metadata_modified": "2024-09-05T16:13:19.144567",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SGN Gas Network - Scotland",
+                "package_id": "0580b2af-4d9c-48f0-a462-c3bde805b76b",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.spatialhub.scot/dataset/sgn_gas_network-sgn",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-05T16:13:19.167855",
+                "description": "A more up to date (daily) depiction of SGN's gas network",
+                "format": "",
+                "hash": "",
+                "id": "ef196d9b-d734-47f5-a29d-707c2e9dcef6",
+                "last_modified": null,
+                "metadata_modified": "2024-09-05T16:13:19.144663",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Line Search Before You Dig website",
+                "package_id": "0580b2af-4d9c-48f0-a462-c3bde805b76b",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.linesearchbeforeudig.co.uk/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Transport networks",
+                "id": "83d966c8-b18a-4c8f-9d3f-6aa454713f70",
+                "name": "Transport networks",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "af6ef42f-e93d-498d-ac14-e8ab6ed76a9d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

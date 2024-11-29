@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "WEEKLY",
+        "id": "28c7654a-3aab-41c8-b05a-baf341fadae4",
+        "metadata_created": "2019-01-23T10:46:16.215810",
+        "metadata_modified": "2020-07-06T13:16:49.477098",
+        "name": "northumberland-national-park-open-data",
+        "notes": "Harvester for Northumberland National Park Authority's Open Data",
+        "organization": {
+            "id": "fe3e3673-0345-4851-9747-0f3303870b09",
+            "name": "northumberland-national-park-authority",
+            "title": "Northumberland National Park Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T11:17:03.229576",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "fe3e3673-0345-4851-9747-0f3303870b09",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Northumberland National Park Open Data",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/fe3e3673-0345-4851-9747-0f3303870b09/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 481,
+            "last_job": {
+                "id": "377b7f84-f205-4268-afbf-cb958c8c9321",
+                "created": "2024-11-17 10:00:09.513388",
+                "gather_started": "2024-11-17 10:01:49.596920",
+                "gather_finished": "2024-11-17 10:02:09.625497",
+                "finished": "2024-11-17 10:02:09.625497",
+                "source_id": "28c7654a-3aab-41c8-b05a-baf341fadae4",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/fe3e3673-0345-4851-9747-0f3303870b09/: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/fe3e3673-0345-4851-9747-0f3303870b09/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f1a9304f350>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 5
+        }
+    }
+}

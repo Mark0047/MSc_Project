@@ -1,0 +1,244 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "heatmap@gov.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "0f1613ef-b671-4dbc-852b-d6977d299480",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-10-14T16:43:25.587416",
+        "metadata_modified": "2024-06-19T11:16:12.877904",
+        "name": "average-confidence-level-of-heat-demand-estimates-50m-grid-scotland",
+        "notes": "The Scotland Heat Map provides estimates of heat demand for all properties in Scotland. To indicate reliability, each estimate is assigned a confidence level from 1 to 5. Level 1 is least reliable and level 5 most reliable. This is mainly determined by the presence of information that would directly impact on heat demand in the estimate\u2019s source data. For example, estimates based on data that includes building type, age and floor area would be more reliable than estimates based solely on floor area. This raster dataset gives the average (mean) confidence level of properties within 50m x 50m grid squares covering all of Scotland. \n\nThe Scotland Heat Map is a tool to help plan for the reduction of carbon emissions from heat in buildings. Average confidence level is an indicator of reliability of the heat demand estimates within an area and allows planners to decide whether they meet their needs. The map is produced by the Scottish Government. The most recent version is the Scotland Heat Map 2022, which was released to local authorities in November 2023. More information can be found in the documentation available on the Scottish Government website: https://www.gov.scot/publications/scotland-heat-map-documents/",
+        "num_resources": 3,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Average Confidence Level of Heat Demand Estimates (50m Grid) - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available under the terms of the Open Government Licence. The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-04-01\"}, {\"type\": \"revision\", \"value\": \"2023-11-20\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "8d086994-5aba-451a-b0a0-7de614ba1866"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f1a70232-cca2-4ef3-be06-126ba9c160ce"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-03-27T16:47:14"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:16:12.911998",
+                "description": "Reference material",
+                "format": "",
+                "hash": "",
+                "id": "05783cfd-4960-4168-ab23-b1fea9801d91",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:16:12.883401",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scotland's Heat Map",
+                "package_id": "0f1613ef-b671-4dbc-852b-d6977d299480",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.gov.scot/publications/scotland-heat-map-documents/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:16:12.912001",
+                "description": "Heat Demand Confidence 50m Grid",
+                "format": "",
+                "hash": "",
+                "id": "171c60d9-e846-4422-bd07-9735bc671580",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:16:12.883503",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "conf_50m",
+                "package_id": "0f1613ef-b671-4dbc-852b-d6977d299480",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://heatmap.data.gov.scot/getows.ashx?ms=mapsources/OGC",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:16:12.912002",
+                "description": "Resource locator",
+                "format": "TIFF",
+                "hash": "",
+                "id": "9637ff73-aa19-4875-838a-916f8903c0c5",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:16:12.883578",
+                "mimetype": "image/tiff",
+                "mimetype_inner": null,
+                "name": "Heat Demand Confidence 50m Grid",
+                "package_id": "0f1613ef-b671-4dbc-852b-d6977d299480",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://sg-heatmap.s3.eu-west-1.amazonaws.com/conf_50m.tif",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Energy efficiency",
+                "id": "6d1029f7-c40c-4ade-9def-2332d052d5e1",
+                "name": "Energy efficiency",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Energy resources",
+                "id": "7854d844-8288-43f4-ae6f-5a2a050e1ad9",
+                "name": "Energy resources",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "energy demand",
+                "id": "c716de67-bedd-4b99-9032-85475033daff",
+                "name": "energy demand",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "a59c6f71-083f-4b2d-8467-7d17c2ab97f4"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

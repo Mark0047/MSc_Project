@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "afbc2d6b-f3a8-4eb9-b33f-44b799edeb9a",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:23:25.525171",
+        "metadata_modified": "2024-09-10T08:23:25.525174",
+        "name": "hydrological-sections-for-england-scotland-and-wales-with-associated-river-catchment-2023-water",
+        "notes": "This dataset consists of hydrologically defined sections (polygons) for the \nwhole of Great Britain including river channels and coastal areas up to the \nmean high water line for England and Wales. Each section has the following \nattributes:\n\n\n-   The devolved administration(s) the section is within\n-   The area of the section that is contained within the devolved \n    administration(s)\n-   The regional administration (from the Ordnance Survey Boundary Line) that \n    the majority of the section is within\n-   The river catchment that the section is within. These are the existing \n    Fish Health Inspectorate (FHI) catchment boundaries, new England and Wales \n    catchments to ensure complete coverage of England and Wales, and the \n    Scottish Environmental Protection Agency (SEPA) catchments.\n-   The waterbody river basin district ID and waterbody ID for England and \n    Wales from the Water Framework Directive.\n\nThere are 2 versions of this dataset in a geographical coordinate reference \nsystem (CRS) (EPSG 4236 - WGS84) see `Hydrological sections for England, \nScotland and Wales with associated river catchment 2023, Water Framework \nDirective (WFD) waterbody and regional information (WGS84)`_* *and this \ndataset in a projected CRS BNG (EPSG 27700).\n\n\n.. _`hydrological sections for england, scotland and wales with associated river catchment 2023, water framework directive (wfd) waterbody and regional information (wgs84)`:\n    https://data.cefas.co.uk/view/21968",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2023-11-03"
+        ],
+        "temporal_coverage-to": [
+            "2023-11-03"
+        ],
+        "title": "Hydrological sections for England, Scotland and Wales with associated river catchment 2023, Water Framework Directive (WFD) waterbody and regional information British National Grid (BNG).",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "4.00"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.50"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.00"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-10.00"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2024-07-30\"}, {\"type\": \"revision\", \"value\": \"2024-07-31\"}, {\"type\": \"creation\", \"value\": \"2023-12-06\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "CEFAS25b3c957-41d2-49ab-b158-90b8bcd8ad48"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c9be9f3e-969c-41a0-bbc8-b35ea92b2db0"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-31T12:24:41"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS)"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor, owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[4.00, 49.00], [-10.00, 49.00], [-10.00, 61.50], [4.00, 61.50], [4.00, 49.00]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:23:25.530705",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: Binary download.",
+                "format": "",
+                "hash": "",
+                "id": "b896e0ee-c53d-472d-bbda-ac42a38daf8a",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:23:25.522794",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "afbc2d6b-f3a8-4eb9-b33f-44b799edeb9a",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/21750",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c9be9f3e-969c-41a0-bbc8-b35ea92b2db0"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

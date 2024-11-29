@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "1361f4d9-f180-4c6c-b7aa-5f7bd12401fc",
+        "frequency": "MANUAL",
+        "id": "301c68e4-6ae4-4203-ba13-dc55013d4b54",
+        "metadata_created": "2020-11-13T13:08:51.847370",
+        "metadata_modified": "2020-11-13T13:08:51.847377",
+        "name": "xmap-publisher-tamworth-borough-council",
+        "notes": "Harvester for WAF hosted by XMAP Publisher",
+        "organization": {
+            "id": "ca09abd7-4d99-4876-9700-22595edd86e4",
+            "name": "tamworth-borough-council",
+            "title": "Tamworth Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-08-23T14:20:52.514295",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "ca09abd7-4d99-4876-9700-22595edd86e4",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "XMAP Publisher - Tamworth Borough Council",
+        "type": "harvest",
+        "url": "https://inspire.xmap.cloud/tamworth",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 6,
+            "last_job": {
+                "id": "e1dc126f-bbd2-4655-8708-e89306042ff9",
+                "created": "2020-11-16 10:17:23.798887",
+                "gather_started": "2020-11-16 10:17:23.981129",
+                "gather_finished": "2020-11-16 10:17:25.702542",
+                "finished": "2020-11-16 10:17:34.129693",
+                "source_id": "301c68e4-6ae4-4203-ba13-dc55013d4b54",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 4,
+                    "not modified": 9,
+                    "errored": 13,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 13
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 13
+        }
+    }
+}

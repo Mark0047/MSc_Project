@@ -1,0 +1,451 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-06-01T10:48:24.327513",
+        "metadata_modified": "2024-06-14T14:45:09.519712",
+        "name": "wfd-sssi-ditches",
+        "notes": "This metadata record is for Approval for Access product AfA095.  \u2018WFD SSSI Water bodies Cycle 1\u2019 are Drainage Ditches in Sites of Special Scientific Interest (SSSI) that have been extracted from Natural England\u2019s SSSI dataset. These data show sites that have been categorised as SSSI\u2019s due to the presence either species rich ditch systems or where rare species are found.\nThis dataset was previously known as WFD SSSI Ditches.  It had also been reported within the original WFD Lake Waterbodies.\nEach water body has been assigned \u2018EA_WB_ID\u2019, which is a unique identifier that enables a link to WFD attributes.  This is equivalent to the WB_ID field for Cycle 2 water bodies, however, SSSI Ditches were not reported in Cycle 2. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2015. All rights reserved. \u00a9 Natural England copyright. Contains Ordnance Survey data \u00a9 Crown copyright and database right 2004",
+        "num_resources": 11,
+        "num_tags": 6,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "WFD SSSI Ditches",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2004-01-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "irregular"
+            },
+            {
+                "key": "guid",
+                "value": "7ba20a80-d465-11e4-b6ab-f0def148f590"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "dcaaf6fe-88f6-4afb-a8d2-98950ff92a04"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "https://data.gov.uk/dataset/wfd-sssi-ditches"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:09.573787",
+                "description": "WFDSSSIWaterBodiesCycle1-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b3320992-c9d7-4ea9-914c-26e2d6ef5430",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:09.524385",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDSSSIWaterBodiesCycle1-FGDB.zip",
+                "package_id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=bca2b769-412e-4a68-ab43-6fec548a75bc&fileName=WFDSSSIWaterBodiesCycle1-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:09.573790",
+                "description": "WFDSSSIWaterBodiesCycle1-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "17c7eb11-0cd1-4679-8597-8d021e9055ec",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:09.524475",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDSSSIWaterBodiesCycle1-GeoJSON.zip",
+                "package_id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=bca2b769-412e-4a68-ab43-6fec548a75bc&fileName=WFDSSSIWaterBodiesCycle1-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:09.573791",
+                "description": "WFDSSSIWaterBodiesCycle1-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "78d865a6-7fdf-4289-a500-eada18f8d4cf",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:09.524547",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDSSSIWaterBodiesCycle1-GML.zip",
+                "package_id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=bca2b769-412e-4a68-ab43-6fec548a75bc&fileName=WFDSSSIWaterBodiesCycle1-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:09.573792",
+                "description": "WFDSSSIWaterBodiesCycle1-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "bdfe7ab2-6e49-4c62-9484-86a308cd7b9f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:09.524616",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDSSSIWaterBodiesCycle1-MID_MIF.zip",
+                "package_id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=bca2b769-412e-4a68-ab43-6fec548a75bc&fileName=WFDSSSIWaterBodiesCycle1-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:09.573793",
+                "description": "WFDSSSIWaterBodiesCycle1-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "879b4436-f84f-4d18-8483-9b5fd4af878a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:09.524683",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDSSSIWaterBodiesCycle1-SHP.zip",
+                "package_id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=bca2b769-412e-4a68-ab43-6fec548a75bc&fileName=WFDSSSIWaterBodiesCycle1-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:09.573794",
+                "description": "WFDSSSIWaterBodiesCycle1-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b05a6098-a310-4cca-be85-dc575c3c84f1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:09.524749",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDSSSIWaterBodiesCycle1-TAB.zip",
+                "package_id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=bca2b769-412e-4a68-ab43-6fec548a75bc&fileName=WFDSSSIWaterBodiesCycle1-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:09.573795",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "c617a4ca-d7b9-4fd6-9524-deb58d589e78",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:09.524813",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.geostore.com/environment-agency/ds/catalogue/#/7ba20a80-d465-11e4-b6ab-f0def148f590",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:09.573796",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "29d82195-5d6f-4dcd-98c4-916739216adb",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:09.524875",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDSSSIWaterBodiesCycle1_Download",
+                "package_id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/7ba20a80-d465-11e4-b6ab-f0def148f590?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:09.573797",
+                "description": "WFD - SSSI Water bodies Cycle 1 WFS",
+                "format": "",
+                "hash": "",
+                "id": "001df3c7-af00-4b97-a93f-ad57a2463175",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:09.524937",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDSSSIWaterBodiesCycle1_WFS",
+                "package_id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-sssi-water-bodies-cycle-1/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:09.573798",
+                "description": "WFD - SSSI Water bodies Cycle 1 WMS",
+                "format": "",
+                "hash": "",
+                "id": "fdc0aeda-bf58-498c-b2c6-762251a91d55",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:09.524998",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDSSSIWaterBodiesCycle1_WMS",
+                "package_id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-sssi-water-bodies-cycle-1/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:09.573799",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "65532e12-a470-4e39-aaf6-a34d879bc45d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:09.525060",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "6bdcc03a-c26c-415f-b478-37ed0ecda047",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-sssi-water-bodies-cycle-1/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "SSSI",
+                "id": "9fd7291e-61c6-47c8-ae4e-631a90edd145",
+                "name": "SSSI",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "WFD",
+                "id": "02f4dac3-3ff6-4d88-b62a-99ca259b0af6",
+                "name": "WFD",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "imageryBaseMapsEarthCover",
+                "id": "af58a39d-4c69-4bfd-9dc1-ee0de09e3c2f",
+                "name": "imageryBaseMapsEarthCover",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inlandWaters",
+                "id": "cec0bb77-73e4-4884-a522-2dd31882fe82",
+                "name": "inlandWaters",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "water body",
+                "id": "dd7a1226-7035-40aa-afa9-ed066954b5f9",
+                "name": "water body",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "16951676-2693-49fe-9274-5d4abe7a01d7"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "20cb3791-3a0e-4582-8981-58ebafe82619",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "41d1c1a3-04bd-493f-beae-4074354b1c47",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-10-01T20:37:51.195815",
+        "metadata_modified": "2016-10-01T20:37:55.892463",
+        "name": "organogram-south-central-and-west-csu",
+        "notes": "Organogram (organisation chart) showing all staff roles. Names and salaries are also listed for the Senior Civil Servants.\r\n\r\nOrganogram data is released by all central government departments and their agencies since 2010. Snapshots for 31st March and 30th September are published by 6th June and 6th December each year. The published data is validated and released in CSV format and OGL-licensed for reuse. For more information about this series, see: http://guidance.data.gov.uk/organogram-data.html",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "9eea3651-332c-4f4e-9f61-797cafd2fee1",
+            "name": "south-central-and-west-csu",
+            "title": "NHS South, Central and West CSU",
+            "type": "organization",
+            "description": "Our organisation has been formed as  the result of a merger on 1 April 2015 between South, Central Southern, and South West Commissioning Support Units",
+            "image_url": "",
+            "created": "2016-02-23T22:00:39.503162",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9eea3651-332c-4f4e-9f61-797cafd2fee1",
+        "private": false,
+        "schema-vocabulary": "d3c0b23f-6979-45e4-88ed-d2ab59b005d0",
+        "state": "active",
+        "temporal_coverage-from": 2010,
+        "theme-primary": "government-spending",
+        "title": "Organogram of Staff Roles & Salaries",
+        "type": "dataset",
+        "update_frequency": "biannually",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "date",
+                "value": "31/03/2016"
+            },
+            {
+                "key": "import_source",
+                "value": "organograms_v2"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T21:37:54.139022",
+                "date": "2016-03-31",
+                "description": "Organogram - Junior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "251de144-a0b3-46a6-bf8e-41ada56ef3fa",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T21:37:54.139022",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "41d1c1a3-04bd-493f-beae-4074354b1c47",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/south-central-and-west-csu/31/03/2016/south-central-and-west-commissioning-support-unit__31-03-2016__nhs_310316-South-Central-and-West-Commissioning-Support-Unit-final-version-junior.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T21:37:55.006907",
+                "date": "2016-03-31",
+                "description": "Organogram - Senior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "3368dbfd-67a8-4326-9b01-0c9e3e24f905",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T21:37:55.006907",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "41d1c1a3-04bd-493f-beae-4074354b1c47",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/south-central-and-west-csu/31/03/2016/south-central-and-west-commissioning-support-unit__31-03-2016__nhs_310316-South-Central-and-West-Commissioning-Support-Unit-final-version-senior.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

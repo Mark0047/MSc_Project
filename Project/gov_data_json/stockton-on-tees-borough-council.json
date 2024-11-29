@@ -1,0 +1,69 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "f9765e66-755e-44a8-b898-056ce49e5acf",
+        "metadata_created": "2019-01-23T11:00:03.147018",
+        "metadata_modified": "2019-01-23T11:00:03.147025",
+        "name": "stockton-on-tees-borough-council",
+        "notes": "",
+        "organization": {
+            "id": "4efe7795-c84a-463f-8119-f352c04471a7",
+            "name": "stockton-on-tees-borough-council",
+            "title": "Stockton-on-Tees Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:36.924349",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "4efe7795-c84a-463f-8119-f352c04471a7",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Stockton on Tees Borough Council",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/4efe7795-c84a-463f-8119-f352c04471a7/.",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 36,
+            "last_job": {
+                "id": "81fe41fd-3b0a-4cef-83cf-368d9f4bfb1b",
+                "created": "2021-04-20 14:06:19.817978",
+                "gather_started": "2021-04-20 14:06:19.953018",
+                "gather_finished": "2021-04-20 14:06:21.420654",
+                "finished": "2021-04-20 14:06:27.801584",
+                "source_id": "f9765e66-755e-44a8-b898-056ce49e5acf",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 7,
+                    "not modified": 1,
+                    "errored": 8,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 8
+                    },
+                    {
+                        "message": "WMS check for http://webmap.stockton.gov.uk/geoserver/SoTBC_Inspire_WMS/wms?service=WMS&version=2.0.0&request=GetCapabilities failed with exception: HTTP Error 403: Forbidden",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 9
+        }
+    }
+}

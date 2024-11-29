@@ -1,0 +1,222 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@lichfielddc.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "41eb7ca9-4f01-46a8-a2bd-6eb7353693af",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2014-12-05T14:00:51.140440",
+        "metadata_modified": "2024-08-23T12:17:52.698875",
+        "name": "lichfield-district-council-business-areas",
+        "notes": "The business areas of Lichfield District Council. Captured as boundaries against open source base mapping. All data released is open source with all restricted data removed.",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "13fc54d5-4060-4ba5-ad73-3d407190e790",
+            "name": "lichfield-district-council",
+            "title": "Lichfield District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:44.003697",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "13fc54d5-4060-4ba5-ad73-3d407190e790",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "title": "Lichfield District Council Business Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The licensor grants a worldwide royalty free, perpetual, non-exclusive license to use the information subject to the terms and conditions of the license.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.820644"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.682397"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.677766"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-1.832717"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-12-05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "unknown"
+            },
+            {
+                "key": "guid",
+                "value": "87c5a5a4-34f6-42bb-93af-edb94200d4fe"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b2a8019a-f094-4171-b06a-72f45d8a4d33"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "e46d8dde-ee2e-4fe6-89e2-1caa9f7d3e3f"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/13fc54d5-4060-4ba5-ad73-3d407190e790/116-Business_Areas.xml"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-08-19"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Lichfield District Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Lichfield District Council (owner, pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.820644, 52.677766],[-1.820644, 52.682397], [-1.832717, 52.682397], [-1.832717, 52.677766], [-1.820644, 52.677766]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-19T15:54:50.430384",
+                "datafile-date": "",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "89de4459-3b53-4ffa-8908-b2a7c05b1d17",
+                "last_modified": null,
+                "metadata_modified": "2024-08-23T12:17:13.626387",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Lichfield District Council LDF OGC WMS Service",
+                "package_id": "41eb7ca9-4f01-46a8-a2bd-6eb7353693af",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis.lichfielddc.gov.uk/arcgis/rest/services/PUBLIC/NEW_LDF_PUBLIC/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-19T15:54:50.430415",
+                "datafile-date": "",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "27804542-605a-4315-abf3-4598f589c7f6",
+                "last_modified": null,
+                "metadata_modified": "2024-08-23T12:17:40.690136",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Lichfield District Local Plan Document",
+                "package_id": "41eb7ca9-4f01-46a8-a2bd-6eb7353693af",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.lichfielddc.gov.uk/downloads/file/235/local-plan-strategy",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-19T15:54:50.430420",
+                "datafile-date": "",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "0cfeb862-7994-42e4-8b0c-71d0d883bd8e",
+                "last_modified": null,
+                "metadata_modified": "2024-08-23T12:17:52.705335",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Plan Interactive Viewer",
+                "package_id": "41eb7ca9-4f01-46a8-a2bd-6eb7353693af",
+                "position": 2,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lichfielddc.maps.arcgis.com/apps/webappviewer/index.html?id=427d1e51689b4d2395d2289e912b8f74",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b2a8019a-f094-4171-b06a-72f45d8a4d33"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "e46d8dde-ee2e-4fe6-89e2-1caa9f7d3e3f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

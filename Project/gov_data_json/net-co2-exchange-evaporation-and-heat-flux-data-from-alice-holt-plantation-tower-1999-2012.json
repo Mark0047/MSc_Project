@@ -1,0 +1,237 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mapping.geodata@forestry.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "51473e50-09d6-472a-8a28-ec64f1623d32",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-04-21T15:29:16.712871",
+        "metadata_modified": "2024-06-12T22:07:37.833280",
+        "name": "net-co2-exchange-evaporation-and-heat-flux-data-from-alice-holt-plantation-tower-1999-2012",
+        "notes": "Net CO2, evaporation and heat flux data have been collected at the Alice Holt Flux tower since 1999, these data are used in combination with the data set \u2018Meteorological and climatological data from the Alice Holt plantation tower (1999-2013)\u2019 to examine the main drivers in inter-annual variation in CO2 fluxes at an oak forest in the south of England.\nSee also: Wilkinson, M., Eaton, E.L., Broadmeadow, M.S.J. and Morison, J.I.L. (2012). Inter-annual variation of carbon uptake by a plantation oak woodland in south-eastern England. Biogeosciences 9: 5373-5389.\nThe columns have the following definitions:\nLabel\tUnits, Format, or Range\tDescription\nfilename,-,Name of the raw file (or the first of a set) from which the dataset for the current averaging interval was extracted\ndate,yyyy-mm-dd,Date of the end of the averaging period\ntime,HH:MM,Time of the end of the averaging period\nfile_records,#,Number of valid records found in the raw file (or set of raw files)\nused_records,#,Number of valid records used for current the averaging period\nTau,kg m-1 s-2,Corrected momentum flux\nqc_Tau,#,Quality flag for momentum flux\nrand_err_Tau,kg m-1 s-2,Random error for momentum flux, if selected\nH,W m-2,Corrected sensible heat flux\nqc_H,#,Quality flag for sensible heat flux\nrand_err_H,W m-2,Random error for momentum flux, if selected\nLE,W m-2,Corrected latent heat flux\nqc_LE,#,Quality flag latent heat flux\nrand_err_LE,W m-2,Random error for latent heat flux, if selected\ngas_flux,\u00b5mol m-2 s-1(\u2020),Corrected gas flux\nqc_gas_flux,#,Quality flag for gas flux\nrand_err_gas_flux,\u00b5mol s-1 m-2(\u2020),Random error for gas flux, if selected\nH_strg,W m-2,Estimate of storage sensible heat flux\nLE_strg,W m-2,Estimate of storage latent heat flux\ngas_strg,\u00b5mol s-1 m-2(\u2020),Estimate of storage gas flux\ngas_v-adv,\u00b5mol s-1 m-2(\u2020),Estimate of vertical advection flux\ngas_molar_density,mmol m-3,Measured or estimated molar density of gas\ngas_mole_fraction,\u00b5mol mol-1(\u2020),Measured or estimated mole fraction of gas\ngas_mixing_ratio,\u00b5mol mol-1(\u2020),Measured or estimated mixing ratio of gas\ngas_time_lag,s,Time lag used to synchronize gas time series\ngas_def_timelag,T/F,Flag: whether the reported time lag is the default (T) or calculated (F)\nsonic_temperature,K,Mean temperature of ambient air as measured by the anemometer\nair_temperature,K,Mean temperature of ambient air, either calculated from high frequency air temperature readings, or estimated from sonic temperature\nair_pressure,Pa,Mean pressure of ambient air, either calculated from high frequency air pressure readings, or estimated based on site altitude (barometric pressure)\nair_density,kg m-3,Density of ambient air\nair_heat_capacity,J K-1 kg-1,Specific heat at constant pressure of ambient air\nair_molar_volume,m3 mol-1,Molar volume of ambient air\nET,mm hour-1,Evapotranspiration flux\nwater_vapor_density,kg m-3,Ambient mass density of water vapor\ne,Pa,Ambient water vapor partial pressure\nes,Pa,Ambient water vapor partial pressure at saturation\nspecific_humidity,kg kg-1,Ambient specific humidity on a mass basis\nRH,%,Ambient relative humidity\nVPD,Pa,Ambient water vapor pressure deficit\nTdew,K,Ambient dew point temperature\nu_unrot,m s-1,Wind component along the u anemometer axis\nv_unrot,m s-1,Wind component along the v anemometer axis\nw_unrot,m s-1,Wind component along the w anemometer axis\nu_rot,m s-1,Rotated u wind component (mean wind speed)\nv_rot,m s-1,Rotated v wind component (should be zero)\nw_rot,m s-1,Rotated w wind component (should be zero)\nwind_speed,m s-1,mean wind speed\nmax_wind_speed,m s-1,Maximum instantaneous wind speed\nwind_dir,\u00b0 (degrees),Direction from which the wind blows, with respect to Geographic or Magnetic north\nyaw,\u00b0 (degrees),First rotation angle\npitch,\u00b0 (degrees),Second rotation angle\nu*,m s-1,Friction velocity\nTKE,m-2 s-1,Turbulent kinetic energy\nL,M,Monin-Obukov length\n(z-d)/L,#,Monin-Obukhov stability parameter\nbowen_ratio,#,Sensible heat flux to latent heat flux ratio\nT*,K,Scaling temperature\n(footprint) model,-,Model for footprint estimation\nx_offset,m,Along-wind distance providing <1% contribution to turbulent fluxes\nx_peak,m,Along-wind distance providing the highest (peak) contribution to turbulent fluxes\nx_10%,m,Along-wind distance providing 10% (cumulative) contribution to turbulent fluxes\nx_30%,m,Along-wind distance providing 30% (cumulative) contribution to turbulent fluxes\nx_50%,m,Along-wind distance providing 50% (cumulative) contribution to turbulent fluxes\nx_70%,m,Along-wind distance providing 70% (cumulative) contribution to turbulent fluxes\nx_90%,m,Along-wind distance providing 90% (cumulative) contribution to turbulent fluxes\nun_Tau,kg m-1 s-2,Uncorrected momentum flux\nTau_scf,#,Spectral correction factor for momentum flux\nun_H,W m-2,Uncorrected sensible heat flux\nH_scf,#,Spectral correction factor for sensible heat flux\nun_LE,W m-2,Uncorrected latent heat flux\nLE_scf,#,Spectral correction factor for latent heat flux\nun_gas_flux,\u00b5mol s-1 m-2(\u2020),Uncorrected gas flux\ngas_scf,#,Spectral correction factor for gas flux\nspikes,HFu/v/w/ts/co2 /h2o/ch4/n2,Hard flags for individual variables for spike test\namp_res,HFu/v/w/ts/co2 /h2o/ch4/n2,Hard flags for individual variables for amplitude resolution\ndrop_out,HFu/v/w/ts/co2 /h2o/ch4/n2,Hard flags for individual variables for drop-out test\nabs_lim,HFu/v/w/ts/co2 /h2o/ch4/n2,Hard flags for individual variables for absolute limits\nskw_kur,HFu/v/w/ts/co2 /h2o/ch4/n2,Hard flags for individual variables for skewness and kurtosis\nskw_kur,HFu/v/w/ts/co2 /h2o/ch4/n2,Soft flags for individual variables for skewness and kurtosis test\ndiscontinuities,HFu/v/w/ts/co2 /h2o/ch4/n2,Hard flags for individual variables for discontinuities test\ndiscontinuities,HFu/v/w/ts/co2 /h2o/ch4/n2,Soft flags for individual variables for discontinuities test\ntime_lag,HFu/v/w/ts/co2 /h2o/ch4/n2,Hard flags for gas concentration for time lag test\ntime_lag,HFu/v/w/ts/co2 /h2o/ch4/n2,Soft flags for gas concentration for time lag test\nattack_angle,HFu/v/w/ts/co2 /h2o/ch4/n2,Hard flag for attack angle test\nnon_steady_wind,HFu/v/w/ts/co2 /h2o/ch4/n2,Hard flag for non-steady horizontal test\nvar_spikes,#,Number of spikes detected and eliminated for variable var\nAGC,#,Mean value of AGC for LI 7500RS or LI 7200RS\nRSSI,#,Mean value of RSSI for LI 7700, if present\nvar_var,-(\u2021),Variance of variable var\nw/var_cov,-(\u2021),Covariance between w and variable var\nextravar_mean,(\u2021),Mean value of extravar\n\nThe quality flags (e.g. qc_Tau) used are described on the following link. They range from 0 to 2; 0 is the best quality data and 2 the worst.\n\nhttps://www.licor.com/env/help/eddypro/topics_eddypro/Flux_Quality_Flags.html?Highlight=quality%20flag \n\nMissing values are denoted with a -9999 Attribution statement: Forest Research must be acknowledged as the source of the data in any subsequent papers/products",
+        "num_resources": 1,
+        "num_tags": 8,
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1999-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2012-12-31"
+        ],
+        "title": "Net CO2 exchange, evaporation and heat flux data from Alice Holt plantation tower (1999-2012)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.85783"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.1538"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.1533"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.85883"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"1999-01-01\"}, {\"type\": \"revision\", \"value\": \"2016-02-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "biannually"
+            },
+            {
+                "key": "guid",
+                "value": "e745439e-4495-4c49-9bfd-2dda692267fe"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "772f4a56-933d-4f54-a6b5-db84e69045b0"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Contains Forestry Commission information licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Forestry Commission (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.85783, 51.1533], [-0.85883, 51.1533], [-0.85883, 51.1538], [-0.85783, 51.1538], [-0.85783, 51.1533]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-12T22:07:37.880164",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "cc3de2a6-e1b4-4f76-9b74-e647cd4c2754",
+                "last_modified": null,
+                "metadata_modified": "2024-06-12T22:07:37.837346",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "51473e50-09d6-472a-8a28-ec64f1623d32",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/data.defra.gov.uk/Forestry/FC_OpenData/FR/AliceHoltFluxMeasurements.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "England",
+                "id": "7af69110-4a85-408d-ae77-82e33b07c0d4",
+                "name": "England",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Flux",
+                "id": "ba852605-e843-4aa9-878e-05a977d1c2a7",
+                "name": "Flux",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Scientific",
+                "id": "358a75b9-a32f-465a-91ff-76d8b4837d9d",
+                "name": "Scientific",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "carbon",
+                "id": "5c410519-5f4a-4cd8-bf0a-1acf13317eb8",
+                "name": "carbon",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "carbon dioxide",
+                "id": "bd43df9f-5c36-4bbe-af3c-ca351f4b2add",
+                "name": "carbon dioxide",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "evaporation",
+                "id": "9a6c7548-2758-46dd-9d4e-3c5ca1a0e368",
+                "name": "evaporation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "research",
+                "id": "1c521710-f38a-4912-bc76-30cd97d73842",
+                "name": "research",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c3d7f00e-34b5-4d3a-92a5-53b356e8a577"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ]
+    }
+}

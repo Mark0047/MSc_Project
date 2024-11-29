@@ -1,0 +1,255 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "corporate.gis@fife.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f18c0674-5101-4f51-ac21-086602ff5491",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-02-10T11:22:32.384895",
+        "metadata_modified": "2021-02-04T06:44:34.663378",
+        "name": "employment-land-audit-fife",
+        "notes": "Dataset provides details of the location and description of development (take-up) of employment land as allocated in adopted local plans for the audit period August 1st(year) to 31stJuly (year). This also includes windfall sites which are employment sites which come through the planning system and are not allocated in an adopted local plan.",
+        "num_resources": 3,
+        "num_tags": 4,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005"
+        ],
+        "temporal_coverage-to": [
+            "2030"
+        ],
+        "title": "Employment Land Audit - Fife",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Fife Council has created the Supplied Data using Ordnance Survey data, and publishes it to fulfil its obligations under the INSPIRE Regulations 2009.The use of the Supplied Data is governed by the provisions the Ordnance Survey Public Sector End User Licence - INSPIRE. This End User Licence will take effect, and will be deemed to have been accepted by you upon accessing or using the Supplied Data. Full details of End User Licence: http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.43565229"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.5465285"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "55.93622256"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.9420143500000004"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2012-08-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "1baf32b4-badf-4b40-9a3e-4cd0aaa8a98f"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "8272da6a-5b49-459c-86c3-91e8556acbac"
+            },
+            {
+                "key": "licence",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-02-03"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Fife Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.43565229, 55.93622256], [-3.9420143500000004, 55.93622256], [-3.9420143500000004, 56.5465285], [-2.43565229, 56.5465285], [-2.43565229, 55.93622256]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-04T06:44:34.973018",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "690a840e-3877-4eb9-8e67-d63ca264e3b8",
+                "last_modified": null,
+                "metadata_modified": "2021-02-04T06:44:34.973018",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fife Council Web Mapping Service",
+                "package_id": "f18c0674-5101-4f51-ac21-086602ff5491",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/ows?request=getCapabilities&version=1.3.0&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-04T06:44:34.973024",
+                "description": "WFS Feature Extract: Employment Land Audit",
+                "format": "",
+                "hash": "",
+                "id": "6bb980f7-6070-4371-8ec9-124f1beb594e",
+                "last_modified": null,
+                "metadata_modified": "2021-02-04T06:44:34.973024",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Employment Land Audit WFS",
+                "package_id": "f18c0674-5101-4f51-ac21-086602ff5491",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:EMLOYMENT_LAND_AUDIT&maxFeatures=1000000&outputFormat=GML2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-04T06:44:34.973027",
+                "description": "ESRI Shapefile Dowload: Employment Land Audit",
+                "format": "",
+                "hash": "",
+                "id": "61306ed5-ee52-4bc9-a49c-55cfcafc0e17",
+                "last_modified": null,
+                "metadata_modified": "2021-02-04T06:44:34.973027",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Employment Land Audit ESRI Shapefile",
+                "package_id": "f18c0674-5101-4f51-ac21-086602ff5491",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:EMLOYMENT_LAND_AUDIT&outputformat=SHAPE-ZIP",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "cadastral",
+                "id": "27ff2d56-c869-4e2e-b2d0-b31ec5a16567",
+                "name": "cadastral",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "employment development",
+                "id": "1177370c-aecc-44bf-91fa-88c113b90b64",
+                "name": "employment development",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "industry",
+                "id": "4aaba7ba-ba96-45e5-b722-d6442a89c150",
+                "name": "industry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "planning",
+                "id": "d5e3a552-07a7-4262-a38d-337769833bda",
+                "name": "planning",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8272da6a-5b49-459c-86c3-91e8556acbac"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

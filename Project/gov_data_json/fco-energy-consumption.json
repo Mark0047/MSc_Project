@@ -1,0 +1,125 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "25a162d9-a128-4572-b683-2ccb15bd9361",
+        "date_released": "2010-07-30",
+        "date_updated": "",
+        "geographic_coverage": "000001: Global",
+        "geographic_granularity": "point",
+        "id": "ae15b0a7-1d94-47f4-9a45-d51c7acdb8fc",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2010-07-30T14:23:47.418880",
+        "metadata_modified": "2014-05-09T23:16:40.762148",
+        "name": "fco-energy-consumption",
+        "notes": "Energy consumption for FCO's King Charles Street Office.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "FCO Energy Consumption",
+            "created_at": "2014-10-28T12:22:46Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/5432/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/5432/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "6b1c7cd0-f542-4269-8385-3c4482baaa50",
+            "name": "foreign-and-commonwealth-office",
+            "title": "Foreign and Commonwealth Office",
+            "type": "organization",
+            "description": "The FCO promotes British interests overseas, supporting our citizens and businesses around the globe.\r\n\r\nFCO is a ministerial department, supported by 11 agencies and public bodies.\r\n\r\nhttps://www.gov.uk/government/organisations/foreign-commonwealth-office\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:50.539755",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "6b1c7cd0-f542-4269-8385-3c4482baaa50",
+        "precision": "",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "temporal_granularity": "day",
+        "theme-primary": "towns-and-cities",
+        "title": "FCO Energy Consumption",
+        "type": "dataset",
+        "update_frequency": "Daily",
+        "url": "http://www.fco.gov.uk/energy",
+        "version": null,
+        "extras": [
+            {
+                "key": "categories",
+                "value": ""
+            },
+            {
+                "key": "external_reference",
+                "value": ""
+            },
+            {
+                "key": "last_major_modification",
+                "value": "2010-07-30T14:23:47.418880"
+            },
+            {
+                "key": "national_statistic",
+                "value": "no"
+            },
+            {
+                "key": "taxonomy_url",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "FCO Electricity use",
+                "format": "CSV",
+                "id": "e7a3b4ed-9fc3-4da7-ad66-67a724090305",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ae15b0a7-1d94-47f4-9a45-d51c7acdb8fc",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.carbonculture.net/orgs/fco/king-charles-st/reports/elec00.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "FCO Real-time Energy data",
+                "format": "CSV",
+                "id": "14edd4ef-c603-4295-9cfc-8189be325b93",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ae15b0a7-1d94-47f4-9a45-d51c7acdb8fc",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://webarchive.nationalarchives.gov.uk/+/http://www.fco.gov.uk/resources/en/excel/xls1/FCO_estates_energy_data.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

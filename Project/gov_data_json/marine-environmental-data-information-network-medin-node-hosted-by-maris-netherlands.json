@@ -1,0 +1,141 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "WEEKLY",
+        "id": "885ee504-c712-4f8d-9034-1c230bcd88a6",
+        "metadata_created": "2019-01-23T11:15:20.441493",
+        "metadata_modified": "2024-09-10T08:19:17.140277",
+        "name": "marine-environmental-data-information-network-medin-node-hosted-by-maris-netherlands",
+        "notes": "WAF hosted on behalf of MEDIN at MARIS, the Netherlands",
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)",
+        "type": "harvest",
+        "url": "https://portal.medin.org.uk/keyword_search/NDGO0005/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 13,
+            "last_job": {
+                "id": "432ca3b7-1dc6-4051-a39a-979daf59727f",
+                "created": "2024-11-17 10:00:09.722048",
+                "gather_started": "2024-11-17 10:02:11.564926",
+                "gather_finished": "2024-11-17 10:04:06.947281",
+                "finished": "2024-11-17 10:08:15.746682",
+                "source_id": "885ee504-c712-4f8d-9034-1c230bcd88a6",
+                "status": "Finished",
+                "stats": {
+                    "added": 4,
+                    "updated": 1,
+                    "not modified": 1474,
+                    "errored": 162,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.dassh.ac.uk/' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 79
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.dassh.ac.uk' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 15
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://archaeologydataservice.ac.uk/' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 10
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 9
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gco}Date': '' is not a valid value of the union type '{http://www.isotc211.org/2005/gco}Date_Type'.",
+                        "error_count": 8
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.devonandsevernifca.gov.uk/Resource-library/H-Environment-and-Research' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 5
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.sussex-ifca.gov.uk/' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 3
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}MD_Metadata': This element is not expected. Expected is ( {http://www.isotc211.org/2005/gmd}MD_Distribution ).",
+                        "error_count": 3
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.seawilding.org/' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 2
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.dassh.ac.uk/datasets' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 2
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.dassh.ac.uk/datasets/DASSHDT00000205' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.dassh.ac.uk/datasets/DASSHDT00000221' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.dassh.ac.uk/datasets/DASSHDT00000228' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.dassh.ac.uk/datasets/DASSHDT00000230' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.dassh.ac.uk/datasets/DASSHDT00000360' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.dassh.ac.uk/datasets/' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gco}Date': '' is not a valid value of the union type '{http://www.isotc211.org/2005/gco}Date_Type'.\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://geo.vliz.be/geoserver/MarineRegions/wms?LAYERS=MarineRegions:seavox_v19' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gco}Date': '' is not a valid value of the union type '{http://www.isotc211.org/2005/gco}Date_Type'.\nElement '{http://www.isotc211.org/2005/gco}Date': '' is not a valid value of the union type '{http://www.isotc211.org/2005/gco}Date_Type'.\nElement '{http://www.isotc211.org/2005/gco}Date': '' is not a valid value of the union type '{http://www.isotc211.org/2005/gco}Date_Type'.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.devonandsevernifca.gov.uk/' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}URL': 'http://https://www.devonandsevernifca.gov.uk' is not a valid value of the atomic type 'xs:anyURI'.",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 1898
+        }
+    }
+}

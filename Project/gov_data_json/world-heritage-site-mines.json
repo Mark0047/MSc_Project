@@ -1,0 +1,222 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@cornwall.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "3973e2b3-6928-46bb-8871-bb2827e7b27b",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-12-20T15:37:52.832068",
+        "metadata_modified": "2020-09-29T13:35:25.943670",
+        "name": "world-heritage-site-mines",
+        "notes": "The World Heritage Site Project has drawn together existing information about known mine sites within Cornwall and west Devon. This information has come from a number of sources including the Cornwall and Isles of Scilly Historic Environment Record (CCC HER), the Devon Sites and Monument Record (Devon SMR), Cornwall Consultants and Ordnance Survey historic maps. This dataset forms a preliminary list of known sites and is understood to be incomplete and therefore should not be taken as an accurate representation of the extent of mine workings on the ground. Many sites require further assessment and survey in the field to verify and expand on the very basic and indicative information recorded. An example of a mine record is explained below:\n\nPRN (CORNWALL) SITE NAME SITE TYPE FORM EPOCH PERIOD MRO INDEX SOURCE CIVIL PARISH PRN (DEVON) TIN COPPER ARSENIC LEAD SILVER IRON SULPHUR ZINC TUNGSTEN MANGANESE ANTIMONY OTHERS X COORD Y COORD \n42729 LEVANT MINE EXTANT Modern 20 MRO/R21, 10904 CC-A1 ST. JUST CP 0 2.2 1.1 3.3 0 4 0 0 0 0 0 0 Au 137100 3460 \n\n\nPRN (Cornwall): Primary Record Number of the site in Cornwall & Scilly HER where more information can be found.\nSite Name: Mine name.\nSite type: Mine (to differentiate between trials, openworks etc)\nForm: Broad condition of the site. eg. extant, site of, or documentary reference to mine site.\nEpoch: Broad period of mine site where specific date is unknown eg. PM refers to Post-Medieval (as recorded in CCC HER)\nPeriod: Specific period of mine site eg. 19 refers to 19th century, 20 to 20th century etc.\nMRO Index: Mining Record Index number or code of mine plan as held by County Records Office.\nSource: Source from which site has been identified.\nCivil Parish: Local civil parish within which the site falls.\nPRN (Devon): Primary Record Number of the site as held in the Devon SMR where more information can be found.\n\nAfter Dines, 1956. The Metalliferous Mining Region of South West England, Vol.1, p.33 - 57. In the following attribute fields the ores are shown as far as possible in their order of importance at each mine, that indicated by figure 1 in the columns being the chief mineral produced and so on. In cases where the output is large the figure is recorded with a decimal (for example a mine with Copper output recorded as 1.1 had a higher output than 1, likewise 2.2 higher than 2 etc. This replaces Dines' original bold type coding). The tonnage figure above which an output qualifies for the heavier type is a purely arbitrary one and is based on the general level of outputs from west of England mines.\n\nTin: Decimal values record economic output  >1,000 tonnes. In the instance above tin is the secondary ore produced but with a high yield  >1,000 tonnes, thus the value 2.2. If the value was instead 2 then this would still be a secondary ore but with an output <1,000 tonnes.\nCopper: Decimal values record economic output  >5,000 tonnes. In the instance above copper is the primary ore produced  with a high yield >5,000 tonnes.\nArsenic: Decimal values record economic output  >2,000 tonnes. In the instance above arsenic is the tertiary ore produced  with a high yield >2,000 tonnes.\nLead: Decimal values record economic output  >2,000 tonnes. In the instance above lead is the quaternary ore produced with a  yield of <2,000 tonnes.\nSilver: Decimal values record economic output  >100,000oz.\nIron: Decimal values record economic output  >2,000 tonnes.\nSulphur: Decimal values record economic output  >500 tonnes.\nZinc: Decimal values record economic output  >750 tonnes.\nTungsten: n/a\nManganese: n/a\nAntimony: n/a\nOthers: Minerals which area rare or which have been produced only in small amounts are given by symbols thus: Gold - Au, cobalt - Co, Nickel - Ni, Bismuth - Bi, Molybdenum - Mo, Antimony - Sb, Uranium - U, Fluorspar - F, Barytes - Ba, Ochre - Oc, Umber - Um, Fuller' Earth - Ful.",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "b7cd9dde-95f0-4155-aabf-57898e28dda0",
+            "name": "cornwall-council",
+            "title": "Cornwall Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-02-24T15:22:03.828355",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b7cd9dde-95f0-4155-aabf-57898e28dda0",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "World Heritage Site Mines",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Contains public sector information licensed under the Open Government Licence v3.0\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-3.6776733382"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.3529159620"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.5341217452"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.3693237289"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2020-09-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "ccca6f96-d4c3-40e7-bac2-bdcb30668135"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "669d0ae9-9a60-4a79-91d3-af160f949931"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-09-29T14:10:36"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Cornwall Council (resourceProvider)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-3.6776733382, 49.5341217452], [-6.3693237289, 49.5341217452], [-6.3693237289, 51.3529159620], [-3.6776733382, 51.3529159620], [-3.6776733382, 49.5341217452]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/4258"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "665ecda1-e5f8-4cee-8360-50e146ddc48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cornwall Council INSPIRE WMS Service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-09-29T13:35:26.213231",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "9198a6dc-d9a1-423f-88ca-fa7be24201e1",
+                "last_modified": null,
+                "metadata_modified": "2020-09-29T13:35:26.213231",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Inspire Historic WMS",
+                "package_id": "3973e2b3-6928-46bb-8871-bb2827e7b27b",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.cornwall.gov.uk/arcgis/services/inspire/inspire_historic/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-09-29T13:35:26.213238",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "a1dfe477-7af9-42cb-b25c-789891d0c582",
+                "last_modified": null,
+                "metadata_modified": "2020-09-29T13:35:26.213238",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Inspire Historic WFS",
+                "package_id": "3973e2b3-6928-46bb-8871-bb2827e7b27b",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.cornwall.gov.uk/arcgis/services/inspire/inspire_historic/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Heritage",
+                "id": "70be74ac-9388-4217-ba0d-c8d36f6e0130",
+                "name": "Heritage",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "historical_site",
+                "id": "94d56b28-c938-4a94-ba8c-dacd53b8b7d1",
+                "name": "historical_site",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mineral_industry",
+                "id": "7d1ba1d9-fe91-488b-bc6e-6f3d39739b06",
+                "name": "mineral_industry",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "669d0ae9-9a60-4a79-91d3-af160f949931"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "665ecda1-e5f8-4cee-8360-50e146ddc48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cornwall Council INSPIRE WMS Service"
+            }
+        ]
+    }
+}

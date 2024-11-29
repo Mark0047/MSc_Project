@@ -1,0 +1,284 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "geoinformationservices@forestry.gov.scot",
+        "creator_user_id": null,
+        "id": "a3d2d5a2-9d2f-45d4-be7f-d141c924dabf",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2011-06-20T14:43:38.352198",
+        "metadata_modified": "2024-06-19T11:18:02.093588",
+        "name": "sfgs-sub-compartments",
+        "notes": "Scottish Forestry Grant Scheme - SFGS\n\nFollowing publication of the Scottish Executive\u2019s Scottish Forestry Strategy 'Forests for Scotland' the opportunity was taken to review the Woodland Grant Scheme and the Farm Woodland Premium Scheme and give them a greater Scottish focus. \n\nThe resulting scheme - the Scottish Forestry Grants Scheme (SFGS) - encouraged the creation and management of woods and forests to provide economic, environmental and social benefits.\n\nGrants were available under three main areas:\n- Grants for woodland expansion - creating new woodlands.\n- Restocking grants, for replanting following felling.\n- Stewardship grants, for a range of activities in existing woodlands.\n\nApplications for SFGS grants started in June 2003 and closed in August 2006.\n\n\nMost grants for SFGS were based on a percentage of Standard Costs of agreed operations.  The Standard Cost took account of the costs of labour, plants, machinery, materials and supervision to do work to the specification as set out in the SFGS Standard Costs and Specifications Booklet.\n\nDepending upon the level of public benefit, grant payments were either at 60% or 90% of the Standard Cost. In the case of restocking, Standard Costs were mostly pitched at 75% of the new planting Standard Costs.\n\n\nGrants were available for planting proposals that met one or more of the following objectives:\n\n- Establishing well-designed productive woodland.\n- Expanding areas of native woodland, preferably through natural\n  regeneration and the development of Forest Habitat Networks.\n- Improving riparian habitat.\n- Improving the quality and setting of urban or post-industrial areas.\n- Improving the diversity of the farmed and crofting landscape.\n\nDetails of all eligible operations are set out within the 'Applicants Booklet' available from Conservancy Offices.\n\n\n************************SFGS OBJECTIVES****************************\n\nThe abbreviations below list the SFGS objectives proposals are designed to meet:\n\nEstablishment grants \n\nP1 to establish well-designed productive forest\nP2 to expand the area of native woodland\nP3 to improve a riparian habitat\nP4 to improve the quality and setting of urban or post-industrial areas\nP5 to improve the diversity of the farmed/crofting landscape\n\n\n\nStewardship Grants \n\nS1 to improve timber quality\nS2 to reduce deer numbers\nS3 to improve the ecological value of native woodlands\nS4 to improve woodland biodiversity\nS5 to enhance landscape value\nS6 to develop alternative systems to clear-felling\nS7 to develop woodland recreation\nS8 to develop community involvement\n\n\n\nRestocking grants \n\nR1 to produce well designed productive forest\nR2 to restore areas of native woodland\nR3 to improve riparian habitat\nR4 to improve the quality and setting of urban or post-industrial areas\nR5 to improve the diversity of the farmed/crofting landscape\n\n\n\nFelling \n\nF1 Clear felling\nF2 Selective felling\nF3 Continuous Cover\nF4 Thinning\n\n\n\nOther land \n\nOL is not grant aided\n\n\n************************** SPATIAL DATA **********************************\n\nThere are four spatial datasets associated with SFGS. These represent the scheme boundaries, management plan boundaries, sub-compartment boundaries and deer fence lines within each approved SFGS scheme.  \n\nEach SFGS spatial dataset is accompanied by a specific non-spatial database table.  The datasets can be related to each other on a 'many to one' basis.  This reflects the fact that many SFGS operations may occur within one spatial geography (eg.a sub-compartment).\n\nThe 'SFGS Sub-Compartments' spatial dataset can be 'related' to the 'SFGS Link Sub-Compartment Operations' table using the 'SC_Link' attribute field. \n\n**********************************************************************************\nSFGS Sub-Compartments -  Spatial Attributes :-\n\nAttributes:\nSchemeNo            SFGS Scheme number\nCompt_No             Compartment number\nSub_Compt           Sub compartment letter\nSC_Link                 Concatenated field used to relate spatial data to table\nDescriptor              Description of spatial feature\nSchemeName       Name of SFGS Scheme\nCons_Name          Conservancy\nCont_Start            Date contract started\nGrid_Ref               National grid reference\nLocal_Auth           Local Authority\nStatus                   Scheme status\n\n*****************************************************************************\nSFGS Link Sub-Compartment Operations -  Database Table Attributes :-\n\nAtributes:\nSC_Link                  Concatenated field used to relate table to spatial data\nScheme_Type         Type of scheme (SFGS, Forest Plan, etc)\nGrant_Type             Grant type code\nDescriptor                Description of grant type\nClaim_No                 Claim number\nInst_No                    Instalment number for planting\nQuantity                   Length, number or area of operation\nUnit                          Unit of operation (eg. metres, visits, hectares)\nPct_Cost                  Percentage of total cost paid under SFGS\nPay_Rate                 Payment rate per unit (\u00a3)\nGrant _Paid              Amount of grant paid (\u00a3)\nPay_In_FY               Financial year in which payment should be made\nSpecies                   Tree species\nPYear                       Planting year\nArea_ha                   Area in hectares\nStock_Dens            Stocking density of planting\nObj_Code                SFGS Objective code (see above for full descriptions) \n\n*****************************************************************************",
+        "num_resources": 2,
+        "num_tags": 12,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "SFGS Sub-Compartments",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on public access\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2003-06-01\"}, {\"type\": \"revision\", \"value\": \"2017-02-28\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "monthly"
+            },
+            {
+                "key": "guid",
+                "value": "BDDD3A6C-982F-4B33-9A53-798673ABDA26"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "34db63d3-9e14-4342-986c-fa36ff5cada3"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Please ensure that the following acknowledgement is displayed on any hard copy: Reproduced by Permission of Ordnance Survey on behalf of HMSO. \\u00a9 Crown copyright and \\n\\ndatabase right [year]. Ordnance Survey Licence number 100043970.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-06-22"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Forestry"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Forestry (publisher, owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "OSGB 1936 / British National Grid (EPSG:27700)"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:02.157180",
+                "description": "Data download site",
+                "format": "",
+                "hash": "",
+                "id": "3619d53a-d39b-4903-8ea0-110dc3f4ec5a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:02.098877",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scottish Forestry Open Data",
+                "package_id": "a3d2d5a2-9d2f-45d4-be7f-d141c924dabf",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://open-data-scottishforestry.hub.arcgis.com/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:02.157183",
+                "description": "SFGS_Sub_Compartments",
+                "format": "",
+                "hash": "",
+                "id": "509a7ac8-392c-4ec4-9d80-7526df3995fe",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:02.098966",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SFGS_Sub_Compartments",
+                "package_id": "a3d2d5a2-9d2f-45d4-be7f-d141c924dabf",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/scottishforestry/ows?service=WMS&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Environment",
+                "id": "db7de4be-adbc-4ab6-9cec-d555c287d2d7",
+                "name": "Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Felling",
+                "id": "31c304ea-7d54-41fb-a772-fbad749a3d7c",
+                "name": "Felling",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Forest Management",
+                "id": "22038593-9601-469c-8072-bf9c69965804",
+                "name": "Forest Management",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Forestry",
+                "id": "3c38fb67-0bf2-4b2a-befe-6ac5684f412a",
+                "name": "Forestry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Grant Schemes",
+                "id": "b7d99e3d-e862-4c77-9b94-75f1a9dde47a",
+                "name": "Grant Schemes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Landscape",
+                "id": "d8bf3654-d911-4650-b802-e5a3ad35d184",
+                "name": "Landscape",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Licence",
+                "id": "914e5ca1-8b12-4393-8e9e-92a5d8a69bc4",
+                "name": "Licence",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Ownership",
+                "id": "e4be7afc-86e7-4f50-82b0-9d66d34b9d26",
+                "name": "Ownership",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Planning",
+                "id": "f015a039-1856-4f51-bbfe-e4df359b7239",
+                "name": "Planning",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "SFGS",
+                "id": "5f819ab0-32a6-40a4-a233-8f3336b52152",
+                "name": "SFGS",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Woodland",
+                "id": "44ddd46e-49a2-4264-8ba4-3a401dd74e1f",
+                "name": "Woodland",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cc3bdf73-486b-4f77-9776-488b97383ba2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

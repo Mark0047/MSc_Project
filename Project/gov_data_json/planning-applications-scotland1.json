@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "spatialhub@improvementservice.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "e3d2d4a3-0028-4ad3-af32-b4f5fe32cab9",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-06-01T22:11:43.690945",
+        "metadata_modified": "2024-11-09T09:03:55.334197",
+        "name": "planning-applications-scotland1",
+        "notes": "This new planning applications data has been created using a custom built 'Cloud Connector Framework' which enables the automated collection of data from local data systems on a DAILY basis. \n\nThere are 2 layers: Points & Polygons.\n\nCurrently missing data from Western Isles\n\n'Development management' is the name given to the process of deciding planning applications and various other associated activities including enforcement of planning controls. For the purposes of planning applications, development in Scotland is put into one of three categories \u2013 'local', 'major' or 'national'. The different categories mean that applications are treated in a way which is suited to the size and complexity of the proposed development and the issues they are likely to raise. Most applications will be for 'local' developments. 'Major' developments include applications for 50 or more homes, certain waste, water, transport and energy-related developments, and larger retail developments. 'National' developments are specific projects which have been identified in the National Planning Framework because of their national importance. Scottish Ministers become involved in a small minority of cases, but only do so where it involves a matter of genuine national interest.\n\nWe strongly recommend that, when using the WFS for this dataset, because of it's size you should use it with a filter. For example with the attributes 'local_authority' and 'year'.\n\nA powerBI dashboard highlighting some data quality issues we have found is available to view at https://shorturl.at/lGqrh",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Planning Applications - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on public access\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.3225"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.7478"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.3811"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.0298"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2024-11-07\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "daily"
+            },
+            {
+                "key": "guid",
+                "value": "91a4b962-b6b7-4c70-b069-5ef8f19aaa36"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "04d9fa32-5983-4a92-b89b-4255636257c9"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-08T16:55:36.706Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Improvement Service (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.3225, 54.3811], [-8.0298, 54.3811], [-8.0298, 60.7478], [0.3225, 60.7478], [0.3225, 54.3811]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-09T09:03:55.361628",
+                "description": "A link to the CKAN metadata record on the Spatial Hub.  A direct link to the OGC Web Feature Service and Web Map Service is available here.",
+                "format": "",
+                "hash": "",
+                "id": "796e59c4-50a3-4083-8955-778b9bfe426e",
+                "last_modified": null,
+                "metadata_modified": "2024-11-09T09:03:55.340000",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Planning Applications CCF - Scotland",
+                "package_id": "e3d2d4a3-0028-4ad3-af32-b4f5fe32cab9",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.spatialhub.scot/dataset/planning_applications_ccf-is",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-09T09:03:55.361630",
+                "description": "EDINA Digimap Service",
+                "format": "",
+                "hash": "",
+                "id": "95862fe2-0e4b-4eae-aaa2-00a99bd6a2c6",
+                "last_modified": null,
+                "metadata_modified": "2024-11-09T09:03:55.340079",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "EDINA Digimap Service",
+                "package_id": "e3d2d4a3-0028-4ad3-af32-b4f5fe32cab9",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.spatialdata.gov.scot:443/geonetwork/srv/api/records/91a4b962-b6b7-4c70-b069-5ef8f19aaa36/formatters/xml",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Area management/restriction/regulation zones and r",
+                "id": "85a96129-b6e5-46e1-8dd8-75fd5990e434",
+                "name": "Area management/restriction/regulation zones and r",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "81867cc2-2241-43a1-aa61-e087aede2a0d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

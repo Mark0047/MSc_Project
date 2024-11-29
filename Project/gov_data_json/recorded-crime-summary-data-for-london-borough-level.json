@@ -1,0 +1,121 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "345e3848-035e-4e4d-ac33-efc601fcffb6",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-03-23T09:11:44.106036",
+        "metadata_modified": "2017-04-27T10:20:26.440592",
+        "name": "recorded-crime-summary-data-for-london-borough-level",
+        "notes": "Part of Release: Official Sub-Ward, Ward and Borough level crime counts. Choose from the three data sets (\u2018Sub-Ward data\u2019, \u2018Ward data\u2019 or \u2018Borough data\u2019) according to your requirements. This page contains the borough\u00a0level data files Click here for corresponding LSOA level data: Recorded Crime Summary Data for London: LSOA Level Click here for corresponding ward level data: Recorded Crime Summary Data for London: Ward Level \u00a0 \u2018Borough data\u2019 counts the number of crimes in each Local Authority\u00a0area of London per month, according to crime type. Use this data if you need to analyse crime data according to the location of geographic boroughs.\u00a0 The categories of crime counts within them may change from time to time. Below is a list of the crime types you can currently extract (*only at borough or ward level): Minor Category: Major Category Murder: ViolenceAgainstThePerson CommonAssault: ViolenceAgainstThePerson OffensiveWeapon: ViolenceAgainstThePerson Harassment: ViolenceAgainstThePerson Otherviolence: ViolenceAgainstThePerson AssaultWithInjury: ViolenceAgainstThePerson WoundingGBH: ViolenceAgainstThePerson *Rape: SexualOffences *OtherSexual: SexualOffences PersonalProperty: Robbery BusinessProperty: Robbery BurglaryInADwelling: Burglary BurglaryInOtherBuildings: Burglary TheftOrTakingOfMotor: TheftAndHandling TheftFromMotor: TheftAndHandling MotorInterferenceAndTampering: TheftAndHandling TheftFromShops: TheftAndHandling TheftOrTakingOfPedalCycles: TheftAndHandling OtherTheftPerson: TheftAndHandling OtherTheft: TheftAndHandling HandlingStolenGoods: TheftAndHandling *CountedPerVictim: FraudOrForgery *OtherFraudAndForgery: FraudOrForgery CriminalDamageToADwelling: CriminalDamage CriminalDamageToOtherBldg: CriminalDamage CriminalDamageToMotor: CriminalDamage OtherCriminalDamage: CriminalDamage DrugTrafficking: Drugs PossessionOfDrugs: Drugs OtherDrugOffences: Drugs GoingEquipped: OtherNotifiableOffences OtherNotifiable: OtherNotifiableOffences Each row of data in the data sets contains: *The number of incidents according to the Month Recorded, the specific crime type, and the Location *The Month Recorded *The broad crime type (Major HO category \u2013 eg Robbery) *The specific crime type (Minor HO category \u2013 eg Robbery: Personal Property) *The Location (Sub \u2013Ward, Ward or borough depending on the data set selected)",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "theme-primary": "crime-and-justice",
+        "theme-secondary": [],
+        "title": "Recorded Crime Summary Data for London: Borough Level",
+        "type": "dataset",
+        "url": "http://data.london.gov.uk/dataset/recorded-crime-summary-data-london-borough-level",
+        "version": null,
+        "extras": [
+            {
+                "key": "data_issued",
+                "value": "2014-09-24T14:56:43.000Z"
+            },
+            {
+                "key": "data_modified",
+                "value": "2017-03-21T11:34:39.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "de7565c5-9d6f-4d74-a305-e67a7223ee46"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "dcf73efc-8670-438e-9042-efcee8f17d8d"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.london.gov.uk/data.json?slug=gla\", \"harvest_source_type\": \"data_json\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"London Datastore - GLA\", \"activity_occurred\": \"2017-04-27T10:20:26.372910\", \"activity\": \"harvest\", \"harvested_guid\": \"de7565c5-9d6f-4d74-a305-e67a7223ee46\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:11:44.283544",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "f1b32979-38d1-47c3-bddd-3efcf3d0e10d",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:11:44.283544",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "MPS_Borough_Level_Crime",
+                "package_id": "345e3848-035e-4e4d-ac33-efc601fcffb6",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://files.datapress.com/london/dataset/recorded-crime-summary-data-london-borough-level/2017-01-26T18:50:00/MPS_Borough_Level_Crime.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:11:44.283576",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "82780765-d398-4bfb-a748-fe82d9193cb2",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:11:44.283576",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landing page",
+                "package_id": "345e3848-035e-4e4d-ac33-efc601fcffb6",
+                "position": 1,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://data.london.gov.uk/dataset/recorded-crime-summary-data-london-borough-level",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

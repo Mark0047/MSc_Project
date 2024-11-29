@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "31917ce3-1ebf-40a5-8091-102a4679cf93",
+        "metadata_created": "2019-01-23T10:50:03.059855",
+        "metadata_modified": "2019-01-23T10:50:03.059865",
+        "name": "bolsover-district-council",
+        "notes": "",
+        "organization": {
+            "id": "4267908a-40b3-446d-8cfa-f0fa69cf17ec",
+            "name": "bolsover-district-council",
+            "title": "Bolsover District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-10-16T12:15:49.025833",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4267908a-40b3-446d-8cfa-f0fa69cf17ec",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Bolsover District Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/Bolsover_District_Council",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 23,
+            "last_job": {
+                "id": "9fc8e196-1664-40ab-8b5b-9f24edb240e4",
+                "created": "2023-03-22 17:24:12.093284",
+                "gather_started": "2023-03-22 17:24:12.257746",
+                "gather_finished": "2023-03-22 17:24:12.377420",
+                "finished": "2023-03-22 17:24:13.440425",
+                "source_id": "31917ce3-1ebf-40a5-8091-102a4679cf93",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 3,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}individualName': This element is not expected. Expected is one of ( {http://www.isotc211.org/2005/gco}CharacterString, {http://www.isotc211.org/2005/gmd}CI_RoleCode, {http://www.isotc211.org/2005/gmd}CI_PresentationFormCode, {http://www.isotc211.org/2005/gmd}CI_OnLineFunctionCode, {http://www.isotc211.org/2005/gmd}CI_DateTypeCode, {http://www.isotc211.org/2005/gmd}MD_PixelOrientationCode, {http://www.isotc211.org/2005/gmd}MD_TopologyLevelCode, {http://www.isotc211.org/2005/gmd}MD_GeometricObjectTypeCode, {http://www.isotc211.org/2005/gmd}MD_CellGeometryCode, {http://www.isotc211.org/2005/gmd}MD_DimensionNameTypeCode ).",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 4
+        }
+    }
+}

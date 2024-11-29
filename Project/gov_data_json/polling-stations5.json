@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "inspire@newcastle-staffs.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "1e6c8c12-2ca7-4798-a232-6c987abb9d5d",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-20T16:50:09.386184",
+        "metadata_modified": "2016-02-10T18:24:33.325844",
+        "name": "polling-stations5",
+        "notes": "Details and locations of the Polling Stations within the Borough of Newcastle. Upon accessing this Licensed Data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "346f89a7-67ba-475f-b874-a95b3de7dddf",
+            "name": "newcastle-under-lyme-borough-council",
+            "title": "Newcastle Under Lyme Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-07-20T11:56:12.871504",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "346f89a7-67ba-475f-b874-a95b3de7dddf",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Polling Stations",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.20554"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.1129939659"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.9027"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.42979"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2014-08-05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "unknown"
+            },
+            {
+                "key": "guid",
+                "value": "d280db87-7a63-479a-b498-cc82ab959758"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "74f3c3b1-5e8d-4bad-93b8-047578562ec0"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/346f89a7-67ba-475f-b874-a95b3de7dddf/480-PollingStations.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-04-21"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Newcastle-under-Lyme Borough Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Newcastle-under-Lyme Borough Council (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-2.20554, 52.9027],[-2.20554, 53.1129939659], [-2.42979, 53.1129939659], [-2.42979, 52.9027], [-2.20554, 52.9027]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "311d498b-0862-4c8f-af39-b37e19fc4c4a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Newcastle-under-Lyme Borough Council (data.gov.uk WAF)"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2015-04-21T12:10:07.168856",
+                "description": "information",
+                "format": "WMS",
+                "hash": "",
+                "id": "bf4b1b2b-dd17-481b-8ebc-7d77ec24529b",
+                "last_modified": null,
+                "metadata_modified": "2015-04-21T12:10:07.168856",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NULBC Inspire WMS Service",
+                "package_id": "1e6c8c12-2ca7-4798-a232-6c987abb9d5d",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://www.newcastle-staffs.gov.uk:8080/geoserver/inspire/wms?request=getCapabilities",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2015-04-21T12:10:05.927450",
+                "wms_base_urls": "http://www.newcastle-staffs.gov.uk:8080/geoserver/inspire/ows"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-04-21T12:10:07.168873",
+                "description": "download",
+                "format": "XML",
+                "hash": "",
+                "id": "6e0c16b6-6b21-45dd-9190-d64772ea5f3f",
+                "last_modified": null,
+                "metadata_modified": "2015-04-21T12:10:07.168873",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NULBC Inspire WFS Service",
+                "package_id": "1e6c8c12-2ca7-4798-a232-6c987abb9d5d",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://www.newcastle-staffs.gov.uk:8080/geoserver/inspire/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=inspire:POLLING_STATIONS&maxFeatures=50",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "74f3c3b1-5e8d-4bad-93b8-047578562ec0"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "311d498b-0862-4c8f-af39-b37e19fc4c4a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Newcastle-under-Lyme Borough Council (data.gov.uk WAF)"
+            }
+        ]
+    }
+}

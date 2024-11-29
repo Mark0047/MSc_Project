@@ -1,0 +1,189 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "19890572-14b6-4d37-8a6d-6a5ec3b457fe",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2020-05-19T08:14:44.249330",
+        "metadata_modified": "2021-01-27T15:25:13.615072",
+        "name": "mfn-rates-to-trade-with-the-uk-from-1-january-2021",
+        "notes": "This dataset has now been archived and will no longer be updated. For an up-to-date list of Most Favoured Nation (MFN) rates, see https://data.gov.uk/dataset/3bee9a8a-e69c-400e-add5-3345a87a8e25/tariffs-to-trade-with-the-uk-from-1-january-2021.\r\n\r\nThe UK Global Tariff (UKGT) is the UK's first independent tariff policy which will replace the current Common External Tariff (CET) which applies until 31 December 2020. This tariff will enter into force on 1 January 2021. The UKGT will apply to all goods imported into the UK, unless: an exception applies (such as a relief or tariff suspension); the goods come from countries that are part of the Generalised Scheme of Preferences; the goods come from a country that has a trade agreement with the UK. It only shows the tariffs that will be applied to goods at the border when they\u2019re imported into the UK. It does not cover: other import duties (such as VAT); the precise details of trade remedies measures (such as anti-dumping, countervailing and safeguards). For more information, see https://www.gov.uk/guidance/uk-tariffs-from-1-january-2021.\r\n\r\nThis dataset lists how the tariff will change in the UKGT compared to the CET, split out by commodity code as specified to 8 or 10 digits by the 2020 Combined Nomenclature (CN). It includes a description for each code based on that standard. For each code, it includes the current duty expression under the CET and the new duty expression under the UKGT, with an additional field categorising the change (as 'no change', 'currency conversion', 'simplified', 'reduced' or 'liberalised'). The dataset also indicates where commodities are subject to a trade remedy or suspension, or if the CET will continue to apply until after transition reviews have concluded, or include an Autonomous Tariff Quota. Please see the guidance page for information on these terms and how the duty will change in these cases.",
+        "num_resources": 4,
+        "num_tags": 2,
+        "organization": {
+            "id": "034e7e89-5550-4851-bf90-d2fb69af289e",
+            "name": "department-for-international-trade",
+            "title": "Department for Business and Trade",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2016-09-13T18:00:25.089589",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "034e7e89-5550-4851-bf90-d2fb69af289e",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "business-and-economy",
+        "title": "Most Favoured Nation (MFN) rates to trade with the UK from 1 January 2021",
+        "type": "dataset",
+        "url": "https://www.check-future-uk-trade-tariffs.service.gov.uk/",
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-05-19T08:14:44.285576",
+                "datafile-date": "2020-11-12",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "45b0b20a-63d2-453d-8817-3f9902f00080",
+                "last_modified": null,
+                "metadata_modified": "2020-05-19T08:14:44.285576",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Tariff changes by commodity code (historical)",
+                "package_id": "19890572-14b6-4d37-8a6d-6a5ec3b457fe",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://github.com/uktrade/global-uk-tariff/raw/master/global-uk-tariff.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-05-19T08:14:44.285582",
+                "datafile-date": "2020-11-12",
+                "description": "",
+                "format": "XLSX",
+                "hash": "",
+                "id": "cc070185-1619-4f66-b061-559dd4e8539d",
+                "last_modified": null,
+                "metadata_modified": "2020-05-19T08:14:44.285582",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "Tariff changes by commodity code (historical)",
+                "package_id": "19890572-14b6-4d37-8a6d-6a5ec3b457fe",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://github.com/uktrade/global-uk-tariff/raw/master/global-uk-tariff.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-05-19T08:14:44.285585",
+                "datafile-date": "2020-11-12",
+                "description": "",
+                "format": "JSON",
+                "hash": "",
+                "id": "9b44adf2-e9f7-468b-ab76-bbb91c167a71",
+                "last_modified": null,
+                "metadata_modified": "2020-05-19T08:14:44.285585",
+                "mimetype": "application/json",
+                "mimetype_inner": null,
+                "name": "Tariff changes by commodity code (historical)",
+                "package_id": "19890572-14b6-4d37-8a6d-6a5ec3b457fe",
+                "position": 2,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://github.com/uktrade/global-uk-tariff/raw/master/global-uk-tariff.json",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-01-27T15:20:19.611605",
+                "datafile-date": "2021-01-01",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "1ec2d9a8-94eb-4aae-b48d-7e0a094c5504",
+                "last_modified": null,
+                "metadata_modified": "2021-01-27T15:20:19.611605",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Current MFN rates",
+                "package_id": "19890572-14b6-4d37-8a6d-6a5ec3b457fe",
+                "position": 3,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.api.trade.gov.uk/v1/datasets/uk-tariff-2021-01-01/versions/latest/tables/measures-on-declarable-commodities/data?query-simple=&download=&format=csv&measure__type__id=103%2C105",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "tariff",
+                "id": "1c5e50a0-37eb-49a4-914c-83fdeb483724",
+                "name": "tariff",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "trade",
+                "id": "c16f62c8-724e-4b90-a158-654cc69de83e",
+                "name": "trade",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "7d2abf64-6b20-4485-b88e-52f06a136f92"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a612f8ea-56f8-46c6-aa71-d84fc4f3c0e8"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Check Future UK Trade Tariffs service"
+            }
+        ],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7d2abf64-6b20-4485-b88e-52f06a136f92"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a612f8ea-56f8-46c6-aa71-d84fc4f3c0e8"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Check Future UK Trade Tariffs service"
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "a3a81578-0ff4-4837-ba67-988cdaadf9a0",
+        "metadata_created": "2019-01-23T11:10:08.201346",
+        "metadata_modified": "2019-01-23T11:10:08.201354",
+        "name": "barrow-council-geonetwork",
+        "notes": "Barrow Council Geonetwork",
+        "organization": {
+            "id": "d65220a4-e84c-4aa1-beab-0ed4f8c9adfe",
+            "name": "barrow-borough-council",
+            "title": "Barrow Borough Council",
+            "type": "organization",
+            "description": "(Barrow-in-Furness Borough Council)",
+            "image_url": "",
+            "created": "2012-06-27T14:54:32.292178",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d65220a4-e84c-4aa1-beab-0ed4f8c9adfe",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "Barrow Council Geonetwork",
+        "type": "harvest",
+        "url": "https://webgis1.barrowbc.gov.uk/geonetwork/srv/en/csw",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 83,
+            "last_job": {
+                "id": "0bca7e2e-4ad0-49b4-ae34-dde4207232d3",
+                "created": "2019-01-08 13:27:55.351144",
+                "gather_started": "2019-01-09 16:50:51.808331",
+                "gather_finished": "2019-01-09 16:50:55.504460",
+                "finished": null,
+                "source_id": "a3a81578-0ff4-4837-ba67-988cdaadf9a0",
+                "status": "Aborted",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "System error during harvest: global name 'URLError' is not defined",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 109
+        }
+    }
+}

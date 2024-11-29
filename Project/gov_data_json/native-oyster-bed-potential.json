@@ -1,0 +1,380 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "31530300-0f98-42ac-9b68-b6c980f5383c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-06-30T17:19:19.276598",
+        "metadata_modified": "2024-07-19T14:20:34.927063",
+        "name": "native-oyster-bed-potential",
+        "notes": "Summary: Most Native Oyster Bed Potential areas are derived from seabed sediment and current energy criteria. Some 'Additional' areas have been identified through consultations with local experts. The data also contains a subset of 'preferred' sites. 'Preferred' sites include areas which have minimal overlap with pressures and activities, which may hinder restoration. \n\nGuidance and Limitations: The Native Oyster Bed Potential Area layer provides a national \u2018high level\u2019 indication of where native oyster reefs could potentially be restored based on some key environmental variables with a subset of \u2018preferred sites\u2019, identifying areas of minimal overlap with pressures and existing activities that may hinder restoration. It should be considered as an initial aid to identifying sites. The areas identified are based on outputs from large scale models and should not always be assumed to be precise at the local level. The location of significant activities (such as dredging), marine assets (such as submarine cables) and ecological risks (such as disease control areas), which could restrain a location\u2019s potential, have not been factored in in the creation of the overall layer, but have been considered for sites listed in the preferred sites attribute. The presence of such activities and structures should of course be considered at an early stage before making any local selection of suitable sites. It should not be assumed that all the areas identified meet all environmental conditions required to re-establish native oyster bed habitat, or that native oysters only currently exist within these areas. Instead it aims to provide an initial attempt to identify potential areas at a national level. Furthermore, it is probable that there are some areas outside the areas identified that could be suitable for restoration. \n\nDescription: Native oyster reef potential areas were primarily derived from the EMODnet 2016 current energy models, the Natural England Marine Habitats and Species Open Data and a portion of the JNCC EUNIS Level 3 seabed habitat map integrating data originating from maps and field surveys and the EUSeaMap model v8.3. These datasets were combined to determine potential native oyster bed habitat areas. Selection Criteria used habitat preferences for Ostrea edulis identified by the Marine Life Information Network (MarLIN) as follows: Current = Low Energy, <130 Nm-2, (mean of annual 90th percentile values over six years); Broadscale Habitat Type = Subtidal mixed sediments (EUNIS Level 3 = A5.4).These criteria produced an area, which was refined further using an Environment Agency intertidal layer to ensure all intertidal areas were excluded. The area was also clipped to within Wafer Framework Directive water body boundaries (typically within 1 nautical mile of coastline). Any discrete areas less than 1ha in size were removed. Some further areas were removed based on expert judgement and their close proximity to major ports. Finally, each polygon was assigned a water body and river basin district based on the WFD cycle2 Transitional and Coastal Water Body layer. The 'preferred sites' attribute identifies a subset of native oyster reef potential areas where oyster restoration may be more successful because there are minimal overlapping pressures (such as dredging) or other marine activities that may hinder restoration. The 'additional sites' attribute incudes sites which have been identified through consultation with local experts but may not sit entirely within the environmental variable criteria described above.  \n Attribution statement: \u00a9 Environment Agency copyright and/or database right 2020. All rights reserved.",
+        "num_resources": 6,
+        "num_tags": 12,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2024-07-04"
+        ],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Native Oyster Bed Potential",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2024-06-30\"}, {\"type\": \"revision\", \"value\": \"2024-07-12\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "bbcb8fca-2c40-441b-96c9-78c36893a4f0"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "0ff89f33-9117-4199-9883-8da3dd0ed348"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-19T14:20:35.035600",
+                "description": "Native_Oyster_Bed_Potential_Dataset_Documentation_v2.docx download on Defra Data Services Platform",
+                "format": "DOCX",
+                "hash": "",
+                "id": "36e2b6ea-8cc7-4321-b696-f9b8825af398",
+                "last_modified": null,
+                "metadata_modified": "2024-07-19T14:20:34.934313",
+                "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "mimetype_inner": null,
+                "name": "Native_Oyster_Bed_Potential_Dataset_Documentation_v2.docx",
+                "package_id": "31530300-0f98-42ac-9b68-b6c980f5383c",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=338dac85-2e9a-422f-92d2-09e37077d1e3&fileName=Native_Oyster_Bed_Potential_Dataset_Documentation_v2.docx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-19T14:20:35.035603",
+                "description": "Oyster_Reef_Potential_v2.lyr download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "a38bef78-b0bf-45d0-bcd6-3f2835477323",
+                "last_modified": null,
+                "metadata_modified": "2024-07-19T14:20:34.934407",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Oyster_Reef_Potential_v2.lyr",
+                "package_id": "31530300-0f98-42ac-9b68-b6c980f5383c",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=338dac85-2e9a-422f-92d2-09e37077d1e3&fileName=Oyster_Reef_Potential_v2.lyr",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-19T14:20:35.035604",
+                "description": "Native Oyster Bed Potential WMS",
+                "format": "",
+                "hash": "",
+                "id": "23cddff1-dcb9-40a8-b4ba-9b741251f9e4",
+                "last_modified": null,
+                "metadata_modified": "2024-07-19T14:20:34.934476",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Native_Oyster_Bed_Potential_WMS",
+                "package_id": "31530300-0f98-42ac-9b68-b6c980f5383c",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/native-oyster-bed-potential/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-19T14:20:35.035605",
+                "description": "Native Oyster Bed Potential WFS",
+                "format": "",
+                "hash": "",
+                "id": "03c43bd9-80e7-4344-9a83-456dde29a94e",
+                "last_modified": null,
+                "metadata_modified": "2024-07-19T14:20:34.934542",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Native_Oyster_Bed_Potential_WFS",
+                "package_id": "31530300-0f98-42ac-9b68-b6c980f5383c",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/native-oyster-bed-potential/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-19T14:20:35.035606",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "9002ce4b-6f41-4f1a-9e02-2e3ea90de1ae",
+                "last_modified": null,
+                "metadata_modified": "2024-07-19T14:20:34.934605",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Native_Oyster_Bed_Potential_Download",
+                "package_id": "31530300-0f98-42ac-9b68-b6c980f5383c",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/bbcb8fca-2c40-441b-96c9-78c36893a4f0?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-19T14:20:35.035607",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "daebd814-10ea-4cb8-b8a0-27d629a84e5f",
+                "last_modified": null,
+                "metadata_modified": "2024-07-19T14:20:34.934668",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "31530300-0f98-42ac-9b68-b6c980f5383c",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/native-oyster-bed-potential/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Habitats and biotopes",
+                "id": "a6591241-3108-42a5-b540-46a56883592e",
+                "name": "Habitats and biotopes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Native Oyster Reef",
+                "id": "437b6ae6-3e3e-4677-8d10-67d4b01480d3",
+                "name": "Native Oyster Reef",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "coastal ecosystem",
+                "id": "de68129a-db5f-49bc-8ab4-e8e917af6410",
+                "name": "coastal ecosystem",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "coastal environment",
+                "id": "9e6620df-641b-4a03-9693-3edf4b58dcc5",
+                "name": "coastal environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "coastal water",
+                "id": "dc6bcec3-c033-49e6-9577-4464ba559a17",
+                "name": "coastal water",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "habitat",
+                "id": "14a2c77b-4a31-406c-9c76-6b2a74f677e9",
+                "name": "habitat",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "marine biology",
+                "id": "b7a2f843-a4d6-488e-8f9a-69c356f72894",
+                "name": "marine biology",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "marine ecology",
+                "id": "59a5057e-0162-4f8d-9ee6-e4ab3af3d32d",
+                "name": "marine ecology",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "marine ecosystem",
+                "id": "34189128-596d-4a6f-b1df-464881be6179",
+                "name": "marine ecosystem",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "restoration of water",
+                "id": "2629dd26-7b42-4cb6-a6c6-435edfa7addd",
+                "name": "restoration of water",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wildlife habitat",
+                "id": "116f923b-3be2-4eca-b541-eec4266fac4f",
+                "name": "wildlife habitat",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0ff89f33-9117-4199-9883-8da3dd0ed348"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

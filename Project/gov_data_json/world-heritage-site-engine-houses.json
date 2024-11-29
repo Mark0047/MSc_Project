@@ -1,0 +1,222 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@cornwall.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "57b4591e-f739-439b-be74-21ae593a0be1",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-12-20T15:37:49.401816",
+        "metadata_modified": "2020-09-29T13:35:24.873999",
+        "name": "world-heritage-site-engine-houses",
+        "notes": "The World Heritage Site project utlitised historic and modern Ordnance Survey mapping with existing documentary research to define the number of Cornish type, and related, engine house sites across Cornwall and west Devon. The dataset includes extant engine houses, with an assessment of survival and condition where known, and those for which only a map or other documentary reference exists.\n\nFor a definition of what comprises a Cornish engine house, see: Sharpe, Lewis, Massie, Johnson (1991) 'Engine House Assessment - Mineral Tramways Project', Truro: Cornwall Archaeological Unit (Cornwall County Council report)   \n\nThis dataset was created for research purposes and relates only to the date when it was created c.2001-2002. It should not be taken as an accurate and up to date representation of the survival of Cornish type, and related, engine houses on the ground.",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "b7cd9dde-95f0-4155-aabf-57898e28dda0",
+            "name": "cornwall-council",
+            "title": "Cornwall Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-02-24T15:22:03.828355",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b7cd9dde-95f0-4155-aabf-57898e28dda0",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "World Heritage Site Engine Houses",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Contains public sector information licensed under the Open Government Licence v3.0\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-3.6776733382"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.3529159620"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.5341217452"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.3693237289"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2020-09-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "2e6ba592-34e3-4df6-859c-dc45b6dc63a8"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "3f5d4190-b3da-4604-8372-19173fd1945a"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-09-29T14:10:18"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Cornwall Council (resourceProvider)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-3.6776733382, 49.5341217452], [-6.3693237289, 49.5341217452], [-6.3693237289, 51.3529159620], [-3.6776733382, 51.3529159620], [-3.6776733382, 49.5341217452]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/4258"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "665ecda1-e5f8-4cee-8360-50e146ddc48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cornwall Council INSPIRE WMS Service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-09-29T13:35:25.160584",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "3b71c046-fa00-40d4-99b4-17e931db00ff",
+                "last_modified": null,
+                "metadata_modified": "2020-09-29T13:35:25.160584",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Inspire Historic WMS",
+                "package_id": "57b4591e-f739-439b-be74-21ae593a0be1",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.cornwall.gov.uk/arcgis/services/inspire/inspire_historic/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-09-29T13:35:25.160590",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "21ba1117-3f80-4473-8440-58f144ff363b",
+                "last_modified": null,
+                "metadata_modified": "2020-09-29T13:35:25.160590",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Inspire Historic WFS",
+                "package_id": "57b4591e-f739-439b-be74-21ae593a0be1",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.cornwall.gov.uk/arcgis/services/inspire/inspire_historic/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Heritage",
+                "id": "70be74ac-9388-4217-ba0d-c8d36f6e0130",
+                "name": "Heritage",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "historical_site",
+                "id": "94d56b28-c938-4a94-ba8c-dacd53b8b7d1",
+                "name": "historical_site",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mineral_industry",
+                "id": "7d1ba1d9-fe91-488b-bc6e-6f3d39739b06",
+                "name": "mineral_industry",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3f5d4190-b3da-4604-8372-19173fd1945a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "665ecda1-e5f8-4cee-8360-50e146ddc48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cornwall Council INSPIRE WMS Service"
+            }
+        ]
+    }
+}

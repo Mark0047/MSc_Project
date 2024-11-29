@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "b14b65bc-5200-4e2d-b630-b7c9bccc8c4e",
+        "metadata_created": "2019-01-23T11:19:11.653697",
+        "metadata_modified": "2019-06-07T13:27:35.415768",
+        "name": "worcester-city-council-inspire-service",
+        "notes": "Worcester City Council - INSPIRE Service",
+        "organization": {
+            "id": "947abf42-39f3-4793-ac62-dd07dfaf5244",
+            "name": "worcester-city-council",
+            "title": "Worcester City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-12-03T17:40:35.161017",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "947abf42-39f3-4793-ac62-dd07dfaf5244",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "Worcester City Council - INSPIRE Service",
+        "type": "harvest",
+        "url": "http://inspire.worcester.gov.uk/geonetwork/srv/eng/csw-worcester",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 39,
+            "last_job": {
+                "id": "e1f0f73c-a8b1-44d6-b993-6faf5c122662",
+                "created": "2021-05-19 10:32:20.558496",
+                "gather_started": "2021-05-19 10:32:20.754563",
+                "gather_finished": "2021-05-19 10:32:21.342151",
+                "finished": "2021-05-19 10:32:22.889448",
+                "source_id": "b14b65bc-5200-4e2d-b630-b7c9bccc8c4e",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 3,
+                    "errored": 3,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 3
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 3
+        }
+    }
+}

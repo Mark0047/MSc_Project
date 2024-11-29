@@ -1,0 +1,191 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@clacks.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "e347e423-24b6-46f8-a016-778c3920863e",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-10-16T21:01:16.684460",
+        "metadata_modified": "2024-10-22T09:01:16.580483",
+        "name": "clackmannanshire-adopted-roads",
+        "notes": "A geospatial dataset of all the adopted and non-adopted roads within Clackmannashire depicted using the road centre lines",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Clackmannanshire - Adopted Roads",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Clackmannanshire Council, licensed under the Open Government Licence (OGL).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-3.57"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.22"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "56.07"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.89"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2022-08-04\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "06037051-9917-44e9-b7d7-4bab02029de5"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "8659ab9f-f94d-4293-a4cd-fa500d88e39b"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-08-30T14:59:25"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Clackmannanshire Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Clackmannanshire Council (publisher, custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-3.57, 56.07], [-3.89, 56.07], [-3.89, 56.22], [-3.57, 56.22], [-3.57, 56.07]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-22T09:01:16.615015",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "6a037533-bf3a-43a5-9bb1-245a85a6ff4f",
+                "last_modified": null,
+                "metadata_modified": "2024-10-22T09:01:16.585719",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "e347e423-24b6-46f8-a016-778c3920863e",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://clacks.cloud.cadcorp.com/WFS/wfs.exe?&SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&typenames=ns:Adopted_Roads",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Scotland",
+                "id": "716a6411-668c-4ee3-8637-23a44c02b393",
+                "name": "Scotland",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "road network",
+                "id": "6ad7d761-5ee3-41d0-91cc-ac5611ce2fe6",
+                "name": "road network",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8659ab9f-f94d-4293-a4cd-fa500d88e39b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

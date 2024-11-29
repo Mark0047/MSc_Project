@@ -1,0 +1,181 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "258300d1-0157-451c-965c-b57a0b31f66f",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-09-10T19:30:06.084546",
+        "metadata_modified": "2015-09-10T19:30:06.095590",
+        "name": "sodapy-test-2",
+        "notes": "This is a TEST dataset to test sodapy api capabilities",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+            "name": "london-borough-of-camden",
+            "title": "London Borough of Camden",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:32.040042",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+        "private": false,
+        "state": "active",
+        "title": "Sodapy test 2",
+        "type": "dataset",
+        "url": "https://opendata.camden.gov.uk/d/g3dt-dufn",
+        "version": null,
+        "extras": [
+            {
+                "key": "data_issued",
+                "value": "2015-09-08"
+            },
+            {
+                "key": "data_modified",
+                "value": "2015-09-10"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "opendata.camden.gov.uk"
+            },
+            {
+                "key": "guid",
+                "value": "https://opendata.camden.gov.uk/api/views/g3dt-dufn"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d93aa3aa-9866-4ecd-a292-bed7be3fa8c8"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://opendata.camden.gov.uk/data.json\", \"harvest_source_type\": \"data_json\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Camden Open Data\", \"activity_occurred\": \"2015-09-10T19:30:06.018759\", \"activity\": \"harvest\", \"harvested_guid\": \"https://opendata.camden.gov.uk/api/views/g3dt-dufn\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T20:30:06.112501",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "7c548e27-00ee-4459-a3e3-dd073940a750",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T20:30:06.112501",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "258300d1-0157-451c-965c-b57a0b31f66f",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/g3dt-dufn/rows.csv?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T20:30:06.112521",
+                "description": "",
+                "format": "RDF",
+                "hash": "",
+                "id": "b92c1d46-81b1-48d7-9b79-cecc475cd024",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T20:30:06.112521",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "258300d1-0157-451c-965c-b57a0b31f66f",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/g3dt-dufn/rows.rdf?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T20:30:06.112526",
+                "description": "",
+                "format": "JSON",
+                "hash": "",
+                "id": "402977f6-3321-4ebd-b035-d843285e655e",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T20:30:06.112526",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "258300d1-0157-451c-965c-b57a0b31f66f",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/g3dt-dufn/rows.json?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T20:30:06.112531",
+                "description": "",
+                "format": "XML",
+                "hash": "",
+                "id": "963db636-06f2-4b28-81ba-3d58b9392d7b",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T20:30:06.112531",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "258300d1-0157-451c-965c-b57a0b31f66f",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/g3dt-dufn/rows.xml?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T20:30:06.112536",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "1cda8774-bff7-45f6-b8b5-c08d0f2cb03b",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T20:30:06.112536",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landing page",
+                "package_id": "258300d1-0157-451c-965c-b57a0b31f66f",
+                "position": 4,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/d/g3dt-dufn",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

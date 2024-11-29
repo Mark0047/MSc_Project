@@ -1,0 +1,222 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "William.cocodia@lewisham.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "60e7ad82-08ba-4e19-be24-786fe03fa138",
+        "isopen": true,
+        "license_id": "cc-by",
+        "license_title": "Creative Commons Attribution",
+        "license_url": "http://www.opendefinition.org/licenses/cc-by",
+        "metadata_created": "2016-08-22T13:20:10.157268",
+        "metadata_modified": "2020-01-22T15:27:07.496685",
+        "name": "cpz-zones1",
+        "notes": "Controlled Parking Zones for Lewisham Borough",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "306b202d-b24d-47b4-8482-985fed1695b8",
+            "name": "london-borough-of-lewisham",
+            "title": "London Borough of Lewisham",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:28:04.669565",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "306b202d-b24d-47b4-8482-985fed1695b8",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "CPZ_ZONES",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.1028251692"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.5690677610"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.3465903545"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.2336311296"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2019-04-19\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "288a7592-5bbd-4d18-90a0-018f13218ae1"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9d586433-9bc3-45c9-b921-63534eb2a033"
+            },
+            {
+                "key": "licence",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-01-20T17:44:29"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "London Borough of Lewisham"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "London Borough of Lewisham (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.1028251692, 51.3465903545], [-0.2336311296, 51.3465903545], [-0.2336311296, 51.5690677610], [0.1028251692, 51.5690677610], [0.1028251692, 51.3465903545]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "1dd3f477-2b92-4302-ab46-83894a6785fc"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Borough of Lewisham"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-22T15:27:07.748150",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "6b44675e-1e50-4f1a-8714-053e87bb909c",
+                "last_modified": null,
+                "metadata_modified": "2020-01-22T15:27:07.748150",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "60e7ad82-08ba-4e19-be24-786fe03fa138",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/london_borough_of_lewisham_cpz_zones/wms?request=getCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-22T15:27:07.748157",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "77701d50-be99-4229-a90c-44bd151f1bb2",
+                "last_modified": null,
+                "metadata_modified": "2020-01-22T15:27:07.748157",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "60e7ad82-08ba-4e19-be24-786fe03fa138",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/london_borough_of_lewisham_cpz_zones/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Parking Zone",
+                "id": "9c1a79fb-55eb-4a85-9bb8-0bd47861b752",
+                "name": "Parking Zone",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "parking_provision",
+                "id": "ab8f0d5a-51ed-4739-be15-918730d89b90",
+                "name": "parking_provision",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "transportation_policy",
+                "id": "ea1e11db-03d4-4c59-8672-60023df80e8c",
+                "name": "transportation_policy",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9d586433-9bc3-45c9-b921-63534eb2a033"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "1dd3f477-2b92-4302-ab46-83894a6785fc"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Borough of Lewisham"
+            }
+        ]
+    }
+}

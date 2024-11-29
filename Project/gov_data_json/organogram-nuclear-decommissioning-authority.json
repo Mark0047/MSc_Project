@@ -1,0 +1,106 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "20cb3791-3a0e-4582-8981-58ebafe82619",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "31b01f6a-4dac-4c65-9471-76d23b71f407",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-09-30T23:34:43.040374",
+        "metadata_modified": "2016-09-30T23:34:45.705262",
+        "name": "organogram-nuclear-decommissioning-authority",
+        "notes": "Organogram (organisation chart) showing all staff roles. Names and salaries are also listed for the Senior Civil Servants.\r\n\r\nOrganogram data is released by all central government departments and their agencies since 2010. Snapshots for 31st March and 30th September are published by 6th June and 6th December each year. The published data is validated and released in CSV format and OGL-licensed for reuse. For more information about this series, see: http://guidance.data.gov.uk/organogram-data.html",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "eec79f94-fb85-4d3d-8a88-add21d3ff9ae",
+            "name": "nuclear-decommissioning-authority",
+            "title": "Nuclear Decommissioning Authority",
+            "type": "organization",
+            "description": "The Nuclear Decommissioning Authority (NDA) is responsible for the decommissioning and clean-up of civil nuclear facilities, ensuring that treatment and disposal follow government policy on the long-term management of nuclear waste.\r\n\r\nNDA is an executive non-departmental public body of the Department of Energy & Climate Change\r\n\r\nhttp://www.nda.gov.uk/\r\n",
+            "image_url": "",
+            "created": "2013-01-30T15:05:48.578288",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "eec79f94-fb85-4d3d-8a88-add21d3ff9ae",
+        "private": false,
+        "schema-vocabulary": "d3c0b23f-6979-45e4-88ed-d2ab59b005d0",
+        "state": "active",
+        "temporal_coverage-from": 2010,
+        "theme-primary": "government-spending",
+        "title": "Organogram of Staff Roles & Salaries",
+        "type": "dataset",
+        "update_frequency": "biannually",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "date",
+                "value": "30/09/2011"
+            },
+            {
+                "key": "import_source",
+                "value": "organograms_v2"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T00:34:44.109104",
+                "date": "2011-09-30",
+                "description": "Organogram - Junior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "01c0feef-656d-4d5c-be15-9daaef9762a3",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T00:34:44.109104",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "31b01f6a-4dac-4c65-9471-76d23b71f407",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/nuclear-decommissioning-authority/30/09/2011/nuclear_decommissioning_authority-2011-09-30-organogram-junior.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T00:34:44.921017",
+                "date": "2011-09-30",
+                "description": "Organogram - Senior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "8b0f75d6-2622-4a3c-86d6-53e9c581699d",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T00:34:44.921017",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "31b01f6a-4dac-4c65-9471-76d23b71f407",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/nuclear-decommissioning-authority/30/09/2011/nuclear_decommissioning_authority-2011-09-30-organogram-senior.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

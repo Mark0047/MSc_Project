@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "55249ddd-1d0f-4734-836c-94e683a55f05",
+        "metadata_created": "2019-01-23T10:58:47.135584",
+        "metadata_modified": "2019-01-23T10:58:47.135590",
+        "name": "east-dorset-district-council-inspire-service5e3d7",
+        "notes": "",
+        "organization": {
+            "id": "9ced6c39-3e06-465c-b8c6-46e0f39ee514",
+            "name": "east-dorset-district-council",
+            "title": "East Dorset District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:32.727910",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "9ced6c39-3e06-465c-b8c6-46e0f39ee514",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "East Dorset District Council INSPIRE Service",
+        "type": "harvest",
+        "url": "http://inspire.astuntechnology.com/eastdorset",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 7,
+            "last_job": {
+                "id": "1091effb-b916-4dd7-9f79-2385dc925ce1",
+                "created": "2018-02-22 10:03:42.951697",
+                "gather_started": "2018-02-22 10:03:47.911397",
+                "gather_finished": "2018-02-22 10:03:48.886744",
+                "finished": "2018-02-22 10:04:16.147370",
+                "source_id": "55249ddd-1d0f-4734-836c-94e683a55f05",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Content is not a valid Gemini document without the gmd:MD_Metadata element (http://inspire.astuntechnology.com/eastdorset/index.html)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 14
+        }
+    }
+}

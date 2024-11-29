@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "54901cad-b35b-4214-a3e7-1ce861dd2ef2",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2017-12-21T16:25:32.595290",
+        "metadata_modified": "2019-10-04T16:03:21.527595",
+        "name": "brownfield-land-register9",
+        "notes": "Brownfield Land Register for London Borough of Ealing - produced December 2017 ",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "89383fd4-96d9-4837-8547-f494c952f6b1",
+            "name": "london-borough-of-ealing",
+            "title": "London Borough of Ealing",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-09-10T13:58:09.152984",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "89383fd4-96d9-4837-8547-f494c952f6b1",
+        "private": false,
+        "state": "active",
+        "title": "Brownfield Land Register",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.1380157439"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.6278212864"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.4056310732"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.4744720427"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2018-12-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "021eb09e-b5d4-4055-ae91-a3f061ce59b1"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Research\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-03-19T11:01:23"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "London Borough of Ealing"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "London Borough of Ealing (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.1380157439, 51.4056310732], [-0.4744720427, 51.4056310732], [-0.4744720427, 51.6278212864], [-0.1380157439, 51.6278212864], [-0.1380157439, 51.4056310732]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7503bc09-a05e-4636-b407-fd9c9d765255"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "193c0a54-cfaf-4ed2-83ff-3f0a123b6fa4"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Borough of Ealing"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-08-13T14:33:08.675249",
+                "datafile-date": "",
+                "description": "Resource locator",
+                "format": "WMS",
+                "hash": "",
+                "id": "075b0fa8-c20e-4a42-a1b9-317daf3d860e",
+                "last_modified": null,
+                "metadata_modified": "2019-08-13T14:33:08.675249",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "54901cad-b35b-4214-a3e7-1ce861dd2ef2",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/london_borough_of_ealing_brownfield_reg_2018_fin/wms?request=getCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-08-13T14:33:08.675255",
+                "datafile-date": "",
+                "description": "Resource locator",
+                "format": "WFS",
+                "hash": "",
+                "id": "c2e01958-8dde-46a6-9573-9f6c98c87752",
+                "last_modified": null,
+                "metadata_modified": "2019-08-13T14:33:08.675255",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "54901cad-b35b-4214-a3e7-1ce861dd2ef2",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/london_borough_of_ealing_brownfield_reg_2018_fin/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Brownfield",
+                "id": "5f3c50a5-c441-42a6-8faa-c2280f9e1ced",
+                "name": "Brownfield",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land",
+                "id": "f5cd996c-9dd4-4927-a5ea-c1716d2f2921",
+                "name": "land",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7503bc09-a05e-4636-b407-fd9c9d765255"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "193c0a54-cfaf-4ed2-83ff-3f0a123b6fa4"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Borough of Ealing"
+            }
+        ]
+    }
+}

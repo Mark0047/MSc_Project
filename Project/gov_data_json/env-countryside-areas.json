@@ -1,0 +1,202 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "maps@medway.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f2b1fb13-9855-4212-bf46-63d5121d4898",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-05T14:30:20.359762",
+        "metadata_modified": "2022-01-21T15:40:29.538190",
+        "name": "env-countryside-areas",
+        "notes": "Dataset contains areas identified as rural spaces. It does not denote authority ownership.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "e5862764-9001-4027-8c17-6a351ee790c6",
+            "name": "medway-council",
+            "title": "Medway Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-10-03T11:18:23.169630",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e5862764-9001-4027-8c17-6a351ee790c6",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "title": "ENV_COUNTRYSIDE_AREAS",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.743372678756714"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.5096130371094"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.3233947753906"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "0.392888575792313"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2008-12-31\"}, {\"type\": \"revision\", \"value\": \"2008-12-31\"}, {\"type\": \"publication\", \"value\": \"2015-03-05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "unknown"
+            },
+            {
+                "key": "guid",
+                "value": "b822e9a5-5fbb-4ac5-8aa1-6f21d8094ada"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://maps.medway.gov.uk/inspire_waf/ENV_COUNTRYSIDE_AREAS.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-03-05"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Medway Council (distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[0.743372678756714, 51.3233947753906],[0.743372678756714, 51.5096130371094], [0.392888575792313, 51.5096130371094], [0.392888575792313, 51.3233947753906], [0.743372678756714, 51.3233947753906]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b0b4e19e-3167-4680-972f-9d2fef0fec89"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "653b4e6b-d4b9-46a4-ba6a-9d36f9ef374a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Medway Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-03-05T14:30:20.427416",
+                "datafile-date": "",
+                "description": null,
+                "format": "XML",
+                "hash": "",
+                "id": "a493364b-7059-442f-89e2-8cc2f8793ff0",
+                "last_modified": null,
+                "metadata_modified": "2022-01-21T15:40:16.423988",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFS Download",
+                "package_id": "f2b1fb13-9855-4212-bf46-63d5121d4898",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://medwaymaps.medway.gov.uk/WFS/wfs.exe?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-03-05T14:30:20.427437",
+                "datafile-date": "",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "7d2b89f9-8bd6-48be-92b1-f44d4c7e8f66",
+                "last_modified": null,
+                "metadata_modified": "2022-01-21T15:40:29.542424",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WMS View",
+                "package_id": "f2b1fb13-9855-4212-bf46-63d5121d4898",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://medwaymaps.medway.gov.uk/WMS/wms.exe?",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b0b4e19e-3167-4680-972f-9d2fef0fec89"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "653b4e6b-d4b9-46a4-ba6a-9d36f9ef374a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Medway Council"
+            }
+        ]
+    }
+}

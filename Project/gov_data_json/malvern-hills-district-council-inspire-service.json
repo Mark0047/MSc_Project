@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "766c6bbb-bf88-4a83-91ec-c9cc69f30343",
+        "metadata_created": "2019-01-23T11:17:31.050615",
+        "metadata_modified": "2019-01-23T11:17:31.050625",
+        "name": "malvern-hills-district-council-inspire-service",
+        "notes": "",
+        "organization": {
+            "id": "33e6b5f4-0a9e-49ba-b7ba-e24d6dbdb616",
+            "name": "malvern-hills-district-council",
+            "title": "Malvern Hills District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-12-03T17:39:38.534087",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "33e6b5f4-0a9e-49ba-b7ba-e24d6dbdb616",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "Malvern Hills District Council - INSPIRE Service",
+        "type": "harvest",
+        "url": "http://inspire.malvernhills.gov.uk/geonetwork/srv/eng/csw-malvernhills",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 30,
+            "last_job": {
+                "id": "24bef62d-e008-4357-98b1-a22c6692570f",
+                "created": "2019-06-07 13:57:18.805950",
+                "gather_started": "2019-06-07 13:57:19.271574",
+                "gather_finished": "2019-06-07 13:57:19.707156",
+                "finished": "2019-06-07 13:57:22.616970",
+                "source_id": "766c6bbb-bf88-4a83-91ec-c9cc69f30343",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"Unique resource identifier is mandatory for datasets and series. One or more shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='citation' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CI_Citation' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"((../../../../gmd:hierarchyLevel[1]/*[1]/@codeListValue = 'dataset' or ../../../../gmd:hierarchyLevel[1]/*[1]/@codeListValue = 'series') and count(gmd:identifier) >= 1) or (../../../../gmd:hierarchyLevel[1]/*[1]/@codeListValue != 'dataset' and ../../../../gmd:hierarchyLevel[1]/*[1]/@codeListValue != 'series') or count(../../../../gmd:hierarchyLevel) = 0\":\n",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 0
+        }
+    }
+}

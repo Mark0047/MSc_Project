@@ -1,0 +1,118 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": null,
+        "date_released": "2010-04-01",
+        "date_update_future": "2012-01-17",
+        "date_updated": "2011-11-30",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "geographic_granularity": "NHS Trust",
+        "id": "2af3cfec-9f0a-4308-b962-6ae1a0d8ae6f",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2012-01-16T10:55:06.859158",
+        "metadata_modified": "2014-05-10T04:33:51.783128",
+        "name": "payment-over-25k-ipswich",
+        "notes": "Payments over \u00a325k to suppliers made by The Ipswich Hospital NHS Trust",
+        "num_resources": 2,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "Payments to suppliers with a value over \u00a325k from The Ipswich Hospital NHS Trust",
+            "created_at": "2014-10-29T17:50:39Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/12000/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/12000/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "b57813f5-6c06-44ac-bf78-beb40e5cf96f",
+            "name": "the-ipswich-hospital-nhs-trust",
+            "title": "The Ipswich Hospital NHS Trust",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:55:18.466095",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "b57813f5-6c06-44ac-bf78-beb40e5cf96f",
+        "precision": "to 2 decimal places",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "2010-04-01",
+        "temporal_coverage-to": "2011-11-30",
+        "temporal_granularity": "point",
+        "theme-primary": "government-spending",
+        "theme-secondary": [
+            "Health"
+        ],
+        "title": "Payments to suppliers with a value over \u00a325k from The Ipswich Hospital NHS Trust",
+        "type": "dataset",
+        "update_frequency": "monthly",
+        "url": "http://www.ipswichhospital.nhs.uk/aboutourhospital/expenditure",
+        "version": null,
+        "extras": [
+            {
+                "key": "last_major_modification",
+                "value": "2012-11-13T23:05:37.690397"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"http://www.legislation.gov.uk/id/ukpga/Eliz2/6-7/51/section/2 \"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "Files detailing payments by month - human readable",
+                "format": "PDF",
+                "id": "05f08054-512d-467e-92e8-7c64ac1fed87",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "2af3cfec-9f0a-4308-b962-6ae1a0d8ae6f",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://www.ipswichhospital.nhs.uk/aboutourhospital/expenditure",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2012-11-13T23:05:37.834110",
+                "description": "Files detailing payments by month - machine readable",
+                "format": "CSV",
+                "id": "1cdc73d1-d5c9-462e-a41d-7b8a23ee1678",
+                "last_modified": null,
+                "metadata_modified": "2012-11-13T23:05:37.834110",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "2af3cfec-9f0a-4308-b962-6ae1a0d8ae6f",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://www.ipswichhospital.nhs.uk/aboutourhospital/expenditure",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "cea423af-dac9-4224-b2ba-13de60dc85ce",
+        "frequency": "MANUAL",
+        "id": "70bc177b-ecd8-4ea2-9fd4-32d56a248cec",
+        "metadata_created": "2020-11-11T16:24:35.363488",
+        "metadata_modified": "2020-11-11T16:24:35.363495",
+        "name": "england-greenbelt-2019-20-test",
+        "notes": "Greenbelt 2019-20 test",
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "source_type": "gemini-single",
+        "state": "active",
+        "title": "England Greenbelt 2019-20 test",
+        "type": "harvest",
+        "url": "http://maps.communities.gov.uk/England_Green_Belt_2019-20_Test_update.xml",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2,
+            "last_job": {
+                "id": "48af0505-3c73-434b-b2dc-e39fe9b28e76",
+                "created": "2020-11-12 14:31:03.867107",
+                "gather_started": "2020-11-12 14:31:03.986013",
+                "gather_finished": "2020-11-12 14:31:04.054687",
+                "finished": "2020-11-12 14:31:04.241247",
+                "source_id": "70bc177b-ecd8-4ea2-9fd4-32d56a248cec",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 1,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\":\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 0
+        }
+    }
+}

@@ -1,0 +1,265 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "geographycustomerservices@nrscotland.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "e6c50e18-af2c-470d-ac92-97282cfe4762",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2014-04-11T14:50:52.071551",
+        "metadata_modified": "2024-06-19T11:19:00.943358",
+        "name": "census-2011-island-groups",
+        "notes": "The geography of Scotland comprises the mainland plus many islands.  Some of these islands are inhabited and through time their inhabited/uninhabited status can change.  \n\nAs statistics for individual islands could reveal details about individual people, the individual islands have been grouped into 56 \u2018island groups\u2019 for 2011 Census output.\n\nRevisions and Corrections\nAn anomaly was discovered in the 2011 Island Groups boundaries where the boundaries for some of the island groups were not including the mainland part of the island group.",
+        "num_resources": 3,
+        "num_tags": 6,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Census 2011 - Island Groups",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following statements must be used when reproducing or using this material: Copyright National Records of Scotland, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2016-08-15\"}, {\"type\": \"creation\", \"value\": \"2013-08-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "ad7c7374-7a2e-4258-8a32-6fd1446e602a"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "3a10a088-7b9f-4958-8751-7271e854425f"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-17T11:23:37"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "National Records of Scotland"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "National Records of Scotland (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:00.987048",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "d1b3fa85-1103-457d-aa37-a04e87d600ec",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:00.948840",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "IslandGroups2011",
+                "package_id": "e6c50e18-af2c-470d-ac92-97282cfe4762",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2011/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:00.987051",
+                "description": "OGC Feature Download",
+                "format": "",
+                "hash": "",
+                "id": "f9e5cd7b-e579-4100-baa6-aa8427079f96",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:00.948935",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CEN2011:IslandGroups2011",
+                "package_id": "e6c50e18-af2c-470d-ac92-97282cfe4762",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2011/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:00.987052",
+                "description": "Geography \u2013 Civil Parishes and Islands - ESRI Shapefiles",
+                "format": "",
+                "hash": "",
+                "id": "cecf678b-5028-4039-af25-48a0144e8cf2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:00.949004",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "National Records of Scotland website",
+                "package_id": "e6c50e18-af2c-470d-ac92-97282cfe4762",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/other-national-records-of-scotland-nrs-geographies-datasets",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Boundaries",
+                "id": "761f5ab1-0549-4ea2-9f26-90e94153b09f",
+                "name": "Boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Censuses",
+                "id": "6681e351-a494-4ddd-8ee6-e0b076aacfe2",
+                "name": "Censuses",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Statistical units",
+                "id": "5c1fe287-ebfd-4a64-9580-29baa322a3d0",
+                "name": "Statistical units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "census survey",
+                "id": "28f851c8-04ff-4028-a6c5-0eafd84264a1",
+                "name": "census survey",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "island",
+                "id": "dcd32880-7f1d-4648-864b-d3afaf4f57b5",
+                "name": "island",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "statistical data",
+                "id": "8ce17b2c-73e1-4db1-a06b-7e32b83bc5ea",
+                "name": "statistical data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "59998f37-74cb-423e-b427-f4ce936167e8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

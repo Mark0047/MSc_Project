@@ -1,0 +1,280 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "7dc8ed18-2842-4f80-8b70-30cd61cf8d57",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-11-12T06:03:37.560637",
+        "metadata_modified": "2024-11-17T11:01:03.358175",
+        "name": "bridleways20",
+        "notes": "Public Rights Of Way",
+        "num_resources": 8,
+        "num_tags": 3,
+        "organization": {
+            "id": "5327851e-43b8-408c-bf83-a00d39f58dea",
+            "name": "wigan-metropolitan-borough-council",
+            "title": "Wigan Metropolitan Borough Council",
+            "type": "organization",
+            "description": "gis datasets harvested from Wigan Councils Open Data site http://opendata.wigan.gov.uk",
+            "image_url": "",
+            "created": "2012-06-27T14:49:35.957090",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "5327851e-43b8-408c-bf83-a00d39f58dea",
+        "private": false,
+        "state": "active",
+        "title": "Bridleways",
+        "type": "dataset",
+        "url": "https://opendata.wigan.gov.uk/datasets/Wigan::bridleways",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2021-03-22T09:55:39.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-11-17T07:44:56.899Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Wigan Council"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=7573ebb251db47768d490f4c6153889a&sublayer=4"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9892dddd-9655-4577-a998-d61d545f2688"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c951075d-26cc-47cb-822b-d8de5fa5d3cb"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wigan Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:37.570238",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "ccd87940-5040-4460-bf2a-af02246cdc84",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:37.556841",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "7dc8ed18-2842-4f80-8b70-30cd61cf8d57",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/datasets/Wigan::bridleways",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:37.570240",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "4289da7a-d435-4cbd-92d6-18bb49827175",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:37.556918",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "7dc8ed18-2842-4f80-8b70-30cd61cf8d57",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.wigan.gov.uk/arcgis/rest/services/Roads_Travel/Rights_Of_Way/MapServer/4",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:37.570241",
+                "description": null,
+                "format": "OGC WFS",
+                "hash": "",
+                "id": "4d0eaed0-a115-4694-9649-e2bf64fcb4e4",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:37.556981",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WFS",
+                "package_id": "7dc8ed18-2842-4f80-8b70-30cd61cf8d57",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.wigan.gov.uk/arcgis/services/Roads_Travel/Rights_Of_Way/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:37.570242",
+                "description": null,
+                "format": "OGC WMS",
+                "hash": "",
+                "id": "55d76ad5-cd2f-4cbc-902a-a45f02c27a05",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:37.557036",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WMS",
+                "package_id": "7dc8ed18-2842-4f80-8b70-30cd61cf8d57",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.wigan.gov.uk/arcgis/services/Roads_Travel/Rights_Of_Way/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:37.570242",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "6725f7d4-b76b-4cdb-8ebb-4f11fa13dd1e",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:37.557090",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "7dc8ed18-2842-4f80-8b70-30cd61cf8d57",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/7573ebb251db47768d490f4c6153889a/csv?layers=4",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:37.570243",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "a1e6d992-70f4-45c3-a540-917180ee7382",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:37.557146",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "7dc8ed18-2842-4f80-8b70-30cd61cf8d57",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/7573ebb251db47768d490f4c6153889a/geojson?layers=4",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:37.570244",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "57ed6566-ef70-4c58-b289-0d2f8f12d633",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:37.557201",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "7dc8ed18-2842-4f80-8b70-30cd61cf8d57",
+                "position": 6,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/7573ebb251db47768d490f4c6153889a/shapefile?layers=4",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:03:37.570245",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "d4d8306f-916c-4d36-8aa2-4133760ba736",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:03:37.557254",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "7dc8ed18-2842-4f80-8b70-30cd61cf8d57",
+                "position": 7,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/7573ebb251db47768d490f4c6153889a/kml?layers=4",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Paths",
+                "id": "d2d8111b-7ef5-4faf-a029-0ec6ea2f1946",
+                "name": "Paths",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "footpaths",
+                "id": "637567f6-88d9-4465-bdb2-5cd2ca0bfe2d",
+                "name": "footpaths",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "rights of way",
+                "id": "b0d1998d-82fe-4d2e-8cff-dfb6c76bcf59",
+                "name": "rights of way",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9892dddd-9655-4577-a998-d61d545f2688"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c951075d-26cc-47cb-822b-d8de5fa5d3cb"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wigan Council"
+            }
+        ]
+    }
+}

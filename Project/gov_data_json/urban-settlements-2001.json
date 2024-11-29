@@ -1,0 +1,232 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@communities.gsi.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "8dd37cff-2957-4f23-b7ec-5edd6eea7769",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2016-03-17T16:15:42.348813",
+        "metadata_modified": "2016-03-17T16:15:42.363305",
+        "name": "urban-settlements-2001",
+        "notes": "Hand digitised polygons around urban settlements, as was in 2001.",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Urban Settlements 2001",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.79"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.82"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.9"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.375"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2001-04-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "00e12325-5ab3-49f2-abe9-d9652bc85299"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "858324a0-6ea3-4535-8fb4-188239d57f71"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/48f370c9-7ab9-4550-9722-8c9477020fc7/103-Urban_Settlements_2001.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "None"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-03-17"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Department for Communities and Local Government (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[1.79, 49.9],[1.79, 55.82], [-6.375, 55.82], [-6.375, 49.9], [1.79, 49.9]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/4326"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96ea048f-6d39-4f42-a4d0-fe8c7af767a0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-03-17T16:15:42.398852",
+                "description": "information",
+                "format": "WMS",
+                "hash": "",
+                "id": "79eea8dd-aeea-465c-85a0-51cc72820456",
+                "last_modified": null,
+                "metadata_modified": "2016-03-17T16:15:42.398852",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DCLG INSPIRE OGC WMS Service",
+                "package_id": "8dd37cff-2957-4f23-b7ec-5edd6eea7769",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.communities.gov.uk/geoserver/dclg_inspire/wms?service=WMS&request=getCapabilities",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-03-17T16:15:31.801395",
+                "wms_base_urls": "http://maps.communities.gov.uk:80/geoserver/dclg_inspire/ows"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-03-17T16:15:42.398870",
+                "description": "download",
+                "format": "",
+                "hash": "",
+                "id": "3488ba16-6e24-4d52-b5b0-c17e12b1f15b",
+                "last_modified": null,
+                "metadata_modified": "2016-03-17T16:15:42.398870",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Geoserver shapefile download",
+                "package_id": "8dd37cff-2957-4f23-b7ec-5edd6eea7769",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.communities.gov.uk/geoserver/dclg_inspire/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=dclg_inspire:Urban_Settlements_2001_WGS84&outputFormat=shape-zip&srsName=EPSG:4326",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-03-17T16:15:42.398876",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "7e56f496-035e-43aa-98da-7f5683f3f190",
+                "last_modified": null,
+                "metadata_modified": "2016-03-17T16:15:42.398876",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DCLG INSPIRE OGC WFS Service",
+                "package_id": "8dd37cff-2957-4f23-b7ec-5edd6eea7769",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.communities.gov.uk/geoserver/dclg_inspire/ows?service=WFS&version=2.0.0&request=GetFeature&type",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "858324a0-6ea3-4535-8fb4-188239d57f71"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96ea048f-6d39-4f42-a4d0-fe8c7af767a0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

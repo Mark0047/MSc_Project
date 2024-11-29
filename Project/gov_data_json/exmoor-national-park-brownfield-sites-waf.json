@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "683e51c4-03b1-46f4-ad3b-33f060963daa",
+        "metadata_created": "2019-01-23T11:47:56.853590",
+        "metadata_modified": "2019-01-23T11:47:56.853600",
+        "name": "exmoor-national-park-brownfield-sites-waf",
+        "notes": "Import From UK Metadata Editor",
+        "organization": {
+            "id": "834ef847-25ed-4115-b0df-3901d2be2052",
+            "name": "exmoor-national-park",
+            "title": "Exmoor National Park Authority",
+            "type": "organization",
+            "description": "Exmoor was designated as a National Park in 1954. Since then the co-ordination of work to achieve National Park purposes in the area has been undertaken by local government \u2013 first by the county councils and, since 1997, by a free-standing authority. The authority decides what measures can be taken to achieve these purposes, which are:\r\n\r\nTo conserve and enhance the natural beauty, wildlife and cultural heritage of the National Parks and\r\nTo promote opportunities for the understanding and enjoyment of the special qualities of the Parks by the public\r\n",
+            "image_url": "",
+            "created": "2013-10-30T12:28:40.721608",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "834ef847-25ed-4115-b0df-3901d2be2052",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Exmoor National Park Brownfield Sites WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/834ef847-25ed-4115-b0df-3901d2be2052/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2,
+            "last_job": {
+                "id": "21091413-a450-40ca-8488-a673ba08ec4c",
+                "created": "2019-03-29 17:42:58.235547",
+                "gather_started": "2019-03-29 17:42:58.634877",
+                "gather_finished": "2019-03-29 17:42:58.716402",
+                "finished": "2019-03-29 17:42:58.716402",
+                "source_id": "683e51c4-03b1-46f4-ad3b-33f060963daa",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/834ef847-25ed-4115-b0df-3901d2be2052/: SSLError(SSLError(SSLError(\"bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)\",),),)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

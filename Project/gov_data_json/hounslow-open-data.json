@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "24b48b29-19be-41f9-a23d-a0cf0f20f3a7",
+        "frequency": "MONTHLY",
+        "id": "799e7fbf-026d-438a-8ee9-121806c7d1e7",
+        "metadata_created": "2021-03-18T13:46:04.989005",
+        "metadata_modified": "2021-03-18T13:56:05.423950",
+        "name": "hounslow-open-data",
+        "notes": "Hounslow's open data portal",
+        "organization": {
+            "id": "e7e3f873-2968-4213-8558-f6c8a8965fbd",
+            "name": "london-borough-of-hounslow",
+            "title": "London Borough of Hounslow",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-08-11T14:23:26.717750",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e7e3f873-2968-4213-8558-f6c8a8965fbd",
+        "private": false,
+        "source_type": "ckan",
+        "state": "active",
+        "title": "Hounslow Open Data",
+        "type": "harvest",
+        "url": "https://data.hounslow.gov.uk",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 44,
+            "last_job": {
+                "id": "66eba012-639d-4acb-9543-1e740fd9c5ce",
+                "created": "2024-10-22 06:00:04.544290",
+                "gather_started": "2024-10-22 06:00:04.676834",
+                "gather_finished": "2024-10-22 06:00:04.842856",
+                "finished": "2024-10-22 06:00:04.842856",
+                "source_id": "799e7fbf-026d-438a-8ee9-121806c7d1e7",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to search remote CKAN for datasets:Response from remote CKAN was not JSON: '<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><meta name=\"robots\" content=\"index,follow\"/><meta property=\"og:url\" content=\"https://data.hounslow.gov.uk\"/><meta property=\"og:type\" content=\"website\"/><meta property=\"og:image\" content=\"/opengraph.jpg\"/><meta property=\"og:image:alt\" content=\"London Borough of Hounslow\"/><meta property=\"og:image:type\" content=\"image/jpg\"/><meta property=\"og:image:width\" content=\"1200\"/><meta property=\"og:image:height\" content=\"600\"/><meta property=\"og:site_name\" content=\"London Borough of Hounslow Open Data\"/><link rel=\"canonical\" href=\"https://data.hounslow.gov.uk\"/><title>404: This page could not be found</title><meta name=\"next-head-count\" content=\"13\"/><link rel=\"preload\" href=\"/_next/static/css/7ea0ff5f88fa01f6.css\" as=\"style\"/><link rel=\"stylesheet\" href=\"/_next/static/css/7ea0ff5f88fa01f6.css\" data-n-g=\"\"/><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js\"></script><script src=\"/_next/static/chunks/webpack-5a4621bc610d1a1b.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-63157d71ad419e09.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-c6c319de9f7d0316.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-2bbb06af75ee0266.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_error-54de1933a164a1ff.js\" defer=\"\"></script><script src=\"/_next/static/J1Jb_waLXLP3G1J2wKr2Y/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/J1Jb_waLXLP3G1J2wKr2Y/_ssgManifest.js\" defer=\"\"></script></head><body><div id=\"__next\"><div style=\"font-family:system-ui,&quot;Segoe UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div style=\"line-height:48px\"><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}</style><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0 20px 0 0;padding-right:23px;font-size:24px;font-weight:500;vertical-align:top\">404</h1><div style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:28px\">This page could not be found<!-- -->.</h2></div></div></div></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{\"statusCode\":404}},\"page\":\"/_error\",\"query\":{},\"buildId\":\"J1Jb_waLXLP3G1J2wKr2Y\",\"nextExport\":true,\"isFallback\":false,\"gip\":true,\"scriptLoader\":[]}</script></body></html>' url:https://data.hounslow.gov.ukterms:[]",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 32
+        }
+    }
+}

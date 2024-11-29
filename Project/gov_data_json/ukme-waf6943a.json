@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "dd87a718-4037-4e7b-bb62-78242d3c898c",
+        "metadata_created": "2019-01-23T11:36:00.914625",
+        "metadata_modified": "2024-02-01T14:37:42.800231",
+        "name": "ukme-waf6943a",
+        "notes": "Import From UK Metadata Editor",
+        "organization": {
+            "id": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+            "name": "salford-city-council",
+            "title": "Salford City Council",
+            "type": "organization",
+            "description": "Salford City Council",
+            "image_url": "2019-01-31-104033.251731SCCmag.png",
+            "created": "2012-06-27T14:50:51.970331",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/1b002cc7-d32f-4037-bd69-f0d62788ede8/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2976,
+            "last_job": {
+                "id": "c5f2af65-8c7a-4a21-8fcb-7f098d3f33b3",
+                "created": "2024-11-02 19:00:04.805113",
+                "gather_started": "2024-11-02 19:00:04.997670",
+                "gather_finished": "2024-11-02 19:00:25.024228",
+                "finished": "2024-11-02 19:00:25.024228",
+                "source_id": "dd87a718-4037-4e7b-bb62-78242d3c898c",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/1b002cc7-d32f-4037-bd69-f0d62788ede8/: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/1b002cc7-d32f-4037-bd69-f0d62788ede8/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb7e49fc750>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 7
+        }
+    }
+}

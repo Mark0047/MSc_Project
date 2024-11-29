@@ -1,0 +1,150 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "gis@lakedistrict.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "41f27fb4-dcae-45cd-be11-e76b447d949e",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2019-10-07T08:17:36.072935",
+        "metadata_modified": "2024-01-25T16:57:57.965476",
+        "name": "ldnpa-article-4-directions",
+        "notes": "This dataset comprises polygons representing areas, within the Lake District National Park, that are subject to Article 4 directions.\r\n\r\nArticle 4 directions revoke the planning permission granted by the Town and Country Planning (General Permitted Development) Order 1995 as amended, typically in part, and therefore require planning applications to be submitted in circumstances which would otherwise be permitted development (i.e. the development could normally be carried out without an application).\r\n\r\nArticle 4 directions are often made in Conservation Areas to encourage the retention of high quality architectural features and to preserve and enhance the character and appearance of the built heritage. ",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "e7e7fde7-0a36-46a2-8f05-8b44bcb10ba2",
+            "name": "lake-district-national-park",
+            "title": "Lake District National Park Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-10-30T12:30:18.199289",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e7e7fde7-0a36-46a2-8f05-8b44bcb10ba2",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "",
+        "title": "LDNPA Article 4 directions",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "42a5152b-bd92-4f68-a628-1fb8adba21fe"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5408d3e9-09ea-4ba1-866f-c813bc275644"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-01-25T16:50:25.990448",
+                "datafile-date": "",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "c2aee5d9-3bd0-4428-89f3-e805c54ee1e0",
+                "last_modified": null,
+                "metadata_modified": "2024-01-25T16:50:25.959434",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LDNPA Inspire WFS Service",
+                "package_id": "41f27fb4-dcae-45cd-be11-e76b447d949e",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lakedistrict.statmap.co.uk/map/wfs.svc/INSPIRE?service=WFS&request=GetFeature&version=2.0.0&typeName=ldnpa_inspire:LDNPA_ART4",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-01-25T16:57:57.997414",
+                "datafile-date": "",
+                "description": null,
+                "format": "SHP",
+                "hash": "",
+                "id": "7750fdf5-faf9-4465-9193-c412e7d623c7",
+                "last_modified": null,
+                "metadata_modified": "2024-01-25T16:57:57.970867",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "41f27fb4-dcae-45cd-be11-e76b447d949e",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://volunteering.lake-district.gov.uk/PublishedGIS/LDNPA_ARTICLE4.shz",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Administrative units",
+                "id": "8d20781b-12df-4d16-809a-b340746e0775",
+                "name": "Administrative units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "administration",
+                "id": "bfeca1c4-0d1e-46c4-8959-e070ad361d53",
+                "name": "administration",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "national_park",
+                "id": "45f855e9-61d8-493e-81b1-dfcaaf539900",
+                "name": "national_park",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "42a5152b-bd92-4f68-a628-1fb8adba21fe"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5408d3e9-09ea-4ba1-866f-c813bc275644"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

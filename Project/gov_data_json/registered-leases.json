@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.services@mail.landregistry.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "ada1994c-e57a-4a9f-b039-e928cb6ffee6",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-11-25T09:07:03.123202",
+        "metadata_modified": "2020-12-14T12:28:57.874099",
+        "name": "registered-leases",
+        "notes": "HM Land Registry Registered Leases data contains entries made in the Title Register that record key details from lease documents. A lease is a contract whereby a landlord grants possession of land to a tenant for a specified period of time. Any granted in excess of 7 years must be registered with HM Land Registry. The Registered Leases dataset comprises a range of data elements relating to leasehold entries including the date and term of the lease",
+        "num_resources": 1,
+        "num_tags": 5,
+        "organization": {
+            "id": "531766d9-4ec5-4fd8-bb86-a479a0107254",
+            "name": "land-registry",
+            "title": "HM Land Registry",
+            "type": "organization",
+            "description": "HM Land Registry (HMLR) registers the ownership of land and property in England and Wales. It keeps and maintains the Land Register, where more than 29 million titles (the evidence of ownership) are documented.\r\n\r\nHM Land Registry is an executive agency of the Department for Business, Energy and Industrial Strategy.\r\n\r\nhttps://www.gov.uk/land-registry\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:46.564825",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "531766d9-4ec5-4fd8-bb86-a479a0107254",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1557-09-01"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Registered Leases",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.80"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.84"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.33"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2020-07-28\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "monthly"
+            },
+            {
+                "key": "guid",
+                "value": "4f165ad1-3ca6-4e07-bd8b-ba3f27c34cda"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "13ba5f27-6b87-4773-aeca-6d49da0fcfe4"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-12-14T12:19:30"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "HM Land Registry (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.84], [-6.33, 49.84], [-6.33, 55.80], [1.78, 55.80], [1.78, 49.84]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "06f1ae16-d9c0-4d3d-948c-af35e2f34f6c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UK Location Metadata Editor"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-12-14T12:28:58.264081",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "d5b1711a-fe0c-48a6-9789-df63f5fde5a0",
+                "last_modified": null,
+                "metadata_modified": "2020-12-14T12:28:58.264081",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Information Service",
+                "package_id": "ada1994c-e57a-4a9f-b039-e928cb6ffee6",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://use-land-property-data.service.gov.uk/datasets/leases",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Date of Lease",
+                "id": "51fc1449-eb82-4137-9f33-a03b8eb0e3de",
+                "name": "Date of Lease",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Leasehold",
+                "id": "e100f407-62a9-4bcd-b8fd-d74ad05da3ee",
+                "name": "Leasehold",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Term of Lease",
+                "id": "827e242e-a559-4f0a-82ea-50175c03137e",
+                "name": "Term of Lease",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Title Register",
+                "id": "b07a03ce-2359-4e8e-af3b-51461daccbde",
+                "name": "Title Register",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land_and_property_register",
+                "id": "64e1f32a-9f1e-4379-aa0a-5150e0623724",
+                "name": "land_and_property_register",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "13ba5f27-6b87-4773-aeca-6d49da0fcfe4"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "06f1ae16-d9c0-4d3d-948c-af35e2f34f6c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UK Location Metadata Editor"
+            }
+        ]
+    }
+}

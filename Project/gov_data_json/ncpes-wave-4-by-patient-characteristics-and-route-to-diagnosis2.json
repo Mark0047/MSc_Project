@@ -1,0 +1,95 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": false,
+        "creator_user_id": "10bb831f-eddd-467e-b83d-b138b60d8eca",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "geographic_coverage": "100000: England",
+        "id": "23e1dcb4-784d-4ddb-9463-3e8fb9c117d5",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2018-08-02T13:59:02.951556",
+        "metadata_modified": "2018-08-02T13:59:02.965271",
+        "name": "ncpes-wave-4-by-patient-characteristics-and-route-to-diagnosis2",
+        "notes": "The English Cancer Patient Experience Survey (CPES) is commissioned by NHS England and administered on their behalf by an external survey provider organisation (Quality Health).  The survey provides insights into the care experienced by cancer patients across England who were treated as day cases or inpatients. Data from CPES has been linked to cancer registration records recorded by the National Cancer Registration and Analysis Service (the cancer registry in England). Individual responses to Wave 4 of CPES are recorded , alongside characteristics of the patient who has completed the survey.\r\n\r\nWave 4 of the National Cancer Patient Experience Survey is limited to patients discharged from cancer care between 01/09/2013 \u2013 30/11/2013.\r\n\r\nData within the file:\r\n--PATIENT_PSEUDO_ID (Project specific Pseudonymised Patient ID)\r\nGENDER (coded Male, Female)\r\n--QUINTILE2010 (Deprivation quintile [1-5], describing the  Income Deprivation Domain where 1= least deprived and 5= most deprived)\r\n--FINAL_ROUTE (One of eight Routes to Diagnosis-  methodology for the assignment of  each route is described  in Elliss-Brookes L, McPhail S, Greenslade M, Shelton J, Hiom S, Richards M (2012) Routes to diagnosis for cancer \u2013 determining the patient journey using multiple routine data sets. British Journal of Cancer 107: 1220\u20131226.)\r\n--AGE (aggregated in 4 categories: <55, 55-64, 65-74, 75+)\r\n--STAGE (stage of the cancer coded as I, II, III, IV, missing)                                                                                                                                                                                                                                                                                                                              --CANCER_SITE (Cancer sites coded in accordance with ICD 10: C00-C14, C15, C16, C18, C19-C20, C25, C33-C34, C43, C49, C50, C54, C56, C61, C64, C67, C73, C82, C83, C85, C90, C91-C95, D05 and \u2018all other ICD-10 codes\u2019\r\n\r\nSpecific disclosure controls applied:\r\n--Gender omitted from the data specification in the following cancer sites: \r\n\u2022 Female only for C50, D05 and C73\r\n\u2022 Male only for C49                                                                                                                                                                                                                                                                                                    \r\n--Self-reported ethnicity (from the CPES surveys) aggregated into white British / non-white British / not specified.\r\n--Self-reported ethnicity omitted for C49, C64, C73 (replaced as \u201cmissing\u201d).",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "b669a115-2f1c-44e2-93cd-419999c3fbdf",
+            "name": "public-health-england",
+            "title": "Public Health England",
+            "type": "organization",
+            "description": "We work with national and local government, industry and the NHS to protect and improve the nation's health and support healthier choices. We are addressing inequalities by focusing on removing barriers to good health.\r\n\r\nPHE is an executive agency of the Department of Health",
+            "image_url": "",
+            "created": "2013-04-25T10:52:05.799336",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b669a115-2f1c-44e2-93cd-419999c3fbdf",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "",
+        "theme-secondary": [
+            ""
+        ],
+        "title": "Cancer Registration: National Cancer Patient Experience Survey Wave 4 by patient characteristics and route to diagnosis",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-08-02T14:59:03.001332",
+                "description": "NCPES Wave 4 by patient characteristics and route to diagnosis",
+                "format": "XLSX",
+                "hash": "",
+                "id": "fcdac452-e21c-40e6-834d-789077bbf5ee",
+                "last_modified": null,
+                "metadata_modified": "2018-08-02T14:59:03.001332",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "23e1dcb4-784d-4ddb-9463-3e8fb9c117d5",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://ncin.org.uk/item?rid=3750",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,414 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "46bc8e73-68d4-4574-9096-695b782b7cc1",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-08-29T13:26:44.153141",
+        "metadata_modified": "2021-08-26T10:42:11.732589",
+        "name": "surfzone-digital-elevation-model-2014",
+        "notes": "This dataset has been retired and replaced with Surfzone DEM 2019 dataset available here: \nhttps://environment.data.gov.uk/dataset/77e6f743-d708-4909-a80f-9510b7dbaa16 \n\nThe SurfZone Digital Elevation Model (DEM) was produced in 2014 to model the coastal zone post the 2013/2014 UK winter storms. Using the best available LIDAR and near-shore multibeam SONAR bathymetry available at the time, it is the best currently available Digital Elevation Model (DEM) covering the inter-tidal zone produced by the Environment Agency.\n\nThe SurfZone DEM was produced by using a bespoke feathering technique to smooth the overlaps between LIDAR and Bathymetric surveys to produce a seamless surface. Small gaps between surveys were interpolated to produce a full coverage DEM of the near-shore. For all regions except Anglian Digital Terrain Models (DTM) derived from LIDAR were used. For the Anglian coastline a Digital Surface Models (DSM) were used. \n\nAll LIDAR data used in the production of the SurfZone DEM was surveyed by the Environment Agency. Bathymetry Data was supplied by the Environment Agency and the National Network of Regional Coastal Monitoring Programmes of England from the Channel Coastal Observatory (www.channelcoast.org) website.\n\nThe EA SurfZone DEM 2014 is supplied as a tiled raster dataset in GeoTiff format. Each tile is 5km * 5km and aligned to the Ordinance Survey National Grid. Each pixel represents 2 metres spatial resolution on the ground and elevations are presented in metres to Ordinance Survey Great Britain using the OSGM'15 and OSTM'15 transformation models. Elevations are referenced to Newlyn except for the Isles of Scilly which is referenced to St Marys. The data is also available as an ESRI Image Service enabling you to use the data at source with GIS.\n\nThe Metadata Index Catalogue layer provides information about the source of the elevation data used, either LIDAR or Bathymetry for any area as well as the surface type, coastal monitoring region, geoidal model and transformation models used. The catalogues are available to download in shapefile, ESRI File Geodatabase and GeoJSON.  \n\nThe National Network of Regional Coastal Monitoring Programmes of England comprises of 6 Regional Programmes. You must use the copyright statements in the licence restrictions section of this document to acknowledge the individual regions. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2017. All rights reserved.\n\nScarborough Borough Council: \u201cData/image courtesy of the Northeast Regional Coastal Monitoring Programme. Data available under Scarborough Borough Council.\"\n\nEast Riding of Yorkshire Council: \u201cData/image courtesy of the East Riding of Yorkshire Coastal Monitoring Programme. Data available under East Riding of Yorkshire Council\".\n\nNew Forest District Council: \u201cData/image courtesy of the Channel Coastal Observatory. Data available under New Forest District Council.\"\n\nTeignbridge District Co: \"Data/image courtesy of the Southwest Regional Coastal Monitoring Programme. Data available under Teignbridge District Council\".\n\nSefton Metropolitan Borough Council: \"Data/image courtesy of the Northwest Regional Coastal Monitoring Programme. Data available under Sefton Council\".",
+        "num_resources": 9,
+        "num_tags": 7,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2002-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2014-12-31"
+        ],
+        "title": "SurfZone Digital Elevation Model 2014",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.8"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.8"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.7"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2018-03-27\"}, {\"type\": \"revision\", \"value\": \"2019-07-11\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "a002de79-97af-45db-a36d-548d5397eb83"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "da72f394-f5d4-412c-b17a-dd148cc75eab"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-08-26"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.8, 50], [-5.7, 50], [-5.7, 55.8], [1.8, 55.8], [1.8, 50]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-26T10:42:11.929433",
+                "description": "Surf Zone Digital Elevation Model WMS",
+                "format": "",
+                "hash": "",
+                "id": "a9ae2469-ca05-4be4-a99f-7dc38a1c487e",
+                "last_modified": null,
+                "metadata_modified": "2021-08-26T10:42:11.741454",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SurfZone_Digital_Elevation_Model_WMS",
+                "package_id": "46bc8e73-68d4-4574-9096-695b782b7cc1",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/ea-surfzone-dem/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-26T10:42:11.929439",
+                "description": "Survey Download",
+                "format": "",
+                "hash": "",
+                "id": "8c39759d-f9de-462a-b9bd-3be7faa3c41f",
+                "last_modified": null,
+                "metadata_modified": "2021-08-26T10:42:11.741636",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey_Download",
+                "package_id": "46bc8e73-68d4-4574-9096-695b782b7cc1",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "DSP:ESRI",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/DefraDataDownload/?Mode=survey",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-26T10:42:11.929441",
+                "description": "SurfZone Digital Elevation Model Image Service Endpoint",
+                "format": "",
+                "hash": "",
+                "id": "704d6b40-a99a-4014-9b7b-f9489cab916e",
+                "last_modified": null,
+                "metadata_modified": "2021-08-26T10:42:11.741776",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SurfZone_Digital_Elevation_Model_Image_Service_REST",
+                "package_id": "46bc8e73-68d4-4574-9096-695b782b7cc1",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "https:",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/image/rest/services/EA/EA_SurfZone_DEM/ImageServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-26T10:42:11.929443",
+                "description": "SurfZone Digital Elevation Model Catalogues REST Endpoint",
+                "format": "",
+                "hash": "",
+                "id": "6d5a5811-34c3-457d-a3c1-2531a8265a02",
+                "last_modified": null,
+                "metadata_modified": "2021-08-26T10:42:11.741911",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SurfZone_Digital_Elevation_Model_Catalogues_REST",
+                "package_id": "46bc8e73-68d4-4574-9096-695b782b7cc1",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "https:",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/arcgis/rest/services/SURVEY/EA_SurfZone_DEM_Catalogues/MapServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-26T10:42:11.929445",
+                "description": "SurfZone Digital Elevation Model Catalogues Technical Note",
+                "format": "",
+                "hash": "",
+                "id": "84827c7a-b28a-49b5-a104-376307cf85fe",
+                "last_modified": null,
+                "metadata_modified": "2021-08-26T10:42:11.742042",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SurfZone_Digital_Elevation_Model_Catalogues_Technical_Note",
+                "package_id": "46bc8e73-68d4-4574-9096-695b782b7cc1",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/datafiles/b8ea28fec0fe47cba87e49fcc6caf84b",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-26T10:42:11.929446",
+                "description": "Download the coverage metadata files",
+                "format": "",
+                "hash": "",
+                "id": "5c4a07aa-be60-4533-8f66-9603e7281f9d",
+                "last_modified": null,
+                "metadata_modified": "2021-08-26T10:42:11.742171",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Shapefile Index Catalogues - Download",
+                "package_id": "46bc8e73-68d4-4574-9096-695b782b7cc1",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "DSP:ESRI",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/DefraDataDownload/?mapService=EA/SurveyIndexFiles&Mode=spatial",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-26T10:42:11.929448",
+                "description": "Coverage metadata files - Web Map Service",
+                "format": "",
+                "hash": "",
+                "id": "d5026869-53e8-484d-a407-b6d2afb3758c",
+                "last_modified": null,
+                "metadata_modified": "2021-08-26T10:42:11.742301",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Index Catalogues - WMS",
+                "package_id": "46bc8e73-68d4-4574-9096-695b782b7cc1",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-26T10:42:11.929450",
+                "description": "Coverage metadata files - Web Feature Service",
+                "format": "",
+                "hash": "",
+                "id": "9f5235db-7f51-4f59-90ce-e6dca1df5dc0",
+                "last_modified": null,
+                "metadata_modified": "2021-08-26T10:42:11.742428",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Index Catalogues - WFS",
+                "package_id": "46bc8e73-68d4-4574-9096-695b782b7cc1",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-26T10:42:11.929451",
+                "description": "Survey Data Catalogue FAQs",
+                "format": "",
+                "hash": "",
+                "id": "95b9547c-2c5c-4212-ae0a-32776f5329c6",
+                "last_modified": null,
+                "metadata_modified": "2021-08-26T10:42:11.742583",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey_Data_FAQs",
+                "package_id": "46bc8e73-68d4-4574-9096-695b782b7cc1",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http:",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://support.environment.data.gov.uk/hc/en-gb/sections/360001747351-Survey-Data-Catalogue",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Elevation",
+                "id": "3daf450f-da9b-4dad-a339-66a66856defb",
+                "name": "Elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "GIS digital format",
+                "id": "ff104d23-7af4-49da-a1ed-9a8c7e1fb48c",
+                "name": "GIS digital format",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "GIS digital system",
+                "id": "4f573889-3f7e-47a0-86ec-f7e1070b1a24",
+                "name": "GIS digital system",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "GIS digital technique",
+                "id": "673e1dbe-01f1-441b-bbad-6104dc8d5626",
+                "name": "GIS digital technique",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "OpenData",
+                "id": "6bc85120-d8ca-4fe1-91fa-d1831be59c7d",
+                "name": "OpenData",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mapping",
+                "id": "30d25a52-1974-410f-b063-19b46af2aa5e",
+                "name": "mapping",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "remote sensing",
+                "id": "a966b150-db31-4f8b-87f1-905c46d706ff",
+                "name": "remote sensing",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "da72f394-f5d4-412c-b17a-dd148cc75eab"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

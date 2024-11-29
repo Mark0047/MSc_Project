@@ -1,0 +1,352 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "2e0f68b1-70df-43cc-ad61-ed5ef0e585d1",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-11-09T16:58:19.263017",
+        "metadata_modified": "2024-09-20T14:40:16.681622",
+        "name": "reservoir-flood-extents-dry-day-national",
+        "notes": "This data shows the individual flood extents for all large raised reservoirs in the event that they were to fail and release the water held on a \u201cdry day\u201d when local rivers are at normal levels.\n\nIt represents a prediction of a credible worst case scenario, however it\u2019s unlikely that any actual flood would be this large.  The data gives no indication of the likelihood or probability of reservoir flooding.\n\nFlood extents are not included for smaller reservoirs or for reservoirs commissioned after the reservoir modelling programme began in October 2016. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2023. All rights reserved.",
+        "num_resources": 6,
+        "num_tags": 8,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2021-09-02"
+        ],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Reservoir Flood Extents - Dry Day (National)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2021-09-02\"}, {\"type\": \"revision\", \"value\": \"2024-09-06\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "c66ee97f-49d2-454e-9a19-d48a47bd22ad"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "0c92ebce-b5ad-4a2b-a3ca-86d6f3899491"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-09-06"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-20T14:40:16.757223",
+                "description": "Data Version.txt download on Defra Data Services Platform",
+                "format": "TXT",
+                "hash": "",
+                "id": "44206bed-d723-4ea6-b9c1-cf9ff28b1225",
+                "last_modified": null,
+                "metadata_modified": "2024-09-20T14:40:16.687351",
+                "mimetype": "text/plain",
+                "mimetype_inner": null,
+                "name": "Data Version.txt",
+                "package_id": "2e0f68b1-70df-43cc-ad61-ed5ef0e585d1",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=7edac58e-e2d7-4421-801b-c18a580e7210&fileName=Data Version.txt",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-20T14:40:16.757225",
+                "description": "Reservoir_Flood_Extents_Dry_Day.lyr download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "70aaf03b-1c5c-4740-88d6-f201ba7c1125",
+                "last_modified": null,
+                "metadata_modified": "2024-09-20T14:40:16.687448",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Reservoir_Flood_Extents_Dry_Day.lyr",
+                "package_id": "2e0f68b1-70df-43cc-ad61-ed5ef0e585d1",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=7edac58e-e2d7-4421-801b-c18a580e7210&fileName=Reservoir_Flood_Extents_Dry_Day.lyr",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-20T14:40:16.757226",
+                "description": "Reservoir_Flood_Maps_Data_Guide.pdf download on Defra Data Services Platform",
+                "format": "PDF",
+                "hash": "",
+                "id": "7be845f7-cff0-4192-be44-f3d657515d07",
+                "last_modified": null,
+                "metadata_modified": "2024-09-20T14:40:16.687512",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Reservoir_Flood_Maps_Data_Guide.pdf",
+                "package_id": "2e0f68b1-70df-43cc-ad61-ed5ef0e585d1",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=7edac58e-e2d7-4421-801b-c18a580e7210&fileName=Reservoir_Flood_Maps_Data_Guide.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-20T14:40:16.757227",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "308a50cc-96d8-4ee2-aa27-d0856d442ca4",
+                "last_modified": null,
+                "metadata_modified": "2024-09-20T14:40:16.687571",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Reservoir_Flood_Extents_Dry_Day_download",
+                "package_id": "2e0f68b1-70df-43cc-ad61-ed5ef0e585d1",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/c66ee97f-49d2-454e-9a19-d48a47bd22ad?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-20T14:40:16.757228",
+                "description": "Reservoir Flood Extents - Dry Day WMS",
+                "format": "",
+                "hash": "",
+                "id": "81089364-cf52-4452-ac03-8c0c7e70da9d",
+                "last_modified": null,
+                "metadata_modified": "2024-09-20T14:40:16.687626",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Reservoir_Flood_Extents_Dry_Day_WMS",
+                "package_id": "2e0f68b1-70df-43cc-ad61-ed5ef0e585d1",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/reservoir-flood-extents-dry-day/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-20T14:40:16.757229",
+                "description": "Reservoir Flood Extents - Dry Day WFS",
+                "format": "",
+                "hash": "",
+                "id": "b585a23e-4517-4d57-bbf4-4fe0da5f6b30",
+                "last_modified": null,
+                "metadata_modified": "2024-09-20T14:40:16.687680",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Reservoir_Flood_Extents_Dry_Day_WFS",
+                "package_id": "2e0f68b1-70df-43cc-ad61-ed5ef0e585d1",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/reservoir-flood-extents-dry-day/wfs",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Flood Risk",
+                "id": "66d5c7d1-2f4a-4263-9329-367066eeb4a3",
+                "name": "Flood Risk",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Flood risk assessment",
+                "id": "b2e24a3c-3dab-452d-b275-137a6d6bfb3c",
+                "name": "Flood risk assessment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Reservoirs",
+                "id": "0117ead9-66ee-4b6d-84b2-653b37b53e4f",
+                "name": "Reservoirs",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood",
+                "id": "90af076f-75b0-42fc-80aa-ac2ff7993443",
+                "name": "flood",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mapping",
+                "id": "30d25a52-1974-410f-b063-19b46af2aa5e",
+                "name": "mapping",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "modelling",
+                "id": "0fe9c0ed-cd02-4e25-98e5-8aca3898757e",
+                "name": "modelling",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "reservoir",
+                "id": "f7c2798b-d51e-42c0-886e-93b5e2a289a2",
+                "name": "reservoir",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "90a599b2-cdd3-4eb2-81ec-fa92508343c9"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "7e030327-9944-452c-8a48-60e893fab7f3",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2014-11-01T05:40:17.877975",
+        "metadata_modified": "2016-03-06T19:14:18.508497",
+        "name": "parking-expenditure-hdc",
+        "notes": "<p>Parking Expenditure</p>\r\n<p>If you require further information related to this dataset, please <a title=\"Make a FOI request using our online form\" href=\"https://ebusiness.horsham.gov.uk/officeforms/HDC_FOIrequest.ofml\" target=\"_blank\"><span style=\"color: #609214;\">make a FOI request</span></a> using our online form.</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "db2b3cab-0e46-4ceb-9210-255d7bbda412",
+            "name": "horsham-district-council",
+            "title": "Horsham District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-08-09T07:36:33.133668",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "db2b3cab-0e46-4ceb-9210-255d7bbda412",
+        "private": false,
+        "state": "active",
+        "theme-primary": "government",
+        "theme-secondary": [
+            "Government Spending"
+        ],
+        "title": "Parking Expenditure",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.horsham.gov.uk/parking/parking-expenditure"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "543b66b8-1289-4381-9059-832b609a36a6"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.horsham.gov.uk/parking/parking-expenditure"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "parking/parking-expenditure"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": "http://id.esd.org.uk/service/1465"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-03-04"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://data.horsham.gov.uk/api/esdInventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2016-03-04T00:00:00\", \"harvest_source_title\": \"Horsham District Council Datashare\", \"activity_occurred\": \"2016-03-06T19:14:18.446380\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.horsham.gov.uk/parking/parking-expenditure\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6836bd94-7f6a-4737-a398-d228618afe2e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Horsham District Council Datashare"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-11-01T05:40:17.907191",
+                "description": "Parking Expenditure - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "20dff455-2302-4e2f-9ae6-853f5a06b743",
+                "last_modified": null,
+                "metadata_modified": "2014-11-01T05:40:17.907191",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "7e030327-9944-452c-8a48-60e893fab7f3",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.horsham.gov.uk/api/parking/parking-expenditure/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.horsham.gov.uk/Download/parking/parking-expenditure",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-03-06T19:14:18.536789",
+                "description": "Parking exp 2013-14 - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "e08d6a84-6f59-45b4-a6c9-fd87d96e9a67",
+                "last_modified": null,
+                "metadata_modified": "2016-03-06T19:14:18.536789",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "7e030327-9944-452c-8a48-60e893fab7f3",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.horsham.gov.uk/api/parking/parking-expenditure/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.horsham.gov.uk/download/parking/parking-expenditure/parking-exp-2013-14/CSV?version=06/03/2016",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-03-06T19:14:18.536812",
+                "description": "Parking exp 2013-14 - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "ecf58965-f4d5-417a-b69e-bac7752bb397",
+                "last_modified": null,
+                "metadata_modified": "2016-03-06T19:14:18.536812",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "7e030327-9944-452c-8a48-60e893fab7f3",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.horsham.gov.uk/api/parking/parking-expenditure/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.horsham.gov.uk/download/parking/parking-expenditure/parking-exp-2013-14/XML?version=06/03/2016",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-11-01T05:40:17.907225",
+                "description": "Parking exp 2013-14 - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "1219d763-348c-4f0e-859a-e42362180005",
+                "last_modified": null,
+                "metadata_modified": "2014-11-01T05:40:17.907225",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "7e030327-9944-452c-8a48-60e893fab7f3",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.horsham.gov.uk/api/parking/parking-expenditure/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.horsham.gov.uk/api/parking/parking-expenditure/parking-exp-2013-14?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-11-01T05:40:17.907232",
+                "description": "Parking exp 2013-14 - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "40066bd5-d6e1-42ef-bd87-15791f8a27b8",
+                "last_modified": null,
+                "metadata_modified": "2014-11-01T05:40:17.907232",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "7e030327-9944-452c-8a48-60e893fab7f3",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.horsham.gov.uk/api/parking/parking-expenditure/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.horsham.gov.uk/api/parking/parking-expenditure/parking-exp-2013-14?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "543b66b8-1289-4381-9059-832b609a36a6"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6836bd94-7f6a-4737-a398-d228618afe2e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Horsham District Council Datashare"
+            }
+        ]
+    }
+}

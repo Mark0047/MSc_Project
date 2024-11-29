@@ -1,0 +1,141 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a4a58a4b-97b7-4d26-bae2-ec4a78ac8c3c",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-06-16T02:20:40.328115",
+        "metadata_modified": "2016-06-17T02:30:20.294260",
+        "name": "northern-powergrid-calderdale-investment-data",
+        "notes": "<p>This data from Northern Powergrid shows investment plans for Calderdale over the next few years.</p>",
+        "num_resources": 2,
+        "num_tags": 0,
+        "odi-certificate": "",
+        "organization": {
+            "id": "8f45940b-a372-4709-9119-cf19ac249ede",
+            "name": "calderdale-metropolitan-borough-council",
+            "title": "Calderdale Metropolitan Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:08.577384",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "8f45940b-a372-4709-9119-cf19ac249ede",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Northern Powergrid - Calderdale Investment Data",
+        "type": "dataset",
+        "update_frequency": "Annually",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "dp_created",
+                "value": "2016-06-15T15:41:34"
+            },
+            {
+                "key": "dp_modified",
+                "value": "2016-06-16T11:50:25"
+            },
+            {
+                "key": "email_notify_author",
+                "value": "false"
+            },
+            {
+                "key": "email_notify_maintainer",
+                "value": "false"
+            },
+            {
+                "key": "guid",
+                "value": "a4a58a4b-97b7-4d26-bae2-ec4a78ac8c3c"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e9892a27-8656-4c80-b42c-23664af5f176"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_text",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-06-16"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://dataworks.calderdale.gov.uk/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2016-06-16T11:50:25\", \"harvest_source_title\": \"Calderdale Dataworks\", \"activity_occurred\": \"2016-06-17T02:30:20.250380\", \"activity\": \"harvest\", \"harvested_guid\": \"a4a58a4b-97b7-4d26-bae2-ec4a78ac8c3c\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": "2016-06-15T15:44:07.183988",
+                "cache_url": null,
+                "coverage_end_date": "None",
+                "coverage_start_date": "None",
+                "created": "2016-06-15T15:44:06.821119",
+                "csvlint_json": "{}",
+                "datastore_json": "{}",
+                "description": "",
+                "format": "XLS",
+                "hash": "1fc2f3819a5775ce7d221e3de213017f",
+                "id": "4b8cba3d-06b9-487d-a6f5-c6a7c675ebf0",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2016-06-15T15:44:06.821119",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "Northern Powergrid - Calderdale Investment Data",
+                "package_id": "a4a58a4b-97b7-4d26-bae2-ec4a78ac8c3c",
+                "position": 0,
+                "resource_type": null,
+                "size": 12306,
+                "state": "active",
+                "url": "https://files.datapress.com/calderdale/dataset/northern-powergrid---calderdale-investment-data/2016-06-15T15:44:01/Northern Powergrid - Calderdale Investment Data.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": "2016-06-15T15:44:24.527515",
+                "cache_url": null,
+                "coverage_end_date": "None",
+                "coverage_start_date": "None",
+                "created": "2016-06-15T15:44:24.130768",
+                "csvlint_json": "{\"in_progress\": false, \"data\": {\"num_errors\": 0, \"errors\": [], \"success\": true, \"warnings\": [{\"category\": \"context\", \"column\": null, \"body_html\": \"<p>The encoding of your CSV file is not being declared in the HTTP response.<br> We recommend that you configure your server to deliver CSV files with a <code>Content-Type</code> header of <code>text/csv; charset=utf-8</code><br> If you are using a different encoding, then use an appropriate value for the <code>charset</code> parameter.</p>\", \"content\": \"\", \"title_html\": \"Context problem: <strong>No encoding</strong>\", \"type\": \"no_encoding\", \"row\": null}], \"num_warnings\": 1, \"encoding\": \"UTF-8\", \"valid\": true, \"content_type\": \"text/csv\", \"num_info_messages\": 1, \"schema_uri\": null, \"info_messages\": [{\"category\": \"structure\", \"column\": null, \"body_html\": \"<p>As there is no machine readable way to tell if your CSV has a header row, we have assumed that your CSV has one.</p>\", \"content\": \"\", \"title_html\": \"Structure problem: <strong>Assumed header</strong>\", \"type\": \"assumed_header\", \"row\": null}]}}",
+                "datastore_json": "{}",
+                "description": "",
+                "format": "CSV",
+                "hash": "140c5c79d6c90d4430e1383e12e90a85",
+                "id": "bb2e0aa8-2f99-43a1-8263-b5654ee6aad2",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2016-06-15T15:44:24.130768",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Northern Powergrid - Calderdale Investment Data",
+                "package_id": "a4a58a4b-97b7-4d26-bae2-ec4a78ac8c3c",
+                "position": 1,
+                "resource_type": null,
+                "size": 4441,
+                "state": "active",
+                "url": "https://files.datapress.com/calderdale/dataset/northern-powergrid---calderdale-investment-data/2016-06-15T15:44:21/Northern Powergrid - Calderdale Investment Data.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

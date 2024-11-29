@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "1dd3f477-2b92-4302-ab46-83894a6785fc",
+        "metadata_created": "2019-01-23T10:43:36.968189",
+        "metadata_modified": "2020-01-22T15:23:11.000729",
+        "name": "london-borough-of-lewisham",
+        "notes": "",
+        "organization": {
+            "id": "306b202d-b24d-47b4-8482-985fed1695b8",
+            "name": "london-borough-of-lewisham",
+            "title": "London Borough of Lewisham",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:28:04.669565",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "306b202d-b24d-47b4-8482-985fed1695b8",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "London Borough of Lewisham",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/London_Borough_of_Lewisham",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 16,
+            "last_job": {
+                "id": "4ad6d1ef-c464-4181-8fe9-e89da072f257",
+                "created": "2020-01-24 15:20:29.328944",
+                "gather_started": "2020-01-24 15:20:30.912504",
+                "gather_finished": "2020-01-24 15:20:31.324032",
+                "finished": "2020-01-24 15:20:55.220883",
+                "source_id": "1dd3f477-2b92-4302-ab46-83894a6785fc",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 23,
+                    "errored": 24,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 24
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 25
+        }
+    }
+}

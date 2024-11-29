@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@cheshireeast.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "97f72429-5b2b-499e-b27f-8e9f084aa938",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-03-31T09:45:35.751992",
+        "metadata_modified": "2021-09-09T12:07:38.995748",
+        "name": "ps-sd-hbsmrlocallylistedbuildings-point-current1",
+        "notes": "Local Lists of Historic Buildings recognise locally distinctive historic or architecturally significant buildings and structures. Typically these lists identify buildings and structures that are of local importance yet without another form of national historic environment designation, such as a Listed Building of Special Architectural or Historic Interest.\n\nCheshire East Council, Cheshire West and Chester Council and Warrington Borough Council maintain Local Lists as Supplementary Planning Documents which are a material consideration in the determination of planning applications. ",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+            "name": "cheshire-east-council",
+            "title": "Cheshire East Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T10:02:35.362710",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "PS_SD_HBSMRLocallyListedBuildings_POINT_CURRENT",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Ordnance Survey Derived Data\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.8690490695"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.6108401590"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.7549965310"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.2148742648"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2018-03-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "as needed"
+            },
+            {
+                "key": "guid",
+                "value": "1720_CE"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f84d1239-69ae-41ae-8e56-23143bcf7d21"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-03-30T10:32:12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Cheshire East Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.8690490695, 52.7549965310], [-3.2148742648, 52.7549965310], [-3.2148742648, 53.6108401590], [-1.8690490695, 53.6108401590], [-1.8690490695, 52.7549965310]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c2313407-de24-49b2-b652-70156a7f980a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-09-09T12:07:39.026574",
+                "description": "WMS (View Service)",
+                "format": "",
+                "hash": "",
+                "id": "31785c03-7465-40d5-9930-e07a01c6cef9",
+                "last_modified": null,
+                "metadata_modified": "2021-09-09T12:07:39.001375",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "PS_SD_HBSMRLocallyListedBuildings_POINT_CURRENT (WMS)",
+                "package_id": "97f72429-5b2b-499e-b27f-8e9f084aa938",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CEOpenData/PS_SD_HBSMRLocallyListedBuildings_POINT_CURRENT/wms?request=GetCapabilities&version=1.1.1&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-09-09T12:07:39.026579",
+                "description": "WFS (Download Service)",
+                "format": "",
+                "hash": "",
+                "id": "e3d5b65b-4779-40c1-8717-6e6f9d4164ec",
+                "last_modified": null,
+                "metadata_modified": "2021-09-09T12:07:39.001549",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "PS_SD_HBSMRLocallyListedBuildings_POINT_CURRENT (WFS)",
+                "package_id": "97f72429-5b2b-499e-b27f-8e9f084aa938",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CEOpenData/PS_SD_HBSMRLocallyListedBuildings_POINT_CURRENT/wfs?request=Getfeature&TypeName=PS_SD_HBSMRLocallyListedBuildings_POINT_CURRENT&version=1.1.0&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "f84d1239-69ae-41ae-8e56-23143bcf7d21"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c2313407-de24-49b2-b652-70156a7f980a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "280af587-144d-4109-94c6-d5e638f20990",
+        "frequency": "MANUAL",
+        "id": "06f1ae16-d9c0-4d3d-948c-af35e2f34f6c",
+        "metadata_created": "2020-11-25T09:05:59.572383",
+        "metadata_modified": "2020-11-25T09:05:59.572388",
+        "name": "uk-location-metadata-editor",
+        "notes": "",
+        "organization": {
+            "id": "531766d9-4ec5-4fd8-bb86-a479a0107254",
+            "name": "land-registry",
+            "title": "HM Land Registry",
+            "type": "organization",
+            "description": "HM Land Registry (HMLR) registers the ownership of land and property in England and Wales. It keeps and maintains the Land Register, where more than 29 million titles (the evidence of ownership) are documented.\r\n\r\nHM Land Registry is an executive agency of the Department for Business, Energy and Industrial Strategy.\r\n\r\nhttps://www.gov.uk/land-registry\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:46.564825",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "531766d9-4ec5-4fd8-bb86-a479a0107254",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UK Location Metadata Editor",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/531766d9-4ec5-4fd8-bb86-a479a0107254/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 4,
+            "last_job": {
+                "id": "46c15d24-672d-4662-bd04-8c9627286414",
+                "created": "2020-12-14 12:40:22.888593",
+                "gather_started": "2020-12-14 12:40:23.016567",
+                "gather_finished": "2020-12-14 12:40:24.998148",
+                "finished": "2020-12-14 12:40:27.839910",
+                "source_id": "06f1ae16-d9c0-4d3d-948c-af35e2f34f6c",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 12,
+                    "errored": 13,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 13
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 9
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 10
+        }
+    }
+}

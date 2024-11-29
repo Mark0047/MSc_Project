@@ -1,0 +1,68 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "{\"organizations_filter_include\": [\"trafford-council\"]}",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "f613fcc9-1f50-43ff-848d-db55e1a7273c",
+        "metadata_created": "2019-01-23T11:05:12.108041",
+        "metadata_modified": "2019-01-23T11:05:12.108048",
+        "name": "trafford-subset-of-datagm",
+        "notes": "",
+        "organization": {
+            "id": "82d3b529-bdf9-46a8-a735-10cd376bb9de",
+            "name": "trafford-council",
+            "title": "Trafford Council",
+            "type": "organization",
+            "description": "Trafford Council is the local authority of the Metropolitan Borough of Trafford in Greater Manchester, England.",
+            "image_url": "",
+            "created": "2014-06-17T11:11:15.242793",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "organizations_filter_include": [
+            "trafford-council"
+        ],
+        "owner_org": "82d3b529-bdf9-46a8-a735-10cd376bb9de",
+        "private": false,
+        "source_type": "ckan",
+        "state": "active",
+        "title": "Trafford subset of DataGM",
+        "type": "harvest",
+        "url": "https://www.datagm.org.uk",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 7,
+            "last_job": {
+                "id": "18ac5d63-bbe5-4dea-b419-379d69fb93a5",
+                "created": "2018-03-12 16:41:04.955910",
+                "gather_started": "2018-03-12 16:41:11.159608",
+                "gather_finished": "2018-03-12 16:41:12.364963",
+                "finished": null,
+                "source_id": "f613fcc9-1f50-43ff-848d-db55e1a7273c",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "No datasets listed",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

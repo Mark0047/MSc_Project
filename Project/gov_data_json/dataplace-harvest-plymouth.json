@@ -1,0 +1,63 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "{\"organizations_filter_include\": [\"plymouth\"]}",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "cb5400c9-e7d1-4113-8d56-4af05dd0d07b",
+        "metadata_created": "2019-01-23T11:13:20.539060",
+        "metadata_modified": "2024-02-01T16:35:56.557988",
+        "name": "dataplace-harvest-plymouth",
+        "notes": "",
+        "organization": {
+            "id": "00cb3d53-764a-466b-878d-6976afaf1bfe",
+            "name": "plymouth-city-council",
+            "title": "Plymouth City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:48:50.617663",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "organizations_filter_include": [
+            "plymouth"
+        ],
+        "owner_org": "00cb3d53-764a-466b-878d-6976afaf1bfe",
+        "private": false,
+        "source_type": "ckan",
+        "state": "active",
+        "title": "Dataplace harvest - Plymouth",
+        "type": "harvest",
+        "url": "http://plymouth.thedata.place/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 282,
+            "last_job": {
+                "id": "d8837061-8af3-424a-923e-c6fdb95062f9",
+                "created": "2024-11-02 11:00:04.436880",
+                "gather_started": "2024-11-02 11:00:52.527783",
+                "gather_finished": "2024-11-02 11:00:53.054985",
+                "finished": "2024-11-02 11:00:54.999510",
+                "source_id": "cb5400c9-e7d1-4113-8d56-4af05dd0d07b",
+                "status": "Finished",
+                "stats": {
+                    "added": 3,
+                    "updated": 1,
+                    "not modified": 0,
+                    "errored": 0,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": []
+            },
+            "total_datasets": 156
+        }
+    }
+}

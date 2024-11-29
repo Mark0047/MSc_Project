@@ -1,0 +1,184 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "a76f46f9-c10b-4fe7-82f6-aa928471fcd1",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:16:56.512024",
+        "metadata_modified": "2024-11-16T22:02:14.501768",
+        "name": "land-area-and-population-density-ward-and-borough",
+        "notes": "Land area and population density figures for 2001 to 2050 for wards and boroughs. Ward data begins in 2011.\n\nPopulation figure included are GLA estimate (2016-based projections), 2011 Census and ONS Mid-year Estimates.\n\nGLA figures are based on [GLA population projections](/dataset/projections). Select which year you require from the drop-down box in the spreadsheet.\n\nInland area takes account of water line. Areas with large bodies of water will have a smaller inland area than total area since some of the area will be water.\n\nLand area figures are taken from Ordnance Survey boundaries using MapInfo.",
+        "num_resources": 3,
+        "num_tags": 6,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Land Area and Population Density, Ward and Borough",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/land-area-and-population-density-ward-and-borough",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2014-01-08T16:03:00"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2018-03-05T13:23:49.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "8797ab28-a43c-4d88-8c86-3d9aa80ca9f9"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:14:39.946156",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "d509bc74-8451-4017-bc28-df5d177f8a3c",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:13.850918",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Land Area & Population - Borough (CSV Version)",
+                "package_id": "a76f46f9-c10b-4fe7-82f6-aa928471fcd1",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/land-area-and-population-density-ward-and-borough/77e9257d-ad9d-47aa-aeed-59a00741f301/housing-density-borough.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-27T04:56:12.430203",
+                "description": null,
+                "format": "XLSX",
+                "hash": "",
+                "id": "db93353a-c65c-40ed-9676-b6858e8d90df",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:13.851040",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "Land Area & Population Density",
+                "package_id": "a76f46f9-c10b-4fe7-82f6-aa928471fcd1",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/land-area-and-population-density-ward-and-borough/cc4e7e08-3071-488f-bdd9-a62cb1ed1c5c/land-area-population-density-london.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:14:39.946179",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "71825c59-3165-4961-99de-317f17e4fba8",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:13.851143",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Land Area & Population - Ward (CSV Version)",
+                "package_id": "a76f46f9-c10b-4fe7-82f6-aa928471fcd1",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/land-area-and-population-density-ward-and-borough/d961f13b-6726-4fa8-823f-03b379429b72/housing-density-ward.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "2011-census",
+                "id": "ceaf1805-8632-408c-84ad-795019dfda2f",
+                "name": "2011-census",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "density",
+                "id": "085367cb-f0ec-4586-a4fd-352fc40dfe27",
+                "name": "density",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "hectares",
+                "id": "140f694d-90be-4e80-a45b-f3540400654d",
+                "name": "hectares",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land",
+                "id": "f5cd996c-9dd4-4927-a5ea-c1716d2f2921",
+                "name": "land",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "population",
+                "id": "40739b84-20b5-415f-87f6-7ab11b26d2b3",
+                "name": "population",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wards",
+                "id": "0ccd5b6f-6085-4db7-9e16-4e1a74deace4",
+                "name": "wards",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "87261645-a1bf-4a1d-8b01-ea7f98b8e1be"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

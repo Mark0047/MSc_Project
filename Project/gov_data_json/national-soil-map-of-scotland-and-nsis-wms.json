@@ -1,0 +1,198 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "soils@hutton.ac.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "1466099d-4ee3-40fb-a85a-fe7239db4647",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2014-02-17T10:22:08.013285",
+        "metadata_modified": "2024-06-19T11:15:30.389036",
+        "name": "national-soil-map-of-scotland-and-nsis-wms",
+        "notes": "This service is the digital (vector) version of the Soils of Scotland 1:250,000 maps plus the National Soil Inventory of Scotland 10 km survey. Refer to the datasets for more information.",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1981-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2013-12-31"
+        ],
+        "title": "National Soil Map of Scotland and NSIS WMS",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"no limitations to public access\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"title\": [], \"href\": [\"http://scotgovsdi.edina.ac.uk/srv/en/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=B7E65842-C041-4950-BF0C-3AF06C2DBAE7\"], \"uuid\": [\"B7E65842-C041-4950-BF0C-3AF06C2DBAE7\"]}, {\"title\": [], \"href\": [\"http://scotgovsdi.edina.ac.uk/srv/en/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=b72a313a-9740-4ae6-917f-683b0457486c\"], \"uuid\": [\"b72a313a-9740-4ae6-917f-683b0457486c\"]}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-02-13\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "irregular"
+            },
+            {
+                "key": "guid",
+                "value": "794714b8-fdf5-47ef-99d3-e37bf67b5552"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f6d21854-3717-4957-b649-0c313aa23484"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-07-19"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The James Hutton Institute (custodian, distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "view"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "OSGB 1936 / British National Grid (EPSG:27700)"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": true,
+                "created": "2024-06-19T11:15:30.415864",
+                "description": "1:250,000 Soils and NSIS View Service",
+                "format": "WMS",
+                "hash": "",
+                "id": "7c7eec3c-2170-414e-ace4-323d018f753e",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:30.394413",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "1:250,000 Soils and NSIS View Service",
+                "package_id": "1466099d-4ee3-40fb-a85a-fe7239db4647",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://DRUID.HUTTON.AC.UK/arcgis/services/Hutton_NSIS_and_Soils/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null,
+                "verified": true,
+                "verified_date": "2024-06-19T11:15:30.380248"
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Soil",
+                "id": "2de8cd8d-8f9b-41cf-9307-87138d2f372a",
+                "name": "Soil",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "infoMapAccessService",
+                "id": "061d2dbc-d2e4-429c-a613-e101834e6f73",
+                "name": "infoMapAccessService",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "ad129fd0-6850-4e82-9e88-2f45470eb914"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

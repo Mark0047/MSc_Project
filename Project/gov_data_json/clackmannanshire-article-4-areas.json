@@ -1,0 +1,198 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@clacks.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "403df6b6-ee97-4150-b7ee-bfdb54647920",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-10-16T21:02:00.201801",
+        "metadata_modified": "2024-10-16T21:02:00.201804",
+        "name": "clackmannanshire-article-4-areas",
+        "notes": "The boundaries of Article 4 Areas within Clackmannanshire. These are areas where the planning authority has removed certain permitted development rights, requiring planning permission for certain types of development.",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Clackmannanshire - Article 4 Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Local Nature Conservation Sites data, Clackmannanshire Council, licensed under the Open Government Licence (OGL).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-3.57"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.22"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "56.07"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.89"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2019-12-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "30711952-55da-44a2-ab8b-03a773b71f79"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d0011195-5b15-4708-afbf-281b688d563e"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-08-30T14:58:04.924Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Clackmannanshire Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Clackmannanshire Council (publisher, custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-3.57, 56.07], [-3.89, 56.07], [-3.89, 56.22], [-3.57, 56.22], [-3.57, 56.07]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-16T21:02:00.203300",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "47e73fac-a588-4298-bb56-4e432fc0bf1a",
+                "last_modified": null,
+                "metadata_modified": "2024-10-16T21:02:00.195265",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Article 4 Areas",
+                "package_id": "403df6b6-ee97-4150-b7ee-bfdb54647920",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://clacks.cloud.cadcorp.com/WFS/wfs.exe?&SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&typenames=ns:Article_4_Areas",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Scotland",
+                "id": "716a6411-668c-4ee3-8637-23a44c02b393",
+                "name": "Scotland",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "protected area",
+                "id": "4e0dbe3f-fd58-4236-aefe-df57d6ebccc9",
+                "name": "protected area",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d0011195-5b15-4708-afbf-281b688d563e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

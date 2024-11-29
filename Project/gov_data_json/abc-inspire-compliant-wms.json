@@ -1,0 +1,60 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "834f52dd-d151-4ecc-875f-d786f95d3c25",
+        "metadata_created": "2019-01-23T11:08:13.702516",
+        "metadata_modified": "2019-01-23T11:08:13.702523",
+        "name": "abc-inspire-compliant-wms",
+        "notes": "Allerdale Borough Council's Geonetwork service operated through geoserver WMS",
+        "organization": {
+            "id": "48b0c8b0-a9e0-42a6-ae31-901b61d1f257",
+            "name": "allerdale-borough-council",
+            "title": "Allerdale Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-07-30T17:00:56.621719",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48b0c8b0-a9e0-42a6-ae31-901b61d1f257",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "ABC Inspire Compliant WMS",
+        "type": "harvest",
+        "url": "http://geonet.allerdale.gov.uk/geonetwork/srv/en/csw?",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 85,
+            "last_job": {
+                "id": "475b0d39-a370-4309-9a13-64f1b5f821bb",
+                "created": "2017-03-01 09:55:58.712244",
+                "gather_started": "2017-03-01 09:56:01.373685",
+                "gather_finished": "2017-03-01 09:56:10.193923",
+                "finished": "2017-03-01 09:58:47.265852",
+                "source_id": "834f52dd-d151-4ecc-875f-d786f95d3c25",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 0,
+                    "errored": 0,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": []
+            },
+            "total_datasets": 102
+        }
+    }
+}

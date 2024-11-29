@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "customerservices@os.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "8e3915a0-db84-4c07-9eb4-34887b2b068c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-10-13T21:04:39.604013",
+        "metadata_modified": "2024-08-28T13:55:59.450473",
+        "name": "os-cities-data2",
+        "notes": "Great Britain's (England, Scotland, Wales) cities (e.g. London, Birmingham, Edinburgh) named and represented as point features with an indicative bounding box. This data is often used for geocoding, service delivery and statistical analysis. OS Cities Data is available in a number of Ordnance Survey (OS) products: OS Open Names (bounding box and point geometry), OS Names API, MasterMap Topography Layer (point geometry), Vector Map Local (point geometry) and Vector Map District (point geometry). Small-scale cartographic representations are also available in OS cartographic products.\u00a0All data is collected by Ordnance Survey as part of their role as the National Mapping Agency of Great Britain.",
+        "num_resources": 1,
+        "num_tags": 5,
+        "organization": {
+            "id": "776f0897-ded1-411a-88c6-e8687ccf3875",
+            "name": "ordnance-survey",
+            "title": "Ordnance Survey",
+            "type": "organization",
+            "description": "Ordnance Survey is Great Britain\u2019s national mapping agency. It carries out the official surveying of GB, providing the most accurate and up-to-date geographic data, relied on by government, business and individuals.\r\n\r\nOS is a government owned company, accountable to Department for Business, Innovation & Skills\r\n\r\nhttps://os.uk/\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:53:10.634259",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "776f0897-ded1-411a-88c6-e8687ccf3875",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2021-03-11"
+        ],
+        "title": "OS Cities Data",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.86"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.86"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.45"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2021-03-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "0ae8b404-66d8-42e6-a0f7-fde94123f3b2"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c17be25f-e815-4bbd-b2a6-684b647ade21"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-08-14T15:42:29.811Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Ordnance Survey"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Ordnance Survey (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.86], [-8.45, 49.86], [-8.45, 60.86], [1.78, 60.86], [1.78, 49.86]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-28T13:55:59.497914",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "c041e9e6-f82f-46c1-b7ad-4dffda6d7f54",
+                "last_modified": null,
+                "metadata_modified": "2024-08-28T13:55:59.455169",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OS Open Names",
+                "package_id": "8e3915a0-db84-4c07-9eb4-34887b2b068c",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://osdatahub.os.uk/downloads/open/OpenNames",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "city",
+                "id": "71069d21-8700-45db-b359-1c1059d646e0",
+                "name": "city",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "conurbation",
+                "id": "4844376b-a146-4b14-8be9-ae43dfe2e984",
+                "name": "conurbation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "human settlement",
+                "id": "413c97b2-91ee-4640-b733-ef3ea5a06d21",
+                "name": "human settlement",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "urban area",
+                "id": "2a515694-813e-4ef2-a31c-419f0a3eed52",
+                "name": "urban area",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "urban concentration",
+                "id": "0f308217-1070-4626-a7a5-c52c4a855594",
+                "name": "urban concentration",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "eb3b2663-a690-4d6f-8d3a-1c34b5861fce"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ]
+    }
+}

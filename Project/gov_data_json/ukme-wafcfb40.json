@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "5408d3e9-09ea-4ba1-866f-c813bc275644",
+        "metadata_created": "2019-01-23T10:58:37.729359",
+        "metadata_modified": "2019-01-23T10:58:37.729367",
+        "name": "ukme-wafcfb40",
+        "notes": "Import From UK Metadata Editor",
+        "organization": {
+            "id": "e7e7fde7-0a36-46a2-8f05-8b44bcb10ba2",
+            "name": "lake-district-national-park",
+            "title": "Lake District National Park Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-10-30T12:30:18.199289",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e7e7fde7-0a36-46a2-8f05-8b44bcb10ba2",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/e7e7fde7-0a36-46a2-8f05-8b44bcb10ba2/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 32,
+            "last_job": {
+                "id": "d8f6560d-fde8-4000-bb68-96013471ae61",
+                "created": "2024-01-19 09:29:42.776863",
+                "gather_started": "2024-01-19 09:29:42.857303",
+                "gather_finished": "2024-01-19 09:29:42.911512",
+                "finished": "2024-01-19 09:29:42.911512",
+                "source_id": "5408d3e9-09ea-4ba1-866f-c813bc275644",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/e7e7fde7-0a36-46a2-8f05-8b44bcb10ba2/: ConnectionError(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/e7e7fde7-0a36-46a2-8f05-8b44bcb10ba2/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb154c7c760>: Failed to establish a new connection: [Errno 111] Connection refused'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 7
+        }
+    }
+}

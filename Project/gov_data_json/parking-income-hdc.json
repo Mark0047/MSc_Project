@@ -1,0 +1,222 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "d654be5f-cb41-483b-8506-7921add2857c",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2014-11-01T05:40:16.756618",
+        "metadata_modified": "2016-03-06T19:14:17.685201",
+        "name": "parking-income-hdc",
+        "notes": "<p>Parking income broken down by\u00a0car park\u00a0including sales, season tickets and rental.</p>\r\n<p>If you require further information related to this dataset, please <a title=\"Make a FOI request using our online form\" href=\"https://ebusiness.horsham.gov.uk/officeforms/HDC_FOIrequest.ofml\" target=\"_blank\"><span style=\"color: #609214;\">make a FOI request</span></a> using our online form.</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "db2b3cab-0e46-4ceb-9210-255d7bbda412",
+            "name": "horsham-district-council",
+            "title": "Horsham District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-08-09T07:36:33.133668",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "db2b3cab-0e46-4ceb-9210-255d7bbda412",
+        "private": false,
+        "state": "active",
+        "theme-primary": "government",
+        "theme-secondary": [
+            "Transport"
+        ],
+        "title": "Parking Income",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.horsham.gov.uk/parking/parking-income"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "fca929ad-1717-42c2-99cf-54fbddb2ffbb"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.horsham.gov.uk/parking/parking-income"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "parking/parking-income"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": "http://id.esd.org.uk/service/1584"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-03-04"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://data.horsham.gov.uk/api/esdInventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2016-03-04T00:00:00\", \"harvest_source_title\": \"Horsham District Council Datashare\", \"activity_occurred\": \"2016-03-06T19:14:17.619743\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.horsham.gov.uk/parking/parking-income\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6836bd94-7f6a-4737-a398-d228618afe2e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Horsham District Council Datashare"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-11-01T05:40:16.854414",
+                "description": "Parking Income - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "4c8cb030-6c57-412e-a2a9-d4b3cf59027c",
+                "last_modified": null,
+                "metadata_modified": "2014-11-01T05:40:16.854414",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "d654be5f-cb41-483b-8506-7921add2857c",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.horsham.gov.uk/api/parking/parking-income/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.horsham.gov.uk/Download/parking/parking-income",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-03-06T19:14:17.729639",
+                "description": "Parking income 2013-14 - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "25955944-11a6-4108-b84c-74c4db3c00c4",
+                "last_modified": null,
+                "metadata_modified": "2016-03-06T19:14:17.729639",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "d654be5f-cb41-483b-8506-7921add2857c",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.horsham.gov.uk/api/parking/parking-income/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.horsham.gov.uk/download/parking/parking-income/parking-income-2013-14/CSV?version=06/03/2016",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-03-06T19:14:17.729662",
+                "description": "Parking income 2013-14 - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "2b416c8e-4d59-4836-9ac3-4a8a6ef7751f",
+                "last_modified": null,
+                "metadata_modified": "2016-03-06T19:14:17.729662",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "d654be5f-cb41-483b-8506-7921add2857c",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.horsham.gov.uk/api/parking/parking-income/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.horsham.gov.uk/download/parking/parking-income/parking-income-2013-14/XML?version=06/03/2016",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-11-01T05:40:16.854458",
+                "description": "Parking income 2013-14 - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "ee561ec7-1f3f-4e28-a792-e6455636a067",
+                "last_modified": null,
+                "metadata_modified": "2014-11-01T05:40:16.854458",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "d654be5f-cb41-483b-8506-7921add2857c",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.horsham.gov.uk/api/parking/parking-income/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.horsham.gov.uk/api/parking/parking-income/parking-income-2013-14?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-11-01T05:40:16.854465",
+                "description": "Parking income 2013-14 - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "41ede24b-0561-478c-84a3-bfecb2227714",
+                "last_modified": null,
+                "metadata_modified": "2014-11-01T05:40:16.854465",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "d654be5f-cb41-483b-8506-7921add2857c",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.horsham.gov.uk/api/parking/parking-income/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.horsham.gov.uk/api/parking/parking-income/parking-income-2013-14?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "fca929ad-1717-42c2-99cf-54fbddb2ffbb"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6836bd94-7f6a-4737-a398-d228618afe2e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Horsham District Council Datashare"
+            }
+        ]
+    }
+}

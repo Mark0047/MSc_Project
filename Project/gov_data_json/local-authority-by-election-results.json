@@ -1,0 +1,135 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "a4ccdaca-de76-4a75-9d88-691fb68de861",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:16:50.389116",
+        "metadata_modified": "2024-11-16T22:02:25.296073",
+        "name": "local-authority-by-election-results",
+        "notes": "A summary of local by-election results since the elections in May 2010.\n\nThis file will be periodically updated.\n\nTable contains the followng fields:\n\nDate, Ward Code, Ward name, Borough name, Winner (Party), Gain/hold, Majority, Turnout, Winning candidate name, Replaced councillor name, Number of votes per party.",
+        "num_resources": 1,
+        "num_tags": 5,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Local Authority By-Election Results",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/local-authority-by-election-results",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2015-06-30T13:31:41.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2015-09-24T15:06:08.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "0571b384-5dd2-4bfd-8821-d27f75a90fee"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:18:54.474864",
+                "description": null,
+                "format": "XLS",
+                "hash": "",
+                "id": "c3c9afea-5f4f-4ef6-b859-e3b0192218f8",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:31.483170",
+                "mimetype": "application/vnd.ms-excel",
+                "mimetype_inner": null,
+                "name": "local-by-election-results-since-2010-london",
+                "package_id": "a4ccdaca-de76-4a75-9d88-691fb68de861",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/local-authority-by-election-results/46039198-d31e-4f03-af36-3fb5ade18db8/local-by-election-results-since-2010-london.xls",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "by election",
+                "id": "48438c70-ef6c-42a2-85fe-dc3862aae0dc",
+                "name": "by election",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "councillors",
+                "id": "70fa9709-fd20-4eb3-a287-f5df5ca3718e",
+                "name": "councillors",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "elections",
+                "id": "3730dfb4-2654-4033-a799-78006617bb02",
+                "name": "elections",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "voting",
+                "id": "226468a3-8f56-45ce-a987-4194c5d9872e",
+                "name": "voting",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wards",
+                "id": "0ccd5b6f-6085-4db7-9e16-4e1a74deace4",
+                "name": "wards",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5a36d962-86f0-496f-86ad-d1922d709f5c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

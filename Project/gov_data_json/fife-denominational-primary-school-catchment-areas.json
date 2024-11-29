@@ -1,0 +1,253 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "corporate.gis@fife.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "bdc1d85b-a9ed-4891-a144-fa32ba00cf77",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-02-21T11:42:08.213754",
+        "metadata_modified": "2021-02-04T06:46:47.776630",
+        "name": "fife-denominational-primary-school-catchment-areas",
+        "notes": "The denominational (Roman Catholic) primary school catchment areas dataset shows all areas of land in Fife, displayed within irregularly shaped boundaries, each of which is associated with one denominational primary school and used as a catchment area for enrolment at the school.",
+        "num_resources": 3,
+        "num_tags": 4,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Fife Denominational Primary School Catchment Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.420000048"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.512472252"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "55.965666662000004"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.831111248"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2013-09-30\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "862ca66d-e0f6-4c8a-8872-da13080b5339"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b9634db4-65bc-4908-8243-cf6d24df610b"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Fife Council has created the Supplied Data using Ordnance Survey data, and publishes it to fulfil its obligations under the INSPIRE Regulations 2009.The use of the Supplied Data is governed by the provisions the Ordnance Survey Public Sector End User Licence - INSPIRE.   This End User Licence will take effect, and will be deemed to have been accepted by you upon accessing or using the Supplied Data. Full details of End User Licence: http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-02-03"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Fife Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.420000048, 55.965666662000004], [-3.831111248, 55.965666662000004], [-3.831111248, 56.512472252], [-2.420000048, 56.512472252], [-2.420000048, 55.965666662000004]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-04T06:46:48.064443",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "7ac93a59-7e42-448a-b77a-bcdc2fc0f423",
+                "last_modified": null,
+                "metadata_modified": "2021-02-04T06:46:48.064443",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fife Spatial Data WMS",
+                "package_id": "bdc1d85b-a9ed-4891-a144-fa32ba00cf77",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/wms?version=1.1.0&request=Getcapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-04T06:46:48.064449",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "6781c5a5-70e7-43e2-829e-98a7b72921e2",
+                "last_modified": null,
+                "metadata_modified": "2021-02-04T06:46:48.064449",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download ESRI Shapefile",
+                "package_id": "bdc1d85b-a9ed-4891-a144-fa32ba00cf77",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:RC_SCHOOL_PRIMARY_CATCHMENTS&outputformat=SHAPE-ZIP",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-04T06:46:48.064452",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "d4aefa8e-301a-46d0-92dd-c7c1278810aa",
+                "last_modified": null,
+                "metadata_modified": "2021-02-04T06:46:48.064452",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fife Denominational Primary School Catchment Areas (WFS)",
+                "package_id": "bdc1d85b-a9ed-4891-a144-fa32ba00cf77",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:RC_SCHOOL_PRIMARY_CATCHMENTS&maxFeatures=1000000&outputFormat=GML2",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Roman Catholic",
+                "id": "0b8384b6-8953-44c9-95a2-ca4bf2b82e65",
+                "name": "Roman Catholic",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "denominational primary school",
+                "id": "bd309e2f-ce69-49e6-9c80-8d2e16b6fe19",
+                "name": "denominational primary school",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "denominational school catchment",
+                "id": "ef2eb291-f46f-441b-bc0c-1511f74949cf",
+                "name": "denominational school catchment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "education",
+                "id": "2a9f55c0-fc24-4630-a641-640a3a98d598",
+                "name": "education",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b9634db4-65bc-4908-8243-cf6d24df610b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

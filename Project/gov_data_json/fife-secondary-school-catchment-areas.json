@@ -1,0 +1,232 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "corporate.gis@fife.gov.uk",
+        "creator_user_id": null,
+        "id": "b16f930d-9438-47ba-89d8-55eef4c46e96",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-01-24T10:02:13.764422",
+        "metadata_modified": "2021-02-04T06:45:23.954441",
+        "name": "fife-secondary-school-catchment-areas",
+        "notes": "The non-denominational secondary school catchment areas dataset shows all areas of land in Fife, displayed within irregularly shaped boundaries, each of which is associated with one non-denominational secondary school and used as a catchment area for enrolment at the school.",
+        "num_resources": 2,
+        "num_tags": 4,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005"
+        ],
+        "temporal_coverage-to": [
+            "2020"
+        ],
+        "title": "Fife Secondary School Catchment Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.420000048"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.512472252"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "55.965666662000004"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.831111248"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2013-09-30\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "446a8da8-57cb-447e-83af-a569fb30908d"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f5e8070b-2752-4d21-8f5e-9afedd025e04"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Fife Council has created the supplied data using Ordnance Survey data. The following attribution statement is required to acknowledge the source of information as \\\"Copyright Fife Council, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year)\\u201d.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-02-03"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Fife Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.420000048, 55.965666662000004], [-3.831111248, 55.965666662000004], [-3.831111248, 56.512472252], [-2.420000048, 56.512472252], [-2.420000048, 55.965666662000004]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-04T06:45:24.247291",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "5cfab237-30d7-43a2-b9d0-46d7984cb9b0",
+                "last_modified": null,
+                "metadata_modified": "2021-02-04T06:45:24.247291",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fife WMS",
+                "package_id": "b16f930d-9438-47ba-89d8-55eef4c46e96",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/wms?version=1.1.0&request=Getcapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-04T06:45:24.247298",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "299d4b04-159c-4dbb-8d94-9aa92071e4a1",
+                "last_modified": null,
+                "metadata_modified": "2021-02-04T06:45:24.247298",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fife Secondary School Catchment Areas (WFS)",
+                "package_id": "b16f930d-9438-47ba-89d8-55eef4c46e96",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:SCHOOL_SECONDARY_CATCHMENTS&maxFeatures=1000000&outputFormat=GML2",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "education",
+                "id": "2a9f55c0-fc24-4630-a641-640a3a98d598",
+                "name": "education",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "high school",
+                "id": "a0939aa1-0288-4b8e-b9ef-bd42ac44ac43",
+                "name": "high school",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "school catchment",
+                "id": "7bd9ea43-0814-4867-8dab-6a9f20c62f4c",
+                "name": "school catchment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "secondary school",
+                "id": "15cbcba9-6a35-4abd-a233-32adff7f631d",
+                "name": "secondary school",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "f5e8070b-2752-4d21-8f5e-9afedd025e04"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

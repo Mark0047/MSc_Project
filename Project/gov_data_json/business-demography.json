@@ -1,0 +1,152 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "c12076fd-d97f-4454-84e5-b5f4c879d8bd",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-07-11T13:39:06.362228",
+        "metadata_modified": "2023-05-11T20:34:04.934033",
+        "name": "business-demography",
+        "notes": "Business demography data counts numbers of active businesses with turnover or employment in a reporting year.  It also indicates numbers of new businesses (business births) and numbers of businesses terminated (business deaths) during the reporting year.\r\n\r\nNumbers and percentages of businesses that were newly created during years leading up to the latest reporting year, and which were still surviving, are also shown.\r\n\r\nWhen using the data, comparative business birth or death rates may be constructed adhoc if needed, by dividing the number of births or deaths by the number of active businesses.\r\n\r\nPlease note that due to being required early in the reporting cycle, numbers of business deaths are provisional and may be subject to later revision.  For more information about the dataset and its methodology, see the source link.\r\n\r\nSource: Office for National Statistics (ONS)\r\n",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+            "name": "lincolnshire-county-council",
+            "title": "Lincolnshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:38:51.868332",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+        "private": false,
+        "state": "active",
+        "title": "Business Demography",
+        "type": "dataset",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/datasets/businessdemographyreferencetable",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-06-19T11:40:47.172403",
+                "datastore_active": true,
+                "description": "Dataset for Business Demography",
+                "format": "CSV",
+                "hash": "",
+                "id": "b3939396-49b6-44ed-b3c9-726783156cbd",
+                "last_modified": "2022-11-17T15:40:07.337866",
+                "metadata_modified": "2022-12-11T19:56:56.005621",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Business Demography",
+                "package_id": "c12076fd-d97f-4454-84e5-b5f4c879d8bd",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/c12076fd-d97f-4454-84e5-b5f4c879d8bd/resource/b3939396-49b6-44ed-b3c9-726783156cbd/download/businessdemography.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-04-08T13:22:39.550145",
+                "datastore_active": true,
+                "description": "Metadata for the Business Demography dataset.  This file contains Metadata (information about a dataset). It shows the schema for dataset fields and their contents. This file should be used along with the dataset, to aid correct interpretation of the data.",
+                "format": "CSV",
+                "hash": "",
+                "id": "7f503946-45b5-4e83-a5fc-e2295478106a",
+                "last_modified": "2019-04-08T13:22:39.496924",
+                "metadata_modified": "2019-04-08T13:22:39.550145",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata",
+                "package_id": "c12076fd-d97f-4454-84e5-b5f4c879d8bd",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/c12076fd-d97f-4454-84e5-b5f4c879d8bd/resource/7f503946-45b5-4e83-a5fc-e2295478106a/download/metadata_businessdemography.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-04-24T12:43:59.206069",
+                "datastore_active": false,
+                "description": "LGA report for Lincolnshire and Districts on business births and deaths and their survival rates. It also shows counts of enterprises that were active throughout the year.",
+                "format": "HTML",
+                "hash": "",
+                "id": "5a8c417e-6f07-49eb-ab91-c769c4993c77",
+                "last_modified": null,
+                "metadata_modified": "2023-05-11T20:34:04.946521",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Government Association (LGA): Businesses profile report",
+                "package_id": "c12076fd-d97f-4454-84e5-b5f4c879d8bd",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lginform.local.gov.uk/reports/view/lga-research/lga-research-report-profile-of-businesses-in-authority-label?mod-area=E10000019&mod-group=AllCountiesInCountry_England&mod-type=namedComparisonGroup",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "business",
+                "id": "3cb630e6-36d1-4ec7-83b9-f178c4c48faf",
+                "name": "business",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "economy",
+                "id": "d487f623-c6aa-48e4-92ce-ebe4261ed749",
+                "name": "economy",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "2f98a85b-02f6-40ab-ad1c-5ff04d21c9e7"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "2f98a85b-02f6-40ab-ad1c-5ff04d21c9e7"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ]
+    }
+}

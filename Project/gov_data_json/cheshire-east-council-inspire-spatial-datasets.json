@@ -1,0 +1,82 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "c2313407-de24-49b2-b652-70156a7f980a",
+        "metadata_created": "2019-01-23T11:48:06.847097",
+        "metadata_modified": "2023-12-13T12:19:46.328480",
+        "name": "cheshire-east-council-inspire-spatial-datasets",
+        "notes": "https://maps.cheshireeast.gov.uk/ce/inspire/",
+        "organization": {
+            "id": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+            "name": "cheshire-east-council",
+            "title": "Cheshire East Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T10:02:35.362710",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Cheshire East Council INSPIRE Spatial DataSets",
+        "type": "harvest",
+        "url": "https://maps.cheshireeast.gov.uk/ce/inspire/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2244,
+            "last_job": {
+                "id": "d37486a8-a704-408c-893a-7f6aabeab0a6",
+                "created": "2024-11-17 10:00:07.324752",
+                "gather_started": "2024-11-17 10:00:30.226619",
+                "gather_finished": "2024-11-17 10:00:46.104091",
+                "finished": "2024-11-17 10:01:00.328206",
+                "source_id": "c2313407-de24-49b2-b652-70156a7f980a",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 102,
+                    "errored": 23,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"The codeListValue attribute does not have a value.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceMaintenance' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_MaintenanceInformation' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='maintenanceAndUpdateFrequency' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_MaintenanceFrequencyCode' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"string-length(@codeListValue) > 0\":\n",
+                        "error_count": 18
+                    },
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gco}Integer': '' is not a valid value of the atomic type 'xs:integer'.",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": [
+                    {
+                        "message": "Content is not a valid Gemini document without the gmd:MD_Metadata element",
+                        "error_count": 2
+                    },
+                    {
+                        "message": "Could not get GUID for source https://maps.cheshireeast.gov.uk/ce/inspire/18_CE.xml: TypeError(\"Type 'NoneType' cannot be serialized.\")",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Could not get GUID for source https://maps.cheshireeast.gov.uk/ce/inspire/87_CE.xml: TypeError(\"Type 'NoneType' cannot be serialized.\")",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 100
+        }
+    }
+}

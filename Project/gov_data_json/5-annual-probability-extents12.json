@@ -1,0 +1,261 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "28867e60-7ee9-44f9-89ee-79f8f0f693a0",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-09-20T13:16:21.772702",
+        "metadata_modified": "2024-11-17T07:00:18.728330",
+        "name": "5-annual-probability-extents12",
+        "notes": "<div style='text-align:Left;'><div><div><p style='margin:0 0 14 0;'><span><span>Bradford Beck is the largest watercourse running through Bradford city centre. </span></span></p><p style='margin:0 0 14 0;'><span>This dataset consists of </span><span>a multipart polygon describing the spatial extents of modelled flooding for </span><span>a rainfall event that has a 5% probability in any year.</span></p><p style='margin:0 0 14 0;'><span>Typically, river and sewer systems are modelled with tools which are tailored for those purposes. Although the hydraulic processes modelling at the core of the different tools may be similar, the user interfaces, data management systems and hydrological modelling are designed to meet different requirements and reflect the differences in the nature of the different drainage systems. The diversity of the river system and the land use presents a number of choices with respect to the modelling methodology.</span></p><p style='margin:0 0 14 0;'><span>To the west of Bradford, the predominantly rural land use and open (natural) watercourses are best represented by river modelling software. However, the urban land use and the nature of the drainage system with culverted watercourses are better represented by sewer simulation software.</span></p><p style='margin:0 0 14 0;'><span>The City of Bradford Metropolitan District Council (CBMDC) acquired InfoWorks CS 2D to carry out this type of modelling. This software is accepted by the Environment Agency as being suitable for this type of assessment. The Bradford Beck system is represented by a 1D network of nodes and conduits, the information used to construct the network being obtained from a mixture of historic and contemporary surveys. The 2D surface networks have been created from the 1m horizontal resolution LIDAR data set procured by CBMDC</span></p><p style='margin:0 0 14 0;'><span>The hydraulic model is driven by hydrographs generated using the Revitalised Flood Hydrograph (ReFH) method2. Hydrographs were generated at the start of each main branch in the model and at key intermediate points along the length of the model.</span></p><p style='margin:0 0 14 0;'><span>The simulations modelled in InfoWorks use a 1 metre horizontal resolution Digital Elevation Model (DEM), which results in a much higher resolution of detail (including vertical resolution). It is important to remember that the hydrological and hydraulic representations in the modelling are simplifications of reality and that it is important not to place too much emphasis on perceptions of accuracy resulting from the increased resolution.</span></p></div></div></div>",
+        "num_resources": 6,
+        "num_tags": 8,
+        "organization": {
+            "id": "636f4913-6fc3-4cda-9770-9dfcf3219583",
+            "name": "city-of-bradford-metropolitan-district-council",
+            "title": "City of Bradford Metropolitan District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-04-23T16:30:54.280822",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "636f4913-6fc3-4cda-9770-9dfcf3219583",
+        "private": false,
+        "state": "active",
+        "title": "5% annual probability extents",
+        "type": "dataset",
+        "url": "https://spatialdata-cbmdc.hub.arcgis.com/datasets/CBMDC::5-annual-probability-extents",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2019-08-02T10:45:24.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2021-03-20T10:19:15.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "City of Bradford Metropolitan District Council"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=238e9650becb425196440b250aaaac4d&sublayer=1"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T09:02:37.276870",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "6605a2c6-2a3f-42a4-9b71-b80a16599b42",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T09:02:37.227311",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "28867e60-7ee9-44f9-89ee-79f8f0f693a0",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/datasets/CBMDC::5-annual-probability-extents",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-20T13:16:21.775578",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "cdbc602f-355a-4471-bd66-94b4382f1288",
+                "last_modified": null,
+                "metadata_modified": "2023-09-20T13:16:21.754627",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "28867e60-7ee9-44f9-89ee-79f8f0f693a0",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis.bradford.gov.uk/server/rest/services/Open_Data/Annual_Probability/MapServer/1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:26.066560",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "8174fc2a-3ab1-47fe-b923-923be7ffa645",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:26.006642",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "28867e60-7ee9-44f9-89ee-79f8f0f693a0",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/238e9650becb425196440b250aaaac4d/csv?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:26.066564",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "73bb4ecb-50f7-4580-98b5-0592570c749f",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:26.006764",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "28867e60-7ee9-44f9-89ee-79f8f0f693a0",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/238e9650becb425196440b250aaaac4d/geojson?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:26.066565",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "4788f25c-422a-491f-947b-e232861ef163",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:26.006848",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "28867e60-7ee9-44f9-89ee-79f8f0f693a0",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/238e9650becb425196440b250aaaac4d/shapefile?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:26.066566",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "35247ccb-f3f1-4664-be41-312a12e361d2",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:26.006928",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "28867e60-7ee9-44f9-89ee-79f8f0f693a0",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/238e9650becb425196440b250aaaac4d/kml?layers=1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Annual probability event",
+                "id": "cc7c2355-6c9c-4893-a81c-d2f2ee5cef10",
+                "name": "Annual probability event",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Annual probability flood event",
+                "id": "8134cf6c-652f-4404-a251-faafcc5b58f2",
+                "name": "Annual probability flood event",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Bradford Beck",
+                "id": "ddac3038-298a-456b-9bbc-726743ace7ac",
+                "name": "Bradford Beck",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Bradford City Centre",
+                "id": "d2330617-db2d-46f3-b0cc-e18cab297857",
+                "name": "Bradford City Centre",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Environment",
+                "id": "db7de4be-adbc-4ab6-9cec-d555c287d2d7",
+                "name": "Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Flood",
+                "id": "16213bb0-e39d-4c1f-9fbf-d167f3973491",
+                "name": "Flood",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Flood extent",
+                "id": "624abae8-cd2b-4a48-bee2-cd1423a75f07",
+                "name": "Flood extent",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Model",
+                "id": "6619dbc3-3c9e-43cf-8b10-00741d019b10",
+                "name": "Model",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "706f449c-8922-4ecc-a500-bd6215c652df"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4c44dc41-ce61-434b-a464-97f2717611c2"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "spatialdata-cbmdc"
+            }
+        ]
+    }
+}

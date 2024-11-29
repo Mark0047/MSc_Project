@@ -1,0 +1,196 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "gis@lakedistrict.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "98811a90-a84f-46c2-b80a-a671c6acd118",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-10-23T18:28:06.780407",
+        "metadata_modified": "2024-01-26T15:24:53.321717",
+        "name": "ldnpa-local-plan-2021",
+        "notes": "The Lake District National Park Authority Local Plan details a series of Development Plan Documents setting out the Park's adopted policies and proposals that make up the statutory development plan. Our Supplementary Planning Documents set out guidance for implementing our policies.\r\n\r\nThis WMS and WFS contain a subset of the geospatial layers associated with the Local Plan, and does not contain planning policy information newer than 2021. For more information on current data and projects associated with planning policy within the Lake District National Park, please visit http://www.lakedistrict.gov.uk/planning/planningpolicies",
+        "num_resources": 4,
+        "num_tags": 3,
+        "organization": {
+            "id": "e7e7fde7-0a36-46a2-8f05-8b44bcb10ba2",
+            "name": "lake-district-national-park",
+            "title": "Lake District National Park Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-10-30T12:30:18.199289",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e7e7fde7-0a36-46a2-8f05-8b44bcb10ba2",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "",
+        "title": "LDNPA Local Plan 2021",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "b343112e-4adf-4025-abee-7e4cb994a52b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5408d3e9-09ea-4ba1-866f-c813bc275644"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-07-05T14:26:25.187895",
+                "datafile-date": "",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "4d641827-6cd6-49af-b702-3542f611068d",
+                "last_modified": null,
+                "metadata_modified": "2024-01-26T15:01:04.119238",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LDNPA Inspire WMS Service",
+                "package_id": "98811a90-a84f-46c2-b80a-a671c6acd118",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lakedistrict.statmap.co.uk/map/wms.svc/INSPIRE_WMS?service=WMS&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-07-05T14:26:25.187901",
+                "datafile-date": "",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "e5dac179-78d6-46dd-a69c-6012a6532603",
+                "last_modified": null,
+                "metadata_modified": "2024-01-26T15:06:37.851552",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Plan 2021 - Allocations of Land",
+                "package_id": "98811a90-a84f-46c2-b80a-a671c6acd118",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lakedistrict.statmap.co.uk/map/wfs.svc/INSPIRE?service=WFS&request=GetFeature&version=2.0.0&typeName=ldnpa_inspire:LDNPA_LP_AllocationsOfLand",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-01-26T15:10:03.629033",
+                "datafile-date": "",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "62e14226-ccc0-40b8-bbfc-3da72f64460f",
+                "last_modified": null,
+                "metadata_modified": "2024-01-26T15:10:03.603764",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Plan 2021 - Primary Shopping Areas",
+                "package_id": "98811a90-a84f-46c2-b80a-a671c6acd118",
+                "position": 2,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lakedistrict.statmap.co.uk/map/wfs.svc/INSPIRE?service=WFS&request=GetFeature&version=2.0.0&typeName=ldnpa_inspire:LDNPA_LP_PrimaryShoppingAreas",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-01-26T15:10:38.075315",
+                "datafile-date": "",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "28129adc-7050-4f79-97c1-315400f2c6ff",
+                "last_modified": null,
+                "metadata_modified": "2024-01-26T15:24:53.326349",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Plan 2021 - Local Green Space",
+                "package_id": "98811a90-a84f-46c2-b80a-a671c6acd118",
+                "position": 3,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lakedistrict.statmap.co.uk/map/wfs.svc/INSPIRE?service=WFS&request=GetFeature&version=2.0.0&typeName=ldnpa_inspire:LDNPA_LP_GreenSpace",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "administration",
+                "id": "bfeca1c4-0d1e-46c4-8959-e070ad361d53",
+                "name": "administration",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "national_park",
+                "id": "45f855e9-61d8-493e-81b1-dfcaaf539900",
+                "name": "national_park",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b343112e-4adf-4025-abee-7e4cb994a52b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5408d3e9-09ea-4ba1-866f-c813bc275644"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

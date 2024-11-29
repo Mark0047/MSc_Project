@@ -1,0 +1,60 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "23cbb030-7883-4730-925a-7ac7c9c6fa19",
+        "frequency": "MANUAL",
+        "id": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf",
+        "metadata_created": "2022-11-11T13:48:31.434244",
+        "metadata_modified": "2023-02-08T16:05:24.769354",
+        "name": "leicester-city-council-open-data",
+        "notes": "Harvester to collect details of all datasets published by Leicester City Council on the OpenDataSoft portal at: https://data.leicester.gov.uk/pages/home/",
+        "organization": {
+            "id": "428e76b4-8690-4d64-8586-a4e748c487d5",
+            "name": "leicester-city-council",
+            "title": "Leicester City Council",
+            "type": "organization",
+            "description": "Leicester City Council is the unitary authority serving the people, communities and businesses of Leicester.",
+            "image_url": "",
+            "created": "2013-09-05T10:56:36.089623",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "428e76b4-8690-4d64-8586-a4e748c487d5",
+        "private": false,
+        "source_type": "dcat_rdf",
+        "state": "active",
+        "title": "Leicester City Council Open Data",
+        "type": "harvest",
+        "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/exports/dcat?lang=en",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 3,
+            "last_job": {
+                "id": "069407f5-20bf-4800-8d74-92ff964ed8ab",
+                "created": "2023-04-06 12:53:15.597082",
+                "gather_started": "2023-04-06 12:53:15.686593",
+                "gather_finished": "2023-04-06 12:53:51.280121",
+                "finished": "2023-04-06 12:55:03.191147",
+                "source_id": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf",
+                "status": "Finished",
+                "stats": {
+                    "added": 11,
+                    "updated": 241,
+                    "not modified": 0,
+                    "errored": 0,
+                    "deleted": 3
+                },
+                "object_error_summary": [],
+                "gather_error_summary": []
+            },
+            "total_datasets": 252
+        }
+    }
+}

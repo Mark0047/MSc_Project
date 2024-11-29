@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "a7331f07-4def-462b-90da-7ae7ce6bd5c7",
+        "frequency": "MONTHLY",
+        "id": "f94dcc75-dd9b-4c34-9fdf-bfc985871e60",
+        "metadata_created": "2019-05-08T11:16:02.409218",
+        "metadata_modified": "2019-05-08T12:03:29.580686",
+        "name": "procurement-cards",
+        "notes": "",
+        "organization": {
+            "id": "a061402e-ebcb-4423-a21b-bbdb0ef9b4ad",
+            "name": "scarborough-borough-council",
+            "title": "Scarborough Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-05-19T11:22:20.038613",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "a061402e-ebcb-4423-a21b-bbdb0ef9b4ad",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Procurement cards",
+        "type": "harvest",
+        "url": "http://uploads.scarborough.gov.uk/procurement-cards/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 68,
+            "last_job": {
+                "id": "a8b7ca3a-19a2-42d9-bbd1-e6266a3049f1",
+                "created": "2024-11-09 06:00:04.820356",
+                "gather_started": "2024-11-09 06:00:04.936904",
+                "gather_finished": "2024-11-09 06:00:05.010669",
+                "finished": "2024-11-09 06:00:05.010669",
+                "source_id": "f94dcc75-dd9b-4c34-9fdf-bfc985871e60",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: http://uploads.scarborough.gov.uk/procurement-cards/: ConnectionError(MaxRetryError(\"HTTPConnectionPool(host='uploads.scarborough.gov.uk', port=80): Max retries exceeded with url: /procurement-cards/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9b1a69d750>: Failed to establish a new connection: [Errno 111] Connection refused'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

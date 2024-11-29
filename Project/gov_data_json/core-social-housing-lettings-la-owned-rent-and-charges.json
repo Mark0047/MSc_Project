@@ -1,0 +1,134 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "ODC@communities.gsi.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "8dc4031f-c238-4959-aee6-5175fc5efa97",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-11-11T10:40:16.651824",
+        "metadata_modified": "2018-02-26T15:13:50.703839",
+        "name": "core-social-housing-lettings-la-owned-rent-and-charges",
+        "notes": "This dataset comprises the mean weekly rent and total charges of new general needs lettings, let at social rent levels, owned by Local Authorities.\n\nThese data are for new social housing lettings at the local authority area level, and are derived from record level data recorded through the COntinous REcording of social housing lettings. They cover new General Needs lettings, at social rent levels, owned by Local Authorities (LAs). All figures are unweighted and are therefore not fully consistent with the weighted social rent data at national level in the 'Social Housing Lettings in England' statistical release.\r\n\r\nSome Local Authority areas are missing from the Local Authority owned datasets due to there being either no LA owned lettings in that area, or there being too few lettings in an area for the data to be released, as it is deemed disclosive.\r\n\r\nData are given for the mean weekly rent and total charges of each general needs social rent LA letting. Total charges are derived from summing the basic rent with any of the following additional charges: service charge, personal service charge, or support charge.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "CORE - Social housing lettings (LA owned) - Rent and charges",
+        "type": "dataset",
+        "url": "http://opendatacommunities.org/data/housing-market/core/lacharges/rentcharges",
+        "version": null,
+        "extras": [
+            {
+                "key": "contact_email",
+                "value": "ODC@communities.gsi.gov.uk"
+            },
+            {
+                "key": "data_issued",
+                "value": "2015-11-05T15:46:58+00:00"
+            },
+            {
+                "key": "data_modified",
+                "value": "2017-12-01T10:16:09+00:00"
+            },
+            {
+                "key": "dcat_publisher_uri",
+                "value": "http://reference.data.gov.uk/id/department/dclg"
+            },
+            {
+                "key": "dcat_subject",
+                "value": "http://opendatacommunities.org/def/concept/folders/themes/housing-market http://opendatacommunities.org/def/concept/folders/organisations/department-for-communities-and-local-government"
+            },
+            {
+                "key": "guid",
+                "value": "http://opendatacommunities.org/data/housing-market/core/lacharges/rentcharges"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "539f1113-ebbe-4d3f-b445-475374b7eb83"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://opendatacommunities.org/data.rdf\", \"harvest_source_type\": \"dcat_rdf\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Open Data Communities\", \"activity_occurred\": \"2018-02-26T15:13:50.642981\", \"activity\": \"harvest\", \"harvested_guid\": \"http://opendatacommunities.org/data/housing-market/core/lacharges/rentcharges\"}]"
+            },
+            {
+                "key": "metadata_uri",
+                "value": "http://opendatacommunities.org/data/housing-market/core/lacharges/rentcharges"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-02-26T15:13:50.733187",
+                "description": "",
+                "format": "SPARQL",
+                "hash": "",
+                "id": "c7a40a1b-a0dd-4b47-88a9-5a30b34fbf1d",
+                "last_modified": null,
+                "metadata_modified": "2018-02-26T15:13:50.733187",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SPARQL Endpoint",
+                "package_id": "8dc4031f-c238-4959-aee6-5175fc5efa97",
+                "position": 0,
+                "resource_type": "api",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/sparql",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-11T10:40:16.687897",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "f055d88e-6b72-4595-8574-9b6b45c29fb6",
+                "last_modified": null,
+                "metadata_modified": "2015-11-11T10:40:16.687897",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset home page",
+                "package_id": "8dc4031f-c238-4959-aee6-5175fc5efa97",
+                "position": 1,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/data/housing-market/core/lacharges/rentcharges",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

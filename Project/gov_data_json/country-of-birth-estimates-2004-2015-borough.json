@@ -1,0 +1,163 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "9ebcdd0f-d912-49ad-a359-47a1081b5c6d",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-03-23T09:14:01.981236",
+        "metadata_modified": "2017-10-26T14:42:42.346585",
+        "name": "country-of-birth-estimates-2004-2015-borough",
+        "notes": "In July 2015 ONS released re-weighted (in light of the 2011 Census) country of birth population estimates by local authority (2004-2013).\u00a0 This was followed in August 2015 by country of birth estimates for 2014.\u00a0 Data is now available for 2015. Update 09-2015 analyses the trends in London for the period 2004 to 2014. An accompanying Tableau visualisation tool has also been produced. Ward level country of birth data taken from the 2011 Census can be viewed via a ward Tableau tool . A Tableau visualisation tool showing population estimates by nationality can also be viewed.",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "theme-primary": "society",
+        "theme-secondary": [],
+        "title": "Country of birth estimates (2004-2015), Borough",
+        "type": "dataset",
+        "url": "http://data.london.gov.uk/dataset/london--country-of-birth-estimates--2004-2015-",
+        "version": null,
+        "extras": [
+            {
+                "key": "data_issued",
+                "value": "2015-08-26T14:14:30.000Z"
+            },
+            {
+                "key": "data_modified",
+                "value": "2016-11-21T17:32:15.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "caec5887-1604-4dc2-a5c1-ed674932be43"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7235a2bc-c19c-446a-9520-03b83df82978"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.london.gov.uk/data.json?slug=gla\", \"harvest_source_type\": \"data_json\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"London Datastore - GLA\", \"activity_occurred\": \"2017-10-26T14:42:42.295948\", \"activity\": \"harvest\", \"harvested_guid\": \"caec5887-1604-4dc2-a5c1-ed674932be43\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:14:02.052933",
+                "description": "This Excel file provides all London level data released by ONS as part of the country of birth estimates for 2004-2015.",
+                "format": "XLS",
+                "hash": "",
+                "id": "f96d7a61-14e7-4308-9d33-f2ec4bce1aa1",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:14:02.052933",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CoB-Borough-2004-2015-fullset",
+                "package_id": "9ebcdd0f-d912-49ad-a359-47a1081b5c6d",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://files.datapress.com/london/dataset/london--country-of-birth-estimates--2004-2014-/2016-11-16T15:50:10/CoB-Borough-2004-2015-fullset.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:14:02.052957",
+                "description": "Update 09-2015 analyses country of birth estimates for 2004-2014 released by ONS at a London and London borough level.",
+                "format": "PDF",
+                "hash": "",
+                "id": "f954649c-c797-4ef9-9faa-76f3dd7e116c",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:14:02.052957",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Update-09-2015-country-of-birth-2004-2014-london",
+                "package_id": "9ebcdd0f-d912-49ad-a359-47a1081b5c6d",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://files.datapress.com/london/dataset/london--country-of-birth-estimates--2004-2013-/2015-09-23T12:22:38/Update-09-2015-country-of-birth-2004-2014-london.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:14:02.052964",
+                "description": "This Excel file contains the data used in Update 09-2015.",
+                "format": "XLS",
+                "hash": "",
+                "id": "2d9ed0ff-861b-4f4c-b0f2-eba862db15b3",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:14:02.052964",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Update-09-2015-country-of-birth-2004-2014-data",
+                "package_id": "9ebcdd0f-d912-49ad-a359-47a1081b5c6d",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://files.datapress.com/london/dataset/london--country-of-birth-estimates--2004-2013-/2015-09-23T12:23:23/Update-09-2015-country-of-birth-2004-2014-data.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:14:02.052970",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "cab6c6f3-089e-4fae-84e3-77e44b045fd4",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:14:02.052970",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landing page",
+                "package_id": "9ebcdd0f-d912-49ad-a359-47a1081b5c6d",
+                "position": 3,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://data.london.gov.uk/dataset/london--country-of-birth-estimates--2004-2015-",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

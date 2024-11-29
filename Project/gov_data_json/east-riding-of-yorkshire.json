@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "8fac8341-2f1d-49b1-9980-8abb027f0a8e",
+        "metadata_created": "2019-01-23T11:10:56.150592",
+        "metadata_modified": "2019-01-23T11:10:56.150598",
+        "name": "east-riding-of-yorkshire",
+        "notes": "",
+        "organization": {
+            "id": "dab91f2e-806f-4f3e-a19b-54d09ba405d4",
+            "name": "east-riding-of-yorkshire-council",
+            "title": "East Riding of Yorkshire Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-12-04T14:31:04.805948",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "dab91f2e-806f-4f3e-a19b-54d09ba405d4",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "East Riding of Yorkshire",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/east_riding_of_yorkshire",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 10,
+            "last_job": {
+                "id": "75cf39dc-12c7-4620-9ae7-08e92bd0f267",
+                "created": "2023-09-12 18:30:32.142506",
+                "gather_started": "2023-09-12 18:30:32.303842",
+                "gather_finished": "2023-09-12 18:30:32.433588",
+                "finished": "2023-09-13 10:45:07.989096",
+                "source_id": "8fac8341-2f1d-49b1-9980-8abb027f0a8e",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 2,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "WMS check for http://misoportal.com/portal/api/request-licenced-data/375 failed with exception: The WMS version (None) you requested is not implemented. Please use 1.1.1 or 1.3.0.",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 10
+        }
+    }
+}

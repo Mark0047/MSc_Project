@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "5aade7ec-d708-4f46-b08a-a9cc96684c73",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-08-12T08:41:51.176782",
+        "metadata_modified": "2020-01-21T15:30:43.977967",
+        "name": "public-toilets-wdc",
+        "notes": "<p>Public toilets owned and/or managed by Wycombe District Council. The data shows location and amenities for each toilet. The data has been published as part of a Local Government Association incentive. For further information about the initiative see: <a href=\"http://schemas.opendata.esd.org.uk/PublicToilets\" target=\"_self\">http://schemas.opendata.esd.org.uk/PublicToilets</a>.</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "09b7415e-2528-418e-93c4-f08a95ba8184",
+            "name": "wycombe-district-council",
+            "title": "Wycombe District Council",
+            "type": "organization",
+            "description": "Wycombe District Council",
+            "image_url": "",
+            "created": "2013-02-18T11:33:54.791786",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "09b7415e-2528-418e-93c4-f08a95ba8184",
+        "private": false,
+        "state": "active",
+        "title": "Public toilets",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.wycombe.gov.uk/council-land-and-property/public-toilets"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "6469dc09-eb4c-4e00-b96b-f197b8810154"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.wycombe.gov.uk/council-land-and-property/public-toilets"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "council-land-and-property/public-toilets"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": "http://id.esd.org.uk/service/579"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-01-17"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.wycombe.gov.uk/api/esdInventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2020-01-17T00:00:00\", \"harvest_source_title\": \"Wycombe District Council data inventory\", \"activity_occurred\": \"2020-01-21T15:30:43.744943\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.wycombe.gov.uk/council-land-and-property/public-toilets\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "bec6a03e-223e-4491-a0dc-1e390af49f08"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wycombe District Council data inventory"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-08-12T09:41:51.224726",
+                "description": "Public toilets - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "3091c1dc-68ad-4f28-921f-325aa5c4d629",
+                "last_modified": null,
+                "metadata_modified": "2016-08-12T09:41:51.224726",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "5aade7ec-d708-4f46-b08a-a9cc96684c73",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.wycombe.gov.uk/api/council-land-and-property/public-toilets/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.wycombe.gov.uk/Download/council-land-and-property/public-toilets",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-21T15:27:35.782248",
+                "description": "2019 update - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "bc375f72-627e-4361-9277-e44ddbcfea38",
+                "last_modified": null,
+                "metadata_modified": "2020-01-21T15:27:35.782248",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "5aade7ec-d708-4f46-b08a-a9cc96684c73",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.wycombe.gov.uk/api/council-land-and-property/public-toilets/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.wycombe.gov.uk/download/council-land-and-property/public-toilets/2019-update/CSV?version=21/01/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-21T15:27:35.782255",
+                "description": "2019 update - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "4d107f9f-1296-4cff-b772-15325246ffe7",
+                "last_modified": null,
+                "metadata_modified": "2020-01-21T15:27:35.782255",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "5aade7ec-d708-4f46-b08a-a9cc96684c73",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.wycombe.gov.uk/api/council-land-and-property/public-toilets/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.wycombe.gov.uk/download/council-land-and-property/public-toilets/2019-update/XML?version=21/01/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-07-21T14:55:46.583330",
+                "description": "2019 update - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "e72cbb88-a23e-434f-ba8c-d1218862e289",
+                "last_modified": null,
+                "metadata_modified": "2019-07-21T14:55:46.583330",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "5aade7ec-d708-4f46-b08a-a9cc96684c73",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.wycombe.gov.uk/api/council-land-and-property/public-toilets/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.wycombe.gov.uk/api/council-land-and-property/public-toilets/2019-update?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-07-21T14:55:46.583332",
+                "description": "2019 update - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "c4edb255-a2db-4122-815a-ff663d078ad3",
+                "last_modified": null,
+                "metadata_modified": "2019-07-21T14:55:46.583332",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "5aade7ec-d708-4f46-b08a-a9cc96684c73",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.wycombe.gov.uk/api/council-land-and-property/public-toilets/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.wycombe.gov.uk/api/council-land-and-property/public-toilets/2019-update?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "6469dc09-eb4c-4e00-b96b-f197b8810154"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "bec6a03e-223e-4491-a0dc-1e390af49f08"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wycombe District Council data inventory"
+            }
+        ]
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "ad315d5c-ab9a-404a-a36d-cb714320befd",
+        "isopen": false,
+        "license_id": "notspecified",
+        "license_title": "Licence not specified",
+        "metadata_created": "2017-06-23T16:33:10.632093",
+        "metadata_modified": "2017-06-23T16:33:10.645612",
+        "name": "population-survey",
+        "notes": "A residence based labour market survey encompassing population, economic activity (employment and unemployment), economic inactivity and qualifications. These are broken down where possible by gender, age, ethnicity, industry and occupation. Available at Local Authority level and above. Updated quarterly.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "b37eb7e6-9a1a-4fbc-94e5-2d899818b990",
+            "name": "north-yorkshire-county-council",
+            "title": "North Yorkshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:45.764017",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b37eb7e6-9a1a-4fbc-94e5-2d899818b990",
+        "private": false,
+        "state": "active",
+        "theme-primary": "society",
+        "theme-secondary": [],
+        "title": "Population Survey",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "extras": [
+            {
+                "key": "guid",
+                "value": "ad315d5c-ab9a-404a-a36d-cb714320befd"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e041b2a2-dca3-49af-8d1d-c8b3f19fa5ea"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "managing_users",
+                "value": "jonathan-walker-1384"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-06-28"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://hub.datanorthyorkshire.org/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2016-06-28T09:49:16.415141\", \"harvest_source_title\": \"DATA North Yorkshire\", \"activity_occurred\": \"2017-06-23T16:33:10.594331\", \"activity\": \"harvest\", \"harvested_guid\": \"ad315d5c-ab9a-404a-a36d-cb714320befd\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "062d9872-dbef-4548-afa8-ab4fff7c0a03"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "DATA North Yorkshire"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-06-28T10:48:11.741714",
+                "description": "",
+                "format": "API",
+                "hash": "",
+                "id": "ade4babc-7a86-432c-a9c7-f1e610b7d6e8",
+                "last_modified": null,
+                "metadata_modified": "2016-06-28T10:48:11.741714",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Annual Population Survey",
+                "package_id": "ad315d5c-ab9a-404a-a36d-cb714320befd",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_17_5.data.csv?geography=1925185568,1941962792,1941962793,1946157113...1946157119&variable=MAKE|Economic%20activity%20rate%20-%20aged%2016-64|25|22,MAKE|Economic%20activity%20rate%20males%20-%20aged%2016-64|26|23,MAKE|Economic%20activity%20rate%20females%20-%20aged%2016-64|27|24,MAKE|Employment%20rate%20-%20aged%2016-64|28|22,MAKE|Employment%20rate%20males%20-%20aged%2016-64|29|23,MAKE|Employment%20rate%20females%20-%20aged%2016-64|30|24,MAKE|Unemployment%20rate%20-%20aged%2016%2B|16|4,MAKE|Unemployment%20rate%20-%20aged%2016-64%20|37|25,MAKE|Unemployment%20rate%20males%20-%20aged%2016%2B|17|5,MAKE|Unemployment%20rate%20males%20-%20aged%2016-64%20|38|26,MAKE|Unemployment%20rate%20females%20-%20aged%2016%2B|18|6,MAKE|Unemployment%20rate%20females%20-%20aged%2016-64%20|39|27,MAKE|%25%20who%20are%20economically%20inactive%20-%20aged%2016-64|40|22,MAKE|%25%20of%20%20males%20who%20are%20economically%20inactive%20-%20aged%2016-64|41|23,MAKE|%25%20of%20females%20who%20are%20economically%20inactive%20-%20aged%2016-64|42|24,MAKE|%25%20aged%2016-64%20who%20are%20employees|31|22,MAKE|%25%20aged%2016-64%20who%20are%20self%20employed|34|22,MAKE|%25%20of%20males%20aged%2016-64%20who%20are%20employees|32|23,MAKE|%25%20of%20males%20aged%2016-64%20who%20are%20self%20employed|35|23,MAKE|%25%20of%20females%20aged%2016-64%20who%20are%20employees|33|24,MAKE|%25%20of%20females%20aged%2016-64%20who%20are%20self%20employed|36|24,MAKE|%25%20with%20NVQ4%2B%20-%20aged%2016-64|1181|1176...1182,MAKE|%25%20with%20other%20qualifications%20(NVQ)%20-%20aged%2016-64|1182|1176...1182,MAKE|%25%20with%20no%20qualifications%20(NVQ)%20-%20aged%2016-64|1176|1176...1182,MAKE|aged%2016-64%20employment%20rate%20-%20ethnic%20minority|1098;1101;1104;1107;1110|1077;1080;1083;1086;1089,MAKE|%25%20with%20NVQ3%2B%20-%20aged%2016-64|1179...1181|1176...1182,MAKE|%25%20with%20NVQ2%2B%20-%20aged%2016-64|1178...1181|1176...1182,MAKE|%25%20with%20NVQ1%2B%20-%20aged%2016-64|1177...1181|1176...1182,MAKE|16%2B%20unemployment%20rate%20-%20ethnic%20minority|1140;1143;1146;1149;1152|1119;1122;1125;1128;1131,MAKE|%25%20of%20%20ethnic%20minority%20aged%2016-64%20who%20are%20economically%20inactive|1161;1164;1167;1170;1173|1077;1080;1083;1086;1089,MAKE|%25%20of%20economically%20inactive%20who%20want%20a%20job|2733|40,MAKE|%25%20of%20economically%20inactive%20who%20do%20not%20want%20a%20job|2736|40,MAKE|%25%20of%20economically%20inactive%20males%20who%20want%20a%20job|2734|41,MAKE|%25%20of%20economically%20inactive%20males%20who%20do%20not%20want%20a%20job|2737|41,MAKE|%25%20of%20economically%20inactive%20females%20who%20want%20a%20job|2735|42,MAKE|%25%20of%20economically%20inactive%20females%20who%20do%20not%20want%20a%20job|2738|42,MAKE|%25%20all%20in%20employment%20who%20are%20-%201%3A%20managers%2C%20directors%20and%20senior%20officials%20(SOC2010)|3264|7,MAKE|%25%20all%20in%20employment%20who%20are%20-%202%3A%20professional%20occupations%20(SOC2010)|3267|7,MAKE|%25%20all%20in%20employment%20who%20are%20-%203%3A%20associate%20prof%20%26%20tech%20occupations%20(SOC2010)|3270|7,MAKE|%25%20all%20in%20employment%20who%20are%20-%204%3A%20administrative%20and%20secretarial%20occupations%20(SOC2010)|3273|7,MAKE|%25%20all%20in%20employment%20who%20are%20-%205%3A%20skilled%20trades%20occupations%20(SOC2010)|3276|7,MAKE|%25%20all%20in%20employment%20who%20are%20-%206%3A%20caring%2C%20leisure%20and%20other%20service%20occupations%20(SOC2010)|3279|7,MAKE|%25%20all%20in%20employment%20who%20are%20-%207%3A%20sales%20and%20customer%20service%20occupations%20(SOC2010)|3282|7,MAKE|%25%20all%20in%20employment%20who%20are%20-%208%3A%20process%2C%20plant%20and%20machine%20operatives%20(SOC2010)|3285|7,MAKE|%25%20all%20in%20employment%20who%20are%20-%209%3A%20elementary%20occupations%20(SOC2010)|3288|7&measures=20599,21001,21002,21003",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e041b2a2-dca3-49af-8d1d-c8b3f19fa5ea"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "062d9872-dbef-4548-afa8-ab4fff7c0a03"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "DATA North Yorkshire"
+            }
+        ]
+    }
+}

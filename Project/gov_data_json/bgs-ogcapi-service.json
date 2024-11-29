@@ -1,0 +1,279 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@bgs.ac.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "e539c1f3-a7f3-46a8-b2b1-ffd2abe2722c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-22T06:07:27.421698",
+        "metadata_modified": "2024-11-17T14:06:09.086942",
+        "name": "bgs-ogcapi-service",
+        "notes": "This server provides OGCAPI endpoints for a selection of BGS open geospatial data. The BGS has a wide range of datasets and wants to increase access to these, publishing as many as possible under Open Government Licence. Not all datasets are available under OGL, please check the metadata record for the dataset to confirm any licence requirements and obligations if not OGL. This is a BETA API service, endpoints and attributes could change at anytime, unscheduled downtime should be expected. Data includes boreholes, earthquakes and mineral statistics",
+        "num_resources": 1,
+        "num_tags": 14,
+        "organization": {
+            "id": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+            "name": "british-geological-survey",
+            "title": "British Geological Survey (BGS)",
+            "type": "organization",
+            "description": "A world-leading geoscience centre for survey and monitoring; modelling and research; data and knowledge.\r\n\r\nhttps://www.bgs.ac.uk/home.html\r\n\r\n",
+            "image_url": "2020-08-17-104120.024946BGS-Logo-Pos-RGB-01.png",
+            "created": "2012-06-27T14:50:32.295517",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1970-09-16"
+        ],
+        "temporal_coverage-to": [
+            "2024-09-16"
+        ],
+        "title": "BGS OGCAPI Service",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The copyright of materials derived from the British Geological Survey's work is vested in the Natural Environment Research Council [NERC]. No part of this work may be reproduced or transmitted in any form or by any means, or stored in a retrieval system of any nature, without the prior permission of the copyright holder, via the BGS Intellectual Property Rights Manager. Use by customers of information provided by the BGS, is at the customer's own risk. In view of the disparate sources of information at BGS's disposal, including such material donated to BGS, that BGS accepts in good faith as being accurate, the Natural Environment Research Council (NERC) gives no warranty, expressed or implied, as to the quality or accuracy of the information supplied, or to the information's suitability for any use. NERC/BGS accepts no liability whatever in respect of loss, damage, injury or other occurence however caused.\", \"Either: (i) the dataset is made freely available, e.g. via the Internet, for a restricted category of use (e.g. educational use only); or (ii) the dataset has not been formally approved by BGS for access and use by external clients under licence, but its use may be permitted under alternative formal arrangements; or (iii) the dataset contains 3rd party data or information obtained by BGS under terms and conditions that must be consulted in order to determine the permitted usage of the dataset. Refer to the BGS staff member responsible for the creation of the dataset if further advice is required. He / she should be familiar with the composition of the dataset, particularly with regard to 3rd party IPR contained in it, and any resultant use restrictions. This staff member should revert to the IPR Section (ipr@bgs.ac.uk) for advice, should the position not be clear.\", \"Available under the Open Government Licence subject to the following acknowledgement accompanying the reproduced NERC materials \\\"Contains NERC materials \\u00a9NERC [year]\\\"\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "180.0000"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "90.0000"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "-90.0000"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-180.0000"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"title\": [\"Digital Geological Map Data of Great Britain - 625k (DiGMapGB-625) (INSPIRE download service)\"], \"href\": [\"https://metadata.bgs.ac.uk/geonetwork/srv/eng/csw?SERVICE=CSW0=GetRecordById0=full0=http://www.isotc211.org/2005/gmd0=9df8df52-d788-37a8-e044-0003ba9b0d980=2.0.2&\"], \"uuid\": [\"9df8df52-d788-37a8-e044-0003ba9b0d98\"]}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2021\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "223b7391-063c-60a4-e063-0937940a8397"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "807d582b-28d3-4f27-aab7-eb8096dc28a3"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-16"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "British Geological Survey (distributor, pointOfContact, principalInvestigator)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[180.0000, -90.0000], [-180.0000, -90.0000], [-180.0000, 90.0000], [180.0000, 90.0000], [180.0000, -90.0000]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "download"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:06:09.158534",
+                "description": "This server provides OGCAPI endpoints for a selection of BGS open geospatial data. The BGS has a wide range of datasets and wants to increase access to these, publishing as many as possible under Open Government Licence. Not all datasets are available under OGL, please check the metadata record for the dataset to confirm any licence requirements and obligations if not OGL. This is a BETA API service, endpoints and attributes could change at anytime, unscheduled downtime should be expected.",
+                "format": "",
+                "hash": "",
+                "id": "f6dfc1cc-c535-4221-9ee6-a951f58eb06c",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:06:09.092455",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "BGS OGC API Service",
+                "package_id": "e539c1f3-a7f3-46a8-b2b1-ffd2abe2722c",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC API - Features",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogcapi.bgs.ac.uk/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Abrasion",
+                "id": "3a9a3333-bb99-4301-8738-ae501a8c7097",
+                "name": "Abrasion",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Boreholes",
+                "id": "b997b297-aad6-4fbb-a62a-f8b4ecb035c0",
+                "name": "Boreholes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Data processing",
+                "id": "4e75e802-489b-4016-8e90-43a94fc7a911",
+                "name": "Data processing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Geochemistry",
+                "id": "d6d6f264-94da-4b7c-97ec-d32bbdd31d63",
+                "name": "Geochemistry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Geology",
+                "id": "4aa03215-7870-4625-996a-f6a03df048bd",
+                "name": "Geology",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Hydrology",
+                "id": "93fe4c28-ac07-4e64-82a1-8c27315da0b7",
+                "name": "Hydrology",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Mineral resources",
+                "id": "91e9f32f-d0a1-4c68-b0ab-b6feefd7c639",
+                "name": "Mineral resources",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Minerals",
+                "id": "dec4d764-8e63-4056-abb5-5ab5986002c0",
+                "name": "Minerals",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NERC_DDC",
+                "id": "d24aa95c-95ee-4ccd-92c6-c26cc7a202b6",
+                "name": "NERC_DDC",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NGDC Deposited Data",
+                "id": "6dfb920f-6bcf-4028-a66e-a47bdc8547a6",
+                "name": "NGDC Deposited Data",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Natural resources",
+                "id": "36ad9e1a-94d3-451f-8466-b84963b70929",
+                "name": "Natural resources",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Scottish SDI",
+                "id": "e43a49d7-925a-48f4-b0c6-2689e4b691b9",
+                "name": "Scottish SDI",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Statistics",
+                "id": "3325ebd8-2635-4844-8365-53f9f8d17908",
+                "name": "Statistics",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "data.gov.uk (non-INSPIRE)",
+                "id": "9fb6dca8-2bbb-4254-acd2-ad711c2105b0",
+                "name": "data.gov.uk (non-INSPIRE)",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "68319129-1520-4deb-b2fb-4911c8b958e4"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ]
+    }
+}

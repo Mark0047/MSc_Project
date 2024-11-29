@@ -1,0 +1,213 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GISTeam@wirral.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "c1914dc1-03b0-4a78-9f0f-2ee7d79447c3",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2016-04-21T09:17:31.795484",
+        "metadata_modified": "2016-04-21T09:17:31.822318",
+        "name": "tpos3",
+        "notes": "This dataset contains polygons showing Tree preservation orders in Wirral. Under the Town and Country Planning Act 1990 (c. 8) the Local Planning Authority has a duty to ensure that adequate provision is made, for the preservation of trees and woodlands in the interests of amenity.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "60bd69c4-d87c-4d13-9c8c-5c7f117e3734",
+            "name": "wirral-metropolitan-borough-council",
+            "title": "Wirral Metropolitan Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-12T17:20:35.187565",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "60bd69c4-d87c-4d13-9c8c-5c7f117e3734",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2016-02-23"
+        ],
+        "theme-primary": "environment",
+        "theme-secondary": [
+            "Towns & Cities"
+        ],
+        "title": "TPOs",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Copyright and licence terms\\nhttp://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.8557178320307"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.468571972658"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.21039326172"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.2374927343744"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2016-04-20\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "8144f5f7-df7f-4048-8452-1aef698f6a07"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9a3b9140-6914-47da-b7d3-67a4c3e48858"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.misoportal.com/metadata/files/wirral/TPOs.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Public Sector Mapping Agreement Inspire End User Licence constraints (https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html)"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-20"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Wirral Council (custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-2.8557178320307, 53.21039326172],[-2.8557178320307, 53.468571972658], [-3.2374927343744, 53.468571972658], [-3.2374927343744, 53.21039326172], [-2.8557178320307, 53.21039326172]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3cf9285e-585f-4800-9446-478f42f7273a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wirral Metropolitan Borough Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-04-21T10:17:31.922148",
+                "description": "information",
+                "format": "WMS",
+                "hash": "",
+                "id": "1d55d9ca-85ca-4dc8-ba0e-a97a424035d1",
+                "last_modified": null,
+                "metadata_modified": "2016-04-21T10:17:31.922148",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "c1914dc1-03b0-4a78-9f0f-2ee7d79447c3",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/wirral_council_tpos_polygon/wms?request=getCapabilities",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-04-21T10:17:31.263133",
+                "wms_base_urls": "http://inspire.misoportal.com:80/geoserver/wirral_council_tpos_polygon/ows"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-21T10:17:31.922166",
+                "description": "download",
+                "format": "",
+                "hash": "",
+                "id": "35a1d999-b130-49d4-ac38-ef86cf59bcfe",
+                "last_modified": null,
+                "metadata_modified": "2016-04-21T10:17:31.922166",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "c1914dc1-03b0-4a78-9f0f-2ee7d79447c3",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://misoportal.com/portal/api/request-licenced-data/2100",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9a3b9140-6914-47da-b7d3-67a4c3e48858"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3cf9285e-585f-4800-9446-478f42f7273a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wirral Metropolitan Borough Council"
+            }
+        ]
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": false,
+        "creator_user_id": "c895ed6d-3479-4524-9ea6-f23284fc958a",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "ef221487-73b6-49a4-9fdc-cd87eda50bbc",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2017-02-10T13:47:44.485283",
+        "metadata_modified": "2017-02-10T19:30:36.290251",
+        "name": "people-with-significant-control-psc",
+        "notes": "A full list of PSC's provided to Companies House. A daily snapshot.\r\n\r\nSince 30 June 2016, UK companies, Societates Europaeae (SEs) and limited liability partnerships (LLPs) are required\r\nto identify and record the people who own or control their company. Companies, SEs and LLPs will need to keep a PSC register, in addition to existing registers such as the register of directors and register of members (shareholders), and must file the PSC information with the central public register at Companies House.\r\n\r\nEach data file is provided in JSON format and can be downloaded as a single file or as multiple files for ease of downloading. All files are overwritten daily with the latest information.\r\n\r\nThis snapshot is provided free of charge and will not be supported.\r\n\r\nThe latest snapshot will be updated every morning before 10am GMT. The contents of the snapshot have been compiled up to the end of the previous day.",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "00f2652b-377a-4335-8407-e2780bc5cded",
+            "name": "companies-house",
+            "title": "Companies House",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:10.812430",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "00f2652b-377a-4335-8407-e2780bc5cded",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "society",
+        "theme-secondary": [
+            ""
+        ],
+        "title": "People with significant control (PSC)",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "licence",
+                "value": "TBD"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-02-10T13:47:44.537328",
+                "description": "Web home",
+                "format": "HTML",
+                "hash": "",
+                "id": "14e6c213-8291-4238-aaa6-73d650c5af93",
+                "last_modified": null,
+                "metadata_modified": "2017-02-10T13:47:44.537328",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ef221487-73b6-49a4-9fdc-cd87eda50bbc",
+                "position": 0,
+                "resource_type": "documentation",
+                "scraper_url": "",
+                "size": null,
+                "state": "active",
+                "url": "http://download.companieshouse.gov.uk/en_pscdata.html",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-02-10T13:47:44.537355",
+                "description": "API information",
+                "format": "HTML",
+                "hash": "",
+                "id": "3e0de5b9-7dc2-468a-bfff-0ea8591ebb95",
+                "last_modified": null,
+                "metadata_modified": "2017-02-10T13:47:44.537355",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ef221487-73b6-49a4-9fdc-cd87eda50bbc",
+                "position": 1,
+                "resource_type": "documentation",
+                "scraper_url": "",
+                "size": null,
+                "state": "active",
+                "url": "http://forum.aws.chdev.org/t/psc-streaming-api/529",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-02-10T13:47:44.537364",
+                "description": "Example snapshot",
+                "format": "JSON",
+                "hash": "",
+                "id": "678a07cb-850d-48b4-8fcf-092872dfcd20",
+                "last_modified": null,
+                "metadata_modified": "2017-02-10T13:47:44.537364",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ef221487-73b6-49a4-9fdc-cd87eda50bbc",
+                "position": 2,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://download.companieshouse.gov.uk/persons-with-significant-control-snapshot-2017-02-10.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

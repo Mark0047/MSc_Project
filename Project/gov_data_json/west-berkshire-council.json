@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "0c141886-b4fb-45aa-a0c5-25d9c598ff53",
+        "metadata_created": "2019-01-23T10:38:33.138829",
+        "metadata_modified": "2019-01-23T10:38:33.138836",
+        "name": "west-berkshire-council",
+        "notes": "",
+        "organization": {
+            "id": "f21b96e6-faa2-4296-9550-0f9a11da43d8",
+            "name": "west-berkshire-council",
+            "title": "West Berkshire Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-20T10:06:38.607175",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "f21b96e6-faa2-4296-9550-0f9a11da43d8",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "West Berkshire Council",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/f21b96e6-faa2-4296-9550-0f9a11da43d8/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 157,
+            "last_job": {
+                "id": "62da5fe8-8d0e-47f9-b314-bd809a6fbfec",
+                "created": "2024-11-04 22:00:04.771526",
+                "gather_started": "2024-11-04 22:00:06.362501",
+                "gather_finished": "2024-11-04 22:00:26.396440",
+                "finished": "2024-11-04 22:00:26.396440",
+                "source_id": "0c141886-b4fb-45aa-a0c5-25d9c598ff53",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/f21b96e6-faa2-4296-9550-0f9a11da43d8/: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/f21b96e6-faa2-4296-9550-0f9a11da43d8/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fbc9ea5f290>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 6
+        }
+    }
+}

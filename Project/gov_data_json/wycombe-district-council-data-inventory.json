@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "bec6a03e-223e-4491-a0dc-1e390af49f08",
+        "metadata_created": "2019-01-23T11:05:21.434460",
+        "metadata_modified": "2019-01-23T11:05:21.434467",
+        "name": "wycombe-district-council-data-inventory",
+        "notes": "",
+        "organization": {
+            "id": "09b7415e-2528-418e-93c4-f08a95ba8184",
+            "name": "wycombe-district-council",
+            "title": "Wycombe District Council",
+            "type": "organization",
+            "description": "Wycombe District Council",
+            "image_url": "",
+            "created": "2013-02-18T11:33:54.791786",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "09b7415e-2528-418e-93c4-f08a95ba8184",
+        "private": false,
+        "source_type": "inventory",
+        "state": "active",
+        "title": "Wycombe District Council data inventory",
+        "type": "harvest",
+        "url": "http://data.wycombe.gov.uk/api/esdInventory",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 109,
+            "last_job": {
+                "id": "96ed135b-15ee-4deb-81ba-ca41c77fdea3",
+                "created": "2024-10-22 13:00:06.138787",
+                "gather_started": "2024-10-22 13:00:09.144093",
+                "gather_finished": "2024-10-22 13:00:09.168755",
+                "finished": "2024-10-22 13:00:09.168755",
+                "source_id": "bec6a03e-223e-4491-a0dc-1e390af49f08",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Failed to get content from URL: http://data.wycombe.gov.uk/api/esdInventory Error:ConnectionError HTTPConnectionPool(host='data.wycombe.gov.uk', port=80): Max retries exceeded with url: /api/esdInventory (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x7f2c0d339650>: Failed to resolve 'data.wycombe.gov.uk' ([Errno -2] Name or service not known)\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 32
+        }
+    }
+}

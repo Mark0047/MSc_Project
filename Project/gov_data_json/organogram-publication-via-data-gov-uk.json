@@ -1,0 +1,94 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "team@data.gov.uk",
+        "contact-name": "Data Discovery Team",
+        "contact-phone": "",
+        "core-dataset": false,
+        "creator_user_id": "c895ed6d-3479-4524-9ea6-f23284fc958a",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "ef322ff6-d291-4649-a65e-f7f21c372460",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-01-17T17:50:55.809367",
+        "metadata_modified": "2018-05-24T07:06:14.010028",
+        "name": "organogram-publication-via-data-gov-uk",
+        "notes": "The list of releases of organograms via data.gov.uk's organogram system.\r\n\r\nThese are also listed in datasets like https://data.gov.uk/dataset/organogram-cabinet-office but it's helpful to have this aggregated list of organogram releases here in one CSV file.\r\n\r\nNB a few organograms have been released in other ways, such as PDFs from 2010/11, some lingering RDFs 2010-2016 and the occasional CSV 2010-2016 that didn't go through the data.gov.uk system. Many of those are listed in data.gov.uk datasets alongside the ones that have gone through the system (and a few are just on https://www.gov.uk/government/publications ). So this is not complete, but not far off.\r\n\r\nNB this dataset doesn't contain the actual organogram data - it is just a list of the releases and the URLs to get the data. This is helpful to understand how well government bodies are meeting their commitments.\r\nlisted at https://data.gov.uk/apps\r\n\r\nThis is exported from data.gov.uk's database. It is refreshed nightly.\r\n\r\nThe fields should be relatively self-explanatory when comparing the data with data.gov.uk organogram datasets: https://data.gov.uk/data/search?collection=Organogram",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "90aefa0d-0e92-4895-a7fd-c1adb2b3f14f",
+            "name": "government-digital-service",
+            "title": "Government Digital Service",
+            "type": "organization",
+            "description": "The Government Digital Service is a team within Cabinet Office tasked with transforming government digital services.\r\nEstablished in response to Martha Lane Fox\u2019s report, \u2018Directgov 2010 and beyond: revolution not evolution\u2019, our core purpose is to ensure the Government offers world-class digital products that meet people\u2019s needs.\r\n\r\nhttp://digital.cabinetoffice.gov.uk/category/gds/\r\n\r\n@gdsteam\r\n",
+            "image_url": "",
+            "created": "2012-07-12T19:31:11.722062",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "90aefa0d-0e92-4895-a7fd-c1adb2b3f14f",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "government",
+        "theme-secondary": [
+            ""
+        ],
+        "title": "Organogram publication via data.gov.uk",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-01-17T17:50:55.862916",
+                "description": "Organograms",
+                "format": "CSV",
+                "hash": "",
+                "id": "be408468-572e-45d3-8047-7d29ab772ebc",
+                "last_modified": null,
+                "metadata_modified": "2017-01-17T17:50:55.862916",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ef322ff6-d291-4649-a65e-f7f21c372460",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://data.gov.uk/data/dumps/organograms/organograms_public.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

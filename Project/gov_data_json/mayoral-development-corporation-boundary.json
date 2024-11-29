@@ -1,0 +1,149 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "47bd790a-4270-414a-ba8a-af35edb8f471",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:20:46.499953",
+        "metadata_modified": "2024-11-16T22:02:35.845014",
+        "name": "mayoral-development-corporation-boundary",
+        "notes": "GIS files showing the boundary of the new Mayoral Development Corporation following the consultation period from February to April 2011.\n\nData is available in either [ESRI shapefile](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/mdc-boundary-post-consultation-shp.zip) or [MapInfo TAB](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/mdc-boundary-post-consultation-tab.zip) format.",
+        "num_resources": 2,
+        "num_tags": 4,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Mayoral Development Corporation Boundary",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/mayoral-development-corporation-boundary",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2012-03-05T18:16:04.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2014-07-07T09:32:51.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "37978ed1-9528-4a3c-a01f-e3156e97d215"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:22:07.145616",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "047c8b69-3a4f-49b9-8fa1-5432e2101bd7",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:51.550486",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "mdc-boundary-post-consultation-tab.zip",
+                "package_id": "47bd790a-4270-414a-ba8a-af35edb8f471",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/mayoral-development-corporation-boundary/4c3fb58f-924a-4de6-abaa-a82a69a6d9eb/mdc-boundary-post-consultation-tab.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:22:07.145633",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "c8f4baa8-83e2-4922-970b-d410b7c39e0f",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:51.550626",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "mdc-boundary-post-consultation-shp.zip",
+                "package_id": "47bd790a-4270-414a-ba8a-af35edb8f471",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/mayoral-development-corporation-boundary/9984e9f3-afe8-4678-b700-8b7716d14556/mdc-boundary-post-consultation-shp.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "development",
+                "id": "78e5fcbf-e9dc-4a44-b5d8-bb557233f951",
+                "name": "development",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "geo",
+                "id": "aa790c62-039d-42b6-8852-451c19d43784",
+                "name": "geo",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "planning",
+                "id": "d5e3a552-07a7-4262-a38d-337769833bda",
+                "name": "planning",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "regeneration",
+                "id": "759786a9-e498-46f5-bad5-19229005b97e",
+                "name": "regeneration",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "f3f21a45-672c-4ebb-b7d5-ea60d6cb2c98"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

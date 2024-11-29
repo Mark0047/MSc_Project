@@ -1,0 +1,128 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "add80f2b-8d3a-48d7-aab1-b2f76ee03306",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:18:25.128738",
+        "metadata_modified": "2024-11-16T22:02:27.997327",
+        "name": "net-residential-approvals-by-month",
+        "notes": "The number of residential units, net of losses, approved by month.\n\nThis is the sum of residential units approved minus the units lost from planning permissions granted during the given month, as entered onto the London Development Database (LDD).\n\nThe figures include all submitted schemes, including those that replace earlier permissions on the same site or add details to previous outline permissions.\n\nFor this reason the monthly totals are comparable but the numbers can not be added to get a running total. Note that data is provided by the London Boroughs who are responsible for the quality of the data.\n\nBorough data is not always submitted on time so the totals shown are subject to change as the data are checked and missing permissions are added.\n\nThe CSV file is automatically updated on the 1st day of every month.\n\nOpen an [interactive map](http://www.london.gov.uk/webmaps/ldd/) of all LDD permissions data.",
+        "num_resources": 1,
+        "num_tags": 4,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Net Residential Approvals by Month",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/net-residential-approvals-month",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2012-06-16T14:41:24.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2015-01-14T11:17:20.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "091f9911-361d-419f-911e-e29a1e9ce03c"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:19:58.153218",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "c17d9dc0-9152-41f3-b167-c395e6f7adda",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:57:40.434199",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "LDD_DASHBOARD_RESUNITS.csv",
+                "package_id": "add80f2b-8d3a-48d7-aab1-b2f76ee03306",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/net-residential-approvals-month/59b523dd-58b0-461d-90d4-a9aa8f1bdda5/LDD_DASHBOARD_RESUNITS.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "approvals",
+                "id": "f4f84ec5-ca28-4612-a9e0-24d0b5b49736",
+                "name": "approvals",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "housing",
+                "id": "00a20d30-2585-49fc-aeef-137dff81627d",
+                "name": "housing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "ldd",
+                "id": "290c7fe0-40b4-4b06-bd81-7bd91b8424cf",
+                "name": "ldd",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "residential",
+                "id": "f7ae7deb-5a66-4220-b266-434b6cc22a3e",
+                "name": "residential",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5c96e441-334e-4b29-876f-64df0789e8eb"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

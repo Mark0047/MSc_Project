@@ -1,0 +1,186 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "plans.consultation@salford.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "c2673b40-c4b8-4d46-9608-5260cf9595b7",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2013-12-03T11:04:16.764417",
+        "metadata_modified": "2016-07-18T08:12:54.092102",
+        "name": "manchester-airport-safeguarding-zone-buildings-exceeding-90m-in-height",
+        "notes": "Dataset showing an area of the city (known as a safeguarding zone) where the city council should consult with Manchester Airport when development for buildings, structures, erections and works exceeding 90m in height are proposed. \nThe purpose of the safeguarding zone is to ensure that the operational integrity or safety of the airport may be assured.\nThe safeguarding zone is shown on the City of Salford Unitary Development Plan 2014-16 Policies saved beyond 21 June 2009 proposals map as Policy DEV7 (i).\n\nUpon accessing this licensed data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+            "name": "salford-city-council",
+            "title": "Salford City Council",
+            "type": "organization",
+            "description": "Salford City Council",
+            "image_url": "2019-01-31-104033.251731SCCmag.png",
+            "created": "2012-06-27T14:50:51.970331",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [
+            "Transport"
+        ],
+        "title": "Manchester Airport Safeguarding Zone - buildings exceeding 90m in height",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.24328386658839"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.4961917955298"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.4155655799571"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.46737994607405"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2006-06-21\"}, {\"type\": \"creation\", \"value\": \"2006-06-21\"}, {\"type\": \"revision\", \"value\": \"2006-06-21\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "1736cd50-908d-4fbe-be65-3d5e8b4b0d88"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9fca75fe-d638-48fc-8488-728f751a7642"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.salford.gov.uk/maps/metadata/ManAirport_SZ_90m_Height.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Public Sector End User Licence - INSPIRE (http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html)"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-07-18"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Salford City Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Salford City Council (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-2.24328386658839, 53.4155655799571],[-2.24328386658839, 53.4961917955298], [-2.46737994607405, 53.4961917955298], [-2.46737994607405, 53.4155655799571], [-2.24328386658839, 53.4155655799571]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-07-18T09:10:02.474734",
+                "description": "Web Map Service (WMS) feed for use in GIS systems.",
+                "format": "WMS",
+                "hash": "",
+                "id": "b4c29074-b15b-4a0e-8b9d-71bd1dc4a07b",
+                "last_modified": null,
+                "metadata_modified": "2016-07-18T09:10:02.474734",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WMS INSPIRE View Service",
+                "package_id": "c2673b40-c4b8-4d46-9608-5260cf9595b7",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://map.salford.gov.uk/geoserver/INSPIRE/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null,
+                "wms_base_urls": "http://map.salford.gov.uk:80/geoserver/INSPIRE/ows"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-07-18T09:10:02.474760",
+                "description": "Web Feature Service (WFS) feed for use in GIS systems.",
+                "format": "",
+                "hash": "",
+                "id": "e45c740b-f1a1-47d4-a13b-1ab4c0da7bb0",
+                "last_modified": null,
+                "metadata_modified": "2016-07-18T09:10:02.474760",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFS INSPIRE Download Service",
+                "package_id": "c2673b40-c4b8-4d46-9608-5260cf9595b7",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS-2.0.0-http-get-capabilities",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://map.salford.gov.uk/geoserver/INSPIRE/ows?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

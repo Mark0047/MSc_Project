@@ -1,0 +1,175 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "caebd85e-1fd9-4905-ba8f-c392dd69f90b",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-06-04T16:30:16.152841",
+        "metadata_modified": "2021-03-26T13:29:01.688574",
+        "name": "salford-polling-stations",
+        "notes": "Locations of polling stations within Salford used in elections.  **Updated for May 2021 elections.**",
+        "num_resources": 4,
+        "num_tags": 1,
+        "organization": {
+            "id": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+            "name": "salford-city-council",
+            "title": "Salford City Council",
+            "type": "organization",
+            "description": "Salford City Council",
+            "image_url": "2019-01-31-104033.251731SCCmag.png",
+            "created": "2012-06-27T14:50:51.970331",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+        "private": false,
+        "state": "active",
+        "title": "Salford Polling Stations",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-11-06T17:02:40.775130",
+                "description": "View the data in a table",
+                "format": "CSV",
+                "hash": "",
+                "id": "b2d70ddc-b939-4a93-9f9c-71e8b057ab8e",
+                "last_modified": null,
+                "metadata_modified": "2019-11-06T17:02:40.775130",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV format",
+                "package_id": "caebd85e-1fd9-4905-ba8f-c392dd69f90b",
+                "position": 0,
+                "resource_group_id": "ffc7c809-85af-4d48-952a-4fbf5b137f92",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.salford.gov.uk/geoserver/OpenData/ows?service=wfs&version=2.0.0&request=GetFeature&typeName=OpenData:v_polling_stations&outputFormat=csv",
+                "url_type": null,
+                "webstore_last_updated": "None",
+                "webstore_url": "None"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-06-04T14:23:29.383838",
+                "description": "View the data on a map",
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "fa79ed54-f0fe-4b22-b357-9fc744a32049",
+                "last_modified": null,
+                "metadata_modified": "2015-06-04T14:23:29.383838",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON format",
+                "package_id": "caebd85e-1fd9-4905-ba8f-c392dd69f90b",
+                "position": 1,
+                "resource_group_id": "ffc7c809-85af-4d48-952a-4fbf5b137f92",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.salford.gov.uk/geoserver/OpenData/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=OpenData:v_polling_stations&srsName=EPSG:4326&outputFormat=application/json",
+                "url_type": null,
+                "webstore_last_updated": "None",
+                "webstore_url": "None"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-06-04T14:27:03.653229",
+                "description": "A format for using in GIS and web applications. Can be previewed on a map",
+                "format": "WMS",
+                "hash": "",
+                "id": "6e9adb16-55aa-485c-ae37-aad6d97e0ab3",
+                "last_modified": null,
+                "metadata_modified": "2015-06-04T14:27:03.653229",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Web Map Service (WMS)",
+                "package_id": "caebd85e-1fd9-4905-ba8f-c392dd69f90b",
+                "position": 2,
+                "resource_group_id": "ffc7c809-85af-4d48-952a-4fbf5b137f92",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.salford.gov.uk/geoserver/OpenData/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null,
+                "webstore_last_updated": "None",
+                "webstore_url": "None"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-06-04T14:29:50.394183",
+                "description": "Download the WFS Get Capabilities document for use in GIS systems ",
+                "format": "WFS",
+                "hash": "",
+                "id": "7f733631-2660-47b9-b06f-18b2c4d9e3b0",
+                "last_modified": null,
+                "metadata_modified": "2015-06-04T14:29:50.394183",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Web Feature Service (WFS)",
+                "package_id": "caebd85e-1fd9-4905-ba8f-c392dd69f90b",
+                "position": 3,
+                "resource_group_id": "ffc7c809-85af-4d48-952a-4fbf5b137f92",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.salford.gov.uk/geoserver/OpenData/ows?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null,
+                "webstore_last_updated": "None",
+                "webstore_url": "None"
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "government",
+                "id": "2e06dc8a-3100-49ab-9754-91684135b3ee",
+                "name": "government",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "dcc26876-b4eb-463c-90c3-d057b0b0ea11"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "fef6f56e-0438-433a-83ad-5fe6a125f8c9"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Salford Data Quay"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "dcc26876-b4eb-463c-90c3-d057b0b0ea11"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "fef6f56e-0438-433a-83ad-5fe6a125f8c9"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Salford Data Quay"
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "0ca04b6e-b332-44b1-96a0-999189895880",
+        "metadata_created": "2019-01-23T10:38:42.387669",
+        "metadata_modified": "2019-01-23T10:38:42.387677",
+        "name": "eastbourne-inspire-datastore",
+        "notes": "",
+        "organization": {
+            "id": "865412c1-3f55-4b0e-9fbc-9202167140af",
+            "name": "eastbourne-borough-council",
+            "title": "Eastbourne Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:19:17.326316",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "865412c1-3f55-4b0e-9fbc-9202167140af",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Eastbourne Inspire Datastore",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/865412c1-3f55-4b0e-9fbc-9202167140af/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 4,
+            "last_job": {
+                "id": "b30a83bd-8b32-47b5-b86c-f5755bdbb96d",
+                "created": "2015-09-15 10:33:43.270911",
+                "gather_started": "2015-09-15 11:40:02.878846",
+                "gather_finished": "2015-09-15 11:40:02.960213",
+                "finished": null,
+                "source_id": "0ca04b6e-b332-44b1-96a0-999189895880",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Couldn't find any links to metadata files. (N.B. A common error is for the WAF to contain links that include path information. Links are discarded if they contain slashes. For example, it should be href=\"rivers.xml\" rather than href=\"/metadata/rivers.xml\".)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

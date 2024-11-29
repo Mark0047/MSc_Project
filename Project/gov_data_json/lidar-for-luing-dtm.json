@@ -1,0 +1,211 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "b3157504-3590-48b8-9241-8d17e35217b4",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-07-07T10:49:04.735747",
+        "metadata_modified": "2024-06-19T11:13:24.677425",
+        "name": "lidar-for-luing-dtm",
+        "notes": "Commissioned by Luing History Group in 2020, the contract was awarded to Fugro who conducted the survey and processed the data. The survey took place on 9th September 2020 and covered about 20 km\u00b2. The average point density is about 25 last echoes/sqm.\nThe Digital Terrain Model (DTM) is at 50cm resolution.\nThe data was collected for the Slate Islands off the west coast of Scotland offering a complete coverage of Luing and Torsa. A group of small islands to the west including Fladda and Belnahua, as well as the southernmost part of Seil and northern tip of Shuna were also scanned.",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2020-09-09"
+        ],
+        "temporal_coverage-to": [
+            "2020-09-09"
+        ],
+        "title": "LiDAR for Luing - DTM",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Crown copyright Scottish Government, Luing History Group and Fugro (2021).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-5.5883139"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.27420061"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "56.18253776"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.70661535"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2022-05-06\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "3b005723-7f14-48d8-80ed-1eeabc44633a"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "aa388f24-d67a-4d7a-8839-db28a76e8b28"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2022-07-07T09:15:19"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-5.5883139, 56.18253776], [-5.70661535, 56.18253776], [-5.70661535, 56.27420061], [-5.5883139, 56.27420061], [-5.5883139, 56.18253776]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:24.701891",
+                "description": "LAS Download Service",
+                "format": "",
+                "hash": "",
+                "id": "2f09f735-17e4-4f34-92d8-a18c47f990a7",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:24.682736",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LAS File",
+                "package_id": "b3157504-3590-48b8-9241-8d17e35217b4",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://remotesensingdata.gov.scot/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:24.701894",
+                "description": "Scottish Remote Sensing Portal",
+                "format": "",
+                "hash": "",
+                "id": "9d7f0f44-26f2-4f7a-8472-8a8f3a0a36bf",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:24.682830",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scottish Remote Sensing Portal",
+                "package_id": "b3157504-3590-48b8-9241-8d17e35217b4",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://remotesensingdata.gov.scot/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Orthoimagery",
+                "id": "64b9ed71-3811-4c11-a6eb-fcb262370518",
+                "name": "Orthoimagery",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c7e7c7af-d8bf-4be0-b494-a8b158a45e50"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

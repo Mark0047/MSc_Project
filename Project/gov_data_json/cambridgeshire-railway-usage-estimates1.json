@@ -1,0 +1,231 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "52b3c61e-8442-47e7-b356-dc1f6899f475",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-02-19T04:26:17.499100",
+        "metadata_modified": "2020-04-12T08:18:06.765385",
+        "name": "cambridgeshire-railway-usage-estimates1",
+        "notes": "<p>A selection of csv files breaking down rail usage estimates across Cambridgeshire and Peterborough.\u00a0 The Office of Rail and Road (ORR) produces yearly (April-March) estimates of the total number of entries, exits and interchanges at rail stations in Great Britain.\u00a0 The estimates are based on ticket sales data recorded in rail industry systems. The complete dataset covers the period 1997-2018.</p>\n<p>You can access the full dataset directly from the\u00a0Office of Rail and Road (ORR) by using the following link:</p>\n<p><a href=\"http://orr.gov.uk/statistics/published-stats/station-usage-estimates\">http://orr.gov.uk/statistics/published-stats/station-usage-estimates</a></p>\n<p>\u00a0</p>\n",
+        "num_resources": 6,
+        "num_tags": 2,
+        "organization": {
+            "id": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+            "name": "cambridgeshire-insight",
+            "title": "Cambridgeshire Insight",
+            "type": "organization",
+            "description": "The Cambridgeshire Insight Partnership is made up of public, health and community bodies to provide a shared research knowledge base for the Cambridgeshire area. It allows users an easy way to access and share data, information and research for deeper insights about their local area. See more at https://cambridgeshireinsight.org.uk",
+            "image_url": "",
+            "created": "2014-05-19T12:10:18.790087",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+        "private": false,
+        "state": "active",
+        "title": "Cambridgeshire Railway Usage Estimates",
+        "type": "dataset",
+        "url": "https://data.cambridgeshireinsight.org.uk/dataset/cambridgeshire-railway-usage-estimates",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2019-01-07"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2020-02-03"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Cambridgeshire Research Group"
+            },
+            {
+                "key": "guid",
+                "value": "c5ac7c7f-7a06-4add-a589-fba33fdff950"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f9b24aa4-5e5c-4820-910c-3248f2d864bf"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-02-05T02:07:08.598483",
+                "description": "<p><span style=\"color: rgb(94, 102, 111); font-family: Montserrat; font-size: 16px;\">A CSV file containing the total estimates of entries and exits at railway stations in Cambridgeshire and Peterborough aggregated to District level.\u00a0</span></p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "31d91b3b-113c-400d-b6bb-59d4fe11387e",
+                "last_modified": null,
+                "metadata_modified": "2020-02-05T02:07:08.598483",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cambridgeshire Rail Usage Estimates 2018/19 - District Totals",
+                "package_id": "52b3c61e-8442-47e7-b356-dc1f6899f475",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/District_totalTrain%20Station_usage%202018-2019.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-02-05T02:07:08.598491",
+                "description": "<p><span style=\"color: rgb(94, 102, 111); font-family: Montserrat; font-size: 16px;\">sage estimates (total number of entries and exits) for all stations in Cambridgeshire and Peterborough by year (April-March).\u00a0</span></p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "399f08c4-c45c-4feb-bf6a-f13b7d2ea8f2",
+                "last_modified": null,
+                "metadata_modified": "2020-02-05T02:07:08.598491",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cambridgeshire Railway Station Usage Estimates 2018/19",
+                "package_id": "52b3c61e-8442-47e7-b356-dc1f6899f475",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/Train%20Station%20Time%20Series2018_19.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-19T04:26:17.515021",
+                "description": "<p>CSV file containing all Cambridgeshire and Peterborough rail stations and their corresponding Easting and Northing co-ordinates for mapping.</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "e88cd66a-c4e4-4cea-9463-3e69c4f2bd63",
+                "last_modified": null,
+                "metadata_modified": "2019-02-19T04:26:17.515021",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cambridgeshire Rail Station Locations (csv)",
+                "package_id": "52b3c61e-8442-47e7-b356-dc1f6899f475",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/Stations%20with%20coordinates%20for%20upload.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-19T04:26:17.515027",
+                "description": "<p><span style=\"color: rgb(94, 102, 111); font-family: Montserrat; font-size: 16px;\">geojscon file containing all Cambridgeshire and Peterborough rail stations point locations</span></p>\n",
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "d5930fce-4c1e-434c-b73f-76128724e885",
+                "last_modified": null,
+                "metadata_modified": "2019-02-19T04:26:17.515027",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cambridgeshire Rail Station Locations (geojson)",
+                "package_id": "52b3c61e-8442-47e7-b356-dc1f6899f475",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/Stations%20with%20coordinates%20geojson.txt",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-19T04:26:17.515024",
+                "description": "<p>A CSV file containing the total estimates of entries and exits at railway stations in Cambridgeshire and Peterborough aggregated to District level.\u00a0</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "ee95347a-65c6-415d-8a55-05ed86622470",
+                "last_modified": null,
+                "metadata_modified": "2019-02-19T04:26:17.515024",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cambridgeshire Rail Usage Estimates 2017/18 - District Totals",
+                "package_id": "52b3c61e-8442-47e7-b356-dc1f6899f475",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/District%20Totals%20For%20Upload.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-19T04:26:17.515014",
+                "description": "<p>Usage estimates (total number of entries and exits) for all stations in Cambridgeshire and Peterborough by year (April-March).\u00a0</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "8b38120a-f47c-45c6-bf0f-0d5cf468c45b",
+                "last_modified": null,
+                "metadata_modified": "2019-02-19T04:26:17.515014",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cambridgeshire Railway Station Usage Estimates 2017/18",
+                "package_id": "52b3c61e-8442-47e7-b356-dc1f6899f475",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/allstationscsvforupload.xlsx",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "rail",
+                "id": "87200c93-dea6-4115-bfc3-afc9a3c6fdb6",
+                "name": "rail",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "transport",
+                "id": "b5992ed4-3223-4881-9d1c-bb2b381132d6",
+                "name": "transport",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "f9b24aa4-5e5c-4820-910c-3248f2d864bf"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ]
+    }
+}

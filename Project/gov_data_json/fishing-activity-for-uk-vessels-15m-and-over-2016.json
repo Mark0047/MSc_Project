@@ -1,0 +1,187 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "dkm@marinemanagement.org.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "4bd80f1a-4ead-44c5-b3fa-975da1cb4d7d",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2018-03-05T11:58:05.050445",
+        "metadata_modified": "2018-03-06T16:35:15.054086",
+        "name": "fishing-activity-for-uk-vessels-15m-and-over-2016",
+        "notes": "This data set provides summaries of fishing activity for UK commercial fishing vessels of 15m and over in length that are deemed to have been fishing within a specified calendar year. These summaries have been categorised into aggregated gear groups that have relevance to their potential impact on the seabed, environment, or biota. Positional data have been extracted from GPS-derived Vessel Monitoring Data. At the highest resolution, equal to 0.05 degree sub-rectangle, the following data items are provided aggregated between vessels using each of these gear types separately: Boat dredges, traps (not specified), pots, gillnets and entangling nets (not specified), gillnets (not specified), driftnets, set gillnets (anchored), trammel nets, hand fishing, mechanized dredges, hand lines and pole-lines (hand-operated), long lines (not specified), set long lines, hooks and lines (not specified), otter trawls (not specified), otter trawls-bottom,  otter trawls-midwater, otter twin trawls, with purse lines (purse seines), pair trawls-bottom,  pair trawls-midwater, Danish seines, pair seines, Scottish seines, seine nets not elsewhere specified, beam trawls, nephrops trawls, midwater trawls not elsewhere specified, shrimp trawls-midwater, other trawls not specified): \n                        Data is provided as follows:\n                        1.\tTime fishing (minutes), \n                        2.\tFrom 2011 data onwards, effort in KW Hours (calculated by multiplying the time associated with each VMS report in hours by the engine power of the vessel concerned at the time of the activity)\n                        3.\tQuantity (tonnes) of live weight fish landed with gear type, \n                        4.\tValue (sterling) of live weight fish landed with gear type.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "6b694e61-66c9-4cca-8eeb-75b2b0c66c4d",
+            "name": "marine-management-organisation",
+            "title": "Marine Management Organisation",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:54:49.334967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "6b694e61-66c9-4cca-8eeb-75b2b0c66c4d",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2016-12-31"
+        ],
+        "theme-primary": "environment",
+        "theme-secondary": [],
+        "title": "Fishing Activity for UK Vessels 15m and over 2016",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on access, however copyright should be used at all times.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "30.0000"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "77.5000"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "43.5000"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-18.7500"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2018-02-13\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "9c5a6ae1-2c77-4952-9337-dd62ae533efc"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "69484cf7-6f9c-41a2-94b0-f62b332f2be6"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://s3-eu-west-1.amazonaws.com/inspire-mmo/fishing_activity_for_uk_vessels_15m_and_over_2016_9c5a6ae1-2c77-4952-9337-dd62ae533efc.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Open Government Licence. Acknowledgement of Marine Management Organisation as source required."
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-03-06"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Marine Management Organisation (originator, custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[30.0000, 43.5000],[30.0000, 77.5000], [-18.7500, 77.5000], [-18.7500, 43.5000], [30.0000, 43.5000]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::4258"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ac6fae6e-304a-406b-aab2-4bc3704f8482"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Management Organisation INSPIRE compliant data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-03-06T16:35:15.097372",
+                "description": "A link to the web service or dataset",
+                "format": "",
+                "hash": "",
+                "id": "22414f39-f864-45d7-b0ef-1c3e11140400",
+                "last_modified": null,
+                "metadata_modified": "2018-03-06T16:35:15.097372",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "4bd80f1a-4ead-44c5-b3fa-975da1cb4d7d",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://environment.data.gov.uk/ds/catalogue/#/9c5a6ae1-2c77-4952-9337-dd62ae533efc",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "69484cf7-6f9c-41a2-94b0-f62b332f2be6"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ac6fae6e-304a-406b-aab2-4bc3704f8482"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Management Organisation INSPIRE compliant data"
+            }
+        ]
+    }
+}

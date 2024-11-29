@@ -1,0 +1,280 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "542b8dec-2545-4168-b34a-c0d1d1d63fde",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-11-21T15:03:59.457826",
+        "metadata_modified": "2024-11-16T10:02:32.525242",
+        "name": "well-bottom-hole-locations-wgs84",
+        "notes": "<p><span style='color:inherit; font-size:inherit; font-family:var(--fontsBaseFamily),Avenir Next;'>A wellbore is a path of drilled footage from the Well Origin to a terminating point. The location of each wellbore is the wellbore\u2019s well origin. A well origin is the location on the surface of the earth or sea bed where the drill bit penetrates the earth to establish or rework a well. Definitions for wellbore and well origin taken from PPDM \u2018what is a well\u2019: https://whatisawell.ppdm.org/.</span><br /></p><p>Data collection starts once a well has been spudded when the operator submits a spud notification on WONS. The  NSTA will issue an official well number via WONS, which is to be used for all data and records resulting from the well\u2019s drilling.<br />All well data requirements are set out in the documents Petroleum Operations Notices (PON) 9 (offshore) and PON 9b (onshore). <br />Onshore operators have a statutory obligation to also supply well data to the British Geological Survey (BGS). Visit the BGS website for more information.</p><div><span style='font-family:&quot;Avenir Next&quot;, &quot;Avenir Next&quot;; font-size:16px;'>Well Bottom Hole is the bottom hole location of the borehole at its final measured total depth.</span><br /></div><div><font face='Avenir Next, Avenir Next'><span style='font-size:16px;'>Top Hole - Bottom Hole, Straight Line Connection is a straight line&nbsp;connection&nbsp;from the top hole location and bottom hole location, it is not a wellbore path.</span></font></div>",
+        "num_resources": 8,
+        "num_tags": 3,
+        "organization": {
+            "id": "34f903d4-91d8-4571-be4f-79362d39fba7",
+            "name": "north-sea-transition-authority",
+            "title": "North Sea Transition Authority",
+            "type": "organization",
+            "description": "We regulate and influence the oil and gas, offshore hydrogen, and carbon storage industries. We help drive North Sea energy transition, realising the significant potential of the UK Continental Shelf as a critical energy and carbon abatement resource. We hold industry to account on halving upstream emissions by 2030.",
+            "image_url": "",
+            "created": "2016-10-05T17:02:18.742739",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "34f903d4-91d8-4571-be4f-79362d39fba7",
+        "private": false,
+        "state": "active",
+        "title": "Well Bottom Hole Locations (WGS84)",
+        "type": "dataset",
+        "url": "https://opendata-nstauthority.hub.arcgis.com/datasets/NSTAUTHORITY::well-bottom-hole-locations-wgs84",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2016-07-14T09:24:15.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-11-15T10:37:53.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Oil and Gas Authority"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=40b80e75b8004fab8c87218ae1664d91&sublayer=1"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d77dd246-7d77-4dd3-83d2-6cd0d1ba1f4c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "60366fe9-e095-400a-bdd1-262083d3d5ca"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "NSTA Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T07:03:44.830693",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "35d4305e-d4f9-4e61-8d28-b5fa0ab1f1d1",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T07:03:44.784907",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "542b8dec-2545-4168-b34a-c0d1d1d63fde",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/datasets/NSTAUTHORITY::well-bottom-hole-locations-wgs84",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-21T15:03:59.460597",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "bf8860ff-6998-4a22-b801-e109ae91bdae",
+                "last_modified": null,
+                "metadata_modified": "2023-11-21T15:03:59.444320",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "542b8dec-2545-4168-b34a-c0d1d1d63fde",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.nstauthority.co.uk/arcgis/rest/services/Public_WGS84/UKCS_Wells_WGS84/MapServer/1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T07:03:44.830695",
+                "description": null,
+                "format": "OGC WFS",
+                "hash": "",
+                "id": "b37ccd9f-4d62-429c-bd77-4843d9b9593d",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T07:03:44.785042",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WFS",
+                "package_id": "542b8dec-2545-4168-b34a-c0d1d1d63fde",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.nstauthority.co.uk/arcgis/services/Public_WGS84/UKCS_Wells_WGS84/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T07:03:44.830696",
+                "description": null,
+                "format": "OGC WMS",
+                "hash": "",
+                "id": "eb3befd1-6b20-4c43-8494-9efb86af8713",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T07:03:44.785104",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC WMS",
+                "package_id": "542b8dec-2545-4168-b34a-c0d1d1d63fde",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.nstauthority.co.uk/arcgis/services/Public_WGS84/UKCS_Wells_WGS84/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:08:21.401548",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "ca88fc28-4b11-44be-b083-caa8ad916b4a",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:08:21.368752",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "542b8dec-2545-4168-b34a-c0d1d1d63fde",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/40b80e75b8004fab8c87218ae1664d91/csv?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:08:21.401552",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "839b1090-10d1-48e4-bb01-5d61eb0ab10d",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:08:21.368845",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "542b8dec-2545-4168-b34a-c0d1d1d63fde",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/40b80e75b8004fab8c87218ae1664d91/geojson?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:08:21.401553",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "6b7e4562-abc1-4f8e-8fa0-0dd6fd3edd68",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:08:21.368925",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "542b8dec-2545-4168-b34a-c0d1d1d63fde",
+                "position": 6,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/40b80e75b8004fab8c87218ae1664d91/shapefile?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T17:08:21.401554",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "a51850cd-7d3f-42af-a53f-438df5deba5a",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T17:08:21.369005",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "542b8dec-2545-4168-b34a-c0d1d1d63fde",
+                "position": 7,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/40b80e75b8004fab8c87218ae1664d91/kml?layers=1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "NSTA",
+                "id": "0fbb247b-6334-45e0-9b58-27dec05d5cbb",
+                "name": "NSTA",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "WGS84",
+                "id": "49c570ac-2866-4ecc-820e-435178e1e7d1",
+                "name": "WGS84",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Wells",
+                "id": "6415d73a-a131-498d-9c03-eba605f5ff05",
+                "name": "Wells",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d77dd246-7d77-4dd3-83d2-6cd0d1ba1f4c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "60366fe9-e095-400a-bdd1-262083d3d5ca"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "NSTA Open Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "spendanalytics@dxc.com ",
+        "contact-name": "Spikes Cavell, a DXC Technology company",
+        "contact-phone": "0203 855 0949",
+        "core-dataset": false,
+        "creator_user_id": "25a162d9-a128-4572-b683-2ccb15bd9361",
+        "date_released": "2010-05-28",
+        "date_updated": "2015-01-05",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "geographic_coverage": "100000: England",
+        "geographic_granularity": "point",
+        "id": "9d301221-c070-4af0-8031-8f0443e60615",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2010-08-10T08:53:27.763625",
+        "metadata_modified": "2018-08-24T10:03:13.115568",
+        "name": "spotlightonspend-transactions-download",
+        "notes": "The content contains multiple datasets where each dataset contains the transactions above \u00a3500 in value (\u00a325,000 in central government) for a single public body before any cleansing, enrichment, aggregation or other data improvement has been made by Spikes Cavell, a DXC Technology Company, other than the identification and redaction of payments made to individuals, standardisation of the file format (including column headings and positions).\r\n\r\nIn order to enable faster downloads the CSV files have been zipped. Each zip file contains a single CSV with the same name as the zip file.\r\n\r\nFor the exact text of the licence, modelled on the data.gov.uk one, please see the linked page.\r\n\r\nLocal authorities represented on spotlightonspend:\r\n\r\n* Epping Forest District Council\r\n* Guildford Borough Council\r\n* London Borough of Hammersmith and Fulham\r\n* South Somerset District Council\r\n\r\nPolice, Fire & Emergency Services represented on spotlightonspend:\r\n\r\n* Surrey Police",
+        "num_resources": 1,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "spotlightonspend Raw Data Download Files",
+            "created_at": "2014-10-29T16:10:02Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/10361/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/10361/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "c067351b-cc1e-4536-b3f1-3b678c180417",
+            "name": "spikes-cavell-analytic-ltd",
+            "title": "Spikes Cavell Analytic Ltd",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:56.976483",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c067351b-cc1e-4536-b3f1-3b678c180417",
+        "precision": "Invoices over \u00a3500",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "2008-04-01",
+        "temporal_coverage-to": "2018-12-31",
+        "temporal_granularity": "day",
+        "theme-primary": "government",
+        "theme-secondary": [
+            "Government Spending"
+        ],
+        "title": "spotlightonspend Raw Data Download Files",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "monthly",
+        "url": "http://www.spotlightonspend.org.uk/datadownload.aspx",
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "SpotlightOnSpend",
+                "format": "CSV",
+                "id": "91a009f0-e3d0-47a0-8a32-9df7e300c222",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "9d301221-c070-4af0-8031-8f0443e60615",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://www.spotlightonspend.org.uk/datadownload.aspx",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

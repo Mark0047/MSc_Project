@@ -1,0 +1,150 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "GISShared@NFDC.GOV.UK",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "eed027db-3b82-4424-ac85-3baea5e33dc8",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-09-29T16:40:04.606575",
+        "metadata_modified": "2022-04-04T14:12:56.341927",
+        "name": "allotments100",
+        "notes": "This dataset shows the Allotments from the Districts Saved policy Local Plan Part 2 2014 with its description and related Policy Number",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "335cebab-4108-470c-8da5-7f394d919e2c",
+            "name": "new-forest-district-council",
+            "title": "New Forest District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:41:22.702175",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "335cebab-4108-470c-8da5-7f394d919e2c",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "",
+        "title": "Allotments",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-04-04T14:01:35.064188",
+                "datafile-date": "2022-03-14",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "6638e1b3-fed1-4a33-9a0e-3e28ae1b5a1a",
+                "last_modified": null,
+                "metadata_modified": "2022-04-04T14:10:17.610037",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "eed027db-3b82-4424-ac85-3baea5e33dc8",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/new_forest_district_council_allotments/wms?request=getCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-04-04T14:01:35.064193",
+                "datafile-date": "2022-03-14",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "177960c6-76a4-4b28-a09f-1d7105549e10",
+                "last_modified": null,
+                "metadata_modified": "2022-04-04T14:11:10.703995",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "eed027db-3b82-4424-ac85-3baea5e33dc8",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/new_forest_district_council_allotments/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Utility and governmental services",
+                "id": "3d5bf038-bc42-446f-95d6-fb9c1ea73905",
+                "name": "Utility and governmental services",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "allotment",
+                "id": "a459725f-5f60-49ad-940f-987d5caf0fd4",
+                "name": "allotment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "91d4be0f-756b-4ae3-a6b8-45af3f07d883"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8c75f91d-92bd-4516-96db-d736c747ef31"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "New Forest District Council"
+            }
+        ],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "91d4be0f-756b-4ae3-a6b8-45af3f07d883"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8c75f91d-92bd-4516-96db-d736c747ef31"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "New Forest District Council"
+            }
+        ]
+    }
+}

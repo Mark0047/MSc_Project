@@ -1,0 +1,66 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "e38c2981-3778-41f8-9f61-a6fe63f20120",
+        "metadata_created": "2019-01-23T11:03:55.196810",
+        "metadata_modified": "2019-01-23T11:03:55.196816",
+        "name": "north-dorset-district-council-inspire-service",
+        "notes": "",
+        "organization": {
+            "id": "5fa5e450-fa49-4cd8-86dc-64162461528c",
+            "name": "north-dorset-district-council",
+            "title": "North Dorset District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:42:39.151976",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "5fa5e450-fa49-4cd8-86dc-64162461528c",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "North Dorset District Council INSPIRE Service",
+        "type": "harvest",
+        "url": "http://inspire.astuntechnology.com/northdorset",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 16,
+            "last_job": {
+                "id": "265b095c-e73e-4544-9086-d6c0a0f5cb10",
+                "created": "2015-04-07 09:35:48.224291",
+                "gather_started": "2015-04-07 10:40:04.029191",
+                "gather_finished": "2015-04-07 10:40:05.391085",
+                "finished": "2015-04-07 09:40:47.937169",
+                "source_id": "e38c2981-3778-41f8-9f61-a6fe63f20120",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0,
+                    "reimported": 10
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Content is not a valid Gemini document without the gmd:MD_Metadata element (http://inspire.astuntechnology.com/northdorset/index.html)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 10
+        }
+    }
+}

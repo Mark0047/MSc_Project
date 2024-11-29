@@ -1,0 +1,460 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-09-30T10:32:51.016215",
+        "metadata_modified": "2024-06-14T14:49:17.800097",
+        "name": "wfd-river-canal-and-surface-water-transfer-waterbodies-cycle-2",
+        "notes": "This dataset is a GIS layer identifying the river waterbodies managed under the Water Framework Directive and any related programmes. This includes canals and surface water transfers which are reported to Europe as artificial rivers. These can be identified using the 'WB_CAT' field.\nThese waterbodies are represented by their centreline, and can be linked to other WFD data using the unique water body ID (WB_ID). \n\u2018WFD River,  canal and SWT Waterbodies Cycle 2\u2019 is a subset extracted from the Environment Agency\u2019s Detailed River Network, with attributes removed and merged on the WB_ID. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2016. All rights reserved. Contains Ordnance Survey data \u00a9 Crown copyright and database right 2013.",
+        "num_resources": 12,
+        "num_tags": 4,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "WFD River, Canal and Surface Water Transfer Waterbodies Cycle 2",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2013-09-01\"}, {\"type\": \"revision\", \"value\": \"2014-10-30\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "7804bf80-d465-11e4-aa9b-f0def148f590"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "8f0ae816-b571-4e7c-9061-52b88b45d8f1"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850722",
+                "description": "WFDRiverCanalAndSWTWaterBodiesCycle2-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "7332c9c6-40df-4c60-921c-9c1d12bcdfcb",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.806880",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverCanalAndSWTWaterBodiesCycle2-FGDB.zip",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=d6b56cb5-4237-4067-b1f4-3f8369787424&fileName=WFDRiverCanalAndSWTWaterBodiesCycle2-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850725",
+                "description": "WFDRiverCanalAndSWTWaterBodiesCycle2-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "e09af5c8-e4e4-4d38-bde1-27eafd126970",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.806972",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverCanalAndSWTWaterBodiesCycle2-GeoJSON.zip",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=d6b56cb5-4237-4067-b1f4-3f8369787424&fileName=WFDRiverCanalAndSWTWaterBodiesCycle2-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850726",
+                "description": "WFDRiverCanalAndSWTWaterBodiesCycle2-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "dc51b6bf-07c8-46b6-9bff-4f34d704d78c",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.807044",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverCanalAndSWTWaterBodiesCycle2-GML.zip",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=d6b56cb5-4237-4067-b1f4-3f8369787424&fileName=WFDRiverCanalAndSWTWaterBodiesCycle2-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850727",
+                "description": "WFDRiverCanalAndSWTWaterBodiesCycle2-KML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b1d3ba28-af3c-4af9-9eaf-b10e6ae545cf",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.807112",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverCanalAndSWTWaterBodiesCycle2-KML.zip",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=d6b56cb5-4237-4067-b1f4-3f8369787424&fileName=WFDRiverCanalAndSWTWaterBodiesCycle2-KML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850728",
+                "description": "WFDRiverCanalAndSWTWaterBodiesCycle2-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "265e09ea-85fb-409d-aecc-bf516dd4fd55",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.807179",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverCanalAndSWTWaterBodiesCycle2-MID_MIF.zip",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=d6b56cb5-4237-4067-b1f4-3f8369787424&fileName=WFDRiverCanalAndSWTWaterBodiesCycle2-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850729",
+                "description": "WFDRiverCanalAndSWTWaterBodiesCycle2-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "a12ea413-4057-40a7-9e95-5202649fed9d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.807246",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverCanalAndSWTWaterBodiesCycle2-SHP.zip",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=d6b56cb5-4237-4067-b1f4-3f8369787424&fileName=WFDRiverCanalAndSWTWaterBodiesCycle2-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850730",
+                "description": "WFDRiverCanalAndSWTWaterBodiesCycle2-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "495756d5-6b9b-4d02-a23a-6b4fb125f64e",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.807309",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverCanalAndSWTWaterBodiesCycle2-TAB.zip",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=d6b56cb5-4237-4067-b1f4-3f8369787424&fileName=WFDRiverCanalAndSWTWaterBodiesCycle2-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850731",
+                "description": "WFD_River_Canal_SWT_Waterbodies_Cycle2.lyr download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "211aca42-69f5-4a1c-a91a-9fa003799c88",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.807371",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFD_River_Canal_SWT_Waterbodies_Cycle2.lyr",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=d6b56cb5-4237-4067-b1f4-3f8369787424&fileName=WFD_River_Canal_SWT_Waterbodies_Cycle2.lyr",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850732",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "6145aed3-4a83-474f-b199-23474ced1b96",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.807433",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDRiverCanalAndSWTWaterBodiesCycle2_Download",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/7804bf80-d465-11e4-aa9b-f0def148f590?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850733",
+                "description": "WFD - River, Canal and Surface Water Transfer Water bodies Cycle 2 WMS",
+                "format": "",
+                "hash": "",
+                "id": "c3b91851-b062-4d1d-bab8-a78e6775e0f0",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.807494",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDRiverCanalAndSWTWaterBodiesCycle2_WMS",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-river-canal-and-surface-water-transfer-waterbodies-cycle-2/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850734",
+                "description": "WFD - River, Canal and Surface Water Transfer Water bodies Cycle 2 WFS",
+                "format": "",
+                "hash": "",
+                "id": "71ff6b0a-c131-4a5c-b0d9-89da03d7cd26",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.807555",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDRiverCanalAndSWTWaterBodiesCycle2_WFS",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-river-canal-and-surface-water-transfer-waterbodies-cycle-2/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:17.850735",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "9f94a779-eff6-420a-b37e-e40b6c75b7b4",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:17.807631",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "c5a3e877-12c3-4e81-8603-d2d205d52d7a",
+                "position": 11,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-river-canal-and-surface-water-transfer-waterbodies-cycle-2/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inlandWaters",
+                "id": "cec0bb77-73e4-4884-a522-2dd31882fe82",
+                "name": "inlandWaters",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "water management",
+                "id": "18f434c4-2330-4a20-8a3a-fa4075b8b866",
+                "name": "water management",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "water monitoring",
+                "id": "ae514d19-d476-4f57-8244-dc6bed5399cf",
+                "name": "water monitoring",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "52d8f2a2-0fdf-4c16-84f9-1998fb32a00a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

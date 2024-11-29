@@ -1,0 +1,128 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "2408cda8-8709-4f82-b918-f6f24c4431a6",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:20:43.934931",
+        "metadata_modified": "2024-11-16T22:02:35.623316",
+        "name": "london-fuel-poverty-risk-indicators-wards",
+        "notes": "These [fuel poverty risk indicators](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/London-Ward-Fuel-Poverty-Scores.xls) provide users with a nuanced picture of the impact of various risk factors, exacerbating factors and indicators for fuel poverty. It was developed with the Assembly Health and Public Services Committee in their investigation into fuel poverty in London. The [Committee's report](https://www.london.gov.uk/sites/default/files/gla_migrate_files_destination/Fuel%20poverty%20-%20Final%20report.pdf) explains how the tool could be used strategically to help organisations target specific wards that are at high risk of fuel poverty. Appendix 4 in the report set out the rationale for the risk factors present in the tool.\n\nUsers can adjust the weighting of the indicators to show their relative significance. Isolating specific indicators could help organisations determine what type of support is likely to have greatest impact in an area. For example, wards with a low score for cavity wall insulation would indicate wards that could be targeted for promoting uptake of cavity wall insulation.\n\nRead Victoria Borwick's blog \"[Using public data to tackle fuel poverty - can you help?](/blog/using-public-data-tackle-fuel-poverty-can-you-help/)\"\n\nThe fuel poverty scores measure risk of fuel poverty based on 12 indicators. The England and Wales average each year is 0. Scores below 0 are more likely to be at risk from fuel poverty according to these measures.\n\nThe indicators are:\n\n**Housing**  \nDwellings without central heating  \nCavity walls that are uninsulated  \nLofts with less than 150mm insulation\n\n**Health**  \nHealth Deprivation & Disability domain (ID2010)  \nStandardised Mortality Ratio  \nIncapacity Benefit claimant rate\n\n**Older people**  \nPeople aged 60 and over  \nOlder people claiming pension credit\n\n**Worklessness**  \nUnemployment\n\n**Poverty**  \nIncome Support claimant rate  \nChild Poverty rates  \nHouseholds classified 'fuel poor'\n\nThe Excel tool includes a ward map, charts and rankings.\n\n**Note:** Users must enable macros when prompted upon opening the spreadsheet (or reset security to medium/low) for the map to function. The rest of the tool will function without macros.\n\n![Excel Tool](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/fp-dashboard-map.jpg)",
+        "num_resources": 1,
+        "num_tags": 4,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "London Fuel Poverty Risk Indicators, Wards",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/london-fuel-poverty-risk-indicators-wards",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2012-03-12T09:00:17.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2014-07-07T09:37:26.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "3332c8e9-60da-4ec6-8364-fee1eb2ecef6"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:22:04.226041",
+                "description": null,
+                "format": "XLS",
+                "hash": "",
+                "id": "a8355dfb-be92-49ec-97df-9f5830548c87",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:49.753505",
+                "mimetype": "application/vnd.ms-excel",
+                "mimetype_inner": null,
+                "name": "London-Ward-Fuel-Poverty-Scores.xls",
+                "package_id": "2408cda8-8709-4f82-b918-f6f24c4431a6",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-fuel-poverty-risk-indicators-wards/3f3e879c-f601-4f63-b684-f4c18a0befe3/London-Ward-Fuel-Poverty-Scores.xls",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "fuel-poverty",
+                "id": "cf3e8461-021c-4692-ada3-4faf283a2a7d",
+                "name": "fuel-poverty",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "housing",
+                "id": "00a20d30-2585-49fc-aeef-137dff81627d",
+                "name": "housing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "poverty",
+                "id": "9dcfa718-3150-471d-88a2-b92ae802b605",
+                "name": "poverty",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wards",
+                "id": "0ccd5b6f-6085-4db7-9e16-4e1a74deace4",
+                "name": "wards",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8a5a592a-2141-436f-93fe-4a4325623b66"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

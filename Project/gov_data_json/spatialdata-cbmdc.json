@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "27a904be-c3aa-4956-9d3c-69069a112dcc",
+        "frequency": "DAILY",
+        "id": "4c44dc41-ce61-434b-a464-97f2717611c2",
+        "metadata_created": "2019-07-05T08:54:12.834763",
+        "metadata_modified": "2019-07-05T08:54:12.834768",
+        "name": "spatialdata-cbmdc",
+        "notes": "Open Spatial Data",
+        "organization": {
+            "id": "636f4913-6fc3-4cda-9770-9dfcf3219583",
+            "name": "city-of-bradford-metropolitan-district-council",
+            "title": "City of Bradford Metropolitan District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-04-23T16:30:54.280822",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "636f4913-6fc3-4cda-9770-9dfcf3219583",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "spatialdata-cbmdc",
+        "type": "harvest",
+        "url": "https://spatialdata-cbmdc.hub.arcgis.com/data.json",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1715,
+            "last_job": {
+                "id": "28401661-8955-485a-bafb-7bd49b9c772b",
+                "created": "2024-11-17 07:00:03.941304",
+                "gather_started": "2024-11-17 07:00:04.254672",
+                "gather_finished": "2024-11-17 07:00:07.701780",
+                "finished": "2024-11-17 07:00:24.923963",
+                "source_id": "4c44dc41-ce61-434b-a464-97f2717611c2",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 63,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/create.py\", line 200, in package_create\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"Area management/restriction/regulation zones and reporting units\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 63
+        }
+    }
+}

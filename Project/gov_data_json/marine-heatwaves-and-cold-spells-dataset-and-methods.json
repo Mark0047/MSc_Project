@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "bb189d5e-8f1b-4708-bf35-6a9354c4a3a2",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:26:09.979445",
+        "metadata_modified": "2024-09-10T08:26:09.979449",
+        "name": "marine-heatwaves-and-cold-spells-dataset-and-methods",
+        "notes": "Cefas Data Cube Viewer which can be accessed here: \n`https://eutro-cube.cefas.co.uk/`_\n\nThis portal contains Ostia Marine Heatwaves (MHW) and Cold Spells (MCS) \ndataset between 2020-present. There are following datasets:\n\n\n-   Daily MCS Flag: sea surface temperature below 10th percentile computed \n    from 10 years of OSTIA L4 Reprocessed data for the particular day\n-   Daily MHW Flag: sea surface temperature above 90th percentile computed \n    from 10 years of OSTIA L4 Reprocessed data for the particular day\n-   MCS Duration: The number of consecutive days since the trigger of the MCS \n    in 10 days rolling window\n-   MHW Duration: The number of consecutive days since the trigger of the MHW \n    in 10 days rolling window\n-   MCS Warning: Pixels, where sea surface temperature has been below 10th \n    percentile for 1, 2, 3, 4, 5 days. This shows areas which could \n    potentially become MCSs= a pixel being flagged as MCS 5 consecutive days \n    in a row\n-   MHW Warning: Pixels, where sea surface temperature has been above 90th \n    percentile for 1, 2, 3, 4, 5 days. This shows areas which could \n    potentially become MHWs= a pixel being flagged as MHW 5 consecutive days \n    in a row\n\n\n.. _`https://eutro-cube.cefas.co.uk/`:\n    https://eutro-cube.cefas.co.uk/",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2020-04-01"
+        ],
+        "temporal_coverage-to": [
+            "2021-03-31"
+        ],
+        "title": "Marine Heatwaves and Cold Spells: Dataset and Methods",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "15.00"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "63.00"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "35.00"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-20.00"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2024-01-17\"}, {\"type\": \"revision\", \"value\": \"2024-02-01\"}, {\"type\": \"creation\", \"value\": \"2023-10-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "daily"
+            },
+            {
+                "key": "guid",
+                "value": "CEFASa7ca777e-64f1-4b2a-ad35-1473dcb3b1ee"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9974b5b9-280f-4c37-a67e-90ee56321b2b"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-02-01T12:48:04"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[15.00, 35.00], [-20.00, 35.00], [-20.00, 63.00], [15.00, 63.00], [15.00, 35.00]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:26:09.983237",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science.",
+                "format": "",
+                "hash": "",
+                "id": "f63fe006-4dd9-4a03-81e4-f5e7a84d4fd0",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:26:09.977143",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "bb189d5e-8f1b-4708-bf35-6a9354c4a3a2",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/21723",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9974b5b9-280f-4c37-a67e-90ee56321b2b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

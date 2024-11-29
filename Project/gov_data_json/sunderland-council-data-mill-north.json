@@ -1,0 +1,63 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "{\"organizations_filter_include\": [\"Sunderland City Council\"]}",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "59d8455e-e5a2-408f-81e5-e567c4a053a7",
+        "metadata_created": "2019-01-23T11:00:37.671827",
+        "metadata_modified": "2019-01-23T11:00:37.671834",
+        "name": "sunderland-council-data-mill-north",
+        "notes": "",
+        "organization": {
+            "id": "25f02a9e-aeb2-4abd-ab20-ebc260956847",
+            "name": "sunderland-city-council",
+            "title": "Sunderland City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:41.720613",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "organizations_filter_include": [
+            "Sunderland City Council"
+        ],
+        "owner_org": "25f02a9e-aeb2-4abd-ab20-ebc260956847",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "Sunderland council - Data Mill North",
+        "type": "harvest",
+        "url": "https://datamillnorth.org/data.json?slug=sunderland-city-council",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2193,
+            "last_job": {
+                "id": "3ba57818-bb75-44c6-bcf9-55c67b1be6f5",
+                "created": "2024-11-17 10:00:07.771464",
+                "gather_started": "2024-11-17 10:00:48.917546",
+                "gather_finished": "2024-11-17 10:00:49.308002",
+                "finished": "2024-11-17 10:01:01.272937",
+                "source_id": "59d8455e-e5a2-408f-81e5-e567c4a053a7",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 0,
+                    "errored": 0,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": []
+            },
+            "total_datasets": 1
+        }
+    }
+}

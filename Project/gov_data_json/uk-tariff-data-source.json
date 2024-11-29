@@ -1,0 +1,60 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "859a2e53-aef2-42f2-873c-36bda654a2b7",
+        "frequency": "DAILY",
+        "id": "bad2e92b-8262-4a40-a133-cbf1e54d1382",
+        "metadata_created": "2024-07-08T08:24:29.261940",
+        "metadata_modified": "2024-07-08T08:30:04.922893",
+        "name": "uk-tariff-data-source",
+        "notes": "The data contained in this source is Tariff Data held by the Department for Business and Trade.\r\nThe data is published where the database is update, usually daily",
+        "organization": {
+            "id": "034e7e89-5550-4851-bf90-d2fb69af289e",
+            "name": "department-for-international-trade",
+            "title": "Department for Business and Trade",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2016-09-13T18:00:25.089589",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "034e7e89-5550-4851-bf90-d2fb69af289e",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "UK Tariff Data",
+        "type": "harvest",
+        "url": "https://data.api.trade.gov.uk/v1/datasets/uk-tariff-2021-01-01/metadata?format=data.json",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 137,
+            "last_job": {
+                "id": "1a35ede2-d3c4-402b-ae75-b1fc9c9ad195",
+                "created": "2024-11-16 20:00:05.880338",
+                "gather_started": "2024-11-16 20:00:05.952870",
+                "gather_finished": "2024-11-16 20:00:06.852308",
+                "finished": "2024-11-16 20:00:44.485162",
+                "source_id": "bad2e92b-8262-4a40-a133-cbf1e54d1382",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 0,
+                    "errored": 0,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": []
+            },
+            "total_datasets": 1
+        }
+    }
+}

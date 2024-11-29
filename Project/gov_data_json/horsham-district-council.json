@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "4e4e102d-ad83-4bdf-8366-6e6203e417ed",
+        "metadata_created": "2019-01-23T10:56:26.226256",
+        "metadata_modified": "2019-01-23T10:56:26.226262",
+        "name": "horsham-district-council",
+        "notes": "",
+        "organization": {
+            "id": "db2b3cab-0e46-4ceb-9210-255d7bbda412",
+            "name": "horsham-district-council",
+            "title": "Horsham District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-08-09T07:36:33.133668",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "db2b3cab-0e46-4ceb-9210-255d7bbda412",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Horsham_District_Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/Horsham_District_Council",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 19,
+            "last_job": {
+                "id": "71b4536c-7878-45a1-8e9e-8bc845a94844",
+                "created": "2022-03-22 12:53:03.940142",
+                "gather_started": "2022-03-22 12:53:04.089076",
+                "gather_finished": "2022-03-22 12:53:04.490648",
+                "finished": "2022-03-22 12:53:06.542460",
+                "source_id": "4e4e102d-ad83-4bdf-8366-6e6203e417ed",
+                "status": "Finished",
+                "stats": {
+                    "added": 1,
+                    "updated": 0,
+                    "not modified": 6,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Tag \"Area management/restriction/regulation zones and r\" must be alphanumeric characters or symbols: -_.",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 7
+        }
+    }
+}

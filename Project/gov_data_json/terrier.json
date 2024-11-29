@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@cheshireeast.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "c8194831-6c69-4aae-b1ee-e00fcd4a03dd",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-01-28T18:21:24.523850",
+        "metadata_modified": "2017-12-19T13:02:59.122873",
+        "name": "terrier",
+        "notes": "Land in CBC Council ownership not showing sales.\nHistoric dataset. Has not been accurately updated for approximately 5 years and the accuracy of the data cannot be verified.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+            "name": "cheshire-east-council",
+            "title": "Cheshire East Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T10:02:35.362710",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1998-03-01"
+        ],
+        "temporal_coverage-to": [
+            "2015-07-31"
+        ],
+        "theme-primary": "government",
+        "theme-secondary": [],
+        "title": "Terrier",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.154722"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.23611"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.079047"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.458089"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"1998-03-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "005"
+            },
+            {
+                "key": "guid",
+                "value": "2246"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "cedd5694-dd42-422b-b0fd-ac033f36e766"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://maps.cheshire.gov.uk/ce/gemini3/2246.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Public Sector End User Licence - INSPIRE"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-01-28"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Congleton Borough Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-2.154722, 53.079047],[-2.154722, 53.23611], [-2.458089, 53.23611], [-2.458089, 53.079047], [-2.154722, 53.079047]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::Nat. Grid GB"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "87ad4f9b-d8f2-4a30-81ea-4cb2b3d39116"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-01-28T18:21:24.562270",
+                "description": "Resource locator",
+                "format": "WMS",
+                "hash": "",
+                "id": "3e043cac-246f-486b-972e-92db534dad23",
+                "last_modified": null,
+                "metadata_modified": "2015-01-28T18:21:24.562270",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cheshire East Council Web Map Service",
+                "package_id": "c8194831-6c69-4aae-b1ee-e00fcd4a03dd",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://maps.cheshire.gov.uk/ArcGIS/services/CE/public_wms/MapServer/WmSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-01-28T18:21:24.562286",
+                "description": "Resource locator",
+                "format": "WFS",
+                "hash": "",
+                "id": "ef0d60e4-af35-4df8-aa34-6e7fb123a5ca",
+                "last_modified": null,
+                "metadata_modified": "2015-01-28T18:21:24.562286",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cheshire East Council Web Feature Service",
+                "package_id": "c8194831-6c69-4aae-b1ee-e00fcd4a03dd",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://maps.cheshire.gov.uk/ArcGIS/services/CE/public_wfs/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cedd5694-dd42-422b-b0fd-ac033f36e766"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "87ad4f9b-d8f2-4a30-81ea-4cb2b3d39116"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ]
+    }
+}

@@ -1,0 +1,281 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "a448dd2a-9197-4ea0-8357-c2c9b3c29591",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-09-01T17:59:39.878471",
+        "metadata_modified": "2024-06-19T11:19:21.092890",
+        "name": "scottish-index-of-multiple-deprivation-simd-2016",
+        "notes": "The Scottish Index of Multiple Deprivation (SIMD) 2016 is the Scottish Government\u2019s official tool for identifying concentrations of deprivation in Scotland. SIMD16 is the Scottish Government\u2019s fifth edition since 2004. The Scottish Index of Multiple Deprivation (SIMD) combines seven different domains (aspects) of deprivation: income; employment; health; education, skills and training; geographic access to services; crime; and housing. These domains are measured using a number of indicators to form ranks for each domain. Data zones are ranked from 1 being most deprived to 6,976 being least deprived. Each of the seven domain ranks are then combined to form the overall SIMD. This provides a measure of relative deprivation at data zone level, so it tells you that one data zone is relatively more deprived than another but not how much more deprived.",
+        "num_resources": 4,
+        "num_tags": 5,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Scottish Index of Multiple Deprivation (SIMD) 2016",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year)\", \"Dataset is complete for Scotland. Care should be taken when using this dataset with lookups to other postcode based geographies. Some postcode unit boundaries will have changed since data zones were created therefore exact match of the boundaries are unlikely.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2016-08-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "b5d408a8-9e74-4421-8cfc-fedf66101af8"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ecddc2b3-1319-4956-b5e2-3102865a4db6"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-01-14T16:42:14"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher, pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "OSGB 1936 / British National Grid (EPSG:27700)"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:21.137124",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "361b3a26-e66e-4fb4-9bab-15939a5ca17c",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:21.099389",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SIMD2016",
+                "package_id": "a448dd2a-9197-4ea0-8357-c2c9b3c29591",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/PeopleSociety/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:21.137127",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "454a1a6e-e19b-40b4-95c6-a882890b5cd9",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:21.099487",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SOC:SIMD2016",
+                "package_id": "a448dd2a-9197-4ea0-8357-c2c9b3c29591",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/PeopleSociety/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:21.137128",
+                "description": "ESRI REST Service",
+                "format": "",
+                "hash": "",
+                "id": "23d17c24-2c8d-43fc-9123-3535a3e6ca90",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:21.099558",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scottish Index Multiple Deprivation 2016",
+                "package_id": "a448dd2a-9197-4ea0-8357-c2c9b3c29591",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/rest/services/ScotGov/PeopleSociety/MapServer/6",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:21.137129",
+                "description": "ESRI Shapefile Download",
+                "format": "ZIP",
+                "hash": "",
+                "id": "df1568b8-11b5-468e-8bbd-6ef4fcbe93da",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:21.099628",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Scottish Index of Multiple Deprivation 2016",
+                "package_id": "a448dd2a-9197-4ea0-8357-c2c9b3c29591",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/ATOM/shapefiles/SG_SIMD_2016.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Deprivation",
+                "id": "ac591da1-78e3-4f61-9385-36de18ec5797",
+                "name": "Deprivation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Life in the community",
+                "id": "044c2fbc-5302-4c82-a53f-0fe0dfe497c9",
+                "name": "Life in the community",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Population distribution \u2014 demography",
+                "id": "bcc163e5-69e2-4fd4-8c0e-92bdcb49a212",
+                "name": "Population distribution \u2014 demography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Social issues",
+                "id": "338456de-76b4-490b-833c-789d80456c4c",
+                "name": "Social issues",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "social inequality",
+                "id": "8ee056e4-7ca0-4b0e-a0c5-faa1b735eca3",
+                "name": "social inequality",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3c2d3a04-ea68-49c8-98c9-6fde0389381f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

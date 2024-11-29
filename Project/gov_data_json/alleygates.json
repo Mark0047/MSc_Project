@@ -1,0 +1,137 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "8a2ee4bb-b824-4c02-91ff-225b0a38c320",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2018-04-26T18:03:17.090500",
+        "metadata_modified": "2023-08-01T02:39:48.982896",
+        "name": "alleygates",
+        "notes": "We tackle persistent crime and anti-social behaviour (ASB), mainly on rear alleyways, by installing lockable gates to restrict access. This page includes data on the alleygates in York\r\n\r\nFor further information please visit [City of York Council's website](https://www.york.gov.uk/AlleyGating).\r\n\r\n*Please note the \u2018in_pspo\u2019 field included within the data indicates whether or not the alleygate was installed using a Public Spaces Protection Order (PSPO). 1 = yes, the alleygate was installed using a PSPO. 0 = no, the alleygate was installed using a different legal Order. For more information, please contact alleygating@york.gov.uk\r\n\r\n**Please note that the data published within this dataset is a live API link to CYC's GIS server. Any changes made to the master copy of the data will be immediately reflected in the resources of this dataset. The date shown in the \"\"Last Updated\"\" field of each GIS resource reflects when the data was first published.",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+            "name": "city-of-york-council",
+            "title": "City of York Council",
+            "type": "organization",
+            "description": "Corporate Open Data platform - http://www.yorkopendata.org/\r\n\r\nCorporate map browser - http://maps.york.gov.uk/localviewexternal/sites/lv/",
+            "image_url": "",
+            "created": "2013-11-25T13:21:35.161579",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+        "private": false,
+        "state": "active",
+        "title": "Alleygates",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-07-14T15:30:52.406398",
+                "datastore_active": true,
+                "description": "This is a csv spreadsheet which includes data on alleygates in York\r\n\r\n*Please note the \u2018in_pspo\u2019 field included within the data indicates whether or not the alleygate was installed using a Public Spaces Protection Order (PSPO). 1 = yes, the alleygate was installed using a PSPO. 0 = no, the alleygate was installed using a different legal Order. For more information, please contact alleygating@york.gov.uk",
+                "format": "CSV",
+                "hash": "",
+                "id": "cba59e2d-4072-438e-8060-a5706780fa8a",
+                "last_modified": null,
+                "metadata_modified": "2023-08-01T02:39:48.996017",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Alleygates",
+                "package_id": "8a2ee4bb-b824-4c02-91ff-225b0a38c320",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.arcgis.com/datasets/435df028e05b4b419f9ccd1cfabdb1a6_7.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-07-14T15:31:14.257858",
+                "datastore_active": false,
+                "description": "This is a map which will highlight alleygate locations with a yellow pin. You will be unable to click on the yellow pin to find out more information about the alleygate, but such functionality is available when using [__the GeoJSON format__](https://data.yorkopendata.org/dataset/alleygates/resource/810496b5-eed4-44a4-aa58-963fe6bd7af9). Alternatively you can download the file and open it with your own geospatial software.\r\n\r\n*Please note the \u2018in_pspo\u2019 field included within the data indicates whether or not the alleygate was installed using a Public Spaces Protection Order (PSPO). 1 = yes, the alleygate was installed using a PSPO. 0 = no, the alleygate was installed using a different legal Order. For more information, please contact alleygating@york.gov.uk\r\n\r\n__**Please be aware this data is very demanding and, as such, the content may take a while to load when previewing it.__                                                               \r\n__Please note that, due to slow server response, you may need to refresh the page in order to correctly preview the content.__                                                    \r\n__CYC is constantly working on improving its infrastructure to increase the performance.__                                                              ",
+                "format": "KML",
+                "hash": "",
+                "id": "0ad84788-62fe-4988-a524-0dd5a1c8fd78",
+                "last_modified": null,
+                "metadata_modified": "2023-08-01T02:39:48.996141",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Alleygates",
+                "package_id": "8a2ee4bb-b824-4c02-91ff-225b0a38c320",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.arcgis.com/datasets/435df028e05b4b419f9ccd1cfabdb1a6_7.kml",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-07-14T15:31:43.494318",
+                "datastore_active": false,
+                "description": "This is a map which will highlight alleygate locations with a blue pin. You can click on the blue pin to find out more information about the alleygate. Alternatively you can download the file and open it with your own geospatial software.\r\n\r\n*Please note the \u2018in_pspo\u2019 field included within the data indicates whether or not the alleygate was installed using a Public Spaces Protection Order (PSPO). 1 = yes, the alleygate was installed using a PSPO. 0 = no, the alleygate was installed using a different legal Order. For more information, please contact alleygating@york.gov.uk\r\n\r\n__**Please be aware this data is very demanding and, as such, the content may take a while to load when previewing it.__                                                               \r\n__Please note that, due to slow server response, you may need to refresh the page in order to correctly preview the content.__                                                    \r\n__CYC is constantly working on improving its infrastructure to increase the performance.__                                                              ",
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "810496b5-eed4-44a4-aa58-963fe6bd7af9",
+                "last_modified": null,
+                "metadata_modified": "2023-08-01T02:39:48.996240",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Alleygates",
+                "package_id": "8a2ee4bb-b824-4c02-91ff-225b0a38c320",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.arcgis.com/datasets/435df028e05b4b419f9ccd1cfabdb1a6_7.geojson",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "fdb90e8f-e3cf-4973-ace0-9ab75e869105"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "fdb90e8f-e3cf-4973-ace0-9ab75e869105"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,187 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "support@ceda.ac.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "9ff2d14b-2f07-4f52-bc59-8f9f3e2fea1c",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-09-12T09:14:49.201421",
+        "metadata_modified": "2017-07-17T17:46:14.583103",
+        "name": "globolakes-high-resolution-global-limnology-data",
+        "notes": "This dataset collection holds high-resolution datasets related to in-land water for limnology (study of in-land waters) and remote sensing applications. These were produced by the Department of Meteorology at the University of Reading. \n\nInformation on distance-to-land for each water cell and the distance-to-water for each land cell has many potential applications in remote sensing, where the applicability of geophysical retrieval algorithms may be affected by the presence of water or land within a satellite field of view (image pixel).\n\nThe data was recorded over a 5 year period from 2005-2010 on a global scale. It is expected that new and updated datasets will be added in the future.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "9ea160c4-4e17-4b49-af74-155c64fa0df6",
+            "name": "centre-for-environmental-data-analysis",
+            "title": "Centre for Environmental Data Analysis",
+            "type": "organization",
+            "description": "The Centre for Environmental Data Analysis (CEDA) serves the environmental science community through four data centres, data analysis environments, and participation in a host of relevant research projects.\r\n\r\nWe aim to support environmental science, further environmental data archival practices, and develop and deploy new technologies to enhance access to data. Additionally we provide services to aid large scale data analysis.\r\n\r\nYou can learn more about our data centres, our data processing services, and project work using the links in the menu above. \r\n\r\nIf you have a particular project or data management issue that you would like to consult CEDA on please contact us and a member of the CEDA team will be happy to assist.\r\n\r\nThe Centre for Environmental Data Analysis, based within the RAL Space department of the Science and Technology Facilities Council's Rutherford Appleton Laboratory, hosts a range of activities associated with environmental data archives. \r\n\r\nThese activities include running a number of key environmental data centres for the environmental research community as well as being in the vanguard of the development of data archival and delivery practices and technologies. ",
+            "image_url": "",
+            "created": "2016-09-07T11:21:57.789587",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9ea160c4-4e17-4b49-af74-155c64fa0df6",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005-01-01T00:00:00"
+        ],
+        "temporal_coverage-to": [
+            "2010-01-01T00:00:00"
+        ],
+        "theme-primary": "mapping",
+        "theme-secondary": [],
+        "title": "GloboLakes: high-resolution global limnology data",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Registered; Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "180.0"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "90.0"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "-90.0"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-180.0"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2015-07-21T10:32:55\"}, {\"type\": \"creation\", \"value\": \"2015-07-21T10:32:55\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "b904bd03-92a9-4013-847d-d53a8f6fff79"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "fa5e9669-4419-46f8-ac3a-fc43ef699fbd"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "b904bd03-92a9-4013-847d-d53a8f6fff79"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Registered; Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-07-17"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Rutherford Appleton Laboratory"
+            },
+            {
+                "key": "resource-type",
+                "value": "series"
+            },
+            {
+                "key": "responsible-party",
+                "value": " (ceda_officer, author); Department of Meteorology (author); Rutherford Appleton Laboratory (curator, custodian, distributer, metadata_owner, point_of_contact, publisher); Polaris House (data_owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[180.0, -90.0],[180.0, 90.0], [-180.0, 90.0], [-180.0, -90.0], [180.0, -90.0]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0abe2b7a-d5c1-4873-981e-90289db5716c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Centre for Environmental Data Analysis (CEDA)"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-09-12T10:14:49.252402",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "207f05ce-4d6d-4287-ae95-5dcab7da4f75",
+                "last_modified": null,
+                "metadata_modified": "2016-09-12T10:14:49.252402",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset Homepage",
+                "package_id": "9ff2d14b-2f07-4f52-bc59-8f9f3e2fea1c",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://catalogue.ceda.ac.uk/uuid/06cef537c5b14a2e871a333b9bc0b482",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "fa5e9669-4419-46f8-ac3a-fc43ef699fbd"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0abe2b7a-d5c1-4873-981e-90289db5716c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Centre for Environmental Data Analysis (CEDA)"
+            }
+        ]
+    }
+}

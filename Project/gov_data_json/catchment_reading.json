@@ -1,0 +1,250 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "18994d6a-f9de-4706-a93d-bfcef739b233",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-03-29T17:58:43.766803",
+        "metadata_modified": "2017-03-29T17:58:43.785001",
+        "name": "catchment_reading",
+        "notes": "A catchment of River Thames, ending in Reading. Catchment number 39130.",
+        "num_resources": 7,
+        "num_tags": 0,
+        "organization": {
+            "id": "f548d95d-d167-4e36-b1bb-c3b6219580ed",
+            "name": "oxford-city-council",
+            "title": "Oxford City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:48:09.822148",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "f548d95d-d167-4e36-b1bb-c3b6219580ed",
+        "private": false,
+        "state": "active",
+        "theme-primary": "environment",
+        "theme-secondary": [
+            "Mapping"
+        ],
+        "title": "Catchment_Reading",
+        "type": "dataset",
+        "url": "https://www2.oxopendata.uk/d/4a4r-g9i9",
+        "version": null,
+        "extras": [
+            {
+                "key": "data_issued",
+                "value": "2016-08-30"
+            },
+            {
+                "key": "data_modified",
+                "value": "2016-10-26"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "www2.oxopendata.uk"
+            },
+            {
+                "key": "guid",
+                "value": "https://www2.oxopendata.uk/api/views/4a4r-g9i9"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "31fc59e2-b9cb-46ce-bbc5-42566c800817"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://www2.oxopendata.uk/data.json\", \"harvest_source_type\": \"data_json\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Oxford City Council - \", \"activity_occurred\": \"2017-03-29T17:58:43.697500\", \"activity\": \"harvest\", \"harvested_guid\": \"https://www2.oxopendata.uk/api/views/4a4r-g9i9\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "e1c35b31-8218-4a23-ac5c-1412ff12d472"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Oxford City Council - "
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-29T18:58:43.826160",
+                "description": "",
+                "format": "KML",
+                "hash": "",
+                "id": "52fc613b-48a1-4b6b-b517-fd95b0186b95",
+                "last_modified": null,
+                "metadata_modified": "2017-03-29T18:58:43.826160",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "18994d6a-f9de-4706-a93d-bfcef739b233",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www2.oxopendata.uk/api/geospatial/4a4r-g9i9?method=export&format=KML",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-29T18:58:43.826179",
+                "description": "",
+                "format": "KMZ",
+                "hash": "",
+                "id": "ad2d7c6a-3d31-483f-acb3-c824e2ddb107",
+                "last_modified": null,
+                "metadata_modified": "2017-03-29T18:58:43.826179",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "18994d6a-f9de-4706-a93d-bfcef739b233",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www2.oxopendata.uk/api/geospatial/4a4r-g9i9?method=export&format=KMZ",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-29T18:58:43.826187",
+                "description": "",
+                "format": "SHP",
+                "hash": "",
+                "id": "cbdb5412-1134-4b20-a0d2-8794fd1b387d",
+                "last_modified": null,
+                "metadata_modified": "2017-03-29T18:58:43.826187",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "18994d6a-f9de-4706-a93d-bfcef739b233",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www2.oxopendata.uk/api/geospatial/4a4r-g9i9?method=export&format=Shapefile",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-29T18:58:43.826193",
+                "description": "",
+                "format": "",
+                "hash": "",
+                "id": "a1f5b578-f156-4708-ad9c-92b69f049c37",
+                "last_modified": null,
+                "metadata_modified": "2017-03-29T18:58:43.826193",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "18994d6a-f9de-4706-a93d-bfcef739b233",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www2.oxopendata.uk/api/geospatial/4a4r-g9i9?method=export&format=Original",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-29T18:58:43.826198",
+                "description": "",
+                "format": "JSON",
+                "hash": "",
+                "id": "030dd625-8b7c-431d-ab23-82bccdc69d6c",
+                "last_modified": null,
+                "metadata_modified": "2017-03-29T18:58:43.826198",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "18994d6a-f9de-4706-a93d-bfcef739b233",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www2.oxopendata.uk/api/views/4i93-34wi/rows.json?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-29T18:58:43.826204",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "03ce636d-8ef1-4578-b062-12f5e9624f06",
+                "last_modified": null,
+                "metadata_modified": "2017-03-29T18:58:43.826204",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "18994d6a-f9de-4706-a93d-bfcef739b233",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www2.oxopendata.uk/api/views/4i93-34wi/rows.csv?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-29T18:58:43.826210",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "30151c73-0984-4cdf-9ecc-384251e9e07f",
+                "last_modified": null,
+                "metadata_modified": "2017-03-29T18:58:43.826210",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landing page",
+                "package_id": "18994d6a-f9de-4706-a93d-bfcef739b233",
+                "position": 6,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "https://www2.oxopendata.uk/d/4a4r-g9i9",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "31fc59e2-b9cb-46ce-bbc5-42566c800817"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "e1c35b31-8218-4a23-ac5c-1412ff12d472"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Oxford City Council - "
+            }
+        ]
+    }
+}

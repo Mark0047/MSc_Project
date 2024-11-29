@@ -1,0 +1,183 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "c0eec478-ef19-4234-826f-8efb9563eda2",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-07-16T15:50:54.196184",
+        "metadata_modified": "2020-07-27T12:04:16.136307",
+        "name": "road-safety",
+        "notes": "Detailed data about personal injury accidents on public roads in York that are reported to the police and subsequently recorded, using the STATS19 accident reporting form, from 2005 onwards.\r\n\r\nThe Accident_Index attribute gives a unique index for each accident and links to Vehicle and Casualty data. Casualties are linked to vehicles by the \u201cVEHREF\u201d attribute.\r\n\r\nThe Longitude and Latitude data is based on WGS 1984.\r\n\r\nThe key for all of the coded values of the data is provided within the \"Road Safety Key\" resource.\r\n\r\nFor more information such as casualties, details on vehicles or breath-test or blood alcohol content, please visit [Road Safety data for GB](http://data.gov.uk/dataset/road-accidents-safety-data)\r\n\r\nData extracted from publication by Department for Transport, licensed under Open Government Licence",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+            "name": "city-of-york-council",
+            "title": "City of York Council",
+            "type": "organization",
+            "description": "Corporate Open Data platform - http://www.yorkopendata.org/\r\n\r\nCorporate map browser - http://maps.york.gov.uk/localviewexternal/sites/lv/",
+            "image_url": "",
+            "created": "2013-11-25T13:21:35.161579",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+        "private": false,
+        "state": "active",
+        "title": "Road Safety",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "extras": [
+            {
+                "key": "Schema1",
+                "value": "Accidents"
+            },
+            {
+                "key": "Schema2",
+                "value": "Casualties"
+            },
+            {
+                "key": "Schema3",
+                "value": "Vehicles"
+            },
+            {
+                "key": "Schema4",
+                "value": "RoadSafetyKey"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7bf17559-7853-4e38-b478-16a2a2db83fc"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-07-09T10:55:35.381957",
+                "datastore_active": true,
+                "description": "Spreadsheet",
+                "format": "CSV",
+                "hash": "",
+                "id": "aa8bcb3d-3945-4347-adc9-24d8e1d3e05c",
+                "last_modified": "2019-10-31T13:08:03.009917",
+                "metadata_modified": "2015-07-09T10:55:35.381957",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Accidents",
+                "package_id": "c0eec478-ef19-4234-826f-8efb9563eda2",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/c0eec478-ef19-4234-826f-8efb9563eda2/resource/aa8bcb3d-3945-4347-adc9-24d8e1d3e05c/download/accidents.csv",
+                "url_type": null,
+                "webstore_last_updated": "None",
+                "webstore_url": "None"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-07-10T10:41:40.176398",
+                "datastore_active": true,
+                "description": "Spreadsheet",
+                "format": "CSV",
+                "hash": "",
+                "id": "ee45379a-d7bb-4ee4-83d0-0f535624f5e1",
+                "last_modified": "2019-10-31T13:10:48.067434",
+                "metadata_modified": "2015-07-10T10:41:40.176398",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Casualties",
+                "package_id": "c0eec478-ef19-4234-826f-8efb9563eda2",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/c0eec478-ef19-4234-826f-8efb9563eda2/resource/ee45379a-d7bb-4ee4-83d0-0f535624f5e1/download/casualties.csv",
+                "url_type": null,
+                "webstore_last_updated": "None",
+                "webstore_url": "None"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-07-10T10:42:36.481730",
+                "datastore_active": true,
+                "description": "Spreadsheet",
+                "format": "CSV",
+                "hash": "",
+                "id": "1eaf47df-be35-4f3a-bab6-b4958b5d9dee",
+                "last_modified": "2019-10-31T13:12:39.096465",
+                "metadata_modified": "2015-07-10T10:42:36.481730",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Vehicles",
+                "package_id": "c0eec478-ef19-4234-826f-8efb9563eda2",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/c0eec478-ef19-4234-826f-8efb9563eda2/resource/1eaf47df-be35-4f3a-bab6-b4958b5d9dee/download/vehicles.csv",
+                "url_type": null,
+                "webstore_last_updated": "None",
+                "webstore_url": "None"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-07-14T10:52:04.805291",
+                "datastore_active": false,
+                "description": "Spreadsheet",
+                "format": "CSV",
+                "hash": "",
+                "id": "2e7cb28d-0297-49df-a266-3b9bce40031f",
+                "last_modified": null,
+                "metadata_modified": "2015-07-14T10:52:04.805291",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Road Safety Key",
+                "package_id": "c0eec478-ef19-4234-826f-8efb9563eda2",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/c0eec478-ef19-4234-826f-8efb9563eda2/resource/2e7cb28d-0297-49df-a266-3b9bce40031f/download/roadsafetykey.csv",
+                "url_type": null,
+                "webstore_last_updated": "None",
+                "webstore_url": "None"
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7bf17559-7853-4e38-b478-16a2a2db83fc"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,198 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "corporate.gis@fife.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "bf385a96-10d7-4b42-a129-ed5d3aa34c26",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2016-04-29T22:08:23.283001",
+        "metadata_modified": "2020-07-23T12:52:14.520270",
+        "name": "employment-land-audit-wfs",
+        "notes": "WFS Service provides download capabilities for details of the location and description of Employment development land annual survey in Fife.",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Employment Land Audit (WFS)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.415218528"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.523058044"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "55.870418744"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.9039416880000006"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"href\": [\"http://scotgovsdi.edina.ac.uk/srv/en/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=1baf32b4-badf-4b40-9a3e-4cd0aaa8a98f\"], \"uuid\": [\"1baf32b4-badf-4b40-9a3e-4cd0aaa8a98f\"], \"title\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-08-08\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "aa44f54b-674b-49cd-a63e-e86a3acfbb1a"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "21920f6c-9456-4fe1-be29-b5a73add7183"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Fife Council has created the supplied data using Ordnance Survey data. The following attribution statement is required to acknowledge the source of information as \\\"Copyright Fife Council, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year)\\u201d.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-07-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Fife Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.415218528, 55.870418744], [-3.9039416880000006, 55.870418744], [-3.9039416880000006, 56.523058044], [-2.415218528, 56.523058044], [-2.415218528, 55.870418744]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "download"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-23T12:52:14.791076",
+                "description": "WFS:feature extract",
+                "format": "",
+                "hash": "",
+                "id": "2d71e4ee-8f28-45fc-8e63-1b2d4b736cb6",
+                "last_modified": null,
+                "metadata_modified": "2020-07-23T12:52:14.791076",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Employment Land Audit WFS",
+                "package_id": "bf385a96-10d7-4b42-a129-ed5d3aa34c26",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:EMLOYMENT_LAND_AUDIT&maxFeatures=100&outputFormat=GML2",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "cadastral",
+                "id": "27ff2d56-c869-4e2e-b2d0-b31ec5a16567",
+                "name": "cadastral",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "employment development",
+                "id": "1177370c-aecc-44bf-91fa-88c113b90b64",
+                "name": "employment development",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "industry",
+                "id": "4aaba7ba-ba96-45e5-b722-d6442a89c150",
+                "name": "industry",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "21920f6c-9456-4fe1-be29-b5a73add7183"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

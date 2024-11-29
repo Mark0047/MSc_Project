@@ -1,0 +1,123 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "25a162d9-a128-4572-b683-2ccb15bd9361",
+        "date_released": "2010-05-31",
+        "date_updated": "",
+        "geographic_coverage": "000000: ",
+        "geographic_granularity": "local authority",
+        "id": "c43ffe7b-0a1c-4be2-b4d7-ad32409d09ff",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2010-08-27T13:43:48.254313",
+        "metadata_modified": "2013-08-12T23:00:31.404269",
+        "name": "warwickshire-spending-allocation",
+        "notes": "Details of Warwickshire County Council's spending allocations.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "Spending Allocations",
+            "created_at": "2014-10-28T13:55:33Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/6896/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/6896/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "d615a457-c8a6-4474-9974-02171a5de623",
+            "name": "warwickshire-county-council",
+            "title": "Warwickshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:48.472859",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "d615a457-c8a6-4474-9974-02171a5de623",
+        "precision": "\u00a3000s",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "temporal_granularity": "year",
+        "theme-primary": "government-spending",
+        "title": "Spending Allocations",
+        "type": "dataset",
+        "update_frequency": "annual",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "categories",
+                "value": ""
+            },
+            {
+                "key": "external_reference",
+                "value": ""
+            },
+            {
+                "key": "national_statistic",
+                "value": "no"
+            },
+            {
+                "key": "taxonomy_url",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "datastore_active": "False",
+                "description": "Spending allocations for 2010/2011",
+                "format": "CSV",
+                "id": "cdcaca02-98c1-40bc-953d-ed9f860c1bb8",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "c43ffe7b-0a1c-4be2-b4d7-ad32409d09ff",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://opendata.s3.amazonaws.com/finance/spending-allocations-2010-2011.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "datastore_active": "False",
+                "description": "Spending allocations for 2010/2011",
+                "format": "XLS",
+                "id": "c42efbf1-193c-44c5-856c-8904477e6b26",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "c43ffe7b-0a1c-4be2-b4d7-ad32409d09ff",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://opendata.s3.amazonaws.com/finance/spending-allocations-2010-2011.xls",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

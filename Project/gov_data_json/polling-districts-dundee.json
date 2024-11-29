@@ -1,0 +1,202 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "ero@dundeecity.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "9e34a0ac-bb9f-4e92-8791-ab4291bfcc1e",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2014-11-05T11:13:43.122090",
+        "metadata_modified": "2024-06-19T11:22:12.897772",
+        "name": "polling-districts-dundee",
+        "notes": "A Polling District is a geographical area created by the sub-division of a a UK Parliamentary Constituency for the purposes of a UK Parliamentary Election. Local Authorities create polling districts by virtue of Section 18A of The Representation of the People Act 1983. They are reviewed every 5 years (Section 18C and Schedule A1 refers).\n\nAll electors within a polling district vote at the same polling place.",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2014-07-07"
+        ],
+        "temporal_coverage-to": [
+            "2017-05-04"
+        ],
+        "title": "Polling Districts - Dundee",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"no limitations\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.830211"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.504933"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "56.443149"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.097265"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2017-03-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "{BD367156-D2F8-4FD5-8112-6A8037438EA7}"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f9ff2ee6-837a-44f3-952d-303c24d27809"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence (v3)\", \"www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2022-03-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Dundee City Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Dundee City Council (owner, pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.830211, 56.443149], [-3.097265, 56.443149], [-3.097265, 56.504933], [-2.830211, 56.504933], [-2.830211, 56.443149]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:22:12.928087",
+                "description": "Polling_Districts",
+                "format": "",
+                "hash": "",
+                "id": "d07caf0c-6fee-4973-9514-e07dc085298f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:22:12.903821",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dundee_Polling_Districts_and_Polling_Stations:Polling_Districts",
+                "package_id": "9e34a0ac-bb9f-4e92-8791-ab4291bfcc1e",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://dservices.arcgis.com/GlZ1P6ksdiXNYhvC/arcgis/services/Dundee_Polling_Districts_and_Polling_Stations/WFSServer?service=wfs&request=getcapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Administrative units",
+                "id": "8d20781b-12df-4d16-809a-b340746e0775",
+                "name": "Administrative units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "democracy",
+                "id": "899d53f4-23e9-433d-9ffc-d42a27450c7a",
+                "name": "democracy",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "voting",
+                "id": "226468a3-8f56-45ce-a987-4194c5d9872e",
+                "name": "voting",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0b5f8a4b-f8bc-4e6b-88a9-862f9747dacf"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

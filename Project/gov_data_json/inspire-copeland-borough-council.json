@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "ba11c2f5-44f6-43dc-bcfa-087af5495818",
+        "metadata_created": "2019-01-23T11:07:45.060483",
+        "metadata_modified": "2019-02-26T11:08:53.019893",
+        "name": "inspire-copeland-borough-council",
+        "notes": "Copeland Borough Council - INSPIRE CSW",
+        "organization": {
+            "id": "804b8845-a2ce-4a3c-9740-9f089fd3c135",
+            "name": "copeland-borough-council",
+            "title": "Copeland Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-06-20T10:16:59.092453",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "804b8845-a2ce-4a3c-9740-9f089fd3c135",
+        "private": false,
+        "source_type": "ckan",
+        "state": "active",
+        "title": "INSPIRE - Copeland Borough Council",
+        "type": "harvest",
+        "url": "http://gistch1.copelandbc.org.uk/geonetwork/srv/en/csw",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 72,
+            "last_job": {
+                "id": "70265c2d-afb8-4682-8112-7ef6617b5a6a",
+                "created": "2018-10-09 12:17:02.387314",
+                "gather_started": "2018-10-09 12:17:10.433616",
+                "gather_finished": "2018-10-09 12:17:14.962894",
+                "finished": "2018-10-09 12:53:54.046581",
+                "source_id": "ba11c2f5-44f6-43dc-bcfa-087af5495818",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 68,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "System Error importing Gemini document\nUnicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.",
+                        "error_count": 68
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 17
+        }
+    }
+}

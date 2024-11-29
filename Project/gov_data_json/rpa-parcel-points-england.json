@@ -1,0 +1,230 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "open.data@rpa.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "ed6f8d0e-df4f-4027-b4e3-ee43d7cebf35",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-10-13T09:21:11.244857",
+        "metadata_modified": "2023-11-01T13:39:03.564724",
+        "name": "rpa-parcel-points-england",
+        "notes": "There are approximately 2.6 million agricultural land parcels in England, and the Parcel Points (England) point dataset represents the approximate centres, or centroids of these parcels. The number of agricultural parcels varies over time as fields are split or joined consequently creating new fields with new centroids. Some parcels may be sold for development and are no longer available for agricultural use, occasionally land that was previously developed may return to agriculture, e.g. disused airfields.\n\nParcel Points is a simple point dataset that uses the centres of agricultural parcels attributed only with the parcel reference ID.\n\nUsers can use the data as supplied or attach their own attributes. When viewed overlying other publicly available data, e.g. satellite imagery (Google earth), OS open data, OpenStreetMap, etc. that may feature agricultural land the points provide a useful reference point to identify the approximate centre of agricultural parcels.\n\nParcel Points uses the Open Government Licence v3.0 as used by other publicly accessible data on the Defra Data Services Platform and will be updated every 6 months.\n\nCoverage will be for agricultural land parcels in England only and will be available as national coverage and also split into the Ordnance Survey Ceremonial Counties in a similar approach to that applied to the RPA\u2019s Crop Map of England product where each county is given a three letter code. Attribution statement: \u00a9 Rural Payments Agency",
+        "num_resources": 2,
+        "num_tags": 4,
+        "organization": {
+            "id": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+            "name": "rural-payments-agency",
+            "title": "Rural Payments Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:53:21.853113",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "RPA Parcel Points (England)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2023-07-03\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "biannually"
+            },
+            {
+                "key": "guid",
+                "value": "93a2433d-054a-484c-aec4-4e2ce9d7f2a9"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c95b306b-29d5-44ca-94db-5485eb571f89"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Rural Payments Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:39:03.608678",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "9e1f5a30-b721-4b8e-941a-aa4bbe243cc0",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:39:03.572721",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RPA Parcel Points - Download full extent",
+                "package_id": "ed6f8d0e-df4f-4027-b4e3-ee43d7cebf35",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/93a2433d-054a-484c-aec4-4e2ce9d7f2a9?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:39:03.608682",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "0cb7cdb2-6c7a-4fb4-a002-8534a775fb50",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:39:03.572828",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RPA Parcel Points - REST URL",
+                "package_id": "ed6f8d0e-df4f-4027-b4e3-ee43d7cebf35",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/arcgis/rest/services/RPA/RPAParcelPoints/MapServer",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Cadastral parcels",
+                "id": "73e219cb-0029-416b-b481-c97cb5d8fb30",
+                "name": "Cadastral parcels",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "farming",
+                "id": "55847ab7-8884-450c-9e99-471418a76631",
+                "name": "farming",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land use",
+                "id": "4a61c115-d29b-47e2-b16d-d8b12e2862df",
+                "name": "land use",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "882835b1-5ef1-4b9f-8a7a-6eba095ed840"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ]
+    }
+}

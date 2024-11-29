@@ -1,0 +1,102 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": false,
+        "creator_user_id": "f7fbe2ef-4bdc-43b9-8361-0c372322b4b1",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "geographic_coverage": "000010: Overseas",
+        "id": "1c52fdce-ea96-4020-8e7c-5912ccec85e9",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2018-01-20T15:22:54.329191",
+        "metadata_modified": "2018-01-20T15:34:40.975838",
+        "name": "relationship-and-entity-extraction-evaluation-dataset",
+        "notes": "This document dataset was the output of a project aimed to create a 'gold standard' dataset that could be used to train and validate machine learning approaches to natural language processing (NLP). The project was carried out by Aleph Insights and Committed Software on behalf of the Defence Science and Technology Laboratory (Dstl). The data set specifically focusing on entity and relationship extraction relevant to somebody operating in the role of a defence and security intelligence analyst. The dataset was therefore constructed using documents and structured schemas that were relevant to the defence and security analysis domain. A number of data subsets were produced (this is the BBC Online data subset). Further information about this data subset (BBC Online) and the others produced (together with licence conditions, attribution and schemas) many be found at the main project GitHub repository webpage (https://github.com/dstl/re3d). Note that the 'documents.json' file is to be used together with the 'entities.json' and 'relations.json' files (also found on this data.gov.uk webpage and their structures and relationship described on the given GitHub webpage.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "fa7bc374-ec3c-4ff6-963a-2cb116297d94",
+            "name": "defence-science-and-technology-laboratory",
+            "title": "Defence Science and Technology Laboratory",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:54:49.758301",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "fa7bc374-ec3c-4ff6-963a-2cb116297d94",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "defence",
+        "theme-secondary": [
+            "Education",
+            "Towns & Cities",
+            "Environment",
+            "Society",
+            "Business & Economy"
+        ],
+        "title": "Relationship and Entity Extraction Evaluation Dataset (Documents)",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "licence",
+                "value": "This dataset is released under the Creative Commons Attribution-NonCommercial 3.0 license. More information about this license can be found at https://creativecommons.org/licenses/by-nc/3.0/, and the full license text can be read at https://creativecommons.org/licenses/by-nc/3.0/legalcode."
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": "true"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-01-20T15:22:54.493904",
+                "description": "BBC Online documents",
+                "format": "JSON",
+                "hash": "",
+                "id": "1658d732-6c21-4af5-ae7f-b056e52ef2c3",
+                "last_modified": null,
+                "metadata_modified": "2018-01-20T15:22:54.493904",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "1c52fdce-ea96-4020-8e7c-5912ccec85e9",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://github.com/dstl/re3d/blob/master/BBC%20Online/documents.json",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

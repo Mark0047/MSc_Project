@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "c7d069e2-0b07-4d4c-8ba5-b8b1803696f0",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:22:57.077796",
+        "metadata_modified": "2024-09-10T08:22:57.077799",
+        "name": "results-of-aquanet-mod-for-projecting-the-economic-burden-of-the-world-organisation-for-animal-",
+        "notes": "The outputs of the Aquaculture Network Disease Model (AquaNet-Mod), predicting \nthe epidemiological and economic burden of viral haemorrhagic septicaemia in \nEnglish and Welsh salmonid farms under various disease control scenarios.\n\nIncluded are outputs of the AquaNet-Mod from FY22-23. The code for generating \nthese outputs can be found at the `aquanet`_ and `aquanet-mod`_ GitHub \nrepositories.\n\nFor the summary data, there are .csv files which give the epidemic size, \nduration and cost for each simulation. For the epidemic size and duration, the \nfiles also give an indication as to whether an epidemic died out or timed out.\n\nThe summary data contains five zipped output sub-files:\n\n\n(  1.)scenarios - Contains the outputs of disease control scenarios described \n      in Guilder et al. (in prep) and Kennerley et al. (in prep).\n(  2.)fishery_cull - Contains the outputs of the baseline disease control \n      scenario, with different proportions of fisheries able to cull.\n(  3.)fallow_period - Contains the outputs of the baseline disease control \n      scenario, with different lengths of fallow period.\n(  4.)n_sims - Contains the outputs of baseline disease control scenario, with \n      a different number of simulations. Note: doesn\u2019t contain economic data.\n(  5.)sensitivity_tests - Contains the outputs of model sensitivity tests \n      described in Guilder et al. (in prep).\n\n\n.. _`aquanet`:\n    https://github.com/CefasRepRes/aquanet\n\n.. _`aquanet-mod`:\n    https://github.com/CefasRepRes/aquanet-mod",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2020-04-01"
+        ],
+        "temporal_coverage-to": [
+            "2023-04-01"
+        ],
+        "title": "Results of AquaNet-Mod for projecting the economic burden of the World Organisation for Animal Health (WOAH) listed diseases across English and Welsh Salmonid industry",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "3.00"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.25"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50.50"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-7.00"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2023-06-13\"}, {\"type\": \"revision\", \"value\": \"2023-12-11\"}, {\"type\": \"creation\", \"value\": \"2023-05-02\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "CEFAS0df11c37-c849-45f7-9eda-4194005fc838"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ef19e411-0d4f-4adb-86eb-dbc937c4e225"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-12-11T01:35:54"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Department for Environment, Food and Rural Affairs (DEFRA)"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor); Department for Environment, Food and Rural Affairs (DEFRA) (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[3.00, 50.50], [-7.00, 50.50], [-7.00, 55.25], [3.00, 55.25], [3.00, 50.50]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:22:57.087675",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: Binary download.",
+                "format": "",
+                "hash": "",
+                "id": "67e7f969-a0cc-4bd8-ad34-95227dd4224f",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:22:57.075469",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "c7d069e2-0b07-4d4c-8ba5-b8b1803696f0",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/21672",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "ef19e411-0d4f-4adb-86eb-dbc937c4e225"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

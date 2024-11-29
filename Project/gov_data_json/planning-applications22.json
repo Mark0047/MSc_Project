@@ -1,0 +1,238 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "80fe32e3-3957-47ef-8e5c-20be64cd1561",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-09-20T13:16:07.910135",
+        "metadata_modified": "2024-11-17T07:00:08.842821",
+        "name": "planning-applications22",
+        "notes": "This dataset is not the \"Planning Register\" as described in The Town and Country Planning (Development Management Procedure) (England) Order 2010; which is currently provided via Public Access https://planning.bradford.gov.uk/online-applications/ \r\n\r\nThis dataset contains a current set of Planning Application boundaries held since 1974.  The Planning Service is constantly adding and amending boundaries as it discovers missing boundaries and updates incorrect boundaries.\r\n\r\nThis dataset will be updated every 24hrs.",
+        "num_resources": 6,
+        "num_tags": 3,
+        "organization": {
+            "id": "636f4913-6fc3-4cda-9770-9dfcf3219583",
+            "name": "city-of-bradford-metropolitan-district-council",
+            "title": "City of Bradford Metropolitan District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-04-23T16:30:54.280822",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "636f4913-6fc3-4cda-9770-9dfcf3219583",
+        "private": false,
+        "state": "active",
+        "title": "Planning Applications",
+        "type": "dataset",
+        "url": "https://spatialdata-cbmdc.hub.arcgis.com/datasets/CBMDC::planning-applications",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2023-06-19T15:09:05.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2023-08-30T14:37:27.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "City of Bradford Metropolitan District Council"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=eeb3ad1f520a45eea580506c8f097f3f&sublayer=0"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b127f418-ee36-4ca4-9799-b406c0363083"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4c44dc41-ce61-434b-a464-97f2717611c2"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "spatialdata-cbmdc"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T09:02:25.142652",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "fc160adb-71c0-43a7-b1aa-58a13c6409d0",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T09:02:25.109042",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "80fe32e3-3957-47ef-8e5c-20be64cd1561",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/datasets/CBMDC::planning-applications",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-20T13:16:07.919130",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "6d7fd1a7-06ee-4552-818c-693893b95f08",
+                "last_modified": null,
+                "metadata_modified": "2023-09-20T13:16:07.900801",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "80fe32e3-3957-47ef-8e5c-20be64cd1561",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis.bradford.gov.uk/server/rest/services/Open_Data/Planning_Applications/MapServer/0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:11.041898",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "78f23294-9b83-484f-8b73-4e20a4bd49d3",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:11.008928",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "80fe32e3-3957-47ef-8e5c-20be64cd1561",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/eeb3ad1f520a45eea580506c8f097f3f/csv?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:11.041903",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "5d6e7b01-2f97-4df7-8d72-f9954f60622f",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:11.009021",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "80fe32e3-3957-47ef-8e5c-20be64cd1561",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/eeb3ad1f520a45eea580506c8f097f3f/geojson?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:11.041904",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "75085e85-6791-49e2-8d21-8bf47e553a47",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:11.009102",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "80fe32e3-3957-47ef-8e5c-20be64cd1561",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/eeb3ad1f520a45eea580506c8f097f3f/shapefile?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T10:00:11.041905",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "d9b6432b-3bad-4a2d-94f8-e4057064da1f",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T10:00:11.009178",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "80fe32e3-3957-47ef-8e5c-20be64cd1561",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-cbmdc.hub.arcgis.com/api/download/v1/items/eeb3ad1f520a45eea580506c8f097f3f/kml?layers=0",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Environment",
+                "id": "db7de4be-adbc-4ab6-9cec-d555c287d2d7",
+                "name": "Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Planning Applications",
+                "id": "7739ea32-bd3e-4e14-9c4b-001d289920c2",
+                "name": "Planning Applications",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Town and Country Planning Act",
+                "id": "a3947e0e-139a-48c2-92c6-ef35f6d053db",
+                "name": "Town and Country Planning Act",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b127f418-ee36-4ca4-9799-b406c0363083"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4c44dc41-ce61-434b-a464-97f2717611c2"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "spatialdata-cbmdc"
+            }
+        ]
+    }
+}

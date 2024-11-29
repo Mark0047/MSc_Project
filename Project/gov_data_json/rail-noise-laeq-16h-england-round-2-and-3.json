@@ -1,0 +1,409 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "open@defra.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "cb9923ad-f6b6-4492-b4d1-b1a24538f899",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-07-19T09:26:36.613590",
+        "metadata_modified": "2024-06-15T07:05:25.245050",
+        "name": "rail-noise-laeq-16h-england-round-2-and-3",
+        "notes": "Data indicating the level of noise according to the strategic noise mapping of rail sources within areas with a population of at least 100,000 people (agglomerations) and along Network Rail and HS1 traffic routes. LAeq,16h indicates the annual average noise levels for the 16-hour period between 0700 \u2013 2300. Noise levels are modeled on a 10m grid at a receptor height of 4m above ground, polygons are then produced by merging neighboring cells within the following noise classes: 75.0+dB, 70.0-74.9dB, 65.0-69.9dB, 60.0-64.9dB, 55.0-59.9dB, <54.9dB. This data is a product of the strategic noise mapping analysis undertaken in 2012 to meet the requirements of the Environmental Noise Directive (Directive 2002/49/EC) and the Environmental Noise (England) Regulations 2006 (as amended) Attribution statement: \u00a9 Crown Copyright",
+        "num_resources": 10,
+        "num_tags": 3,
+        "organization": {
+            "id": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+            "name": "department-for-environment-food-and-rural-affairs",
+            "title": "Department for Environment, Food and Rural Affairs",
+            "type": "organization",
+            "description": "We are the UK government department responsible for policy and regulations on environmental, food and rural issues. Our priorities are to grow the rural economy, improve the environment and safeguard animal and plant health.\r\n\r\nDefra is a ministerial department, supported by 38 agencies and public bodies.\r\n\r\nhttps://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:39.115374",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2010-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Rail Noise - LAeq 16h - England Round 2",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.8"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.8"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.7"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2015-08-11\"}, {\"type\": \"revision\", \"value\": \"2018-03-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "db2d82e4-ba81-4fa6-91b0-cc36b2318c9f"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9ab54bca-8aa2-4ba5-8a8d-ba687830620d"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Department for Environment, Food & Rural Affairs (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.8, 50], [-5.7, 50], [-5.7, 55.8], [1.8, 55.8], [1.8, 50]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "38d7636d-8011-41b3-aa60-77fd399c105a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Defra metadata catalogue harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:25.293980",
+                "description": "RailNoiseLAeq16hRound2-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3ee6fba4-d646-49c1-b738-3d2981ecbf1c",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:25.258447",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RailNoiseLAeq16hRound2-FGDB.zip",
+                "package_id": "cb9923ad-f6b6-4492-b4d1-b1a24538f899",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0dd66a2d-9bf9-4520-a42f-44a181fa9ba0&fileName=RailNoiseLAeq16hRound2-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:25.293983",
+                "description": "RailNoiseLAeq16hRound2-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "bd373348-5943-460b-b357-ae318182a486",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:25.258547",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RailNoiseLAeq16hRound2-GeoJSON.zip",
+                "package_id": "cb9923ad-f6b6-4492-b4d1-b1a24538f899",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0dd66a2d-9bf9-4520-a42f-44a181fa9ba0&fileName=RailNoiseLAeq16hRound2-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:25.293985",
+                "description": "RailNoiseLAeq16hRound2-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "987be83c-ed2f-4aa1-b4f8-565a3c544ff7",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:25.258619",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RailNoiseLAeq16hRound2-GML.zip",
+                "package_id": "cb9923ad-f6b6-4492-b4d1-b1a24538f899",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0dd66a2d-9bf9-4520-a42f-44a181fa9ba0&fileName=RailNoiseLAeq16hRound2-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:25.293986",
+                "description": "RailNoiseLAeq16hRound2-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "0557ae38-1b82-4631-b196-8a5bb4f8b26a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:25.258699",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RailNoiseLAeq16hRound2-MID_MIF.zip",
+                "package_id": "cb9923ad-f6b6-4492-b4d1-b1a24538f899",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0dd66a2d-9bf9-4520-a42f-44a181fa9ba0&fileName=RailNoiseLAeq16hRound2-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:25.293987",
+                "description": "RailNoiseLAeq16hRound2-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "5ec2806e-0397-4f42-9e7d-bce0e2b2941e",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:25.258767",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RailNoiseLAeq16hRound2-SHP.zip",
+                "package_id": "cb9923ad-f6b6-4492-b4d1-b1a24538f899",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0dd66a2d-9bf9-4520-a42f-44a181fa9ba0&fileName=RailNoiseLAeq16hRound2-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:25.293988",
+                "description": "RailNoiseLAeq16hRound2-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "f0ff05ab-b3dd-4061-927f-50ed0dce0382",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:25.258832",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RailNoiseLAeq16hRound2-TAB.zip",
+                "package_id": "cb9923ad-f6b6-4492-b4d1-b1a24538f899",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=0dd66a2d-9bf9-4520-a42f-44a181fa9ba0&fileName=RailNoiseLAeq16hRound2-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:25.293989",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "b0f6f835-fe0e-4a1a-a402-d0f704d412ac",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:25.258896",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Rail_Noise_LAeq_16h_England_Round_2_download",
+                "package_id": "cb9923ad-f6b6-4492-b4d1-b1a24538f899",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/db2d82e4-ba81-4fa6-91b0-cc36b2318c9f?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:25.293989",
+                "description": "Rail Noise - LAeq 16h - England Round 2 WMS",
+                "format": "",
+                "hash": "",
+                "id": "dab09ca8-cc95-4b2d-8e17-5366c8c01f93",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:25.258959",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Rail_Noise_LAeq_16h_England_Round_2_wms",
+                "package_id": "cb9923ad-f6b6-4492-b4d1-b1a24538f899",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/rail-noise-laeq-16h-england-round-2/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:25.293990",
+                "description": "Rail Noise - LAeq 16h - England Round 2 WFS",
+                "format": "",
+                "hash": "",
+                "id": "52d11177-25ec-4ed4-9e37-fad8d589f711",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:25.259021",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Rail_Noise_LAeq_16h_England_Round_2_wfs",
+                "package_id": "cb9923ad-f6b6-4492-b4d1-b1a24538f899",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/rail-noise-laeq-16h-england-round-2/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:25.293991",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "82a308fa-e63d-4d7b-9a6b-7444e264893c",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:25.259118",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "cb9923ad-f6b6-4492-b4d1-b1a24538f899",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/rail-noise-laeq-16h-england-round-2/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Transport networks",
+                "id": "83d966c8-b18a-4c8f-9d3f-6aa454713f70",
+                "name": "Transport networks",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "noise exposure",
+                "id": "fd8744d2-be03-47ba-a4d6-c785a5046eea",
+                "name": "noise exposure",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d783d92f-c216-48e9-b9de-f0d25b549ad2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "38d7636d-8011-41b3-aa60-77fd399c105a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Defra metadata catalogue harvest"
+            }
+        ]
+    }
+}

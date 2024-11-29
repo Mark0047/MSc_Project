@@ -1,0 +1,179 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f061e414-eab5-4620-881c-cac63f84f09d",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2024-07-13T10:02:55.757053",
+        "metadata_modified": "2024-08-31T17:01:00.528661",
+        "name": "mye01t012",
+        "notes": "<b>Description of Data</b>\r\nPopulation estimates for the 850 Super Data Zones in Northern Ireland were published on 25th July 2024.\r\n\r\n<b>Time Period</b>\r\nEstimates are provided for mid-2021 and mid-2022.\r\n\r\n<b>Notes: \r\n</b>1. Estimated populations are given as of 30th June for the year noted, rounded to the nearest person.<b>\r\n</b>2. Rounding for estimates at this geographic level is independent. As such, figures may not add to higher geography totals.<b>\r\n\r\nMethodology</b>\r\nThe population estimates for small geographical areas are created from an average of two statistical methods: \r\nthe ratio change and cohort-component methods. The ratio change method applies the change in secondary (typically administrative) data sources to Census estimates. The 2022 small geographical area estimates use a single statistical dataset which has been created by amalgamating a series of different administrative data sources. This statistical dataset is a de-duplicated admin based estimate for the usually resident population of NI. The cohort-component method updates the Census estimates by \u2018ageing on\u2019 populations and applying information on births, deaths and migration. An average of both methods is taken and constrained to the published population figures. Further information is available at:\r\n[NISRA 2022 Mid-year Population Estimates webpage](https://www.nisra.gov.uk/publications/2022-mid-year-population-estimates-northern-ireland)\r\n\r\n<b>Geographic Referencing</b>\r\nPopulation Estimates are based on a large number of secondary datasets. Where the full address was available, the Pointer Address database was used to allocate a unique property reference number (UPRN) and geo-spatial co-ordinates to each home address. These can then be used to map the address to particular geographies. Where it was not possible to assign a unique property reference number to an address using the Pointer database, or where the secondary dataset contained only postcode information, the Central Postcode Directory was used to map home address postcodes to higher geographies. A small proportion of records with unknown geography were apportioned based on the spatial characteristics of known records. \r\n\r\n<b>Further Information</b>\r\nThe next estimates of the population for Northern Ireland will be released later in 2024.\r\n\r\nContact: NISRA Customer Services\r\n02890 255156\r\n[census@nisra.gov.uk](mailto:census@nisra.gov.uk)\r\nResponsible Statistician: Jonathan Harvey",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "Mid-year population estimates",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_modified",
+                "value": "2024-07-30T9:30:00.000Z"
+            },
+            {
+                "key": "dcat_publisher_email",
+                "value": "census@nisra.gov.uk"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Population Statistics"
+            },
+            {
+                "key": "guid",
+                "value": "MYE01T012"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c2a2aaa7-b2aa-4114-b2d9-511f3024e6d1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            },
+            {
+                "key": "language",
+                "value": "en"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-09T08:30:16.450394",
+                "datastore_active": false,
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "adae8be5-7a08-458e-af76-2a37456cb0eb",
+                "last_modified": null,
+                "metadata_modified": "2024-08-31T17:01:00.532962",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "csv",
+                "package_id": "f061e414-eab5-4620-881c-cac63f84f09d",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/MYE01T012/CSV/1.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-09T08:30:16.450399",
+                "datastore_active": false,
+                "description": "",
+                "format": "json2.0",
+                "hash": "",
+                "id": "b32acc8b-8e85-4cae-99c9-f333a979f933",
+                "last_modified": null,
+                "metadata_modified": "2024-07-13T10:02:55.754392",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "JSON 2.0",
+                "package_id": "f061e414-eab5-4620-881c-cac63f84f09d",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/MYE01T012/JSON-stat/2.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-09T08:30:16.450402",
+                "datastore_active": false,
+                "description": "",
+                "format": "json1.0",
+                "hash": "",
+                "id": "a7b52847-14ec-4ca8-a548-b26956e07fc7",
+                "last_modified": null,
+                "metadata_modified": "2024-07-13T10:02:55.755129",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "JSON 1.0",
+                "package_id": "f061e414-eab5-4620-881c-cac63f84f09d",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/MYE01T012/JSON-stat/1.0/en",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-09T08:30:16.450404",
+                "datastore_active": false,
+                "description": "",
+                "format": "XLSX",
+                "hash": "",
+                "id": "326923e0-4dd3-4394-93a5-39778edcf416",
+                "last_modified": null,
+                "metadata_modified": "2024-07-13T10:02:55.755833",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Xlsx",
+                "package_id": "f061e414-eab5-4620-881c-cac63f84f09d",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ws-data.nisra.gov.uk/public/api.restful/PxStat.Data.Cube_API.ReadDataset/MYE01T012/XLSX/2007/en",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b266bd4e-d089-4e96-95aa-8aeefa6a84e3"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "fe0e26ac-5f14-414d-84af-36797a827ac0",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-10-12T14:20:17.728503",
+        "metadata_modified": "2024-11-16T22:02:15.978218",
+        "name": "mortality-risk-from-high-temperatures-in-london-triple-jeopardy-mapping",
+        "notes": "A heatwave refers to a prolonged period of unusually hot weather. While there is no standard definition of a heatwave in England, the Met Office generally uses the World Meteorological Organization definition of a heatwave, which is \"when the daily maximum temperature of more than five consecutive days exceeds the average maximum temperature by 5\u00b0C, the normal period being 1961-1990\". They are common in the northern and southern hemisphere during summer, and have historically been associated with health problems and an increase in mortality.\n\nThe urban heat island (UHI) is the phenomenon where temperatures are relatively higher in cities compared to surrounding rural areas due to, for example, the urban surfaces and anthropogenic heat sources. For an example of an urban heat island map during an average summer, [see this dataset](/dataset/london-s-urban-heat-island---average-summer). For an example of an urban heat island map during a warm summer, [see this dataset](/dataset/london-s-urban-heat-island).\n\nAs well as outdoor temperature, an individual\u2019s heat exposure may also depend on the type of building they are inside, if indoors. Indoor temperature exposure may depend on a number of characteristics, such as the building geometry, construction materials, window sizes, and the ability to add extra ventilation. It is also known that people have different vulnerabilities to heat, with some more prone to negative health issues when exposed to high temperatures.\n\nThis Triple Jeopardy dataset combines:\n\n1.  Urban Heat Island information for London, based on the 55 days between May 26th -July 19th 2006, where the last four days were considered a heatwave\n2.  An estimate of the indoor temperatures for individual dwellings in London across this time period\n3.  Population age, as a proxy for heat vulnerability, and distribution\n\nFrom this, local levels of heat-related mortality were estimated using a mortality model derived from epidemiological data.\n\nThe dataset comprises four layers:\n\n*   **Ind\\_Temp\\_A** \u2013 indoor Temperature Anomaly is the difference in degrees Celsius between the estimated indoor temperatures for dwellings and the average indoor temperature estimate for the whole of London, averaged by ward. Positive numbers show dwellings with a greater tendency to overheat in comparison with the London average\n*   **HeatMortpM** \u2013 total estimated mortality due to heat (outdoor and indoor) per million population over the entire 55 day period, inclusive of age effects\n*   **HeatMorUHI** \u2013 estimated mortality per million population due to increased outdoor temperature exposure caused by the UHI over the 55 day period (excluding the effect of overheating housing), inclusive of age effects\n*   **HeatMorInd** \\- estimated mortality per million population due to increased temperature exposure caused by heat-vulnerable dwellings (excluding the effect of the UHI) over the 55 day period, inclusive of age effects More information is on this website and in the Triple Jeopardy leaflet.\n\nThe maps are also available as one combined PDF. More information is on this [website](http://www.arcc-network.org.uk/can-we-predict-the-location-of-overheating-related-deaths/) and in the Triple Jeopardy leaflet.",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Mortality Risk from High Temperatures in London (Triple Jeopardy Mapping)",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/mortality-risk-from-high-temperatures-in-london--triple-jeopardy-mapping-",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2017-10-12T10:34:11"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2017-10-12T13:26:24"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "ba020e98-c0ce-4f7e-b65f-cd97dfa70233"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:15:20.683304",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "d63d1c9e-a4dd-4d8b-930b-535694e5521c",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:12.944303",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Triple Jeopardy Leaflet.pdf",
+                "package_id": "fe0e26ac-5f14-414d-84af-36797a827ac0",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/mortality-risk-from-high-temperatures-in-london--triple-jeopardy-mapping-/075aa74b-c0a5-49f6-bb07-d12bd20ecf02/Triple%2520Jeopardy%2520Leaflet.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:15:20.683326",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "bf1c2e8d-47ec-49ff-8ed4-07e191de98ce",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:12.944425",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Triple Jeopardy Heat Maps GIS files.zip",
+                "package_id": "fe0e26ac-5f14-414d-84af-36797a827ac0",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/mortality-risk-from-high-temperatures-in-london--triple-jeopardy-mapping-/3f1bda4f-e917-4966-8f97-4f2f44be4b27/Triple%2520Jeopardy%2520Heat%2520Maps%2520GIS%2520files.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:15:20.683332",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "50c6320a-bfeb-46e3-9909-de22f8676c0a",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:12.944529",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Triple Jeopardy Heat Maps Combined.pdf",
+                "package_id": "fe0e26ac-5f14-414d-84af-36797a827ac0",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/mortality-risk-from-high-temperatures-in-london--triple-jeopardy-mapping-/646ecbd0-c825-4038-ac09-fc258240d4d2/Triple%2520Jeopardy%2520Heat%2520Maps%2520Combined.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:15:20.683337",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "39d93d40-7386-4483-983f-baf524464d4b",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:12.944628",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Triple Jeopardy Heat Maps.zip",
+                "package_id": "fe0e26ac-5f14-414d-84af-36797a827ac0",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/mortality-risk-from-high-temperatures-in-london--triple-jeopardy-mapping-/ebe9e657-02b9-46a8-a775-08d16bd724ee/Triple%2520Jeopardy%2520Heat%2520Maps.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "12a4ab76-13a7-425a-8fa9-257e489235ff"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

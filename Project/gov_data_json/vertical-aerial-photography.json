@@ -1,0 +1,322 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "4921f8a1-d47e-458b-873b-2a489b1c8165",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-06-22T14:08:32.820242",
+        "metadata_modified": "2024-10-25T15:32:52.968907",
+        "name": "vertical-aerial-photography",
+        "notes": "Vertical aerial photography is an airborne mapping technique, which uses a high-resolution camera mounted vertically underneath the aircraft to capture reflected light in the red, green, blue and for some datasets, near infra-red spectrum. Images of the ground are captured at resolutions between 10cm and 50cm, and ortho-rectified using simultaneous LIDAR and GPS to a high spatial accuracy.\n\nThe Environment Agency has been capturing vertical aerial photography data regularly since 2006 on a project by project basis each ranging in coverage from a few square kilometers to hundreds of square kilometers. The data is available as a raster dataset in ECW (enhanced compressed wavelet) format as either a true colour (RGB), near infra-red (NIR) or a 4-band (RGBN) raster. Where imagery has been captured under incident response conditions and the lighting conditions may be sub-optimal this is defined by the prefix IR. The data are presented as tiles in British National Grid OSGB 1936 projections. Data is available in 5km download zip files for each year of survey. Within each zip file are ECW files aligned to the Ordinance Survey grid. The size of each tile is dependent upon the spatial resolution of the data. \n\nPlease refer to the metadata index catalgoues for the survey date captured, type of survey and spatial resolution of the imagery.  Attribution statement: \u00a9 Environment Agency copyright and/or database right 2022. All rights reserved.",
+        "num_resources": 5,
+        "num_tags": 7,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005-12-15"
+        ],
+        "temporal_coverage-to": [
+            "2024-08-01"
+        ],
+        "title": "Vertical Aerial Photography",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.8"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.8"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.7"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2009-01-01\"}, {\"type\": \"revision\", \"value\": \"2024-10-21\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "biannually"
+            },
+            {
+                "key": "guid",
+                "value": "dae203a8-ba24-4c54-bab0-866b9faadb58"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "5148c161-f6b1-4cbd-9881-a7982f301f19"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-10-24"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.8, 50], [-5.7, 50], [-5.7, 55.8], [1.8, 55.8], [1.8, 50]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-25T15:32:53.030749",
+                "description": "Download the survey data",
+                "format": "",
+                "hash": "",
+                "id": "48d66c3c-59c5-4a47-91d8-a6666685a2da",
+                "last_modified": null,
+                "metadata_modified": "2024-10-25T15:32:52.982986",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey Data - Download",
+                "package_id": "4921f8a1-d47e-458b-873b-2a489b1c8165",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/DefraDataDownload/?Mode=survey",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-25T15:32:53.030751",
+                "description": "Download the coverage metadata files",
+                "format": "",
+                "hash": "",
+                "id": "272a2a8c-3b6b-4121-89bb-e2dd4683bea4",
+                "last_modified": null,
+                "metadata_modified": "2024-10-25T15:32:52.983063",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Shapefile Index Catalogues - Download",
+                "package_id": "4921f8a1-d47e-458b-873b-2a489b1c8165",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/9f0fa3fc-a860-4729-adc9-47fe53f658d0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-25T15:32:53.030753",
+                "description": "Coverage metadata files - Web Map Service",
+                "format": "",
+                "hash": "",
+                "id": "584677a8-e451-47e1-abd7-14d40346b54b",
+                "last_modified": null,
+                "metadata_modified": "2024-10-25T15:32:52.983137",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Index Catalogues - WMS",
+                "package_id": "4921f8a1-d47e-458b-873b-2a489b1c8165",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-25T15:32:53.030754",
+                "description": "Coverage metadata files - Web Feature Service",
+                "format": "",
+                "hash": "",
+                "id": "efe5b25a-c7c1-4a8f-be3b-72443054bc8b",
+                "last_modified": null,
+                "metadata_modified": "2024-10-25T15:32:52.983194",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Index Catalogues - WFS",
+                "package_id": "4921f8a1-d47e-458b-873b-2a489b1c8165",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wfs?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-25T15:32:53.030755",
+                "description": "Survey Data FAQs",
+                "format": "",
+                "hash": "",
+                "id": "a1a9dbbf-24f4-4115-9251-9773882d5666",
+                "last_modified": null,
+                "metadata_modified": "2024-10-25T15:32:52.983248",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey Data FAQs",
+                "package_id": "4921f8a1-d47e-458b-873b-2a489b1c8165",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/support/faqs/275879146",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Orthoimagery",
+                "id": "64b9ed71-3811-4c11-a6eb-fcb262370518",
+                "name": "Orthoimagery",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "aerial photography",
+                "id": "33af144a-594a-4b07-8ac4-49256a950c27",
+                "name": "aerial photography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood",
+                "id": "90af076f-75b0-42fc-80aa-ac2ff7993443",
+                "name": "flood",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "imageryBaseMapsEarthCover",
+                "id": "af58a39d-4c69-4bfd-9dc1-ee0de09e3c2f",
+                "name": "imageryBaseMapsEarthCover",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "orthorectified colour data",
+                "id": "51c4ef00-82aa-45a9-8601-be6b9c6fbcb2",
+                "name": "orthorectified colour data",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "remote sensing",
+                "id": "a966b150-db31-4f8b-87f1-905c46d706ff",
+                "name": "remote sensing",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5148c161-f6b1-4cbd-9881-a7982f301f19"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "eee96cd6-d0f6-44df-8068-0fb43b1075e7",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2016-03-31T09:37:34.308714",
+        "metadata_modified": "2017-11-24T22:30:49.000661",
+        "name": "pedestrain-crossing",
+        "notes": "This dataset contains pedestrian crossing information on roads in Northern Ireland that are adopted and maintained by DfI Roads.\r\n",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "theme-primary": "transport",
+        "theme-secondary": [],
+        "title": "Pedestrian Crossings",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "additional_info",
+                "value": "Please note:  two types of pedestrian crossings are recorded, namely:\r\n1) Controlled pedestrian crossing - controlled by traffic signal equipment, e.g. pelican, puffin, toucan crossings as well as integrated within traffic junction signals.\r\n2) Uncontrolled pedestrian crossing - demarked with road markings and illumination, e.g. zebra crossings\r\n"
+            },
+            {
+                "key": "contact_email",
+                "value": "paddy.lavery@infrastructure-ni.gov.uk"
+            },
+            {
+                "key": "contact_name",
+                "value": "Paddy Lavery "
+            },
+            {
+                "key": "frequency",
+                "value": "irregular"
+            },
+            {
+                "key": "guid",
+                "value": "eee96cd6-d0f6-44df-8068-0fb43b1075e7"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "90df26bf-fd2d-4f5f-8f88-44ac2f3da1f5"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "lineage",
+                "value": "Records of road assets were developed following site surveys that recorded the road section reference, chainage and off-set dimensions and this information is held on the Road Maintenance Client System (RMCS).    A new RMCS was introduced in January 2014 and this enabled the transferal of historical asset information (in table format) to spatial datasets displayed on digitised maps.  The new RMCS also allowed asset surveys and asset updates to be recorded directly to the digitised map.  \r\n\r\nPlease note the digitized records may not include all pedestrian crossing locations as there is a back log of survey work to be undertaken.  There are over 2 million records of road assets held and it is not possible to record every change/update, given the number of new road improvement schemes, new road adoptions and the resources available to record this information.  Consequently there is a back-log of outstanding asset survey work and the asset data is therefore not fully up to date.\r\n"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-11-20"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://www.opendatani.gov.uk/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2017-11-20T12:30:21.558961\", \"harvest_source_title\": \"OpenDataNI\", \"activity_occurred\": \"2017-11-24T22:30:48.955911\", \"activity\": \"harvest\", \"harvested_guid\": \"eee96cd6-d0f6-44df-8068-0fb43b1075e7\"}]"
+            },
+            {
+                "key": "topic_category",
+                "value": "[\"location\", \"transportation\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-02-26T11:09:27.649400",
+                "description": "Pedestrian Crossing",
+                "format": "XML",
+                "hash": "",
+                "id": "3b4ffd56-0194-4653-ab35-929ee1a4bf08",
+                "last_modified": null,
+                "metadata_modified": "2016-02-26T11:09:27.649400",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Pedestrian Crossing",
+                "package_id": "eee96cd6-d0f6-44df-8068-0fb43b1075e7",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://apps1.wdm.co.uk/odr/drdni/Pedestrian_Crossing.xml",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-02-26T11:10:06.321523",
+                "description": "Pedestrian Crossing",
+                "format": "CSV",
+                "hash": "",
+                "id": "dd439de7-889d-43f8-8ecb-f8cbc6156f91",
+                "last_modified": null,
+                "metadata_modified": "2016-02-26T11:10:06.321523",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Pedestrian Crossing",
+                "package_id": "eee96cd6-d0f6-44df-8068-0fb43b1075e7",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://apps1.wdm.co.uk/odr/drdni/Pedestrian_Crossing.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-05T09:41:39.945807",
+                "description": "Pedestrian Crossing",
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "6bb2a001-be67-46d5-a10e-582609e9122c",
+                "last_modified": null,
+                "metadata_modified": "2016-04-05T09:41:39.945807",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Pedestrian Crossing",
+                "package_id": "eee96cd6-d0f6-44df-8068-0fb43b1075e7",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.opendatani.gov.uk/dataset/eee96cd6-d0f6-44df-8068-0fb43b1075e7/resource/6bb2a001-be67-46d5-a10e-582609e9122c/download/pedestriancrossing.geojson",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "90df26bf-fd2d-4f5f-8f88-44ac2f3da1f5"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

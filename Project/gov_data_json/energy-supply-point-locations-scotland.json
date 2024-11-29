@@ -1,0 +1,281 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "heatmap@gov.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "9adbe287-fbe4-4db7-b158-255372da2f96",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-10-14T16:42:55.139396",
+        "metadata_modified": "2024-06-19T11:15:22.456271",
+        "name": "energy-supply-point-locations-scotland",
+        "notes": "The location of existing and planned sources of energy, both electricity and heat, is provided as part of the Scotland Heat Map. Alongside data on heat demand, this is used to identify opportunities to reduce carbon emissions from heat in buildings, either by connecting supply and demand in a more efficient manner or by using lower carbon alternatives to existing supply. Data on each energy supply point includes, where available, capacity size category, main technology used (e.g., \u2018wind\u2019, \u2018biomass\u2019) and planning status (e.g., \u2018operational\u2019, \u2018in development\u2019). This dataset is new for the Scotland Heat Map 2022 (which was released to local authorities in November 2023). It replaces the data on existing and planned energy supply in earlier versions of the heat map.\n\nThe Scotland Heat Map is produced by the Scottish Government. Data on existing and planned energy supply comes three sources. Two are UK Government sources: the Renewable Energy Planning Database (REPD) and the Major Power Producers (MPP) dataset. The third is the Energy Saving Trust\u2019s (EST\u2019s) Renewable Heat Database (RHD). Records from the MPP dataset have only been included where they have a fuel type of fossil fuel or nuclear, or where they have a renewable fuel type but their installed capacity is less than 1 MW. This is to avoid overlap with the REPD as much as possible. Records from the RHD have only been included where they output heat only, their installed capacity is 1 MW or higher and they can be shared. The 2020 quarter 4 extract of REPD has been used. MPP data was provided by the UK Government in late 2020. The RHD provides installation information as at end December 2021. \n\nMore information can be found in the documentation available on the Scottish Government website: https://www.gov.scot/publications/scotland-heat-map-documents/",
+        "num_resources": 4,
+        "num_tags": 5,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Energy Supply Point Locations - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available under the terms of the Open Government Licence. The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-04-01\"}, {\"type\": \"revision\", \"value\": \"2023-11-20\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "755cf8f1-6425-4de3-8799-5d6e6099d3c8"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d7a843e6-962e-4455-b7f9-c538a67a9a1b"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-03-25T15:48:01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:15:22.497710",
+                "description": "Reference material",
+                "format": "",
+                "hash": "",
+                "id": "159bcba9-a518-4bd7-a868-81b8388a2230",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:22.461661",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scotland's Heat Map",
+                "package_id": "9adbe287-fbe4-4db7-b158-255372da2f96",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.gov.scot/publications/scotland-heat-map-documents/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:15:22.497714",
+                "description": "Energy Supply",
+                "format": "",
+                "hash": "",
+                "id": "87482f7e-b840-4d8c-b09f-7c08d55cf4cb",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:22.461757",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Energy_Supply",
+                "package_id": "9adbe287-fbe4-4db7-b158-255372da2f96",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://heatmap.data.gov.scot/getows.ashx?ms=mapsources/OGC",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:15:22.497716",
+                "description": "Energy Supply",
+                "format": "",
+                "hash": "",
+                "id": "9bc51ddf-0854-4f36-b377-4333daf62a2a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:22.461827",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "HEAT:Energy_Supply",
+                "package_id": "9adbe287-fbe4-4db7-b158-255372da2f96",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://heatmap.data.gov.scot/getows.ashx?ms=mapsources/OGC&Version=2.0.0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:15:22.497717",
+                "description": "Energy Supply Locations (All Technologies)",
+                "format": "CSV",
+                "hash": "",
+                "id": "91415c54-5266-46c8-87bd-168e6e1f676d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:22.461896",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "CSV Download",
+                "package_id": "9adbe287-fbe4-4db7-b158-255372da2f96",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://heatmap.data.gov.scot/downloads/EnergySupply.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Energy efficiency",
+                "id": "6d1029f7-c40c-4ade-9def-2332d052d5e1",
+                "name": "Energy efficiency",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Energy resources",
+                "id": "7854d844-8288-43f4-ae6f-5a2a050e1ad9",
+                "name": "Energy resources",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "energy demand",
+                "id": "c716de67-bedd-4b99-9032-85475033daff",
+                "name": "energy demand",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "energy supply",
+                "id": "fa02c816-3af9-4eae-bdb2-da529d8450b0",
+                "name": "energy supply",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "heat supply",
+                "id": "151e41af-45e4-4e63-971a-aadd824650e2",
+                "name": "heat supply",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d8df467e-d19d-4cb5-af11-2a54459b259c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

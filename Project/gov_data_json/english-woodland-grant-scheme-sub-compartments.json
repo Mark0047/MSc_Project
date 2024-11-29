@@ -1,0 +1,258 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mapping.geodata@forestry.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "e30356ef-d4c0-4544-8f25-2421164c40a1",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-06-09T07:04:44.871727",
+        "metadata_modified": "2024-06-12T22:08:25.420874",
+        "name": "english-woodland-grant-scheme-sub-compartments",
+        "notes": "The English Woodland Grant Scheme (EWGS) was launched in 2005 and offered 6 grants for the creation and stewardship of woodlands.  This dataset contains the sub-compartments that make up the EWGS applications approved by the Forestry Commission.\n\nEWGS is now closed and was superseded by Countryside Stewardship in 2015.\n\n\nGrant types under EWGS:\n\nWoodland Planning  Grant (WPG)  -  'To support the preparation of woodland management plans'  Designed primarily to aid the production of management plans - the foundation of sustainable management. The management plan template meets UKWAS planning requirements, thus assisting entry into certification.\n\nWoodland Assessment Grant (WAG) -  'To support information gathering that improves management decisions'.  Designed to obtain further information, where there is an identified need. The information required should inform management decisions and reflect the sensitivity of the site and proposed work.\n\nWoodland Regeneration Grant (WRG) - 'To support desirable changes in woodland at the time of greatest opportunity'.  Designed to support the re-establishment of trees when woodland felling has taken place.\n\nWoodland Improvement Grant (WIG) - 'To support capital projects in woodlands'.  Designed to support work such as access tracks, uneconomic thinning, coppicing, rhododendron clearance and public access facilities.\n\nWoodland Management Grant (WMG) - 'To support the basic management activities that underpin woodland  \nsustainability'.  Designed to support operations that maintain or enhance the environmental and social value e.g. ride management, pest management, coppicing and uneconomic thinning.\n\nWoodland Creation Grant (WCG) - 'To support the creation of properly designed and well located new woodlands'\n\n\nFurther information can be found in the 'EWGS General Guide' available from the Forestry Commission England's website in addition to the Regional Prospectus for particular grant types:\n\nhttp://www.forestry.gov.uk/\n\nAdditional activity or payments:\n\nFelling Licence Application (FLA)\n\nA licence to fell growing trees may be issued as part of the EWGS contract to allow the necessary  works to be carried out, typically under WMG, WIG or WRG.  Presence or absence of a FLA is recorded in this dataset.\n\nFarm Woodland Payment (FWP)\n\nWhen EWGS started in 2005 it replaced the Woodland Grant Scheme and Farm Woodland Premium Scheme.   EWGS combined Woodland Creation Grants and Farm Woodland Payments in a single scheme. Presence or absence of a FWP is recorded in this dataset.\n\n\n\n\nThere are two spatial datasets associated with the EWGS.  These represent the Case Boundary and the Sub-compartments that are encapsulated by a case boundary.\n\nThe spatial datasets are related within the EWGS database on a 'one to many' basis.  This reflects the fact that a single EWGS case may have many sub-compartments.  Likewise, a single EWGS sub-compartment may  have several grant types applied to it.\n\n\nEWGS Sub-compartments\n\nSub-compartments are the smallest mapped unit of grant aided area under the EWGS.  Sub-compartments are aggregated up to Case Boundaries, and these boundaries are subsequently used to describe the  overall extent of the EWGS case.   A single case represents one application from an applicant for grant aid, and there may be a number of different grant types contained within a single case.\n\nAll sub-compartments for cases that have been approved (and were not subsequently withdrawn without payment) from the inception of the EWGS are contained in this dataset.  Some cases have passed out of the obligation period of the contract which they are  under.  These cases have a case status of 'Closed'.\n\n\nAttributes:\n\nWorkAreaID = EWGS sub-compartment unique identifier\nCaseRef = EWGS Case unique identifier\nAreaHa = Area in hectares of Sub-compartment\nSubCpt = The sub-compartment reference for the case\nPropName = The case name\nFSArea = The Forestry Commission Area who dealt with the case\nCaseType = The case type\nWCG = Presence or absence of the EWGS grant type Woodland Creation Grant (Y/N)\nWRG = Presence or absence of the EWGS grant type Woodland Regeneration Grant (Y/N)\nWMG = Presence or absence of the EWGS grant type Woodland Management Grant (Y/N)\nWIG = Presence or absence of the EWGS grant type Woodland Improvement Grant (Y/N)\nWPG = Presence or absence of the EWGS grant type Woodland Planning Grant (Y/N)\nWAG = Presence or absence of the EWGS grant type Woodland Assessment Grant (Y/N)\nFLA = Presence or absence of a Felling Licence Application (Y/N)\nFWP = Presence or absence of a Farm Woodland Payment (Y/N)\nDateApprv = The date the case was approved by the Forestry Commission\nCurrStat = The status of the case at the time the data was created Attribution statement: Contains OS data \u00a9 Crown copyright [and database right] [year].",
+        "num_resources": 1,
+        "num_tags": 11,
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005-04-01"
+        ],
+        "temporal_coverage-to": [
+            "2016-03-31"
+        ],
+        "title": "English Woodland Grant Scheme Sub Compartments",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2009-10-14\"}, {\"type\": \"revision\", \"value\": \"2016-03-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "792206c4-d287-428c-ad93-ac10b1736d5b"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "96af9942-2cd6-41eb-950d-d83048324c67"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Contains Forestry Commission information licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Forestry Commission (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-12T22:08:25.480949",
+                "description": "Forestry Commission Open Data Site",
+                "format": "",
+                "hash": "",
+                "id": "d6aa949a-f938-42a8-8ea8-1a1a617df436",
+                "last_modified": null,
+                "metadata_modified": "2024-06-12T22:08:25.424913",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "English Woodland Grant Scheme Sub Cpt",
+                "package_id": "e30356ef-d4c0-4544-8f25-2421164c40a1",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data-forestry.opendata.arcgis.com/datasets/e5d15dfdfc8048bfbb923543ff9e477f_0",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "England",
+                "id": "7af69110-4a85-408d-ae77-82e33b07c0d4",
+                "name": "England",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Felling",
+                "id": "31c304ea-7d54-41fb-a772-fbad749a3d7c",
+                "name": "Felling",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Grant Schemes",
+                "id": "b7d99e3d-e862-4c77-9b94-75f1a9dde47a",
+                "name": "Grant Schemes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "New Planting",
+                "id": "0c0545a5-7157-4cae-9a6d-99b7ad9912bf",
+                "name": "New Planting",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Woodland",
+                "id": "44ddd46e-49a2-4264-8ba4-3a401dd74e1f",
+                "name": "Woodland",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "forestry",
+                "id": "ca41d85e-789b-410e-8c3f-d3c6fa3411d9",
+                "name": "forestry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land use",
+                "id": "4a61c115-d29b-47e2-b16d-d8b12e2862df",
+                "name": "land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "management",
+                "id": "41ab5cba-6e14-46e0-ae2d-410a6767a7e0",
+                "name": "management",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "planning",
+                "id": "d5e3a552-07a7-4262-a38d-337769833bda",
+                "name": "planning",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "regeneration",
+                "id": "759786a9-e498-46f5-bad5-19229005b97e",
+                "name": "regeneration",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4b372cfc-d181-4aeb-8bf2-9c0ae58789ab"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0b9948c0-c517-4ed0-98fe-eea005cbebf5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "FC Open Data"
+            }
+        ]
+    }
+}

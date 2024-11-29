@@ -1,0 +1,253 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "spatialhub@improvementservice.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "e98578c6-9a32-47bc-8e01-c83b7061c8a0",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-06-16T18:06:59.863462",
+        "metadata_modified": "2024-06-19T11:21:02.118500",
+        "name": "green-heat-in-greenspaces-ghigs-scotland",
+        "notes": "All GHiGs datasets cover the whole of Scotland and have been derived by Greenspace Scotland over the project period of September 2020 to April 2021. Principal third party data suppliers include:\n\n- Ordnance Survey (greenspace and water body data)\n\n- Scottish Government (Scotland\u2019s Heat Map)\n\n- Energy Saving Trust (Home Analytics)\n\nPlease reference the Data Guide and Methodology report (attached to the metadata record as an associated resource) and send any further queries on the quality/ accuracy of the data to parkpower@greenspacescotland.org.uk. \n\nGHiGs Settlements: \n\nA public summary of indicators for GHiGs analysis of low carbon heat based on data aggregated to Scotland\u2019s 516 settlements. Settlement boundaries are from 2012 derived from National Records of Scotland to be consistent with those used by Scotland\u2019s Heat Map v.2. Settlements are defined as places with populations greater than 500. Approximately 90% of Scotland\u2019s population lives in settlements. It is not clear why Scotland\u2019s Heat Map is using the NRS 2012 settlement boundaries rather than the more recent NRS 2016 settlement boundaries. Attributes were derived from Scotland\u2019s Heat Map with additional attributes from GHiGs analysis and EST Home Analytics\n\nGHiGs Settlements by LA: \n\nA more comprehensive spreadsheet of tables used for National Findings Report and all indicators for GHiGs analysis of low carbon heat based on data aggregated to Scotland\u2019s 516 settlements and, separately, the 32 Local Authorities. Settlement data aggregated to Local Authority geographies and presented based on OS BoundaryLine Local Authority boundaries. The data excludes areas outside settlements and therefore does NOT represent figures for complete local authorities. This is particularly evident for Local Authorities with more significant populations and businesses located outside of settlements. It includes most indicators used in the GHiGs National Findings report based on analysis of low carbon heat related data aggregated to Scotland\u2019s 516 settlements and then aggregated to 32 Local Authorities.\n\nGHiGs greenspaces: \n\nBoundaries derived from OS Mastermap Greenspace. Attributes derived from Scotland\u2019s Heat Map v.2 with additional attributes from GHiGs analysis (see our Methodology Report) and EST Home Analytics\n\nGHiGs strategic greenspaces: \n\nSubset of GHiGs Greenspaces based on selection criteria to identify the 3% (3,446) of national greenspace sites with high potential for supply of ground source heat (based on areal size / capacity) and have been classified as \u2018high\u2019 based on local linear heat density. These sites are likely to be the strongest candidates for larger scale ground source heat solutions, potentially storing and feeding low grade heat into low carbon district heat networks. The \u2018GSHP_Strategic_Importance\u2019 indicator category of \u2018VERY HIGH\u2019 was used to select this subset\n\nGHiGs static water bodies: \n\nRelatively static water bodies greater than 1000m2 in area in proximity to urban settlements including canals, lochs, lakes, flooded quarries/pits etc. derived largely from OS Mastermap Greenspace. This data does not include rivers.\n\nGHiGs DHN highest viability (Linear Heat Density 16000 kWh/m/yr): \n\nLinear Heat Density model created by Ramboll to highlight areas where District Heat Networks (DHNs) have highest viability based on heat demand from all buildings. Areas identifies have high levels of heat demand density and are therefore highly suitable for DHNs \u2013 source of heat demand data: Scotland\u2019s Heat Map v2.\n\nGHiGs DHN high viability (Linear Heat Density 8000 kWh/m/yr): \n\nLinear Heat Density model created by Ramboll to highlight areas where District Heat Networks (DHNs) have high viability based on heat demand from all buildings \u2013 source of heat demand data: Scotland\u2019s Heat Map v2.\n\nGHiGs DHN viable (Linear Heat Density 4000 kWh/m/yr): \n\nLinear Heat Density model created by Ramboll to highlight areas where District Heat Networks (DHNs) are viable based on heat demand from all buildings. Threshold of 4000 is widely used across the industry for Linear Heat Density modelling to identify areas with DHN viability. Polygons of area less than 250m2 were deleted which reduced the number of polygon features by 80% to cut file size. Source of heat demand data: Scotland\u2019s Heat Map v2.\n\nGHiGs DHN highest viability public buildings only (Linear Heat Density 16000 kWh/m/yr): \n\nLinear Heat Density model created by Ramboll based on a best estimate of public buildings to highlight areas where District Heat Networks have highest viable based on heat demand from only public buildings. Source of heat demand data: Scotland\u2019s Heat Map v2.\n\nGHiGs DHN high viability public buildings only (Linear Heat Density 8000 kWh/m/yr): \n\nLinear Heat Density model created by Ramboll based on a best estimate of public buildings to highlight areas where District Heat Networks have high viability based on heat demand from only public buildings. Source of heat demand data: Scotland\u2019s Heat Map v2.\n\nGHiGs DHN viable public buildings only (Linear Heat Density 4000 kWh/m/yr): \n\nLinear Heat Density model created by Ramboll based on a best estimate of public buildings to highlight areas where District Heat Networks are viable based on heat demand from only public buildings. Threshold of 4000 is widely used across the industry for Linear Heat Density modelling to identify areas with DHN viability \u2013 source of heat demand data: Scotland\u2019s Heat Map v2.\n\nGHiGs public buildings: \n\nSubset of Scotland\u2019s Heat Map at building level where buildings are assessed as likely to be publicly owned based on a selection of 125 OS AddressBase codes (see GHiGs Methodology report for details). This is the best available approximation of publicly owned buildings but will exclude those publicly owned buildings which are leased to third parties for more commercial-type services. This same identification method was the basis for creating the 3 Linear Heat Density map layers for public buildings only.\n\nGHiGs public buildings with heat demand greater than 50 MWh/year:\n\nSubset of \u2018GHiGs public buildings\u2019 dataset based on a filter for all those public buildings with an annual heat demand of 50 MWh or more. Multi-occupancy buildings like flatted properties are treated as separate buildings and therefore they are unlikely to appear in this dataset.\n\nGHiGs public buildings (>200 MWh) near greenspaces (>200 MWh):\n\nSubset of \u2018GHiGs public buildings\u2019 dataset where: (1) buildings are assessed as likely to be publicly owned based on a selection of 125 OS AddressBase codes and have a heat demand of at least 200 MWh; AND (2) they are located within 50m of a greenspace that, based on 20% space utilisation, could meet at least 200 MWh in terms of heat production from its available area. In effect this is a subset of public building locations that offers the strongest opportunities for larger scale GSHP projects based on use of nearby greenspace. Multi-occupancy buildings like flatted properties are treated as separate buildings and therefore examples such as high rise flats next to larger areas of greenspace are unlikely to appear in this dataset.\n\nGHiGs waste disposal sites:\n\nPotential sources of waste heat from waste disposal sites to feed into district heat networks \u2013 source: SEPA registered waste sites\n\n\nAll GHiGs datasets cover Scotland and have been derived over the project period of September 2020 to April 2021. Principal third party data suppliers include:\n\u2022 Ordnance Survey (greenspace and water body data)\n\u2022 Scottish Government (Scotland\u2019s Heat Map)\n\u2022 Energy Saving Trust (Home Analytics)",
+        "num_resources": 3,
+        "num_tags": 4,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2017-01-09"
+        ],
+        "title": "Green Heat in Greenspaces (GHiGs) - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Limitations on public access\", \"Use of the data is available to any organisation that is a member of the PSGA (Public Sector Geospatial Agreement). It is NOT currently available to Academia, or commercially available.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.724443780321123"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.8607664336448"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.6332382494092"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.65000722346228"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2021-06-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "ed94f077-5fd7-4a64-83fb-a9e4c4326ef9"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c91c1286-8c5a-41a9-90c1-b544330171f1"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-12-07T16:28:48"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Improvement Service (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.724443780321123, 54.6332382494092], [-8.65000722346228, 54.6332382494092], [-8.65000722346228, 60.8607664336448], [-0.724443780321123, 60.8607664336448], [-0.724443780321123, 54.6332382494092]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:02.156677",
+                "description": "A link to the CKAN metadata record on the Spatial Hub.  A direct link to the OGC Web Feature Service and Web Map Service is available here.",
+                "format": "",
+                "hash": "",
+                "id": "c5d46434-1977-4505-a1ae-4e82d0dd4f0a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:02.124304",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Green Heat in Greenspaces - Scotland",
+                "package_id": "e98578c6-9a32-47bc-8e01-c83b7061c8a0",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.spatialhub.scot/dataset/green_heat_in_greenspaces-ghigs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:02.156680",
+                "description": "Explanation of the data used within the GHiG project",
+                "format": "",
+                "hash": "",
+                "id": "98c2ffa5-c8e3-4704-af41-ebd6d62aa0e2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:02.124401",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Green Heat in Greenspaces - Data Guide",
+                "package_id": "e98578c6-9a32-47bc-8e01-c83b7061c8a0",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.greenspacescotland.org.uk/Handlers/Download.ashx?IDMF=6e16e0b5-724e-41df-a443-5ed86b647f0c",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:02.156681",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "3c06136b-015b-4710-837a-ed327d6526bd",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:02.124473",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GHiG Methodology Report",
+                "package_id": "e98578c6-9a32-47bc-8e01-c83b7061c8a0",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.greenspacescotland.org.uk/Handlers/Download.ashx?IDMF=335590f1-e4bb-4dea-b2fd-904fe6b1e3c8",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Buildings",
+                "id": "156f103a-5436-4be5-87fd-2163a078a4f3",
+                "name": "Buildings",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Energy resources",
+                "id": "7854d844-8288-43f4-ae6f-5a2a050e1ad9",
+                "name": "Energy resources",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land cover",
+                "id": "6373de4c-8199-4a06-ab55-8c60c9a1c3f2",
+                "name": "Land cover",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "ed58b286-9ffc-47cd-b713-88fe9b42e14c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

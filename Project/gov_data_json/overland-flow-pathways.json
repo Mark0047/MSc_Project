@@ -1,0 +1,350 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "c9dd994d-9649-4041-96d4-cdc0f1a53152",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-03-15T15:05:03.578683",
+        "metadata_modified": "2024-06-07T14:09:48.382273",
+        "name": "overland-flow-pathways",
+        "notes": "The Most Probable Overland Flow Pathway dataset is a polyline GIS vector dataset that describes the likely flow routes of water along with potential accumulations of diffuse pollution and soil erosion features over the land.\n\nIt is a complete network for the entire country (England) produced from a hydro-enforced LIDAR 1-metre resolution digital terrain model (bare earth DTM) produced from the 2022 LIDAR Composite 1m Digital Terrain Model. Extensive processing on the data using auxiliary datasets (Selected OS Water Network, OS MasterMap features as well as some manual intervention) has resulted in a hydro-enforced DTM that significantly reduces the amount of non-real-world obstructions in the DTM. Although it does not consider infiltration potential of different land surfaces and soil types, it is instructive in broadly identifying potential problem areas in the landscape.\n\nThe flow network is based upon theoretical one-hectare flow accumulations, meaning that any point along a network feature is likely to have a minimum of one-hectare of land potentially contributing to it.\nEach segment is attributed with an estimate of the mean slope along it.\n\nThe product is comprised of 3 vector datasets; Probable Overland Flow Pathways, Detailed Watershed and Ponding and Errors. Where Flow Direction Grids have been derived, the D8 option was applied. All processing was carried out using ARCGIS Pro\u2019s Spatial Analyst Hydrology tools. Outlined below is a description of each of the feature class.\n \nProbable Overland Flow Pathways\nThe Probable Overland Flow Pathways layer is a polyline vector dataset that describes the probable locations accumulation of water over the Earth\u2019s surface where it is assumed that there is no absorption of water through the soil. Every point along each of the features predicts an uphill contribution of a minimum of 1 hectare of land. The hydro-enforced LIDAR Digital Terrain Model 1-Metre Composite (2022) has been used to derive this data layer. Every effort has been used to digitally unblock real-world drainage features; however, some blockages remain (e.g. culverts and bridges. In these places the flow pathways should be disregarded. The Ponding field can be used to identify these erroneous pathways. They are flagged in the Ponding field with a \u201c1\u201d. Flow pathways are also attributed with a mean slope value which is calculated from the Length and the difference of the start and end point elevations. The maximum uphill flow accumulation area is also indicated for each flow pathway feature.\n\nDetailed Watersheds\nThe Detailed Watersheds layer is a polygon vector dataset that describes theoretical catchment boundaries that have been derived from pour points extracted from every junction or node of a 1km2 Flow Accumulation dataset. The hydro-enforced LIDAR Digital Terrain Model 1-Metre Composite (2022) has been used to derive this data layer.\n\nPonding Errors\nThe Ponding and Errors layer is a polygon vector dataset that describes the presence of depressions in the landscape after the hydro-enforcing routine has been applied to the Digital Terrain Model. The Type field indicates whether the feature is Off-Line or On-Line. Off-Line is indicative of a feature that intersects with a watercourse and is likely to be an error in the Overland Flow pathways. On-line features do not intersect with watercourses and are more likely to be depressions in the landscape where standing water may accumulate. Only features of greater than 100m2 with a depth of greater than 20cm have been included. The layer was derived by filling the hydro-enforced DTM then subtracting the hydro-enforced DTM from the filled hydro-enforced DTM.\n\nPlease use with caution in very flat areas and areas with highly modified drainage systems (e.g. fenlands of East Anglia and Somerset Levels). There will occasionally be errors associated with bridges, viaducts and culverts that were unable to be resolved with the hydro-enforcement process.\n Attribution statement: \u00a9 Environment Agency copyright and/or database right 2023. All rights reserved. ",
+        "num_resources": 5,
+        "num_tags": 11,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2020-04-06"
+        ],
+        "temporal_coverage-to": [
+            "2022-04-02"
+        ],
+        "title": "Overland Flow Pathways",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2024-01-03\"}, {\"type\": \"revision\", \"value\": \"2024-01-03\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "36e7f4d3-61b2-4e64-aaa2-2b85bceb61a9"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f6fc36c3-01cd-44bf-b0ec-833b8311424f"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-31"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:48.441416",
+                "description": "Overland Flow Pathways Technical Information Guidance.docx download on Defra Data Services Platform",
+                "format": "DOCX",
+                "hash": "",
+                "id": "abb5d214-96bc-493c-b011-0ca2b947acad",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:48.388149",
+                "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "mimetype_inner": null,
+                "name": "Overland Flow Pathways Technical Information Guidance.docx",
+                "package_id": "c9dd994d-9649-4041-96d4-cdc0f1a53152",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=3ab8a114-961b-4d7a-b712-50b93accec96&fileName=Overland Flow Pathways Technical Information Guidance.docx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:48.441419",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "cc1f9921-b861-4841-a0aa-d449dec40fd6",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:48.388297",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OverlandFlowPathways_Download",
+                "package_id": "c9dd994d-9649-4041-96d4-cdc0f1a53152",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/36e7f4d3-61b2-4e64-aaa2-2b85bceb61a9?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:48.441420",
+                "description": "Overland Flow Pathways WMS",
+                "format": "",
+                "hash": "",
+                "id": "140df9d0-cf82-4285-b2fb-d3d4d954f985",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:48.388420",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OverlandFlowPathways_WMS",
+                "package_id": "c9dd994d-9649-4041-96d4-cdc0f1a53152",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/lidar-derived-most-probable-overland-flow-pathways/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:48.441421",
+                "description": "Overland Flow Pathways WFS",
+                "format": "",
+                "hash": "",
+                "id": "a29ff5c1-0349-459c-a740-f32241c98cc2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:48.388544",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OverlandFlowPathways_WFS",
+                "package_id": "c9dd994d-9649-4041-96d4-cdc0f1a53152",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/lidar-derived-most-probable-overland-flow-pathways/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-07T14:09:48.441422",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "cd8015e5-5c7a-46ad-94fb-cbb8fe0c5af1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-07T14:09:48.388664",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "c9dd994d-9649-4041-96d4-cdc0f1a53152",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/lidar-derived-most-probable-overland-flow-pathways/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Digital Elevation Model",
+                "id": "7aed0dd4-2d66-42e0-b5ed-d923cf94f38f",
+                "name": "Digital Elevation Model",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Elevation",
+                "id": "3daf450f-da9b-4dad-a339-66a66856defb",
+                "name": "Elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Hydrography",
+                "id": "a0e3af6e-dcf6-491b-8f22-867c0d62add6",
+                "name": "Hydrography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LIDAR",
+                "id": "591a7348-ac9a-4bf1-8b43-6ff3cd6e3613",
+                "name": "LIDAR",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "catchment",
+                "id": "4f2bdab5-4533-4c42-8dbd-f49db3b0f56a",
+                "name": "catchment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "elevation",
+                "id": "99bac186-c0b3-4e2f-9593-649da4fff9f9",
+                "name": "elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "hydrologic flow",
+                "id": "70213fdd-86c6-4b8b-9ec8-e405b39f9ad6",
+                "name": "hydrologic flow",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "hydrology",
+                "id": "187f2d7b-e238-42c3-939d-852a96e4de70",
+                "name": "hydrology",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "remote sensing",
+                "id": "a966b150-db31-4f8b-87f1-905c46d706ff",
+                "name": "remote sensing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "survey",
+                "id": "228f2437-16d2-4498-a53f-21273806fae3",
+                "name": "survey",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "14781fd4-ae6c-4be0-a28d-5a257dfe9f08"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

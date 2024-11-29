@@ -1,0 +1,198 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "adam.cd.wood@gmail.com",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "d3d1fa7b-efc5-40c8-90ec-3fdbfebfb2af",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-11-09T09:11:47.781017",
+        "metadata_modified": "2023-11-10T10:11:37.972825",
+        "name": "fuel-poverty-index-scotland",
+        "notes": "This dataset is a Scottish Fuel Poverty Index created in the summer of 2023 by\nEDINA@University of Edinburgh as part of their student internship programme. The user guide provides\ndescriptions of each data variable used in creating the index. The basic rationale was to replicate for\nScotland work that had been conducted previously but only in respect to England and Wales. The two\nindices are not strictly directly comparable due to data availability and spatial granularity but provide\nstandalone snapshots of relative fuel poverty across Great Britain. The Scottish Index is fully open\nsource and for purposes of transparency and repeatability this guide provides an open methodology\nand is accompanied by the underlying data. Data are provided in good faith \u2019as is\u2019 and is the sole\nproduct of student effort as part of mentoring activities conducted by EDINA at the University.\nEach variable that was used in the Index was normalised relative to the individual values for that\nvariable - which means the values presented in the underlying FPI data table do not represent the\nactual numbers for each local authority - merely the percentage relative to the other local authorities\nin Scotland. A separate file \u201dFuel-poverty-index-raw-data-with-calc.csv\u201d is available which contains\nthe raw percentages used for the index along with a table containing the calculations used to obtain\nthe final score and the main FPI data table.\n\nFuel Poverty Index: This file contains the normalised processed data that makes up the Scottish fuel poverty index with variables being in range of 1 to 100. Some variables have been weighted depending on how important they are to the index. The final scores rating each Scottish local authority from 1 to 100 are also included at the end column.\n\nRaw data: This file contains the raw unprocessed data that the index was created from for all Scottish local authorities.",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Fuel Poverty Index - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on public access\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.724443780321123"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.8607664336448"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.6332382494092"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.65000722346228"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2023-11-07\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "d01579ab-8baf-4992-b2df-0badefa47c56"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7b1e3c8b-896b-4e4b-813e-a48a621457ef"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-09T16:22:56"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Improvement Service (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.724443780321123, 54.6332382494092], [-8.65000722346228, 54.6332382494092], [-8.65000722346228, 60.8607664336448], [-0.724443780321123, 60.8607664336448], [-0.724443780321123, 54.6332382494092]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::4258"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-10T10:11:38.018110",
+                "description": "Spatial Hub page",
+                "format": "",
+                "hash": "",
+                "id": "648d1e7c-8a28-4465-bade-d0796b4eaaf9",
+                "last_modified": null,
+                "metadata_modified": "2023-11-10T10:11:37.982811",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fuel Poverty Index - Scotland",
+                "package_id": "d3d1fa7b-efc5-40c8-90ec-3fdbfebfb2af",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.spatialhub.scot/dataset/fuel_poverty_index-is",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Administrative Units",
+                "id": "da2089f0-362e-4a41-9423-44c28306e0fe",
+                "name": "Administrative Units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Administrative units",
+                "id": "8d20781b-12df-4d16-809a-b340746e0775",
+                "name": "Administrative units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Human health and safety",
+                "id": "48a55d2f-b77f-4193-a882-9371e30705a1",
+                "name": "Human health and safety",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3f0c42c5-b59c-4243-b6a5-73b4aa239b27"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

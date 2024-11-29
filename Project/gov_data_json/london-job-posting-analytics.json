@@ -1,0 +1,121 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "114e935e-602e-4aee-9a6b-1fe30f944d7a",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-03-26T15:42:14.382773",
+        "metadata_modified": "2024-11-16T22:01:42.643527",
+        "name": "london-job-posting-analytics",
+        "notes": "This workbook summarises recent Job Posting Analytics related to delivery drivers in London. The data is provided by **Emsi**, a data modelling company.\n\n\u00a0It looks at job postings based on two different classifications:\n\n*   Job title ('Delivery Driver')\n*   Occupations ('Van drivers' and 'Postal workers, mail sorters, messengers and couriers')\n\n\u00a0Please note:\n\n*   Job postings are collected from various sources and processed to provide information such as occupation, skills, and geography\n*   One posting can appear on multiple websites, multiple times - a unique job posting is a job posting that has been de-duplicated\n*   A job title is the name of the job role as described in a job posting; this is different to a Standard Occupational Classification (SOC) code\n*   Posting Intensity is the ratio of total to unique jobs postings - a higher ratio can indicate that employers are putting more effort towards hiring\n\n**Source:** Emsi, 2021.\n\n**For more information see:** [https://kb.economicmodelling.co.uk/](https://kb.economicmodelling.co.uk/)",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "London Job Posting Analytics",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/london-job-posting-analytics",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2021-02-17T15:03:23.115Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2021-02-17T16:19:52.627Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "42b0b0d7-eb92-435a-8f02-9dd13e9427f9"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:42:14.392439",
+                "description": null,
+                "format": "XLSX",
+                "hash": "",
+                "id": "488eaa33-89d0-4b24-812d-1d7d020ddb5a",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:57:00.108575",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "Job Postings Analytics for Delivery Drivers in London.xlsx",
+                "package_id": "114e935e-602e-4aee-9a6b-1fe30f944d7a",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-job-posting-analytics/66a6028b-a329-429a-b998-877aa744a4d6/Job%2520Postings%2520Analytics%2520for%2520Delivery%2520Drivers%2520in%2520London.xlsx",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "COVID-19",
+                "id": "d4f92fad-a940-41b3-a1eb-60cee8940ddb",
+                "name": "COVID-19",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "employment",
+                "id": "de55ca0b-32d2-4d5f-a030-7419902aeecf",
+                "name": "employment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "jobs",
+                "id": "d2e09a99-8740-4ff0-82fa-ad0884ab4110",
+                "name": "jobs",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4f7c340d-c3d9-4fad-a003-dc790ebd01ad"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

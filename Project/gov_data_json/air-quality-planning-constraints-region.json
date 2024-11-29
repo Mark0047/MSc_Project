@@ -1,0 +1,177 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@cheshireeast.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "cbb1cd54-33d0-4c21-ab58-e25b25754f6f",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-03-23T02:05:42.036262",
+        "metadata_modified": "2019-03-23T02:05:42.036268",
+        "name": "air-quality-planning-constraints-region",
+        "notes": "Developments Constraints Layer showing Air Quality Management Areas and 500m buffer zone",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+            "name": "cheshire-east-council",
+            "title": "Cheshire East Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T10:02:35.362710",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Air Quality Planning Constraints Region",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Not for public use.\\nOS INSPIRE licence : http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.8690490695"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.6108401590"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.7549965310"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.2148742648"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2010-09-22\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "462_CE"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d43c4ebf-3589-432c-be51-9c5bdbbe7644"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-03-22T11:08:07"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": " (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.8690490695, 52.7549965310], [-3.2148742648, 52.7549965310], [-3.2148742648, 53.6108401590], [-1.8690490695, 53.6108401590], [-1.8690490695, 52.7549965310]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-23T02:05:42.054817",
+                "description": "WMS (View Service)",
+                "format": "",
+                "hash": "",
+                "id": "fda68110-53d7-44f8-bdaf-d4a54bbae0b6",
+                "last_modified": null,
+                "metadata_modified": "2019-03-23T02:05:42.054817",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Air Quality Planning Constraints Region (WMS)",
+                "package_id": "cbb1cd54-33d0-4c21-ab58-e25b25754f6f",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CEOpenData/AM_S_AQPlanningConstraintsRegion_POLY_CURRENT/wms?request=GetCapabilities&version=1.1.1&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-23T02:05:42.054822",
+                "description": "WFS (Download Service)",
+                "format": "",
+                "hash": "",
+                "id": "ba982d25-414e-4a8a-916b-3ee0486e111b",
+                "last_modified": null,
+                "metadata_modified": "2019-03-23T02:05:42.054822",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Air Quality Planning Constraints Region (WFS)",
+                "package_id": "cbb1cd54-33d0-4c21-ab58-e25b25754f6f",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CEOpenData/AM_S_AQPlanningConstraintsRegion_POLY_CURRENT/wfs?request=Getfeature&TypeName=AM_S_AQPlanningConstraintsRegion_POLY_CURRENT&version=1.1.0&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

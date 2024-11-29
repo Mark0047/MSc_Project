@@ -1,0 +1,164 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "info@greenspacescotland.org.uk",
+        "creator_user_id": null,
+        "id": "85b5c1c1-88d2-478b-b55b-6139fd8762b3",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2011-11-09T18:37:43.006383",
+        "metadata_modified": "2017-02-09T15:06:01.563317",
+        "name": "national-greenspace-map-wms",
+        "notes": "This service displays data from the dataset identifying greenspace areas for all urban areas >3000 population as per Census 2001 Output Areas, with a 500m buffer applied to the urban fringe. Each polygon is attributed with a Primary Land Use and, where applicable, a Secondary Land Use. Greenspace is defined by the typology given in Planning Advice Notice 65 (PAN65).",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2010"
+        ],
+        "temporal_coverage-to": [
+            "2011-04-11"
+        ],
+        "theme-primary": "mapping",
+        "theme-secondary": [],
+        "title": "National Greenspace Map (WMS)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"All interested bodies must have the necessary OS licensing in place to access and download the OS MasterMap derived data.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.8"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"href\": [\"http://scotgovsdi.edina.ac.uk/geonetwork/srv/en/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=\"], \"uuid\": [\"\"], \"title\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2011-04-11\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "a40ac78f-5ca9-47cd-8822-3499030cd1b0"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "5574ee58-ef94-420c-8a75-85f60abe9400"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "a40ac78f-5ca9-47cd-8822-3499030cd1b0"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "All interested bodies must have the necessary OS licensing in place to access and download the OS MasterMap derived data.; All interested bodies must have the necessary OS licensing in place to access and download the OS MasterMap derived data."
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-02-09"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Natural Heritage (distributor); Greenspace Scotland (originator)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.71, 54.63],[-0.71, 60.87], [-8.8, 60.87], [-8.8, 54.63], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "view"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-04-30T18:23:02.389046",
+                "description": "National Greenspace Map WMS",
+                "format": "WMS",
+                "hash": "",
+                "id": "fe3e7d3e-ed22-4ca4-889f-3ec1f4244035",
+                "last_modified": null,
+                "metadata_modified": "2015-04-30T18:23:02.389046",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "85b5c1c1-88d2-478b-b55b-6139fd8762b3",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://mapgateway.snh.gov.uk/ServicesWMS/greenspaceWMS/MapServer/WMSServer?REQUEST=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

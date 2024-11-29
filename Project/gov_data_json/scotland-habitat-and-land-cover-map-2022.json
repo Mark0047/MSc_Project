@@ -1,0 +1,419 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "Lynsey.Thomson@nature.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "fb20f816-d3cb-433b-9cd5-0e0b8eea7367",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-07-29T03:01:16.198222",
+        "metadata_modified": "2024-11-12T12:02:49.739839",
+        "name": "scotland-habitat-and-land-cover-map-2022",
+        "notes": "Habitat and land cover map created using AI to classify satellite data to EUNIS by Space Intelligence in partnership with NatureScot. This dataset contains three layers:\n- A EUNIS level 1 classification of Scotland's land cover for the year 2022 which uses 5 different classes;\n- A EUNIS level 2 classification of Scotland's land cover for the year 2022 which uses 28 different classes;\n- A change map, which provides predicted land cover changes that occurred between 2020 and 2022. The map is produced through a simple comparison between the 2020 and 2022 maps, where each instance of change identified is interpreted and assigned one of the following descriptors:\n(i)        Afforestation\n(ii)       Tree removal\n(iii)      Agriculture related \n(iv)      Urban development \n(v)       Forest growth \n(vi)      Water gain\n(vii)     Water loss\n(viii)    Other changes\nPlease note, we believe these predicted changes, and others, are inaccurate, mainly due to inaccuracies we have identified in the 2020 map, along with improved methodologies and processes developed at Space Intelligence since the creation of the 2020 map.\n\nThe dataset is part of a time series of 20m resolution raster layers, the others being from 2019 and 2020 and the change layer of predicted land cover changes that occurred between 2019 and 2020.",
+        "num_resources": 10,
+        "num_tags": 5,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Scotland Habitat and Land Cover Map - 2022",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Use the following attribution statement:\\nContains public sector information licensed under the Open Government Licence v3.0.\", \"Available under the Open Government Licence v3.0 http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\\nMaps and data created by Space Intelligence with input and support from NatureScot , \\u00a9 SNH\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.7046"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.8665"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.5131"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-9.2305"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2023-07-01\"}, {\"type\": \"publication\", \"value\": \"2023-07-25\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "8462f345-6e9c-45de-b1d2-665a55b9d74a"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "962a7045-177d-4e19-afc1-556fbcf62047"
+            },
+            {
+                "key": "licence",
+                "value": "[\"none\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-12T10:37:34.888Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (pointOfContact); Space Intelligence (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.7046, 54.5131], [-9.2305, 54.5131], [-9.2305, 60.8665], [-0.7046, 60.8665], [-0.7046, 54.5131]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T12:02:49.806099",
+                "description": "Land Cover in 2022 (EUNIS Level 1 classification)",
+                "format": "ZIP",
+                "hash": "",
+                "id": "0af3293a-0cf2-44e4-b45e-9096ddd32a9b",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T12:02:49.747702",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoTIFF (EPSG:27700)",
+                "package_id": "fb20f816-d3cb-433b-9cd5-0e0b8eea7367",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/HLCM-2022-L1_SCOTLAND_TIFF_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T12:02:49.806101",
+                "description": "Land Cover 2022 (EUNIS Level 2 classification)",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c8e08955-baf4-46e3-9957-c55cd9f39e16",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T12:02:49.747787",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoTIFF (EPSG:27700)",
+                "package_id": "fb20f816-d3cb-433b-9cd5-0e0b8eea7367",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/HLCM-2022-L2_SCOTLAND_TIFF_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T12:02:49.806102",
+                "description": "Change from 2020 to 2022",
+                "format": "ZIP",
+                "hash": "",
+                "id": "44e47c9d-2dda-4c93-aee4-74993d682caa",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T12:02:49.747850",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoTIFF (EPSG:27700)",
+                "package_id": "fb20f816-d3cb-433b-9cd5-0e0b8eea7367",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/HLCM-CHANGE-2020-2022_SCOTLAND_TIFF_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T12:02:49.806103",
+                "description": "HLCM_2020_2022_CHANGE",
+                "format": "",
+                "hash": "",
+                "id": "45d9e00d-60c0-4ff3-9b56-b568ed089758",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T12:02:49.747907",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "HLCM_2020_2022_CHANGE",
+                "package_id": "fb20f816-d3cb-433b-9cd5-0e0b8eea7367",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T12:02:49.806104",
+                "description": "HLCM_2022_EUNIS_LEVEL1",
+                "format": "",
+                "hash": "",
+                "id": "e86c6b6c-7e5d-48d3-b9ee-e5d86fd51abe",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T12:02:49.747962",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "HLCM_2022_EUNIS_LEVEL1",
+                "package_id": "fb20f816-d3cb-433b-9cd5-0e0b8eea7367",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T12:02:49.806105",
+                "description": "HLCM_2022_EUNIS_LEVEL2",
+                "format": "",
+                "hash": "",
+                "id": "7e0d1e9b-76c4-48a5-8308-2b8269a90a26",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T12:02:49.748017",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "HLCM_2022_EUNIS_LEVEL2",
+                "package_id": "fb20f816-d3cb-433b-9cd5-0e0b8eea7367",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T12:02:49.806105",
+                "description": "Habitat and Land Cover Map 2022 EUNIS Level 1",
+                "format": "",
+                "hash": "",
+                "id": "594c6ab8-806d-4445-9038-be5a7774dfd8",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T12:02:49.748072",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "habitatsandspecies:HLCM_2022_EUNIS_LEVEL1",
+                "package_id": "fb20f816-d3cb-433b-9cd5-0e0b8eea7367",
+                "position": 6,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WCS-1.1.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wcs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T12:02:49.806106",
+                "description": "Habitat and Land Cover Map 2022 EUNIS Level 2",
+                "format": "",
+                "hash": "",
+                "id": "5ff4a33a-ec61-466d-bd2d-897b65daf39a",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T12:02:49.748127",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "habitatsandspecies:HLCM_2022_EUNIS_LEVEL2",
+                "package_id": "fb20f816-d3cb-433b-9cd5-0e0b8eea7367",
+                "position": 7,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WCS-1.1.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wcs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T12:02:49.806107",
+                "description": "Habitat and Land Cover Map Change 2020-2022",
+                "format": "",
+                "hash": "",
+                "id": "bb0de4aa-97f1-48ed-8823-e97f0072275f",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T12:02:49.748179",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "habitatsandspecies:HLCM_2020_2022_CHANGE",
+                "package_id": "fb20f816-d3cb-433b-9cd5-0e0b8eea7367",
+                "position": 8,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WCS-1.1.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wcs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T12:02:49.806108",
+                "description": "Link to Space Intelligence's Scotland Landcover map 2022 report",
+                "format": "",
+                "hash": "",
+                "id": "e010be3c-1afa-4d51-9618-bddd169ee308",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T12:02:49.748232",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scotland 2022 Landcover Map",
+                "package_id": "fb20f816-d3cb-433b-9cd5-0e0b8eea7367",
+                "position": 9,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.space-intelligence.com/scotland-landcover/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Bio-geographical regions",
+                "id": "fcb82298-f96d-4fc5-a465-09011fdd5179",
+                "name": "Bio-geographical regions",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Downloadable Data",
+                "id": "16edbbab-2b8d-4879-8c95-ee40ac8fbf7c",
+                "name": "Downloadable Data",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Habitats and biotopes",
+                "id": "a6591241-3108-42a5-b540-46a56883592e",
+                "name": "Habitats and biotopes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land cover",
+                "id": "6373de4c-8199-4a06-ab55-8c60c9a1c3f2",
+                "name": "Land cover",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "15c53cee-c2e4-4c83-98eb-ba3c1056acf4"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

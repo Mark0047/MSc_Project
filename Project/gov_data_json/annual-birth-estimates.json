@@ -1,0 +1,198 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f882dbdb-6426-43c2-b61b-d2260362b1b3",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-02-08T18:30:44.224853",
+        "metadata_modified": "2024-11-16T22:01:00.772621",
+        "name": "annual-birth-estimates",
+        "notes": "This dataset has now moved to [https://data.london.gov.uk/dataset/birth-estimates](https://data.london.gov.uk/dataset/birth-estimates)",
+        "num_resources": 5,
+        "num_tags": 2,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Annual birth estimates",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/annual-birth-series",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2022-10-26T09:00:04.629Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-03-15T13:42:12.853Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "cf3bac08-9edd-4ca6-9f2c-0fc6c16a26cc"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T18:30:44.232836",
+                "description": "Annual births for 2021 local authority districts in England and Wales by date of year ending. This file is saved in the RDS format native to the R programming language and is intended for use as an input to the process for modelling recent births: https://github.com/Greater-London-Authority/nowcast-birth-estimates",
+                "format": "",
+                "hash": "",
+                "id": "e03d51e9-35d3-4443-9c9a-a39a2018624a",
+                "last_modified": null,
+                "metadata_modified": "2023-02-08T18:30:44.218554",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "births_lad.rds",
+                "package_id": "f882dbdb-6426-43c2-b61b-d2260362b1b3",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/annual-birth-series/21b107fb-ed0d-4ce7-a59b-51d90a68c2ca/births_lad.rds",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T18:30:44.232840",
+                "description": "Annual births for 2021 ITL 2 subregions in England and Wales by date of year ending",
+                "format": "CSV",
+                "hash": "",
+                "id": "4246b486-9de2-4f22-a250-9b436d94bbe9",
+                "last_modified": null,
+                "metadata_modified": "2023-02-15T18:35:56.362695",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "births_itl.csv",
+                "package_id": "f882dbdb-6426-43c2-b61b-d2260362b1b3",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/annual-birth-series/8f420da4-f665-452f-98e0-3bce7af92a93/births_itl.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-03-15T08:02:41.725748",
+                "description": "Annual births for the countries of England and Wales by date of year ending",
+                "format": "CSV",
+                "hash": "",
+                "id": "37663146-a26a-4ba9-b85f-1b0a6bbf26e7",
+                "last_modified": null,
+                "metadata_modified": "2024-03-15T08:02:41.704255",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "births_ctry.csv",
+                "package_id": "f882dbdb-6426-43c2-b61b-d2260362b1b3",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/annual-birth-series/b222c113-cdcd-4e0a-9413-cce6a30bf35a/births_ctry.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-03-15T08:02:41.725752",
+                "description": "Annual births for 2021 local authority districts in England and Wales by date of year ending",
+                "format": "CSV",
+                "hash": "",
+                "id": "d9b38d31-79f3-4c77-a154-241608f4bb7f",
+                "last_modified": null,
+                "metadata_modified": "2024-03-15T08:02:41.704353",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "births_lad.csv",
+                "package_id": "f882dbdb-6426-43c2-b61b-d2260362b1b3",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/annual-birth-series/c1b0650e-28e8-4069-af30-d3466a5c6334/births_lad.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-03-15T08:02:41.725753",
+                "description": "Annual births for regions in England by date of year ending",
+                "format": "CSV",
+                "hash": "",
+                "id": "8fca2826-d6c2-41a9-aa42-f925e61155b5",
+                "last_modified": null,
+                "metadata_modified": "2024-03-15T08:02:41.704437",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "births_rgn.csv",
+                "package_id": "f882dbdb-6426-43c2-b61b-d2260362b1b3",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/annual-birth-series/702850b5-6585-4182-9e5e-a695e7f34b14/births_rgn.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "births",
+                "id": "342e4589-f297-4bef-b9d6-ce984bd1f5aa",
+                "name": "births",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "demography",
+                "id": "dbff5a54-0319-4fd3-811d-5088dd3725f0",
+                "name": "demography",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "48a0989f-8e96-4ab6-aaa3-bab6c169f51a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

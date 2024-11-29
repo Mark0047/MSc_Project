@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "b68db5d7-f943-4c5c-a59d-accffca5f4b5",
+        "metadata_created": "2019-01-23T11:10:46.774490",
+        "metadata_modified": "2019-01-23T11:10:46.774498",
+        "name": "csw-for-defra-aq-decc-ghg-energy-stats-teams",
+        "notes": "Catalogue service publishing discovery metadata for datasets & services of the Defra Air & Local Environment Programme, DECC Green House Gas Inventory team & DECC Energy Statistics team.",
+        "organization": {
+            "id": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+            "name": "department-for-environment-food-and-rural-affairs",
+            "title": "Department for Environment, Food and Rural Affairs",
+            "type": "organization",
+            "description": "We are the UK government department responsible for policy and regulations on environmental, food and rural issues. Our priorities are to grow the rural economy, improve the environment and safeguard animal and plant health.\r\n\r\nDefra is a ministerial department, supported by 38 agencies and public bodies.\r\n\r\nhttps://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:39.115374",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "CSW for Defra (AQ) & DECC (GHG & energy stats) teams",
+        "type": "harvest",
+        "url": "http://naei.defra.gov.uk/data-catalogue/srv/en/csw",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 13,
+            "last_job": {
+                "id": "851dc748-90a5-40af-8b19-f39f84d96d85",
+                "created": "2015-10-01 18:05:28.612199",
+                "gather_started": "2015-10-01 19:10:02.904121",
+                "gather_finished": "2015-10-01 19:10:05.493925",
+                "finished": null,
+                "source_id": "b68db5d7-f943-4c5c-a59d-accffca5f4b5",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Error contacting the CSW server: HTTP Error 500: Internal Server Error",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 1
+        }
+    }
+}

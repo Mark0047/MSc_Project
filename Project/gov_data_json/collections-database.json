@@ -1,0 +1,113 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mailto:webmaster@tate.org.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": true,
+        "creator_user_id": "c0f2992a-387f-4885-bf14-938946f2a028",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "ae739939-2aad-427b-b3b2-66a2bf2954a8",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2013-08-29T16:36:00.288657",
+        "metadata_modified": "2016-02-10T16:51:12.080949",
+        "name": "collections-database",
+        "notes": "The Tate Collection\r\nHere we present the metadata for around 70,000 artworks that Tate owns or jointly owns with the National Galleries of Scotland as part of ARTIST ROOMS. Metadata for around 3,500 associated artists is also included.\r\n\r\nThe metadata here is released under the Creative Commons Public Domain CC0 licence. Please see the enclosed LICENCE file for more detail.\r\n\r\nImages are not included and are not part of the dataset. Use of Tate images is covered on the Copyright and permissions page. You may also license images for commercial use.\r\n\r\nPlease review the full usage guidelines.\r\n\r\nRepository Contents\r\n\r\nWe offer two data formats:\r\n\r\nA richer dataset is provided in the JSON format, which is organised by the directory structure of the Git repository. JSON supports more hierarchical or nested information such as subjects.\r\n\r\nWe also provide CSVs of flattened data, which is less comprehensive but perhaps easier to grok. The CSVs provide a good introduction to overall contents of the Tate metadata and create opportunities for artistic pivot tables.\r\n\r\nJSON\r\n\r\nArtists\r\n\r\nEach artist has his or her own JSON file. They are found in the artists folder, then filed away by first letter of the artist\u2019s surname.\r\n\r\nArtworks\r\n\r\nArtworks are found in the artworks folder. They are filed away by accession number. This is the unique identifier given to artworks when they come into the Tate collection. In many cases, the format has significance. For example, the ar accession number prefix indicates that the artwork is part of ARTIST ROOMS collection. The n prefix indicates works that once were part of the National Gallery collection.\r\n\r\nCSV\r\n\r\nThere is one CSV file for artists (artist_data.csv) and one (very large) for artworks (artwork_data.csv), which we may one day break up into more manageable chunks. The CSV headings should be helpful. Let us know if not. Entrepreneurial hackers could use the CSVs as an index to the JSON collections if they wanted richer data.\r\n\r\nUsage guidelines for open data\r\n\r\nThese usage guidelines are based on goodwill. They are not a legal contract but Tate requests that you follow these guidelines if you use Metadata from our Collection dataset.\r\n\r\nThe Metadata published by Tate is available free of restrictions under the Creative Commons Zero Public Domain Dedication.\r\n\r\nThis means that you can use it for any purpose without having to give attribution. However, Tate requests that you actively acknowledge and give attribution to Tate wherever possible. Attribution supports future efforts to release other data. It also reduces the amount of \u2018orphaned data\u2019, helping retain links to authoritative sources.\r\n\r\nGive attribution to Tate\r\n\r\nMake sure that others are aware of the rights status of Tate and are aware of these guidelines by keeping intact links to the Creative Commons Zero Public Domain Dedication.\r\n\r\nIf for technical or other reasons you cannot include all the links to all sources of the Metadata and rights information directly with the Metadata, you should consider including them separately, for example in a separate document that is distributed with the Metadata or dataset.\r\n\r\nIf for technical or other reasons you cannot include all the links to all sources of the Metadata and rights information, you may consider linking only to the Metadata source on Tate\u2019s website, where all available sources and rights information can be found, including in machine readable formats.\r\n\r\nMetadata is dynamic\r\n\r\nWhen working with Metadata obtained from Tate, please be aware that this Metadata is not static. It sometimes changes daily. Tate continuously updates its Metadata in order to correct mistakes and include new and additional information. Museum collections are under constant study and research, and new information is frequently added to objects in the collection.\r\n\r\nMention your modifications of the Metadata and contribute your modified Metadata back\r\n\r\nWhenever you transform, translate or otherwise modify the Metadata, make it clear that the resulting Metadata has been modified by you. If you enrich or otherwise modify Metadata, consider publishing the derived Metadata without reuse restrictions, preferably via the Creative Commons Zero Public Domain Dedication.\r\n\r\nBe responsible\r\n\r\nEnsure that you do not use the Metadata in a way that suggests any official status or that Tate endorses you or your use of the Metadata, unless you have prior permission to do so.\r\n\r\nEnsure that you do not mislead others or misrepresent the Metadata or its sources\r\n\r\nEnsure that your use of the Metadata does not breach any national legislation based thereon, notably concerning (but not limited to) data protection, defamation or copyright. Please note that you use the Metadata at your own risk. Tate offers the Metadata as-is and makes no representations or warranties of any kind concerning any Metadata published by Tate.\r\n\r\nThe writers of these guidelines are deeply indebted to the Smithsonian Cooper-Hewitt, National Design Museum; and Europeana.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "22f4bf09-b21c-4886-be87-0d37d0f53a38",
+            "name": "tate",
+            "title": "Tate",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:38.747910",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "22f4bf09-b21c-4886-be87-0d37d0f53a38",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "government-spending",
+        "theme-secondary": [
+            "Environment"
+        ],
+        "title": "Collections database",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "last_major_modification",
+                "value": "2013-11-01T10:47:48.990102"
+            },
+            {
+                "key": "licence",
+                "value": "Creative Commons 0 apart from images (see restrictions in further links)"
+            }
+        ],
+        "resources": [
+            {
+                "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T03:07:47.519296', 'cache_filepath': u'/media/hulk/ckan_resource_cache/70/706d6431-30c4-49c8-b016-170d361cb0df/copyright-and-permissions', 'last_success': '2016-02-06T03:07:47.519296', 'size': u'67139', 'is_broken': False, 'failure_count': 0, 'etag': u'\"1454716703-1\"', 'status': 'Archived successfully', 'url_redirected_to': None, 'hash': u'807a80fcbabee5a728cb7436efa5814e0110bcb1', 'status_id': 0, 'reason': u'', 'last_modified': u'Fri, 05 Feb 2016 23:58:23 +0000', 'resource_timestamp': '2016-01-13T20:11:53.455231', 'mimetype': u'text/html', 'cache_url': u'http://data.gov.uk/data/resource_cache/70/706d6431-30c4-49c8-b016-170d361cb0df/copyright-and-permissions', 'created': '2013-11-01T10:47:55.986257', 'first_failure': None}",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2013-11-01T10:47:49.090622",
+                "description": "Image license details",
+                "format": "HTML",
+                "id": "706d6431-30c4-49c8-b016-170d361cb0df",
+                "last_modified": null,
+                "metadata_modified": "2013-11-01T10:47:49.090622",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ae739939-2aad-427b-b3b2-66a2bf2954a8",
+                "position": 0,
+                "qa": "{'updated': '2016-02-07T01:02:39.563697', 'openness_score': 0, 'archival_timestamp': '2016-02-06T03:07:47.519296', 'format': u'RDFa', 'created': '2014-05-09T23:15:09.547283', 'resource_timestamp': '2014-05-09T22:15:09.286103', 'openness_score_reason': u'Content of file appeared to be format \"RDFa\" which receives openness score: 0.'}",
+                "resource_type": "documentation",
+                "scraper_url": "",
+                "size": null,
+                "state": "active",
+                "url": "http://www.tate.org.uk/about/who-we-are/policies-and-procedures/website-terms-use/copyright-and-permissions",
+                "url_type": null
+            },
+            {
+                "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T03:07:48.279876', 'cache_filepath': u'/media/hulk/ckan_resource_cache/34/341f9987-9524-4097-ba72-e9599d56f3bc/collection', 'last_success': '2016-02-06T03:07:48.279876', 'size': u'73105', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': None, 'hash': u'ecc9baee8fb30318c080adbf1ceb0737e5f903cf', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2016-01-13T20:11:53.455231', 'mimetype': u'text/html', 'cache_url': u'http://data.gov.uk/data/resource_cache/34/341f9987-9524-4097-ba72-e9599d56f3bc/collection', 'created': '2013-11-01T10:48:04.789197', 'first_failure': None}",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2013-11-01T10:47:49.090648",
+                "description": "Collections database",
+                "format": "CSV",
+                "id": "341f9987-9524-4097-ba72-e9599d56f3bc",
+                "last_modified": null,
+                "metadata_modified": "2013-11-01T10:47:49.090648",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ae739939-2aad-427b-b3b2-66a2bf2954a8",
+                "position": 1,
+                "qa": "{'updated': '2016-02-07T01:02:39.599622', 'openness_score': 0, 'archival_timestamp': '2016-02-06T03:07:48.279876', 'format': u'HTML', 'created': '2014-05-09T23:15:10.345194', 'resource_timestamp': '2014-05-09T22:15:10.102165', 'openness_score_reason': u'Content of file appeared to be format \"HTML\" which receives openness score: 0.'}",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://github.com/tategallery/collection",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,372 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data_supply@nature.scot",
+        "creator_user_id": null,
+        "id": "083883b6-988f-4b3a-b957-51351371b26d",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2011-11-09T18:31:55.514859",
+        "metadata_modified": "2024-11-14T14:02:20.254037",
+        "name": "ramsar-wetland-of-international-importance-scotland",
+        "notes": "Ramsar sites are classified to meet the UK's commitments under the Ramsar Convention. The UK's ratification also extends to its Overseas Territories and Crown Dependencies. These sites comprise of globally important wetland areas and may extend into the marine environment.\nhttps://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/international-designations/ramsar-sites\nhttps://www.ramsar.org/",
+        "num_resources": 9,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2001"
+        ],
+        "temporal_coverage-to": [
+            "2011"
+        ],
+        "title": "Ramsar Wetland of International Importance (Scotland)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Contains public sector information licensed under the Open Government Licence v3.0. https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\", \"no limitation\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.4982"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.0121"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.5299"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.7769"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2024-01-23\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "63FEF99D-FA1B-4946-B794-DFCB4ABB3BF2"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ec367f96-ea18-4f4d-b38a-32ec076f6542"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-14T10:20:56.867Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.4982, 54.5299], [-8.7769, 54.5299], [-8.7769, 61.0121], [-0.4982, 61.0121], [-0.4982, 54.5299]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-14T14:02:20.288521",
+                "description": "ramsar",
+                "format": "",
+                "hash": "",
+                "id": "ff74fabb-adb5-4abe-9439-13d2cec61da2",
+                "last_modified": null,
+                "metadata_modified": "2024-11-14T14:02:20.258406",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ramsar",
+                "package_id": "083883b6-988f-4b3a-b957-51351371b26d",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/protectedareas/ows?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-14T14:02:20.288523",
+                "description": "Ramsar Wetlands of International Importance",
+                "format": "",
+                "hash": "",
+                "id": "f3156a46-7270-4ba3-9cd7-acea7437f92d",
+                "last_modified": null,
+                "metadata_modified": "2024-11-14T14:02:20.258486",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "protectedareas:ramsar",
+                "package_id": "083883b6-988f-4b3a-b957-51351371b26d",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/protectedareas/wfs?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-14T14:02:20.288524",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "fca36d04-31d6-4944-a2a0-5f0f949210e7",
+                "last_modified": null,
+                "metadata_modified": "2024-11-14T14:02:20.258547",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI Shapefile (EPSG:27700)",
+                "package_id": "083883b6-988f-4b3a-b957-51351371b26d",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD:ESRI Shapefile",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/RAMSAR_SCOTLAND_SHP_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-14T14:02:20.288536",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "93fa0351-452f-4bad-a4b9-18622b50fe5a",
+                "last_modified": null,
+                "metadata_modified": "2024-11-14T14:02:20.258603",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI File geodatabase (EPSG:27700)",
+                "package_id": "083883b6-988f-4b3a-b957-51351371b26d",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD:ESRI File geodatabase",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/RAMSAR_SCOTLAND_GDB_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-14T14:02:20.288537",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "f68d8618-3ecb-4eae-9e84-7afbbd564322",
+                "last_modified": null,
+                "metadata_modified": "2024-11-14T14:02:20.258658",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GML (EPSG:4258)",
+                "package_id": "083883b6-988f-4b3a-b957-51351371b26d",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD:GML",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/RAMSAR_SCOTLAND_GML_4258.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-14T14:02:20.288538",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b6fc7e66-2099-4dcf-9a72-af6451a18a82",
+                "last_modified": null,
+                "metadata_modified": "2024-11-14T14:02:20.258714",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Geopackage (EPSG:27700)",
+                "package_id": "083883b6-988f-4b3a-b957-51351371b26d",
+                "position": 5,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD:Geopackage",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/RAMSAR_SCOTLAND_GPKG_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-14T14:02:20.288539",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "7614f5b8-8f00-4a96-952e-f4a9f4f0c377",
+                "last_modified": null,
+                "metadata_modified": "2024-11-14T14:02:20.258769",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoJSON (EPSG:4326)",
+                "package_id": "083883b6-988f-4b3a-b957-51351371b26d",
+                "position": 6,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD:GeoJSON",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/RAMSAR_SCOTLAND_GEOJSON_4326.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-14T14:02:20.288540",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "80fb7261-7adc-4113-92e2-8c59ded276aa",
+                "last_modified": null,
+                "metadata_modified": "2024-11-14T14:02:20.258824",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot OpenData Hub",
+                "package_id": "083883b6-988f-4b3a-b957-51351371b26d",
+                "position": 7,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.nature.scot/datasets/ramsar-wetlands-of-international-importance/explore",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-14T14:02:20.288541",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "cdc5105f-4ece-4982-ba52-767be242e7df",
+                "last_modified": null,
+                "metadata_modified": "2024-11-14T14:02:20.258877",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot Map Viewer",
+                "package_id": "083883b6-988f-4b3a-b957-51351371b26d",
+                "position": 8,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/www/maps/naturescot-data-viewer.html?layer=protectedareas:ramsar",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "f873e919-4fb3-45d2-a84d-d5d7b67ce00e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

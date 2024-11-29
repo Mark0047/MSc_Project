@@ -1,0 +1,210 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "dkm@marinemanagement.org.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "1b7368f6-d728-4b32-87c7-e88fb9967259",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-04-24T11:36:16.822984",
+        "metadata_modified": "2016-04-20T16:23:41.182692",
+        "name": "carbon-capture-storage-defining-boundary-of-policy-ccs1-in-the-east-inshore-and-east-offshore-m1",
+        "notes": "This dataset has been created to define potential opportunity for carbon capture and storage (CCS1) as shown in the MMO East Inshore and East Offshore marine plans. The data has been derived from Hydrocarbon Fields (UK Deal) and Aquifer Structures (British Geological Survey). The hydrocarbon field's dataset identifies active and inactive oil and gas fields, a selection was made to identify those fields either in production or no longer in production (identified due to the existing infrastructure present). Due to the high concentration of existing fields within the East Marine Plan area it provides the greatest opportunity for Carbon Capture Storage. These fields were then combined with saline aquifers as defined in the BGS dataset to identify areas for potential opportunities of CCS. The sites identified in this dataset are not currently being used for Carbon Capture Storage (CCS), they have been identified as an indication of potential areas.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "6b694e61-66c9-4cca-8eeb-75b2b0c66c4d",
+            "name": "marine-management-organisation",
+            "title": "Marine Management Organisation",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:54:49.334967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "6b694e61-66c9-4cca-8eeb-75b2b0c66c4d",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "environment",
+        "theme-secondary": [],
+        "title": "Carbon capture storage defining boundary of policy CCS1 in the East Inshore and East Offshore marine plans Web Mapping Service (WMS)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on access, however copyright should be used at all times.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "3.0737"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "54.7486"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.8764"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "0.4003"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"href\": [\"MMO1500054\"], \"uuid\": [\"MMO1500054\"], \"title\": []}, {\"href\": [\"http://data.gov.uk/data/search\"], \"uuid\": [\"http://data.gov.uk/data/search\"], \"title\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2015-03-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "c78c00030a584cf60d3bf5046ad67dfe"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f9639db6-15b0-4933-bcc2-59de270d37da"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://s3-eu-west-1.amazonaws.com/inspire-mmo/carbon_capture_storage_defining_boundary_of_policy_ccs1_in_the_east_inshore_and_east_offshore_marine_plans_web_mapping_service_wms_c78c00030a584cf60d3bf5046ad67dfe.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Open Government Licence. Acknowledgement of the Marine Management Organisation is required."
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-14"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Marine Management Organisation (originator, custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[3.0737, 52.8764],[3.0737, 54.7486], [0.4003, 54.7486], [0.4003, 52.8764], [3.0737, 52.8764]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "view"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::4258"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ac6fae6e-304a-406b-aab2-4bc3704f8482"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Management Organisation INSPIRE compliant data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-04-20T17:23:41.213143",
+                "description": "A link to the web service or dataset",
+                "format": "WMS",
+                "hash": "",
+                "id": "8cbf7dd6-f6d4-49ea-98c4-afd56fb5489e",
+                "last_modified": null,
+                "metadata_modified": "2016-04-20T17:23:41.213143",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "1b7368f6-d728-4b32-87c7-e88fb9967259",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://environment.data.gov.uk/ds/wms?SERVICE=WMS&INTERFACE=ENVIRONMENT--487847e2adfae9e29c14d30cc437d502&request=GetCapabilities",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-04-20T17:23:36.903936",
+                "wms_base_urls": "http://www.geostore.com/OGC/OGCInterface;jsessionid=vn9W4TYeeWmIuuddflBEjPor"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-20T17:23:41.213162",
+                "description": "A link to the general host site",
+                "format": "",
+                "hash": "",
+                "id": "947836e6-e73f-4abc-a1a6-1c6693640053",
+                "last_modified": null,
+                "metadata_modified": "2016-04-20T17:23:41.213162",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "1b7368f6-d728-4b32-87c7-e88fb9967259",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://environment.data.gov.uk/ds/catalogue/index.jsp#/catalogue",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "f9639db6-15b0-4933-bcc2-59de270d37da"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ac6fae6e-304a-406b-aab2-4bc3704f8482"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Management Organisation INSPIRE compliant data"
+            }
+        ]
+    }
+}

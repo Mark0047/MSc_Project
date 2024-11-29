@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "6f779c09-bada-40cf-a16b-f7f538262bd8",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-05-29T15:10:48.774502",
+        "metadata_modified": "2020-08-11T13:34:14.258624",
+        "name": "organisation-chart-nsc",
+        "notes": "<p>Details of posts in the top three levels of North Somerset Council organisation</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+            "name": "north-somerset-council",
+            "title": "North Somerset Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:01.609923",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+        "private": false,
+        "state": "active",
+        "title": "Organisation chart",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.n-somerset.gov.uk/employees/organisation-chart"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "fed37daa-9f1c-4305-9483-309c92ef8c0d"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.n-somerset.gov.uk/employees/organisation-chart"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "employees/organisation-chart"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-08-11"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.n-somerset.gov.uk/api/esdinventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2020-08-11T00:00:00\", \"harvest_source_title\": \"North Somerset Council\", \"activity_occurred\": \"2020-08-11T13:34:14.002248\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.n-somerset.gov.uk/employees/organisation-chart\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:10:48.824545",
+                "description": "Organisation chart - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "8e87e447-cd1e-48c7-a3c4-7e3637a36d33",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:10:48.824545",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6f779c09-bada-40cf-a16b-f7f538262bd8",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/employees/organisation-chart/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/Download/employees/organisation-chart",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-11T13:34:14.587848",
+                "description": "Organisation Chart - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "323ecd03-e18e-4954-9e95-62e621be08f4",
+                "last_modified": null,
+                "metadata_modified": "2020-08-11T13:34:14.587848",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6f779c09-bada-40cf-a16b-f7f538262bd8",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.n-somerset.gov.uk/api/employees/organisation-chart/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/employees/organisation-chart/organisation-chart/CSV?version=11/08/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-11T13:34:14.587855",
+                "description": "Organisation Chart - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "327bb719-583f-4daa-8d97-150dace21ce9",
+                "last_modified": null,
+                "metadata_modified": "2020-08-11T13:34:14.587855",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6f779c09-bada-40cf-a16b-f7f538262bd8",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/employees/organisation-chart/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/employees/organisation-chart/organisation-chart/XML?version=11/08/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-06-02T21:40:36.933177",
+                "description": "Organisation Chart - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "19d9a5b8-30d5-4477-a593-af349115b9df",
+                "last_modified": null,
+                "metadata_modified": "2016-06-02T21:40:36.933177",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6f779c09-bada-40cf-a16b-f7f538262bd8",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/employees/organisation-chart/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/employees/organisation-chart/organisation-chart?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-06-02T21:40:36.933187",
+                "description": "Organisation Chart - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "583e9f67-fae6-4c3e-98be-ab169b73ce32",
+                "last_modified": null,
+                "metadata_modified": "2016-06-02T21:40:36.933187",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6f779c09-bada-40cf-a16b-f7f538262bd8",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/employees/organisation-chart/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/employees/organisation-chart/organisation-chart?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "fed37daa-9f1c-4305-9483-309c92ef8c0d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ]
+    }
+}

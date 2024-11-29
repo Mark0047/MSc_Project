@@ -1,0 +1,88 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "511523e2-3bac-4a47-ab21-04527e750302",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "d2687a99-5fee-486e-91f6-551b13b9be4b",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-07-13T14:33:49.114036",
+        "metadata_modified": "2022-03-08T14:48:48.175510",
+        "name": "east-sussex-county-council-recycling-sites",
+        "notes": "The dataset lists our household waste recycling sites and recycling points maintained by District and Borough councils, with their location (lat/long) and a brief description. It is maintained as part of our \"Where to recycle\" tool. It contains links to a page for each recycling site.\r\n\r\nThe page for each recycling site has further data about that site embedded as JSON-LD using the schema.org ontology.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "12802345-6918-45a8-9fbc-dd78c9768439",
+            "name": "east-sussex-county-council",
+            "title": "East Sussex County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:24.195607",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "12802345-6918-45a8-9fbc-dd78c9768439",
+        "private": false,
+        "state": "active",
+        "theme-primary": "society",
+        "title": "Waste and recycling sites in East Sussex",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-01-10T11:51:18.122589",
+                "datafile-date": "",
+                "description": null,
+                "format": "XML",
+                "hash": "",
+                "id": "52555b5f-732e-4482-8223-dfff8f5c17c8",
+                "last_modified": null,
+                "metadata_modified": "2022-03-08T14:48:48.180567",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Waste and recycling sites XML",
+                "package_id": "d2687a99-5fee-486e-91f6-551b13b9be4b",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://new.eastsussex.gov.uk/api/locations/GetLocations?type=WasteSites",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

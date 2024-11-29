@@ -1,0 +1,234 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "31c8c4f9-1227-4de6-a440-db2c13e416ae",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-02-09T00:49:08.143735",
+        "metadata_modified": "2024-06-06T17:01:14.453167",
+        "name": "lidar-for-scotland-phase-6-dsm",
+        "notes": "The Scottish Public Sector LiDAR (Phase 6) was initially captured by Fugro for Scottish Power Energy Network (SPEN) from 2021 to 2022 to monitor their overhead power cable network under their Virtual World Asset Management programme. The Scottish Government procured this dataset for public use in 2022. This dataset reflects the Digital Surface Model (DSM) produced from the point cloud data.",
+        "num_resources": 3,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2021-04-01"
+        ],
+        "temporal_coverage-to": [
+            "2022-03-31"
+        ],
+        "title": "LiDAR for Scotland Phase 6 - DSM",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Crown copyright Scottish Government and Fugro (2020).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2022-02-08\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "0ee55915-0fc7-45d6-a78b-42398c2bcf02"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "83bdc2d1-d14a-45c3-81c9-76b8e081ffa5"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-02-08T11:58:00"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-06T17:01:14.475725",
+                "description": "Lidar Phase 6 DSM",
+                "format": "",
+                "hash": "",
+                "id": "76788719-553b-4a92-863e-31e1bbaeca7b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-06T17:01:14.458222",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "scotland:scotland-lidar-6-dsm",
+                "package_id": "31c8c4f9-1227-4de6-a440-db2c13e416ae",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://srsp-ows.jncc.gov.uk/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-06T17:01:14.475728",
+                "description": "Digital Surface Model (DSM) Download Service",
+                "format": "",
+                "hash": "",
+                "id": "9fe6404b-9f9e-4f3c-9ff6-b7be88b6957d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-06T17:01:14.458353",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Digital Surface Model in GeoTIFF format",
+                "package_id": "31c8c4f9-1227-4de6-a440-db2c13e416ae",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://remotesensingdata.gov.scot/data#/list?lidar/phase-6",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-06T17:01:14.475729",
+                "description": "Scottish Remote Sensing Portal",
+                "format": "",
+                "hash": "",
+                "id": "504158d0-5014-4b49-ad72-d82d0b476432",
+                "last_modified": null,
+                "metadata_modified": "2024-06-06T17:01:14.458437",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scottish Remote Sensing Portal",
+                "package_id": "31c8c4f9-1227-4de6-a440-db2c13e416ae",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://remotesensingdata.gov.scot/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Orthoimagery",
+                "id": "64b9ed71-3811-4c11-a6eb-fcb262370518",
+                "name": "Orthoimagery",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d364da5c-f3a2-4e9f-b29c-98d0e3903382"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@metoffice.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "4655c9c4-452c-44e0-bc48-7b5143eae3d7",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2013-12-19T10:50:22.077690",
+        "metadata_modified": "2016-02-10T16:48:29.058227",
+        "name": "met-office-view-service-wmts",
+        "notes": "Met Office OGC WMTS 1.0 compliant Web Map Tiling Service",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "e585ca29-681d-4298-a747-8a863ec60aec",
+            "name": "met-office",
+            "title": "Met Office",
+            "type": "organization",
+            "description": "The Met Office is the UK\u2019s national weather service. It provides weather and climate-related services to the Armed Forces, government departments, the public, civil aviation, shipping, industry, agriculture and commerce.",
+            "image_url": "",
+            "created": "2012-06-27T14:52:09.949242",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e585ca29-681d-4298-a747-8a863ec60aec",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "environment",
+        "theme-secondary": [
+            "Mapping"
+        ],
+        "title": "Met Office View Service (WMTS)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"no limitations\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "5"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "48"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-12"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2013-12-03\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "a4074994-b104-43ea-8274-61b9f129417e"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "bd1263bd-b6ea-4cd5-8a6e-9af8e39d1b79"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://datapoint.metoffice.gov.uk/public/data/inspire/service/discovery/ViewService.xml"
+            },
+            {
+                "key": "licence",
+                "value": "Fair Usage - http://www.metoffice.gov.uk/about-us/legal/fair-usage"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2013-08-30"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Met Office"
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Met Office (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[5, 48],[5, 61], [-12, 61], [-12, 48], [5, 48]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "view"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG:3857"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "f14d7173-9fac-45e0-ad9f-8ef978bb267d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Met Office Inspire Discovery Service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2013-12-19T10:50:22.174239",
+                "description": "Met Office DataPoint",
+                "format": "",
+                "hash": "",
+                "id": "221d8db7-ccd8-4167-bef6-c8acfc253dc9",
+                "last_modified": null,
+                "metadata_modified": "2013-12-19T10:50:22.174239",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "4655c9c4-452c-44e0-bc48-7b5143eae3d7",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMTS-1.0.0-http-get-capabilities",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://datapoint.metoffice.gov.uk/public/data/inspire/view/wmts?REQUEST=getcapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "bd1263bd-b6ea-4cd5-8a6e-9af8e39d1b79"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "f14d7173-9fac-45e0-ad9f-8ef978bb267d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Met Office Inspire Discovery Service"
+            }
+        ]
+    }
+}

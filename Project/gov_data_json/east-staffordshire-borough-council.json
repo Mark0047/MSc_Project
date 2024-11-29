@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "f3c92c78-9029-4692-a3d9-4191edbdcb07",
+        "metadata_created": "2019-01-23T11:43:38.260097",
+        "metadata_modified": "2019-01-23T11:43:38.260105",
+        "name": "east-staffordshire-borough-council",
+        "notes": "",
+        "organization": {
+            "id": "e78cccbc-f0c7-49d6-8230-12d9ba518b03",
+            "name": "east-staffordshire-borough-council",
+            "title": "East Staffordshire Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:49.807319",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "e78cccbc-f0c7-49d6-8230-12d9ba518b03",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "East Staffordshire Borough Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/east_staffordshire_bc/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 40,
+            "last_job": {
+                "id": "035dd920-fc99-4e73-b7ee-431c84a2a99d",
+                "created": "2019-12-13 09:43:33.846361",
+                "gather_started": "2019-12-13 09:43:34.535338",
+                "gather_finished": "2019-12-13 09:43:34.877212",
+                "finished": "2019-12-13 09:43:55.393944",
+                "source_id": "f3c92c78-9029-4692-a3d9-4191edbdcb07",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 19,
+                    "errored": 20,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 20
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 19
+        }
+    }
+}

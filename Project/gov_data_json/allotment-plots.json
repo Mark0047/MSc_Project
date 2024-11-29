@@ -1,0 +1,166 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "joe.brickley@bristol.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "bffa24f5-246c-40b2-8268-e34f1c6f39c7",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2014-08-29T15:00:05.735850",
+        "metadata_modified": "2024-05-30T16:57:53.458002",
+        "name": "allotment-plots",
+        "notes": " This dataset comprises polygon data showing the location and size of all allotment plots within Bristol City Council's area.",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "7bbcdc7a-74d0-4a53-a07a-2c15bd7f6bd6",
+            "name": "bristol-city-council",
+            "title": "Bristol City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:56.618466",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "7bbcdc7a-74d0-4a53-a07a-2c15bd7f6bd6",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "",
+        "title": "Allotment Plots",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "a09866be-de97-4133-af88-2829171340a4"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "734a2016-6105-466d-bce4-6c85e93eeed5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Bristol City Council INSPIRE"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-30T14:11:33.220546",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "002b660e-f8c6-4205-a83a-c8e64408d4ec",
+                "last_modified": null,
+                "metadata_modified": "2024-05-30T14:11:33.173662",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "bffa24f5-246c-40b2-8268-e34f1c6f39c7",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.gov.uk/publisher/bristol-city-council",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-30T16:28:27.032394",
+                "datafile-date": "2024-05-30",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "4864f693-2c1f-4a41-971f-1b82d2ed2a80",
+                "last_modified": null,
+                "metadata_modified": "2024-05-30T16:45:03.817614",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Allotment Plots TEST WMS",
+                "package_id": "bffa24f5-246c-40b2-8268-e34f1c6f39c7",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps2.bristol.gov.uk/server2/services/ext/INSPIRE/MapServer/WMSServer?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&LAYERS=Allotment_Plots8289&CRS=EPSG:27700&STYLES=DEFAULT&HEIGHT=600&WIDTH=600&BBOX=351327.633000,167225.064000,364593.178000,179772.216000&FORMAT=image/png",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-30T16:52:24.769648",
+                "datafile-date": "2024-05-30",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "7d8af428-4d2a-438b-89b6-9f0683bb66a3",
+                "last_modified": null,
+                "metadata_modified": "2024-05-30T16:57:53.462476",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Allotment Plots TEST WFS",
+                "package_id": "bffa24f5-246c-40b2-8268-e34f1c6f39c7",
+                "position": 2,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps2.bristol.gov.uk/server2/services/test/INSPIRE/MapServer/WFSServer?request=GetFeature&service=WFS&version=2.0.0&TYPENAME=INSPIRE:Allotment_Plots",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Parks and gardens",
+                "id": "3db9af23-75c3-4ace-819c-4d6deefd0812",
+                "name": "Parks and gardens",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "a09866be-de97-4133-af88-2829171340a4"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "734a2016-6105-466d-bce4-6c85e93eeed5"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Bristol City Council INSPIRE"
+            }
+        ]
+    }
+}

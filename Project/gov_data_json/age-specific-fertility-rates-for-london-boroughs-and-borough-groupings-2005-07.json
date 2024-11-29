@@ -1,0 +1,156 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "a775b9a9-42f2-4e73-b33d-bc7e1d969ad6",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:21:33.306759",
+        "metadata_modified": "2024-11-16T22:01:53.611875",
+        "name": "age-specific-fertility-rates-for-london-boroughs-and-borough-groupings-2005-07",
+        "notes": "Raw and smoothed age-specific fertility rates (ASFR) for 2005-07; ie births to mothers aged x per resident population of women aged x, where x ranges from age 15 to 49.",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Age-specific fertility rates for London boroughs and borough groupings 2005-07",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/age-specific-fertility-rates-london-boroughs-and-borough-groupings-2005-0",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2010-08-17T12:24:46.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2020-01-17T12:33:10.231Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "56c6ac27-0369-404e-8b97-db2617d7a293"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-24T04:45:49.523663",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "acd0ba68-ab03-4871-acc6-178e98a45d05",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:46.115009",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "smoothed_fertility_rates_05to07.csv",
+                "package_id": "a775b9a9-42f2-4e73-b33d-bc7e1d969ad6",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/age-specific-fertility-rates-london-boroughs-and-borough-groupings-2005-0/5b544a74-55ee-4d65-9a1b-5b560b5bab28/smoothed_fertility_rates_05to07.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-24T04:45:49.523670",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "c5dacab4-1764-49d0-8ee7-ecfa5be068ad",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:46.115130",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Intelligence Briefing 2010-05 London Borough Fertility Rates 2005-07.pdf",
+                "package_id": "a775b9a9-42f2-4e73-b33d-bc7e1d969ad6",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/age-specific-fertility-rates-london-boroughs-and-borough-groupings-2005-0/47829cc2-510e-481e-82fd-f63260902df8/Intelligence%2520Briefing%25202010-05%2520London%2520Borough%2520Fertility%2520Rates%25202005-07.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-24T04:45:49.523673",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "d06244d0-2361-446e-89c5-31ff915a107a",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:46.115233",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "raw_fertility_rates_05to07.csv",
+                "package_id": "a775b9a9-42f2-4e73-b33d-bc7e1d969ad6",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/age-specific-fertility-rates-london-boroughs-and-borough-groupings-2005-0/0633454a-8273-4941-a96d-05ccd0f974e8/raw_fertility_rates_05to07.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "population",
+                "id": "40739b84-20b5-415f-87f6-7ab11b26d2b3",
+                "name": "population",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "single-year-of-age",
+                "id": "ddebffe8-084b-48f0-a3e7-7e6df9b63bf2",
+                "name": "single-year-of-age",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0d3a958c-f083-401a-8040-6c09d6825393"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

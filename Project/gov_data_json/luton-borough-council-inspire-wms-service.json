@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "149deeed-52f0-46d9-a6eb-004b5037709b",
+        "metadata_created": "2019-01-23T10:40:32.221938",
+        "metadata_modified": "2019-01-23T10:40:32.221944",
+        "name": "luton-borough-council-inspire-wms-service",
+        "notes": "",
+        "organization": {
+            "id": "2ecfa769-df58-4f4d-8d9f-7811cf3bb5f6",
+            "name": "luton-borough-council",
+            "title": "Luton Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:59.631441",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2ecfa769-df58-4f4d-8d9f-7811cf3bb5f6",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Luton Borough Council INSPIRE WMS Service",
+        "type": "harvest",
+        "url": "http://apps.luton.gov.uk/inspire/gemini.html",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 7,
+            "last_job": {
+                "id": "46809825-75b4-4d4e-9ac0-cd3070d8fdd0",
+                "created": "2018-01-22 08:44:46.850870",
+                "gather_started": "2018-01-22 08:44:51.548279",
+                "gather_finished": "2018-01-22 08:44:51.589626",
+                "finished": null,
+                "source_id": "149deeed-52f0-46d9-a6eb-004b5037709b",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Couldn't find any links to metadata files. (N.B. A common error is for the WAF to contain links that include path information. Links are discarded if they contain slashes. For example, it should be href=\"rivers.xml\" rather than href=\"/metadata/rivers.xml\".)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

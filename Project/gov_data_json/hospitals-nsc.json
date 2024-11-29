@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "6a2c4066-7f07-46dd-822f-c4d44ada090e",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-05-29T15:11:31.090999",
+        "metadata_modified": "2020-08-11T13:36:36.286716",
+        "name": "hospitals-nsc",
+        "notes": "<p>Hospitals in North Somerset</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+            "name": "north-somerset-council",
+            "title": "North Somerset Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:01.609923",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+        "private": false,
+        "state": "active",
+        "title": "Hospitals",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.n-somerset.gov.uk/health/hospitals"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "a4c3156c-107f-423f-89f4-a68bf3440dee"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.n-somerset.gov.uk/health/hospitals"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "health/hospitals"
+            },
+            {
+                "key": "la_function",
+                "value": "http://id.esd.org.uk/function/64"
+            },
+            {
+                "key": "la_service",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-08-11"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.n-somerset.gov.uk/api/esdinventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2020-08-11T00:00:00\", \"harvest_source_title\": \"North Somerset Council\", \"activity_occurred\": \"2020-08-11T13:36:36.021665\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.n-somerset.gov.uk/health/hospitals\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:11:31.123416",
+                "description": "Hospitals - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "ad30c8f3-b3c7-4d5c-928f-df89f2cd7855",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:11:31.123416",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6a2c4066-7f07-46dd-822f-c4d44ada090e",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/health/hospitals/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/Download/health/hospitals",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-11T13:36:36.643134",
+                "description": "Hospitals - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "a7d3784d-cff3-4b58-a074-3fd565ca58f5",
+                "last_modified": null,
+                "metadata_modified": "2020-08-11T13:36:36.643134",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6a2c4066-7f07-46dd-822f-c4d44ada090e",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.n-somerset.gov.uk/api/health/hospitals/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/health/hospitals/hospitals/CSV?version=11/08/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-11T13:36:36.643140",
+                "description": "Hospitals - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "43adc290-e868-4495-ba7a-07de063cda94",
+                "last_modified": null,
+                "metadata_modified": "2020-08-11T13:36:36.643140",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6a2c4066-7f07-46dd-822f-c4d44ada090e",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/health/hospitals/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/health/hospitals/hospitals/XML?version=11/08/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:11:31.123441",
+                "description": "Hospitals - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "2c202869-777b-4abf-818d-4866a4039795",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:11:31.123441",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6a2c4066-7f07-46dd-822f-c4d44ada090e",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/health/hospitals/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/health/hospitals/hospitals?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:11:31.123445",
+                "description": "Hospitals - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "c249ba21-560e-4a66-b5fb-dbbf01d69b3c",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:11:31.123445",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6a2c4066-7f07-46dd-822f-c4d44ada090e",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/health/hospitals/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/health/hospitals/hospitals?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "a4c3156c-107f-423f-89f4-a68bf3440dee"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ]
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@aberdeencity.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "e90731c5-e6ad-4704-a107-04f2cb64dc25",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-03-26T13:36:21.120988",
+        "metadata_modified": "2022-06-22T10:01:12.130402",
+        "name": "aberdeen-bus-facilities",
+        "notes": "Locations of bus stops, shelters and park and ride facilities within the city boundary of Aberdeen. Data is based on fixed locations of stops and contains stop references and service information.",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Aberdeen Bus Facilities",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.065629"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "57.214036"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "57.090994"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.275019"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2021-03-24\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "70EB680E-FC91-4A09-8CDA-0B418A9CFB07"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "546919d1-119d-4d5d-980c-0ae82ff8a032"
+            },
+            {
+                "key": "licence",
+                "value": "[\"This information is supplied under the Open Government License v3.0 (http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). The data was captured by Aberdeen City Council against Ordnance Survey basemaps and requires the following attribution statement to acknowledge the source of information:\\u201cCopyright Aberdeen City Council, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year)\\u201d\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2022-06-22T10:00:11"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "completed"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Aberdeen City Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.065629, 57.090994], [-2.275019, 57.090994], [-2.275019, 57.214036], [-2.065629, 57.214036], [-2.065629, 57.090994]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "download"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-06-22T10:01:12.157010",
+                "description": "Aberdeen City Council Open Spatial Data Portal",
+                "format": "",
+                "hash": "",
+                "id": "0b3f11d3-1a5a-4784-9627-167aff040e0c",
+                "last_modified": null,
+                "metadata_modified": "2022-06-22T10:01:12.134549",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Link to download Shapefile, GeoJSON, KML format",
+                "package_id": "e90731c5-e6ad-4704-a107-04f2cb64dc25",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://spatialdata-accabdn.opendata.arcgis.com/datasets/bus-facilities-1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Downloadable Data",
+                "id": "16edbbab-2b8d-4879-8c95-ee40ac8fbf7c",
+                "name": "Downloadable Data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "546919d1-119d-4d5d-980c-0ae82ff8a032"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

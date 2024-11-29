@@ -1,0 +1,497 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-05-24T14:36:26.155731",
+        "metadata_modified": "2024-06-14T14:45:37.031682",
+        "name": "wfd-river-basin-districts-cycle-1",
+        "notes": "WFD River Basin Districts is a polygon Shapefile dataset containing attributes that have been defined for the implementation of the Water Framework Directive (WFD). as '\u2026the area of land and sea, made up of one or more neighbouring river basins together with their associated groundwaters and coastal waters\u2026'. River Basin Districts have been delineated by using River Catchments as \u201cbuilding blocks\u201d that have been aggregated together within a GIS, ensuring that WFD rivers do not intersect boundaries. Coastal and transitional waterbodies are also merged and assigned to a river basin district. River Catchments were delineated through use of flow data and a digital terrain model run through a hydrological model.\nThis dataset was previously known as WFD River Basin Districts.\nThese data apply to Cycle 1 of the Water Framework Directive. The equivalent layer for Cycle 2 is covered under WFD River Basin Districts Cycle 2.\nPlease note that the Environment Agency no longer provide data for water bodies in Wales - this should now available from Natural Resources Wales. Attribution statement: Contains Environment Agency information \u00a9 Environment Agency and/or database rights 2017.Contains Ordnance Survey data \u00a9 Crown copyright and database rights 2013.Based on digital spatial data licensed from the Centre for Ecology & Hydrology, \u00a9 NERC (CEH).",
+        "num_resources": 12,
+        "num_tags": 9,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2015-12-31"
+        ],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "WFD River Basin Districts Cycle 1",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2008-01-01\"}, {\"type\": \"revision\", \"value\": \"2009-10-13\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "779ada21-d465-11e4-8a4f-f0def148f590"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "0ac9780c-742f-4b16-a689-24b0695aafa0"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.098993",
+                "description": "WFDRiverBasinDistrictsCycle1-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3f479fd0-9c4d-4677-934c-9e4205d3e18f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.037593",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverBasinDistrictsCycle1-FGDB.zip",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=79b321cd-9522-4953-af7e-2668a5c83a99&fileName=WFDRiverBasinDistrictsCycle1-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.098996",
+                "description": "WFDRiverBasinDistrictsCycle1-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "6d1dcc9d-7f69-4ef3-9bd3-9aab9fe4653f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.037684",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverBasinDistrictsCycle1-GeoJSON.zip",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=79b321cd-9522-4953-af7e-2668a5c83a99&fileName=WFDRiverBasinDistrictsCycle1-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.098997",
+                "description": "WFDRiverBasinDistrictsCycle1-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "83b3727e-78bc-4ad0-ae75-2ae589ed769f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.037757",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverBasinDistrictsCycle1-GML.zip",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=79b321cd-9522-4953-af7e-2668a5c83a99&fileName=WFDRiverBasinDistrictsCycle1-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.098998",
+                "description": "WFDRiverBasinDistrictsCycle1-KML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3726193c-d34a-4956-a8a9-8f791f2d3f20",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.037824",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverBasinDistrictsCycle1-KML.zip",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=79b321cd-9522-4953-af7e-2668a5c83a99&fileName=WFDRiverBasinDistrictsCycle1-KML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.098999",
+                "description": "WFDRiverBasinDistrictsCycle1-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "8b17cdd0-851a-4924-bcf6-d9eb6eda2dde",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.037900",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverBasinDistrictsCycle1-MID_MIF.zip",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=79b321cd-9522-4953-af7e-2668a5c83a99&fileName=WFDRiverBasinDistrictsCycle1-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.099000",
+                "description": "WFDRiverBasinDistrictsCycle1-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "63617fb8-73db-4d5c-b9b9-8b811d62316a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.037970",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverBasinDistrictsCycle1-SHP.zip",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=79b321cd-9522-4953-af7e-2668a5c83a99&fileName=WFDRiverBasinDistrictsCycle1-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.099001",
+                "description": "WFDRiverBasinDistrictsCycle1-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "2adb6a70-48bf-4f2a-b8c2-030c7db1af01",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.038036",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDRiverBasinDistrictsCycle1-TAB.zip",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=79b321cd-9522-4953-af7e-2668a5c83a99&fileName=WFDRiverBasinDistrictsCycle1-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.099002",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "95fef674-6032-47ab-bc44-b2bafc952439",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.038099",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.geostore.com/environment-agency/ds/catalogue/#/779ada21-d465-11e4-8a4f-f0def148f590",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.099003",
+                "description": "WFD - River Basin Districts Cycle 1 WFS",
+                "format": "",
+                "hash": "",
+                "id": "03f5ba8c-e630-446e-bd88-f1943d0eb8f2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.038161",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDRiverBasinDistrictsCycle1_WFS",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-river-basin-districts/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.099004",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "aa8e2b51-9742-46c0-bcd5-ac2d2659caf5",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.038223",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDRiverBasinDistrictsCycle1_Download",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/779ada21-d465-11e4-8a4f-f0def148f590?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.099005",
+                "description": "WFD - River Basin Districts Cycle 1 WMS",
+                "format": "",
+                "hash": "",
+                "id": "d4650d53-b4d6-489c-87f2-a5d217353efd",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.038284",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFDRiverBasinDistrictsCycle1_WMS",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-river-basin-districts/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:45:37.099006",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "b86963d6-cbb7-4ef1-9463-799f03f09322",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:45:37.038346",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "46eb020e-d5ea-4b07-8de5-bdc43d48c027",
+                "position": 11,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-river-basin-districts/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "RBD",
+                "id": "b6d13a10-a78f-44d8-ad4d-a82be10fa1cf",
+                "name": "RBD",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "WFD",
+                "id": "02f4dac3-3ff6-4d88-b62a-99ca259b0af6",
+                "name": "WFD",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "hydrology",
+                "id": "187f2d7b-e238-42c3-939d-852a96e4de70",
+                "name": "hydrology",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "inlandWaters",
+                "id": "cec0bb77-73e4-4884-a522-2dd31882fe82",
+                "name": "inlandWaters",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "oceans",
+                "id": "47b818db-d190-4bbd-a6d1-2c8a5ba70fc4",
+                "name": "oceans",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "river",
+                "id": "0d871f42-5d74-450f-b9da-6e47d6e00f32",
+                "name": "river",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "river basin district",
+                "id": "f39add1c-431b-4b0c-b8b1-27d753367825",
+                "name": "river basin district",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "water body",
+                "id": "dd7a1226-7035-40aa-afa9-ed066954b5f9",
+                "name": "water body",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "076a7741-1f44-4b2e-888e-1a37ed4fe093"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

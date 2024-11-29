@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "03769d99-6d17-43f0-ba28-0bef54c3f655",
+        "frequency": "MANUAL",
+        "id": "6e189889-fc73-4583-9cbc-d970ca1fa08e",
+        "metadata_created": "2020-02-12T14:37:58.822943",
+        "metadata_modified": "2020-02-12T15:41:02.133054",
+        "name": "location-me-harvester",
+        "notes": "location me harvester",
+        "organization": {
+            "id": "8011259e-de10-49e4-a010-169eb93d703c",
+            "name": "dartmoor-national-park-authority",
+            "title": "Dartmoor National Park Authority",
+            "type": "organization",
+            "description": "Dartmoor National Park Authority is a special purpose local authority created under the Environment Act 1995. The Authority is a freestanding local authority employing around 105 staff and is governed by 22 appointed Members. Prior to 1995 the National Park was administered as a committee of Devon County Council",
+            "image_url": "",
+            "created": "2013-10-30T12:27:05.209316",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8011259e-de10-49e4-a010-169eb93d703c",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/8011259e-de10-49e4-a010-169eb93d703c/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 6,
+            "last_job": {
+                "id": "a008fc1e-debd-40e7-8037-2e5c7366f7c7",
+                "created": "2020-02-14 12:27:17.536808",
+                "gather_started": "2020-02-14 12:27:18.216195",
+                "gather_finished": "2020-02-14 12:27:18.660389",
+                "finished": "2020-02-14 12:27:26.668876",
+                "source_id": "6e189889-fc73-4583-9cbc-d970ca1fa08e",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 2,
+                    "not modified": 0,
+                    "errored": 2,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "gemini2/gemini2-1.3 will be deprecated, please use gemin2-3",
+                        "error_count": 2
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 9
+        }
+    }
+}

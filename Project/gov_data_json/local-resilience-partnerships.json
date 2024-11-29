@@ -1,0 +1,267 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "fc3f821f-65ab-4d09-a7f0-48ffa1a6d141",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-06-12T04:34:28.082883",
+        "metadata_modified": "2024-06-19T11:16:00.706504",
+        "name": "local-resilience-partnerships",
+        "notes": "Regional and Local Resilience Partnerships (RRPs/LRPs) are the principal mechanisms for multi-agency co-ordination under The Civil Contingencies Act (2004). They promote co-operation between organisations in preparation for and responding to national emergencies. A Resilience Partnership may be activated to deal with the wider consequences of the emergency and ensure that multi-agency response is well coordinated and effective. Resilience Partnerships can be convened at a local level or across a wider area depending on the nature of the incident and the organisations involved.",
+        "num_resources": 4,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Local Resilience Partnerships",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year)\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2013-11-01\"}, {\"type\": \"revision\", \"value\": \"2019-04-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "8720c4c9-3c94-432b-b07f-3ebb6ffe1c87"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "745b8df2-296d-4239-a0fe-2fc2b0540d97"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-01-14T14:14:34"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher, pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:16:00.742097",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "fb5a05f4-a396-4609-851d-7c7cbe857036",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:16:00.713086",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LocalResiliencePartnerships",
+                "package_id": "fc3f821f-65ab-4d09-a7f0-48ffa1a6d141",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/CrimeJusticeSafety/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:16:00.742099",
+                "description": "OGC Feature Download",
+                "format": "",
+                "hash": "",
+                "id": "38746332-72a3-4cbe-9b0b-b9b8616cb25a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:16:00.713177",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CJS:LocalResiliencePartnerships",
+                "package_id": "fc3f821f-65ab-4d09-a7f0-48ffa1a6d141",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/CrimeJusticeSafety/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:16:00.742101",
+                "description": "ESRI REST Service",
+                "format": "",
+                "hash": "",
+                "id": "0e6c961f-cb6d-4db2-84f4-d49e2cbdec5b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:16:00.713247",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Resilience Partnerships",
+                "package_id": "fc3f821f-65ab-4d09-a7f0-48ffa1a6d141",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/rest/services/ScotGov/CrimeJusticeSafety/MapServer/2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:16:00.742102",
+                "description": "ESRI Shapefile Download",
+                "format": "ZIP",
+                "hash": "",
+                "id": "77112088-b091-4798-9fe4-c79b9505a3af",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:16:00.713315",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Local Resilience Partnerships",
+                "package_id": "fc3f821f-65ab-4d09-a7f0-48ffa1a6d141",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/ATOM/shapefiles/SG_LocalResiliencePartnerships_2019.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Emergency planning",
+                "id": "6643a773-4c1f-46c5-8f3e-335c7da2124b",
+                "name": "Emergency planning",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Human health and safety",
+                "id": "48a55d2f-b77f-4193-a882-9371e30705a1",
+                "name": "Human health and safety",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Resilience",
+                "id": "23bda5c5-b8d5-4ecc-8b8f-0e6395dc8e40",
+                "name": "Resilience",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "134e0995-9d20-47de-b153-e96f48358305"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

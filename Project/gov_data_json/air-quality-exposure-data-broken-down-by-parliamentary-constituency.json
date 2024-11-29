@@ -1,0 +1,114 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "172a5fdc-1e49-4bbb-bc4f-a9ed548474f3",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-05-04T10:30:21.819037",
+        "metadata_modified": "2024-11-16T22:02:16.847198",
+        "name": "air-quality-exposure-data-broken-down-by-parliamentary-constituency",
+        "notes": "This is a dataset of air quality exposure data broken down by parliamentary constituency based on the current 2013 data from the London Atmospheric Emissions Inventory.\u00a0The legal limit for NO2 is an average annual concentration of 40 ug/m3.",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Air quality exposure data broken down by parliamentary constituency",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/air-quality-exposure-data-broken-down-by-parliamentary-constituency",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2017-05-03T18:05:11.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2017-05-03T18:48:06.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "7b32b47d-0219-4e30-b9f0-8ecb4fa70693"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:15:54.857336",
+                "description": null,
+                "format": "XLS",
+                "hash": "",
+                "id": "765871d3-ffb6-4933-b424-af5d2c5abe5c",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:15.673920",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "LondonConstituencyNO2Exposure2013",
+                "package_id": "172a5fdc-1e49-4bbb-bc4f-a9ed548474f3",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/air-quality-exposure-data-broken-down-by-parliamentary-constituency/d0f04b1b-45d8-44ae-8c3a-cacb4ede42ad/LondonConstituencyNO2Exposure2013.xlsx",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "NO2",
+                "id": "eb7024ab-db29-4b4b-97ab-d173f5168330",
+                "name": "NO2",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "air-quality",
+                "id": "d425ed32-1f19-485a-93d7-69eb4848c0d5",
+                "name": "air-quality",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "42353d9f-0d9b-4dfb-b89a-7d24c575137b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

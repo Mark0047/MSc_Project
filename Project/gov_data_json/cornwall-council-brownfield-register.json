@@ -1,0 +1,212 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "gis@cornwall.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "28f08b1f-38a6-4d4b-b3c2-783faffee3a0",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-12-14T12:40:56.230664",
+        "metadata_modified": "2023-12-20T11:41:48.924431",
+        "name": "cornwall-council-brownfield-register",
+        "notes": "Following the introduction of The Town and Country Planning (Brownfield Land Register) Regulations 2017, Cornwall Council is required to publish and maintain a register of brownfield land exceeding 0.25ha which is suitable, available and achievable for residential-led development. Residential-led means mostly self-contained dwellings, which can include flats.\r\n\r\nThis dataset has been created to conform to the Brownfield Land Registers Data Standard and as such forms part of the Council's official Brownfield Register.\r\n\r\n\u0081OrganisationURI - To identify the Local Authority within whose area the parcel of land lies.\r\n\u0081SiteReference - A reference applied by the local authority to identify a site\r\nSiteNameAddress - The name and address of a site, which should be sufficient to describe its location.\r\nGeoY - Latitude or north grid reference for visual of application boundary\r\n\u0081GeoX - Longitude or east grid reference for the visual centroid of the site boundary\r\n\u0081SiteplanURL - A URL to a web page giving a site plan for the site\r\nHectares - The size of the land in hectares\r\n\u0081OwnershipStatus - The ownership status of the land\r\nPlanningStatus - To indicate the stage, if any, that has been reached in the planning process for the site\r\n\u0081PermissionType - The latest type of permission that has been granted on the site\r\nPermissionDate - The date permission was granted for the permission set out in the field ?PermissionType?\r\n\u0081PlanningHistory - Links to webpages giving information about the planning history of the site\r\n\u0081Deliverable - To indicate if the land is 'Deliverable'\r\n\u0081\u0081NetDwellingsRangeFrom - The minimum net number of dwellings which, in the authority?s opinion, the land is capable of supporting\r\nNetDwellingsRangeTo - The maximum net number of dwellings which, in the authority?s opinion, the land is capable of supporting\r\nHazardousSubstances - To indicate the presence of certain characteristics of the site\r\nNotes - General information about a site and its entry on the register\r\n\u0081FirstAddedDate - The date that the site was first added to the register\r\n\u0081LastUpdatedDate - The date that information about the site was last updated\r\nEndDate - \r\nDevelopmentDescription - A description of any proposed housing development",
+        "num_resources": 5,
+        "num_tags": 2,
+        "organization": {
+            "id": "b7cd9dde-95f0-4155-aabf-57898e28dda0",
+            "name": "cornwall-council",
+            "title": "Cornwall Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-02-24T15:22:03.828355",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b7cd9dde-95f0-4155-aabf-57898e28dda0",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "",
+        "title": "Cornwall Council Brownfield Register",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "5071c072-e667-4bf6-b353-cb704248804b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "665ecda1-e5f8-4cee-8360-50e146ddc48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cornwall Council INSPIRE WMS Service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-12-23T09:12:05.056415",
+                "datafile-date": "2021-12-21",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "67eebc6b-1df8-45fc-b24d-a4957182f920",
+                "last_modified": null,
+                "metadata_modified": "2021-12-21T10:17:02.097978",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Inspire Land and Buildings WMS",
+                "package_id": "28f08b1f-38a6-4d4b-b3c2-783faffee3a0",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.cornwall.gov.uk/arcgis/services/inspire/inspire_landbuildings/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-12-23T09:12:05.056422",
+                "datafile-date": "2023-12-20",
+                "description": null,
+                "format": ".csv",
+                "hash": "",
+                "id": "58b8c561-8f35-479b-a7c2-644a087ed42a",
+                "last_modified": null,
+                "metadata_modified": "2023-12-20T11:36:18.397944",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Cornwall Council Brownfield Register CSV File",
+                "package_id": "28f08b1f-38a6-4d4b-b3c2-783faffee3a0",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.cornwall.gov.uk/media/lmvh0pdf/brownfield_land_2023.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-12-23T09:12:05.056425",
+                "datafile-date": "2021-12-21",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "bae3d761-5192-4955-81aa-fc2cc3924b0e",
+                "last_modified": null,
+                "metadata_modified": "2021-12-21T10:18:00.176130",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Inspire Land and Buildings WFS",
+                "package_id": "28f08b1f-38a6-4d4b-b3c2-783faffee3a0",
+                "position": 2,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.cornwall.gov.uk/arcgis/services/inspire/inspire_landbuildings/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-12-23T09:12:05.056427",
+                "datafile-date": "2021-12-21",
+                "description": null,
+                "format": "webpage",
+                "hash": "",
+                "id": "533ddd66-744b-408c-b876-f214d73376be",
+                "last_modified": null,
+                "metadata_modified": "2021-12-21T10:18:42.388643",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Council Brownfield Register Web Page",
+                "package_id": "28f08b1f-38a6-4d4b-b3c2-783faffee3a0",
+                "position": 3,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.cornwall.gov.uk/brownfieldregister",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-12-23T09:12:05.056429",
+                "datafile-date": "2021-12-21",
+                "description": null,
+                "format": "webmap",
+                "hash": "",
+                "id": "460ea1dd-61f7-4c84-84ca-91a797943a7a",
+                "last_modified": null,
+                "metadata_modified": "2021-12-21T10:19:16.669111",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cornwall Council Brownfield Register Interactive Mapping",
+                "package_id": "28f08b1f-38a6-4d4b-b3c2-783faffee3a0",
+                "position": 4,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.cornwall.gov.uk/website/ccmap/?zoomlevel=1&xcoord=162690&ycoord=64380&wsName=ccmap&layerName=Brownfield%20register",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "planning",
+                "id": "d5e3a552-07a7-4262-a38d-337769833bda",
+                "name": "planning",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "planning_permission",
+                "id": "00b34072-092b-4eb6-9910-75b289073668",
+                "name": "planning_permission",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5071c072-e667-4bf6-b353-cb704248804b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "665ecda1-e5f8-4cee-8360-50e146ddc48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cornwall Council INSPIRE WMS Service"
+            }
+        ]
+    }
+}

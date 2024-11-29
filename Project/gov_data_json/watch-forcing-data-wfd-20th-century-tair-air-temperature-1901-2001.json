@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "\nenquiries@ceh.ac.uk\n",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a83eef6d-30d3-479d-90b3-40c09c26d42c",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2011-10-10T12:54:46.739038",
+        "metadata_modified": "2024-06-29T11:49:19.529798",
+        "name": "watch-forcing-data-wfd-20th-century-tair-air-temperature-1901-2001",
+        "notes": "The WATCH Forcing data is a twentieth century meteorological forcing dataset for land surface and hydrological models. It consists of three/six-hourly states of the weather for global half-degree land grid points. It was generated as part of the EU FP 6 project \"WATCH\" (WATer and global CHange\") which ran from 2007-2011. The data was generated in 2 tranches with slightly different methodology: 1901-1957 and 1958-2001, but generally the dataset can be considered as continuous. More details regarding the generation process can be found in the associated WATCH technical report and paper in J. Hydrometeorology. To understand how the data grid is formed it is necessary to read the attached WFD-land-long-lat-z files either in NetCDF or DAT formats. The data covers land points only and excludes the Antarctica. Tair or air temperature is the 2m air temperature (instantaneous) measured in K at 6 hourly resolution and 0.5 x 0.5 degrees spatial resolution. ",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "866f4088-ae4f-43b8-ba8c-6d3141a327f2",
+            "name": "eidc",
+            "title": "Environmental Information Data Centre",
+            "type": "organization",
+            "description": "<p>The <a href=\"https://www.eidc.ac.uk/\" target=\"_blank\">Environmental Information Data Centre (EIDC)</a> is the UK's national data centre for terrestrial and freshwater sciences.</p>\r\n\r\n<p>The EIDC is one of the network of Natural Environment Research Council (NERC) data centres that provide a focal point for its scientific data and information.</p>\r\n\r\n<p>The EIDC is hosted by <a href=\"http://www.ceh.ac.uk/\" target=\"_blank\">the UK Centre for Ecology & Hydrology (UKCEH)</a>, a world-class, independent, not-for-profit research organisation focusing on land and freshwater ecosystems and their interaction with the atmosphere. UKCEH integrates UK-wide observation systems and curiosity driven research, from the smallest scale of genetic diversity to large-scale, whole-Earth systems. We work across disciplines and facilitate academic, public, private and voluntary sector partnerships. UKCEH\u2019s extensive, long-term monitoring, analysis and modelling deliver UK and global environmental data, providing early warnings of change and management solutions for our land and freshwaters.</p>",
+            "image_url": "2020-01-09-092402.7201059E2F5F93-AA00-4DD2-8727-97F0F63FD4CB.png",
+            "created": "2012-06-27T14:54:40.370760",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "866f4088-ae4f-43b8-ba8c-6d3141a327f2",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1901-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2001-12-31"
+        ],
+        "title": "WATCH Forcing Data (WFD) - 20th Century Tair (air temperature) 1901-2001",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Please reference the use of the WATCH forcing data in any work published using http://journals.ametsoc.org/doi/pdf/10.1175/2011JHM1369.1\", \"Please note that these data are based on climate reanalysis data, plus a spatial interpolation (from one-degree to half-degree), elevation correction and monthly-correction based on gridded observations. As such the WATCH Forcing data are designed for use in modelling (e.g. hydrological modelling) and for where good meteorological observations are not readily available.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "180"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "90"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "-90"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-180"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2011-08-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "2a230752-9652-412b-9feb-9f419767032d"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "fdb11ea3-7f74-4849-9df4-04d87ed78dea"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-02-27T16:21:46"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": " (pointOfContact, custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[180, -90], [-180, -90], [-180, 90], [180, 90], [180, -90]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "92985a0c-1d7c-4ef2-bf51-d5e43178de24"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "EIDC GEMINI records"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-29T11:49:19.565868",
+                "description": "Get a copy of this data",
+                "format": "",
+                "hash": "",
+                "id": "c5784f1a-d97c-4a95-9a9e-9cb9a6c888c2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-29T11:49:19.535188",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download the data",
+                "package_id": "a83eef6d-30d3-479d-90b3-40c09c26d42c",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://catalogue.ceh.ac.uk/datastore/eidchub/2a230752-9652-412b-9feb-9f419767032d/extracted",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-29T11:49:19.565871",
+                "description": "Documents available to assist with re-use of this dataset.",
+                "format": "ZIP",
+                "hash": "",
+                "id": "5deac992-846d-4bc4-a802-d698f625192e",
+                "last_modified": null,
+                "metadata_modified": "2024-06-29T11:49:19.535279",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Documents",
+                "package_id": "a83eef6d-30d3-479d-90b3-40c09c26d42c",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data-package.ceh.ac.uk/sd/2a230752-9652-412b-9feb-9f419767032d.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Atmospheric Conditions",
+                "id": "76b17097-f8b0-4afb-bb4c-7136b04b8915",
+                "name": "Atmospheric Conditions",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Meteorological geographical features",
+                "id": "9ba211ef-4e17-4973-bbb3-4b477923d2b4",
+                "name": "Meteorological geographical features",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cc05ff70-e1b3-4721-8f1b-b11cde9aa872"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "92985a0c-1d7c-4ef2-bf51-d5e43178de24"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "EIDC GEMINI records"
+            }
+        ]
+    }
+}

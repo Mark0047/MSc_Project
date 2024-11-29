@@ -1,0 +1,162 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "c653b18d-40d6-4324-982a-eb31182189fc",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-09-22T11:29:10.244238",
+        "metadata_modified": "2016-05-10T13:54:16.769579",
+        "name": "household-waste-collections",
+        "notes": "<p>Two datasets to be used in conjunction with each other to provide information on waste collection dates for all households across Leeds.</p>\r\n<h2>Dataset guidance</h2>\r\n<ul>\r\n<li>Property routes: This dataset lists the unique property reference number and full postal address for every property in Leeds where a bin is collected; colour wheelie bin at that property and the ROUNDID which can be linked to the second dataset to identify collection date.</li>\r\n<li>Route dates: This dataset shows the unique identifier, ROUNDID and collection dates for that round.</li>\r\n</ul>\r\n<h2>Please note</h2>\r\n<p>This data is weekly. As such the information may contain some errors, be incomplete or updated at any moment. We apologise for any inaccuracies that may arise.</p>",
+        "num_resources": 2,
+        "num_tags": 0,
+        "odi-certificate": "",
+        "organization": {
+            "id": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+            "name": "leeds-city-council",
+            "title": "Leeds City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:43.477436",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+        "private": false,
+        "state": "active",
+        "theme-primary": "society",
+        "theme-secondary": [
+            "Towns & Cities"
+        ],
+        "title": "Household waste collections",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "attribution",
+                "value": "<p>Click this link for information: <a href=\"http://www.leeds.gov.uk/opendata/Pages/Licences.aspx\" target=\"_blank\" rel=\"nofollow\">http://www.leeds.gov.uk/opendata/Pages/Licences.aspx</a>\r\n</p>"
+            },
+            {
+                "key": "dp_created",
+                "value": "2014-04-14T13:26:13"
+            },
+            {
+                "key": "dp_modified",
+                "value": "2016-05-06T11:18:32"
+            },
+            {
+                "key": "email_notify_author",
+                "value": "true"
+            },
+            {
+                "key": "email_notify_maintainer",
+                "value": "true"
+            },
+            {
+                "key": "guid",
+                "value": "c653b18d-40d6-4324-982a-eb31182189fc"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f781045f-1aca-4561-b885-d7323c2b98cd"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "is_developer_dataset",
+                "value": "false"
+            },
+            {
+                "key": "license_text",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-05-06"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://leedsdatamill.org/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2016-05-06T11:18:32\", \"harvest_source_title\": \"Leeds Data Mill\", \"activity_occurred\": \"2016-05-10T13:54:16.715426\", \"activity\": \"harvest\", \"harvested_guid\": \"c653b18d-40d6-4324-982a-eb31182189fc\"}]"
+            },
+            {
+                "key": "next_review_date",
+                "value": "13/05/2016"
+            },
+            {
+                "key": "technical_documentation",
+                "value": ""
+            },
+            {
+                "key": "update_frequency_text",
+                "value": "Weekly"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": "2016-05-06T11:19:44.088989",
+                "cache_url": null,
+                "created": "2014-09-23T13:20:17.002717",
+                "csvlint_json": "{\"in_progress\": false, \"data\": {\"num_errors\": 0, \"errors\": [], \"success\": true, \"warnings\": [{\"category\": \"context\", \"column\": null, \"body_html\": \"<p>The encoding of your CSV file is not being declared in the HTTP response.<br> We recommend that you configure your server to deliver CSV files with a <code>Content-Type</code> header of <code>text/csv; charset=utf-8</code><br> If you are using a different encoding, then use an appropriate value for the <code>charset</code> parameter.</p>\", \"content\": null, \"title_html\": \"Context problem: <strong>No encoding</strong>\", \"type\": \"no_encoding\", \"row\": null}], \"num_warnings\": 1, \"encoding\": \"UTF-8\", \"valid\": true, \"content_type\": \"text/csv\", \"num_info_messages\": 1, \"schema_uri\": null, \"info_messages\": [{\"category\": \"structure\", \"column\": null, \"body_html\": \"<p>As there is no machine readable way to tell if your CSV has a header row, we have assumed that your CSV has one.</p>\", \"content\": null, \"title_html\": \"Structure problem: <strong>Assumed header</strong>\", \"type\": \"assumed_header\", \"row\": null}]}}",
+                "datastore_json": "{\"in_progress\": true, \"data\": {\"message\": \"Parsing with Pandas...\"}}",
+                "description": "Property routes",
+                "format": "CSV",
+                "hash": "3fc0828106b6c644cb3508d818b8d9d6-14",
+                "id": "970c8baa-13ce-4f85-b30a-aff6dfc43adf",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2014-09-23T13:20:17.002717",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "06/05/2016",
+                "package_id": "c653b18d-40d6-4324-982a-eb31182189fc",
+                "position": 0,
+                "resource_type": "file",
+                "size": 70703578,
+                "state": "active",
+                "temporal_coverage_from": "06/05/2016",
+                "temporal_coverage_to": "06/05/2016",
+                "url": "https://aql.datapress.com/leeds/dataset/household-waste-collections/2016-05-06T11:18:49/qry_Property_Routes.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": "2016-05-06T11:22:03.618362",
+                "cache_url": null,
+                "created": "2014-04-14T14:28:20.759690",
+                "csvlint_json": "{\"in_progress\": false, \"data\": {\"num_errors\": 0, \"errors\": [], \"success\": true, \"warnings\": [{\"category\": \"context\", \"column\": null, \"body_html\": \"<p>The encoding of your CSV file is not being declared in the HTTP response.<br> We recommend that you configure your server to deliver CSV files with a <code>Content-Type</code> header of <code>text/csv; charset=utf-8</code><br> If you are using a different encoding, then use an appropriate value for the <code>charset</code> parameter.</p>\", \"content\": null, \"title_html\": \"Context problem: <strong>No encoding</strong>\", \"type\": \"no_encoding\", \"row\": null}], \"num_warnings\": 1, \"encoding\": \"UTF-8\", \"valid\": true, \"content_type\": \"text/csv\", \"num_info_messages\": 1, \"schema_uri\": null, \"info_messages\": [{\"category\": \"structure\", \"column\": null, \"body_html\": \"<p>As there is no machine readable way to tell if your CSV has a header row, we have assumed that your CSV has one.</p>\", \"content\": null, \"title_html\": \"Structure problem: <strong>Assumed header</strong>\", \"type\": \"assumed_header\", \"row\": null}]}}",
+                "datastore_json": "{\"in_progress\": true, \"data\": {\"message\": \"Pushing to API...\"}}",
+                "description": "Route dates",
+                "format": "CSV",
+                "hash": "551e763191a99e519a14032c90a10f0d",
+                "id": "14da94bc-48dd-42b2-98fd-c127eaae71e9",
+                "last_modified": null,
+                "lazyboy_json": "{}",
+                "metadata_modified": "2014-04-14T14:28:20.759690",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "06/05/2016",
+                "package_id": "c653b18d-40d6-4324-982a-eb31182189fc",
+                "position": 1,
+                "resource_type": "file",
+                "size": 84783,
+                "state": "active",
+                "temporal_coverage_from": "06/05/2016",
+                "temporal_coverage_to": "06/05/2016",
+                "url": "https://aql.datapress.com/leeds/dataset/household-waste-collections/2016-05-06T11:21:59/qry_Route_Dates.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "maps@stedsbc.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f9e0406f-4e38-4cca-99df-1022fa89acd5",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-13T18:20:09.719592",
+        "metadata_modified": "2017-06-27T09:05:04.943237",
+        "name": "st-edmundsbury-borough-council-article-4-directions",
+        "notes": "Dataset displaying Article 4 Directions in St Edmundsbury.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "6fbaa420-832b-483d-a6b5-6b8c77baedc3",
+            "name": "st-edmundsbury-borough-council",
+            "title": "St Edmundsbury Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:55:30.408992",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "6fbaa420-832b-483d-a6b5-6b8c77baedc3",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "St Edmundsbury Borough Council Article 4 Directions",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The dataset is published under the Ordnance Survey Public Sector End User Licence - INSPIRE. The Licensor grants you a non-exclusive, non-transferable licence to use the Supplied Data for personal, non-commercial use only.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.969423"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.404181"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.049839"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "0.377810"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2015-03-12\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "74de0085-4609-4d2d-974d-c21a14e7ef90"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9834b9af-acd4-42e1-a41e-b46475a24398"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/6fbaa420-832b-483d-a6b5-6b8c77baedc3/466-ws-sebc-article4.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "The dataset is published under the Ordnance Survey Public Sector End User Licence - INSPIRE and will be deemed to have been accepted upon accessing or using the Supplied Data. (http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html)"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-06-04"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "St Edmundsbury Borough Council (originator)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[0.969423, 52.049839],[0.969423, 52.404181], [0.377810, 52.404181], [0.377810, 52.049839], [0.969423, 52.049839]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8918eb2c-5eaf-4aef-8b1a-345b5ca0db06"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-06-04T16:00:06.388358",
+                "description": "information",
+                "format": "XML",
+                "hash": "",
+                "id": "71ff6df8-e680-4fe4-b093-41252d6a4838",
+                "last_modified": null,
+                "metadata_modified": "2015-06-04T16:00:06.388358",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE WMS Service",
+                "package_id": "f9e0406f-4e38-4cca-99df-1022fa89acd5",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://maps.westsuffolk.gov.uk/GetOWS.ashx?VERSION=1.1.1&MAPSOURCE=WestSuffolk/INSPIRE&REQUEST=GetCapabilities&SERVICE=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-06-04T16:00:06.388376",
+                "description": "download",
+                "format": "WFS",
+                "hash": "",
+                "id": "65e40b9c-02ae-4f1e-94f3-8e696b4af8b7",
+                "last_modified": null,
+                "metadata_modified": "2015-06-04T16:00:06.388376",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE WFS Service",
+                "package_id": "f9e0406f-4e38-4cca-99df-1022fa89acd5",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://maps.westsuffolk.gov.uk/GetOWS.ashx?VERSION=1.1.0&MAPSOURCE=WestSuffolk/INSPIRE&REQUEST=GetCapabilities&SERVICE=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9834b9af-acd4-42e1-a41e-b46475a24398"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8918eb2c-5eaf-4aef-8b1a-345b5ca0db06"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

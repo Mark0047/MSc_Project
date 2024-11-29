@@ -1,0 +1,121 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "e4ad0e59-4fc8-4823-9de5-f0d79839a5e6",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-03-23T09:17:34.292702",
+        "metadata_modified": "2017-06-29T11:53:08.098903",
+        "name": "planning-permissions-submitted-to-the-london-development-database-by-month",
+        "notes": "The number of permissions added to the LDD by month as an indicator of activity in the planning system. This is the number of planning permissions added to the London Development Database (LDD) by the London Boroughs on a monthly basis. The LDD holds permissions involving a loss or gain of residential units along with large non-residential schemes that propose either 1,000m2 of floorspace in any one use class or 7 bedrooms or more for hotels and care homes. This takes no account of the size of the permissions. Not all of these permissions represent a new scheme as they may be a revision to, or renewal of, a previously approved project. Borough data is not always submitted on time so the totals shown are subject to change as the data are checked and missing permissions are added. The CSV file is automatically updated on the 1st day of every month. Open an interactive map of all LDD permissions data.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Planning Permissions Submitted to the London Development Database by Month",
+        "type": "dataset",
+        "url": "http://data.london.gov.uk/dataset/planning-permissions-submitted-london-development-database-month",
+        "version": null,
+        "extras": [
+            {
+                "key": "data_issued",
+                "value": "2014-07-15T14:31:00.000Z"
+            },
+            {
+                "key": "data_modified",
+                "value": "2015-06-03T01:23:02.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "646d8978-7325-4b53-bf08-2e5b2e0f61fe"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "1fab925a-131f-4267-a1dc-00b90baa408c"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.london.gov.uk/data.json?slug=gla\", \"harvest_source_type\": \"data_json\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"London Datastore - GLA\", \"activity_occurred\": \"2017-06-29T11:53:08.040468\", \"activity\": \"harvest\", \"harvested_guid\": \"646d8978-7325-4b53-bf08-2e5b2e0f61fe\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:17:34.386725",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "4704efac-06eb-44d6-aecb-9aac6c60854f",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:17:34.386725",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LDD_DASHBOARD_PERMISSIONS.csv",
+                "package_id": "e4ad0e59-4fc8-4823-9de5-f0d79839a5e6",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.london.gov.uk/webmaps/ldd/LDD_DASHBOARD_PERMISSIONS.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:17:34.386754",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "5fdb6bcd-0a56-4668-b1d1-1d60a74a9d8c",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:17:34.386754",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landing page",
+                "package_id": "e4ad0e59-4fc8-4823-9de5-f0d79839a5e6",
+                "position": 1,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://data.london.gov.uk/dataset/planning-permissions-submitted-london-development-database-month",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

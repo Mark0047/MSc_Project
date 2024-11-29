@@ -1,0 +1,223 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "groundstability@coal.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "cdf7fff3-c66c-473c-a66e-0a0458565311",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-08-31T16:50:54.077503",
+        "metadata_modified": "2024-06-19T11:21:07.517223",
+        "name": "fissures-and-breaklines",
+        "notes": "This dataset maps fissure and breakline features stored in the National Coal Mining Database. Fissures are a crack or opening in rock or the earth, created by mining in certain circumstances and breaklines are a vertical step in the rock or earth, created when underground mining has caused differential settlement at the surface. Breaklines are usually associated with geological features such as fault lines.\n\nThe position of these geological disturbances are captured into the database following claims made under the Coal Mining Subsidence Act 1991 against the Coal Authority (prior to 1994) or the mine operators (post 1994). The polygon represents a 5m buffer around the line of the fissure or breakline indicating the area that may have been affected.",
+        "num_resources": 1,
+        "num_tags": 6,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2014-08-14"
+        ],
+        "temporal_coverage-to": [
+            "2014-08-14"
+        ],
+        "title": "Fissures and Breaklines",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.475924"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.010291"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.766186"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-9.141715"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2014-09-26T00:00:05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "eeff620dfd2f708c92a2bad0382a4cc4a78e53e9"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "39dde650-1097-4573-8b48-8b595aa877bf"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-08-26T12:40:47"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "completed"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Coal Authority (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.475924, 49.766186], [-9.141715, 49.766186], [-9.141715, 60.010291], [2.475924, 60.010291], [2.475924, 49.766186]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:21:07.561674",
+                "description": "Fissures and Breaklines",
+                "format": "",
+                "hash": "",
+                "id": "eede8339-ac14-4853-87bc-489f380096b0",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:21:07.522623",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fissures.and.Breaklines",
+                "package_id": "cdf7fff3-c66c-473c-a66e-0a0458565311",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://map.bgs.ac.uk/arcgis/services/CoalAuthority/coalauthority_specific_risk/MapServer/WMSServer?",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "breaklines",
+                "id": "b7bf29bb-2006-46da-bd7b-2176285a1bc9",
+                "name": "breaklines",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "coal",
+                "id": "18c71358-751b-468a-b17c-1b86f5faad97",
+                "name": "coal",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "fissures",
+                "id": "d35fcca4-518d-4203-b5aa-e454328adc00",
+                "name": "fissures",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "ground stability",
+                "id": "1335556b-4a77-4bfe-b688-5f44dc23df0e",
+                "name": "ground stability",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mining",
+                "id": "b2836be4-8a8b-4509-8152-c49aab2c65e8",
+                "name": "mining",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mining report",
+                "id": "dda0e76a-765d-4248-83fa-78c7b4bb27bc",
+                "name": "mining report",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0dd7cd11-adc6-4bdc-8c54-63b66b1af583"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

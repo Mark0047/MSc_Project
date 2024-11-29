@@ -1,0 +1,212 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "dkm@marinemanagement.org.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "df588bfe-3b56-49a5-9226-9a23ca694bf2",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-04-24T11:36:30.683127",
+        "metadata_modified": "2016-04-20T16:24:01.111129",
+        "name": "important-navigation-routes-defining-boundary-of-policy-ps2-in-the-east-inshore-and-east-offsho1",
+        "notes": "The data to define the extent of policy PS2 in the East Inshore and East Offshore marine plans was based on identification of important navigation routes. Important navigation routes are areas defined as being where there are more than 1,000 vessel transits per year. Within these defined areas, important navigation routes are identified by taking the 90th percentile from the median line of all shipping traffic. Important navigation routes were then cropped to remove (1) routes passing through Round 3 offshore wind zones and (2) parts of routes within port and harbour jurisdictions.  This dataset was produced by Anatec Ltd using Anatec's ShipRoutes database to identify areas of high shipping density and vessel tracks in the East Inshore and East Offshore plan areas. This database uses AIS data (Automatic Identification System) and modelling to define routes",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "6b694e61-66c9-4cca-8eeb-75b2b0c66c4d",
+            "name": "marine-management-organisation",
+            "title": "Marine Management Organisation",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:54:49.334967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "6b694e61-66c9-4cca-8eeb-75b2b0c66c4d",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "environment",
+        "theme-secondary": [
+            "Business & Economy"
+        ],
+        "title": "Important Navigation Routes defining boundary of policy PS2 in the East Inshore and East Offshore marine plans Web Mapping Service (WMS)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on access, however copyright should be used at all times.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "3.0580"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "54.1118"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.2870"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.0457"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"href\": [\"MMO1500044\"], \"uuid\": [\"MMO1500044\"], \"title\": []}, {\"href\": [\"http://data.gov.uk/data/search\"], \"uuid\": [\"http://data.gov.uk/data/search\"], \"title\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2013-03-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "42a12324f12111230fb2a897a17dbc67"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "cacc8d21-1aa1-4332-ab54-398454ea0c9f"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://s3-eu-west-1.amazonaws.com/inspire-mmo/important_navigation_routes_defining_boundary_of_policy_ps2_in_the_east_inshore_and_east_offshore_marine_plans_web_mapping_service_wms_42a12324f12111230fb2a897a17dbc67.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Open Government Licence. Acknowledgement of the Marine Management Organisation is required."
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-14"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Marine Management Organisation (originator, custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[3.0580, 51.2870],[3.0580, 54.1118], [-0.0457, 54.1118], [-0.0457, 51.2870], [3.0580, 51.2870]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "view"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::4258"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ac6fae6e-304a-406b-aab2-4bc3704f8482"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Management Organisation INSPIRE compliant data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-04-20T17:24:01.159215",
+                "description": "A link to the web service or dataset",
+                "format": "WMS",
+                "hash": "",
+                "id": "2ec83a91-7b1a-423d-96e2-348bbdf94fbb",
+                "last_modified": null,
+                "metadata_modified": "2016-04-20T17:24:01.159215",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "df588bfe-3b56-49a5-9226-9a23ca694bf2",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://environment.data.gov.uk/ds/wms?SERVICE=WMS&INTERFACE=ENVIRONMENT--c40d1102ade3878963120a409d8fc519&request=GetCapabilities",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-04-20T17:23:57.218288",
+                "wms_base_urls": "http://www.geostore.com/OGC/OGCInterface;jsessionid=qgiS-8R77BlyxMfDr3kzxg2B"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-20T17:24:01.159241",
+                "description": "A link to the general host site",
+                "format": "",
+                "hash": "",
+                "id": "7a882e85-6701-4c08-ac71-b540d90db8ea",
+                "last_modified": null,
+                "metadata_modified": "2016-04-20T17:24:01.159241",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "df588bfe-3b56-49a5-9226-9a23ca694bf2",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://environment.data.gov.uk/ds/catalogue/index.jsp#/catalogue",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cacc8d21-1aa1-4332-ab54-398454ea0c9f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ac6fae6e-304a-406b-aab2-4bc3704f8482"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Management Organisation INSPIRE compliant data"
+            }
+        ]
+    }
+}

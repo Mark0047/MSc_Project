@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "815dfd76-a72b-406c-9c75-6bcd5c603679",
+        "metadata_created": "2019-01-23T11:05:40.497829",
+        "metadata_modified": "2024-02-01T16:35:15.446320",
+        "name": "barrow-borough-council-ckan",
+        "notes": "",
+        "organization": {
+            "id": "d65220a4-e84c-4aa1-beab-0ed4f8c9adfe",
+            "name": "barrow-borough-council",
+            "title": "Barrow Borough Council",
+            "type": "organization",
+            "description": "(Barrow-in-Furness Borough Council)",
+            "image_url": "",
+            "created": "2012-06-27T14:54:32.292178",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d65220a4-e84c-4aa1-beab-0ed4f8c9adfe",
+        "private": false,
+        "source_type": "ckan",
+        "state": "active",
+        "title": "Barrow Borough Council CKAN",
+        "type": "harvest",
+        "url": "https://data.barrowbc.gov.uk",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 443,
+            "last_job": {
+                "id": "4d9a6223-5a71-44be-847d-f8fe30343213",
+                "created": "2024-11-02 17:00:03.989841",
+                "gather_started": "2024-11-02 17:00:04.081866",
+                "gather_finished": "2024-11-02 17:04:27.664879",
+                "finished": "2024-11-02 17:04:27.664879",
+                "source_id": "815dfd76-a72b-406c-9c75-6bcd5c603679",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to search remote CKAN for datasets:Error sending request to search remote CKAN instance https://data.barrowbc.gov.uk using URL 'https://data.barrowbc.gov.uk/api/3/action/package_search?rows=100&start=0&sort=id+asc'. Error: Request error: HTTPSConnectionPool(host='data.barrowbc.gov.uk', port=443): Max retries exceeded with url: /api/3/action/package_search?rows=100&start=0&sort=id+asc (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb7e48d0090>, 'Connection to data.barrowbc.gov.uk timed out. (connect timeout=None)')) url:https://data.barrowbc.gov.ukterms:[]",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 100
+        }
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "25a162d9-a128-4572-b683-2ccb15bd9361",
+        "date_released": "2010-07-07",
+        "date_updated": "2010-09-30",
+        "geographic_coverage": "000000: ",
+        "geographic_granularity": "point",
+        "id": "711f6cde-fd19-46e9-8be5-0e47813c6208",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2010-07-30T11:43:13.334294",
+        "metadata_modified": "2014-03-01T05:29:57.347853",
+        "name": "communities-and-local-government-energy-and-water-consumption",
+        "notes": "This page provides access to real time energy (gas and electricity) and water consumption for Communities and Local Government headquarters building, Eland House, London. \r\n\r\nThe Department's HQ energy and water use data can be viewed on an externally-hosted site (link below). Here you can view actual gas, electricity and water consumption, the associated costs and carbon emissions over different periods of time.\r\n\r\nThe daily electricity and gas consumption has also been made available below in CSV format.",
+        "num_resources": 3,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "Communities and Local Government energy and water consumption data page",
+            "created_at": "2014-10-29T21:02:43Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/15140/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/15140/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "precision": "",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "temporal_granularity": "day",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [
+            "Environment"
+        ],
+        "title": "Communities and Local Government energy and water consumption data page",
+        "type": "dataset",
+        "update_frequency": "Daily",
+        "url": "http://www.communities.gov.uk/corporate/about/howwework/sustainabledevelopment/estateimpact/energywater/",
+        "version": null,
+        "extras": [
+            {
+                "key": "categories",
+                "value": ""
+            },
+            {
+                "key": "external_reference",
+                "value": ""
+            },
+            {
+                "key": "national_statistic",
+                "value": "no"
+            },
+            {
+                "key": "taxonomy_url",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "Daily CLG Electricity Data - kWh & CO2",
+                "format": "CSV",
+                "id": "2d00c409-2cc9-4640-bad9-54060cc96a95",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "711f6cde-fd19-46e9-8be5-0e47813c6208",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://webarchive.nationalarchives.gov.uk/+/https://itsopgroups.communities.gov.uk/connect.ti/CLG_Data_Page/view?objectId=4654405",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "Energy and Water Monitoring Tool",
+                "format": "HTML",
+                "id": "4384ecb6-8af3-41b2-863d-95a5745ad173",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "711f6cde-fd19-46e9-8be5-0e47813c6208",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://smart.tac.com/ERM/login.aspx?EncryptedLogin=SKrIIEcAjlXBf5Nsd0CrnpdewRudIbRdg2TJkeJpOrA=",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "Daily CLG Gas Data - kWh & CO2",
+                "format": "CSV",
+                "id": "bfb1b8d3-512f-49ab-a7c9-1de02dfaf033",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "711f6cde-fd19-46e9-8be5-0e47813c6208",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://webarchive.nationalarchives.gov.uk/+/https://itsopgroups.communities.gov.uk/connect.ti/CLG_Data_Page/view?objectId=4654437",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

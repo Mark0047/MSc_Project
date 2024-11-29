@@ -1,0 +1,101 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "8a82ef54-e704-498c-b662-141c854a4b5d",
+        "metadata_created": "2019-01-23T11:07:54.558305",
+        "metadata_modified": "2019-01-23T11:07:54.558312",
+        "name": "camden-open-data",
+        "notes": "",
+        "organization": {
+            "id": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+            "name": "london-borough-of-camden",
+            "title": "London Borough of Camden",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:32.040042",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "Camden Open Data",
+        "type": "harvest",
+        "url": "https://opendata.camden.gov.uk/data.json",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2908,
+            "last_job": {
+                "id": "9cd8b0ec-6830-4f43-a8bc-fcda0b2c2d67",
+                "created": "2024-11-17 13:00:04.776653",
+                "gather_started": "2024-11-17 13:00:06.467233",
+                "gather_finished": "2024-11-17 13:00:15.088601",
+                "finished": "2024-11-17 13:02:48.635781",
+                "source_id": "8a82ef54-e704-498c-b662-141c854a4b5d",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 621,
+                    "not modified": 0,
+                    "errored": 11,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/update.py\", line 318, in package_update\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"jobseekers allowance (jsa)\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 2
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/update.py\", line 318, in package_update\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"camden by age & sex\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/update.py\", line 318, in package_update\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"demographics; income inequality\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/update.py\", line 318, in package_update\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"health inequalities; health;\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/update.py\", line 318, in package_update\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"king\\'s college\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/update.py\", line 318, in package_update\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"king\\'s cross\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/update.py\", line 318, in package_update\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"legionnaires\\' disease\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/update.py\", line 318, in package_update\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"output areas (oas)\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/create.py\", line 200, in package_create\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"demography & migration\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/update.py\", line 318, in package_update\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"regent\\'s park\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 631
+        }
+    }
+}

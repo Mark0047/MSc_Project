@@ -1,0 +1,134 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "ODC@communities.gsi.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "b75213ae-6e44-46ab-b2bb-123330899e9c",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-11-11T10:40:19.043386",
+        "metadata_modified": "2018-02-26T15:11:46.508261",
+        "name": "core-social-housing-lettings-la-owned-economic-status",
+        "notes": "This dataset comprises new general needs lettings, let at social rent levels owned by Local Authorities, classified by the economic status of the lead tenant, including where economic status has been imputed.\n\nThese data are for new social housing lettings at the local authority area level, and are derived from record level data recorded through the COntinous REcording of social housing lettings. They cover new General Needs lettings, at social rent levels, owned by Local Authorities (LAs). All figures are unweighted and are therefore not fully consistent with the weighted social rent data at national level in the 'Social Housing Lettings in England' statistical release.\r\n\r\nSome Local Authority areas are missing from the Local Authority owned datasets due to there being either no LA owned lettings in that area, or there being too few lettings in an area for the data to be released, as it is deemed disclosive.\r\n\r\nData are given for the economic status of the lead tenant of each general needs social rent LA letting, as reported by the tenant. In the cases of joint tenancies, the lead tenant is defined as the most economically active of the tenants. If one or more tenants have the same economic status, the oldest is deemed the lead tenant. Where the tenant has refused their economic status, it has been imputed.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "CORE - Social housing lettings (LA owned) - Economic status",
+        "type": "dataset",
+        "url": "http://opendatacommunities.org/data/housing-market/core/tenancies/econstatus",
+        "version": null,
+        "extras": [
+            {
+                "key": "contact_email",
+                "value": "ODC@communities.gsi.gov.uk"
+            },
+            {
+                "key": "data_issued",
+                "value": "2015-11-05T15:46:58+00:00"
+            },
+            {
+                "key": "data_modified",
+                "value": "2018-02-08T13:41:23+00:00"
+            },
+            {
+                "key": "dcat_publisher_uri",
+                "value": "http://reference.data.gov.uk/id/department/dclg"
+            },
+            {
+                "key": "dcat_subject",
+                "value": "http://opendatacommunities.org/def/concept/folders/themes/housing-market http://opendatacommunities.org/def/concept/folders/organisations/department-for-communities-and-local-government"
+            },
+            {
+                "key": "guid",
+                "value": "http://opendatacommunities.org/data/housing-market/core/tenancies/econstatus"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "02ec91fb-f8d0-45f4-aa1d-a15fc2dd5f19"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://opendatacommunities.org/data.rdf\", \"harvest_source_type\": \"dcat_rdf\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Open Data Communities\", \"activity_occurred\": \"2018-02-26T15:11:46.441740\", \"activity\": \"harvest\", \"harvested_guid\": \"http://opendatacommunities.org/data/housing-market/core/tenancies/econstatus\"}]"
+            },
+            {
+                "key": "metadata_uri",
+                "value": "http://opendatacommunities.org/data/housing-market/core/tenancies/econstatus"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-02-26T15:11:46.541017",
+                "description": "",
+                "format": "SPARQL",
+                "hash": "",
+                "id": "b0ffdae3-878e-462b-8f58-1a2d025957ba",
+                "last_modified": null,
+                "metadata_modified": "2018-02-26T15:11:46.541017",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SPARQL Endpoint",
+                "package_id": "b75213ae-6e44-46ab-b2bb-123330899e9c",
+                "position": 0,
+                "resource_type": "api",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/sparql",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-11-11T10:40:19.072389",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "936ffebd-76be-4512-812d-d97cb36ed561",
+                "last_modified": null,
+                "metadata_modified": "2015-11-11T10:40:19.072389",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset home page",
+                "package_id": "b75213ae-6e44-46ab-b2bb-123330899e9c",
+                "position": 1,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/data/housing-market/core/tenancies/econstatus",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,219 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "ed265b35-171f-47da-8b5d-0a852bb298cf",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-05-29T15:10:55.104859",
+        "metadata_modified": "2016-09-22T14:41:00.550513",
+        "name": "bus-stops-nsc",
+        "notes": "<p>All bus stops including information on direction of travel.</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+            "name": "north-somerset-council",
+            "title": "North Somerset Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:01.609923",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+        "private": false,
+        "state": "active",
+        "theme-primary": "transport",
+        "title": "Bus stops",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.n-somerset.gov.uk/highways-parking/bus-stops"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e8b85005-efd8-4003-9f10-117cac54de3d"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.n-somerset.gov.uk/highways-parking/bus-stops"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "highways-parking/bus-stops"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": "http://id.esd.org.uk/service/637"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-09-22"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.n-somerset.gov.uk/api/esdinventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2016-09-22T00:00:00\", \"harvest_source_title\": \"North Somerset Council\", \"activity_occurred\": \"2016-09-22T14:41:00.485829\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.n-somerset.gov.uk/highways-parking/bus-stops\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:10:55.147588",
+                "description": "Bus stops - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "c6a340f2-ddd3-4d3f-aed8-1db2fe1d69bb",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:10:55.147588",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ed265b35-171f-47da-8b5d-0a852bb298cf",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/highways-parking/bus-stops/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/Download/highways-parking/bus-stops",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-09-22T15:41:00.686483",
+                "description": "Bus Stops - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "5052ad7b-df50-490e-86c9-8b90570ab42b",
+                "last_modified": null,
+                "metadata_modified": "2016-09-22T15:41:00.686483",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ed265b35-171f-47da-8b5d-0a852bb298cf",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.n-somerset.gov.uk/api/highways-parking/bus-stops/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/highways-parking/bus-stops/bus-stops/CSV?version=22/09/2016",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-09-22T15:41:00.686504",
+                "description": "Bus Stops - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "69b15772-eed8-4a8d-b1df-6740a2f1714d",
+                "last_modified": null,
+                "metadata_modified": "2016-09-22T15:41:00.686504",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ed265b35-171f-47da-8b5d-0a852bb298cf",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/highways-parking/bus-stops/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/highways-parking/bus-stops/bus-stops/XML?version=22/09/2016",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:10:55.147611",
+                "description": "Bus Stops - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "451c1f49-c01a-47a2-82e5-0b2a32ac6e14",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:10:55.147611",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ed265b35-171f-47da-8b5d-0a852bb298cf",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/highways-parking/bus-stops/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/highways-parking/bus-stops/bus-stops?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:10:55.147615",
+                "description": "Bus Stops - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "627e62c3-6c4e-427a-b520-9bca03469a7f",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:10:55.147615",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ed265b35-171f-47da-8b5d-0a852bb298cf",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/highways-parking/bus-stops/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/highways-parking/bus-stops/bus-stops?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e8b85005-efd8-4003-9f10-117cac54de3d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ]
+    }
+}

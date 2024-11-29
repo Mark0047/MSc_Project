@@ -1,0 +1,239 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "corporate.gis@fife.gov.uk",
+        "creator_user_id": null,
+        "id": "ebac20af-b5be-4fd0-86b2-11b31c547f84",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-01-16T16:12:01.977123",
+        "metadata_modified": "2021-02-03T06:38:51.664611",
+        "name": "wind-turbines-fife",
+        "notes": "A spatial dataset of all wind turbine applications over 15m (non-domestic) in height excluding scoping/screening/pre-app stages. Information recorded includes Planning application reference, Number of turbines, Height of turbines, Eastings and Northings.",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2006"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Wind Turbines - Fife",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.420000048"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.512472252"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "55.965666662000004"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.831111248"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2014-01-16\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "weekly"
+            },
+            {
+                "key": "guid",
+                "value": "85cc16ce-92ec-4775-8260-a3fd1e96b589"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "8f239d2d-324d-4899-8003-7cc31456d8ae"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Fife Council has created the Supplied Data using Ordnance Survey data, and publishes it to fulfil its obligations under the INSPIRE Regulations 2009.The use of the Supplied Data is governed by the provisions the Ordnance Survey Public Sector End User Licence - INSPIRE.   This End User Licence will take effect, and will be deemed to have been accepted by you upon accessing or using the Supplied Data. Full details of End User Licence: http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-02-02"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Fife Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.420000048, 55.965666662000004], [-3.831111248, 55.965666662000004], [-3.831111248, 56.512472252], [-2.420000048, 56.512472252], [-2.420000048, 55.965666662000004]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-03T06:38:51.981040",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "2f8a8568-f287-4c0b-8f92-a0bca76aa76f",
+                "last_modified": null,
+                "metadata_modified": "2021-02-03T06:38:51.981040",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fife WMS",
+                "package_id": "ebac20af-b5be-4fd0-86b2-11b31c547f84",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/wms?version=1.1.0&request=Getcapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-03T06:38:51.981048",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "62c07ed2-dfad-452b-83d1-71a1be1e2275",
+                "last_modified": null,
+                "metadata_modified": "2021-02-03T06:38:51.981048",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download ESRI Shapefile",
+                "package_id": "ebac20af-b5be-4fd0-86b2-11b31c547f84",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:WIND_TURBINES&outputformat=SHAPE-ZIP",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-03T06:38:51.981051",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "fddbdc6a-d69b-4cc0-8e13-e6d9a23e4da0",
+                "last_modified": null,
+                "metadata_modified": "2021-02-03T06:38:51.981051",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fife Wind Turbines (WFS)",
+                "package_id": "ebac20af-b5be-4fd0-86b2-11b31c547f84",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:WIND_TURBINES&maxFeatures=1000000&outputFormat=GML2",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "turbines",
+                "id": "9e11c97a-7f7f-4b80-8a56-ec5ef6b917ae",
+                "name": "turbines",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wind energy",
+                "id": "625710ce-95bc-4644-877a-024a409d8744",
+                "name": "wind energy",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8f239d2d-324d-4899-8003-7cc31456d8ae"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

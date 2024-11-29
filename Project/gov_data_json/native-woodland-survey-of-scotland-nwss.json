@@ -1,0 +1,300 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "geoinformationservices@forestry.gov.scot",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "da3f8548-a130-4a0d-8ddd-45019adcf1f3",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2011-06-20T14:44:50.917677",
+        "metadata_modified": "2024-06-19T11:18:01.556541",
+        "name": "native-woodland-survey-of-scotland-nwss",
+        "notes": "The aim of the Native Woodland Survey of Scotland (NWSS) was to undertake a baseline survey of all native woodlands, nearly native woodlands and PAWS sites in Scotland in order to create a woodland map linked to a dataset showing type, extent and condition of those woods.\n\nThe objectives were to:\n1.  Identify the location, type, extent and condition of all native and nearly native woodlands and Plantations on Ancient Woodland Sites (PAWS - as identified from the Ancient Woodland Inventory) in Scotland.\n2.  Produce a baseline survey map of all native woodland, nearly native woodland and PAWS in Scotland.\n3.  Collect baseline information to enable future monitoring of the extent and condition of the total Scottish native woodland resource.\n4.  Provide information to support policy development and the delivery of social, environmental and development forestry.\n\nThe following datasets are available on the Scottish Forestry Open Data website:\n\t- Native Woodland Survey of Scotland (base map and polygon level attributes)\n\t- NWSS Canopy Structures\n\t- NWSS Habitat Components\n\t- NWSS Herbivore Impact\n\t- NWSS Invasives\n\t- NWSS Other Traits\n\t- NWSS Species Structures\n\nThe following describes the layers available from Scottish Forestry and also gives an indication of the nature of the spatial data and the related component non-spatial data.  (N.B.  Every table contains a SCPTDATA_I field.  This is a unique field which is used to link all other component tables).  If you wish to carry out complex analysis, particularly involving elements of the components tables, e.g. species selection, you should do so using GIS software.\n\n\nNWSS Map:\nThis is a straightforward view of the data which describes the type of NWSS polygon based on the following categories:\nNative woodland:  >50% native species in the canopy\nNearly-native woodland:  >=40% and <=50% native species in the canopy\nOpen land habitat:  <20% canopy cover, usually 100% surrounded by woodland and adjoining a native woodland\nPAWS:  A woodland area wholly or partially identified in the Ancient Semi-natural Woodland Inventory as ancient semi-natural but currently not semi-natural.\n\n\nNWSS Nativeness:\nDisplays the percentage share of native species in the total canopy.  This ranges from 0% to 100% in 5% classes.\n\n\nNWSS Habitat:\nThis view of the data shows the priority woodland type and National Vegetation Classification (NVC) woodland community.  Open land habitat is defined by UK Biodiversity Action Plan (BAP) type.\n\nA dominant habitat is recorded for each polygon, however some polygons have habitats of equal dominance.  In this case only one of the habitats is recorded in the top level spatial data.  To identify all of the habitats in a particular polygon please refer to the FC_S_NWSS_HABITAT_COMPONENTS table or use the map browser identify tool on the NWSS Habitats layer.\n\nPlantations on Ancient Woodland Sites (PAWS) may not display in the Habitat layer if a surveyor has not recorded a native priority habitat type for the site.  This will happen when a site is non-native.\n\n\nNWSS Canopy Cover:\nDisplays as a percentage, an assessment of the area covered by trees/shrubs.  Values range from 0% to 100% in 10% classes.  A minimum of 20% canopy cover is required to define woodland, so the 10% and 20% bands are skewed to allow for this.\n\n\nNWSS Canopy Structures:\nThis displays the number of different structures recorded in a polygon (ranging from 0 to 6).  The types of recorded structures are veteran, mature, pole immature, shrub, established regeneration or visible regeneration.\n\nA dominant structure is recorded for each polygon, however some polygons have structures of equal dominance.  In this case only one of the structures is recorded in the top level spatial data.  To identify all of the structures in a particular polygon please refer to the FC_S_NWSS_CANOPY_STRUCTURES table or use the map browser identify tool on the NWSS Canopy Structures layer.\n\nInformation on the species identified in each polygon is also in the NWSS Canopy Structures layer and table.\n\n* indicates a species which is classed as native for the purpose of the survey. \n+ indicates a species is a shrub not a tree.\n\n\nNWSS Semi-naturalness:\nThis view of the data shows the percentage of the polygon that is semi-natural.  Values range from 0% to 100% in 10% bands.\n \n\nNWSS Maturity:\n This indicates the approximate stage of woodland development as either: mature, young, regenerating, mixed or shrub. The value is based on the dominance of the structures recorded; a mixed maturity means that none of the others values are dominant.\n\n\nNWSS Other Traits:\nThis layer records whether or not there are any other attributes which have been recorded in the polygon.  The details of any other traits that have been found can be accessed by viewing the related information attached to a polygon.\n\n\nNWSS Herbivore Impact:\nThis view of the data shows the overall impact that herbivores have had on a polygon.\n\n\nNWSS Invasives:\nThis is a separate spatial dataset on the Forestry Commission Spatial Data Repository.  It contains a subset of the overall NWSS Map dataset which includes only those polygons were there is some presence of an invasive species.  The layer is symbolised on the percentage of invasive species with the polygons, show in 25% bands.  The data itself contains more detailed information which is broken down into 5% bands.\n\n\nSummary of Attributes\n\nSCPTDATA_I\t\tPolygon ID (Unique identifier)\nPAWS_SURVY\t\tSurveyed as PAWS\nTYPE\t\t\tType\nCANOPY_PCT\t\tCanopy cover percentage\nNATIVE_PCT\t\tNative species percentage\nDOM_HABITA\t\tDominant habitat type\nDOM_HB_PCT\tDominant habitat type percentage\nSEMINT_PCT\t\tSemi-natural percentage\nSTRUCT_NUM\tNumber of structures\nMATURITY\t\tMaturity\nDOM_STRUCT\tDominant structure\nHERBIVORE\t\tHerbivore impact\nER_NAT_PCT\t\tPercentage of establish regeneration of native species\nINVASV_PCT\t\tInvasive species percentage\nINVASV_NUM          Number of invasive species\nOTHR_TRAIT\t\tOther traits recorded\nHECTARES\t\tArea in hectares",
+        "num_resources": 3,
+        "num_tags": 11,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Native Woodland Survey of Scotland (NWSS)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on public access\", \"Please ensure that the following acknowledgement is displayed on any hard copy: Reproduced by Permission of Ordnance Survey on behalf of HMSO. \\u00a9 Crown copyright and database right [year]. Ordnance Survey Licence number 100043970.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2009-11-01\"}, {\"type\": \"revision\", \"value\": \"2014-02-03\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "BB223316-8746-4338-9056-5D9A2F0D2824"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "77a85c40-dd03-47aa-a8ca-2f67f4ff4b66"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-06-22T10:47:49"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Forestry"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Forestry (publisher, owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "OSGB 1936 / British National Grid (EPSG:27700)"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:01.616949",
+                "description": "Data download site",
+                "format": "",
+                "hash": "",
+                "id": "40594888-c382-4eb5-a71a-29c4b88968a0",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:01.562066",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scottish Forestry Open Data",
+                "package_id": "da3f8548-a130-4a0d-8ddd-45019adcf1f3",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://open-data-scottishforestry.hub.arcgis.com/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:01.616952",
+                "description": "NWSS Guidance Document",
+                "format": "",
+                "hash": "",
+                "id": "a0e23890-9336-4344-95bd-9cf7a46e6270",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:01.562162",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NWSS Guidance Document",
+                "package_id": "da3f8548-a130-4a0d-8ddd-45019adcf1f3",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://forestry.gov.scot/forests-environment/biodiversity/native-woodlands/native-woodland-survey-of-scotland-nwss",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:01.616953",
+                "description": "Native_Woodland_Survey_of_Scotland",
+                "format": "",
+                "hash": "",
+                "id": "0e97a03c-7a86-4bbe-9b84-d4d3645c9c0f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:01.562232",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Native_Woodland_Survey_of_Scotland",
+                "package_id": "da3f8548-a130-4a0d-8ddd-45019adcf1f3",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/scottishforestry/ows?service=WMS&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Environment",
+                "id": "db7de4be-adbc-4ab6-9cec-d555c287d2d7",
+                "name": "Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Felling",
+                "id": "31c304ea-7d54-41fb-a772-fbad749a3d7c",
+                "name": "Felling",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Forest Management",
+                "id": "22038593-9601-469c-8072-bf9c69965804",
+                "name": "Forest Management",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Grant Schemes",
+                "id": "b7d99e3d-e862-4c77-9b94-75f1a9dde47a",
+                "name": "Grant Schemes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Habitats and biotopes",
+                "id": "a6591241-3108-42a5-b540-46a56883592e",
+                "name": "Habitats and biotopes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Landscape",
+                "id": "d8bf3654-d911-4650-b802-e5a3ad35d184",
+                "name": "Landscape",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Licence",
+                "id": "914e5ca1-8b12-4393-8e9e-92a5d8a69bc4",
+                "name": "Licence",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Native",
+                "id": "fbf677ff-1636-477e-96b5-461237ee45a1",
+                "name": "Native",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Ownership",
+                "id": "e4be7afc-86e7-4f50-82b0-9d66d34b9d26",
+                "name": "Ownership",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Planning",
+                "id": "f015a039-1856-4f51-bbfe-e4df359b7239",
+                "name": "Planning",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Woodland",
+                "id": "44ddd46e-49a2-4264-8ba4-3a401dd74e1f",
+                "name": "Woodland",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "64ecb3e0-d0b8-48e6-a1db-c5a33d3f0727"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

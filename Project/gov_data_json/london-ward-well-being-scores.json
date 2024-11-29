@@ -1,0 +1,471 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "23159ca8-7d6b-4b1b-a0af-5480091b5736",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:17:40.051625",
+        "metadata_modified": "2024-11-16T22:01:56.364939",
+        "name": "london-ward-well-being-scores",
+        "notes": "These ward level well being scores present a combined measure of well-being indicators of the resident population based on 12 different indicators. Where possible each indicator score is compared with the England and Wales average, which is zero. **Scores over 0 indicate a higher probability that the population on average will experience better well-being** according to these measures.\n\nUsers can adjust the weight of each indicator depending on what they consider to be the more or less important, thus generating bespoke scores. This is done either by entering a number between 0 and 10. The scores throughout the spreadsheet will update automatically.\n\nThe tool combines data across a range of themes for the last five years of available data (2009-2013).\n\nEither view the results in the online interactive tool [here](/london-ward-well-being-scores/),\n\n [![](https://londondatastore-upload.s3.amazonaws.com/images/well-being-tableau-screen.JPG)](/london-ward-well-being-scores/) \n------------------------------------------------------------------------------------------------------------------------------\n\nOr download the interactive spreadsheet [here](https://londondatastore-upload.s3.amazonaws.com/dataset/london-ward-well-being-scores/london-ward-well-being-probability-scores.xls) [![](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/wellbeing-screen.PNG)](https://londondatastore-upload.s3.amazonaws.com/dataset/london-ward-well-being-scores/london-ward-well-being-probability-scores.xls) \n\nThe well-being scores are then presented in a ranked bar chart for each borough, and a ward map of London.\n\nThe spreadsheet also highlights wards in the top and bottom 25 per cent in London. Wards that have shown significant improvement or reduction in their scores relative to the average over the five year period are also highlighted.\n\nBorough figures are provided to assist with comparisons.\n\nRankings and summary tables are included. The source data that the tool is based on is included in the spreadsheet.\n\nThe Excel file is 8.1MB.\n\nIMPORTANT NOTE, users **must** enable macros when prompted upon opening the Excel spreadsheet (or reset security to medium/low) for the map to function. The rest of the tool will function without macros.\n\nIf you cannot download the Excel file directly try this [zip file](https://londondatastore-upload.s3.amazonaws.com/dataset/london-ward-well-being-scores/london-ward-well-being-probability-scores.zip) (2.6MB).\n\nIf you experience any difficulties with downloading this spreadsheet, please contact the [London Datastore](mailto:datastore@london.gov.uk) in the Intelligence Unit.\n\nDetailed information about definitions and sources is contained within the spreadsheet.\n\nThe 12 measures included are:\n\nHealth\n\n\\- Life Expectancy\n\n\\- Childhood Obesity\n\n\\- Incapacity Benefits claimant rate\n\nEconomic security\n\n\\- Unemployment rate\n\nSafety\n\n\\- Crime rate\n\n\\- Deliberate Fires\n\nEducation\n\n\\- GCSE point scores\n\nChildren\n\n\\- Unauthorised Pupil Absence\n\nFamilies\n\n\\- Children in out-of-work households\n\nTransport\n\n\\- Public Transport Accessibility Scores (PTALs)\n\nEnvironment\n\n\\- Access to public open space & nature\n\nHappiness\n\n\\- Composite Subjective Well-being Score (Life Satisfaction, Worthwhileness, Anxiety, and Happiness) (New data only available since 2011/12)\n\nWith some measures if the data shows a high figure that indicates better well-being, and with other measures a low figure indicates better well-being. Therefore scores for Life Expectancy, GCSE scores, PTALs, and Access to Public Open Space/Nature have been reversed so that in all measures low scores indicate probable lower well-being.\n\nThe data has been turned into scores where each indicator in each year has a standard deviation of 10. This means that each indicator will have an equal effect on the final score when the weightings are set to equal.\n\nWhy should measuring well-being be important to policy makers?\n\nFollowing research by the Cabinet Office and Office for National Statistics, the government is aiming to develop policy that is more focused on \u2018all those things that make life worthwhile\u2019 (David Cameron, November 2010). They are interested in developing new and better ways to understand how policy and public services affect well-being.\n\nWhy measure well-being for local areas?\n\nIt is important for London policy makers to consider well-being at a local level (smaller than borough level) because of the often huge differences within boroughs. Local authorities rely on small area data in order to target resources, and with local authorities currently gaining more responsibilities from government, this is of increasing importance. But small area data is also of interest to academics, independent analysts and members of the public with an interest in the subject of well-being.\n\nHow can well-being be measured within small areas?\n\nThe [Office for National Statistics](http://www.ons.gov.uk/ons/guide-method/user-guidance/well-being/index.html) have been developing new measures of national well-being, and as part of this, at a national and regional level, the ONS has published some subjective data to measure happiness. ONS have not measured well-being for small areas, so this tool has been designed to fill this gap. However, [DCLG](http://opendatacommunities.org/wellbeing/map) have published a tool that models life satisfaction data for LSOAs based on a combination of national level happiness data, and 'ACORN' data. Happiness data is not available for small areas because there are no surveys large enough for this level of detail, and so at this geography the focus is on objective indicators. Data availability for small areas is far more limited than for districts, and this means the indicators that the scores are based on are not all perfect measures of well-being, though they are the best available. However, by using a relatively high number of measures across a number of years, this increases the reliability of the well-being scores.\n\nHow can this tool be used to help policy makers?\n\nEach neighbourhood will have its own priorities, but the data in this tool could help provide a solid evidence base for informed local policy-making, and the distribution of regeneration funds. In addition, it could assist users to identify the causes behind an improvement in well-being in certain wards, where examples of good practice could be applied elsewhere.\n\nDifferences to the previous report\n\nThis is the 2013 edition of this publication, and there is one change from 2012. Indicators of Election turnout has been replaced with a composite score of subjective well-being indicators.\n\nPast versions are still available for [2011](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/london-ward-well-being-scores.xls) and [2012](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/london-ward-well-being-probability-scores-2012.xls). The rationale/methodology paper from 2011 is [here](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/update-16-2011-london-wellbeing-scores-ward-level.pdf). The scores from the 2012 spreadsheet are also available in PDF format. The scores in [Intelligence Update 21-2012](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/Intelligence-Update-21-2012%20London-Ward-Well-being-Scores.pdf) are based on equal weightings across each measure.\n\nThis tool was created by the GLA Intelligence Unit. Please contact [datastore@london.gov.uk](mailto:datastore@london.gov.uk) for more information.",
+        "num_resources": 3,
+        "num_tags": 47,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "London Ward Well-Being Scores",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/london-ward-well-being-scores",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2013-11-08T16:20:24.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2019-11-05T16:25:24.021Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "f13cdab5-01cc-4a05-9ae7-9a6943c3f5d3"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:19:30.744511",
+                "description": "Zipped Excel file",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b5e3e60d-9d04-4d18-b551-1561546f7c66",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:48.877830",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "london-ward-well-being-probability-scores.zip",
+                "package_id": "23159ca8-7d6b-4b1b-a0af-5480091b5736",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-ward-well-being-scores/2d3766d8-8a58-47d3-b505-dd243559c931/london-ward-well-being-probability-scores.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:19:30.744529",
+                "description": null,
+                "format": "XLS",
+                "hash": "",
+                "id": "427cc212-5317-4680-9d09-e71b03e1fbdd",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:48.877956",
+                "mimetype": "application/vnd.ms-excel",
+                "mimetype_inner": null,
+                "name": "london-ward-well-being-probability-scores.xls",
+                "package_id": "23159ca8-7d6b-4b1b-a0af-5480091b5736",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-ward-well-being-scores/45c7421c-c6de-4ffd-8484-eed623c1731d/london-ward-well-being-probability-scores.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:19:30.744536",
+                "description": null,
+                "format": "text/html; charset=UTF-8",
+                "hash": "",
+                "id": "e9828c0d-317d-4f47-9244-847c64b8c374",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:48.878056",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Link to online interactive tool",
+                "package_id": "23159ca8-7d6b-4b1b-a0af-5480091b5736",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-ward-well-being-scores/74bb106b-af26-4c6f-b37b-3951bf2d15fe",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "barking-and-dagenham",
+                "id": "a553a23d-be95-438c-a930-c4048471a698",
+                "name": "barking-and-dagenham",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "barnet",
+                "id": "b5a32bc6-90a4-4c6d-9706-79a4beb233fb",
+                "name": "barnet",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "bexley",
+                "id": "2312219a-0880-4425-99dc-ab6bbec2ff14",
+                "name": "bexley",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "borough-economic",
+                "id": "94529027-5df3-4c42-8630-68420984e570",
+                "name": "borough-economic",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "boroughs",
+                "id": "941bc4df-eaf5-443a-b249-f9f05d5316d2",
+                "name": "boroughs",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "brent",
+                "id": "8d6280ea-b7f1-4065-b521-6d5f10f36724",
+                "name": "brent",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "bromley",
+                "id": "ac29cc2e-6578-4e61-9ea3-35f54f36dc43",
+                "name": "bromley",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "camden",
+                "id": "25d0fd14-3a29-4b0b-bc4f-d59b59ff6eaf",
+                "name": "camden",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "city-of-london",
+                "id": "01117a78-48a9-4050-a588-c65cc62aff6a",
+                "name": "city-of-london",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "clevercities",
+                "id": "dbd667ae-f311-44c5-a74a-84e55a221ecb",
+                "name": "clevercities",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "croydon",
+                "id": "c4d3e4ce-7054-4580-9bf1-98154390cf7c",
+                "name": "croydon",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "ealing",
+                "id": "71163da7-8736-4c0d-8c92-e29523f8940f",
+                "name": "ealing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "enfield",
+                "id": "2aaf59e3-fbdf-4274-9f60-202dd1d51f3d",
+                "name": "enfield",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "greenwich",
+                "id": "0ea43b7c-95db-43ea-91ef-a9c959cde81b",
+                "name": "greenwich",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "hackney",
+                "id": "f59b976f-c7cf-4961-838d-6b63cbc6c21c",
+                "name": "hackney",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "hammersmith-and-fulham",
+                "id": "c2d818ee-3e51-4db8-91ce-30c06eb47918",
+                "name": "hammersmith-and-fulham",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "happiness",
+                "id": "ae1d2181-d9a7-43cd-ab63-889336e18f10",
+                "name": "happiness",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "haringey",
+                "id": "7bd557fb-40d5-4374-be05-1d6cee683de4",
+                "name": "haringey",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "harrow",
+                "id": "a4817ba6-863f-4ff1-b28e-b314db423311",
+                "name": "harrow",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "havering",
+                "id": "09591b7d-45ae-4c51-8373-e47c76fad7cc",
+                "name": "havering",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "hillingdon",
+                "id": "2e46ed69-743c-4bd6-8f9f-9c445c62cf11",
+                "name": "hillingdon",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "hounslow",
+                "id": "0e3b3812-5746-4df2-93ba-7bbe4275388f",
+                "name": "hounslow",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "islington",
+                "id": "dff277e3-f011-4e3f-9c34-630845ec9fab",
+                "name": "islington",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "kensington-and-chelsea",
+                "id": "6ca8dc28-dc1a-461c-a143-873b9f747fcb",
+                "name": "kensington-and-chelsea",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "kingston-upon-thames",
+                "id": "a49e6567-2701-48bd-86bf-ba21b2e12a29",
+                "name": "kingston-upon-thames",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "lambeth",
+                "id": "276a0590-3b8c-48a1-baa3-845512706cf0",
+                "name": "lambeth",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "lewisham",
+                "id": "1e252366-f1b5-4200-a640-77a0267ee825",
+                "name": "lewisham",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mapped",
+                "id": "85af8467-366f-4418-a443-3221017b1ecc",
+                "name": "mapped",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mapping",
+                "id": "30d25a52-1974-410f-b063-19b46af2aa5e",
+                "name": "mapping",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "merton",
+                "id": "4c5587d8-365a-417c-b42c-7032be2bee32",
+                "name": "merton",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "neighbourhoods",
+                "id": "b9940ab3-0c93-4117-90eb-5a415227cc66",
+                "name": "neighbourhoods",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "newham",
+                "id": "562a4361-a552-48da-9018-bf2c439393b1",
+                "name": "newham",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "profiles",
+                "id": "413abf87-6534-469e-aee9-69a5280ed01c",
+                "name": "profiles",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "ptal",
+                "id": "e2defd1d-832b-4307-8b69-5b73705f0460",
+                "name": "ptal",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "redbridge",
+                "id": "8b25f072-3ae2-4d13-8a5a-5df0a169739d",
+                "name": "redbridge",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "regeneration",
+                "id": "759786a9-e498-46f5-bad5-19229005b97e",
+                "name": "regeneration",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "richmond-upon-thames",
+                "id": "cc2bafac-cde9-4822-9e38-785ecd1e5388",
+                "name": "richmond-upon-thames",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "southwark",
+                "id": "ff76921e-ff48-4623-a3f1-a370cf9f8343",
+                "name": "southwark",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "sutton",
+                "id": "2a3a3f5b-8bb7-416d-89cf-d4541edd86e7",
+                "name": "sutton",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "tower-hamlets",
+                "id": "167a85c4-05a6-4fae-9f67-a8539783d949",
+                "name": "tower-hamlets",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "waltham-forest",
+                "id": "d3934604-7b9c-4d17-b217-1c3217ac29bf",
+                "name": "waltham-forest",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wandsworth",
+                "id": "d8b37f97-a95d-4ab7-81bb-d9aaf5854273",
+                "name": "wandsworth",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "ward",
+                "id": "eec09752-0953-4730-ae91-a3b81ea4f48d",
+                "name": "ward",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wards",
+                "id": "0ccd5b6f-6085-4db7-9e16-4e1a74deace4",
+                "name": "wards",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "well-being",
+                "id": "6ecc0d82-19f4-49aa-a85d-aa697ec24654",
+                "name": "well-being",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "wellbeing",
+                "id": "23aaf915-6f67-406e-b65e-149e35d5c426",
+                "name": "wellbeing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "westminster",
+                "id": "994f1b3e-5a52-4eba-b3d9-da68e1060d81",
+                "name": "westminster",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "6b763500-c824-4b6c-8eb4-e71191ae0a35"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

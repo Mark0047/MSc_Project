@@ -1,0 +1,188 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "aphaopendata@apha.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "98f16f66-29af-4215-a1a9-bc7ff1bf74cf",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-06-27T10:06:55.505917",
+        "metadata_modified": "2023-11-01T13:32:33.108331",
+        "name": "complete-list-of-translated-genotype-names-spoligotype-vntr-type",
+        "notes": "This dataset provides a list of translated genotype names (spoligotype:VNTR type) for bovine tuberculosis genotypes.  Each isolate of bovine tuberculosis (bTB), usually one per herd breakdown, is spoligotyped and then VNTR typed at 6 loci.  Together the spoligotype and VNTR type of an isolate are refered to as its genotype.  Each unique spoligotype pattern is given a number, such as APHA Type 17 but the VNTR type is a complex set of 6 numbers such as 7-5-5-5*-3-3.1.  To simplify the reporting of bTB genotypes the combination of spoligotype and VNTR type is 'translated' into a simpler format: spoligotype number followed by a colon followed by a letter.  Thus, an isolate of APHA Type 17 and a VNTR type 7-5-5-5*-3-3.1 is known as genotype 17:a.  This file lists the translation between simplified genotype and the original spoligotype/VNTR data. Attribution statement: \u00a9Crown Copyright, APHA 2016",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+            "id": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+            "name": "animal-and-plant-health-agency",
+            "title": "Animal and Plant Health Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2015-02-04T13:40:13.046442",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2003-05-28"
+        ],
+        "temporal_coverage-to": [
+            "2016-02-18"
+        ],
+        "title": "Complete list of translated genotype names (spoligotype:VNTR type).",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.86"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.86"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.45"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2016-06-14\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "9e807b84-2da9-4c5b-857c-d48f55b5977e"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "131eaf7e-ecbf-4b48-80f4-2f2d79c3228b"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Animal & Plant Health Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.86], [-8.45, 49.86], [-8.45, 60.86], [1.78, 60.86], [1.78, 49.86]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "155dcaa5-1587-4af5-b770-c2e07a18163e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "APHA Metadata Catalogue Harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:32:33.141610",
+                "description": "Resource locator",
+                "format": "CSV",
+                "hash": "",
+                "id": "5f4c43eb-1cdf-4e15-80b7-4e8cc0450d15",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:32:33.113852",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "98f16f66-29af-4215-a1a9-bc7ff1bf74cf",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.defra.gov.uk/Agriculture/APHA0126-Genotype_Names_18_Feb_2016.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5662f7d1-7bd5-4dc3-9b63-2ab460f07e18"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "155dcaa5-1587-4af5-b770-c2e07a18163e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "APHA Metadata Catalogue Harvest"
+            }
+        ]
+    }
+}

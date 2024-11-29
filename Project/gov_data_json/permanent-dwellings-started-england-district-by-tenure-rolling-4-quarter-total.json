@@ -1,0 +1,134 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "ODC@communities.gsi.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "18584d82-5186-4047-9b2e-d0b19e7eea47",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-03-17T13:11:02.806542",
+        "metadata_modified": "2018-02-26T15:13:44.860847",
+        "name": "permanent-dwellings-started-england-district-by-tenure-rolling-4-quarter-total",
+        "notes": "This data set contains rolling four quarter totals (England only) on house building starts. From 2011/12 imputed data is included. Imputed data should not be seen as an estimate for the individual authority but is given on an authority basis to allow custom totals to be constructed.\n\nEngland total figures include estimates for missing data returns from independent Approved Inspectors and Local Authorities, so the sum of district values may be slightly less than the England totals.\r\n\r\nHouse building starts - A dwelling is counted as started on the date work begins on the laying of the foundation, including 'slabbing' for houses that require it, but not including site preparation. Thus when foundation work commences on a pair of semi-detached houses two houses are counted as started, and when work begins on a block of flats all the dwellings in that block are counted as started. The starts of houses in building schemes are usually phased over a period of weeks or even, in very large schemes, months.\r\n\r\nThe data are derived from live table 253a (quarterly figures), and rolling totals for England are calculated and published in Tables 2a and 2b of the house building statistics [release](https://www.gov.uk/government/collections/house-building-statistics).",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Permanent dwellings started, England, District By Tenure - Rolling 4 quarter total",
+        "type": "dataset",
+        "url": "http://opendatacommunities.org/data/house-building/starts/tenureRQ",
+        "version": null,
+        "extras": [
+            {
+                "key": "contact_email",
+                "value": "ODC@communities.gsi.gov.uk"
+            },
+            {
+                "key": "data_issued",
+                "value": "2016-03-02T16:56:12+00:00"
+            },
+            {
+                "key": "data_modified",
+                "value": "2017-09-22T13:57:59+00:00"
+            },
+            {
+                "key": "dcat_publisher_uri",
+                "value": "http://reference.data.gov.uk/id/department/dclg"
+            },
+            {
+                "key": "dcat_subject",
+                "value": "http://opendatacommunities.org/def/concept/folders/organisations/department-for-communities-and-local-government http://opendatacommunities.org/def/concept/folders/themes/house-building"
+            },
+            {
+                "key": "guid",
+                "value": "http://opendatacommunities.org/data/house-building/starts/tenureRQ"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "05b41cdb-b5fa-4fe5-b5a0-8e3625933cb3"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://opendatacommunities.org/data.rdf\", \"harvest_source_type\": \"dcat_rdf\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Open Data Communities\", \"activity_occurred\": \"2018-02-26T15:13:44.797540\", \"activity\": \"harvest\", \"harvested_guid\": \"http://opendatacommunities.org/data/house-building/starts/tenureRQ\"}]"
+            },
+            {
+                "key": "metadata_uri",
+                "value": "http://opendatacommunities.org/data/house-building/starts/tenureRQ"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-02-26T15:13:44.890423",
+                "description": "",
+                "format": "SPARQL",
+                "hash": "",
+                "id": "66c6c9fb-c18f-4128-9273-90801d753ef4",
+                "last_modified": null,
+                "metadata_modified": "2018-02-26T15:13:44.890423",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SPARQL Endpoint",
+                "package_id": "18584d82-5186-4047-9b2e-d0b19e7eea47",
+                "position": 0,
+                "resource_type": "api",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/sparql",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-03-17T13:11:02.859506",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "803ced9f-f63d-44f9-89db-be9863d6339b",
+                "last_modified": null,
+                "metadata_modified": "2016-03-17T13:11:02.859506",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset home page",
+                "package_id": "18584d82-5186-4047-9b2e-d0b19e7eea47",
+                "position": 1,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/data/house-building/starts/tenureRQ",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

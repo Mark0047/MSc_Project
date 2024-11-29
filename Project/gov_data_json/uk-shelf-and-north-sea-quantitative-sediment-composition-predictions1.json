@@ -1,0 +1,180 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "882bb2d6-2b7c-48e3-a618-db1225c4d0a1",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:25:02.415626",
+        "metadata_modified": "2024-09-21T22:02:47.484791",
+        "name": "uk-shelf-and-north-sea-quantitative-sediment-composition-predictions1",
+        "notes": "Spatial predictions of substrate composition for the UK shelf and North Sea. \nCompositional fractions of mud, sand and gravel were modelled for an area of \nthe UK and North Sea using a statistical regression model.\n\nThis dataset consists of percentage composition predictions for the mud, sand \nand gravel components as raster tifs. In addition the proportion of each of \nthese sediment components were combined to predict the likely sediment \nclassification as both a EUNIS habitat class and Folk class. These are also \navailable as raster tif files with an associated ArcGIS layer file indicating \nthe appropriate class for each raster value.\n\nA shape file of the Folk classification is also available.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2015-04-01"
+        ],
+        "temporal_coverage-to": [
+            "2015-04-01"
+        ],
+        "title": "UK shelf and North Sea quantitative sediment composition predictions",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "10.00"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "59.50"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "48.00"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-11.00"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2018-01-31\"}, {\"type\": \"revision\", \"value\": \"2024-07-12\"}, {\"type\": \"creation\", \"value\": \"2015-04-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "CEFAS742b396b-e638-4501-8d43-9818510d13fd"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d6aee25c-d4a2-4866-a562-8ae6c14fe93c"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-12T10:27:31"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS)"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor, owner); Department for Environment, Food and Rural Affairs (DEFRA) (owner); European Commission (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[10.00, 48.00], [-11.00, 48.00], [-11.00, 59.50], [10.00, 59.50], [10.00, 48.00]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-21T22:02:47.510704",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: Binary download, CSV, ESRI Shapefile. The data can also be accessed via the WFS and WMS protocols.",
+                "format": "",
+                "hash": "",
+                "id": "6c5bb1f7-eebe-4057-8d4c-86c179cf913d",
+                "last_modified": null,
+                "metadata_modified": "2024-09-21T22:02:47.495200",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "882bb2d6-2b7c-48e3-a618-db1225c4d0a1",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/3313",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d6aee25c-d4a2-4866-a562-8ae6c14fe93c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@cheshireeast.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "6b44b269-6ac7-4560-ae44-e6d1ae465f8b",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2018-07-02T13:43:15.190266",
+        "metadata_modified": "2019-02-21T12:07:50.571820",
+        "name": "primary-school-catchment-areas2",
+        "notes": "Polygons representing the Catchment Areas for Cheshire Primary Schools.\n\n",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+            "name": "cheshire-east-council",
+            "title": "Cheshire East Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T10:02:35.362710",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Primary School Catchment Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available via:\\n\\ni. Desktop - ArcGIS using the CCC ArcGIS Tools Extension\\nii. Intranet - WebGIS, Digital Mapping Service\\niii. Internet - Interactive Mapping Service and Inspire\\n\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.8690490695"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.6108401590"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.7549965310"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.2148742648"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2012-08-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "as needed"
+            },
+            {
+                "key": "guid",
+                "value": "100_CE"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "bf7139b0-013c-483d-b57d-04b00274e045"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-07-02T12:47:33"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Cheshire East Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.8690490695, 52.7549965310], [-3.2148742648, 52.7549965310], [-3.2148742648, 53.6108401590], [-1.8690490695, 53.6108401590], [-1.8690490695, 52.7549965310]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c2313407-de24-49b2-b652-70156a7f980a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-21T12:07:50.748539",
+                "description": "WMS (View Service)",
+                "format": "",
+                "hash": "",
+                "id": "92de9320-7b29-4a5d-b6de-7e49bedfc81f",
+                "last_modified": null,
+                "metadata_modified": "2019-02-21T12:07:50.748539",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Primary School Catchment Areas (WMS)",
+                "package_id": "6b44b269-6ac7-4560-ae44-e6d1ae465f8b",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CEOpenData/AU_S_PrimaryCatchments_POLY_CURRENT/wms?request=GetCapabilities&version=1.1.1&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-21T12:07:50.748545",
+                "description": "WFS (Download Service)",
+                "format": "",
+                "hash": "",
+                "id": "446d5c20-6286-45d5-b9f9-60d984d99eac",
+                "last_modified": null,
+                "metadata_modified": "2019-02-21T12:07:50.748545",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Primary School Catchment Areas (WFS)",
+                "package_id": "6b44b269-6ac7-4560-ae44-e6d1ae465f8b",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CEOpenData/AU_S_PrimaryCatchments_POLY_CURRENT/wfs?request=Getfeature&TypeName=AU_S_PrimaryCatchments_POLY_CURRENT&version=1.1.0&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Administrative units",
+                "id": "8d20781b-12df-4d16-809a-b340746e0775",
+                "name": "Administrative units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Catchments",
+                "id": "0ee814c1-190f-4ad7-a6a7-6c733b70d2d4",
+                "name": "Catchments",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "School",
+                "id": "859743d3-9076-4aad-8e27-c71ea9a52f1e",
+                "name": "School",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "bf7139b0-013c-483d-b57d-04b00274e045"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c2313407-de24-49b2-b652-70156a7f980a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ]
+    }
+}

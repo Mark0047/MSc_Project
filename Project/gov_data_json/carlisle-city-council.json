@@ -1,0 +1,110 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "{\"validator_profiles\": [\"iso19139eden\", \"constraints-1.4\", \"gemini2-3\"]}",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "da862b5c-5db4-4d05-b651-578555cae562",
+        "metadata_created": "2019-01-23T11:32:25.587402",
+        "metadata_modified": "2022-08-01T15:41:51.890219",
+        "name": "carlisle-city-council",
+        "notes": "Gemini 2.3 compliant metadata portal managed for Carlisle City Council by [Astun Technology](https://astuntechnology.com)",
+        "organization": {
+            "id": "969a9e9f-0c9d-49e6-9d2b-84b9b3b8183f",
+            "name": "carlisle-city-council",
+            "title": "Carlisle City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:12:12.267149",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "969a9e9f-0c9d-49e6-9d2b-84b9b3b8183f",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "Carlisle City Council",
+        "type": "harvest",
+        "url": "https://metadata.astuntechnology.com/geonetwork/carlisle/eng/csw",
+        "validator_profiles": [
+            "iso19139eden",
+            "constraints-1.4",
+            "gemini2-3"
+        ],
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 12,
+            "last_job": {
+                "id": "e524c035-4b06-457d-9562-20c7ae6880da",
+                "created": "2022-08-01 15:42:24.012916",
+                "gather_started": "2022-08-01 15:42:24.170986",
+                "gather_finished": "2022-08-01 15:42:25.538620",
+                "finished": "2022-08-01 15:42:43.726190",
+                "source_id": "da862b5c-5db4-4d05-b651-578555cae562",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 24,
+                    "not modified": 0,
+                    "errored": 9,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Tag \"Area management/restriction/regulation zones and r\" must be alphanumeric characters or symbols: -_.",
+                        "error_count": 4
+                    },
+                    {
+                        "message": "Error Message: \"MI-4b (Abstract): Abstract is too short. GEMINI 2.3 requires\n        an abstract of at least 100 characters, but abstract \"Carlisle City Council Aero Safe Zones\" has only 37\n        characters\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='abstract' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CharacterString' and namespace-uri()='http://www.isotc211.org/2005/gco']\"  Error Assert: \"string-length() > 99\":\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"MI-4b (Abstract): Abstract is too short. GEMINI 2.3 requires\n        an abstract of at least 100 characters, but abstract \"Carlisle City Council County Wildlife Sites\" has only 43\n        characters\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='abstract' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CharacterString' and namespace-uri()='http://www.isotc211.org/2005/gco']\"  Error Assert: \"string-length() > 99\":\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"MI-4b (Abstract): Abstract is too short. GEMINI 2.3 requires\n        an abstract of at least 100 characters, but abstract \"Carlisle City Council Land Allocated for Employment Development\" has only 63\n        characters\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='abstract' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CharacterString' and namespace-uri()='http://www.isotc211.org/2005/gco']\"  Error Assert: \"string-length() > 99\":\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"MI-4b (Abstract): Abstract is too short. GEMINI 2.3 requires\n        an abstract of at least 100 characters, but abstract \"Local Nature Reserves at Carlisle City Council\" has only 46\n        characters\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='abstract' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CharacterString' and namespace-uri()='http://www.isotc211.org/2005/gco']\"  Error Assert: \"string-length() > 99\":\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"The 'gmd:MD_ReferenceSystem' element has no child elements.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='referenceSystemInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_ReferenceSystem' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(*) > 0 or namespace-uri() = 'http://www.isotc211.org/2005/gco' or namespace-uri() = 'http://www.isotc211.org/2005/gmx' or namespace-uri() = 'http://www.opengis.net/gml/3.2' or namespace-uri() = 'http://www.opengis.net/gml' or @codeList or @codeListValue or local-name() = 'MD_TopicCategoryCode' or local-name() = 'URL' or (@gco:nilReason = 'inapplicable' or @gco:nilReason = 'missing' or @gco:nilReason = 'template' or @gco:nilReason = 'unknown' or @gco:nilReason = 'withheld') or @xlink:href\":\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Tag \"Open/Green Spaces\" must be alphanumeric characters or symbols: -_.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Tag \"Urban Area/Rural Settlement Boundaries\" must be alphanumeric characters or symbols: -_.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for http://maps.carlisle.gov.uk/getows.ashx?mapsource=CCC/Inspire&version=1.1.0&request=GetCapabilities&service=WFS failed with exception: The WMS version (1.1.0) you requested is not implemented. Please use 1.1.1 or 1.3.0.",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"AT-6: Free text elements should not be empty\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='metadataConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_Constraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='useLimitation' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='CharacterString' and namespace-uri()='http://www.isotc211.org/2005/gco']\"  Error Assert: \"normalize-space(.)\":\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "WMS check for http://maps.carlisle.gov.uk/getows.ashx?mapsource=CCC/Inspire&version=1.1.0&request=GetCapabilities&service=WMS failed with exception: The WMS version (1.1.0) you requested is not implemented. Please use 1.1.1 or 1.3.0.",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 24
+        }
+    }
+}

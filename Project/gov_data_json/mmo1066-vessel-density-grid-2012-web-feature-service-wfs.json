@@ -1,0 +1,212 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "dkm@marinemanagement.org.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "52f95f16-ca9b-4f80-8de2-fb1c7d69cddb",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-04-24T11:40:29.166190",
+        "metadata_modified": "2016-04-20T16:32:53.289807",
+        "name": "mmo1066-vessel-density-grid-2012-web-feature-service-wfs",
+        "notes": "This dataset contains the average weekly shipping density for the whole of the UK at a 2km2 grid resolution. For 2012, AIS datasets were sampled from the first seven days of the month, commencing with January, at two-month intervals. The total value for all 6 weeks sampled was then divided by 6 to determine the weekly average (note that this process has resulted in decimal values occurring for certain cells). The weekly average was then multiplied by 52 to provide the estimated annual average.\n           The field headings in the attribute table are as follows:\n           0 - Unknown Vessels\n           1 - Non-Port service craft\n           2 - Port service craft\n           3 - Vessels engaged in dredging or underwater operations\n           4 - High Speed Craft\n           5 - Military or Law enforcement\n           6 - Passenger\n           7 - Cargo\n           8 - Tankers\n           9 - Fishing vessels\n           10 - Recreational vessels\n           Week_Ave - Weekly Average Density\n           Annual_Ave - Estimated annual density",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "6b694e61-66c9-4cca-8eeb-75b2b0c66c4d",
+            "name": "marine-management-organisation",
+            "title": "Marine Management Organisation",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:54:49.334967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "6b694e61-66c9-4cca-8eeb-75b2b0c66c4d",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "environment",
+        "theme-secondary": [
+            "Transport"
+        ],
+        "title": "MMO1066 Vessel density grid 2012 Web Feature Service (WFS)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on access, however copyright should be used at all times.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "6.2002"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.9834"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "47.5750"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-10.0311"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"href\": [\"MMO1600100\"], \"uuid\": [\"MMO1600100\"], \"title\": []}, {\"href\": [\"http://data.gov.uk/data/search\"], \"uuid\": [\"http://data.gov.uk/data/search\"], \"title\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2015-03-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "d8223db63180e3f7aa8f9b1b1f961a58"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b2d7a602-e14a-48fe-86d8-18f52e8e4a82"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://s3-eu-west-1.amazonaws.com/inspire-mmo/mmo1066_vessel_density_grid_2012_web_feature_service_wfs_d8223db63180e3f7aa8f9b1b1f961a58.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Open Government Licence. Acknowledgement of Marine Management Organisation as source required."
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-14"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Marine Management Organisation (originator, custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[6.2002, 47.5750],[6.2002, 61.9834], [-10.0311, 61.9834], [-10.0311, 47.5750], [6.2002, 47.5750]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "download"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::4258"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ac6fae6e-304a-406b-aab2-4bc3704f8482"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Management Organisation INSPIRE compliant data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-04-20T17:32:53.316249",
+                "description": "A link to the web service or dataset",
+                "format": "WMS",
+                "hash": "",
+                "id": "5196941a-f596-4059-b350-1d886c3db76d",
+                "last_modified": null,
+                "metadata_modified": "2016-04-20T17:32:53.316249",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "52f95f16-ca9b-4f80-8de2-fb1c7d69cddb",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://environment.data.gov.uk/ds/wfs?SERVICE=WFS&INTERFACE=ENVIRONMENTWFS--bfb137087b9e1ada0e8a3fd051782bb1&request=GetCapabilities",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-04-20T17:32:50.410364",
+                "wms_base_urls": ""
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-20T17:32:53.316273",
+                "description": "A link to the general host site",
+                "format": "",
+                "hash": "",
+                "id": "aadd957e-3b37-4a60-b7eb-6797965ee207",
+                "last_modified": null,
+                "metadata_modified": "2016-04-20T17:32:53.316273",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "52f95f16-ca9b-4f80-8de2-fb1c7d69cddb",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://environment.data.gov.uk/ds/catalogue/index.jsp#/catalogue",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b2d7a602-e14a-48fe-86d8-18f52e8e4a82"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ac6fae6e-304a-406b-aab2-4bc3704f8482"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Management Organisation INSPIRE compliant data"
+            }
+        ]
+    }
+}

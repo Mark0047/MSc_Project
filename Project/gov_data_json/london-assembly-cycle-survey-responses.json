@@ -1,0 +1,170 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "c344086b-7a29-46f6-9fc7-3342a61cba00",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:24:19.589108",
+        "metadata_modified": "2024-11-16T22:02:51.088915",
+        "name": "london-assembly-cycle-survey-responses",
+        "notes": "Results of first public survey of users of the cycle hire scheme and cycle superhighways used to inform London Assembly Transport Committee report, '[Pedal Power: cycle hire scheme and cycle superhighways](https://www.london.gov.uk/sites/default/files/gla_migrate_files_destination/FINAL%20REPORT.pdf)', November 2010.\n\nResults of online survey by London Assembly Transport Committee of 1,297 users of the cycle hire scheme and cycle superhighways undertaken over September to October 2010. The survey was self-selecting and as such is not intended to be representative of all users.\n\nThe [anonymised survey response data is provided in CSV](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/assembly-bike-survey-data.csv) format, along with a [list of the questions that were asked](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/assembly-bike-survey-questions.csv) and a [summary of responses](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/assembly-bike-survey-summary-tables.xls) for each question.",
+        "num_resources": 2,
+        "num_tags": 7,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "London Assembly Cycle Survey Responses",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/london-assembly-cycle-survey-responses",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2010-11-30T17:21:53.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2013-08-12T15:18:26.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "1257c3e2-09d5-423d-90fa-35ea3134303a"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:25:44.924607",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "83ac6c3b-ecbf-4d54-a04b-14448b3682c5",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:10.772256",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "assembly-bike-survey-data.csv",
+                "package_id": "c344086b-7a29-46f6-9fc7-3342a61cba00",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-assembly-cycle-survey-responses/4df73f5f-a5c8-49a4-a24a-6d531cd5f276/assembly-bike-survey-data.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:25:44.924625",
+                "description": null,
+                "format": "text/html; charset=utf-8",
+                "hash": "",
+                "id": "d4f8051a-c54d-4f77-9174-32a5d4ed92b6",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:10.772379",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "pedal-power",
+                "package_id": "c344086b-7a29-46f6-9fc7-3342a61cba00",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-assembly-cycle-survey-responses/fe4b1b54-ef59-4b82-b843-a57304c52dea",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "assembly",
+                "id": "f3f6a3d8-2909-44a9-b207-d1e7f2f86e0a",
+                "name": "assembly",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "bike-hire",
+                "id": "efaa26a5-9c14-49d8-a489-7371e4db900b",
+                "name": "bike-hire",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "cycling",
+                "id": "3e321ed9-5211-4d85-8565-e4e63a0050d1",
+                "name": "cycling",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "public-transport",
+                "id": "eafd1fa9-110c-4082-9a99-161ee1e3f83e",
+                "name": "public-transport",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "superhighways",
+                "id": "26d0eca4-ded7-47b6-b78a-b9fb67a42f46",
+                "name": "superhighways",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "survey",
+                "id": "228f2437-16d2-4498-a53f-21273806fae3",
+                "name": "survey",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "transport",
+                "id": "b5992ed4-3223-4881-9d1c-bb2b381132d6",
+                "name": "transport",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c229e039-9475-4ed9-ab1a-c9c56acc4d34"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

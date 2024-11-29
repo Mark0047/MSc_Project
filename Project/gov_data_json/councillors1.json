@@ -1,0 +1,150 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "afe0556c-1cde-4919-9941-847355840fe6",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-06-12T17:30:18.945716",
+        "metadata_modified": "2015-06-12T17:30:18.971239",
+        "name": "councillors1",
+        "notes": "Salford CIty Council Councillor details provided in XML data format.  Including a list of councillors, contact details and committee membership.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+            "name": "salford-city-council",
+            "title": "Salford City Council",
+            "type": "organization",
+            "description": "Salford City Council",
+            "image_url": "2019-01-31-104033.251731SCCmag.png",
+            "created": "2012-06-27T14:50:51.970331",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "government",
+        "theme-secondary": [],
+        "title": "Councillors",
+        "type": "dataset",
+        "update_frequency": "as required",
+        "url": "",
+        "version": "",
+        "extras": [
+            {
+                "key": "guid",
+                "value": "afe0556c-1cde-4919-9941-847355840fe6"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "1ad9e152-5cac-4eb3-9ba6-bf1aafbd2949"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "information_class",
+                "value": "Who we are and what we do"
+            },
+            {
+                "key": "la_function",
+                "value": "http://id.esd.org.uk/function/50"
+            },
+            {
+                "key": "la_service",
+                "value": "http://id.esd.org.uk/service/358"
+            },
+            {
+                "key": "mandate",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-09-23"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://salforddataquay.uk/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2015-09-23T13:15:52.037195\", \"harvest_source_title\": \"Salford Data Quay\", \"activity_occurred\": \"2015-09-24T06:10:17.448828\", \"activity\": \"harvest\", \"harvested_guid\": \"afe0556c-1cde-4919-9941-847355840fe6\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "fef6f56e-0438-433a-83ad-5fe6a125f8c9"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Salford Data Quay"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-06-12T15:31:05.481975",
+                "description": "Preview the list of councillors in XML format",
+                "format": "XML",
+                "hash": "",
+                "id": "76266423-b98f-4ca2-ba32-f01442512f05",
+                "last_modified": null,
+                "metadata_modified": "2015-06-12T15:31:05.481975",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "XML format",
+                "package_id": "afe0556c-1cde-4919-9941-847355840fe6",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://services.salford.gov.uk/data/councillors/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-06-12T15:31:49.382461",
+                "description": "Preview a single councillor in XML format. Replace 'id=54' in the link with the required ID found in the [list of councillors feed](http://services.salford.gov.uk/data/councillors/) . ",
+                "format": "XML",
+                "hash": "",
+                "id": "d0c633e0-5f8d-40be-9dd0-f44f93f3c28c",
+                "last_modified": null,
+                "metadata_modified": "2015-06-12T15:31:49.382461",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "XML format",
+                "package_id": "afe0556c-1cde-4919-9941-847355840fe6",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://services.salford.gov.uk/data/councillor/?id=54",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "1ad9e152-5cac-4eb3-9ba6-bf1aafbd2949"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "fef6f56e-0438-433a-83ad-5fe6a125f8c9"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Salford Data Quay"
+            }
+        ]
+    }
+}

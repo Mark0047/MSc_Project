@@ -1,0 +1,135 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "6240e697-4579-414e-828b-f9450fac1517",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:22:11.774911",
+        "metadata_modified": "2024-11-16T22:02:41.181936",
+        "name": "london-atmospheric-emissions-inventory-laei-2006-modelled-concentration-grid-points",
+        "notes": "> [The LAEI 2006 has since been superseded. Click here for the full list of releases.](/air-quality/)\n\nPoint locations at 20 metre grid spacing, used for mapping modelled concentration values for LAEI-2006 datasets.\n\nPoints represent the centre of a 20m by 20m square and can be linked to modelled vales datasets using GRID-ID field.\n\nDue to the detailed nature of this dataset and the resulting large file size, the download file has been compressed (approx 20mb).\n\n[Click here for more information about clearing London's air.](http://www.cleanerairforlondon.org.uk/ \"Clearing London's Air\")",
+        "num_resources": 1,
+        "num_tags": 5,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "London Atmospheric Emissions Inventory (LAEI) 2006 Modelled Concentration Grid Points",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/laei-2006-modelled-concentration-grid-points",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2010-02-02T15:34:54"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2014-07-04T14:30:25"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "2e34a86f-4486-4d13-9861-cc940642a7dc"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:23:29.613267",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "032e660a-0cdf-4631-bfe9-5353a3d36d02",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:55:57.304061",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "laei-2006-20m-points.zip",
+                "package_id": "6240e697-4579-414e-828b-f9450fac1517",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/laei-2006-modelled-concentration-grid-points/5e662255-7351-4a7a-969c-a39f4a1ad352/laei-2006-20m-points.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "air-quality",
+                "id": "d425ed32-1f19-485a-93d7-69eb4848c0d5",
+                "name": "air-quality",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "geo",
+                "id": "aa790c62-039d-42b6-8852-451c19d43784",
+                "name": "geo",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "laei",
+                "id": "665ff7af-97a4-475b-92b3-3f97e40bc8ae",
+                "name": "laei",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "pollution",
+                "id": "b00db874-3ebe-4863-938e-7c4824781a3e",
+                "name": "pollution",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c2db25ae-e5a1-4502-8c06-978295d73204"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

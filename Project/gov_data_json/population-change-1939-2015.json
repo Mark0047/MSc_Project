@@ -1,0 +1,142 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "a78316c0-7c99-472a-bb9a-b4fa16b09473",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:18:15.258340",
+        "metadata_modified": "2024-11-16T22:02:27.127312",
+        "name": "population-change-1939-2015",
+        "notes": "In 2015 London's population surpassed its previous peak of 8.6 million people. This dataset contains an excel workbook showing borough population estimates and projections for the period 1939 - 2039 and a brief summary of population change in the capital.",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Population Change 1939-2015",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/population-change-1939-2015",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2015-01-30T14:02:45.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2015-01-30T14:02:45.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "a31c00ba-2ada-4175-bbc1-f08aef1effe2"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:19:46.204367",
+                "description": "A summary of borough population changes over the period 1939 to 2015.",
+                "format": "PDF",
+                "hash": "",
+                "id": "5353a9a7-243b-4283-8a77-609f9b9564c6",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:57:39.438198",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "historical population 1939-2015.pdf",
+                "package_id": "a78316c0-7c99-472a-bb9a-b4fa16b09473",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/population-change-1939-2015/0a026346-960e-49e6-b968-a386d2cfe55f/historical%2520population%25201939-2015.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:19:46.204394",
+                "description": "Excel sheet showing London borough populations and household numbers at a series of data points from 1939 to 2039. Use ONS mid-year and census estimates and GLA projections.",
+                "format": "XLS",
+                "hash": "",
+                "id": "e9b25dab-1422-4af9-9f65-81d97638fda7",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:57:39.438390",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "Population by borough 1939 to 2039.xlsx",
+                "package_id": "a78316c0-7c99-472a-bb9a-b4fa16b09473",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/population-change-1939-2015/6fb637cf-d3c1-4456-a561-85cd995c020f/Population%2520by%2520borough%25201939%2520to%25202039.xlsx",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "1939",
+                "id": "fc9f2f08-88d5-4422-a6e3-8be1e3ddb6ee",
+                "name": "1939",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "growth",
+                "id": "125f591d-7cdb-46df-85bd-de50d870fbf0",
+                "name": "growth",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "population",
+                "id": "40739b84-20b5-415f-87f6-7ab11b26d2b3",
+                "name": "population",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c2f3dee4-9908-4e64-b33c-8240e4c64456"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

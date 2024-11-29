@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "WEEKLY",
+        "id": "38d7636d-8011-41b3-aa60-77fd399c105a",
+        "metadata_created": "2019-01-23T10:51:27.512850",
+        "metadata_modified": "2023-11-01T13:31:23.563276",
+        "name": "defra-metadata-catalogue-harvest",
+        "notes": "",
+        "organization": {
+            "id": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+            "name": "department-for-environment-food-and-rural-affairs",
+            "title": "Department for Environment, Food and Rural Affairs",
+            "type": "organization",
+            "description": "We are the UK government department responsible for policy and regulations on environmental, food and rural issues. Our priorities are to grow the rural economy, improve the environment and safeguard animal and plant health.\r\n\r\nDefra is a ministerial department, supported by 38 agencies and public bodies.\r\n\r\nhttps://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:39.115374",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "Defra metadata catalogue harvest",
+        "type": "harvest",
+        "url": "http://environment.data.gov.uk/discover/defra/csw",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2024,
+            "last_job": {
+                "id": "b29a24b1-3af5-4510-a793-e4bdf40a11b9",
+                "created": "2024-11-17 10:00:08.686714",
+                "gather_started": "2024-11-17 10:01:11.927552",
+                "gather_finished": "2024-11-17 10:01:18.883031",
+                "finished": "2024-11-17 10:01:54.347220",
+                "source_id": "38d7636d-8011-41b3-aa60-77fd399c105a",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 48,
+                    "errored": 46,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}MD_Keywords': This element is not expected.",
+                        "error_count": 46
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 49
+        }
+    }
+}

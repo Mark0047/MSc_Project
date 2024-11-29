@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "Corporategis@sthelens.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "2dd7fd41-a038-492a-91ce-541893009083",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-12-01T10:54:12.359583",
+        "metadata_modified": "2024-04-29T15:43:32.521432",
+        "name": "scheduled-ancient-monument6",
+        "notes": "Polygon data showing the location of each scheduled monument within the St Helens MBC boundary. The data is admimistered by Historic Engalnd and the table is updated when notification of change is received from Historic England. The table fields include unique HE reference and name fields.",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+            "name": "st-helens-council",
+            "title": "St Helens Council",
+            "type": "organization",
+            "description": "(St Helens Metropolitan Borough Council)",
+            "image_url": "",
+            "created": "2012-06-27T14:50:48.582845",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2000-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2000-01-01"
+        ],
+        "title": "Scheduled Ancient Monument",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations apply\", \"Use according to license\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.606884346729262"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.48478735436198"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.386730907838455"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.807081259446063"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2000-01-01\"}, {\"type\": \"revision\", \"value\": \"2021-07-18T15:03:45\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "34b1f3fdad44b5e76a5567c28b24b4d1e4388002d25fad7eb6f446c4971ef971"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ff99666c-4189-4398-8e6e-d09040dff985"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-04-02T13:38:04"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "onGoing"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "St Helens MBC (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.606884346729262, 53.386730907838455], [-2.807081259446063, 53.386730907838455], [-2.807081259446063, 53.48478735436198], [-2.606884346729262, 53.48478735436198], [-2.606884346729262, 53.386730907838455]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96423a5d-c812-4893-9e69-a565d00f87c0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "St Helens Council INSPIRE Metadata CSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-29T15:43:32.549596",
+                "description": "Scheduled Ancient Monuments",
+                "format": "",
+                "hash": "",
+                "id": "c3eaebb3-c94e-4bd7-a1ec-43db37154f17",
+                "last_modified": null,
+                "metadata_modified": "2024-04-29T15:43:32.527146",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Scheduled_Ancient_Monuments",
+                "package_id": "2dd7fd41-a038-492a-91ce-541893009083",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.sthelens.gov.uk/getows.ashx?MAPSOURCE=mapsources/inspire&service=WMS&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-29T15:43:32.549599",
+                "description": "Scheduled Ancient Monuments",
+                "format": "",
+                "hash": "",
+                "id": "2492f9f5-029e-470b-a9a0-268e19840f5d",
+                "last_modified": null,
+                "metadata_modified": "2024-04-29T15:43:32.527251",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": ":Scheduled_Ancient_Monuments",
+                "package_id": "2dd7fd41-a038-492a-91ce-541893009083",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.sthelens.gov.uk/getows.ashx?mapsource=mapsources/inspire&version=1.1.0&service=WFS&request=GetFeature&TypeName=scheduled ancient monuments",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Location",
+                "id": "34de5497-97a6-4765-afb0-010add38f5d7",
+                "name": "Location",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "06b5cf2d-1e8a-48d1-86e9-b04e1e118366"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96423a5d-c812-4893-9e69-a565d00f87c0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "St Helens Council INSPIRE Metadata CSW"
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "297c539b-7587-420c-bad9-49216896383f",
+        "metadata_created": "2019-01-23T10:46:44.313510",
+        "metadata_modified": "2019-01-23T10:46:44.313519",
+        "name": "nsg",
+        "notes": "",
+        "organization": {
+            "id": "8d06299c-9f33-4ae3-9815-e3c37f43e19c",
+            "name": "geoplace",
+            "title": "Geoplace",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:54:41.935247",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8d06299c-9f33-4ae3-9815-e3c37f43e19c",
+        "private": false,
+        "source_type": "gemini-single",
+        "state": "active",
+        "title": "NSG",
+        "type": "harvest",
+        "url": "http://www.thensg.org.uk/iansg/INSPIRE/metadata/nsg-metadata.xml",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 26,
+            "last_job": {
+                "id": "0bc4b7c0-b3c1-4d75-8b10-734fa19bdcbb",
+                "created": "2016-11-24 15:57:35.208337",
+                "gather_started": "2016-11-24 15:57:37.657249",
+                "gather_finished": "2016-11-24 15:57:37.710768",
+                "finished": null,
+                "source_id": "297c539b-7587-420c-bad9-49216896383f",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get document: GetContentError(u\"Server responded with an error when accessing URL: http://www.thensg.org.uk/iansg/INSPIRE/metadata/nsg-metadata.xml Status: 403 Reason: 'Forbidden'\",)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 1
+        }
+    }
+}

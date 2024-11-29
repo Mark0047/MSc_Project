@@ -1,0 +1,149 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "aae3fa9a-a051-42e1-ae9e-a6cbfd0be31a",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-05-10T14:00:28.286354",
+        "metadata_modified": "2024-11-16T22:00:57.861829",
+        "name": "properties-vulnerable-to-heat-impacts-in-london",
+        "notes": "The Properties Vulnerable to Heat Impact report, produced by Arup, maps London's heat risk across homes, neighbourhoods, and essential properties in the wake of climate change.\n\nThe study focused on essential settings, emphasising areas where occupants are especially vulnerable to heat-related hazards. This included schools, hospitals, care homes residential properties and neighbourhoods.\n\n[Properties Vulnerable to Heat Impact Report | London City Hall](https://www.london.gov.uk/programmes-strategies/environment-and-climate-change/environment-and-climate-change-publications/properties-vulnerable-to-heat-impact-report)",
+        "num_resources": 2,
+        "num_tags": 4,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Properties Vulnerable to Heat Impacts in London",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/properties-vulnerable-to-heat-impacts-in-london",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2024-03-19T09:48:39.339Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-05-07T08:05:27.153Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "deb43849-7a06-4f45-a8ce-c8ef63d002ec"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-10T14:00:28.295630",
+                "description": null,
+                "format": "XLSX",
+                "hash": "",
+                "id": "5a5b7f3d-3128-45d3-ab7b-f9f31470ec57",
+                "last_modified": null,
+                "metadata_modified": "2024-05-17T15:00:34.118472",
+                "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "mimetype_inner": null,
+                "name": "GLA_VulnerableProperties_LayersandAttributeNames.xlsx",
+                "package_id": "aae3fa9a-a051-42e1-ae9e-a6cbfd0be31a",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/properties-vulnerable-to-heat-impacts-in-london/ffc40e9a-148d-4885-a0a7-480c6920eb4d/GLA_VulnerableProperties_LayersandAttributeNames.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-05-10T14:00:28.295633",
+                "description": "geodatabase with 4 layers. These layers used with the excel spreadsheet mean you can recreate the maps in the Properties Vulnerable to Heat Impact report.",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c10cb4e8-f03a-4bec-89d3-c1776d9cdd07",
+                "last_modified": null,
+                "metadata_modified": "2024-05-17T15:00:34.118559",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "VulnerableProperties.gdb.zip",
+                "package_id": "aae3fa9a-a051-42e1-ae9e-a6cbfd0be31a",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/properties-vulnerable-to-heat-impacts-in-london/d506f29c-564b-4e40-abb9-cdb0d6a062ef/VulnerableProperties.gdb.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "adaptation",
+                "id": "a4e6d773-e966-4823-89ec-31fab8584e3c",
+                "name": "adaptation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "climate change",
+                "id": "97cd5ff2-9d28-49a7-ab3b-8b293ed80ba0",
+                "name": "climate change",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "resilience",
+                "id": "0c58cf7e-8359-4628-b03b-fe5cb6c01881",
+                "name": "resilience",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4d4e831f-ed88-4c6a-9df9-bbe84527f623"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

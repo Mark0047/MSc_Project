@@ -1,0 +1,233 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "4064471d-a707-4095-9059-c19d8411fe05",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-11-12T06:04:07.074346",
+        "metadata_modified": "2024-11-17T11:01:17.971614",
+        "name": "planning-applications-20131",
+        "notes": "Planning application boundaries from years 2011 to 2020",
+        "num_resources": 6,
+        "num_tags": 4,
+        "organization": {
+            "id": "5327851e-43b8-408c-bf83-a00d39f58dea",
+            "name": "wigan-metropolitan-borough-council",
+            "title": "Wigan Metropolitan Borough Council",
+            "type": "organization",
+            "description": "gis datasets harvested from Wigan Councils Open Data site http://opendata.wigan.gov.uk",
+            "image_url": "",
+            "created": "2012-06-27T14:49:35.957090",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "5327851e-43b8-408c-bf83-a00d39f58dea",
+        "private": false,
+        "state": "active",
+        "title": "Planning Applications 2013",
+        "type": "dataset",
+        "url": "https://opendata.wigan.gov.uk/datasets/Wigan::planning-applications-2013",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2024-09-03T08:43:04.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-09-03T09:38:52.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Wigan Council"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=2c2afd8ff5c74eeab248a0a0909e0b62&sublayer=7"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:04:07.076143",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "3a59738d-ea4c-4145-a66e-e6be60059f08",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:04:07.069116",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "4064471d-a707-4095-9059-c19d8411fe05",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/datasets/Wigan::planning-applications-2013",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:04:07.076145",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "7251d725-6b73-4afb-81e4-6cfac7c23541",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:04:07.069195",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "4064471d-a707-4095-9059-c19d8411fe05",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.wigan.gov.uk/arcgis/rest/services/Planning_BuildingControl/Planning_Applications_2011_to_2020/MapServer/7",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:04:07.076146",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "2e25d2cf-d576-4b95-b02c-44db120cf8d2",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:04:07.069254",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "4064471d-a707-4095-9059-c19d8411fe05",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/2c2afd8ff5c74eeab248a0a0909e0b62/csv?layers=7",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:04:07.076146",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "a2fd76f6-2f33-489f-b6ad-10a7f341baed",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:04:07.069309",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "4064471d-a707-4095-9059-c19d8411fe05",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/2c2afd8ff5c74eeab248a0a0909e0b62/geojson?layers=7",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:04:07.076147",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "9daf550b-2344-4df9-84eb-df1c2b89943e",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:04:07.069363",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "4064471d-a707-4095-9059-c19d8411fe05",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/2c2afd8ff5c74eeab248a0a0909e0b62/shapefile?layers=7",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-12T06:04:07.076148",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "67f6077b-1997-45b3-9573-a47c627991e4",
+                "last_modified": null,
+                "metadata_modified": "2024-11-12T06:04:07.069418",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "4064471d-a707-4095-9059-c19d8411fe05",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.wigan.gov.uk/api/download/v1/items/2c2afd8ff5c74eeab248a0a0909e0b62/kml?layers=7",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "land",
+                "id": "f5cd996c-9dd4-4927-a5ea-c1716d2f2921",
+                "name": "land",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "plan",
+                "id": "1fe10d0a-5493-42fc-a145-b96028bcf7fb",
+                "name": "plan",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "planning",
+                "id": "d5e3a552-07a7-4262-a38d-337769833bda",
+                "name": "planning",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "planning applications",
+                "id": "fc1a62c8-79c2-4763-9d83-3ff13734e707",
+                "name": "planning applications",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9bd25a46-b090-46c6-a54a-bdb21f38dd33"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c951075d-26cc-47cb-822b-d8de5fa5d3cb"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wigan Council"
+            }
+        ]
+    }
+}

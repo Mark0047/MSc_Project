@@ -1,0 +1,66 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "29c9d884-0240-461b-9be8-28e494f6353b",
+        "metadata_created": "2019-01-23T10:47:12.467606",
+        "metadata_modified": "2019-10-24T13:14:42.130619",
+        "name": "ministry-of-justice-statistics",
+        "notes": "",
+        "organization": {
+            "id": "843d1d69-29e3-4c5a-9ba8-14b3e5f444a5",
+            "name": "ministry-of-justice",
+            "title": "Ministry of Justice",
+            "type": "organization",
+            "description": "We work to protect the public and reduce reoffending, and to provide a more effective, transparent and responsive criminal justice system for victims and the public.\r\n\r\nMOJ is a ministerial department, supported by 37 agencies and public bodies.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-justice\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.268812",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "843d1d69-29e3-4c5a-9ba8-14b3e5f444a5",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "Ministry of Justice statistics",
+        "type": "harvest",
+        "url": "https://raw.githubusercontent.com/moj-analytical-services/data-harvester/master/datafile/data.json",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 152,
+            "last_job": {
+                "id": "158c64a7-4d84-456e-a4ac-8364d89184a5",
+                "created": "2019-10-24 13:16:24.759586",
+                "gather_started": "2019-11-01 10:21:40.284968",
+                "gather_finished": "2019-11-01 10:21:40.895889",
+                "finished": "2019-10-24 13:16:33.715350",
+                "source_id": "29c9d884-0240-461b-9be8-28e494f6353b",
+                "status": "Finished",
+                "stats": {
+                    "added": 1,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0,
+                    "null": 18
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Could not get content from https://raw.githubusercontent.com/moj-analytical-services/data-harvester/master/datafile/data.json. Server responded with 404 Not Found",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

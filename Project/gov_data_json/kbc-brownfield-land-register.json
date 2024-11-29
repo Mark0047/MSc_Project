@@ -1,0 +1,142 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@kettering.gov.uk",
+        "contact-name": "GIS Team",
+        "contact-phone": "01536 410333",
+        "core-dataset": false,
+        "creator_user_id": "498fd51f-2890-4b04-8459-b79e2d8cbee5",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "geographic_coverage": "100000: England",
+        "id": "ac176c56-eff4-4403-bb42-62c04ef9cb7e",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-12-22T18:23:40.137653",
+        "metadata_modified": "2018-04-17T13:27:41.326435",
+        "name": "kbc-brownfield-land-register",
+        "notes": "Kettering Borough Council Brownfield Land Register (December 2017).",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "1626f20c-b5fb-4c17-9132-235dfb073f2b",
+            "name": "kettering-borough-council",
+            "title": "Kettering Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-22T16:53:37.452738",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1626f20c-b5fb-4c17-9132-235dfb073f2b",
+        "private": false,
+        "schema-vocabulary": "[\"eca31d0d-e78e-445f-957d-38b0463989a4\"]",
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "government",
+        "theme-secondary": [
+            ""
+        ],
+        "title": "KBC Brownfield Land Register",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"http://www.legislation.gov.uk/uksi/2017/403/contents/made\"]"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-12-22T18:23:40.183835",
+                "description": "KBC Brownfield Land Register (CSV)",
+                "format": "CSV",
+                "hash": "",
+                "id": "c7242011-92ff-431f-bbcf-86b92b1001c3",
+                "last_modified": null,
+                "metadata_modified": "2017-12-22T18:23:40.183835",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ac176c56-eff4-4403-bb42-62c04ef9cb7e",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://maps.kettering.gov.uk/brownfield/BrownfieldLandRegisterKetteringBoroughCouncil.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-04-17T14:24:53.850507",
+                "description": "KBC Brownfield Land Register",
+                "format": "WMS",
+                "hash": "",
+                "id": "e86cf437-eccb-4d0f-88ae-dd193fd1de25",
+                "last_modified": null,
+                "metadata_modified": "2018-04-17T14:24:53.850507",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ac176c56-eff4-4403-bb42-62c04ef9cb7e",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://maps.kettering.gov.uk/oglwms/wms?service=WMS&Request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-04-17T14:24:53.850537",
+                "description": "KBC Brownfield Land Register",
+                "format": "WFS",
+                "hash": "",
+                "id": "dae7af69-3d90-496f-81e3-800afcf968dd",
+                "last_modified": null,
+                "metadata_modified": "2018-04-17T14:24:53.850537",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "ac176c56-eff4-4403-bb42-62c04ef9cb7e",
+                "position": 2,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://maps.kettering.gov.uk/oglwfs/wfs?service=WFS&Request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

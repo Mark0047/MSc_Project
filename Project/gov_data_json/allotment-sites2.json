@@ -1,0 +1,320 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "allotments@salford.gov.uk",
+        "creator_user_id": null,
+        "id": "316b5b77-4e3c-4a8d-9630-3fd4aad4fff0",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2014-01-24T15:50:09.978419",
+        "metadata_modified": "2021-08-23T16:09:44.873737",
+        "name": "allotment-sites2",
+        "notes": "Salford City Council managed allotment sites.",
+        "num_resources": 6,
+        "num_tags": 4,
+        "organization": {
+            "id": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+            "name": "salford-city-council",
+            "title": "Salford City Council",
+            "type": "organization",
+            "description": "Salford City Council",
+            "image_url": "2019-01-31-104033.251731SCCmag.png",
+            "created": "2012-06-27T14:50:51.970331",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Allotment Sites",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Open Government Licence v3.0 (http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.27533"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.566156634643"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.39158"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.44991"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-01-24\"}, {\"type\": \"creation\", \"value\": \"2013-11-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "9e9b65d1-3c9e-4c88-9eae-21e290340483"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "55e7cb31-6837-4271-8482-61cb07f1271d"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-07-25T14:40:14"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Salford City Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Salford City Council (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.27533, 53.39158], [-2.44991, 53.39158], [-2.44991, 53.566156634643], [-2.27533, 53.566156634643], [-2.27533, 53.39158]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "dd87a718-4037-4e7b-bb62-78242d3c898c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-23T16:09:45.280443",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "f6bafdee-2bcf-40f8-bf29-8892c364da28",
+                "last_modified": null,
+                "metadata_modified": "2021-08-23T16:09:44.888636",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON format",
+                "package_id": "316b5b77-4e3c-4a8d-9630-3fd4aad4fff0",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://map.salford.gov.uk/geoserver/OpenData/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=OpenData:allotments&outputFormat=application/json&srsName=EPSG:4326",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-23T16:09:45.280448",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "8d8d5323-c46b-4564-a6fa-e1bfe95ef5a6",
+                "last_modified": null,
+                "metadata_modified": "2021-08-23T16:09:44.888817",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV format",
+                "package_id": "316b5b77-4e3c-4a8d-9630-3fd4aad4fff0",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://map.salford.gov.uk/geoserver/OpenData/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=OpenData:allotments&maxFeatures=50&outputFormat=csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-23T16:09:45.280450",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "0ccb1ff8-6f53-4e67-8a2c-5e1a530d1d1c",
+                "last_modified": null,
+                "metadata_modified": "2021-08-23T16:09:44.888957",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WMS INSPIRE View Service",
+                "package_id": "316b5b77-4e3c-4a8d-9630-3fd4aad4fff0",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://map.salford.gov.uk/geoserver/OpenData/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-23T16:09:45.280452",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "291ccb6d-e3cc-42a9-a20f-31c75f5dc069",
+                "last_modified": null,
+                "metadata_modified": "2021-08-23T16:09:44.889091",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFS INSPIRE Download Service",
+                "package_id": "316b5b77-4e3c-4a8d-9630-3fd4aad4fff0",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://map.salford.gov.uk/geoserver/OpenData/ows?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-23T16:09:45.280454",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "16a7140b-b412-41fb-ace2-fbe113131c4d",
+                "last_modified": null,
+                "metadata_modified": "2021-08-23T16:09:44.889223",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SPARQL endpoint",
+                "package_id": "316b5b77-4e3c-4a8d-9630-3fd4aad4fff0",
+                "position": 4,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.gmdsp.org.uk/sparql?&query=PREFIX+dcterms%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0APREFIX+qb%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0A%0ASELECT+DISTINCT+%2A%0AWHERE+%7B%0A++GRAPH+%3Chttp%3A%2F%2Fdata.gmdsp.org.uk%2Fgraph%2Fsalford%2Fallotments%3E+%7B%0A++++%3Fs+%3Fp+%3Fo%0A++%7D%0A%7D%0ALIMIT+20",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-08-23T16:09:45.280455",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "ca9ef710-b808-4d7c-a2bf-f504a1803f99",
+                "last_modified": null,
+                "metadata_modified": "2021-08-23T16:09:44.889354",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RDF",
+                "package_id": "316b5b77-4e3c-4a8d-9630-3fd4aad4fff0",
+                "position": 5,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.gmdsp.org.uk/data/salford/allotments.rdf?uri=http%3A%2F%2Fdata.gmdsp.org.uk%2Fdata%2Fsalford%2Fallotments",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Agricultural and aquaculture facilities",
+                "id": "2e0f187b-4fcc-488b-8ca5-898d1efcdc81",
+                "name": "Agricultural and aquaculture facilities",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land_allotment",
+                "id": "b9b4c206-49e9-475c-b081-51c96394e258",
+                "name": "land_allotment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land_use",
+                "id": "126f70e7-1a3b-43d6-8d50-d3fe435b6a71",
+                "name": "land_use",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "55e7cb31-6837-4271-8482-61cb07f1271d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "dd87a718-4037-4e7b-bb62-78242d3c898c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

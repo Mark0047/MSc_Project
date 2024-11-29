@@ -1,0 +1,217 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "6729b3c0-e7a1-4122-aa41-8a8ab810d7c4",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-02-19T04:36:25.401095",
+        "metadata_modified": "2020-04-12T08:27:13.916367",
+        "name": "environment-agency-flood-monitoring1",
+        "notes": "<p>The Environment Agency flood-monitoring API provides developers with access to real time information covering:<br />\n\u2022flood warnings and flood alerts<br />\n\u2022flood areas which to which warnings or alerts apply<br />\n\u2022forecast of flood risks over the next three days<br />\n\u2022measurements of water levels and flows<br />\n\u2022information on the monitoring stations providing those measurements</p>\n<p>These APIs are provided as open data under the Open Government Licence with no requirement for registration. If you make use of this data please acknowledge this with the following attribution statement:</p>\n<p><em>This uses Environment Agency flood and river level data from the real-time data API (Beta)</em></p>\n<p>For questions on the APIs please contact <a href=\"mailto:data.info@environment-agency.gov.uk\">data.info@environment-agency.gov.uk</a>, a forum for announcements and discussion is under consideration.</p>\n<p><em>This uses Environment Agency flood and river level data from the real-time data API (Beta)</em></p>\n<p>More details available at: <a href=\"http://environment.data.gov.uk/flood-monitoring/doc/reference#introduction\">http://environment.data.gov.uk/flood-monitoring/doc/reference#introduction</a></p>\n",
+        "num_resources": 5,
+        "num_tags": 3,
+        "organization": {
+            "id": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+            "name": "cambridgeshire-insight",
+            "title": "Cambridgeshire Insight",
+            "type": "organization",
+            "description": "The Cambridgeshire Insight Partnership is made up of public, health and community bodies to provide a shared research knowledge base for the Cambridgeshire area. It allows users an easy way to access and share data, information and research for deeper insights about their local area. See more at https://cambridgeshireinsight.org.uk",
+            "image_url": "",
+            "created": "2014-05-19T12:10:18.790087",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+        "private": false,
+        "state": "active",
+        "title": "Environment Agency flood-monitoring",
+        "type": "dataset",
+        "url": "https://data.cambridgeshireinsight.org.uk/dataset/environment-agency-flood-monitoring",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2018-07-30"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2019-02-05"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Cambridgeshire Research Group"
+            },
+            {
+                "key": "guid",
+                "value": "a657bba6-e18c-4450-a479-a61d2fe88d8c"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c2c47fe5-0733-4bca-921f-c3a7be947b99"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:27:14.312316",
+                "description": "<p>Flood warnings data for England<br />\nThe Environment Agency issue warnings of floods that cover specific warning or alert areas. The floods API provides a listing of all current such warnings and is updated every 15minutes.</p>\n<p>A warning may be at one of four possible severity levels:</p>\n<p>1 Severe Flood Warning:  Severe Flooding, Danger to Life.</p>\n<p>2 Flood Warning: Flooding is Expected, Immediate Action Required.</p>\n<p>3 Flood Alert: Flooding is Possible, Be Prepared.</p>\n<p>4 Warning no Longer in Force: The warning is no longer in force</p>\n<p><em>this uses Environment Agency flood and river level data from the real-time data API (Beta)</em></p>\n<p><strong>If no data appears, this is because there have been no flood warnings issued for Cambridgeshire. For all flood warnings please see the <a href=\"http://apps.environment-agency.gov.uk/flood/31618.aspx\">Environment Agency's Flood Warning page</a>.</strong></p>\n<p>More details available at: <a href=\"http://environment.data.gov.uk/flood-monitoring/doc/reference#api-requests\">http://environment.data.gov.uk/flood-monitoring/doc/reference#api-requests</a></p>\n",
+                "format": "JSON",
+                "hash": "",
+                "id": "24ab8025-4092-427c-929e-3e10f2ba6248",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:27:14.312316",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Flood warnings",
+                "package_id": "6729b3c0-e7a1-4122-aa41-8a8ab810d7c4",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://<div class=\"field field-name-field-link-remote-file field-type-file field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\">http://environment.data.gov.uk/flood-monitoring/id/floods</div></div></div>",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:27:14.312324",
+                "description": "<p>Flood areas whose label contains the term Cambridgeshire</p>\n<p>The flood areas API provide information on the geographic regions to which a given flood alert or warning may apply. These comprise Flood Alert Areas and Flood Warning Areas. A Flood Alert Area is a geographical area where it is possible for flooding to occur from rivers, sea and in some locations, groundwater. A single Flood Alert Area may cover a large portion of the floodplain, may contain multiple river catchments of similar characteristics and may contain a number of Flood Warning Areas. A Flood Warning Area is a geographical area where Environment Agency expect flooding to occur and which they provide a Flood Warning Service.</p>\n<p>More details at: <a href=\"https://defradigital.blog.gov.uk/2015/03/24/near-real-time-flood-data-api/\">https://defradigital.blog.gov.uk/2015/03/24/near-real-time-flood-data-api/</a></p>\n<p><em>this uses Environment Agency flood and river level data from the real-time data API (Beta)</em></p>\n<p>More details available at: <a href=\"http://environment.data.gov.uk/flood-monitoring/doc/reference#introduction\">http://environment.data.gov.uk/flood-monitoring/doc/reference#introduction</a></p>\n",
+                "format": "JSON",
+                "hash": "",
+                "id": "4bcdf251-e7fd-4ca8-b92a-68a6f9a7a3b4",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:27:14.312324",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Flood areas-Cambridgeshire",
+                "package_id": "6729b3c0-e7a1-4122-aa41-8a8ab810d7c4",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/?=search=cambridge",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:27:14.312326",
+                "description": "<p>Flood monitoring stations-England</p>\n<p>The real-time data API provides information on readings of water levels and flows take at a variety of measurement stations. A given station may provide more than one set of measurements, for example, both water level and flow rate or water level at two different spots (e.g. up-stream and down-stream of a sluice or weir). The API provides metadata on these stations and on the different measures available from each one, as well as the readings themselves.</p>\n<p><em>this uses Environment Agency flood and river level data from the real-time data API (Beta)</em></p>\n<p>More details available at: <a href=\"http://environment.data.gov.uk/flood-monitoring/doc/reference#introduction\">http://environment.data.gov.uk/flood-monitoring/doc/reference#introduction</a></p>\n",
+                "format": "JSON",
+                "hash": "",
+                "id": "75f9e944-cc69-4f87-a6fd-da54f1a17039",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:27:14.312326",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Flood monitoring stations",
+                "package_id": "6729b3c0-e7a1-4122-aa41-8a8ab810d7c4",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://<div class=\"field field-name-field-link-remote-file field-type-file field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\">http://environment.data.gov.uk/flood-monitoring/id/stations</div></div></div>",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:27:14.312328",
+                "description": "<p>The latest 1000 entries of real-time water groundwater level measurements from all stations in the county of Cambridgeshire, on the River Cam, in .csv format.</p>\n<p>The real-time data API provides information on readings of water levels and flows take at a variety of measurement stations. A given station may provide more than one set of measurements, for example, both water level and flow rate or water level at two different spots (e.g. up-stream and down-stream of a sluice or weir). The API provides metadata on these stations and on the different measures available from each one, as well as the readings themselves.</p>\n<p>This uses Environment Agency flood and river level data from the real-time data API (Beta)</p>\n<p>More details available at: <a href=\"http://environment.data.gov.uk/flood-monitoring/doc/reference#introduction\">http://environment.data.gov.uk/flood-monitoring/doc/reference#introduction</a></p>\n",
+                "format": "JSON",
+                "hash": "",
+                "id": "61c11def-8f6e-4077-9b12-36272a481107",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:27:14.312328",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "TEST Cambridgeshire Real-Time River Level Measurements ",
+                "package_id": "6729b3c0-e7a1-4122-aa41-8a8ab810d7c4",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://<div class=\"field field-name-field-link-remote-file field-type-file field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\">http://environment.data.gov.uk/flood-monitoring/data/readings.csv?latest&?county=Cambridgeshire&?riverName=Cam?_sorted&_limit=1000&?qualifier=groundwater</div></div></div>",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:27:14.312330",
+                "description": "<p>A JSON file of all the river gauge stations in the Cam and Ely Ouse catchment (Including South level).</p>\n<p>The real-time data API provides information on readings of water levels and flows take at a variety of measurement stations. A given station may provide more than one set of measurements, for example, both water level and flow rate or water level at two different spots (e.g. up-stream and down-stream of a sluice or weir). The API provides metadata on these stations and on the different measures available from each one, as well as the readings themselves.</p>\n<p>This uses Environment Agency flood and river level data from the real-time data API (Beta)</p>\n<p>More details available at: <a href=\"http://environment.data.gov.uk/flood-monitoring/doc/reference#introduction\">http://environment.data.gov.uk/flood-monitoring/doc/reference#introduction</a></p>\n",
+                "format": "JSON",
+                "hash": "",
+                "id": "665cac39-f53a-4009-94ee-be009eda706e",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:27:14.312330",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "TEST Cam and Ely Ouse gauge stations JSON",
+                "package_id": "6729b3c0-e7a1-4122-aa41-8a8ab810d7c4",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://<div class=\"field field-name-field-link-remote-file field-type-file field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\">http://environment.data.gov.uk/flood-monitoring/id/stations?catchmentName=Cam%20and%20Ely%20Ouse%20%28Including%20South%20Level%29</div></div></div>",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Environment",
+                "id": "db7de4be-adbc-4ab6-9cec-d555c287d2d7",
+                "name": "Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood",
+                "id": "90af076f-75b0-42fc-80aa-ac2ff7993443",
+                "name": "flood",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "floods",
+                "id": "4e9c1da6-43a8-449c-beb5-e5bb557c9c1b",
+                "name": "floods",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c2c47fe5-0733-4bca-921f-c3a7be947b99"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ]
+    }
+}

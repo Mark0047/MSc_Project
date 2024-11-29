@@ -1,0 +1,156 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "0c8c0d09-7add-454d-84c7-a362ded66906",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-03-26T15:41:47.168356",
+        "metadata_modified": "2024-11-16T22:01:04.419343",
+        "name": "covid-19-restrictions-timeseries",
+        "notes": "National and local restrictions and policies affecting London, by date.\n\nSupplied as an experimental dataset to provide context for analysis of other social or economic datasets, for instance, footfall and spend data timeseries.\n\nInformation was mainly gathered from government announcements published by the [Prime Minister's Office](https://www.gov.uk/search/all?parent=prime-ministers-office-10-downing-street&level_one_taxon=5b7b9532-a775-4bd2-a3aa-6ce380184b6c&organisations%5B%5D=prime-ministers-office-10-downing-street&order=updated-newest).\n\nThe restrictions and policies included are:\n\n*   School closures - complete closures only\n*   Pub closures - excluding pubs that serve food\n*   Shop closures - non-essential\n*   Eating Places closures - including pubs that serve food\n*   Stay at home orders\n*   Household mixing indoors banned\n*   Working from home encouraged\n*   Rule of 6 indoors\n*   10pm curfew on hospitality\n*   Eat Out to Help Out scheme",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "COVID-19 Restrictions Timeseries",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/covid-19-restrictions-timeseries",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2021-02-18T08:20:27.791Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-01-14T18:52:29.021Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "4c6f311e-29b8-431d-b374-df151f8b2ce7"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:41:47.176516",
+                "description": "Summary of changes to restrictions and policies",
+                "format": "CSV",
+                "hash": "",
+                "id": "29df7cff-f475-4546-9d52-f3d482a917b1",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:51.934188",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "restrictions_summary.csv",
+                "package_id": "0c8c0d09-7add-454d-84c7-a362ded66906",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/covid-19-restrictions-timeseries/03073b4a-2f5d-4a0a-be90-4fe3d9f609c9/restrictions_summary.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:41:47.176521",
+                "description": "Daily dataset of restrictions and policies",
+                "format": "CSV",
+                "hash": "",
+                "id": "dfe7efdd-ed32-49f3-82ce-0cf569350269",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:51.934310",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "restrictions_daily.csv",
+                "package_id": "0c8c0d09-7add-454d-84c7-a362ded66906",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/covid-19-restrictions-timeseries/ae1b5b4c-3b5c-471f-b3e5-ba4fbc3eced9/restrictions_daily.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:41:47.176524",
+                "description": "Weekly dataset of restrictions and policies. A policy is considered to be in effect for a week if it was in effect for any day within that week",
+                "format": "CSV",
+                "hash": "",
+                "id": "46fee415-45d8-4366-8d5e-29480d36595d",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:51.934410",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "restrictions_weekly.csv",
+                "package_id": "0c8c0d09-7add-454d-84c7-a362ded66906",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/covid-19-restrictions-timeseries/4ff3ec91-cef2-4640-9551-da78d06eb5e7/restrictions_weekly.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Busyness",
+                "id": "f7de0dfe-c3f8-41e4-a9a2-26409fc174a1",
+                "name": "Busyness",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "highstreetdata",
+                "id": "386c8664-6b2a-46c0-aeb1-cf1ef04d122b",
+                "name": "highstreetdata",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c2b6dd01-b635-45cf-b863-0ee86de0363f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

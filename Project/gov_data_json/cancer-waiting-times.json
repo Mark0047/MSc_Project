@@ -1,0 +1,224 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "5624cab2-85cc-4932-bb6e-63d67e49f516",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-12-08T23:06:45.270836",
+        "metadata_modified": "2019-12-21T12:05:25.557138",
+        "name": "cancer-waiting-times",
+        "notes": "Details information on the waiting times for patients accessing cancer services at hospitals in Northern Ireland. This information reports on the performance of Health and Social Care (HSC) Trusts against the ministerial targets (62 day, 31 day and 14 day) in Northern Ireland.",
+        "num_resources": 5,
+        "num_tags": 6,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "Cancer Waiting Times",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-05T09:50:28.274984",
+                "datastore_active": true,
+                "description": "Details information on the number of patients who received their first treatment for cancer within 62 days following an urgent GP referral for suspect cancer in Northern Ireland. Data are presented by Health & Social Care (HSC) Trust.",
+                "format": "CSV",
+                "hash": "",
+                "id": "4a032dd1-1dc9-469b-a165-5aac2cb5b6d1",
+                "last_modified": null,
+                "metadata_modified": "2017-10-05T09:50:28.274984",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "62 Day Cancer Waiting Times by HSC Trust",
+                "package_id": "5624cab2-85cc-4932-bb6e-63d67e49f516",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.health-ni.gov.uk/sites/default/files/publications/health/hs-niwts-cwt-62-day-wait-by-trust-q1-19-20.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-05T09:51:42.479154",
+                "datastore_active": true,
+                "description": "Details information on the number of patients who received their first treatment for cancer within 62 days following an urgent GP referral for suspect cancer in Northern Ireland. Data are presented by Tumour site.",
+                "format": "CSV",
+                "hash": "",
+                "id": "a4ed6936-d1bc-4911-a3a8-4fe1620f7c35",
+                "last_modified": null,
+                "metadata_modified": "2017-10-05T09:51:42.479154",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "62 Day Cancer Waiting Times by Tumour Site",
+                "package_id": "5624cab2-85cc-4932-bb6e-63d67e49f516",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.health-ni.gov.uk/sites/default/files/publications/health/hs-niwts-cwt-62-day-wait-by-tumour-q1-19-20.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-05T09:57:25.339388",
+                "datastore_active": true,
+                "description": "Details information on the number of patients diagnosed with cancer who received their first definitive treatment within 31 days of a decision to treat in Northern Ireland. Data are presented by Health & Social Care (HSC) Trust.",
+                "format": "CSV",
+                "hash": "",
+                "id": "dbace7dd-a5c1-455e-82a0-af7230724135",
+                "last_modified": null,
+                "metadata_modified": "2017-10-05T09:57:25.339388",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "31 Day Cancer Waiting Times by HSC Trust",
+                "package_id": "5624cab2-85cc-4932-bb6e-63d67e49f516",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.health-ni.gov.uk/sites/default/files/publications/health/hs-niwts-cwt-31-day-wait-by-trust-q1-19-20.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-05T09:58:56.586572",
+                "datastore_active": true,
+                "description": "Details information on the number of patients diagnosed with cancer who received their first definitive treatment within 31 days of a decision to treat in Northern Ireland. Data are presented by Tumour Site.",
+                "format": "CSV",
+                "hash": "",
+                "id": "460b41a8-e2f0-49e1-8b7c-0639324eba40",
+                "last_modified": null,
+                "metadata_modified": "2017-10-05T09:58:56.586572",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "31 Day Cancer Waiting Times by Tumour Site",
+                "package_id": "5624cab2-85cc-4932-bb6e-63d67e49f516",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.health-ni.gov.uk/sites/default/files/publications/health/hs-niwts-cwt-31-day-wait-by-tumour-q1-19-20.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-10-05T10:03:33.579357",
+                "datastore_active": true,
+                "description": "Details information on the number of patients first seen within 14 days by a breast cancer specialist following an urgent referral for suspect breast cancer in Northern Ireland. Data are presented by Tumour Site.",
+                "format": "CSV",
+                "hash": "",
+                "id": "95000bfe-ad11-45c2-add2-8a6b33d7a557",
+                "last_modified": null,
+                "metadata_modified": "2017-10-05T10:03:33.579357",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "14 Day Cancer Waiting Times",
+                "package_id": "5624cab2-85cc-4932-bb6e-63d67e49f516",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.health-ni.gov.uk/sites/default/files/publications/health/hs-niwts-cwt-14-day-wait-q1-19-20.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "14 day",
+                "id": "c8751b0d-36c8-4e10-8101-c3876c47f878",
+                "name": "14 day",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "31 day",
+                "id": "12bc854d-a1f3-46ec-be33-ed1bbada6f93",
+                "name": "31 day",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "62 day",
+                "id": "342de0d1-3ab8-4a96-8ab1-c21fbda6c373",
+                "name": "62 day",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "breast cancer",
+                "id": "443759c7-2a42-4e28-b4d5-4fcae1cfec24",
+                "name": "breast cancer",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "cancer",
+                "id": "b7174fc1-4f60-4d15-85a7-fd00ea8432f2",
+                "name": "cancer",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "waiting",
+                "id": "5abac148-44d1-4fcf-a1c4-be5569f4baa7",
+                "name": "waiting",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "b88e55ad-2299-4853-ba6b-c94a2a61ae4c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b88e55ad-2299-4853-ba6b-c94a2a61ae4c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

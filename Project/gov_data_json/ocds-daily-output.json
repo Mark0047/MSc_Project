@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "ab712408-5ed9-4f79-a56c-0674c0985fb6",
+        "metadata_created": "2019-01-23T11:08:23.233446",
+        "metadata_modified": "2019-01-23T11:08:23.233452",
+        "name": "ocds-daily-output",
+        "notes": "",
+        "organization": {
+            "id": "0c855f89-6759-4c78-80df-f829e5d77aca",
+            "name": "crown-commercial-service",
+            "title": "Crown Commercial Service",
+            "type": "organization",
+            "description": "The Crown Commercial Service (CCS) brings together policy, advice and direct buying; providing commercial services to the public sector and saving money for the taxpayer.\r\n\r\nCCS is an executive agency, sponsored by the Cabinet Office",
+            "image_url": "",
+            "created": "2016-10-12T12:33:58.793001",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "0c855f89-6759-4c78-80df-f829e5d77aca",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "OCDS Daily Output",
+        "type": "harvest",
+        "url": "https://www.contractsfinder.service.gov.uk/harvester/notices/data/csv/daily",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 9,
+            "last_job": {
+                "id": "dc8ecca1-bbd6-4fd2-aa0a-63897f1d2d81",
+                "created": "2017-12-14 17:51:34.546620",
+                "gather_started": "2017-12-14 17:51:38.631262",
+                "gather_finished": "2017-12-14 17:51:43.888231",
+                "finished": null,
+                "source_id": "ab712408-5ed9-4f79-a56c-0674c0985fb6",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Error parsing: Error parsing JSON: No JSON object could be decoded",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

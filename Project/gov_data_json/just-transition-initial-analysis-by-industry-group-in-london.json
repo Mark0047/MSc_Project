@@ -1,0 +1,135 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "6cd166e9-8d6b-4d99-9a80-e64426cdb965",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-03-26T15:42:05.076292",
+        "metadata_modified": "2024-11-16T22:01:41.960303",
+        "name": "just-transition-initial-analysis-by-industry-group-in-london",
+        "notes": "These slides begin to explore the potential impacts of the transition to a net-zero carbon and circular economy on different industry groups and workers in London.\n\nIt should be noted that this analysis has not been based on London\u2019s emissions as reported through the [London Energy and Greenhouse Gas Inventory](https://data.london.gov.uk/dataset/leggi) (LEGGI). Instead we use [UK level data](https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/ukenvironmentalaccounts/2020) on emissions and energy consumption by industry group and apportion to a London level using regional employment estimates.\n\nThis is an imperfect approach, intended to provide a first approximation of trends by industry group based on available data. The findings provide an initial insight but should be treated with caution.\n\n**Main findings from the analysis**\n\nAmong the main findings, the analysis shows that by industry group:\n\n*   London apportioned GHG emissions are highest in Transport & Storage, followed by Electricity & Gas and Manufacturing\n*   High-emitting industry groups tend to account for a relatively small share of employment among London residents\n*   Some (but not all) high-emitting industry groups have seen a recent increase in GHG emissions at the UK level and employment at the London level\n*   Jobs in high-emitting industry groups tend to be spatially concentrated in different parts of London\n\n **What are the main assumptions behind these findings?**\n\nIn the absence of sub-national estimates being available by industry group, we have apportioned UK GHG emissions and energy consumption to London using (resident based) ONS Annual Population Survey data. This allows us to look at trends using Standard Industrial Classification (SIC 2007) groups.\n\nThis approach assumes that GHG emissions per worker and energy consumption per worker are the same within industries across the country. In reality, the occupational structure and carbon intensity of an industry is likely to vary across regions. It also reflects resident, not workplace, employment patterns.\n\nOur London apportion estimates also exclude GHG emissions from consumer expenditure and only covers direct emissions by industry. Further analysis of indirect emissions across supply chains could be of value when considering the longer-term challenges faced by the economy as part of this transition.",
+        "num_resources": 1,
+        "num_tags": 5,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Just transition initial analysis by industry group in London",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/just-transition-initial-analysis-by-industry-group-in-london",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2021-02-26T15:14:53.322Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2021-03-01T09:27:13.075Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "9191299e-7ba7-469e-abd2-db7b096a7c72"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:42:05.090791",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "86e033d4-9d34-4368-bb25-a1f7bf49a04b",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:59.086604",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "JT industry analysis - Final-published.pdf",
+                "package_id": "6cd166e9-8d6b-4d99-9a80-e64426cdb965",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/just-transition-initial-analysis-by-industry-group-in-london/752a685a-9611-48ec-be5b-a2de434310b4/JT%2520industry%2520analysis%2520-%2520Final-published.pdf",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Sectors",
+                "id": "cb296ddd-7ac3-4f0e-aee7-466b3f9dcc49",
+                "name": "Sectors",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "carbon",
+                "id": "5c410519-5f4a-4cd8-bf0a-1acf13317eb8",
+                "name": "carbon",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "carbon-reduction",
+                "id": "8b550bfc-7e91-4110-82b6-fbbad3177e98",
+                "name": "carbon-reduction",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "employment",
+                "id": "de55ca0b-32d2-4d5f-a030-7419902aeecf",
+                "name": "employment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d0768efc-8aec-4218-9642-a5282c0197dd"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

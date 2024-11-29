@@ -1,0 +1,462 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis_supportteam@bristol.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "fa026d39-908a-4f65-84d1-c6c1b7b7c383",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-07-18T12:58:54.208473",
+        "metadata_modified": "2024-07-18T12:58:54.208478",
+        "name": "bristol-city-council-datagov-wms2",
+        "notes": " Web Map Service (WMS) providing access to datasets held by Bristol City Council. This service replicates the individual datasets listed under data.gov.uk.NOTE: Includes some Ordnance Survey data released under presumption to publish.  Please include the acknowledgement 'Contains OS data \u00a9 Crown copyright and [database rights] [year of issue]'",
+        "num_resources": 1,
+        "num_tags": 40,
+        "organization": {
+            "id": "7bbcdc7a-74d0-4a53-a07a-2c15bd7f6bd6",
+            "name": "bristol-city-council",
+            "title": "Bristol City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:56.618466",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "7bbcdc7a-74d0-4a53-a07a-2c15bd7f6bd6",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-01-14"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Bristol City Council DATAGOV WMS",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Licence\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.14"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.89"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.19"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.01"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Designated car parks.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Rider zones.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/City Evacuation Zones.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Bus stops.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Trees.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Discretionary licensing.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Debt advice agencies.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Park User Facilities.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Grit bins.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/No cold-calling zones.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/S106 agreements.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Tourist information.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Secondary School areas of second priority.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Reported highways issues.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Twenty mph limits.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Temporary Play Street Orders.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Cycle shops and repairs.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/BMX facilities.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Public Toilets - Community.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Cycling - strategic routes.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Cycling - Leisure rides.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Area committees (CIL areas).xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Wards.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Public Toilets - Council.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Public bike pumps.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Cycle network.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Childrens Play Equipment.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Parks and green spaces.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Council CCTV cameras.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Childrens centre reach areas.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Cumulative Impact Areas.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Neighbourhood Planning Network.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Gullies.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Streetlights and Street Furniture.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Secondary School areas of first priority.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Car parks.xml\"], \"uuid\": []}, {\"title\": [], \"href\": [\"https://maps.bristol.gov.uk/metadata/DATAGOV/Student accommodation.xml\"], \"uuid\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2016-01-14\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "d79a9832-6568-4a0e-b8a8-f79e38a8be2e"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "fd4889ad-4c25-4e31-ad7f-c38f6c42f71b"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Public access subject to use constraints : Contains OS data \\u00a9 Crown copyright and [database rights] [year of issue]\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-18"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Bristol City Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Bristol City Council (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.14, 51.19], [-3.01, 51.19], [-3.01, 51.89], [-2.14, 51.89], [-2.14, 51.19]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "view"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3976e316-890c-49df-beeb-3d9f5d14332e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Bristol City Council Datagov"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": true,
+                "created": "2024-07-18T12:58:54.211955",
+                "description": "Resource locator",
+                "format": "WMS",
+                "hash": "",
+                "id": "5590fa0a-815c-4a4e-9ef8-327f2991485b",
+                "last_modified": null,
+                "metadata_modified": "2024-07-18T12:58:54.124939",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "fa026d39-908a-4f65-84d1-c6c1b7b7c383",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps2.bristol.gov.uk/server2/services/ext/datagov/MapServer/WMSServer?service=WMS&request=GetCapabilities",
+                "url_type": null,
+                "verified": true,
+                "verified_date": "2024-07-18T12:58:54.107019"
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Administrative units",
+                "id": "8d20781b-12df-4d16-809a-b340746e0775",
+                "name": "Administrative units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Area management/restriction/regulation zones and r",
+                "id": "85a96129-b6e5-46e1-8dd8-75fd5990e434",
+                "name": "Area management/restriction/regulation zones and r",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Built environment",
+                "id": "778f3f1b-9470-4145-b2b6-ec512bea4fd2",
+                "name": "Built environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Care",
+                "id": "9ecfca6c-3924-4475-bc46-afbe923dcc7f",
+                "name": "Care",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Children's activities",
+                "id": "1e0cd4dd-8454-4365-ac02-d55871f7753f",
+                "name": "Children's activities",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Community development",
+                "id": "8405e3ac-3bf5-4703-b0de-dc4f4b66e83b",
+                "name": "Community development",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Community facilities",
+                "id": "3cd42cbe-7e1a-45df-b01a-5ba0ae9bb0df",
+                "name": "Community facilities",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Community transport",
+                "id": "ba92f679-d886-442f-937c-32beae820716",
+                "name": "Community transport",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Commuting",
+                "id": "0466ca46-b826-41de-bb1b-9d6be5a0a965",
+                "name": "Commuting",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Crime and law enforcement",
+                "id": "95d399ea-455f-400d-ac80-ce7b2d7ba429",
+                "name": "Crime and law enforcement",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Disability",
+                "id": "c30bb7ec-16ca-4036-86ab-252c44147249",
+                "name": "Disability",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Emergencies",
+                "id": "23da41c7-09f9-40e7-8cd1-53cbcbbcbe3b",
+                "name": "Emergencies",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Further and higher education",
+                "id": "9f0dd622-b8c5-4189-a265-3a99659a2dae",
+                "name": "Further and higher education",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Hobbies and interests",
+                "id": "09a4df1e-9ac9-4eb4-b33f-748c0cbc882e",
+                "name": "Hobbies and interests",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Houses in multiple occupation",
+                "id": "eb331301-22de-4557-ba12-a0665d9f3a2a",
+                "name": "Houses in multiple occupation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Hydrography",
+                "id": "a0e3af6e-dcf6-491b-8f22-867c0d62add6",
+                "name": "Hydrography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land and premises",
+                "id": "4184a45d-4433-4a3f-ab79-60a64ca26211",
+                "name": "Land and premises",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Law",
+                "id": "da6fbd0d-816d-4e41-948a-106d9563281e",
+                "name": "Law",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Local government",
+                "id": "a27c0df5-f035-4397-8a6b-4c6cdb8cbeaf",
+                "name": "Local government",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Parks and gardens",
+                "id": "3db9af23-75c3-4ace-819c-4d6deefd0812",
+                "name": "Parks and gardens",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Personal finance",
+                "id": "764e12ce-e5c9-4093-af34-ead4e39a9dad",
+                "name": "Personal finance",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Plants, animals and wildlife",
+                "id": "45cd2305-cb0a-4671-930d-6402aa8d9d82",
+                "name": "Plants, animals and wildlife",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Public administration",
+                "id": "563c6839-1c7e-4913-a26a-6d15f23e203e",
+                "name": "Public administration",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Public transport",
+                "id": "c402e868-a167-400a-b206-3f22aa701a39",
+                "name": "Public transport",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Rented housing",
+                "id": "f1a5117c-910e-455e-a3a9-f12fd768d3c5",
+                "name": "Rented housing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Road transport",
+                "id": "c46f880f-3e3b-410a-b001-76ce24f313a3",
+                "name": "Road transport",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Roads and highways",
+                "id": "07ec639e-3d9e-42ab-9467-1c33bc21e3f0",
+                "name": "Roads and highways",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Safety",
+                "id": "fde0dfdd-a24c-40d2-bb99-8fde8a2b3478",
+                "name": "Safety",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Schools",
+                "id": "3067d228-e3bd-4762-a2bd-beaf93604fa1",
+                "name": "Schools",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Security",
+                "id": "3fffed13-7b5b-4a47-8af3-e04c9da512be",
+                "name": "Security",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Special educational needs and additional support",
+                "id": "272bb3a9-a9f0-4347-ab3b-d85637449f0e",
+                "name": "Special educational needs and additional support",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Sports and recreation",
+                "id": "b4af9aaf-67c8-4e26-a21e-84e00bf64f3e",
+                "name": "Sports and recreation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Sports and recreation facilities",
+                "id": "5dad6fe9-75be-4b0a-b2f9-729d56f90d5a",
+                "name": "Sports and recreation facilities",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Structures and installations",
+                "id": "35079a34-13ec-4ab3-bac6-dc6137d87c32",
+                "name": "Structures and installations",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Tourism",
+                "id": "e2381b9e-15f2-4b25-b6ae-400cf1c60164",
+                "name": "Tourism",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Transport networks",
+                "id": "83d966c8-b18a-4c8f-9d3f-6aa454713f70",
+                "name": "Transport networks",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Transport planning",
+                "id": "fb25fd45-28f7-4e12-a6ad-76a72342d4e4",
+                "name": "Transport planning",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Water resources",
+                "id": "06abd840-3eda-44fd-a2ed-0172f1783d11",
+                "name": "Water resources",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "infoMapAccessService",
+                "id": "061d2dbc-d2e4-429c-a613-e101834e6f73",
+                "name": "infoMapAccessService",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "fd4889ad-4c25-4e31-ad7f-c38f6c42f71b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3976e316-890c-49df-beeb-3d9f5d14332e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Bristol City Council Datagov"
+            }
+        ]
+    }
+}

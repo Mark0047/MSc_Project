@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "824f6074-4f22-4c78-8165-aacff2c0dbd5",
+        "metadata_created": "2019-01-23T11:35:27.082296",
+        "metadata_modified": "2019-01-23T11:35:27.082306",
+        "name": "staffordshire-county-council",
+        "notes": "",
+        "organization": {
+            "id": "d4255537-cfe9-4ecd-8322-aa806760acd1",
+            "name": "staffordshire-county-council",
+            "title": "Staffordshire County Council",
+            "type": "organization",
+            "description": "Creating a Connected Staffordshire where everyone has the opportunity to prosper, be healthy and happy.",
+            "image_url": "",
+            "created": "2013-11-06T16:15:19.750527",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d4255537-cfe9-4ecd-8322-aa806760acd1",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Staffordshire County Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/staffordshire_county_council",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 29,
+            "last_job": {
+                "id": "8757e26e-8edb-432a-9773-935957245c86",
+                "created": "2021-11-25 12:20:32.230955",
+                "gather_started": "2021-11-25 12:20:32.382683",
+                "gather_finished": "2021-11-25 12:20:32.773954",
+                "finished": "2021-11-25 12:20:34.499523",
+                "source_id": "824f6074-4f22-4c78-8165-aacff2c0dbd5",
+                "status": "Finished",
+                "stats": {
+                    "added": 1,
+                    "updated": 0,
+                    "not modified": 6,
+                    "errored": 3,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"Descriptive keywords are mandatory.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:descriptiveKeywords) >= 1\":\nError Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\"\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 3
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 6
+        }
+    }
+}

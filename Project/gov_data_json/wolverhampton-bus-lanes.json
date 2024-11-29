@@ -1,0 +1,209 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "propertygis@wolverhampton.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "890ac2ef-c141-43d6-b3d2-07040fa19638",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2016-02-11T13:44:55.107543",
+        "metadata_modified": "2016-02-11T13:44:55.130652",
+        "name": "wolverhampton-bus-lanes",
+        "notes": "Wolverhampton Bus Lanes",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "53716b9a-6be0-4909-a7f7-b01f6862c38a",
+            "name": "wolverhampton-city-council",
+            "title": "Wolverhampton City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-17T12:21:00.380463",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "53716b9a-6be0-4909-a7f7-b01f6862c38a",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "transport",
+        "theme-secondary": [],
+        "title": "Wolverhampton Bus Lanes",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Public Sector End User Licence - INSPIRE http://www.ordnancesurvey.gov.uk/business-and-goverment/public-sector/mapping-agreements/Inspire-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.0434570285"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.6486877369"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.5402406141"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.2116851779"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2016-02-11\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "8a1d6166-214f-4b16-8ddf-513de1adb6e2"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "cbdacb69-007b-4272-9288-cc6ca5eaa0b7"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/53716b9a-6be0-4909-a7f7-b01f6862c38a/369-Bus_Lanes.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Public Sector End User Licence - INSPIRE http://www.ordnancesurvey.gov.uk/business-and-goverment/public-sector/mapping-agreements/Inspire-licence.html"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-02-11"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Wolverhampton City Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Wolverhampton City Council (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-2.0434570285, 52.5402406141],[-2.0434570285, 52.6486877369], [-2.2116851779, 52.6486877369], [-2.2116851779, 52.5402406141], [-2.0434570285, 52.5402406141]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0d05b6e8-1fa9-4c8d-a363-688d2c907f88"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wolverhampton City Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": "True",
+                "created": "2016-02-11T13:44:55.202406",
+                "description": "information",
+                "format": "WMS",
+                "hash": "",
+                "id": "8d30b9a1-82c2-467b-9f73-41f5e698389e",
+                "last_modified": null,
+                "metadata_modified": "2016-02-11T13:44:55.202406",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ViewserviceWMS",
+                "package_id": "890ac2ef-c141-43d6-b3d2-07040fa19638",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.wolverhampton.gov.uk/arcgis/services/WolverhamptonInspireService/MapServer/WMSServer?request=GetCapabilities",
+                "url_type": null,
+                "verified": "True",
+                "verified_date": "2016-02-11T13:44:54.618190",
+                "wms_base_urls": "http://maps.wolverhampton.gov.uk/arcgis/services/WolverhamptonInspireService/MapServer/WmsServer"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-02-11T13:44:55.202432",
+                "description": "download",
+                "format": "",
+                "hash": "",
+                "id": "82d608ed-3985-4232-bd40-42c4683aebd9",
+                "last_modified": null,
+                "metadata_modified": "2016-02-11T13:44:55.202432",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DownloadserviceWFS",
+                "package_id": "890ac2ef-c141-43d6-b3d2-07040fa19638",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://maps.wolverhampton.gov.uk/arcgis/services/WolverhamptonInspireService/MapServer/WFSServer?request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cbdacb69-007b-4272-9288-cc6ca5eaa0b7"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0d05b6e8-1fa9-4c8d-a363-688d2c907f88"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Wolverhampton City Council"
+            }
+        ]
+    }
+}

@@ -1,0 +1,363 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data_supply@nature.scot",
+        "creator_user_id": null,
+        "id": "c2f57ed9-5601-4864-af5f-a6e73e977f54",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2011-11-09T18:32:35.239981",
+        "metadata_modified": "2024-06-19T11:17:56.600314",
+        "name": "ancient-woodland-inventory-scotland1",
+        "notes": "In response to a 1980 select committee which recommended that ancient woods should be recognised and treated as a separate category, the NCCs compiled the Inventories of Ancient, Long-established and Semi-natural woodlands. A more sophisticated classification was developed for woodlands in Scotland due to the nature of the available historical sources. \n\nIMPORTANT\nFor Scottish woods, the category Ancient comprises woods recorded as being of semi-natural origin on EITHER the 1750 Roy maps OR the 1st Edition Ordnance Survey maps of 1860. This is due a) to the likelihood of the latter having been omitted from the Roy maps and b) to render the Scottish classification compatible with that for England and Wales.",
+        "num_resources": 8,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1750"
+        ],
+        "temporal_coverage-to": [
+            "1970"
+        ],
+        "title": "Ancient Woodland Inventory (Scotland)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available under an OS Open Data licence. You must always use the following attribution statement to acknowledge the source of the information: Copyright NatureScot Contains Ordnance Survey data \\u00a9 Crown copyright and database right (year)\", \"no conditions apply\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.705"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.86"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.525"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-9.229"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2010-09-18\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "A091F945-F744-4C8F-95B3-A09E6EF6AE33"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "9c530400-9eb9-4ee8-997a-566e937c13d3"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-07-20T14:00:43"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.705, 54.525], [-9.229, 54.525], [-9.229, 60.86], [-0.705, 60.86], [-0.705, 54.525]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "OSGB 1936 / British National Grid [EPSG:27700]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:17:56.638722",
+                "description": "awi",
+                "format": "",
+                "hash": "",
+                "id": "3a90df84-2e6a-4ceb-afea-27babc5b6def",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:17:56.606792",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "awi",
+                "package_id": "c2f57ed9-5601-4864-af5f-a6e73e977f54",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:17:56.638725",
+                "description": "Ancient Woodland Inventory",
+                "format": "",
+                "hash": "",
+                "id": "6761d5d1-a3be-405b-b3c9-05bcd8f3c438",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:17:56.606888",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "habitatsandspecies:awi",
+                "package_id": "c2f57ed9-5601-4864-af5f-a6e73e977f54",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS-1.0.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wfs?request=GetCapabilities&service=wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:17:56.638726",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b8d1310e-235f-49fb-85e6-05513ef94752",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:17:56.606963",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI Shapefile (EPSG:27700)",
+                "package_id": "c2f57ed9-5601-4864-af5f-a6e73e977f54",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/AWI_SCOTLAND_SHP_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:17:56.638727",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "43a1b094-0219-43af-8738-a82b906b92c3",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:17:56.607032",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI File geodatabase (EPSG:27700)",
+                "package_id": "c2f57ed9-5601-4864-af5f-a6e73e977f54",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/AWI_SCOTLAND_GDB_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:17:56.638728",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "4385e563-47e5-4a4b-9744-ecc96a0c0a08",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:17:56.607099",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GML (EPSG:4258)",
+                "package_id": "c2f57ed9-5601-4864-af5f-a6e73e977f54",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/AWI_SCOTLAND_GML_4258.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:17:56.638729",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "f11be516-7036-4924-84db-3adbcf977ac4",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:17:56.607165",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoJSON (EPSG:4326)",
+                "package_id": "c2f57ed9-5601-4864-af5f-a6e73e977f54",
+                "position": 5,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/AWI_SCOTLAND_GEOJSON_4326.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:17:56.638730",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "0aa5ea76-0156-4466-a55e-3cff13be6dbd",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:17:56.607230",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Geopackage (EPSG:27700)",
+                "package_id": "c2f57ed9-5601-4864-af5f-a6e73e977f54",
+                "position": 6,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/AWI_SCOTLAND_GPKG_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:17:56.638731",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "5829a7be-2492-42b5-9358-207b0c8ab098",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:17:56.607307",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot OpenData Hub",
+                "package_id": "c2f57ed9-5601-4864-af5f-a6e73e977f54",
+                "position": 7,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.nature.scot/datasets/ancient-woodland-inventory/explore",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Habitats and biotopes",
+                "id": "a6591241-3108-42a5-b540-46a56883592e",
+                "name": "Habitats and biotopes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Woodlands",
+                "id": "87f3137f-1803-4829-89fa-f96120d13fe9",
+                "name": "Woodlands",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "woodland ecosystem",
+                "id": "bef9319a-c2c9-4c61-9694-a8af7532af7b",
+                "name": "woodland ecosystem",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "408d88a0-d05c-478a-8b6f-abada8a2f4c8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

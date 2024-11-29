@@ -1,0 +1,161 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "3f4405c6-0aa7-4087-8067-8efe0c364564",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-02-19T04:37:17.024327",
+        "metadata_modified": "2020-04-12T08:27:38.367359",
+        "name": "air-quality-data-from-uk-air1",
+        "notes": "<p>This data is downloaded from UK-AIR database from the Department of Environment, Food and Rural Affairs. The data supplied contains the daily average pollutant reading for Ozone, Nitrogen Oxide, Nitrogen Dioxide and Sulpher Dioxide from October 1997 to July 2016.</p>\n<p>The are two data sources from different Cambridgeshire air monitoring stations. One is called Cambridge Roadside, which is within Cambridge City, and the other is in Wicken Fen, East Cambridgeshire.</p>\n<p>The national air quality objecitves for these pollutant state the following averages cannot exceed:</p>\n<p>Nitrogen Oxide: 30 ugm-3 per year<br />\nNitrogen Dioxide: 40 ugm-3 per year<br />\nOzone: 100 ugm-3 per 8 hour (max 10 times a year)<br />\nSulphur Dioxide: 125 ugm-3 per day (max 3 times a year) or 20 ugm-3 per year</p>\n",
+        "num_resources": 2,
+        "num_tags": 4,
+        "organization": {
+            "id": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+            "name": "cambridgeshire-insight",
+            "title": "Cambridgeshire Insight",
+            "type": "organization",
+            "description": "The Cambridgeshire Insight Partnership is made up of public, health and community bodies to provide a shared research knowledge base for the Cambridgeshire area. It allows users an easy way to access and share data, information and research for deeper insights about their local area. See more at https://cambridgeshireinsight.org.uk",
+            "image_url": "",
+            "created": "2014-05-19T12:10:18.790087",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+        "private": false,
+        "state": "active",
+        "title": "Air Quality Data from UK-AIR",
+        "type": "dataset",
+        "url": "https://data.cambridgeshireinsight.org.uk/dataset/air-quality-data-uk-air",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2018-07-30"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2018-09-28"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Cambridgeshire Research Group"
+            },
+            {
+                "key": "guid",
+                "value": "18e037e9-f57a-4b9f-a2e4-aa43fbea2c3a"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "83d21757-8377-4600-87bf-65ca950ee3d9"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:27:38.664620",
+                "description": "<p>This data resource includes daily averages of Nitric Oxide, Nitrogen Dioxide and Nitrogen oxides as nitrogen dioxide levels for the Cambridge Roadside monitoring station from 23/07/1999 to 11/07/2016.</p>\n<p>The data was downloaded from UK-AIR database.</p>\n<p>Status: V=Verified P=Provisionaly Verified N=Not Verified S=Suspect<br />\nAll times are in GMT</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "7a148a9b-84b3-4bc8-88ff-d2228bb638eb",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:27:38.664620",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cambridge Roadside Air Quality",
+                "package_id": "3f4405c6-0aa7-4087-8067-8efe0c364564",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/CambridgeRoadside_0.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:27:38.664628",
+                "description": "<p>This data resource includes daily averages of Ozone, Nitric Oxide, Nitrogen Dioxide, Nitrogen oxides as nitrogen dioxide and Sulphur Dioxide levels for the Wicken Fen monitoring station from 16/10/1997 to 11/07/2016.</p>\n<p>The data was downloaded from UK-AIR database.</p>\n<p>Status: V=Verified P=Provisionaly Verified N=Not Verified S=Suspect<br />\nAll times are in GMT</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "66e916af-993a-416a-b178-bc001d014063",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:27:38.664628",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Wicken Fen Air Quality",
+                "package_id": "3f4405c6-0aa7-4087-8067-8efe0c364564",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/WickenFen_0.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Environment",
+                "id": "db7de4be-adbc-4ab6-9cec-d555c287d2d7",
+                "name": "Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "air quality",
+                "id": "1ad4bad4-0836-4d1b-a28b-abafbf998cee",
+                "name": "air quality",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "defra",
+                "id": "c22c6177-ec65-458f-920d-3852dab3682f",
+                "name": "defra",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "pollution",
+                "id": "b00db874-3ebe-4863-938e-7c4824781a3e",
+                "name": "pollution",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "83d21757-8377-4600-87bf-65ca950ee3d9"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ]
+    }
+}

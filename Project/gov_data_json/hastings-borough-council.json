@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "1d755d08-4db7-4d47-8c91-2bcaee5b5eb7",
+        "metadata_created": "2019-01-23T10:43:18.491482",
+        "metadata_modified": "2019-01-23T10:43:18.491489",
+        "name": "hastings-borough-council",
+        "notes": "",
+        "organization": {
+            "id": "c5858c26-6b42-4bf2-9bdd-62bf2f623059",
+            "name": "hastings-borough-council",
+            "title": "Hastings Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-10-22T15:16:15.027524",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c5858c26-6b42-4bf2-9bdd-62bf2f623059",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Hastings Borough Council",
+        "type": "harvest",
+        "url": "http://inspire.misoportal.com/metadata/files/hastings/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 21,
+            "last_job": {
+                "id": "5ed1ec93-d250-4471-9f80-841fb7a37604",
+                "created": "2022-02-10 17:25:57.826481",
+                "gather_started": "2022-02-10 17:25:57.977685",
+                "gather_finished": "2022-02-10 17:25:58.167417",
+                "finished": "2022-02-10 17:25:59.520596",
+                "source_id": "1d755d08-4db7-4d47-8c91-2bcaee5b5eb7",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 1,
+                    "not modified": 6,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 17
+        }
+    }
+}

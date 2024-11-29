@@ -1,0 +1,92 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "01cbf9dc-1c45-4324-bb86-3689a885deb0",
+        "isopen": false,
+        "license_id": "other-nc",
+        "license_title": "Other (Non-Commercial)",
+        "metadata_created": "2015-09-16T16:12:08.870228",
+        "metadata_modified": "2023-01-23T22:35:08.524927",
+        "name": "local-street-gazetteer",
+        "notes": "Local Street Gazetteer for York\r\n\r\nThis data is published under the [INSPIRE end user licence](https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html \"External Link\")\r\n\r\n*Please note that the data published within this dataset is a live API link to CYC's GIS server. Any changes made to the master copy of the data will be immediately reflected in the resources of this dataset.The date shown in the \"Last Updated\" field of each GIS resource reflects when the data was first published.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+            "name": "city-of-york-council",
+            "title": "City of York Council",
+            "type": "organization",
+            "description": "Corporate Open Data platform - http://www.yorkopendata.org/\r\n\r\nCorporate map browser - http://maps.york.gov.uk/localviewexternal/sites/lv/",
+            "image_url": "",
+            "created": "2013-11-25T13:21:35.161579",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+        "private": false,
+        "state": "active",
+        "title": "Local Street Gazetteer",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-28T11:50:33.334865",
+                "datastore_active": false,
+                "description": "WFS",
+                "format": "URL",
+                "hash": "",
+                "id": "dc4e70e3-a004-4207-81be-942b31b41846",
+                "last_modified": null,
+                "metadata_modified": "2023-01-23T22:35:08.529157",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Street Gazetteer",
+                "package_id": "01cbf9dc-1c45-4324-bb86-3689a885deb0",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.york.gov.uk/arcgis/services/Public/LV_CouncilDemocracy/MapServer/WFSServer?SERVICE=WFS&VERSION=1.1.0&REQUEST=DescribeFeatureType&TYPENAME=Public_LV_CouncilDemocracy:Local_streets",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "90a00bd1-8673-446a-8ab8-ed37058423d8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "90a00bd1-8673-446a-8ab8-ed37058423d8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,204 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "e1b1ff13-811f-48f0-bd52-cd26b947f544",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-08-19T07:20:09.417817",
+        "metadata_modified": "2019-10-03T08:08:06.933353",
+        "name": "public-spaces-protection-order1",
+        "notes": "Polygon data identifying Public Space Protection Orders in the District of Ashfield",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "278bb1d0-da55-4a1a-9983-75615c2428db",
+            "name": "ashfield-district-council",
+            "title": "Ashfield District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:10.557176",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "278bb1d0-da55-4a1a-9983-75615c2428db",
+        "private": false,
+        "state": "active",
+        "title": "Public Spaces Protection Order",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on public access apply\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.0919216891"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.2033467146"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.9889446337"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-1.4283779879"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2018-10-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "694730e6-8fdc-4f3d-829d-bb512a7e273a"
+            },
+            {
+                "key": "licence",
+                "value": "[\"No use constraints apply\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-12-07T17:40:53"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Ashfield District Council (originator)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.0919216891, 52.9889446337], [-1.4283779879, 52.9889446337], [-1.4283779879, 53.2033467146], [-1.0919216891, 53.2033467146], [-1.0919216891, 52.9889446337]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "fcc681c4-e6a9-4809-869e-6f0885d1de17"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "fdfad92a-f135-49f7-add5-afc065d7a48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Ashfield District Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-08T12:38:13.603562",
+                "datafile-date": "2019-03-08",
+                "description": "Resource locator",
+                "format": "WMS",
+                "hash": "",
+                "id": "252dee3d-eada-4b2f-9e9a-73fc24c72226",
+                "last_modified": null,
+                "metadata_modified": "2019-03-08T12:38:13.603562",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "e1b1ff13-811f-48f0-bd52-cd26b947f544",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/ashfield_district_council_publicspaceprotectionorder/wms?request=getCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-03-08T12:38:13.603568",
+                "datafile-date": "2019-05-08",
+                "description": "Resource locator",
+                "format": "HTML",
+                "hash": "",
+                "id": "a7174322-e1e8-4406-8806-55b00c15a614",
+                "last_modified": null,
+                "metadata_modified": "2019-03-08T12:38:13.603568",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "e1b1ff13-811f-48f0-bd52-cd26b947f544",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://misoportal.com/portal/api/request-licenced-data/2609",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Human health and safety",
+                "id": "48a55d2f-b77f-4193-a882-9371e30705a1",
+                "name": "Human health and safety",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "fcc681c4-e6a9-4809-869e-6f0885d1de17"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "fdfad92a-f135-49f7-add5-afc065d7a48d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Ashfield District Council"
+            }
+        ]
+    }
+}

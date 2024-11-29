@@ -1,0 +1,188 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "09470637-1454-43a3-9fdc-2e82acb83b51",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-11-01T11:40:15.124133",
+        "metadata_modified": "2016-11-02T11:50:15.988808",
+        "name": "road-collisions-in-camden",
+        "notes": "This dataset contains road collisions in Camden dating back to 2005. Data is provided by TfL (Transport for London) on an annual basis, in three parts: attendant, casualty and vehicle \u2013 these are joined by the Accident Reference before being uploaded to the open data platform; therefore where multiple attendants/casualties/vehicles exists for one Accident Reference there will be multiple records for the same accident. To avoid anomalies it is suggested any data analysis undertaken should use three years of data.",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+            "name": "london-borough-of-camden",
+            "title": "London Borough of Camden",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:32.040042",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+        "private": false,
+        "state": "active",
+        "theme-primary": "transport",
+        "theme-secondary": [],
+        "title": "Road Collisions In Camden",
+        "type": "dataset",
+        "url": "https://opendata.camden.gov.uk/d/sxyv-qkj9",
+        "version": null,
+        "extras": [
+            {
+                "key": "data_issued",
+                "value": "2016-11-01"
+            },
+            {
+                "key": "data_modified",
+                "value": "2016-11-01"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "opendata.camden.gov.uk"
+            },
+            {
+                "key": "guid",
+                "value": "https://opendata.camden.gov.uk/api/views/sxyv-qkj9"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "a8d897ea-7143-4308-b355-52d9c601e450"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://opendata.camden.gov.uk/data.json\", \"harvest_source_type\": \"data_json\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Camden Open Data\", \"activity_occurred\": \"2016-11-02T11:50:15.939961\", \"activity\": \"harvest\", \"harvested_guid\": \"https://opendata.camden.gov.uk/api/views/sxyv-qkj9\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-11-01T11:40:15.286527",
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "790ea126-3713-4a5f-9e41-91cb0d934309",
+                "last_modified": null,
+                "metadata_modified": "2016-11-01T11:40:15.286527",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "09470637-1454-43a3-9fdc-2e82acb83b51",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/sxyv-qkj9/rows.csv?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-11-01T11:40:15.286553",
+                "description": "",
+                "format": "RDF",
+                "hash": "",
+                "id": "54f49eda-98a3-44b3-a909-6913c0874791",
+                "last_modified": null,
+                "metadata_modified": "2016-11-01T11:40:15.286553",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "09470637-1454-43a3-9fdc-2e82acb83b51",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/sxyv-qkj9/rows.rdf?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-11-01T11:40:15.286561",
+                "description": "",
+                "format": "JSON",
+                "hash": "",
+                "id": "7d8031f2-5e38-4487-971b-aec7b6681f97",
+                "last_modified": null,
+                "metadata_modified": "2016-11-01T11:40:15.286561",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "09470637-1454-43a3-9fdc-2e82acb83b51",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/sxyv-qkj9/rows.json?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-11-01T11:40:15.286567",
+                "description": "",
+                "format": "XML",
+                "hash": "",
+                "id": "a1600cae-1fba-423e-aba5-5dd48c37b952",
+                "last_modified": null,
+                "metadata_modified": "2016-11-01T11:40:15.286567",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "09470637-1454-43a3-9fdc-2e82acb83b51",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/api/views/sxyv-qkj9/rows.xml?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-11-01T11:40:15.286573",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "fd09060f-ee3c-49ca-a95f-b76a8e8f4149",
+                "last_modified": null,
+                "metadata_modified": "2016-11-01T11:40:15.286573",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landing page",
+                "package_id": "09470637-1454-43a3-9fdc-2e82acb83b51",
+                "position": 4,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/d/sxyv-qkj9",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

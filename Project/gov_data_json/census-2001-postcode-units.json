@@ -1,0 +1,265 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "geographycustomerservices@nrscotland.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "511ffd4b-8534-41b6-94a9-ae54e7aa9671",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2014-04-11T14:30:51.408987",
+        "metadata_modified": "2024-06-19T11:15:48.185639",
+        "name": "census-2001-postcode-units",
+        "notes": "This is the set of postcode boundaries used for 2001 census outputs.  The postcode boundaries for census were originally  frozen in January 2001 for the purposes of producing census outputs.    \n\nThe dataset contains 139,045 postcode polygons.",
+        "num_resources": 3,
+        "num_tags": 6,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Census 2001 - Postcode Units",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following statements must be used when reproducing or using this material: Copyright National Records of Scotland, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2003-02-13\"}, {\"type\": \"creation\", \"value\": \"2003-02-13\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "80702fed-280d-4ea7-8911-ca09d53d4929"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ad863220-31a8-4751-95d3-768fd81939f9"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-06-14T11:39:43"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "National Records of Scotland"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "National Records of Scotland (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:15:48.229244",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "7fcef0c5-3339-4cc0-a4f0-3650c8938cdc",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:48.191151",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "PostcodeUnit2001",
+                "package_id": "511ffd4b-8534-41b6-94a9-ae54e7aa9671",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2001/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:15:48.229247",
+                "description": "OGC Feature Download",
+                "format": "",
+                "hash": "",
+                "id": "059c09ae-0cd1-499d-976c-29930642e1d4",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:48.191247",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CEN2001:PostcodeUnit2001",
+                "package_id": "511ffd4b-8534-41b6-94a9-ae54e7aa9671",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2001/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:15:48.229248",
+                "description": "Geography \u2013 2001 Census Boundaries - ESRI Shapefiles",
+                "format": "",
+                "hash": "",
+                "id": "26dd36b4-6b96-483a-895b-9f0ff10c578a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:48.191331",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "National Records of Scotland website",
+                "package_id": "511ffd4b-8534-41b6-94a9-ae54e7aa9671",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/census-datasets/2001-census/2001-boundaries",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Boundaries",
+                "id": "761f5ab1-0549-4ea2-9f26-90e94153b09f",
+                "name": "Boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Censuses",
+                "id": "6681e351-a494-4ddd-8ee6-e0b076aacfe2",
+                "name": "Censuses",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Postcodes",
+                "id": "ba7b4273-f2b1-4d69-9f57-abc6f551fcfa",
+                "name": "Postcodes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Statistical units",
+                "id": "5c1fe287-ebfd-4a64-9580-29baa322a3d0",
+                "name": "Statistical units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "census survey",
+                "id": "28f851c8-04ff-4028-a6c5-0eafd84264a1",
+                "name": "census survey",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "statistical data",
+                "id": "8ce17b2c-73e1-4db1-a06b-7e32b83bc5ea",
+                "name": "statistical data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0fcc6048-a312-4482-80ed-724f64014b9c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

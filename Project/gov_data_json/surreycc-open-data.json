@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "29417cd4-fcd8-4482-aa10-4ec31bb42980",
+        "metadata_created": "2019-01-23T10:46:34.997906",
+        "metadata_modified": "2024-02-01T16:33:32.918414",
+        "name": "surreycc-open-data",
+        "notes": "",
+        "organization": {
+            "id": "47d09fff-6538-4d16-abf0-212109e60cee",
+            "name": "surrey-county-council",
+            "title": "Surrey County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:35.528298",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "47d09fff-6538-4d16-abf0-212109e60cee",
+        "private": false,
+        "source_type": "dcat_rdf",
+        "state": "active",
+        "title": "SurreyCC Open Data",
+        "type": "harvest",
+        "url": "http://data.surreycc.gov.uk/data.rdf?per_page=100",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 345,
+            "last_job": {
+                "id": "80332642-ee66-4813-b3d6-30065d2539eb",
+                "created": "2024-11-02 14:00:08.993064",
+                "gather_started": "2024-11-02 14:01:21.556158",
+                "gather_finished": "2024-11-02 14:01:22.291530",
+                "finished": "2024-11-02 14:01:22.291530",
+                "source_id": "29417cd4-fcd8-4482-aa10-4ec31bb42980",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Error parsing the RDF file: No plugin registered for (text/html, <class 'rdflib.parser.Parser'>)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

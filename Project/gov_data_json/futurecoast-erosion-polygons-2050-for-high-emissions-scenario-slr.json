@@ -1,0 +1,345 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "alistair.rennie@nature.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "bddd88ab-7006-47d4-ae35-91e5176f8cd7",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-07-21T17:26:13.306428",
+        "metadata_modified": "2024-09-19T12:07:12.712962",
+        "name": "futurecoast-erosion-polygons-2050-for-high-emissions-scenario-slr",
+        "notes": "Anticipated erosional areas, between the current 2020 and anticipated 2050 Mean High Water Spring tide lines, based on a High Emissions Scenario sea level rise projection (RCP8.5, 95 percentile) and 'do nothing' coastal management approach. Shoreline retreat is limited by underlying physical susceptibility model (the UPSM of Fitton et al., 2017) and up to 25m of erosion is premitted at known artificial coastal defences. Dataset includes Erosion Area (areas seawards of the 2050 projected position of Mean High Water Springs), Erosion Influence (a 10m landward buffer of the projected position of 2050 MHWS) and Erosion Vicinity (a further 50m landward buffer on Erosion Influence). This data contains the intersect values for society's assets (lengths of roads (km), areas of designates sites (ha)). Further explanation available within Technical Summary WS2, via www.DynamicCoast.com/reports.\nPlease note, there are two versions of this data, one 'Full' version, for Public Sector organisations in support of statutory work. This dataset includes the number of residential and non-residential properties affected within each erosion polygon, alongside other asset types. The 'public' version exlcudes these two fields.",
+        "num_resources": 8,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "FutureCoast Erosion Polygons (2050) for High Emissions Scenario SLR",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Dynamic Coast analyses cannot be used for property-level assessments.\", \"Available under an Open Government Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2021-06-01\"}, {\"type\": \"publication\", \"value\": \"2021-07-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "f675ba14-0f74-4216-8019-ff585f604053"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "0bd880b4-d089-4d87-8396-361e26274ca9"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-09-18T11:44:16.649Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:12.752750",
+                "description": "Future Erosion 2050 High Emission Scenario",
+                "format": "",
+                "hash": "",
+                "id": "1a7c11d0-01ad-4922-a2f3-a175bc48c077",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:12.720974",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "dc2erosion2050high",
+                "package_id": "bddd88ab-7006-47d4-ae35-91e5176f8cd7",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/dynamiccoast/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:12.752751",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "29546b1a-7084-4628-898f-4c2034afd030",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:12.721053",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot OpenData Hub",
+                "package_id": "bddd88ab-7006-47d4-ae35-91e5176f8cd7",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.nature.scot/datasets/snh::dynamiccoast-future-erosion-2050-high-emissions-scenario/explore",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:12.752752",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "c02f6351-7c19-4382-9945-8104de96d23e",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:12.721119",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dynamic Coast website",
+                "package_id": "bddd88ab-7006-47d4-ae35-91e5176f8cd7",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--related",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.dynamiccoast.com",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:12.752753",
+                "description": "Future Erosion 2050 High Emission Scenario",
+                "format": "",
+                "hash": "",
+                "id": "ff6f2dd2-244b-4a23-a962-22b612451039",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:12.721174",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "dynamiccoast:dc2erosion2050high",
+                "package_id": "bddd88ab-7006-47d4-ae35-91e5176f8cd7",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS-1.0.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/dynamiccoast/wfs?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:12.752754",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c9ca571e-6f88-4160-a87d-4e28daefa3f7",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:12.721231",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DynamicCoast database Shapefiles (EPSG:27700)",
+                "package_id": "bddd88ab-7006-47d4-ae35-91e5176f8cd7",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DYNAMICCOAST2_SCOTLAND_SHP_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:12.752755",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "4c79a979-519e-4078-890f-9c51b0493d79",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:12.721286",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DynamicCoast database ArcGIS Desktop map package (EPSG:27700)",
+                "package_id": "bddd88ab-7006-47d4-ae35-91e5176f8cd7",
+                "position": 5,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DYNAMICCOAST2_SCOTLAND_MPK_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:12.752756",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "bbf69fed-82ac-4825-b3a7-e24d09cd3cf9",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:12.721344",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DynamicCoast database ArcGIS Pro map package (EPSG:27700)",
+                "package_id": "bddd88ab-7006-47d4-ae35-91e5176f8cd7",
+                "position": 6,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DYNAMICCOAST2_SCOTLAND_MPKX_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T12:07:12.752757",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c943662b-afa3-4fc0-a48b-36661381a750",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T12:07:12.721398",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "DynamicCoast database Geopackage and QGIS project (EPSG:27700)",
+                "package_id": "bddd88ab-7006-47d4-ae35-91e5176f8cd7",
+                "position": 7,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DYNAMICCOAST2_SCOTLAND_GPKG_27700.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Natural risk zones",
+                "id": "9e1361e3-b61f-47f4-a499-04cdb2357e56",
+                "name": "Natural risk zones",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d1a12f0f-a4c2-497c-bfb5-282dca78ed69"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "customerservices@ordnancesurvey.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "f5e45f2d-cad8-45df-8522-882f4c93fd62",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-07-21T13:25:09.324445",
+        "metadata_modified": "2024-08-28T13:56:14.934641",
+        "name": "os-data-catalogue1",
+        "notes": "Welcome to OS\u2019s Data Catalogue, which provides Open Geospatial Consortium \"Catalogue Service for the Web\" (CSW) access to information about Ordnance Survey (OS) datasets, services (including APIs), and series.\n\nAt present, this is mainly used to feed data.gov.uk for other information about OS please go to our website (os.uk) and data hub (osdatahub.os.uk).",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+            "id": "776f0897-ded1-411a-88c6-e8687ccf3875",
+            "name": "ordnance-survey",
+            "title": "Ordnance Survey",
+            "type": "organization",
+            "description": "Ordnance Survey is Great Britain\u2019s national mapping agency. It carries out the official surveying of GB, providing the most accurate and up-to-date geographic data, relied on by government, business and individuals.\r\n\r\nOS is a government owned company, accountable to Department for Business, Innovation & Skills\r\n\r\nhttps://os.uk/\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:53:10.634259",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "776f0897-ded1-411a-88c6-e8687ccf3875",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "OS Data Catalogue",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"no conditions apply\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.86"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.86"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.45"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"title\": [], \"href\": [\"https://osmetadata.astuntechnology.com/geonetwork/srv/eng/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=28179b87-559b-49de-9fe7-d628c4779271\"], \"uuid\": [\"28179b87-559b-49de-9fe7-d628c4779271\"]}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2021-01-27T16:01:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "5ce5bb7e-cf14-49f5-ac0e-23e36aa27644"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7610b649-23a8-4f15-b93a-48eccca82a0d"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-23T13:43:26.661Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Ordnance Survey (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.86], [-8.45, 49.86], [-8.45, 60.86], [1.78, 60.86], [1.78, 49.86]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "discovery"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-28T13:56:14.965260",
+                "description": "OGC CSW Capabilities document",
+                "format": "",
+                "hash": "",
+                "id": "863bcab6-d77c-4267-9ccc-a3842f87cf20",
+                "last_modified": null,
+                "metadata_modified": "2024-08-28T13:56:14.939239",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Capabilities document",
+                "package_id": "f5e45f2d-cad8-45df-8522-882f4c93fd62",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://osmetadata.astuntechnology.com/geonetwork/srv/eng/csw?service=CSW&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Discovery service",
+                "id": "5d6430be-6835-4b37-ab55-22de6cfe9203",
+                "name": "Discovery service",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "infoCatalogueService",
+                "id": "dfc92025-8818-4e02-af10-fd5afe94fd69",
+                "name": "infoCatalogueService",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c70aafc0-cd53-4372-8b25-852d0a7acd0b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5aacf5b0-8ab1-4f6e-b8aa-70d998f5c314"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OrdnanceSurveyCSW"
+            }
+        ]
+    }
+}

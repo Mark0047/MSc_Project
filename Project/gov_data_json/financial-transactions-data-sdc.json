@@ -1,0 +1,170 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "25a162d9-a128-4572-b683-2ccb15bd9361",
+        "date_released": "2010-12-22",
+        "date_updated": "2010-12-22",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "geographic_granularity": "national",
+        "id": "83a446c1-31bd-4328-80f6-3ecaf83d2a78",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2010-12-30T14:57:40.115782",
+        "metadata_modified": "2013-12-19T10:28:47.285969",
+        "name": "financial-transactions-data-sdc",
+        "notes": "A monthly-updated list of all financial transactions spending over \u00a325,000 made by the Sustainable Development Commission, as part of the Government's commitment to transparency in expenditure.",
+        "num_resources": 4,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "Spend over \u00a325,000 in the Sustainable Development Commission",
+            "created_at": "2014-10-28T13:10:33Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/6191/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/6191/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "7b675a9a-1293-4ad6-ae7b-b4f388c649f4",
+            "name": "sustainable-development-commission",
+            "title": "Sustainable Development Commission",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:53:41.774927",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "7b675a9a-1293-4ad6-ae7b-b4f388c649f4",
+        "precision": "",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "temporal_granularity": "point",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [
+            "Government Spending"
+        ],
+        "title": "Spend over \u00a325,000 in the Sustainable Development Commission",
+        "type": "dataset",
+        "update_frequency": "monthly",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "categories",
+                "value": "Agriculture and Environment"
+            },
+            {
+                "key": "external_reference",
+                "value": ""
+            },
+            {
+                "key": "national_statistic",
+                "value": "no"
+            },
+            {
+                "key": "provider",
+                "value": "Department for Environment, Food and Rural Affairs"
+            },
+            {
+                "key": "taxonomy_url",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "datastore_active": "False",
+                "description": "April 2010 Return",
+                "format": "CSV",
+                "id": "ea8ef517-4bf2-43e3-ab7c-aa4910ac09fb",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "83a446c1-31bd-4328-80f6-3ecaf83d2a78",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.defra.gov.uk/ops/procurement/sdc-over-25k-1004.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "datastore_active": "False",
+                "description": "June 2010 Return",
+                "format": "CSV",
+                "id": "6ba804d2-6ca9-40e4-9395-794c15ad76c3",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "83a446c1-31bd-4328-80f6-3ecaf83d2a78",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.defra.gov.uk/ops/procurement/sdc-over-25k-1006.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "datastore_active": "False",
+                "description": "September 2010 Return",
+                "format": "CSV",
+                "id": "532cb41e-f234-4ee6-9d9b-a528ef6d319a",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "83a446c1-31bd-4328-80f6-3ecaf83d2a78",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.defra.gov.uk/ops/procurement/sdc-over-25k-1009.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "datastore_active": "False",
+                "description": "October 2010 Return",
+                "format": "CSV",
+                "id": "9fabc18a-8302-4bca-9b7e-2ccd6d6fa064",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "83a446c1-31bd-4328-80f6-3ecaf83d2a78",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.defra.gov.uk/ops/procurement/sdc-over-25k-1010.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

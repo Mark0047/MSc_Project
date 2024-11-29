@@ -1,0 +1,251 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "geographycustomerservices@nrscotland.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "6c0cd79e-7a16-486d-b6a2-843c6ca19957",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-05-21T18:19:41.016775",
+        "metadata_modified": "2024-06-19T11:20:32.466791",
+        "name": "census-2022-localities",
+        "notes": "Larger settlements are divided into localities to reflect areas which are more easily identifiable as the towns and cities of Scotland.  \n\nStatistics produced from this geography can be used to help understand the demographics of local communities.\n\nNational Records of Scotland (NRS), produces 2 datasets which are designed to show the boundaries of urban areas in Scotland: these datasets are Settlements and Localities.\n\nThe Census Locality boundaries have been created using the Census 2022 frozen Postcode boundaries.",
+        "num_resources": 3,
+        "num_tags": 4,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Census 2022 \u2013 Localities",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following statements must be used when reproducing or using this material: Copyright National Records of Scotland, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2024-05-21T09:30:00\"}, {\"type\": \"publication\", \"value\": \"2024-05-21T09:30:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "db8c4cb5-39f0-42a7-838b-17178422bc61"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7262f7ba-5605-4f0a-be81-549525e4a653"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-17T14:19:05"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "National Records of Scotland"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "National Records of Scotland (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:20:32.502492",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "938e7594-d308-481f-b1cb-e39d93c7a086",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:20:32.472645",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Locality2022",
+                "package_id": "6c0cd79e-7a16-486d-b6a2-843c6ca19957",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2022/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:20:32.502494",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "01dc22ce-fc6b-46ae-aad2-45d757c3249d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:20:32.472741",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CEN2022:Locality2022",
+                "package_id": "6c0cd79e-7a16-486d-b6a2-843c6ca19957",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2022/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:20:32.502495",
+                "description": "Geography \u2013 Census",
+                "format": "",
+                "hash": "",
+                "id": "079b80cb-dbab-4caa-9684-3dddf3deef74",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:20:32.472813",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "National Records of Scotland website",
+                "package_id": "6c0cd79e-7a16-486d-b6a2-843c6ca19957",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/census-datasets",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Boundaries",
+                "id": "761f5ab1-0549-4ea2-9f26-90e94153b09f",
+                "name": "Boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Statistical units",
+                "id": "5c1fe287-ebfd-4a64-9580-29baa322a3d0",
+                "name": "Statistical units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Urban communities",
+                "id": "b5764488-9b4f-4f99-929f-0019ab036e73",
+                "name": "Urban communities",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "urban settlement",
+                "id": "2f52a6fb-c46e-4f23-b194-3479ca81e9c6",
+                "name": "urban settlement",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0b08bb51-f7e1-4db9-849a-eb5275f15556"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

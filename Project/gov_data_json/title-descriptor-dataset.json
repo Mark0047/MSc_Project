@@ -1,0 +1,200 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.services@mail.landregistry.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "9e6f4253-a8dd-4011-a927-a3b992159628",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-12-14T12:29:06.851909",
+        "metadata_modified": "2020-12-14T12:29:06.851914",
+        "name": "title-descriptor-dataset",
+        "notes": "HM Land Registry\u2019s Title Descriptor dataset describes the estate or interest and class of title (freehold/leasehold) conferred on each registered estate or interest in England and Wales. This data, along with the National Polygon, and Title Number and UPRN Look Up datasets, make up the full National Polygon Service",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "531766d9-4ec5-4fd8-bb86-a479a0107254",
+            "name": "land-registry",
+            "title": "HM Land Registry",
+            "type": "organization",
+            "description": "HM Land Registry (HMLR) registers the ownership of land and property in England and Wales. It keeps and maintains the Land Register, where more than 29 million titles (the evidence of ownership) are documented.\r\n\r\nHM Land Registry is an executive agency of the Department for Business, Energy and Industrial Strategy.\r\n\r\nhttps://www.gov.uk/land-registry\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:46.564825",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "531766d9-4ec5-4fd8-bb86-a479a0107254",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2015-11-12"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Title Descriptor dataset",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.80"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.84"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.33"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2015-11-12\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "monthly"
+            },
+            {
+                "key": "guid",
+                "value": "51cc9e2e-c62e-48c9-9186-d875195c033a"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "09ef0041-7b46-46d9-be6d-58b78cde87bf"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-12-10T09:57:02"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "HM Land Registry (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.84], [-6.33, 49.84], [-6.33, 55.80], [1.78, 55.80], [1.78, 49.84]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "06f1ae16-d9c0-4d3d-948c-af35e2f34f6c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UK Location Metadata Editor"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-12-14T12:29:06.899870",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "c3336a9d-2c3c-4328-ba3a-f4e7f6db7b44",
+                "last_modified": null,
+                "metadata_modified": "2020-12-14T12:29:06.899870",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Information Service",
+                "package_id": "9e6f4253-a8dd-4011-a927-a3b992159628",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://use-land-property-data.service.gov.uk/datasets/nps#descriptor",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Class of Title",
+                "id": "2f75e6e1-aa94-436a-a777-02aa559bf520",
+                "name": "Class of Title",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Estate or interest",
+                "id": "2794cf10-c125-40bb-a749-132ed52f8518",
+                "name": "Estate or interest",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land_and_property_register",
+                "id": "64e1f32a-9f1e-4379-aa0a-5150e0623724",
+                "name": "land_and_property_register",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "09ef0041-7b46-46d9-be6d-58b78cde87bf"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "06f1ae16-d9c0-4d3d-948c-af35e2f34f6c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UK Location Metadata Editor"
+            }
+        ]
+    }
+}

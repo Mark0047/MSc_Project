@@ -1,0 +1,274 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "neighbourhood.statistics@gov.scot",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "ab9f1f20-3b7f-4efa-9bd2-239acf63b540",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2014-11-06T09:32:50.133263",
+        "metadata_modified": "2024-06-19T11:15:40.124576",
+        "name": "data-zone-boundaries-2011",
+        "notes": "Data zones are the key geography for the dissemination of small area statistics in Scotland and are widely used across the public and private sector.  Composed of aggregates of Census Output Areas, data zones are large enough that statistics can be presented accurately without fear of disclosure and yet small enough that they can be used to represent communities.  They are designed to have roughly standard populations of 500 to 1,000 household residents, nest within Local Authorities (at the time of the Census), have compact shapes that respect physical boundaries where possible, and to contain households with similar social characteristics. Aggregations of data zones are often used to approximate a larger area of interest or a higher level geography that statistics wouldn\u2019t normally be available for.  Data zones also represent a relatively stable geography that can be used to analyse change over time, with changes only occurring after a Census.  Following the update to data zones using 2011 Census data, there are now 6,976 data zones covering the whole of Scotland.",
+        "num_resources": 4,
+        "num_tags": 4,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Data Zone Boundaries 2011",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available under the terms of the Open Government Licence. The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\", \"Dataset is complete for Scotland. Care should be taken when using this dataset with lookups to other postcode based geographies. Some postcode unit boundaries have changed since data zones were created therefore exact match of the boundaries are unlikely.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2014-11-06\"}, {\"type\": \"publication\", \"value\": \"2014-11-06\"}, {\"type\": \"revision\", \"value\": \"2021-10-04\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "7d3e8709-98fa-4d71-867c-d5c8293823f2"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ebe0196c-f399-470e-a606-6d9413f3e39c"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-11-24T13:04:21"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (pointOfContact, publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:15:40.180242",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "47502a4f-ee99-44ab-a394-27aa6b33f34d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:40.133095",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DataZoneBdry2011",
+                "package_id": "ab9f1f20-3b7f-4efa-9bd2-239acf63b540",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/StatisticalUnits/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:15:40.180245",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "a7706789-cb12-42f9-a538-00352be4ce0b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:40.133193",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SU:DataZoneBdry2011",
+                "package_id": "ab9f1f20-3b7f-4efa-9bd2-239acf63b540",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/StatisticalUnits/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:15:40.180246",
+                "description": "ESRI REST Service",
+                "format": "",
+                "hash": "",
+                "id": "69323aa8-8927-49a1-a43a-e7651291218a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:40.133267",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Data Zone Boundaries 2011",
+                "package_id": "ab9f1f20-3b7f-4efa-9bd2-239acf63b540",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/rest/services/ScotGov/StatisticalUnits/MapServer/2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:15:40.180248",
+                "description": "ESRI Shapefile Download",
+                "format": "ZIP",
+                "hash": "",
+                "id": "5b6c74c2-a608-441a-8d02-3435e98eb9d1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:15:40.133338",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Data Zone Boundaries 2011",
+                "package_id": "ab9f1f20-3b7f-4efa-9bd2-239acf63b540",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/ATOM/shapefiles/SG_DataZoneBdry_2011.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Statistical analysis",
+                "id": "c4da5e00-310c-4c65-872a-2f09123c4932",
+                "name": "Statistical analysis",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Statistical units",
+                "id": "5c1fe287-ebfd-4a64-9580-29baa322a3d0",
+                "name": "Statistical units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "population distribution",
+                "id": "06cfb6fe-cd55-42bc-a195-cab0ecb13f31",
+                "name": "population distribution",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "statistical data",
+                "id": "8ce17b2c-73e1-4db1-a06b-7e32b83bc5ea",
+                "name": "statistical data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3fd0d532-8a4a-4cae-a6c5-28437f72ae3c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

@@ -1,0 +1,490 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "05baae5d-a377-43ce-b200-a15169ac256d",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-10-15T14:55:14.106910",
+        "metadata_modified": "2024-06-14T14:49:31.005479",
+        "name": "wfd-groundwater-bodies-cycle-2-classification-2019",
+        "notes": "WFD Groundwater Bodies Cycle 2 Classification 2019 is an alternate version of \u2018WFD Groundwater Bodies Cycle 2\u2019 with the addition of 2019 classification data and additional user attribution. The geometry has been simplified to improve user experience, so the high resolution legal definition of these water bodies remains \u2018WFD Groundwater Bodies Cycle 2\u2019.\nThese are polygon datasets which have been created for the implementation of the Water Framework Directive (WFD). Article 2, clause 2 of the WFD defines them as '\u2026all water which is below the surface of the ground in the saturation zone and in direct contact with the ground or subsoil'. For the purposes of reporting under the WFD a groundwater body represent a distinct body of groundwater flow with a coherent flow unit including recharge and discharge areas with little flow across the boundaries. These reflect hydrogeological characteristics containing information on flow and stage properties, recharge and vulnerability to pollution. This has been undertaken through defining aquifers into different types and broken into catchment units at Catchment Abstraction Management Strategy (CAMS) scale.\n\nThe primary input dataset is '1:625K Classified Aquifer Geology' that has been constructed by the Environment Agency. This dataset has been digitised directly from the hard copy '1:250K Solid Geology Map' and classified according to aquifer type and are therefore directly derived from the underlying BGS data. These classifications were verified by the British Geology Survey (BGS). These data have gone out for consultation at Area level and in some instances 1:50K Solid Geology has been used to define localised boundaries.\nThe geometry of this dataset has then been simplified to allow for fast display, analysis and reduced file sizes.\n\nSince water bodies are attributed with a unique water body identifier 'WB_ID' this dataset can be linked directly to other WFD data sources. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2015. All rights reserved.",
+        "num_resources": 13,
+        "num_tags": 5,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "WFD Groundwater Bodies Cycle 2 Classification 2019",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2020-10-02\"}, {\"type\": \"revision\", \"value\": \"2020-10-02\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "6b5c81d9-1dc9-4635-b7bd-54d3d2488ccd"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "3a7bca3c-3b35-4522-b317-52fe4d04f9d9"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057915",
+                "description": "WFD Groundwater Cycle 2 Classification 2019_Chemical Status.lyr download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "39870769-ddd6-45cc-8cb8-cbebb1b4e1d0",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.012362",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFD Groundwater Cycle 2 Classification 2019_Chemical Status.lyr",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=cba4271e-ad12-42f7-8aab-0f80bd1ff3a9&fileName=WFD Groundwater Cycle 2 Classification 2019_Chemical Status.lyr",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057918",
+                "description": "WFD Groundwater Cycle 2 Classification 2019_Quantitative Status.lyr download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "f855eeda-90ad-49fc-a340-6632312d3a01",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.012478",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFD Groundwater Cycle 2 Classification 2019_Quantitative Status.lyr",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=cba4271e-ad12-42f7-8aab-0f80bd1ff3a9&fileName=WFD Groundwater Cycle 2 Classification 2019_Quantitative Status.lyr",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057919",
+                "description": "WFDGroundwaterBodiesCycle22019-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "7b6373e6-b1ce-4969-b488-3ca355e96cd2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.012550",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDGroundwaterBodiesCycle22019-FGDB.zip",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=cba4271e-ad12-42f7-8aab-0f80bd1ff3a9&fileName=WFDGroundwaterBodiesCycle22019-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057920",
+                "description": "WFDGroundwaterBodiesCycle22019-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3025ba3c-6cb6-4aaf-8574-f41c27063dce",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.012617",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDGroundwaterBodiesCycle22019-GeoJSON.zip",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=cba4271e-ad12-42f7-8aab-0f80bd1ff3a9&fileName=WFDGroundwaterBodiesCycle22019-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057921",
+                "description": "WFDGroundwaterBodiesCycle22019-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "a88896e9-d853-445b-9247-083db0a275e0",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.012682",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDGroundwaterBodiesCycle22019-GML.zip",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=cba4271e-ad12-42f7-8aab-0f80bd1ff3a9&fileName=WFDGroundwaterBodiesCycle22019-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057922",
+                "description": "WFDGroundwaterBodiesCycle22019-KML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "61ce03c5-543f-45b6-824b-04c0e842ada0",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.012747",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDGroundwaterBodiesCycle22019-KML.zip",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=cba4271e-ad12-42f7-8aab-0f80bd1ff3a9&fileName=WFDGroundwaterBodiesCycle22019-KML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057923",
+                "description": "WFDGroundwaterBodiesCycle22019-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "4fc80551-0c5c-4351-8886-3b3058057b70",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.012812",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDGroundwaterBodiesCycle22019-MID_MIF.zip",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=cba4271e-ad12-42f7-8aab-0f80bd1ff3a9&fileName=WFDGroundwaterBodiesCycle22019-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057924",
+                "description": "WFDGroundwaterBodiesCycle22019-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "f9eb0c28-1e32-46d7-a45b-288b6932b9e9",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.012876",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDGroundwaterBodiesCycle22019-SHP.zip",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=cba4271e-ad12-42f7-8aab-0f80bd1ff3a9&fileName=WFDGroundwaterBodiesCycle22019-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057925",
+                "description": "WFDGroundwaterBodiesCycle22019-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c9fb230d-e98e-4f69-a257-c0d86d6a97db",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.012940",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "WFDGroundwaterBodiesCycle22019-TAB.zip",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=cba4271e-ad12-42f7-8aab-0f80bd1ff3a9&fileName=WFDGroundwaterBodiesCycle22019-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057926",
+                "description": "WFD Groundwater Bodies Cycle 2 Classification 2019 WMS",
+                "format": "",
+                "hash": "",
+                "id": "27ba25c8-07c1-4811-85a6-db7e2513f959",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.013001",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFD_Groundwater_Bodies_Cycle_2_Classification_2019_WMS",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-groundwater-bodies-cycle-2-2019/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057927",
+                "description": "WFD Groundwater Bodies Cycle 2 Classification 2019 WFS",
+                "format": "",
+                "hash": "",
+                "id": "03e2964c-2a07-4be8-bed6-e3a45783db89",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.013062",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFD_Groundwater_Bodies_Cycle_2_Classification_2019_WFS",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-groundwater-bodies-cycle-2-2019/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057928",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "495cb5c7-699b-4ac0-aef1-b16d57841508",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.013123",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "WFD_Groundwater_Bodies_Cycle_2_Classification_2019_Download",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 11,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/6b5c81d9-1dc9-4635-b7bd-54d3d2488ccd?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:31.057929",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "5c482b06-7f8b-4642-912d-1baed582f9ee",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:31.013184",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "05baae5d-a377-43ce-b200-a15169ac256d",
+                "position": 12,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/wfd-groundwater-bodies-cycle-2-2019/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Classification 2019",
+                "id": "6afaab2c-c1a8-4751-8fe1-1b0314291483",
+                "name": "Classification 2019",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Cycle 2",
+                "id": "f13a2cf2-709d-4053-9cde-8e44a4051c64",
+                "name": "Cycle 2",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Groundwater body",
+                "id": "31bf9a42-2768-40ef-ad0e-5362efe3e076",
+                "name": "Groundwater body",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "WFD",
+                "id": "02f4dac3-3ff6-4d88-b62a-99ca259b0af6",
+                "name": "WFD",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "f7fb607f-8ce2-4fcd-a774-27de42252b14"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

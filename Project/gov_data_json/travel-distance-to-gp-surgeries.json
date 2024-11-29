@@ -1,0 +1,231 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@barrowbc.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f2c8596e-85bc-4e87-ad89-77d07f9016fa",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2013-03-26T09:41:40.206802",
+        "metadata_modified": "2018-03-01T08:44:19.469881",
+        "name": "travel-distance-to-gp-surgeries",
+        "notes": "Travel Distance to GP Surgeries from within all parts of the Borough. The distances are displayed as 500m contour bands of distance travelled along the road network. The contours are displayed as polygons.\n\nUpon accessing this Licensed Data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "d65220a4-e84c-4aa1-beab-0ed4f8c9adfe",
+            "name": "barrow-borough-council",
+            "title": "Barrow Borough Council",
+            "type": "organization",
+            "description": "(Barrow-in-Furness Borough Council)",
+            "image_url": "",
+            "created": "2012-06-27T14:54:32.292178",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d65220a4-e84c-4aa1-beab-0ed4f8c9adfe",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2012-09-13T12:00:00"
+        ],
+        "temporal_coverage-to": [],
+        "theme-primary": "health",
+        "theme-secondary": [
+            "Towns & Cities"
+        ],
+        "title": "Travel Distance to GP Surgeries",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Limitations on public access\", \"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-3.12439"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "54.21841"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.03964"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.32482"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2010-07-16\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "10922087-ab0d-4156-ba3c-8b221ac71269"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "df85c150-c7cc-48d5-b429-d9ffd327e2bc"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "10922087-ab0d-4156-ba3c-8b221ac71269"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Public Sector End User Licence - INSPIRE; http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-02-28"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Barrow Borough Council (distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-3.12439, 54.03964],[-3.12439, 54.21841], [-3.32482, 54.21841], [-3.32482, 54.03964], [-3.12439, 54.03964]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::4258"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a3a81578-0ff4-4837-ba67-988cdaadf9a0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Barrow Council Geonetwork"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2013-11-21T23:21:56.942474",
+                "description": "Barrow Council INSPIRE WMS Service",
+                "format": "WMS",
+                "id": "131c1944-c3b7-441b-8eb3-c550d00f5025",
+                "last_modified": null,
+                "metadata_modified": "2013-11-21T23:21:56.942474",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Barrow Council INSPIRE WMS Service",
+                "package_id": "f2c8596e-85bc-4e87-ad89-77d07f9016fa",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-map",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://webgis1.barrowbc.gov.uk/inspire/wms?service=WMS&request=GetCapabilities",
+                "url_type": null,
+                "wms_base_urls": "https://webgis1.barrowbc.gov.uk/INSPIRE/ows"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2013-11-21T23:21:56.942492",
+                "description": "Barrow Councils Web Mapping",
+                "format": "HTML",
+                "id": "946d39f8-2400-44b6-90a0-e54c833f0821",
+                "last_modified": null,
+                "metadata_modified": "2013-11-21T23:21:56.942492",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Barrow Councils Web Mapping",
+                "package_id": "f2c8596e-85bc-4e87-ad89-77d07f9016fa",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://webgis1.barrowbc.gov.uk/webgis/bingis.html?action=load&amp;layer=BBC:DOCTORSDISTANCECONTOUR",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-03-01T08:44:10.264718",
+                "description": "Barrow Council INSPIRE WFS GML 3.2 Download Service",
+                "format": "",
+                "hash": "",
+                "id": "ebc656d1-b367-4a0e-85a6-8852811610c5",
+                "last_modified": null,
+                "metadata_modified": "2018-03-01T08:44:10.264718",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Barrow Council INSPIRE WFS GML 3.2 Download Service",
+                "package_id": "f2c8596e-85bc-4e87-ad89-77d07f9016fa",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://webgis1.barrowbc.gov.uk/inspire/wfs?service=WFS&version=2.0.0&request=GetFeature&typeName=INSPIRE:DOCTORSDISTANCECONTOUR&outputFormat=GML32",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "df85c150-c7cc-48d5-b429-d9ffd327e2bc"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a3a81578-0ff4-4837-ba67-988cdaadf9a0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Barrow Council Geonetwork"
+            }
+        ]
+    }
+}

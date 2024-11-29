@@ -1,0 +1,256 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "not available",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "60c195b0-714c-40b3-b32c-a7191f25c3e6",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-05-18T23:14:18.756381",
+        "metadata_modified": "2024-11-17T14:33:06.910791",
+        "name": "micromechanics-of-shear-failure-in-a-porous-rock-a-combined-dataset-of-high-resolution-time-res",
+        "notes": "This dataset shows both the micro-scale mechanisms and acoustic response involved in shear failure of a deforming porous rock. To our knowledge, this is the first such dataset to combine simultaneous acoustic measurements and x-ray tomography imaging. It comprises a time-series of 3D in-situ synchrotron x-ray microtomography (\u00b5CT) volumes showing a Clashach sandstone sample (CL10) undergoing triaxial deformation to failure under a constant acoustic emissions (AE) event rate. Use of a constant AE event rate slowed down the failure process after peak stress, enabling shear failure to be captured in unprecedented spatio-temporal detail by the \u00b5CT volumes. These volumes are accompanied by the local incremental 3D strain fields and simultaneously acquired waveforms from acoustic emissions and ultrasonic velocity surveys, as well as mechanical bulk stress and strain. These data are fully explained in Cartwright-Taylor et al. Seismic events miss important grain-scale mechanisms governed by kinematics during shear failure of porous rock, in review at Nature Communications. We also include an equivalent time-series of the same data types showing a second Clashach sandstone sample (CL04) undergoing triaxial deformation to failure, this time under a constant strain rate where failure happened abruptly, shortly after peak stress. Both collections were acquired in-situ on the beamline I12-JEEP at the Diamond Light Source, Didcot, UK, in September 2019. Each 3D \u00b5CT volume of the sample is contained in a .zip file labelled with the sequential scan number. Each volume comprises reconstructed 16-bit grey-scale data in a sequence of 2D image files (.tif), each numbered according to the depth at which it lies within the sample volume. The file dimensions are pixels, with an edge length of 7.91 \u00b5m. Two further .zip files contain the incremental 3D volumetric and deviatoric strain fields, obtained from digital volume correlation between neighbouring \u00b5CT volumes. Each strain field consists of a 32-bit 3D image file (.tif) in pixels with an edge length of 316.4 \u00b5m, labelled with its scan increment. Also included are (i) .csv files, containing the mechanical stress and strain time-series, the time and mechanical data at which each \u00b5CT volume was scanned, and the acoustic emissions event rate data, and (ii) .zip files containing times and waveforms for the acoustic emissions and ultrasonic velocity surveys as .ascii files. The .zip and .xlsx files are labelled with the sample name, the data type (grey-scale, strain-volumetric, strain-deviatoric, seismic, mechanical, mechCT, eventrateAE) and the sequential scan number (grey-scale only) according to the following convention: sample_datatype_scan#. We acknowledge Diamond Light Source for time on beamline I12-JEEP under proposal MG22517. This work is supported by the UK's Natural Environment Research Council (NERC) through the CATFAIL project NE/R001693/1 Catastrophic failure: what controls precursory localisation in rocks?",
+        "num_resources": 3,
+        "num_tags": 7,
+        "organization": {
+            "id": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+            "name": "british-geological-survey",
+            "title": "British Geological Survey (BGS)",
+            "type": "organization",
+            "description": "A world-leading geoscience centre for survey and monitoring; modelling and research; data and knowledge.\r\n\r\nhttps://www.bgs.ac.uk/home.html\r\n\r\n",
+            "image_url": "2020-08-17-104120.024946BGS-Logo-Pos-RGB-01.png",
+            "created": "2012-06-27T14:50:32.295517",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "7ad23da8-c49d-4d81-bf85-5cfab52ba143",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2019-09-11"
+        ],
+        "temporal_coverage-to": [
+            "2019-09-16"
+        ],
+        "title": "Micromechanics of shear failure in a porous rock: a combined dataset of high-resolution time-resolved 3D x-ray micro-tomography volumes and local 3D strain fields with contemporaneous acoustic emissions and ultrasonic velocity survey waveforms",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The copyright of materials derived from the British Geological Survey's work is vested in the Natural Environment Research Council [NERC]. No part of this work may be reproduced or transmitted in any form or by any means, or stored in a retrieval system of any nature, without the prior permission of the copyright holder, via the BGS Intellectual Property Rights Manager. Use by customers of information provided by the BGS, is at the customer's own risk. In view of the disparate sources of information at BGS's disposal, including such material donated to BGS, that BGS accepts in good faith as being accurate, the Natural Environment Research Council (NERC) gives no warranty, expressed or implied, as to the quality or accuracy of the information supplied, or to the information's suitability for any use. NERC/BGS accepts no liability whatever in respect of loss, damage, injury or other occurence however caused.\", \"Available under the Open Government Licence subject to the following acknowledgement accompanying the reproduced NERC materials \\\"Contains NERC materials \\u00a9NERC [year]\\\"\"]"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2022-04-22\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notApplicable"
+            },
+            {
+                "key": "guid",
+                "value": "decc7c0a-c257-47e2-e053-0937940a8fe8"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "db8e7561-8a56-4b6c-9b22-0b4e7893f66a"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-16"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "nonGeographicDataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "University of Edinburgh (originator, principalInvestigator); Edinburgh Hacklab (originator); \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne (originator); Diamond Light Source (originator); British Geological Survey (distributor, pointOfContact)"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:33:06.958156",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "a8b2b807-89cd-4f72-bb56-92857e1663e7",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:33:06.916113",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Data",
+                "package_id": "60c195b0-714c-40b3-b32c-a7191f25c3e6",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://webapps.bgs.ac.uk/services/ngdc/accessions/index.html#item173296",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:33:06.958158",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "54c6bf98-af4e-4ffa-8380-23b9e100276b",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:33:06.916193",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Digital Object Identifier (DOI)",
+                "package_id": "60c195b0-714c-40b3-b32c-a7191f25c3e6",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://doi.org/10.5285/56c7802c-93db-4f0f-8b89-e18e10215633",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T14:33:06.958159",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "60c30953-7fdc-4386-8b66-7ece21de4ef2",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T14:33:06.916252",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Published Paper",
+                "package_id": "60c195b0-714c-40b3-b32c-a7191f25c3e6",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://doi.org/10.1038/s41467-022-33855-z",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Acoustic emission",
+                "id": "48c6d88a-8ad4-4710-a33f-c0ce140bf3ec",
+                "name": "Acoustic emission",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Compression tests",
+                "id": "61f90fd9-98ca-4e4a-a175-946c7645ab38",
+                "name": "Compression tests",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Faulting",
+                "id": "75653f18-635b-4907-bc12-e0b0f2352bb0",
+                "name": "Faulting",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NERC_DDC",
+                "id": "d24aa95c-95ee-4ccd-92c6-c26cc7a202b6",
+                "name": "NERC_DDC",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NGDC Deposited Data",
+                "id": "6dfb920f-6bcf-4028-a66e-a47bdc8547a6",
+                "name": "NGDC Deposited Data",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Rock deformation",
+                "id": "7be66f93-e8af-4f1b-a2a2-432120bf7337",
+                "name": "Rock deformation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Sandstone",
+                "id": "be33f71a-db88-4b2c-b248-8399effdb359",
+                "name": "Sandstone",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8e59a9d2-6399-4ad5-a98d-19fc197b4efc"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "064f731c-deca-4353-9165-3cfd863ac0ec"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "British Geological Survey Metadata"
+            }
+        ]
+    }
+}

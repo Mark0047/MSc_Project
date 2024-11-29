@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "WEEKLY",
+        "id": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6",
+        "metadata_created": "2019-01-23T11:15:40.362244",
+        "metadata_modified": "2019-01-23T11:15:40.362254",
+        "name": "london-datastore-gla",
+        "notes": "",
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "London Datastore - GLA",
+        "type": "harvest",
+        "url": "https://data.london.gov.uk/data.json?slug=gla",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 356,
+            "last_job": {
+                "id": "3fb3bdfc-e107-4cc0-9d84-3803d0927c0b",
+                "created": "2024-11-16 22:00:04.400045",
+                "gather_started": "2024-11-16 22:00:08.589142",
+                "gather_finished": "2024-11-16 22:00:36.392023",
+                "finished": "2024-11-16 22:02:52.326645",
+                "source_id": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 512,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/create.py\", line 200, in package_create\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"london\\'s population\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 512
+        }
+    }
+}

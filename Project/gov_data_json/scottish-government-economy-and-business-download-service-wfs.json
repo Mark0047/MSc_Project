@@ -1,0 +1,205 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "11ea0016-a20f-4f5a-8ab3-424303e68adb",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2015-07-09T02:04:47.962982",
+        "metadata_modified": "2024-06-19T11:19:02.999365",
+        "name": "scottish-government-economy-and-business-download-service-wfs",
+        "notes": "This download service provides spatial data relating to economy and business held by the Scottish Government.",
+        "num_resources": 1,
+        "num_tags": 4,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Scottish Government Economy and Business Download Service (WFS)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\", \"See individual dataset metadata records for conditions.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.53202"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.46459"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.53297"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-7.75714"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"title\": [], \"href\": [\"https://www.spatialdata.gov.scot:443/geonetwork/srv/en/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=3049f5c8-bc6d-45b0-bb90-fe3019dfe14c\"], \"uuid\": [\"3049f5c8-bc6d-45b0-bb90-fe3019dfe14c\"]}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-02-07\"}, {\"type\": \"revision\", \"value\": \"2020-12-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "aed09453-b8c6-4c67-95f4-41a5b2a165af"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "aec884fa-fae1-4df8-ab18-0c3711a8a3ef"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-01-14T15:13:23"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.53202, 54.53297], [-7.75714, 54.53297], [-7.75714, 61.46459], [-0.53202, 61.46459], [-0.53202, 54.53297]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "download"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:19:03.035597",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "98215bd1-2883-4429-9cc3-53dd857f5862",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:19:03.004815",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "11ea0016-a20f-4f5a-8ab3-424303e68adb",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/EconomyFinance/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Economics and finance",
+                "id": "0451f7b0-f4c4-4256-b901-3b4c411bc429",
+                "name": "Economics and finance",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "European funding",
+                "id": "82d69760-6161-40f9-bf35-fbebbe9d8ff2",
+                "name": "European funding",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Statistical units",
+                "id": "5c1fe287-ebfd-4a64-9580-29baa322a3d0",
+                "name": "Statistical units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "infoFeatureAccessService",
+                "id": "b96e0c65-66f2-4b2c-ae0b-7fb66251425e",
+                "name": "infoFeatureAccessService",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e38dacfe-43b1-4a1c-a4f5-1ac04da8dd85"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

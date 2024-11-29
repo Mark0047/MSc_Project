@@ -1,0 +1,118 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "45e3f391-9519-4e85-9b38-ce26a71eac71",
+        "isopen": false,
+        "license_id": "OGL-UK-3.0",
+        "license_title": "OGL-UK-3.0",
+        "metadata_created": "2018-04-26T17:51:39.829418",
+        "metadata_modified": "2024-08-10T21:01:11.151378",
+        "name": "diffusion-tubes-data",
+        "notes": "Nitrogen dioxide (NO2) diffusion tube data for monitoring locations within York - both inside and outside Air Quality Management Areas (AQMA), from 2005 onwards. Data is updated on annual basis in June.        \r\n\r\nMonthly values are raw data (__not bias-corrected__) and presented in ppb (parts per billion). __Bias-corrected annual averages__ for each diffusion tube are presented in both ppb and ug/m3 (micrograms per cubic metre) and are only calculated where data capture is 75% or greater across the 12 month monitoring period.\r\n\r\nFor more air quality related data please visit the following datasets:\r\n\r\n\u2022\t [__Air Quality Management Areas (AQMAs) in York__](https://data.yorkopendata.org/dataset/local-air-quality-management-zones)           \r\n\u2022\t [__Air Quality Monitoring Stations Locations in York__](https://data.yorkopendata.org/dataset/local-air-quality-monitoring-stations)                                 \r\n\u2022\t [__York Air Quality Monitoring Stations Data__](https://data.yorkopendata.org/dataset/air-quality-monitoring-stations-data)                                                                    \r\n\u2022\t [__Diffusion Tubes (NO2) Locations in York__](https://data.yorkopendata.org/dataset/diffusion-tubes-locations)                                                               \r\n",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+            "name": "city-of-york-council",
+            "title": "City of York Council",
+            "type": "organization",
+            "description": "Corporate Open Data platform - http://www.yorkopendata.org/\r\n\r\nCorporate map browser - http://maps.york.gov.uk/localviewexternal/sites/lv/",
+            "image_url": "",
+            "created": "2013-11-25T13:21:35.161579",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+        "private": false,
+        "state": "active",
+        "title": "Diffusion Tubes Data",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "extras": [
+            {
+                "key": "UpdateFrequency",
+                "value": "Annual"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "aba18ee3-6f96-467d-a2f5-8d3699b9c4f8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-07-10T17:18:39.650713",
+                "datastore_active": true,
+                "description": "Monthly nitrogen dioxide (NO2) readings for each diffusion tube from 2005 onwards",
+                "format": "CSV",
+                "hash": "",
+                "id": "70bfcee5-c8df-4602-9318-5f277c699efa",
+                "last_modified": "2024-08-07T14:25:07.521277",
+                "metadata_modified": "2024-08-10T21:01:11.155793",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Readings - NO2",
+                "package_id": "45e3f391-9519-4e85-9b38-ce26a71eac71",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/45e3f391-9519-4e85-9b38-ce26a71eac71/resource/70bfcee5-c8df-4602-9318-5f277c699efa/download/tubesreadings.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-07-10T17:22:04.838560",
+                "datastore_active": true,
+                "description": "Detail on each tube's characteristics",
+                "format": "CSV",
+                "hash": "",
+                "id": "08f58ab6-12f3-429e-a013-ec4c15242580",
+                "last_modified": "2018-09-13T11:46:52.322975",
+                "metadata_modified": "2022-11-30T18:22:51.010041",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata",
+                "package_id": "45e3f391-9519-4e85-9b38-ce26a71eac71",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/45e3f391-9519-4e85-9b38-ce26a71eac71/resource/08f58ab6-12f3-429e-a013-ec4c15242580/download/tubesmetadata.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "1c951af5-72f0-4c7f-a087-fdb54199903b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ]
+    }
+}

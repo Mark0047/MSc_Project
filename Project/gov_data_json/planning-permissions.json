@@ -1,0 +1,229 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f0841a57-c420-490e-bb60-d73c2244bc2e",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2023-02-08T16:07:33.778193",
+        "metadata_modified": "2023-04-06T12:53:57.841012",
+        "name": "planning-permissions",
+        "notes": "<p>All planning applications that are determined.</p><p>All planning applications determined within 5 years from the date last modified.</p>",
+        "num_resources": 4,
+        "num_tags": 2,
+        "organization": {
+            "id": "428e76b4-8690-4d64-8586-a4e748c487d5",
+            "name": "leicester-city-council",
+            "title": "Leicester City Council",
+            "type": "organization",
+            "description": "Leicester City Council is the unitary authority serving the people, communities and businesses of Leicester.",
+            "image_url": "",
+            "created": "2013-09-05T10:56:36.089623",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "428e76b4-8690-4d64-8586-a4e748c487d5",
+        "private": false,
+        "state": "active",
+        "title": "Planning Permissions",
+        "type": "dataset",
+        "url": "https://data.leicester.gov.uk/explore/dataset/planning-permissions/",
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/planning-permissions"
+            },
+            {
+                "key": "identifier",
+                "value": "planning-permissions@leicester"
+            },
+            {
+                "key": "issued",
+                "value": "2023-04-06T05:30:24.540000+00:00"
+            },
+            {
+                "key": "language",
+                "value": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]"
+            },
+            {
+                "key": "modified",
+                "value": "2023-04-06T05:30:24.540000+00:00"
+            },
+            {
+                "key": "publisher_name",
+                "value": "Leicester City Council"
+            },
+            {
+                "key": "publisher_uri",
+                "value": "https://data.leicester.gov.uk/explore/?refine.publisher=Leicester+City+Council"
+            },
+            {
+                "key": "theme",
+                "value": "[\"https://data.leicester.gov.uk/explore/?refine.theme=Building+%26+Infrastructure\"]"
+            },
+            {
+                "key": "uri",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/planning-permissions"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e8debe20-5fc9-4267-88f6-46023e5bc42d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/planning-permissions/exports/geojson",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:07:33.789093",
+                "description": "Planning Permissions (geojson)",
+                "format": "https://www.iana.org/assignments/media-types/application/json",
+                "hash": "",
+                "id": "2a38753d-4728-4376-9f65-88f4267fc754",
+                "issued": "2023-04-06T05:30:24.540000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-04-06T12:53:57.844647",
+                "mimetype": "https://www.iana.org/assignments/media-types/application/json",
+                "mimetype_inner": null,
+                "modified": "2023-04-06T05:30:24.540000+00:00",
+                "name": "geojson",
+                "package_id": "f0841a57-c420-490e-bb60-d73c2244bc2e",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/planning-permissions-geojson",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/planning-permissions/exports/geojson",
+                "url_type": null
+            },
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/planning-permissions/exports/shp",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:07:33.789095",
+                "description": "Planning Permissions (shp)",
+                "format": "https://www.iana.org/assignments/media-types/application/zip",
+                "hash": "",
+                "id": "60eb47fc-fc7e-4ad4-84b5-380dabb64445",
+                "issued": "2023-04-06T05:30:24.540000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-04-06T12:53:57.844767",
+                "mimetype": "https://www.iana.org/assignments/media-types/application/zip",
+                "mimetype_inner": null,
+                "modified": "2023-04-06T05:30:24.540000+00:00",
+                "name": "shp",
+                "package_id": "f0841a57-c420-490e-bb60-d73c2244bc2e",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/planning-permissions-shp",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/planning-permissions/exports/shp",
+                "url_type": null
+            },
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/planning-permissions/exports/csv",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:07:33.789087",
+                "description": "Planning Permissions (csv)",
+                "format": "https://www.iana.org/assignments/media-types/text/csv",
+                "hash": "",
+                "id": "754eae32-7941-4155-9e82-540f48c53783",
+                "issued": "2023-04-06T05:30:24.540000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-04-06T12:53:57.844861",
+                "mimetype": "https://www.iana.org/assignments/media-types/text/csv",
+                "mimetype_inner": null,
+                "modified": "2023-04-06T05:30:24.540000+00:00",
+                "name": "csv",
+                "package_id": "f0841a57-c420-490e-bb60-d73c2244bc2e",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/planning-permissions-csv",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/planning-permissions/exports/csv",
+                "url_type": null
+            },
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/planning-permissions/exports/json",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:07:33.789091",
+                "description": "Planning Permissions (json)",
+                "format": "https://www.iana.org/assignments/media-types/application/json",
+                "hash": "",
+                "id": "063f950f-bfb4-434b-9d98-b983466ae239",
+                "issued": "2023-04-06T05:30:24.540000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-04-06T12:53:57.844971",
+                "mimetype": "https://www.iana.org/assignments/media-types/application/json",
+                "mimetype_inner": null,
+                "modified": "2023-04-06T05:30:24.540000+00:00",
+                "name": "json",
+                "package_id": "f0841a57-c420-490e-bb60-d73c2244bc2e",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/planning-permissions-json",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/planning-permissions/exports/json",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Planning",
+                "id": "f015a039-1856-4f51-bbfe-e4df359b7239",
+                "name": "Planning",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Planning Permission",
+                "id": "462323a3-b084-4381-a729-caa7d599a9f9",
+                "name": "Planning Permission",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e8debe20-5fc9-4267-88f6-46023e5bc42d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ]
+    }
+}

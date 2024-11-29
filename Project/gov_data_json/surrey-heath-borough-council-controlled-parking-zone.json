@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "address.management@surreyheath.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "e25885e7-b388-49a8-a323-7a9cad3a88c0",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-09-29T13:20:07.377858",
+        "metadata_modified": "2016-02-10T18:35:04.090074",
+        "name": "surrey-heath-borough-council-controlled-parking-zone",
+        "notes": "Dataset displaying the Controlled Parking Zone in Camberley. Upon accessing this Licensed Data you will be deemed to have accepted the terms of the Public Sector End User Licence - INSPIRE",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "1484cfe3-7d98-474e-bab5-e896c22a2ce3",
+            "name": "surrey-heath-borough-council",
+            "title": "Surrey Heath Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T10:58:02.529383",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1484cfe3-7d98-474e-bab5-e896c22a2ce3",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [
+            "Transport"
+        ],
+        "title": "Surrey Heath Borough Council Controlled Parking Zone",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"This dataset is released under the Public Sector Inspire  End User License and is for non commercial and personal use only.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.4936981177"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.4308956425"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.2077437655"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.8301544165"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-09-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "75b63f49-69e3-47c2-a83e-e1705bef0f6c"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "8a1d3385-c45a-4000-bf32-ba40317523f8"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/1484cfe3-7d98-474e-bab5-e896c22a2ce3/208-Controlled_parking_zones.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Public Sector Inspire End User License. - http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2014-09-29"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Surrey Heath Borough Council (originator)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.4936981177, 51.2077437655],[-0.4936981177, 51.4308956425], [-0.8301544165, 51.4308956425], [-0.8301544165, 51.2077437655], [-0.4936981177, 51.2077437655]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ae676734-d5a2-4d64-8a07-83e859e5a433"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-10-08T12:26:41.543623",
+                "description": "Resource locator",
+                "format": "CSV",
+                "hash": "",
+                "id": "4d3a4e4f-ab56-4b15-b7a6-314cf4a3f8da",
+                "last_modified": null,
+                "metadata_modified": "2014-10-08T12:26:41.543623",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Surrey Heath WMS Service",
+                "package_id": "e25885e7-b388-49a8-a323-7a9cad3a88c0",
+                "position": 0,
+                "resource_locator_function": "search",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://isharemaps.surreyheath.gov.uk/ishare5.0.web/GetOWS.ashx?MapSource=SurreyHeath/Inspire",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2014-10-08T12:26:41.543643",
+                "description": "Resource locator",
+                "format": "CSV",
+                "hash": "",
+                "id": "510c6363-fec2-49a3-a7a4-77385b83cd91",
+                "last_modified": null,
+                "metadata_modified": "2014-10-08T12:26:41.543643",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Surrey Heath WFS Service",
+                "package_id": "e25885e7-b388-49a8-a323-7a9cad3a88c0",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://isharemaps.surreyheath.gov.uk/ishare5.0.web/GetOWS.ashx?MapSource=SurreyHeath/Inspire",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8a1d3385-c45a-4000-bf32-ba40317523f8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ae676734-d5a2-4d64-8a07-83e859e5a433"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

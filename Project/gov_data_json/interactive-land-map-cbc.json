@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "d608520a-21cd-49da-9198-e01afff7cb9a",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-10-09T10:10:49.307695",
+        "metadata_modified": "2019-12-21T23:54:41.987424",
+        "name": "interactive-land-map-cbc",
+        "notes": "<p>Interactive map of Essex showing land owned by local authorities and central government.</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "140fad04-d552-4757-ac79-bc9a06ef635d",
+            "name": "colchester-borough-council",
+            "title": "Colchester Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-01-16T11:49:46.028151",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "140fad04-d552-4757-ac79-bc9a06ef635d",
+        "private": false,
+        "state": "active",
+        "title": "Interactive land map",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.colchester.gov.uk/residents/local-authority-land/interactive-land-map"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ebd029d1-8941-4a4d-be0e-316cea7b0532"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.colchester.gov.uk/residents/local-authority-land/interactive-land-map"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "local-authority-land/interactive-land-map"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-12-02"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://datashare.colchester.gov.uk/api/esdInventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2019-12-02T00:00:00\", \"harvest_source_title\": \"Colchester datashare website\", \"activity_occurred\": \"2019-12-21T23:54:41.797595\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.colchester.gov.uk/residents/local-authority-land/interactive-land-map\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-10-09T11:10:49.367300",
+                "description": "Interactive land map - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "aa423fc3-414c-4d9f-a16a-e6af476ba352",
+                "last_modified": null,
+                "metadata_modified": "2015-10-09T11:10:49.367300",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "d608520a-21cd-49da-9198-e01afff7cb9a",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/local-authority-land/interactive-land-map/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/Download/local-authority-land/interactive-land-map",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:24:57.332722",
+                "description": "Interactive Map - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "8a7c9724-6d6e-4f9d-b405-fe5cf79e3e9e",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:24:57.332722",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "d608520a-21cd-49da-9198-e01afff7cb9a",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://datashare.colchester.gov.uk/api/local-authority-land/interactive-land-map/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/local-authority-land/interactive-land-map/interactive-map/CSV?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:24:57.332730",
+                "description": "Interactive Map - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "c6bb2a23-07e6-4bde-a0c0-8818320be17b",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:24:57.332730",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "d608520a-21cd-49da-9198-e01afff7cb9a",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/local-authority-land/interactive-land-map/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/local-authority-land/interactive-land-map/interactive-map/XML?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-10-09T11:10:49.367334",
+                "description": "Interactive Map - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "e4d01441-e1e0-4518-84b4-d47f34937dda",
+                "last_modified": null,
+                "metadata_modified": "2015-10-09T11:10:49.367334",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "d608520a-21cd-49da-9198-e01afff7cb9a",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/local-authority-land/interactive-land-map/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/local-authority-land/interactive-land-map/interactive-map?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-10-09T11:10:49.367338",
+                "description": "Interactive Map - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "4a190248-e996-434d-9769-be971c687d46",
+                "last_modified": null,
+                "metadata_modified": "2015-10-09T11:10:49.367338",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "d608520a-21cd-49da-9198-e01afff7cb9a",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/local-authority-land/interactive-land-map/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/local-authority-land/interactive-land-map/interactive-map?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "ebd029d1-8941-4a4d-be0e-316cea7b0532"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ]
+    }
+}

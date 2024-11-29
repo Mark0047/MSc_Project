@@ -1,0 +1,262 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "geographycustomerservices@nrscotland.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "8f80457a-238b-48ec-953d-857e1315e375",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2013-11-15T16:41:32.039319",
+        "metadata_modified": "2024-06-19T11:14:28.342990",
+        "name": "census-2011-local-characteristic-sector",
+        "notes": "A 2011 LC sector was one of 2 special postcode sectors created for 2011 Census Output.\n\n A postcode sector comprises all the unit postcodes that have the same identifier except for the last two characters.  Special postcode sectors are created for census output to ensure sectors conform to a minimum threshold and do not cross Council Area boundaries.    LC sectors have a minimum threshold of 20 households and 50 persons, the same minimum threshold as Census Output Areas.   There are 1,012 LC sectors.\n\nCorrections and Revisions\nRevision to Local Characteristic (LC) sector boundaries at boundary between East Renfrewshire and Renfrewshire Council areas. (7 October 2013)\nLC Sectors S29000556, S29000558, and S29000870 have been amended following a correction to Ordnance Survey BoundaryLine.",
+        "num_resources": 3,
+        "num_tags": 5,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2011"
+        ],
+        "temporal_coverage-to": [
+            "2011"
+        ],
+        "title": "Census 2011 - Local Characteristic Sector",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following statements must be used when reproducing or using this material: Copyright National Records of Scotland, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2013-08-15\"}, {\"type\": \"revision\", \"value\": \"2013-10-07\"}, {\"type\": \"publication\", \"value\": \"2013-10-07\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "5c68fbb4-d220-4e07-97e8-230933e03774"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "fecb56d6-2b98-4926-a458-1ea14b491b6f"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-06-14T11:39:43"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "National Records of Scotland"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "National Records of Scotland (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:28.384072",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "e4115a57-7b5b-4b9b-b455-24aa93da3dd1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:28.349244",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LCSector2011",
+                "package_id": "8f80457a-238b-48ec-953d-857e1315e375",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2011/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:28.384074",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "e41eae69-a730-4261-86a0-aade07cea703",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:28.349336",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CEN2011:LCSector2011",
+                "package_id": "8f80457a-238b-48ec-953d-857e1315e375",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/NRS/Census2011/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:28.384075",
+                "description": "Geography \u2013 2011 Census Boundaries - ESRI Shapefiles",
+                "format": "",
+                "hash": "",
+                "id": "30582ec5-eb01-429e-9b53-3e547b7a2fd3",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:28.349409",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "National Records of Scotland website",
+                "package_id": "8f80457a-238b-48ec-953d-857e1315e375",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/census-datasets/2011-census/2011-boundaries",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Boundaries",
+                "id": "761f5ab1-0549-4ea2-9f26-90e94153b09f",
+                "name": "Boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Censuses",
+                "id": "6681e351-a494-4ddd-8ee6-e0b076aacfe2",
+                "name": "Censuses",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Statistical units",
+                "id": "5c1fe287-ebfd-4a64-9580-29baa322a3d0",
+                "name": "Statistical units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "census survey",
+                "id": "28f851c8-04ff-4028-a6c5-0eafd84264a1",
+                "name": "census survey",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "statistical data",
+                "id": "8ce17b2c-73e1-4db1-a06b-7e32b83bc5ea",
+                "name": "statistical data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "50bf61be-950b-4166-a34b-17bae53bf2b5"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

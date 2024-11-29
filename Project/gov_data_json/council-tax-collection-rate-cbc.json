@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "0a02f47b-aaee-426a-a8a8-7b11b1a765aa",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-09-10T10:20:43.810957",
+        "metadata_modified": "2019-12-21T23:55:40.410491",
+        "name": "council-tax-collection-rate-cbc",
+        "notes": "<p>This indicator is part of the Council's corporate indicator set - K1 R1.</p>\r\n<p>These results are published every 6 months, at the half year and year end.</p>\r\n<p>The figure given is the percentage of the overall total of Council Tax due which we have collected.</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "140fad04-d552-4757-ac79-bc9a06ef635d",
+            "name": "colchester-borough-council",
+            "title": "Colchester Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-01-16T11:49:46.028151",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "140fad04-d552-4757-ac79-bc9a06ef635d",
+        "private": false,
+        "state": "active",
+        "title": "Council Tax Collection Rate",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.colchester.gov.uk/residents/council-tax-and-benefits/council-tax-collection-rate"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "103c6b46-ffed-4e14-ad11-60d045967a26"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.colchester.gov.uk/residents/council-tax-and-benefits/council-tax-collection-rate"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "council-tax-and-benefits/council-tax-collection-rate"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-12-02"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://datashare.colchester.gov.uk/api/esdInventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2019-12-02T00:00:00\", \"harvest_source_title\": \"Colchester datashare website\", \"activity_occurred\": \"2019-12-21T23:55:40.217849\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.colchester.gov.uk/residents/council-tax-and-benefits/council-tax-collection-rate\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T11:20:43.854374",
+                "description": "Council Tax Collection Rate - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "db49bb77-495b-4951-8fa5-6ef92e17c36f",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T11:20:43.854374",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "0a02f47b-aaee-426a-a8a8-7b11b1a765aa",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-tax-and-benefits/council-tax-collection-rate/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/Download/council-tax-and-benefits/council-tax-collection-rate",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:22:30.592284",
+                "description": "Council Tax Collection Rate 18/19 Half Year - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "6cb2c73f-95ef-400f-b6dd-6ca2e3958a93",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:22:30.592284",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "0a02f47b-aaee-426a-a8a8-7b11b1a765aa",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-tax-and-benefits/council-tax-collection-rate/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/council-tax-and-benefits/council-tax-collection-rate/council-tax-collection-rate-18-19-half-year/CSV?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:22:30.592292",
+                "description": "Council Tax Collection Rate 18/19 Half Year - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "d7540325-b621-47ea-83ba-58dd566130de",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:22:30.592292",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "0a02f47b-aaee-426a-a8a8-7b11b1a765aa",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-tax-and-benefits/council-tax-collection-rate/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/council-tax-and-benefits/council-tax-collection-rate/council-tax-collection-rate-18-19-half-year/XML?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:22:30.592295",
+                "description": "Council Tax Collection Rate 18/19 Half Year - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "48f575da-c425-43d2-9c3b-5ec4a830b2f6",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:22:30.592295",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "0a02f47b-aaee-426a-a8a8-7b11b1a765aa",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-tax-and-benefits/council-tax-collection-rate/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/council-tax-and-benefits/council-tax-collection-rate/council-tax-collection-rate-18-19-half-year?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:22:30.592297",
+                "description": "Council Tax Collection Rate 18/19 Half Year - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "06127f88-d5fa-41d7-b829-638754de77e1",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:22:30.592297",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "0a02f47b-aaee-426a-a8a8-7b11b1a765aa",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-tax-and-benefits/council-tax-collection-rate/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/council-tax-and-benefits/council-tax-collection-rate/council-tax-collection-rate-18-19-half-year?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "103c6b46-ffed-4e14-ad11-60d045967a26"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "242138fd-ac3b-4fff-a2d6-f10700af5983",
+        "frequency": "MANUAL",
+        "id": "13b173f3-9296-47a8-85ae-7ad80e028ef7",
+        "metadata_created": "2022-01-04T11:53:04.178773",
+        "metadata_modified": "2022-01-04T12:18:02.912742",
+        "name": "chelmsford-city-council-open-data",
+        "notes": "",
+        "organization": {
+            "id": "e0531b39-14e4-46e7-b432-f39ac89a51ae",
+            "name": "chelmsford-city-council",
+            "title": "Chelmsford City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-04-10T12:23:15.880908",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e0531b39-14e4-46e7-b432-f39ac89a51ae",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "CCC Test",
+        "type": "harvest",
+        "url": "https://r.chelmsford.gov.uk/ccc/rest/services/OrdnanceSurvey/Chelmsford_Addresses/GeocodeServer",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 5,
+            "last_job": {
+                "id": "cfffe8a8-95f6-4d02-94b4-285aac3660d2",
+                "created": "2022-01-04 12:20:41.908652",
+                "gather_started": "2022-01-04 12:20:42.060115",
+                "gather_finished": "2022-01-04 12:20:42.338172",
+                "finished": "2022-01-04 12:20:42.338172",
+                "source_id": "13b173f3-9296-47a8-85ae-7ad80e028ef7",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Error parsing file: Expecting value: line 1 column 1 (char 0)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

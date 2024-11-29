@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "db558e24-f1ca-4c1d-8c76-926da833789e",
+        "metadata_created": "2019-01-23T11:33:05.958460",
+        "metadata_modified": "2024-02-01T16:30:15.421807",
+        "name": "ukme-waf5b2d1",
+        "notes": "Import From UK Metadata Editor",
+        "organization": {
+            "id": "1780e585-17b0-4ef6-a1cb-c0b08cee940d",
+            "name": "tandridge-district-council",
+            "title": "Tandridge District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-02-21T15:53:42.025131",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1780e585-17b0-4ef6-a1cb-c0b08cee940d",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/1780e585-17b0-4ef6-a1cb-c0b08cee940d/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 412,
+            "last_job": {
+                "id": "5ff2088e-40a5-41b7-bdef-e50f6fbce3ba",
+                "created": "2024-11-02 14:00:08.771942",
+                "gather_started": "2024-11-02 14:00:41.460425",
+                "gather_finished": "2024-11-02 14:01:01.504388",
+                "finished": "2024-11-02 14:01:01.504388",
+                "source_id": "db558e24-f1ca-4c1d-8c76-926da833789e",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/1780e585-17b0-4ef6-a1cb-c0b08cee940d/: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/1780e585-17b0-4ef6-a1cb-c0b08cee940d/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb7e4b9ad90>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 1
+        }
+    }
+}

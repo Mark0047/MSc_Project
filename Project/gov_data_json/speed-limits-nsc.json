@@ -1,0 +1,219 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "358f3306-dac5-4309-b7ed-e12ee497efaa",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-05-29T15:10:56.355483",
+        "metadata_modified": "2016-09-22T14:41:02.094262",
+        "name": "speed-limits-nsc",
+        "notes": "<p>Speed limits within North Somerset.</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+            "name": "north-somerset-council",
+            "title": "North Somerset Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:01.609923",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+        "private": false,
+        "state": "active",
+        "theme-primary": "transport",
+        "title": "Speed Limits",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.n-somerset.gov.uk/highways-parking/speed-limits"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "fb7b6724-d226-42f4-9d8c-4cdd2a786024"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.n-somerset.gov.uk/highways-parking/speed-limits"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "highways-parking/speed-limits"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": "http://id.esd.org.uk/service/571"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-09-22"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.n-somerset.gov.uk/api/esdinventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2016-09-22T00:00:00\", \"harvest_source_title\": \"North Somerset Council\", \"activity_occurred\": \"2016-09-22T14:41:02.031328\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.n-somerset.gov.uk/highways-parking/speed-limits\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:10:56.401860",
+                "description": "Speed Limits - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "7912be77-7977-431e-8c2c-a446241933f5",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:10:56.401860",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "358f3306-dac5-4309-b7ed-e12ee497efaa",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/highways-parking/speed-limits/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/Download/highways-parking/speed-limits",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-09-22T15:41:02.225130",
+                "description": "Speed Limits - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "2d178cfb-2e71-4b64-9d84-398c136b4090",
+                "last_modified": null,
+                "metadata_modified": "2016-09-22T15:41:02.225130",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "358f3306-dac5-4309-b7ed-e12ee497efaa",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.n-somerset.gov.uk/api/highways-parking/speed-limits/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/highways-parking/speed-limits/speed-limits/CSV?version=22/09/2016",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-09-22T15:41:02.225153",
+                "description": "Speed Limits - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "a0fd551f-cb00-41df-ba0d-4f705a38dc33",
+                "last_modified": null,
+                "metadata_modified": "2016-09-22T15:41:02.225153",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "358f3306-dac5-4309-b7ed-e12ee497efaa",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/highways-parking/speed-limits/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/highways-parking/speed-limits/speed-limits/XML?version=22/09/2016",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:10:56.401894",
+                "description": "Speed Limits - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "d17217ed-4ca5-47ef-aa15-b501bab73ebd",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:10:56.401894",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "358f3306-dac5-4309-b7ed-e12ee497efaa",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/highways-parking/speed-limits/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/highways-parking/speed-limits/speed-limits?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:10:56.401898",
+                "description": "Speed Limits - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "f2d828e8-3755-4a7a-a87b-a75040e9b367",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:10:56.401898",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "358f3306-dac5-4309-b7ed-e12ee497efaa",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/highways-parking/speed-limits/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/highways-parking/speed-limits/speed-limits?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "fb7b6724-d226-42f4-9d8c-4cdd2a786024"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ]
+    }
+}

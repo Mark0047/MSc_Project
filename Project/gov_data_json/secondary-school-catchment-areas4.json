@@ -1,0 +1,236 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@cheshireeast.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "295adb8f-36e5-4318-aef8-839a1bab22e4",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2018-07-06T09:58:27.526135",
+        "metadata_modified": "2019-02-21T12:45:17.104720",
+        "name": "secondary-school-catchment-areas4",
+        "notes": "Polygons representing the Catchment Areas for Cheshire West and Chester Secondary Schools.\n\nPlease note that some catchment areas partially overlap. The overlaps indicate that there is a choice of schools within the overlap area.",
+        "num_resources": 2,
+        "num_tags": 5,
+        "organization": {
+            "id": "b6b50d70-9d5c-4fef-9135-7756cca343c3",
+            "name": "cheshire-west-and-chester-council",
+            "title": "Cheshire West and Chester Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:13.423731",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "b6b50d70-9d5c-4fef-9135-7756cca343c3",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Secondary School Catchment Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"none\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.8690490695"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.6108401590"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.7549965310"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.2148742648"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2005-02-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "as needed"
+            },
+            {
+                "key": "guid",
+                "value": "482_CWAC"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "3f853cfd-5a10-497f-b26e-7784947a980c"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-07-05T09:39:54"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Cheshire West and Chester Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.8690490695, 52.7549965310], [-3.2148742648, 52.7549965310], [-3.2148742648, 53.6108401590], [-1.8690490695, 53.6108401590], [-1.8690490695, 52.7549965310]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "7ed417cf-c599-4273-8548-49e2b27328ce"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "cheshirewestandchester-inspire"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-21T12:45:17.285732",
+                "description": "WMS (View Service)",
+                "format": "",
+                "hash": "",
+                "id": "2e36cffa-b8b1-4f61-ae2b-9a91a9e7cad5",
+                "last_modified": null,
+                "metadata_modified": "2019-02-21T12:45:17.285732",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Secondary School Catchment Areas (WMS)",
+                "package_id": "295adb8f-36e5-4318-aef8-839a1bab22e4",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.1.1-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CWaCOpenData/AU_S_SecondaryCatchments_POLY_CURRENT/wms?request=GetCapabilities&version=1.1.1&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-21T12:45:17.285738",
+                "description": "WFS (Download Service)",
+                "format": "",
+                "hash": "",
+                "id": "662f8c34-cd3b-4e8d-bc64-0b1008ce7d2f",
+                "last_modified": null,
+                "metadata_modified": "2019-02-21T12:45:17.285738",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Secondary School Catchment Areas (WFS)",
+                "package_id": "295adb8f-36e5-4318-aef8-839a1bab22e4",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cheshireeast.gov.uk/geoserver/CWaCOpenData/AU_S_SecondaryCatchments_POLY_CURRENT/wfs?request=Getfeature&TypeName=AU_S_SecondaryCatchments_POLY_CURRENT&version=1.1.0&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Administrative units",
+                "id": "8d20781b-12df-4d16-809a-b340746e0775",
+                "name": "Administrative units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Boundaries",
+                "id": "761f5ab1-0549-4ea2-9f26-90e94153b09f",
+                "name": "Boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Catchment Area",
+                "id": "50ea285c-e486-4db1-af5e-2bbfac103414",
+                "name": "Catchment Area",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Cheshire West and Chester",
+                "id": "d251a95a-15d9-4f7c-876d-2a0f89eed1c7",
+                "name": "Cheshire West and Chester",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Secondary Schools",
+                "id": "520dd579-9f24-4af6-804f-0ebde21721a5",
+                "name": "Secondary Schools",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3f853cfd-5a10-497f-b26e-7784947a980c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "7ed417cf-c599-4273-8548-49e2b27328ce"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "cheshirewestandchester-inspire"
+            }
+        ]
+    }
+}

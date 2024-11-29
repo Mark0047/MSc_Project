@@ -1,0 +1,179 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "outdoor.facilities@rbwm.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "c539d49b-a351-4f1c-9645-9b7d9d0d6c75",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2019-01-09T21:19:29.149553",
+        "metadata_modified": "2019-12-31T11:27:17.200392",
+        "name": "rbwm-owned-open-spaces",
+        "notes": "Areas of land within the Royal Borough of Windsor and Maidenhead that are used for playing activities and recreational purposes for the community that are owned by the council.\n\nData captured as polygons",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "b7604054-3122-4f80-8c2f-2a43999af2e8",
+            "name": "royal-borough-of-windsor-and-maidenhead",
+            "title": "Royal Borough of Windsor and Maidenhead",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:37.846768",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "b7604054-3122-4f80-8c2f-2a43999af2e8",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "title": "RBWM Owned Open Spaces",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The are no limitations on public access\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.5232238758"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.5766428104"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.3542024183"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.8596801746"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-01-21\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "irregular"
+            },
+            {
+                "key": "guid",
+                "value": "32da1678-e2eb-4674-9ab1-e5272e28c427"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/b7604054-3122-4f80-8c2f-2a43999af2e8/159-RBWM_Owned_Open_Spaces.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Ordnance Survey INSPIRE End User Licence.\nDataset can only be used for own personal, non-commercial use. (https://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html)"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-01-02"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Royal Borough of Windsor and Maidenhead"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Royal Borough of Windsor and Maidenhead (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.5232238758, 51.3542024183],[-0.5232238758, 51.5766428104], [-0.8596801746, 51.5766428104], [-0.8596801746, 51.3542024183], [-0.5232238758, 51.3542024183]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "50894b54-1389-4b3c-887a-f0a0e4dfbb4e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6f13a8e1-766d-485c-b7e6-bd0f6d76f282"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-06T14:31:06.059837",
+                "datafile-date": "2019-12-06",
+                "description": "",
+                "format": "WMS",
+                "hash": "",
+                "id": "cfe41386-26f9-4cdd-8aa1-a1acd66be355",
+                "last_modified": null,
+                "metadata_modified": "2019-12-06T14:31:06.059837",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RBWM WMS Service",
+                "package_id": "c539d49b-a351-4f1c-9645-9b7d9d0d6c75",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://geodata.rbwm.gov.uk/geoserver/wminspire/ows?service=WMS&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "50894b54-1389-4b3c-887a-f0a0e4dfbb4e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "6f13a8e1-766d-485c-b7e6-bd0f6d76f282"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

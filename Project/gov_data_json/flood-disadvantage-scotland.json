@@ -1,0 +1,336 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "7a2664da-1448-47c9-a7b0-fbb36c118be9",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-04-15T12:55:53.262028",
+        "metadata_modified": "2024-06-19T11:18:44.889526",
+        "name": "flood-disadvantage-scotland",
+        "notes": "This dataset presents flood disadvantage for the whole of Scotland using the 2001 Data Zone geography. It includes 34 vulnerability indicators, social vulnerability to flooding, percentage of households exposed to flooding, flood disadvantage and geographical location. The dataset was produced as part of the Mapping Flood Disadvantage in Scotland project commissioned by the Scottish Government in 2015. The project aim was to provide a spatial assessment of social vulnerability to flooding and flood disadvantage in Scotland, to enable local authorities, service providers and other agencies to better target work around flood resilience and response, and in particular to assist local authorities in meeting their duties under the Flood Risk Management (Scotland) Act 2009. For further details, users can consult the full report accessible from the links provided.",
+        "num_resources": 7,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Flood Disadvantage - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year)\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2015-12-23\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "a23cd103-7381-47e9-841d-083c9aef171d"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "81a61b2f-64f3-45d2-bb53-87d7c55e8d1c"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-04-13T15:05:23"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher, pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:44.923471",
+                "description": "OGC View Service",
+                "format": "",
+                "hash": "",
+                "id": "37ee359b-afff-42b4-af0b-d1b532e581b1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:44.894847",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "FloodDisadvantage",
+                "package_id": "7a2664da-1448-47c9-a7b0-fbb36c118be9",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/PeopleSociety/MapServer/WMSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:44.923474",
+                "description": "OGC Feature Download Service",
+                "format": "",
+                "hash": "",
+                "id": "cda98569-ed66-4c7b-b0b8-d6937a8d8353",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:44.894942",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SOC:FloodDisadvantage",
+                "package_id": "7a2664da-1448-47c9-a7b0-fbb36c118be9",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/PeopleSociety/MapServer/WFSServer?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:44.923475",
+                "description": "ESRI REST Service",
+                "format": "",
+                "hash": "",
+                "id": "e0d9af79-e4dd-4d35-a6aa-33264bb0e51f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:44.895011",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Flood Disadvantage",
+                "package_id": "7a2664da-1448-47c9-a7b0-fbb36c118be9",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/rest/services/ScotGov/PeopleSociety/MapServer/0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:44.923476",
+                "description": "ESRI Shapefile Download",
+                "format": "ZIP",
+                "hash": "",
+                "id": "0135fbc2-310b-4193-9a6e-4fb4866d4e93",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:44.895078",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "7a2664da-1448-47c9-a7b0-fbb36c118be9",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/ATOM/shapefiles/SG_FloodDisadvantage_2015.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:44.923477",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "cf9ebc74-8887-4745-b7f0-5518c45c1fdb",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:44.895154",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Main Report",
+                "package_id": "7a2664da-1448-47c9-a7b0-fbb36c118be9",
+                "position": 4,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.gov.scot/publications/mapping-flood-disadvantage-scotland-2015-main-report/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:44.923478",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "946e6ec1-3855-4bdf-b67e-8d0ee911754d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:44.895220",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Methodology Report",
+                "package_id": "7a2664da-1448-47c9-a7b0-fbb36c118be9",
+                "position": 5,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.gov.scot/publications/mapping-flood-disadvantage-scotland-2015-methodology-report/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:44.923478",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "aecbd45e-55c6-4485-af04-2923b6b0e062",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:44.895283",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ESRI ArcGIS Online Web Map",
+                "package_id": "7a2664da-1448-47c9-a7b0-fbb36c118be9",
+                "position": 6,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://arcg.is/049ivj",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Population distribution \u2014 demography",
+                "id": "bcc163e5-69e2-4fd4-8c0e-92bdcb49a212",
+                "name": "Population distribution \u2014 demography",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flooding",
+                "id": "abf228eb-a27c-4fd0-b66f-a5e84aca9dec",
+                "name": "flooding",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "social inequality",
+                "id": "8ee056e4-7ca0-4b0e-a0c5-faa1b735eca3",
+                "name": "social inequality",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0fce79c6-da03-4629-b998-785e44b48bf8"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

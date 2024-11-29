@@ -1,0 +1,356 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "Andy.Scobie@nature.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "35fe4db1-4d1c-4be1-b069-d52af6be45f4",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-05-11T09:21:36.969323",
+        "metadata_modified": "2024-06-19T11:13:29.920694",
+        "name": "raised-bogs-eunis-scotland-2024",
+        "notes": "Habitat mapping for 476 raised bog sites across Scotland, derived from aerial photo interpretation (API) and field surveys by the Scottish Wildlife Trust and NatureScot. Created and updated between 2023 and 2024.\n\nThis polygon dataset captures 17,234.4 ha of raised bog habitats classified according to the following EUNIS (European Nature Information System) codes: \nD1.11 - Active raised bogs (referable to Annex I habitat H7110) (4,489.9 ha); \nD1.12# - Degraded raised bogs still capable of natural regeneration (referable to Annex I habitat H7120) (11,377.3 ha); \nD1.12x - Damaged, inactive bogs not capable of natural regeneration within 30 years (1,367.2 ha).",
+        "num_resources": 8,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1996-01-01T00:00:00"
+        ],
+        "temporal_coverage-to": [
+            "2023-04-26T00:00:00"
+        ],
+        "title": "Raised Bogs EUNIS Scotland 2024",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"\\u00a9 NatureScot (Scottish Natural Heritage) / Scottish Wildlife Trust, licensed under the Open Government Licence.\", \"\\u00a9 NatureScot (Scottish Natural Heritage) / Scottish Wildlife Trust, licensed under the Open Government Licence.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.877503"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "57.646437"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.73535"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.6745"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2024-05-07\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "3df54f5b-28ee-454e-a3fd-c9fe17b35cb5"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "8e46ce32-faf4-4315-bbfe-4607f3b0376a"
+            },
+            {
+                "key": "licence",
+                "value": "[\"No use limitations. Available under the Open Government Licence (https://www.nationalarchives.gov.uk/doc/open-government-licence/)\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-05-10T11:58:05"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (pointOfContact, distributor, custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.877503, 54.73535], [-5.6745, 54.73535], [-5.6745, 57.646437], [-1.877503, 57.646437], [-1.877503, 54.73535]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:29.959561",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "5e96d8df-cd36-4e34-ad9f-9099bcf0a419",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:29.926156",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI shapefile (EPSG:27700)",
+                "package_id": "35fe4db1-4d1c-4be1-b069-d52af6be45f4",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/RBS-EUNIS_SCOTLAND_SHP_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:29.959564",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "dc64644b-9e0d-49fa-9901-2867a71f3b06",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:29.926254",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI File geodatabase (EPSG:27700)",
+                "package_id": "35fe4db1-4d1c-4be1-b069-d52af6be45f4",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/RBS-EUNIS_SCOTLAND_GDB_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:29.959566",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "1db26b56-a43d-4c41-b6c5-c2b170e54aac",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:29.926327",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Geopackage (EPSG:27700)",
+                "package_id": "35fe4db1-4d1c-4be1-b069-d52af6be45f4",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/RBS-EUNIS_SCOTLAND_GPKG_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:29.959567",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "62619ce4-d0d4-4b5d-b0e4-117c49748e35",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:29.926393",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoJSON (EPSG:4326)",
+                "package_id": "35fe4db1-4d1c-4be1-b069-d52af6be45f4",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/RBS-EUNIS_SCOTLAND_GEOJSON_4326.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:29.959568",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3703c722-7d4a-4038-b5c2-ad42116a4748",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:29.926458",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GML (EPSG:4258)",
+                "package_id": "35fe4db1-4d1c-4be1-b069-d52af6be45f4",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/RBS-EUNIS_SCOTLAND_GML_4258.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:29.959569",
+                "description": "habitatsandspecies:raised_bog_eunis",
+                "format": "",
+                "hash": "",
+                "id": "ba6304aa-1d18-4479-b15b-d8bc96912109",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:29.926525",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "habitatsandspecies:raised_bog_eunis",
+                "package_id": "35fe4db1-4d1c-4be1-b069-d52af6be45f4",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS-1.0.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wfs?request=GetCapabilities&service=wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:29.959570",
+                "description": "raised_bog_eunis",
+                "format": "",
+                "hash": "",
+                "id": "cc0d3415-446f-4d93-a5ac-db7b4c0264ff",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:29.926588",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "raised_bog_eunis",
+                "package_id": "35fe4db1-4d1c-4be1-b069-d52af6be45f4",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:13:29.959571",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "543f6d07-b9a5-4d61-b182-39ad2b2d7f2c",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:13:29.926650",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot OpenData Hub",
+                "package_id": "35fe4db1-4d1c-4be1-b069-d52af6be45f4",
+                "position": 7,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.nature.scot/maps/bc2f9098d39045c48ab57b40a7fc814b",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "GB-SCT",
+                "id": "039f95cd-0765-44af-9d8c-5760ec892a93",
+                "name": "GB-SCT",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Habitats and biotopes",
+                "id": "a6591241-3108-42a5-b540-46a56883592e",
+                "name": "Habitats and biotopes",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d5a73de7-fd6a-4c3b-a11a-9a78e8d952c9"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

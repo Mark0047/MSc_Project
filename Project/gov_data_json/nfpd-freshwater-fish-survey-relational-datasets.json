@@ -1,0 +1,224 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "d129b21c-9e59-4913-91d2-82faef1862dd",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-11-14T17:31:35.222806",
+        "metadata_modified": "2020-06-02T13:50:18.646466",
+        "name": "nfpd-freshwater-fish-survey-relational-datasets",
+        "notes": "PLEASE NOTE: This dataset has been superseded by the 'Freshwater fish surveys (NFPD)' and 'Freshwater fish surveys - salmonid age data (NFPD)' datasets and is now Retired. As of March 2020 All data formerly available in 'National Fish Populations Database (NFPD)' is now available in these datasets. The abstract below provides a historical reference for 'NFPD: Freshwater fish survey relational datasets' at the point of retirement.\n\nThese products are Approved for Access under AfA347.\n\nThe National Fish Populations Database (NFPD) holds information collected from fisheries monitoring work on rivers, lakes and transitional and coastal waters (TraC).  This monitoring work is undertaken by the Environment Agency and by third parties.\nAll the relevant data associated with NFPD freshwater fish surveys, such as survey information, site information, the numbers and species of fish caught, fish lengths, weights and ages (where available), can be obtained from these relational datasets. The data is provided as a set of relational data tables because there is just too much data to include all relevant information in all tables. A basic understanding of fisheries science and relational databases is assumed.\nAvailable datasets/tables:\n\u2022\tFreshwater Fish Counts for all species for all Areas and all Years\n\u2022\tFreshwater Salmonid Age Band (0+, >0+, age unknown) Counts for all Areas and Years\n\u2022\tFreshwater Salmonid Age Band (0+, 1+, >1+, age unknown) Counts for all Areas and Years\n\u2022\tBreakdown of freshwater fish count data types (individually measured, banded measured and bulk counted fish)\n\u2022\tIndividually measured freshwater fish records\n\u2022\tBanded measured freshwater fish records\n\u2022\tBulk counted freshwater fish records\nThe tables can be related to each other using any one of the unique identifiers - survey_id, survey_species_id, species_id and species_run_id.  However, the Freshwater Fish Counts and the Salmonid Age Band datasets have no dependence on the other tables and can therefore also be used in isolation.\nThird party data and surveys not flagged as \u2018Completed\u2019 are excluded. \nFor more information about the available datasets/tables, please see the Dataset Documentation. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2017. All rights reserved.",
+        "num_resources": 1,
+        "num_tags": 6,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1975-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2019-10-31"
+        ],
+        "title": "NFPD: Freshwater fish survey relational datasets",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2019-11-11\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "01c18ad2-b8c0-4e51-9fd6-962bccfff10d"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "bf7e2554-c5f9-4229-bd28-1e0c5fc5b5e5"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-06-02"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-06-02T13:50:19.117854",
+                "description": "DEFRA Data Services Platform Customer Forum",
+                "format": "",
+                "hash": "",
+                "id": "c16bef4c-eb39-46c1-91a7-0edbe1d5906d",
+                "last_modified": null,
+                "metadata_modified": "2020-06-02T13:50:19.117854",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "DSP_CUSTOMER_FORUM",
+                "package_id": "d129b21c-9e59-4913-91d2-82faef1862dd",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http:",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://support.environment.data.gov.uk/hc/en-gb",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Fish distribution",
+                "id": "1b8f4bd9-eece-4826-ba2c-654e372bedc6",
+                "name": "Fish distribution",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Fish population",
+                "id": "52b020c6-7b13-4f88-8485-6edbe0e70873",
+                "name": "Fish population",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Fish survey data",
+                "id": "d2e0e4ed-6861-44c4-a80d-6bf3180b94b2",
+                "name": "Fish survey data",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Fisheries management",
+                "id": "2ed1606f-8e64-40b6-a2ce-74af74825667",
+                "name": "Fisheries management",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Freshwater fish",
+                "id": "e352c798-41f6-42ed-8240-2557d3613230",
+                "name": "Freshwater fish",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "OpenData",
+                "id": "6bc85120-d8ca-4fe1-91fa-d1831be59c7d",
+                "name": "OpenData",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "bf7e2554-c5f9-4229-bd28-1e0c5fc5b5e5"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "a1a72f8f-52c4-47f4-8399-031930ab2b98",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:26:14.228549",
+        "metadata_modified": "2024-09-10T08:26:14.228552",
+        "name": "seawater-temperature-records-for-the-uk-shelf-04-cefas-plankton-analysis-system1",
+        "notes": "This dataset has been extracted as part of an exercise to assemble \"all\" Cefas \nTemperature Data and publish it in a Data paper. It is one of 17 Cefas data \nsources assembled. Sampling of plankton has been carried out by Cefas since \nthe 1940\u2019s. In recent decades sampling has mainly been concentrated on fish \neggs and larvae, and other zooplankton. Samples were collected using \n\u2018high\u2013speed towed nets\u2019 that capture plankton from the surface to near\u2013seabed. \nAt each sampling position the sampler was deployed in an oblique tow from the \nsurface to within approximately 2 m of the seabed. Veering and hauling speeds \nwere manually adjusted with the aim of sampling each depth band equally. Since \nthe early 1980\u2019s CTD sensor packages were fitted to the plankton samplers to \ncontinuously monitor temperature and salinity throughout each deployment. From \n1982 until 2003 the Guildline CTD system was used. Subsequently the ESM2 \nProfiler/mini CTD Logger (see 3.17) has been used.\n\nFor each sampler deployment a raw data file was created from the logged \nvalues. Data were logged at intervals varying from 2 to 5 seconds. Raw files \nwere subsequently post\u2013processed using custom\u2013written software (two different \npackages over the time period covered here) to produce calibrated profiles of \nthe environmental values measured. Depending on the software used and level of \npost\u2013processing undertaken by the operator either the whole profile (i.e. both \ndive and haul portions of the deployment) or just the dive part of the \nprofile, were derived. Pressure averaged profiles may also have been created \nwhere mean values were \u2018binned\u2019 into depth bands of 1 m width.\n\nPressure (Depth), Temperature and Conductivity (CTD) profiles collected on \nCefas (or DFR) plankton research cruises. The data in this archive broadly \ncover the European Shelf. Original output files are varied in data format \naccording to the collection system used and the level of post-processing \ncarried out.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1982-04-29"
+        ],
+        "temporal_coverage-to": [
+            "2004-03-08"
+        ],
+        "title": "Seawater temperature records for the UK Shelf - 04 - Cefas Plankton Analysis System",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "20.00"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "70.00"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "40.00"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-50.00"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2016-06-27\"}, {\"type\": \"revision\", \"value\": \"2024-06-21\"}, {\"type\": \"creation\", \"value\": \"2015-01-08\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "CEFASa981849d-c6b0-440a-8c48-56560f80b6bf"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b99b42ee-62d2-4b60-9b76-acc6176bbfcb"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-21T01:32:39"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS)"
+            },
+            {
+                "key": "resource-type",
+                "value": "series"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor, owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[20.00, 40.00], [-50.00, 40.00], [-50.00, 70.00], [20.00, 70.00], [20.00, 40.00]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:26:14.230191",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: CSV.",
+                "format": "",
+                "hash": "",
+                "id": "ece24e44-661d-4e4b-b286-ec5866a2d6bd",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:26:14.226218",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "a1a72f8f-52c4-47f4-8399-031930ab2b98",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/3235",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b99b42ee-62d2-4b60-9b76-acc6176bbfcb"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

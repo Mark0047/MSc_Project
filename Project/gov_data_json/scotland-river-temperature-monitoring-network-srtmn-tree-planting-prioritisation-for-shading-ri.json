@@ -1,0 +1,271 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "marine.gis@gov.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "b6b52cf4-28f7-491e-a619-6e2484c4e790",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-08-26T16:36:15.571035",
+        "metadata_modified": "2024-06-19T11:18:17.635183",
+        "name": "scotland-river-temperature-monitoring-network-srtmn-tree-planting-prioritisation-for-shading-ri",
+        "notes": "River temperature is an important control on the health of fish populations. Under climate change it is expected that river temperature will rise with negative consequences for fish populations. Management of riparian woodland is proven to protect cold water habitats. However, the creation of new riparian woodland can be costly and logistically challenging. It is therefore important that woodland creation is prioritised to areas where (1) river temperatures are hottest (2) most sensitive to climate change (see SRTMN Predictions: http://marine.gov.scot/information/scotland-river-temperature-monitoring-network-srtmn-predictions-river-temperature-and) and (3) where riparian woodland can be most effective in reducing maximum summer river temperatures. Together these tools can be used to prioritise riparian tree planting in Scotland to protect freshwater fish and fisheries from the effects of climate change.\n\nThese layers identify where river temperatures can be reduced through riparian shading in Scotland (3 above). Details of modelling work that produced these layers can be found in the associated peer reviewed manuscript: Jackson et al (2021) A deterministic river temperature model to prioritise management of riparian woodlands to reduce summer maximum river temperatures.\n\nThe outputs of this work are illustrated as three layers on Marine Scotland Maps NMPi: \n1.\tPrioritisation where both banks can be planted\n2.\tPrioritisation where only north banks can be planted \n3.\tPrioritisation where only south banks can be planted \n\nThe rankings and colour scales run from 0- 10, with 0 being low priority (no temperature reduction) and 10 high priority (large temperature reduction). First order (Strahler) rivers have been removed from this dataset. NAs are where we were unable to make predictions of planting potential e.g. lochs, or in circumstances where we cannot generate the required covariates.\n\n* Please Note * This layer was derived by the Scottish Government from a licensed dataset. It is not downloadable or routinely available.\n\nThe data can be shared on request if a user provides evidence that they hold a licence from the UK Centre for Ecology and Hydrology (UKCEH) for the 1:50,000 Digital River Network (https://www.ceh.ac.uk/data/15000-watercourse-network)",
+        "num_resources": 4,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2020-09-09"
+        ],
+        "temporal_coverage-to": [
+            "2020-09-09"
+        ],
+        "title": "Scotland River Temperature Monitoring Network (SRTMN) - Tree planting prioritisation for shading rivers",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"public access limited according to Article 13(1)(e) of the INSPIRE Directive\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.025391"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "59.40782"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.50407"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.210449"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2020-09-09\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "Not Planned"
+            },
+            {
+                "key": "guid",
+                "value": "Marine_Scotland_FishDAC_12337"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "82b4e093-ea0e-4534-ad4d-fc2150d58e66"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Reference must be made to the original publication: Jackson, F. L., Hannah, D. M., Ouellet V. and Malcolm, I. A. (2021).  All maps must include the attribution: \\u2018Based on digital spatial data licensed from the Centre for Ecology & Hydrology, \\u00a9 NERC (CEH)' and 'Contains Ordnance Survey data \\u00a9 Crown copyright [year]'.\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-10-31"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (pointOfContact, custodian, distributor, originator)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.025391, 54.50407], [-8.210449, 54.50407], [-8.210449, 59.40782], [-1.025391, 59.40782], [-1.025391, 54.50407]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:17.671390",
+                "description": "Scotland River Temperature Monitoring Network (SRTMN) - Management priority on a scale of 1:9 where 1 is highest priority (i.e. high river temperature and high climate sensitivity) and 9 is lowest (hidden when zoomed in past 1:5",
+                "format": "",
+                "hash": "",
+                "id": "ed12bccd-0041-4f89-bb4f-8a05820b1bc6",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:17.641205",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "srtmn_tree_planting_prioritisation_shading_rivers",
+                "package_id": "b6b52cf4-28f7-491e-a619-6e2484c4e790",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://msmap1.atkinsgeospatial.com/geoserver/nmpwms/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:17.671392",
+                "description": "View data on Marine Scotland Maps",
+                "format": "",
+                "hash": "",
+                "id": "c5117d2f-38d4-4ac7-b0fe-92f968c378f1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:17.641300",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "b6b52cf4-28f7-491e-a619-6e2484c4e790",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.marine.gov.scot",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:17.671393",
+                "description": "A deterministic river temperature model to prioritize management of riparian woodlands to reduce summer maximum river temperatures",
+                "format": "",
+                "hash": "",
+                "id": "cd9e5809-f409-4a15-b71f-f40bc78b28e5",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:17.641371",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "https://doi.org/10.1002/hyp.14314",
+                "package_id": "b6b52cf4-28f7-491e-a619-6e2484c4e790",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://doi.org/10.1002/hyp.14314",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:18:17.671394",
+                "description": "srtmn_tree_planting_prioritisation_shading_rivers",
+                "format": "",
+                "hash": "",
+                "id": "82888e7e-c09a-4a2c-8beb-26156c483f37",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:18:17.641438",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "srtmn_tree_planting_prioritisation_shading_rivers",
+                "package_id": "b6b52cf4-28f7-491e-a619-6e2484c4e790",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://msmap1.atkinsgeospatial.com/geoserver/nmpwms/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Environment",
+                "id": "db7de4be-adbc-4ab6-9cec-d555c287d2d7",
+                "name": "Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Habitat",
+                "id": "33ec1a53-7622-4902-a56c-c44e4c0547ad",
+                "name": "Habitat",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Habitats and biotopes",
+                "id": "a6591241-3108-42a5-b540-46a56883592e",
+                "name": "Habitats and biotopes",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "f8abba96-15c4-4c41-af41-57d4aefdae98"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

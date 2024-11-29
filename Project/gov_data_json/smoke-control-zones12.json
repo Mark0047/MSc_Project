@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "mikepetersen@sthelens.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "b7ee4d22-6d05-46a6-a083-2d756cd8298b",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-12-01T10:54:17.047212",
+        "metadata_modified": "2024-04-29T15:43:35.686667",
+        "name": "smoke-control-zones12",
+        "notes": "Polygon data showing the designated Smoke Control zones within St Helens MBC. The Clean Air Act 1993 enables local authorities to designate Smoke Control areas in which it is an offence to emit smoke from a chimney of a building, from a furnace or from any fixed boiler.The Smoke Control Order Number is contained within the table fields",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+            "name": "st-helens-council",
+            "title": "St Helens Council",
+            "type": "organization",
+            "description": "(St Helens Metropolitan Borough Council)",
+            "image_url": "",
+            "created": "2012-06-27T14:50:48.582845",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2000-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2000-01-01"
+        ],
+        "title": "Smoke Control Zones",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations apply\", \"Use according to license\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.574661103917401"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.53087727369031"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.400886046291056"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.824534859455095"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2000-01-01\"}, {\"type\": \"revision\", \"value\": \"2021-07-18T15:03:02\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "c0e4f749c7f085825dafb7f13c07f5a279b92636c3f5d1e447e5238204034d39"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d194c562-95ca-41b6-b504-d5f66c8c6e53"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-04-02T13:50:10"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "onGoing"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "St Helens MBC (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.574661103917401, 53.400886046291056], [-2.824534859455095, 53.400886046291056], [-2.824534859455095, 53.53087727369031], [-2.574661103917401, 53.53087727369031], [-2.574661103917401, 53.400886046291056]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96423a5d-c812-4893-9e69-a565d00f87c0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "St Helens Council INSPIRE Metadata CSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-29T15:43:35.713771",
+                "description": "Smoke Control Area",
+                "format": "",
+                "hash": "",
+                "id": "237eea03-ed80-465d-aee9-9340d9a10a4f",
+                "last_modified": null,
+                "metadata_modified": "2024-04-29T15:43:35.692109",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Smoke_Control_Area",
+                "package_id": "b7ee4d22-6d05-46a6-a083-2d756cd8298b",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.sthelens.gov.uk/getows.ashx?MAPSOURCE=mapsources/inspire&service=WMS&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-29T15:43:35.713774",
+                "description": "Polygon data showing the designated Smoke Control zones within St Helens MBC. The Clean Air Act 1993 enables local authorities to designate Smoke Control areas in which it is an offence to emit smoke from a chimney of a building",
+                "format": "",
+                "hash": "",
+                "id": "d3b4eb65-617e-4ef8-b39a-2a6a38a2c989",
+                "last_modified": null,
+                "metadata_modified": "2024-04-29T15:43:35.692216",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": ":Smoke_Control_Area",
+                "package_id": "b7ee4d22-6d05-46a6-a083-2d756cd8298b",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.sthelens.gov.uk/getows.ashx?mapsource=mapsources/inspire&version=1.1.0&service=WFS&request=GetFeature&TypeName=smoke_control_area",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Human health and safety",
+                "id": "48a55d2f-b77f-4193-a882-9371e30705a1",
+                "name": "Human health and safety",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Location",
+                "id": "34de5497-97a6-4765-afb0-010add38f5d7",
+                "name": "Location",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "73b78f31-db87-4b45-aa05-9ad8f35ecbd6"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96423a5d-c812-4893-9e69-a565d00f87c0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "St Helens Council INSPIRE Metadata CSW"
+            }
+        ]
+    }
+}

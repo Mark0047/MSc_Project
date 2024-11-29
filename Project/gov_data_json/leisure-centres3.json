@@ -1,0 +1,192 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "7451dc68-6b45-4b1d-9541-0afb93816e39",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-05-12T14:10:50.034565",
+        "metadata_modified": "2017-02-20T17:04:34.323704",
+        "name": "leisure-centres3",
+        "notes": "Leisure centres in Salford that are managed by [Salford Community Leisure](http://www.salfordcommunityleisure.co.uk/ \"Salford Community Leisure website\"). Details include name. location, contact details and website address.",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+            "name": "salford-city-council",
+            "title": "Salford City Council",
+            "type": "organization",
+            "description": "Salford City Council",
+            "image_url": "2019-01-31-104033.251731SCCmag.png",
+            "created": "2012-06-27T14:50:51.970331",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "1b002cc7-d32f-4037-bd69-f0d62788ede8",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Leisure Centres in Salford",
+        "type": "dataset",
+        "update_frequency": "As per changes",
+        "url": "http://www.salfordcommunityleisure.co.uk/sport/locations",
+        "version": "",
+        "extras": [
+            {
+                "key": "guid",
+                "value": "7451dc68-6b45-4b1d-9541-0afb93816e39"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "391a77eb-d17a-49fc-aff3-e5bd223a7204"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "information_class",
+                "value": "Lists and registers"
+            },
+            {
+                "key": "la_function",
+                "value": "http://id.esd.org.uk/function/72 http://id.esd.org.uk/function/75 http://id.esd.org.uk/function/80"
+            },
+            {
+                "key": "la_service",
+                "value": "http://id.esd.org.uk/service/644"
+            },
+            {
+                "key": "mandate",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-02-20"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://salforddataquay.uk/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2017-02-20T11:04:31.570874\", \"harvest_source_title\": \"Salford Data Quay\", \"activity_occurred\": \"2017-02-20T17:04:34.282763\", \"activity\": \"harvest\", \"harvested_guid\": \"7451dc68-6b45-4b1d-9541-0afb93816e39\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "fef6f56e-0438-433a-83ad-5fe6a125f8c9"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Salford Data Quay"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-12T15:21:23.592103",
+                "description": "View the data on a map",
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "9a7b6ad9-14c9-49c4-92ee-ae06729e3879",
+                "last_modified": null,
+                "metadata_modified": "2015-05-12T15:21:23.592103",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON format",
+                "package_id": "7451dc68-6b45-4b1d-9541-0afb93816e39",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://map.salford.gov.uk/geoserver/OpenData/ows?service=wfs&version=2.0.0&request=GetFeature&typeName=OpenData:leisure_centres&srsName=EPSG:4326&outputFormat=application/json",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-04-30T13:12:41.218717",
+                "description": "View the data in a table.",
+                "format": "CSV",
+                "hash": "",
+                "id": "77809806-757d-4b60-8615-4dd14844ebb8",
+                "last_modified": null,
+                "metadata_modified": "2015-04-30T13:12:41.218717",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV format",
+                "package_id": "7451dc68-6b45-4b1d-9541-0afb93816e39",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://map.salford.gov.uk/geoserver/OpenData/ows?service=wfs&version=2.0.0&request=GetFeature&typeName=OpenData:leisure_centres&outputFormat=csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-04-30T13:13:41.623134",
+                "description": "A format for using in GIS and web applications.  Can be previewed on a map.",
+                "format": "WMS",
+                "hash": "",
+                "id": "0ea31d4b-5cab-4c78-93f2-4d5c487ffc9c",
+                "last_modified": null,
+                "metadata_modified": "2015-04-30T13:13:41.623134",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Web Map Service (WMS)",
+                "package_id": "7451dc68-6b45-4b1d-9541-0afb93816e39",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://map.salford.gov.uk/geoserver/OpenData/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-04-30T13:13:43.560942",
+                "description": "Download the WFS Get Capabilities document for use in GIS systems",
+                "format": "WFS",
+                "hash": "",
+                "id": "fa3d6f5f-ed77-4ee8-a7ec-f40e41819be2",
+                "last_modified": null,
+                "metadata_modified": "2015-04-30T13:13:43.560942",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Web Feature Service (WFS)",
+                "package_id": "7451dc68-6b45-4b1d-9541-0afb93816e39",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://map.salford.gov.uk/geoserver/OpenData/ows?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "391a77eb-d17a-49fc-aff3-e5bd223a7204"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "fef6f56e-0438-433a-83ad-5fe6a125f8c9"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Salford Data Quay"
+            }
+        ]
+    }
+}

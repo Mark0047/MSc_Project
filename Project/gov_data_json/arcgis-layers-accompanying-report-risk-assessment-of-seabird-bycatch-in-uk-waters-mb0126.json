@@ -1,0 +1,322 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "open@defra.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "249f8926-855f-436a-93cd-13a390943416",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-07-23T05:47:39.518093",
+        "metadata_modified": "2024-06-15T07:05:27.855339",
+        "name": "arcgis-layers-accompanying-report-risk-assessment-of-seabird-bycatch-in-uk-waters-mb0126",
+        "notes": "These data layers support the project Risk assessment of seabird bycatch in UK waters1, project MB0126, compiled by WWT Consulting.\nThis dataset contains shapefile layers for: location of waterbird Special Protection Areas, seabird foraging ranges, survey effort, seabird predicted densities, and associated Confidence Values from modelling, fishing effort, bycatch vulnerability and bycatch risk.\nThis is just a summary of layers present - please see full report (page 27) for fuller explanation and citation of data layers.\nThe following layers are included in groups:\n\u2756 Display Layers\n\u27a2 UK Coastline polygon\n\u27a2 Marine waterbird Special Protection Areas\n\u27a2 Foraging ranges (Mean-maximum and Maximum)\n\u27a2 The 3km x 3km prediction grid used for modelling\n\u2756 Survey Effort\n\u27a2 Survey effort for the English waters project 'SeaMaST' and those data analysed for this project 'MB1026 MRSea' as survey tracklines (with year and month provided as fields to allow queries by date) and summarised by season (summer (\u2018sum\u2019) or winter (\u2018win\u2019)) for each 3km x 3km grid cell\n\u2756 Fishing Effort\n\u27a2 Mean number of hours for each gear type over the period 2009 to 2013\n\u2756 Fishing effort \u2013 summarised\n\u27a2 The maximum values from the fishing effort raster layers extracted into each 3km x 3km grid cell by season\n\u27a2 The fishing effort summarised by whether the gear presents risk at the surface, pelagic (midwater) or bottom (benthic) for each season\n\u2756 Density\n\u27a2 Density predictions on the 3km x 3km grid from the MB0126 MRSea modelling undertaken by CREEM, corrected densities for rarer species and those done for SeaMaST for each species in each season\n\u2756 Confidence Values\n\u27a2 Confidence Values associated with the density predictions in each 3km x 3km grid cell from the MB0126 MRSea modelling undertaken by CREEM and that done for SeaMaST for each species in each season\n\u2756 Vulnerability\n\u27a2 Six shapefiles showing the relative vulnerability to surface, pelagic or benthic bycatch in summer or winter across the study area summed for all species\n\u2756 Risk\n\u27a2 Six shapefiles showing the relative bycatch risk to surface, pelagic or benthic bycatch in summer or winter across the study area for all species combined. These are the product of the vulnerability layers and the fisheries effort layers\n\n\nhttp://randd.defra.gov.uk/Default.aspx?Menu=Menu&Module=More&Location=None&ProjectID=18967&FromSear\nch=Y&Publisher=1&SearchText=MB0126&SortString=ProjectCode&SortOrder=Asc&Paging=10#Description Attribution statement: \u00a9 Crown Copyright",
+        "num_resources": 5,
+        "num_tags": 7,
+        "organization": {
+            "id": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+            "name": "department-for-environment-food-and-rural-affairs",
+            "title": "Department for Environment, Food and Rural Affairs",
+            "type": "organization",
+            "description": "We are the UK government department responsible for policy and regulations on environmental, food and rural issues. Our priorities are to grow the rural economy, improve the environment and safeguard animal and plant health.\r\n\r\nDefra is a ministerial department, supported by 38 agencies and public bodies.\r\n\r\nhttps://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:39.115374",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2013-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2015-12-31"
+        ],
+        "title": "ArcGIS layers accompanying report Risk assessment of seabird bycatch in UK waters - MB0126",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2017-01-01\"}, {\"type\": \"revision\", \"value\": \"2017-01-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "unknown"
+            },
+            {
+                "key": "guid",
+                "value": "db447840-e7ed-40d7-8cc9-e0c4f1ea6857"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "a65f9c30-1b18-47f7-82ff-fef91b2a55ef"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Department for Environment, Food & Rural Affairs (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "38d7636d-8011-41b3-aa60-77fd399c105a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Defra metadata catalogue harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:27.904555",
+                "description": "MB0126_map_package.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "a606d43a-f1f2-4b2b-94ab-909eb6614cf0",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:27.864829",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "MB0126_map_package.zip",
+                "package_id": "249f8926-855f-436a-93cd-13a390943416",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=873f25bb-c67b-417c-9761-24f906b5498b&fileName=MB0126_map_package.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:27.904558",
+                "description": "Risk assessment of Seabird bycatch in UK Waters Web Mapping Service",
+                "format": "",
+                "hash": "",
+                "id": "303f8c8a-6a91-45f5-8a7b-301be7623aa3",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:27.864930",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Risk assessment of Seabird bycatch in UK Waters - WMS",
+                "package_id": "249f8926-855f-436a-93cd-13a390943416",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/risk-assessment-of-seabird-by-catch-in-uk-waters/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:27.904559",
+                "description": "Risk Assessment Of Seabird By Catch In UK Waters Web Feature Service",
+                "format": "",
+                "hash": "",
+                "id": "8c64b490-de7d-48f3-be7c-9245b7c17dd9",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:27.865001",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Risk Assessment Of Seabird By Catch In UK Waters - WFS",
+                "package_id": "249f8926-855f-436a-93cd-13a390943416",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/risk-assessment-of-seabird-by-catch-in-uk-waters/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:27.904560",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "9a04f146-68a2-4b56-a68a-acd54072af32",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:27.865065",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "249f8926-855f-436a-93cd-13a390943416",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/db447840-e7ed-40d7-8cc9-e0c4f1ea6857?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:27.904561",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "4ea32b95-1e9f-41a1-8af8-a2002894e11c",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:27.865128",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "249f8926-855f-436a-93cd-13a390943416",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/risk-assessment-of-seabird-by-catch-in-uk-waters/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "bycatch",
+                "id": "5fc8bd0c-0d11-417b-b280-761e73a27a80",
+                "name": "bycatch",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "fishing",
+                "id": "62bddefc-00ce-463b-9a38-980d3522cee8",
+                "name": "fishing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "oceans",
+                "id": "47b818db-d190-4bbd-a6d1-2c8a5ba70fc4",
+                "name": "oceans",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "risk assessment",
+                "id": "59f7a3f9-482e-4c17-addd-49d10e1720d2",
+                "name": "risk assessment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "seabird",
+                "id": "38aa9b78-b0e7-4bd2-836c-8b231dc1ad6a",
+                "name": "seabird",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "vulnerability",
+                "id": "162b8e57-45f4-4e99-8ea4-4af04bebb3d0",
+                "name": "vulnerability",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9765d54b-ce51-4ea2-bee0-01878b0d8516"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "38d7636d-8011-41b3-aa60-77fd399c105a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Defra metadata catalogue harvest"
+            }
+        ]
+    }
+}

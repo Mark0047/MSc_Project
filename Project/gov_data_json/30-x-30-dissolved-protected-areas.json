@@ -1,0 +1,336 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data_supply@nature.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "c0778600-ed5f-4c86-a479-dc5b2b0a8882",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-19T12:06:12.216130",
+        "metadata_modified": "2024-11-03T21:05:06.490070",
+        "name": "30-x-30-dissolved-protected-areas",
+        "notes": "An update for 30x30 project in NatureScot. These data contain all terrestrial, protected area sites that contribute toward Scotland's commitment to protect or conserve 30% of land by 2030. This includes SSSIs, SACs, SPAs, Ramsars, and NNRs. The sites have been dissolved to create one continuous layer showing locations of any 30x30 protections on land. This data has been clipped to Boundary Line, and the data is dissolved to summarise what areas are protected under a designation which contributes to 30x30. \nThis data differs to that which Scotland reports 30x30 progress to, which uses MLWS. \nPurely geological SSSIs were not included. \nThe protected areas are up to date as of 31/05/2024.\nOS Boundaryline product information : https://www.ordnancesurvey.co.uk/documents/product-support/user-guide/boundary-line-product-information-v5.0.pdf",
+        "num_resources": 7,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "30 x 30 Dissolved Protected Areas",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.0935"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.8049"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.4221"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-9.322"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2024-06-14\"}, {\"type\": \"publication\", \"value\": \"2024-08-14\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "c1e63658-6f1e-454f-8dc2-26ceed4bff1f"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "895c7eac-7b6b-40cd-8e79-74aa03724f0e"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Available under the Open Government Licence http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-03T10:13:31.227Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.0935, 54.4221], [-9.322, 54.4221], [-9.322, 61.8049], [-0.0935, 61.8049], [-0.0935, 54.4221]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-03T21:05:06.530894",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "1d4ae49d-2a22-4a51-81e3-b7d14659e5d7",
+                "last_modified": null,
+                "metadata_modified": "2024-11-03T21:05:06.499151",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI Shapefile (EPSG:27700)",
+                "package_id": "c0778600-ed5f-4c86-a479-dc5b2b0a8882",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/PA30X30DISS_SCOTLAND_SHP_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-03T21:05:06.530897",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "e374db13-7bec-4e4c-999d-a721c7dc2b10",
+                "last_modified": null,
+                "metadata_modified": "2024-11-03T21:05:06.499229",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI File geodatabase (EPSG:27700)",
+                "package_id": "c0778600-ed5f-4c86-a479-dc5b2b0a8882",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/PA30X30DISS_SCOTLAND_GDB_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-03T21:05:06.530898",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "81683706-cb29-45a6-b12c-e22f36401b18",
+                "last_modified": null,
+                "metadata_modified": "2024-11-03T21:05:06.499292",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Geopackage (EPSG:27700)",
+                "package_id": "c0778600-ed5f-4c86-a479-dc5b2b0a8882",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/PA30X30DISS_SCOTLAND_GPKG_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-03T21:05:06.530899",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "a1862fc7-a45a-489b-936e-94078b7aa996",
+                "last_modified": null,
+                "metadata_modified": "2024-11-03T21:05:06.499349",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GML (EPSG:4258)",
+                "package_id": "c0778600-ed5f-4c86-a479-dc5b2b0a8882",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/PA30X30DISS_SCOTLAND_GML_4258.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-03T21:05:06.530900",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "484429ab-097d-4ce8-9a2f-e7daf0d97476",
+                "last_modified": null,
+                "metadata_modified": "2024-11-03T21:05:06.499403",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoJSON (EPSG:4326)",
+                "package_id": "c0778600-ed5f-4c86-a479-dc5b2b0a8882",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/PA30X30DISS_SCOTLAND_GEOJSON_4326.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-03T21:05:06.530901",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "385076d1-4b09-4b2c-a7da-40e135ac6bbc",
+                "last_modified": null,
+                "metadata_modified": "2024-11-03T21:05:06.499456",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot OpenData Hub",
+                "package_id": "c0778600-ed5f-4c86-a479-dc5b2b0a8882",
+                "position": 5,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.nature.scot/maps/37825245a68d446f8115057ee1bae9a1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-03T21:05:06.530902",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "28a4da8f-d492-46d3-ac04-830e9b44dba8",
+                "last_modified": null,
+                "metadata_modified": "2024-11-03T21:05:06.499507",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot Map Viewer",
+                "package_id": "c0778600-ed5f-4c86-a479-dc5b2b0a8882",
+                "position": 6,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/www/maps/naturescot-data-viewer.html?layer=protectedareas:pa30x30dis",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "GB-SCT",
+                "id": "039f95cd-0765-44af-9d8c-5760ec892a93",
+                "name": "GB-SCT",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Nature conservation",
+                "id": "71df499f-f878-4777-961f-03aad1534aa3",
+                "name": "Nature conservation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Protected sites; environment",
+                "id": "eb84c899-d980-4a98-baa2-951288c8275b",
+                "name": "Protected sites; environment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "177c56b9-2635-4bf9-95d9-0a2ea7322f80"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "0d05b6e8-1fa9-4c8d-a363-688d2c907f88",
+        "metadata_created": "2019-01-23T10:38:51.351917",
+        "metadata_modified": "2019-01-23T10:38:51.351923",
+        "name": "wolverhampton-city-council",
+        "notes": "",
+        "organization": {
+            "id": "53716b9a-6be0-4909-a7f7-b01f6862c38a",
+            "name": "wolverhampton-city-council",
+            "title": "Wolverhampton City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-17T12:21:00.380463",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "53716b9a-6be0-4909-a7f7-b01f6862c38a",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Wolverhampton City Council",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/53716b9a-6be0-4909-a7f7-b01f6862c38a/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 81,
+            "last_job": {
+                "id": "d4ab3f26-38c2-4f88-9384-9c9774d8dba4",
+                "created": "2022-09-14 13:16:49.089651",
+                "gather_started": "2022-09-14 13:16:49.212465",
+                "gather_finished": "2022-09-14 13:16:49.308188",
+                "finished": "2022-09-14 13:16:49.308188",
+                "source_id": "0d05b6e8-1fa9-4c8d-a363-688d2c907f88",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/53716b9a-6be0-4909-a7f7-b01f6862c38a/: SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'locationmde.data.gov.uk\\', port=443): Max retries exceeded with url: /metadata-harvesting/53716b9a-6be0-4909-a7f7-b01f6862c38a/ (Caused by SSLError(SSLError(\"bad handshake: Error([(\\'SSL routines\\', \\'tls_process_server_certificate\\', \\'certificate verify failed\\')],)\",),))',),)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 40
+        }
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "WEEKLY",
+        "id": "92985a0c-1d7c-4ef2-bf51-d5e43178de24",
+        "metadata_created": "2019-01-23T11:09:20.269994",
+        "metadata_modified": "2019-01-29T11:26:06.282051",
+        "name": "eidc-gemini-records",
+        "notes": "",
+        "organization": {
+            "id": "866f4088-ae4f-43b8-ba8c-6d3141a327f2",
+            "name": "eidc",
+            "title": "Environmental Information Data Centre",
+            "type": "organization",
+            "description": "<p>The <a href=\"https://www.eidc.ac.uk/\" target=\"_blank\">Environmental Information Data Centre (EIDC)</a> is the UK's national data centre for terrestrial and freshwater sciences.</p>\r\n\r\n<p>The EIDC is one of the network of Natural Environment Research Council (NERC) data centres that provide a focal point for its scientific data and information.</p>\r\n\r\n<p>The EIDC is hosted by <a href=\"http://www.ceh.ac.uk/\" target=\"_blank\">the UK Centre for Ecology & Hydrology (UKCEH)</a>, a world-class, independent, not-for-profit research organisation focusing on land and freshwater ecosystems and their interaction with the atmosphere. UKCEH integrates UK-wide observation systems and curiosity driven research, from the smallest scale of genetic diversity to large-scale, whole-Earth systems. We work across disciplines and facilitate academic, public, private and voluntary sector partnerships. UKCEH\u2019s extensive, long-term monitoring, analysis and modelling deliver UK and global environmental data, providing early warnings of change and management solutions for our land and freshwaters.</p>",
+            "image_url": "2020-01-09-092402.7201059E2F5F93-AA00-4DD2-8727-97F0F63FD4CB.png",
+            "created": "2012-06-27T14:54:40.370760",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "866f4088-ae4f-43b8-ba8c-6d3141a327f2",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "EIDC GEMINI records",
+        "type": "harvest",
+        "url": "https://catalogue.ceh.ac.uk/documents/gemini/waf/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1314,
+            "last_job": {
+                "id": "57210dbf-6dc4-4514-aeac-fdcef3be0bab",
+                "created": "2024-11-17 14:00:04.902408",
+                "gather_started": "2024-11-17 14:02:34.079908",
+                "gather_finished": "2024-11-17 14:05:07.151798",
+                "finished": "2024-11-17 14:42:42.145570",
+                "source_id": "92985a0c-1d7c-4ef2-bf51-d5e43178de24",
+                "status": "Finished",
+                "stats": {
+                    "added": 3,
+                    "updated": 50,
+                    "not modified": 1844,
+                    "errored": 1903,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"\nError Message: \"The gmd:pass element is not nillable and shall have a value.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='dataQualityInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_DataQuality' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='report' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_DomainConsistency' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='result' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_ConformanceResult' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='pass' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"string-length(.) > 0 and count(./@gco:nilReason) = 0\"",
+                        "error_count": 1494
+                    },
+                    {
+                        "message": "Error Message: \"Descriptive keywords are mandatory.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:descriptiveKeywords) >= 1\":\nError Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\"\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"\nError Message: \"The gmd:pass element is not nillable and shall have a value.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='dataQualityInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_DataQuality' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='report' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_DomainConsistency' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='result' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_ConformanceResult' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='pass' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"string-length(.) > 0 and count(./@gco:nilReason) = 0\"",
+                        "error_count": 357
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 34
+                    },
+                    {
+                        "message": "Error Message: \"Descriptive keywords are mandatory.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']\"  Error Assert: \"count(gmd:descriptiveKeywords) >= 1\":\nError Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\"\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 10
+                    },
+                    {
+                        "message": "Error Message: \"The 'gmd:otherConstraints' element should have a value.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][2]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"(count(gmd:otherConstraints) = 0) or (string-length(normalize-space(gmd:otherConstraints)) > 0) or (gmd:otherConstraints/@gco:nilReason = 'inapplicable' or gmd:otherConstraints/@gco:nilReason = 'missing' or gmd:otherConstraints/@gco:nilReason = 'template' or gmd:otherConstraints/@gco:nilReason = 'unknown' or gmd:otherConstraints/@gco:nilReason = 'withheld')\":\n",
+                        "error_count": 5
+                    },
+                    {
+                        "message": "Error importing Gemini document: Invalid harvest object with GEMINI guid fe579fbf-e371-4320-8875-a8af8736f3e5 found",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"\nError Message: \"The gmd:pass element is not nillable and shall have a value.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='dataQualityInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_DataQuality' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='report' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_DomainConsistency' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='result' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='DQ_ConformanceResult' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='pass' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"string-length(.) > 0 and count(./@gco:nilReason) = 0\"",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"Limitations on public access code list value shall be 'otherRestrictions'.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][1]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(gmd:accessConstraints[*/@codeListValue='otherRestrictions']) = 1\":\nError Message: \"Use constraints shall be provided.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='SV_ServiceIdentification' and namespace-uri()='http://www.isotc211.org/2005/srv']\"  Error Assert: \"count(gmd:resourceConstraints/*[1]/gmd:useLimitation) >= 1\"",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Invalid harvest object with GEMINI guid 1ccff678-9e27-4290-8f12-a9d0c048d52f found",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error Message: \"The 'gmd:otherConstraints' element should have a value.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='identificationInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DataIdentification' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='resourceConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd'][3]/*[local-name()='MD_LegalConstraints' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"(count(gmd:otherConstraints) = 0) or (string-length(normalize-space(gmd:otherConstraints)) > 0) or (gmd:otherConstraints/@gco:nilReason = 'inapplicable' or gmd:otherConstraints/@gco:nilReason = 'missing' or gmd:otherConstraints/@gco:nilReason = 'template' or gmd:otherConstraints/@gco:nilReason = 'unknown' or gmd:otherConstraints/@gco:nilReason = 'withheld')\":\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Invalid harvest object with GEMINI guid 7e7d722c-bdd7-4900-a443-e26370d72438 found",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Invalid harvest object with GEMINI guid 835a50df-e74f-4bfb-b593-804fd61d5eab found",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Invalid harvest object with GEMINI guid 89ff964d-4aed-4b66-8669-71d42c5add52 found",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing Gemini document: Invalid harvest object with GEMINI guid ae8c850d-211e-4560-8b37-437b6e0e2a16 found",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 1909
+        }
+    }
+}

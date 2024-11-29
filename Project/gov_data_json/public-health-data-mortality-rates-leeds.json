@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "d5629191-47ed-4f88-9c50-a4f60570b8ab",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-07-19T17:15:26.327500",
+        "metadata_modified": "2021-08-04T16:54:23.930757",
+        "name": "public-health-data-mortality-rates-leeds",
+        "notes": "Directly Age Standardised Mortality Rates (DASR) per 100,000. Age standardised rates compensate for differing age structures by weighting them to meet the European Standard Population (2013). Rates can then be compared for different areas, or even across area types. Attention should be given to upper and lower 95% confidence intervals as a quick method of determining whether rates could overlap or are significantly different. Wide confidence intervals are indicative of small numbers in the numerator or of very skewed age structures. Rates of course cannot be summed, and because they are age standardised cannot be reverse engineered back to counts without knowing the age of every\u00a0patient in the data. Source is ONS deaths extract, GP registered populations.",
+        "num_resources": 4,
+        "num_tags": 6,
+        "organization": {
+            "id": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+            "name": "leeds-city-council",
+            "title": "Leeds City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:43.477436",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+        "private": false,
+        "state": "active",
+        "title": "Public Health data - Mortality rates Leeds",
+        "type": "dataset",
+        "url": "https://datamillnorth.org/dataset/public-health-data-mortality-rates",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2017-05-09T16:12:28"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2020-07-13T14:52:01.393Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Leeds City Council"
+            },
+            {
+                "key": "guid",
+                "value": "cbc31b7e-a239-4696-a132-2ce95667a4c8"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f1d46494-f6cf-48c0-a6b2-bc1833e1197c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "454ca6df-5da7-4c24-a2b0-2fa2ccd9a85e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Leeds"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-14T05:56:54.103331",
+                "description": "All age All cause Mortality (AAACM),for MSOAs, Community Committees, wards, PCN footprints, deprivation (within English deprived 10% or not), Leeds",
+                "format": "XLSX",
+                "hash": "",
+                "id": "2ebce54a-7293-468b-a5ac-610e97f01cc2",
+                "last_modified": null,
+                "metadata_modified": "2020-07-14T05:56:54.103331",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "2006-2010 to 2014-2018",
+                "package_id": "d5629191-47ed-4f88-9c50-a4f60570b8ab",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/public-health-data-mortality-rates/41001cad-f786-4343-be84-283ffef10773/AAACM.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-14T05:56:54.103338",
+                "description": "Circulatory disease mortality rates (under 75s) for MSOAs, Community Committees, wards, PCN footprints, deprivation (within English deprived 10% or not), Leeds",
+                "format": "XLSX",
+                "hash": "",
+                "id": "80e0f50c-f7cb-4c0c-85a8-8100b2be782b",
+                "last_modified": null,
+                "metadata_modified": "2020-07-14T05:56:54.103338",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "2006-2010 to 2014-2018",
+                "package_id": "d5629191-47ed-4f88-9c50-a4f60570b8ab",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/public-health-data-mortality-rates/79df38cc-15a0-47ca-bc90-49194326157c/CirculatoryMortalityUnder75yrs.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-14T05:56:54.103341",
+                "description": "Cancer Mortality rates (under 75s) for MSOAs, Community Committees, wards, PCN footprints, deprivation (within English deprived 10% or not), Leeds",
+                "format": "XLSX",
+                "hash": "",
+                "id": "e689b075-8df5-4bd9-8b84-b4d79fd7a9a7",
+                "last_modified": null,
+                "metadata_modified": "2020-07-14T05:56:54.103341",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "2006-2010 to 2014-2018",
+                "package_id": "d5629191-47ed-4f88-9c50-a4f60570b8ab",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/public-health-data-mortality-rates/8df04de5-52df-46d4-9b9e-2e13ae5991cd/CancerMortalityUnder75yrs.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-14T05:56:54.103343",
+                "description": "Respiratory disease mortality rates (under 75s) for MSOAs, Community Committees, wards, PCN footprints, deprivation (within English deprived 10% or not), Leeds",
+                "format": "XLSX",
+                "hash": "",
+                "id": "1fd8bea4-cbdf-4e30-99eb-f15fec830011",
+                "last_modified": null,
+                "metadata_modified": "2020-07-14T05:56:54.103343",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "2006-2010 to 2014-2018",
+                "package_id": "d5629191-47ed-4f88-9c50-a4f60570b8ab",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/public-health-data-mortality-rates/f5d10c1e-a863-40b4-8246-8631b1c7d103/RespiratoryMortalityUnder75yrs.xlsx",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "All Age All Cause Mortality",
+                "id": "7ebc6608-68c4-4178-bc15-3769c226108f",
+                "name": "All Age All Cause Mortality",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Cancer",
+                "id": "13955292-81e1-4342-b221-65701089dee9",
+                "name": "Cancer",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Circulatory disease",
+                "id": "83b3031b-0916-4a9e-9469-c7079e22cde6",
+                "name": "Circulatory disease",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Locality Lab",
+                "id": "ff3e9bd0-0272-43f4-a752-13abff5a65e3",
+                "name": "Locality Lab",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Respiratory disease",
+                "id": "71a60fdb-fadd-4686-8c21-87dc1b29ce97",
+                "name": "Respiratory disease",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mortality",
+                "id": "e8f3e601-0b03-467d-b09a-39444ec276cc",
+                "name": "mortality",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "f1d46494-f6cf-48c0-a6b2-bc1833e1197c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "454ca6df-5da7-4c24-a2b0-2fa2ccd9a85e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Leeds"
+            }
+        ]
+    }
+}

@@ -1,0 +1,227 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "2cd45a5c-5482-4e88-bdf9-7b7499d7efcb",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-11-12T23:28:08.239361",
+        "metadata_modified": "2024-11-17T13:03:08.763109",
+        "name": "library-membership",
+        "notes": "Library membership\nA count of library members by Lower super output area. A library member is any user registered with the library service.\n\u00a0\nColumns\nLocal authority \u2013 Barnet\nCount date \u2013 date of the count in format YYYY-MM-DD\nArea code \u2013 Lower super output area code. If address data is unavailable for a member, or for any other reason the LSOA is not known, they are counted in an \u201cUnknown\u201d value in this column.\nMembers \u2013 the number of library members in the area code. If this count is less than 5, the data is suppressed by recording an \u2018x\u2019 rather than the actual figure. This protects confidentiality, and avoids identifying individuals.",
+        "num_resources": 6,
+        "num_tags": 2,
+        "organization": {
+            "id": "27322301-90d6-4837-9563-899fd280e921",
+            "name": "london-borough-of-barnet",
+            "title": "London Borough of Barnet",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:52.167987",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "27322301-90d6-4837-9563-899fd280e921",
+        "private": false,
+        "state": "active",
+        "title": "Library membership",
+        "type": "dataset",
+        "url": "https://open.barnet.gov.uk/dataset/23py1",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2020-11-12T14:00:49.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2022-04-05T14:38:46.280Z"
+            },
+            {
+                "key": "guid",
+                "value": "23py1"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "1d41a709-d913-40d5-9f45-954739e5c81f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "06f2be65-b3b8-46d1-a67c-02e426c7cc03"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Open Barnet"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T13:03:08.792681",
+                "description": "",
+                "format": "",
+                "hash": "",
+                "id": "6876872e-9f2d-4b5b-9d5f-6f50ff44f9d3",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T13:03:08.768174",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "membership_20220405.csv",
+                "package_id": "2cd45a5c-5482-4e88-bdf9-7b7499d7efcb",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T13:03:08.792683",
+                "description": "",
+                "format": "",
+                "hash": "",
+                "id": "706f2773-db93-4940-8e8e-de4b8512ad79",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T13:03:08.768253",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "membership_20210803.csv",
+                "package_id": "2cd45a5c-5482-4e88-bdf9-7b7499d7efcb",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T13:03:08.792684",
+                "description": "",
+                "format": "",
+                "hash": "",
+                "id": "cd70660b-dcf8-4d6b-aac8-82e46edcd230",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T13:03:08.768310",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "membership_20210409.csv",
+                "package_id": "2cd45a5c-5482-4e88-bdf9-7b7499d7efcb",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T13:03:08.792684",
+                "description": "",
+                "format": "",
+                "hash": "",
+                "id": "9f605b3c-193d-42b5-a845-f775f806c611",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T13:03:08.768363",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "membership_20210208.csv",
+                "package_id": "2cd45a5c-5482-4e88-bdf9-7b7499d7efcb",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T13:03:08.792685",
+                "description": "",
+                "format": "",
+                "hash": "",
+                "id": "f7817461-c572-4476-8f50-15a0b85e4b16",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T13:03:08.768414",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "membership_20210105.csv",
+                "package_id": "2cd45a5c-5482-4e88-bdf9-7b7499d7efcb",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T13:03:08.792686",
+                "description": "",
+                "format": "",
+                "hash": "",
+                "id": "9499eeb0-51ca-425a-9fed-970203d856a6",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T13:03:08.768465",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "membership_20201112.csv",
+                "package_id": "2cd45a5c-5482-4e88-bdf9-7b7499d7efcb",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Family Services",
+                "id": "b065a322-15dd-40f4-ba8a-ec2adebf6e1a",
+                "name": "Family Services",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Libraries",
+                "id": "1b8b5ee6-9a3a-4b6f-952c-1380277b44de",
+                "name": "Libraries",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "1d41a709-d913-40d5-9f45-954739e5c81f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "06f2be65-b3b8-46d1-a67c-02e426c7cc03"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Open Barnet"
+            }
+        ]
+    }
+}

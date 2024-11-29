@@ -1,0 +1,222 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GI-SAT@gov.scot",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "bd39fc38-4b8e-4d07-9c2f-28b4a08ce96f",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2014-03-25T19:01:55.280737",
+        "metadata_modified": "2024-06-19T11:20:45.608440",
+        "name": "scottish-government-land-cover-view-service-wms",
+        "notes": "This view service provides spatial data relating to land cover published by the Scottish Government.",
+        "num_resources": 1,
+        "num_tags": 6,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Scottish Government Land Cover View Service (WMS)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The following attribution statement must be used to acknowledge the source of the information: Copyright Scottish Government, contains Ordnance Survey data \\u00a9 Crown copyright and database right (insert year).\", \"See individual dataset metadata records for conditions.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"title\": [], \"href\": [\"https://www.spatialdata.gov.scot:443/geonetwork/srv/en/csw?service=CSW&request=GetRecordById&version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=7dfaf8ce-2123-4eec-8a16-2e85fab7077d\"], \"uuid\": [\"7dfaf8ce-2123-4eec-8a16-2e85fab7077d\"]}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-02-07\"}, {\"type\": \"revision\", \"value\": \"2020-12-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "e33842cc-f3e3-49f0-ad69-0dd41232ed77"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4ad4f246-aedf-4e86-92e5-2e69adf6e2bc"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-01-14T15:27:12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Scottish Government"
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Government (publisher)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "view"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "ckan_recommended_wms_preview": true,
+                "created": "2024-06-19T11:20:45.652997",
+                "description": "OGC View Service",
+                "format": "WMS",
+                "hash": "",
+                "id": "07c6feba-b3f5-4af8-b9be-19b002cc9cc1",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:20:45.614800",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "bd39fc38-4b8e-4d07-9c2f-28b4a08ce96f",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.gov.scot/server/services/ScotGov/LandCover/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null,
+                "verified": true,
+                "verified_date": "2024-06-19T11:20:45.599140"
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Agricultural land",
+                "id": "4df73428-6a32-43fa-a53c-4df601005071",
+                "name": "Agricultural land",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Countryside",
+                "id": "60d01007-2a8a-4c54-9a49-c257b2513f61",
+                "name": "Countryside",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land and premises",
+                "id": "4184a45d-4433-4a3f-ab79-60a64ca26211",
+                "name": "Land and premises",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land cover",
+                "id": "6373de4c-8199-4a06-ab55-8c60c9a1c3f2",
+                "name": "Land cover",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "infoMapAccessService",
+                "id": "061d2dbc-d2e4-429c-a613-e101834e6f73",
+                "name": "infoMapAccessService",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land cover",
+                "id": "13c054fd-aa73-4884-809f-2c972a391330",
+                "name": "land cover",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "fa5d2127-4c1a-4cdb-8ba5-952129afb6cd"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

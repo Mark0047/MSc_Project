@@ -1,0 +1,126 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "e3a959ce-a651-441a-a467-d5481da75ba6",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-02-19T04:26:09.109837",
+        "metadata_modified": "2020-04-12T08:18:04.152714",
+        "name": "locations-regulated-by-cqc",
+        "notes": "<p>JSON File displaying all National CQC Regulated locations with their name, location ID and postcode.</p>\n",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+            "id": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+            "name": "cambridgeshire-insight",
+            "title": "Cambridgeshire Insight",
+            "type": "organization",
+            "description": "The Cambridgeshire Insight Partnership is made up of public, health and community bodies to provide a shared research knowledge base for the Cambridgeshire area. It allows users an easy way to access and share data, information and research for deeper insights about their local area. See more at https://cambridgeshireinsight.org.uk",
+            "image_url": "",
+            "created": "2014-05-19T12:10:18.790087",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+        "private": false,
+        "state": "active",
+        "title": "Locations regulated by CQC",
+        "type": "dataset",
+        "url": "https://data.cambridgeshireinsight.org.uk/dataset/locations-regulated-cqc",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2019-02-01"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2019-02-02"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "data.cambridgeshireinsight.org.uk"
+            },
+            {
+                "key": "guid",
+                "value": "6b5da638-704f-45dd-a779-5bf610a12cc3"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4d1f1578-f105-4363-b205-4c0cce47727e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-02-19T04:26:09.129714",
+                "description": "",
+                "format": "JSON",
+                "hash": "",
+                "id": "bb1d4af4-53fb-4673-8426-9553b026de81",
+                "last_modified": null,
+                "metadata_modified": "2019-02-19T04:26:09.129714",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CQC Locations",
+                "package_id": "e3a959ce-a651-441a-a467-d5481da75ba6",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://api.cqc.org.uk/public/v1/locations/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "CQC",
+                "id": "5d77ccc2-abb2-4b5e-92b2-af909894fa3a",
+                "name": "CQC",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "care homes",
+                "id": "b0ef270f-3cc7-425f-b1ff-d70782e29041",
+                "name": "care homes",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4d1f1578-f105-4363-b205-4c0cce47727e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ]
+    }
+}

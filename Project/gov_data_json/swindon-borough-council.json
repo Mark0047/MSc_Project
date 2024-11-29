@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "740c908d-c0a9-4784-9e6c-6aae45bbef16",
+        "metadata_created": "2019-01-23T11:29:24.601860",
+        "metadata_modified": "2020-04-29T19:22:13.120762",
+        "name": "swindon-borough-council",
+        "notes": "To be deleted",
+        "organization": {
+            "id": "725a8290-a1fd-4a20-b2e5-053f08ca18fd",
+            "name": "swindon-borough-council",
+            "title": "Swindon Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "2020-04-29-192628.009285swindonlogo2015.png",
+            "created": "2014-11-21T12:00:35.055979",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "725a8290-a1fd-4a20-b2e5-053f08ca18fd",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Swindon Borough Council (ARCHIVE)",
+        "type": "harvest",
+        "url": "https://gis.getmapping.com/inspire/swindon",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 11,
+            "last_job": {
+                "id": "ca899f2c-bfaa-41ad-ad22-2c03fb1228d5",
+                "created": "2020-04-24 16:22:06.648760",
+                "gather_started": "2020-04-27 09:05:50.309310",
+                "gather_finished": "2020-04-27 09:05:53.371281",
+                "finished": "2020-04-27 09:05:53.371281",
+                "source_id": "740c908d-c0a9-4784-9e6c-6aae45bbef16",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://gis.getmapping.com/inspire/swindon: ConnectionError(MaxRetryError(\"HTTPSConnectionPool(host='gis.getmapping.com', port=443): Max retries exceeded with url: /inspire/swindon (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7fa2f902f310>: Failed to establish a new connection: [Errno 113] No route to host',))\",),)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

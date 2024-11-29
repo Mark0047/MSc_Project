@@ -1,0 +1,120 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "e32ce38e-d323-4079-ac71-561fec85e45b",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-07-06T12:00:17.900165",
+        "metadata_modified": "2024-11-16T22:01:50.565041",
+        "name": "london-development-database-sql-extract",
+        "notes": "This is a copy of the final London Development Database.\n\nThis is the entire LDD database exported as a .sql.tar using pg_dump. For information on how to use this file and details of the database tables please refer to the document [London Development database export.pdf](/dataset/london-development-database-sql-extract/resource/436eeda1-c02a-430e-8a5b-e4f4f4f52df8/download)\n\nAll data is provided by London\u2019s planning authorities.\n\nAn extract from the database can be downloaded from the [London Datastore](/dataset/planning-permissions-on-the-london-development-database--ldd-) and data can be viewed on a map at [https://maps.london.gov.uk/map/?ldd](https://maps.london.gov.uk/map/?ldd)",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "London Development Database SQL Extract",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/london-development-database-sql-extract",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2017-07-03T11:56:12"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2020-07-15T11:18:09.826Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "f48d3588-7505-4b29-b2e1-80c63fe77bc2"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-24T06:51:07.236702",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "4885dbf9-5407-402e-bb69-d4b3e2b16d00",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:41.225403",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "London Development database export.pdf",
+                "package_id": "e32ce38e-d323-4079-ac71-561fec85e45b",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-development-database-sql-extract/436eeda1-c02a-430e-8a5b-e4f4f4f52df8/London%2520Development%2520database%2520export%2520note.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-24T06:51:07.236709",
+                "description": "London Development Database extract carried out on 13/07/2020",
+                "format": "TAR",
+                "hash": "",
+                "id": "052d65fb-366f-4fc3-8521-2a7f39949117",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:41.225523",
+                "mimetype": "application/x-tar",
+                "mimetype_inner": null,
+                "name": "ldddata_200713.sql.tar.gz",
+                "package_id": "e32ce38e-d323-4079-ac71-561fec85e45b",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/london-development-database-sql-extract/e167dbc8-3a65-4e4b-b5e8-7aaac7278399/ldddata_200713.sql.tar.gz",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "43e43b9d-dc5c-41cd-b77d-edae90a59265"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

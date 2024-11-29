@@ -1,0 +1,150 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "GISShared@NFDC.GOV.UK",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "ee01d0dc-9a98-4927-81dc-d55cd400f7f9",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2022-04-05T14:58:42.432324",
+        "metadata_modified": "2022-04-06T09:55:20.251529",
+        "name": "development-sites1",
+        "notes": "This dataset shows the Development Sites from the Districts Local Plan 2016-2036 Part One and its related Policy Number",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "335cebab-4108-470c-8da5-7f394d919e2c",
+            "name": "new-forest-district-council",
+            "title": "New Forest District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:41:22.702175",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "335cebab-4108-470c-8da5-7f394d919e2c",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "",
+        "title": "Development Sites",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-04-05T14:58:42.443321",
+                "datafile-date": "2022-03-14",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "af8a7223-8516-46a2-8892-be44265dbdf4",
+                "last_modified": null,
+                "metadata_modified": "2022-04-06T09:46:05.131234",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "ee01d0dc-9a98-4927-81dc-d55cd400f7f9",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/new_forest_district_council_developmentsites/wms?request=getCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-04-05T14:58:42.443324",
+                "datafile-date": "2022-03-14",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "81ea0814-9857-4c82-85ed-886f91d4b8ba",
+                "last_modified": null,
+                "metadata_modified": "2022-04-06T09:51:21.527002",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "ee01d0dc-9a98-4927-81dc-d55cd400f7f9",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/new_forest_district_council_developmentsites/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Development",
+                "id": "4bd1ff02-665b-4fcb-83b6-65a088c0c255",
+                "name": "Development",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "development",
+                "id": "78e5fcbf-e9dc-4a44-b5d8-bb557233f951",
+                "name": "development",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "b28ed83f-78b5-431d-8a4a-2260e4b411de"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8c75f91d-92bd-4516-96db-d736c747ef31"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "New Forest District Council"
+            }
+        ],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b28ed83f-78b5-431d-8a4a-2260e4b411de"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8c75f91d-92bd-4516-96db-d736c747ef31"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "New Forest District Council"
+            }
+        ]
+    }
+}

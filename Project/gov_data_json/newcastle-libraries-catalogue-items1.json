@@ -1,0 +1,185 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "b166f511-1d29-4116-aff0-c32695da69d6",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-09-20T13:20:07.822939",
+        "metadata_modified": "2024-11-17T10:01:06.291799",
+        "name": "newcastle-libraries-catalogue-items1",
+        "notes": "Extract from the Library Management System (LMS) showing the items held in the libraries' catalogue.\nDue to a change of LMS in 2018 different fields are available from 2018 onwards.\n\u00a0\nAdditional information\n2019- data\nbarcode = unique number allocated to each copy on our system\nbiblionumber = unique number attached to title by our system when creating the title record\nisbn = International Standard Book Number, attached to title by publisher\nitype = category allocated to each item when added tor our system\nitemtype = itype column for humans to read\nhomebranchcode = current library or service the item is allocated to\nhomebranch = homebranchcode column for humans to read\ndateaccessioned = date item was added to our system\nissues = total number of times the item has been borrowed since it was added to our collection\nrenewals = total number of times the loan to a borrower has been extended, since the item was added to our collection\n2016-2017 data\nitem = unique number allocated to each copy on our system\nrcn = control number, unique number attached to title by our system when reading ISBN barcode (N* number if no barcode)\ncatego = category allocated to each item when added tor our system\ntext = catego column for humans to read\nhomebr = current library or service the item is allocated to\nname = homebr column for humans to read\nadded = date item was added to our system\nissues current branch = number of times the item has been borrowed at the current library or service it is allocated to\nissues previous branch = number of times the item has been borrowed at the previous library or service it was allocated to\nrenewals current branch = number of times the loan to a borrower has been extended, at the current library or service it is allocated to\nrenewals previous branch = number of times the loan to a borrower has been extended, at the previous library or service it was allocated to",
+        "num_resources": 4,
+        "num_tags": 2,
+        "organization": {
+            "id": "93062161-796c-4cfa-80a0-608cda55ad58",
+            "name": "newcastle-city-council",
+            "title": "Newcastle City Council",
+            "type": "organization",
+            "description": "Newcastle City Council",
+            "image_url": "",
+            "created": "2013-09-18T18:41:31.481045",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "93062161-796c-4cfa-80a0-608cda55ad58",
+        "private": false,
+        "state": "active",
+        "title": "Newcastle Libraries catalogue items",
+        "type": "dataset",
+        "url": "https://datamillnorth.org/dataset/23yn3",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2016-04-05T17:22:55.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2019-08-06T15:40:12.193Z"
+            },
+            {
+                "key": "guid",
+                "value": "23yn3"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e9a36dda-4f42-4784-9b3d-0ad14e9c5df1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5d1280a9-ef1f-4bcb-9c7c-2377f8dcf56d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Newcastle"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T10:01:06.325394",
+                "description": "Items in Newcastle Libraries' catalogue on 6 August 2019.",
+                "format": "",
+                "hash": "",
+                "id": "2d995345-33b0-483b-8228-d52d3f20776e",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T10:01:06.299567",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "At 2019 08 06",
+                "package_id": "b166f511-1d29-4116-aff0-c32695da69d6",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T10:01:06.325397",
+                "description": "Items in Newcastle Libraries' catalogue on 22 March 2017.",
+                "format": "",
+                "hash": "",
+                "id": "28e4f67a-b2f9-4c22-8568-8d9e3aef8038",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T10:01:06.299650",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "At 2017 03 22",
+                "package_id": "b166f511-1d29-4116-aff0-c32695da69d6",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T10:01:06.325398",
+                "description": "Items in Newcastle Libraries' catalogue on 19 September 2016.",
+                "format": "",
+                "hash": "",
+                "id": "e5235203-da3d-4faf-b1b1-9374763795b1",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T10:01:06.299708",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "At 2016 09 19",
+                "package_id": "b166f511-1d29-4116-aff0-c32695da69d6",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T10:01:06.325398",
+                "description": "Items in Newcastle Libraries' catalogue on 5 April 2016.",
+                "format": "",
+                "hash": "",
+                "id": "4ad93dd8-d8d7-4ecd-9998-5ebe36b23703",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T10:01:06.299761",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "At 2016 04 05",
+                "package_id": "b166f511-1d29-4116-aff0-c32695da69d6",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "catalogue",
+                "id": "3a45f125-343c-48de-9d03-876dd4d2e68f",
+                "name": "catalogue",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "libraries",
+                "id": "496ea932-1563-44ca-8904-490c4d6ab195",
+                "name": "libraries",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e9a36dda-4f42-4784-9b3d-0ad14e9c5df1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "5d1280a9-ef1f-4bcb-9c7c-2377f8dcf56d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Newcastle"
+            }
+        ]
+    }
+}

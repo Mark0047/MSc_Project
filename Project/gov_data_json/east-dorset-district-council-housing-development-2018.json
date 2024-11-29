@@ -1,0 +1,205 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GIS@christchurchandeastdorset.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "2a6ad1d7-befe-44de-b99a-611b220132c4",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-27T15:40:52.447983",
+        "metadata_modified": "2018-02-22T09:59:17.035048",
+        "name": "east-dorset-district-council-housing-development-2018",
+        "notes": "East Dorset District Council Housing Development 2018",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "9ced6c39-3e06-465c-b8c6-46e0f39ee514",
+            "name": "east-dorset-district-council",
+            "title": "East Dorset District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:32.727910",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "9ced6c39-3e06-465c-b8c6-46e0f39ee514",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "East Dorset District Council Housing Development 2018",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.8467"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "50.8878"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50.7752"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.0176"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-01-24T13:00:00\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "d3ad50d2-9764-4ee5-9b1b-a33fcec07f76"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "40e2faaa-d774-4dba-a910-9924c94e08f5"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.astuntechnology.com/eastdorset/EastDorsetDistrictCouncilHousingDevelopment2018.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Ordnance Survey End User Licence"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-02-22"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Christchurch Borough Council and East Dorset District Council Partnership (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.8467, 50.7752],[-1.8467, 50.8878], [-2.0176, 50.8878], [-2.0176, 50.7752], [-1.8467, 50.7752]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "55249ddd-1d0f-4734-836c-94e683a55f05"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "East Dorset District Council INSPIRE Service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-02-12T14:07:38.804652",
+                "description": "East Dorset District Council INSPIRE View Service (WMS)",
+                "format": "WMS",
+                "hash": "",
+                "id": "12eff872-8d26-4f60-86d7-6da085d76f74",
+                "last_modified": null,
+                "metadata_modified": "2018-02-12T14:07:38.804652",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "View",
+                "package_id": "2a6ad1d7-befe-44de-b99a-611b220132c4",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC: WMS",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://geowessex.astuntechnology.com/getows.ashx?mapsource=GeoWessex/christchurchandeastdorset&service=WMS&version=1.1.1&Request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-02-12T14:07:38.804678",
+                "description": "East Dorset District Council INSPIRE Download Service (WFS)",
+                "format": "",
+                "hash": "",
+                "id": "0692744b-6149-46b0-b996-1aa2ad16d144",
+                "last_modified": null,
+                "metadata_modified": "2018-02-12T14:07:38.804678",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "2a6ad1d7-befe-44de-b99a-611b220132c4",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC: WFS",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://geowessex.astuntechnology.com/getows.ashx?mapsource=GeoWessex/christchurchandeastdorset&service=WFS&version=1.1.0&Request=GetFeature&TypeName=eddc_housing_development",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "40e2faaa-d774-4dba-a910-9924c94e08f5"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "55249ddd-1d0f-4734-836c-94e683a55f05"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "East Dorset District Council INSPIRE Service"
+            }
+        ]
+    }
+}

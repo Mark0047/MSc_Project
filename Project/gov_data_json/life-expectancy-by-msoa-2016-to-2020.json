@@ -1,0 +1,226 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "ab326806-131a-4023-8e12-67f1e8d56be4",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2023-02-08T16:06:47.372183",
+        "metadata_modified": "2023-04-06T12:54:19.584886",
+        "name": "life-expectancy-by-msoa-2016-to-2020",
+        "notes": "<p>Life expectancy at birth for males and females for Middle Layer Super Output Area (MSOAs), Leicester: 2016 to 2020</p><p>The average number of years a person would expect to live based on contemporary mortality rates.</p><p>For a particular area and time period, it is an estimate of the average number of years a newborn baby would survive if he or she experienced the age-specific mortality rates for that area and time period throughout his or her life.</p><p>Life expectancy figures have been calculated based on death registrations between 2016 to 2020, which includes the first wave and part of the second wave of the coronavirus (COVID-19) pandemic.</p>",
+        "num_resources": 4,
+        "num_tags": 1,
+        "organization": {
+            "id": "428e76b4-8690-4d64-8586-a4e748c487d5",
+            "name": "leicester-city-council",
+            "title": "Leicester City Council",
+            "type": "organization",
+            "description": "Leicester City Council is the unitary authority serving the people, communities and businesses of Leicester.",
+            "image_url": "",
+            "created": "2013-09-05T10:56:36.089623",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "428e76b4-8690-4d64-8586-a4e748c487d5",
+        "private": false,
+        "state": "active",
+        "title": "Life Expectancy by MSOA 2016 to 2020",
+        "type": "dataset",
+        "url": "https://data.leicester.gov.uk/explore/dataset/life-expectancy-msoa/",
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/life-expectancy-msoa"
+            },
+            {
+                "key": "identifier",
+                "value": "life-expectancy-msoa@leicester"
+            },
+            {
+                "key": "issued",
+                "value": "2022-03-01T15:51:50.212000+00:00"
+            },
+            {
+                "key": "language",
+                "value": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]"
+            },
+            {
+                "key": "modified",
+                "value": "2022-03-01T15:51:50.212000+00:00"
+            },
+            {
+                "key": "publisher_name",
+                "value": "Leicester City Council"
+            },
+            {
+                "key": "publisher_uri",
+                "value": "https://data.leicester.gov.uk/explore/?refine.publisher=Leicester+City+Council"
+            },
+            {
+                "key": "related_resource",
+                "value": "[\"https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/datasets/nationallifetablesenglandreferencetables\"]"
+            },
+            {
+                "key": "theme",
+                "value": "[\"https://data.leicester.gov.uk/explore/?refine.theme=Population+%26+Communities\"]"
+            },
+            {
+                "key": "uri",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/life-expectancy-msoa"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ea73a2b6-4ab1-4022-868b-938e411fbd92"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/life-expectancy-msoa/exports/csv",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:06:47.381037",
+                "description": "Life Expectancy by MSOA 2016 to 2020 (csv)",
+                "format": "https://www.iana.org/assignments/media-types/text/csv",
+                "hash": "",
+                "id": "5ce509ed-1769-48a1-ba88-6c0fefe8d7e8",
+                "issued": "2022-03-01T15:51:50.212000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-02-08T16:06:47.366670",
+                "mimetype": "https://www.iana.org/assignments/media-types/text/csv",
+                "mimetype_inner": null,
+                "modified": "2022-03-01T15:51:50.212000+00:00",
+                "name": "csv",
+                "package_id": "ab326806-131a-4023-8e12-67f1e8d56be4",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/life-expectancy-msoa-csv",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/life-expectancy-msoa/exports/csv",
+                "url_type": null
+            },
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/life-expectancy-msoa/exports/json",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:06:47.381038",
+                "description": "Life Expectancy by MSOA 2016 to 2020 (json)",
+                "format": "https://www.iana.org/assignments/media-types/application/json",
+                "hash": "",
+                "id": "e3379960-bbc2-4654-9241-f6b6741b05c2",
+                "issued": "2022-03-01T15:51:50.212000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-02-08T16:06:47.366810",
+                "mimetype": "https://www.iana.org/assignments/media-types/application/json",
+                "mimetype_inner": null,
+                "modified": "2022-03-01T15:51:50.212000+00:00",
+                "name": "json",
+                "package_id": "ab326806-131a-4023-8e12-67f1e8d56be4",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/life-expectancy-msoa-json",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/life-expectancy-msoa/exports/json",
+                "url_type": null
+            },
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/life-expectancy-msoa/exports/shp",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:06:47.381032",
+                "description": "Life Expectancy by MSOA 2016 to 2020 (shp)",
+                "format": "https://www.iana.org/assignments/media-types/application/zip",
+                "hash": "",
+                "id": "bafeb7ea-40d6-4d18-b50a-1cbc6533eda8",
+                "issued": "2022-03-01T15:51:50.212000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-02-08T16:06:47.366368",
+                "mimetype": "https://www.iana.org/assignments/media-types/application/zip",
+                "mimetype_inner": null,
+                "modified": "2022-03-01T15:51:50.212000+00:00",
+                "name": "shp",
+                "package_id": "ab326806-131a-4023-8e12-67f1e8d56be4",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/life-expectancy-msoa-shp",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/life-expectancy-msoa/exports/shp",
+                "url_type": null
+            },
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/life-expectancy-msoa/exports/geojson",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:06:47.381035",
+                "description": "Life Expectancy by MSOA 2016 to 2020 (geojson)",
+                "format": "https://www.iana.org/assignments/media-types/application/json",
+                "hash": "",
+                "id": "053523db-7b37-4f8f-865b-3cbd6310e4c6",
+                "issued": "2022-03-01T15:51:50.212000+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-02-08T16:06:47.366526",
+                "mimetype": "https://www.iana.org/assignments/media-types/application/json",
+                "mimetype_inner": null,
+                "modified": "2022-03-01T15:51:50.212000+00:00",
+                "name": "geojson",
+                "package_id": "ab326806-131a-4023-8e12-67f1e8d56be4",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/life-expectancy-msoa-geojson",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/life-expectancy-msoa/exports/geojson",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Life expectancy",
+                "id": "4632977d-08d6-41ae-b55f-4b353c968f0c",
+                "name": "Life expectancy",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "ea73a2b6-4ab1-4022-868b-938e411fbd92"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ]
+    }
+}

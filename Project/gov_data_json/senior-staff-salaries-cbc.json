@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "37929850-1c85-46d8-83a5-47851e416a27",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-09-10T10:21:02.694195",
+        "metadata_modified": "2019-12-21T23:56:10.756193",
+        "name": "senior-staff-salaries-cbc",
+        "notes": "<p>Salary details for Colchester's Chief Executive and senior officers.</p>\r\n<p>Pay is shown in \u00a35,000 bandings as per the Data Transparency code.</p>\r\n<p>The full pay policy can be found at the following link:\u00a0http://colchester.gov.uk/CHttpHandler.ashx?id=5934&p=0</p>\r\n<p>The full statement of accounts including more information about payments can be found at the following link:\u00a0http://colchester.gov.uk/article/11907/Statement-of-Accounts---Colchester-Borough-Council</p>\r\n<p>An organisation chart detailing the top 3 levels of the Council and their responsibilities can be found in the 'Organisation Chart' schema.</p>\r\n<p>Imformation about current vacancies can be found in the 'Current Job Vacancies' schema.</p>\r\n<p>Under the Data Transparency Code, we are required to update this information on an annual basis. The information used is the same as that included in the Council's Annual Statement of Accounts which is published by end September each year. This schema will be updated within 1 month of this date.</p>\r\n<p>\u00a0</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "140fad04-d552-4757-ac79-bc9a06ef635d",
+            "name": "colchester-borough-council",
+            "title": "Colchester Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-01-16T11:49:46.028151",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "140fad04-d552-4757-ac79-bc9a06ef635d",
+        "private": false,
+        "state": "active",
+        "title": "Senior Staff Salaries",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.colchester.gov.uk/residents/council-information/senior-staff-salaries"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4f52a6f1-9d8d-4489-b0e2-944456ef3af2"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.colchester.gov.uk/residents/council-information/senior-staff-salaries"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "council-information/senior-staff-salaries"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-12-02"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://datashare.colchester.gov.uk/api/esdInventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2019-12-02T00:00:00\", \"harvest_source_title\": \"Colchester datashare website\", \"activity_occurred\": \"2019-12-21T23:56:10.559335\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.colchester.gov.uk/residents/council-information/senior-staff-salaries\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T11:21:02.732440",
+                "description": "Senior Staff Salaries - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "49df00fb-f404-48e0-a0f9-cab3ec0c21b4",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T11:21:02.732440",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "37929850-1c85-46d8-83a5-47851e416a27",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-information/senior-staff-salaries/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/Download/council-information/senior-staff-salaries",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:23:18.808769",
+                "description": "April 2019 - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "3fc9b12d-535a-4ea0-b185-9c8a74dc76e3",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:23:18.808769",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "37929850-1c85-46d8-83a5-47851e416a27",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-information/senior-staff-salaries/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/council-information/senior-staff-salaries/april-2019/CSV?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:23:18.808777",
+                "description": "April 2019 - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "4f1866a9-abb4-49cb-9c2c-e6d923e83c2c",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:23:18.808777",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "37929850-1c85-46d8-83a5-47851e416a27",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-information/senior-staff-salaries/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/council-information/senior-staff-salaries/april-2019/XML?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:23:18.808780",
+                "description": "April 2019 - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "a9a3af73-741e-49df-a06b-856c3f9c36bd",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:23:18.808780",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "37929850-1c85-46d8-83a5-47851e416a27",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-information/senior-staff-salaries/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/council-information/senior-staff-salaries/april-2019?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:23:18.808781",
+                "description": "April 2019 - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "5f9a6f84-42c3-49bc-b039-4a2b546cbf03",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:23:18.808781",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "37929850-1c85-46d8-83a5-47851e416a27",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/council-information/senior-staff-salaries/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/council-information/senior-staff-salaries/april-2019?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4f52a6f1-9d8d-4489-b0e2-944456ef3af2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ]
+    }
+}

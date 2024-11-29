@@ -1,0 +1,177 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "foi@sepa.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "1ebf1ae2-90a2-4cb1-ba1f-faf87f27791b",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-07-18T21:13:58.542407",
+        "metadata_modified": "2024-07-18T21:13:58.542411",
+        "name": "surface-water-flood-maps-frm-fh-surface-water-depth-h406",
+        "notes": "The following probabilities are available for surface water flooding: - High - 10 year return period - Medium - 200 year return period - Low - 200 year return period plus climate change using the UKCP09 high emissions scenario for the 2080s.The surface water hazard maps show (where available): - Flood extent - Flood depth - Flood velocities where appropriate. The climate change scenario has been defined by United Kingdom Climate Projection 2009 (UKCP09) predictions for 2080 high emissions 95%ile predictions. Medium and low probability flood events were selected for consistency with return periods used in Scottish Planning Policy, whereas the high probability was chosen as it is reflective of observed events experienced over the last few decades.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Surface Water Flood Maps (FRM_FH_SURFACE_WATER_DEPTH_H)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": ""
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": ""
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": ""
+            },
+            {
+                "key": "bbox-west-long",
+                "value": ""
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"\", \"value\": \"\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "as needed"
+            },
+            {
+                "key": "guid",
+                "value": "2ef88fc0-00fe-42dd-9fe5-172e82dd050e"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "06047085-2004-4630-9f1f-a1882c53f9a3"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-03-25T14:14:17"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": ""
+            },
+            {
+                "key": "responsible-party",
+                "value": "Scottish Environment Protection Agency ()"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[, ], [, ], [, ], [, ], [, ]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-18T21:13:58.549032",
+                "description": "SEPA Data publications access page",
+                "format": "",
+                "hash": "",
+                "id": "0c6f4049-bb35-49d2-9d67-6f9925377b39",
+                "last_modified": null,
+                "metadata_modified": "2024-07-18T21:13:58.539574",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SEPA Data publication",
+                "package_id": "1ebf1ae2-90a2-4cb1-ba1f-faf87f27791b",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.sepa.org.uk/environment/environmental-data/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-07-18T21:13:58.549035",
+                "description": "SEPA Surface Water Flood Maps v2 Zipped ESRI Filegeodatabase",
+                "format": "ZIP",
+                "hash": "",
+                "id": "56c65ed9-bd5f-4b6d-a160-64bd1eb4fd21",
+                "last_modified": null,
+                "metadata_modified": "2024-07-18T21:13:58.539669",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SEPA_Surface_Water_Flood_Maps_v2_1.zip",
+                "package_id": "1ebf1ae2-90a2-4cb1-ba1f-faf87f27791b",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www2.sepa.org.uk/flooddata/SEPA_Surface_Water_Flood_Maps_v2_1.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

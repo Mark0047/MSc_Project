@@ -1,0 +1,158 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "82b6eab7-6c86-4418-b156-0819589fa7f8",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2017-07-11T13:38:20.581793",
+        "metadata_modified": "2024-10-12T15:00:25.421055",
+        "name": "fuel-poverty2",
+        "notes": "Households in Fuel Poverty using the government Low Income Low Energy Efficiency (LILEE) method.\r\n\r\nThe data shows numbers and percentages of households at County, District, and Lower Super Output Area (LSOA) geographies.  The dataset is updated annually.\r\n\r\nSource: Experimental statistics published by the Department for Business, Energy and Industrial Strategy (DBEIS).  See the source weblink for further guidance on the statistics and their uses and limitations. (For example, this data should only be used to look for particular areas of high fuel poverty, but not to analyse trends over time.  Caution is advised regarding data for small areas such as LSOA, and other local data ideally should be used together with this data).",
+        "num_resources": 2,
+        "num_tags": 6,
+        "organization": {
+            "id": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+            "name": "lincolnshire-county-council",
+            "title": "Lincolnshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:38:51.868332",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+        "private": false,
+        "state": "active",
+        "title": "Fuel Poverty",
+        "type": "dataset",
+        "url": "https://www.gov.uk/government/collections/fuel-poverty-sub-regional-statistics",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-04-13T07:20:44.354801",
+                "datastore_active": true,
+                "description": "Dataset for Fuel Poverty.",
+                "format": "CSV",
+                "hash": "",
+                "id": "cee2ff71-f008-4eec-bdaa-bd55a386ab47",
+                "last_modified": "2024-10-07T14:10:36.880122",
+                "metadata_modified": "2024-10-12T15:00:25.426260",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fuel Poverty",
+                "package_id": "82b6eab7-6c86-4418-b156-0819589fa7f8",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/82b6eab7-6c86-4418-b156-0819589fa7f8/resource/cee2ff71-f008-4eec-bdaa-bd55a386ab47/download/2022-fuel-poverty.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-04-13T07:22:31.439514",
+                "datastore_active": true,
+                "description": "Metadata for Fuel Poverty dataset.  This file contains Metadata (information about a dataset). It shows the schema for dataset fields and their contents. This file should be used along with the dataset, to aid correct interpretation of the data.\r\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "10678d16-5411-43ad-9bc9-977cb67c9897",
+                "last_modified": "2018-10-10T11:15:48.874446",
+                "metadata_modified": "2017-04-13T07:22:31.439514",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata",
+                "package_id": "82b6eab7-6c86-4418-b156-0819589fa7f8",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/82b6eab7-6c86-4418-b156-0819589fa7f8/resource/10678d16-5411-43ad-9bc9-977cb67c9897/download/metadata_fuelpoverty.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "community",
+                "id": "9fbe905f-7738-4dc9-9511-74ffe69d104d",
+                "name": "community",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "deprivation",
+                "id": "71d6101b-a9a6-4f79-b731-c9d828349115",
+                "name": "deprivation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "energy",
+                "id": "27294e91-c1f7-453d-a4cf-df89742ea4a3",
+                "name": "energy",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "fuel",
+                "id": "fa6e2c01-ae49-40bf-8611-5b6cc8ee085b",
+                "name": "fuel",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "poverty",
+                "id": "9dcfa718-3150-471d-88a2-b92ae802b605",
+                "name": "poverty",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "c0b85e14-ce83-4a1e-b82a-a83815e9199c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c0b85e14-ce83-4a1e-b82a-a83815e9199c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ]
+    }
+}

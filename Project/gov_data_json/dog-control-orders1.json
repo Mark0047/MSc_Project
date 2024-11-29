@@ -1,0 +1,186 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "inspire@tamworth.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "b5dacddd-4bd6-4472-a13e-fe54ec6d5990",
+        "isopen": false,
+        "licence-custom": "INSPIRE Public Sector End User Licence \u2013 http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html",
+        "license_id": "other-nc",
+        "license_title": "Other (Non-Commercial)",
+        "metadata_created": "2020-11-13T13:31:18.779094",
+        "metadata_modified": "2020-11-13T14:06:56.363228",
+        "name": "dog-control-orders1",
+        "notes": "Dog Control Orders",
+        "num_resources": 3,
+        "num_tags": 5,
+        "organization": {
+            "id": "ca09abd7-4d99-4876-9700-22595edd86e4",
+            "name": "tamworth-borough-council",
+            "title": "Tamworth Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-08-23T14:20:52.514295",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "ca09abd7-4d99-4876-9700-22595edd86e4",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "mapping",
+        "title": "Dog Control Orders",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-11-13T13:45:07.816317",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "0fbc36b8-bf2f-46a4-9855-dbac25f463ac",
+                "last_modified": null,
+                "metadata_modified": "2020-11-13T13:45:07.816317",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "XMAP Publisher - WMS View Service",
+                "package_id": "b5dacddd-4bd6-4472-a13e-fe54ec6d5990",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://xmap.cloud/webservices/data/tamworth/tbcgis001_dog_control_orders/wms?username=tamworth&password=XMAPpublisher50454086874&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-11-13T13:45:07.816324",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "4ea0a196-2edf-4be3-9347-1e73a7ee256d",
+                "last_modified": null,
+                "metadata_modified": "2020-11-13T13:45:07.816324",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "XMAP Publisher - WFS Download Service",
+                "package_id": "b5dacddd-4bd6-4472-a13e-fe54ec6d5990",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://xmap.cloud/webservices/data/tamworth/tbcgis001_dog_control_orders/wfs?username=tamworth&password=XMAPpublisher50454086874&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-11-13T13:45:07.816327",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "dc09cad9-aa8b-48d8-9745-1f5dab155043",
+                "last_modified": null,
+                "metadata_modified": "2020-11-13T13:45:07.816327",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "XMAP Public Map - Interactive Viewer",
+                "package_id": "b5dacddd-4bd6-4472-a13e-fe54ec6d5990",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://shared.xmap.cloud?map=a00261f6-b9d6-4cef-a829-29aa8adf870f",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Control",
+                "id": "d0b9660d-960b-48d2-a3db-f09879106e26",
+                "name": "Control",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Dog",
+                "id": "3604c975-db3d-486f-8c48-672dc5b46778",
+                "name": "Dog",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "control",
+                "id": "b4d7d6b3-b882-4128-9812-d36012e29564",
+                "name": "control",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "dog",
+                "id": "b57c0e62-9b74-444f-a765-6fbfc23b858c",
+                "name": "dog",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "orders",
+                "id": "cdee33ba-fec0-4255-903f-036467772b10",
+                "name": "orders",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "4b14833d-40c3-4112-81fc-f41b93c4694d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "301c68e4-6ae4-4203-ba13-dc55013d4b54"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "XMAP Publisher - Tamworth Borough Council"
+            }
+        ],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4b14833d-40c3-4112-81fc-f41b93c4694d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "301c68e4-6ae4-4203-ba13-dc55013d4b54"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "XMAP Publisher - Tamworth Borough Council"
+            }
+        ]
+    }
+}

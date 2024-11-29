@@ -1,0 +1,315 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a8994a00-16e2-4eab-aed5-395519fceb85",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2021-03-26T11:53:24.045345",
+        "metadata_modified": "2021-08-04T16:53:52.928138",
+        "name": "leeds-clean-air-zone-compliance-modelling-2021",
+        "notes": "Dataset concerning the Traffic and Air Quality modelling undertaken by LCC taken to support implementing the Clean Air Zone, and the subsequent review in 2020 that led to the decision to cancel the Clean Air Zone.",
+        "num_resources": 9,
+        "num_tags": 5,
+        "organization": {
+            "id": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+            "name": "leeds-city-council",
+            "title": "Leeds City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:43.477436",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+        "private": false,
+        "state": "active",
+        "title": "Leeds Clean Air Zone - Compliance Modelling 2021",
+        "type": "dataset",
+        "url": "https://datamillnorth.org/dataset/leeds-clean-air-zone---compliance-modelling-2021",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2021-02-09T16:02:28.733Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2021-02-17T11:46:12.610Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Leeds City Council"
+            },
+            {
+                "key": "guid",
+                "value": "f1055d0a-bb09-4eb6-b48b-b62dd5808f5a"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "1067bbd6-714a-420c-b08c-5f40e8467dbf"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "454ca6df-5da7-4c24-a2b0-2fa2ccd9a85e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Leeds"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T11:53:24.091678",
+                "description": "**Scenario List**\n\n**2018 Results from the modelling work conducted for the original CAZ Business Case as submitted in 2018.\u00a0**\n\n2015 Base year used for validation\n\n2020 Do nothing scenario\n\n2022 Do nothing scenario\n\n2020 CAZ-B+ CAZ-B scenario, with Taxis as hybrid vehicles, boundary as implemented in the charging order.\u00a0\n\n2022 CAZ-B+ CAZ-B scenario for 2022, with Taxis as hybrid vehicles, boundary as implemented in the charging order.",
+                "format": "CSV",
+                "hash": "",
+                "id": "f2dbf8e3-4273-4002-87f8-c4b21e7eb2de",
+                "last_modified": null,
+                "metadata_modified": "2021-03-26T11:53:24.091678",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Appendix 7 Clean Air Zone modelling data 2018",
+                "package_id": "a8994a00-16e2-4eab-aed5-395519fceb85",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-clean-air-zone---compliance-modelling-2021/93a0ce77-53c9-4c74-98db-bfeaf5a2f073/2018.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T11:53:24.091684",
+                "description": "**2020 Updated results and sensitivity testing to support October 2020 decision.**\n\nDM20 ANPR Do Min 2020 scenario (DM20), using updated fleet data from Jan 2020 survey (ANPR)\n\nDM21 ANPR New 2021 scenario without contraflow (DM21), using updated fleet data from Jan 2020 survey (ANPR)\n\nDM21 A ANPR 2021 scenario contraflow phase 1 (DM21 A), with updated fleet data (ANPR)\n\nDM21 B ANPR 2021 scenario contraflow phase 2 (DM21 B), with updated fleet data (ANPR)\n\nDM21 A ANPR 105% 2021 scenario contraflow phase 1 with updated fleet data (DM21 A), with updated fleet data (ANPR), with additional 5% growth added onto TEMPRO flows (105%)\n\nDM21 B ANPR 105% 2021 scenario contraflow phase 2 with updated fleet data (DM21 B), with updated fleet data (ANPR), with additional 5% growth added onto TEMPRO flows (105%)\n\nDM20 ANPR Bus50% Do Min 2020 scenario (DM20), using updated fleet data from Jan 2020 survey (ANPR), Bus compliance rolled back to minimum 50% Euro VI, 50% Euro V (Bus50%)\n\nDM20 ANPR Bus70% Do Min 2020 scenario (DM20), using updated fleet data from Jan 2020 survey (ANPR), Bus compliance rolled back to minimum 70% Euro VI, 30% Euro V (Bus70%)",
+                "format": "CSV",
+                "hash": "",
+                "id": "82f76089-705d-4339-9a93-7cdcced86e73",
+                "last_modified": null,
+                "metadata_modified": "2021-03-26T11:53:24.091684",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Appendix 7 Clean Air Zone modelling data 2020",
+                "package_id": "a8994a00-16e2-4eab-aed5-395519fceb85",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-clean-air-zone---compliance-modelling-2021/489ef8dd-9ce0-4283-9515-240a0b447aa7/2020.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T11:53:24.091687",
+                "description": "",
+                "format": "PDF",
+                "hash": "",
+                "id": "0ff3f632-6592-4c48-b331-075d347615e8",
+                "last_modified": null,
+                "metadata_modified": "2021-03-26T11:53:24.091687",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Appendix 2 - Technical Summary of Transport Modelling",
+                "package_id": "a8994a00-16e2-4eab-aed5-395519fceb85",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-clean-air-zone---compliance-modelling-2021/c4d6c73e-a493-4b83-8ccb-069affd86586/Appendix%25202%2520-%2520Technical%2520Summary%2520of%2520Transport%2520Modelling%2520Revised%2520FINAL.PDF",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T11:53:24.091689",
+                "description": "",
+                "format": "PDF",
+                "hash": "",
+                "id": "0707624c-dc7e-4717-aa86-67c9a09aefa1",
+                "last_modified": null,
+                "metadata_modified": "2021-03-26T11:53:24.091689",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Appendix 5 - AQ Tech Note - LCC CAZ 2021",
+                "package_id": "a8994a00-16e2-4eab-aed5-395519fceb85",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-clean-air-zone---compliance-modelling-2021/daa0271e-b57e-4530-96f6-0a2f457239d6/Appendix%25205%2520-%2520AQ%2520Tech%2520Note%2520-%2520LCC%2520CAZ%25202021.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T11:53:24.091691",
+                "description": "",
+                "format": "PDF",
+                "hash": "",
+                "id": "09440f49-6ee8-41ed-9268-ae2a15572b31",
+                "last_modified": null,
+                "metadata_modified": "2021-03-26T11:53:24.091691",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Appendix 6 - Highway Modelling - LCC CAZ 2021",
+                "package_id": "a8994a00-16e2-4eab-aed5-395519fceb85",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-clean-air-zone---compliance-modelling-2021/0bc1cdd6-5df4-4ebb-b57a-f0f32aa70327/Appendix%25206%2520-%2520Highway%2520Modelling%2520-%2520LCC%2520CAZ%25202021.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T11:53:24.091692",
+                "description": "",
+                "format": "PDF",
+                "hash": "",
+                "id": "f925db25-c642-4191-83c9-2e3f5ad93e7c",
+                "last_modified": null,
+                "metadata_modified": "2021-03-26T11:53:24.091692",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Appendix 4 - Diversion Report - LCC CAZ 2021",
+                "package_id": "a8994a00-16e2-4eab-aed5-395519fceb85",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-clean-air-zone---compliance-modelling-2021/3b7fdcc0-0f49-4698-8c17-aa56ac34f920/Appendix%25204%2520-%2520DiversionReport%2520-%2520LCC%2520CAZ%25202021.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T11:53:24.091694",
+                "description": "",
+                "format": "PDF",
+                "hash": "",
+                "id": "e8cb3630-333a-43c5-9a9a-43e618dfcc08",
+                "last_modified": null,
+                "metadata_modified": "2021-03-26T11:53:24.091694",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Appendix 1 -  Emission and Concentration Methodology Report for FBC 20181122",
+                "package_id": "a8994a00-16e2-4eab-aed5-395519fceb85",
+                "position": 6,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-clean-air-zone---compliance-modelling-2021/83c489b9-df7b-4dec-af0f-c3f4595403a9/Appendix%25201%2520-%2520%2520Emission%2520and%2520Concentration%2520Methodology%2520Report%2520for%2520FBC%252020181122.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T11:53:24.091696",
+                "description": "",
+                "format": "ZIP",
+                "hash": "",
+                "id": "d3ac977f-ece1-4b5f-91d1-c62950be83b9",
+                "last_modified": null,
+                "metadata_modified": "2021-03-26T11:53:24.091696",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Appendix 3 - App a to j Transport Modelling.zip",
+                "package_id": "a8994a00-16e2-4eab-aed5-395519fceb85",
+                "position": 7,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-clean-air-zone---compliance-modelling-2021/397c7d63-27f3-4aad-b12e-f11d219dc05a/Appendix%25203%2520-%2520App%2520a%2520to%2520j%2520Transport%2520Modelling.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T11:53:24.091698",
+                "description": "",
+                "format": "DOCX",
+                "hash": "",
+                "id": "667f6221-6622-448a-8a55-61b6a99a2d54",
+                "last_modified": null,
+                "metadata_modified": "2021-03-26T11:53:24.091698",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Leeds Clean Air Zone Modelling Report Feb 2021",
+                "package_id": "a8994a00-16e2-4eab-aed5-395519fceb85",
+                "position": 8,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/leeds-clean-air-zone---compliance-modelling-2021/0fca8767-164c-479c-8dd0-5c367901b52a/Leeds%2520CAZ%2520Modelling%2520Report%2520Feb21%2520FINAL.docx",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Air Quality",
+                "id": "78b348ca-a92a-4a7f-8443-6baa47cc312d",
+                "name": "Air Quality",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "CAZ",
+                "id": "86d13d3f-49e9-4201-b036-96650538b284",
+                "name": "CAZ",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Clean Air Zone",
+                "id": "f95b64ed-5c6f-47e9-8618-cd67b7eb5e5a",
+                "name": "Clean Air Zone",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Nitrogen dioxide",
+                "id": "b07652ad-8084-446f-80a2-ec80e188ff90",
+                "name": "Nitrogen dioxide",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Travel and Transport",
+                "id": "cc87e3e1-aaea-496b-9451-8d79d62ed367",
+                "name": "Travel and Transport",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "1067bbd6-714a-420c-b08c-5f40e8467dbf"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "454ca6df-5da7-4c24-a2b0-2fa2ccd9a85e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Leeds"
+            }
+        ]
+    }
+}

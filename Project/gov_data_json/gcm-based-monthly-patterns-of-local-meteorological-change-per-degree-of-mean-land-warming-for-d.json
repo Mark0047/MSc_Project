@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "\nenquiries@ceh.ac.uk\n",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "eafb0aea-245c-40d1-902a-a863a25017ed",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-10-13T04:03:58.681731",
+        "metadata_modified": "2024-06-29T11:43:10.968054",
+        "name": "gcm-based-monthly-patterns-of-local-meteorological-change-per-degree-of-mean-land-warming-for-d",
+        "notes": "This dataset consists of monthly spatial patterns of meteorological change for 22 Global Circulation Models (GCMs). The patterns are a set of regression coefficients, each representing the change per degree of mean global warming over land, for the corresponding meteorological variable. The meteorological variables analysed for each GCM include: surface temperature change per degree global warming (K/K); surface relative humidity change per degree global warming (%/K); wind change per degree global warming (m/s/K); longwave change per degree global warming (W/m2/K); shortwave change per degree global warming (W/m2/K); precipitation change per degree global warming (mm/day/K) and pressure change per degree global warming (hPa/K). The 22 GCMs emulated are: BCCR-BCM2.0, CGCM3.1(T47), CNRM-CM3, CSIRO-Mk3.0, CSIRO-Mk3.5, GFDL-CM2.0, GFDL-CM2.1, GISS-EH, GISS-ER, FGOALS-g1.0, INGV-SXG, INM-CM3.0, IPSL-CM4, MIROC3.2(hires), MIROC3.2(medres), ECHO-G, ECHAM5/MPI-OM, MRI-CGCM2.3.2, CCSM3, PCM, UKMO-HadCM3, UKMO-HadGEM1. The supporting information document associated with this metadata includes parameters for an energy balance model (IMOGEN EBM) that calculates the amount of global warming. Each GCM output has been re-mapped on to UKMO-HadCM3 grid, with resolution of 3.75 deg longitude and 2.5 deg latitude; this produces a surface spatial resolution of about 417 km E-W x 278 km N-S, reducing to 295 km E-W x 278 km N-S at 45 degrees North and South. This corresponds to 1631 land points, each of which has a row in the provided data files. The data presented here is calibration of IMOGEN EBM parameters and patterns against 22 GCMs in the CMIP3 GCM ensemble. Full details about this dataset can be found at https://doi.org/10.5285/4e8f3459-4101-4c85-a598-80b3c739f580",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "866f4088-ae4f-43b8-ba8c-6d3141a327f2",
+            "name": "eidc",
+            "title": "Environmental Information Data Centre",
+            "type": "organization",
+            "description": "<p>The <a href=\"https://www.eidc.ac.uk/\" target=\"_blank\">Environmental Information Data Centre (EIDC)</a> is the UK's national data centre for terrestrial and freshwater sciences.</p>\r\n\r\n<p>The EIDC is one of the network of Natural Environment Research Council (NERC) data centres that provide a focal point for its scientific data and information.</p>\r\n\r\n<p>The EIDC is hosted by <a href=\"http://www.ceh.ac.uk/\" target=\"_blank\">the UK Centre for Ecology & Hydrology (UKCEH)</a>, a world-class, independent, not-for-profit research organisation focusing on land and freshwater ecosystems and their interaction with the atmosphere. UKCEH integrates UK-wide observation systems and curiosity driven research, from the smallest scale of genetic diversity to large-scale, whole-Earth systems. We work across disciplines and facilitate academic, public, private and voluntary sector partnerships. UKCEH\u2019s extensive, long-term monitoring, analysis and modelling deliver UK and global environmental data, providing early warnings of change and management solutions for our land and freshwaters.</p>",
+            "image_url": "2020-01-09-092402.7201059E2F5F93-AA00-4DD2-8727-97F0F63FD4CB.png",
+            "created": "2012-06-27T14:54:40.370760",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "866f4088-ae4f-43b8-ba8c-6d3141a327f2",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "GCM-based monthly patterns of local meteorological change, per degree of mean land warming, for driving the IMOGEN impacts model",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"\\u00a9 UK Centre for Ecology & Hydrology\", \"Please be aware that this dataset should be considered to be a beta product\", \"If you reuse this data, you should cite: Zelazowski, P., Huntingford, C., Mercado, L.M., Schaller, N. (2016). GCM-based monthly patterns of local meteorological change, per degree of mean land warming, for driving the IMOGEN impacts model. NERC Environmental Information Data Centre https://doi.org/10.5285/4e8f3459-4101-4c85-a598-80b3c739f580\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "180"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "90"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "-90"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-180"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2016-10-10\"}, {\"type\": \"creation\", \"value\": \"2016-09-30\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "4e8f3459-4101-4c85-a598-80b3c739f580"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e24b1fa7-1efb-4c27-ac94-c3a3845e9acc"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-02-08T17:24:51"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": " (pointOfContact, author, publisher, custodian, owner); Center for International Climate and Environmental Research (CICERO) (author)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[180, -90], [-180, -90], [-180, 90], [180, 90], [180, -90]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "UKMO HadCM3 grid"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "92985a0c-1d7c-4ef2-bf51-d5e43178de24"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "EIDC GEMINI records"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-29T11:43:11.014373",
+                "description": "Supporting information available to assist in re-use of this dataset",
+                "format": "ZIP",
+                "hash": "",
+                "id": "e985bf6a-bc01-4015-9a48-e532153b70a3",
+                "last_modified": null,
+                "metadata_modified": "2024-06-29T11:43:10.972841",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Supporting information",
+                "package_id": "eafb0aea-245c-40d1-902a-a863a25017ed",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data-package.ceh.ac.uk/sd/4e8f3459-4101-4c85-a598-80b3c739f580.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-29T11:43:11.014375",
+                "description": "Download a copy of this data",
+                "format": "",
+                "hash": "",
+                "id": "32101d0b-e3a5-4bde-bbc9-66b1078778e6",
+                "last_modified": null,
+                "metadata_modified": "2024-06-29T11:43:10.972944",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download the data",
+                "package_id": "eafb0aea-245c-40d1-902a-a863a25017ed",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data-package.ceh.ac.uk/data/4e8f3459-4101-4c85-a598-80b3c739f580",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Atmospheric Conditions",
+                "id": "76b17097-f8b0-4afb-bb4c-7136b04b8915",
+                "name": "Atmospheric Conditions",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Meteorological geographical features",
+                "id": "9ba211ef-4e17-4973-bbb3-4b477923d2b4",
+                "name": "Meteorological geographical features",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "68e3d6bc-c676-41f9-8f5f-6322bcf061ea"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "92985a0c-1d7c-4ef2-bf51-d5e43178de24"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "EIDC GEMINI records"
+            }
+        ]
+    }
+}

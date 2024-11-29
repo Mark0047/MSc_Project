@@ -1,0 +1,309 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f90db76e-e72f-4ab6-9927-765101b7d997",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-02-08T13:42:13.568286",
+        "metadata_modified": "2021-08-04T16:57:02.901637",
+        "name": "automatic-number-plate-recognition-anpr-project",
+        "notes": "A dataset providing information\u00a0of the vehicle types and counts in several locations in Leeds.\u00a0\n\nPurpose of the project\n----------------------\n\nThe aim of this work was to examine the profile of vehicle types in Leeds, in order to compare local emissions with national predictions.\n\nTraffic was monitored for a period of one week at two Inner Ring Road locations in April 2016 and at seven sites around the city in June 2016. The vehicle registration data was then sent to the Department for Transport (Dft), who combined it with their vehicle type data, replacing the registration number with an anonymised \u2018Unique ID\u2019.\n\nThe data is provided in three folders:-\n\n*   Raw Data \u2013 contains the data in the format it was received, and a sample of each format.\n*   Processed Data \u2013 the data after processing by LCC, lookup tables, and sample data.\n*   Outputs \u2013 Excel spreadsheets summarising the data for each site, \u00a0for various time/dates.\n\nInitially a dataset was received for the Inner Ring Road (see file \u201cIRR ANPR matched to DFT vehicle type list.csv\u201d), with vehicle details, but with missing / uncertain data on the vehicles emissions Eurostandard class. Of the 820,809 recorded journeys, \u00a0from the pseudo registration number field (UniqueID) it was determined that there were 229,891 unique vehicles, and 31,912 unique \u201cvehicle types\u201d based on the unique concatenated vehicle description fields.\n\nIt was therefore decided to import the data into an MS Access database, create a table of vehicle types, and to add the necessary fields/data so that combined with the year of manufacture / vehicle registration, the appropriate Eurostandard could be determined for the particular vehicle.\n\nThe criteria for the Eurostandards was derived mainly from www.dieselnet.com \u00a0and summarised in a spreadsheet (\u201cEuroStandards.xlsx\u201d). \u00a0Vehicle types were assigned to a \u201cVehicleClass\u201d (see \u201cLookup Tables.xlsx\u201d) and \u201cEU class\u201d with additional fields being added for any modified data (Gross Vehicle Weight \u2013 \u201cGVM\\_Mod\u201d; Engine capacity \u2013 \u201cEngineCC\\_mod\u201d; No of passenger seats \u00a0\u2013 \u00a0\u201cPassSeats\u201d; and Kerb weight \u2013 \u201cKerbWt\u201d). Missing data was added from the internet lookups, extrapolation from known data, and by association \u2013 eg 99% of cars with an engine size\n\nAdditional data was then received from the Inner Ring Road site, giving journey date/time and incorporating the Taxi data for licensed taxis in Leeds.\n\nSimilar data for Sites 1-7 was also then received, and processed to determine the \u201cVehicleClass\u201d and \u201cEU class\u201d.\n\nA mixture of Update queries, and VBA processing was then used to provide the Level 1-6 breakdown of vehicle types (see \u201cLookup Tables.xlsx\u201d). The data was then combined into one database, so that the required Excel spreadsheets could be exported for the required time/date periods (see \u201coutputs\u201d folder).",
+        "num_resources": 6,
+        "num_tags": 13,
+        "organization": {
+            "id": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+            "name": "leeds-city-council",
+            "title": "Leeds City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:43.477436",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "ff9ae832-4e57-4364-b23b-bc058f4bbc98",
+        "private": false,
+        "state": "active",
+        "title": "Automatic number plate recognition (ANPR) project",
+        "type": "dataset",
+        "url": "https://datamillnorth.org/dataset/automatic-number-plate-recognition--anpr--project",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2017-02-02T09:51:30.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2017-02-23T11:54:33.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Leeds City Council"
+            },
+            {
+                "key": "guid",
+                "value": "f90db76e-e72f-4ab6-9927-765101b7d997"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "13d9d71a-5d59-4c37-bdaa-ac82c8ffb6b5"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "454ca6df-5da7-4c24-a2b0-2fa2ccd9a85e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Leeds"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:40:38.635897",
+                "description": "ANPR data",
+                "format": "XLS",
+                "hash": "",
+                "id": "e82234d4-a186-4e16-a1fa-34a5f0f23112",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:40:38.635897",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "EuroStandards",
+                "package_id": "f90db76e-e72f-4ab6-9927-765101b7d997",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/automatic-number-plate-recognition--anpr--project/07f44944-828c-4fb5-8fe2-4e86762f8a42/EuroStandards.xlsx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:40:38.635924",
+                "description": "ANPR data",
+                "format": "ZIP",
+                "hash": "",
+                "id": "8f7741fa-4c67-4c4c-9285-134a28ddcf68",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:40:38.635924",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Outputs",
+                "package_id": "f90db76e-e72f-4ab6-9927-765101b7d997",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/automatic-number-plate-recognition--anpr--project/487bab97-c897-4155-b040-9256f4c78c2d/outputs.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:40:38.635930",
+                "description": "ANPR data",
+                "format": "PDF",
+                "hash": "",
+                "id": "854ae72a-082a-479c-bad1-2d4edbb7e740",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:40:38.635930",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Location map",
+                "package_id": "f90db76e-e72f-4ab6-9927-765101b7d997",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/automatic-number-plate-recognition--anpr--project/97e635d8-1698-40f4-ba14-c4d04a771fe4/CAZ%2520ANPR%2520sites%25202016.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:40:38.635935",
+                "description": "ANPR data",
+                "format": "ZIP",
+                "hash": "",
+                "id": "aa6eb83c-6a54-43e3-b8fa-d7e1b3741b1a",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:40:38.635935",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Processed data",
+                "package_id": "f90db76e-e72f-4ab6-9927-765101b7d997",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/automatic-number-plate-recognition--anpr--project/bcd4a3bc-4426-4c64-9136-09ce91f11401/processed%2520data.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:40:38.635939",
+                "description": "ANPR data",
+                "format": "ZIP",
+                "hash": "",
+                "id": "083d1e7e-926e-454c-92b0-ebdef27aad94",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:40:38.635939",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "raw data",
+                "package_id": "f90db76e-e72f-4ab6-9927-765101b7d997",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/automatic-number-plate-recognition--anpr--project/d4ef8ed4-6f27-464e-bbb9-58915da3f992/raw%2520data.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-24T01:40:38.635944",
+                "description": "ANPR data",
+                "format": "CSV",
+                "hash": "",
+                "id": "55d33b29-dbfe-485f-889f-57cfc3f13658",
+                "last_modified": null,
+                "metadata_modified": "2018-11-24T01:40:38.635944",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Location references",
+                "package_id": "f90db76e-e72f-4ab6-9927-765101b7d997",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://datamillnorth.org/download/automatic-number-plate-recognition--anpr--project/db39fda4-69c3-4ad3-b88f-5d77f3368f5c/locations.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "DfT",
+                "id": "86de262a-7ab7-461b-9845-00e81ef03de7",
+                "name": "DfT",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "HGV",
+                "id": "2c11cf81-675f-40e2-a7f2-d9ea09688576",
+                "name": "HGV",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "capacity",
+                "id": "95763516-c9c2-47d6-8ce9-7083369c8f08",
+                "name": "capacity",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "diesel",
+                "id": "e91cfd0e-76b4-427a-bb02-94c62290cf2b",
+                "name": "diesel",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "emissions",
+                "id": "0e5ec9c4-2bdd-4269-8aac-a3ae8dddd1c3",
+                "name": "emissions",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "engine",
+                "id": "5edb337c-2cba-46ae-bd4d-78f59143b3d4",
+                "name": "engine",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "eurostandards",
+                "id": "27659a0f-8552-4f73-a5e0-bb027d5499c6",
+                "name": "eurostandards",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "passenger",
+                "id": "61c2899b-d318-45ab-b895-3dbfd4f5c48a",
+                "name": "passenger",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "petrol",
+                "id": "c73b9ad3-db09-464c-8864-1e67aa02e2ce",
+                "name": "petrol",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "ring road",
+                "id": "7ec4abe2-bc83-4952-84fe-0632975fb0af",
+                "name": "ring road",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "size",
+                "id": "1af54ab3-d3cb-48fb-aee7-e37fc1a283e0",
+                "name": "size",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "travel",
+                "id": "2b251b5c-e349-4407-8995-44b62c924771",
+                "name": "travel",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "vechilce",
+                "id": "feb92dad-98d7-4a1d-a015-80ce62c47da9",
+                "name": "vechilce",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "13d9d71a-5d59-4c37-bdaa-ac82c8ffb6b5"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "454ca6df-5da7-4c24-a2b0-2fa2ccd9a85e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Data Mill North - Leeds"
+            }
+        ]
+    }
+}

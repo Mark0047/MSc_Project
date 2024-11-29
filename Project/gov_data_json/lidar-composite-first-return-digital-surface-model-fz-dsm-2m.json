@@ -1,0 +1,522 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-03-09T16:03:56.884398",
+        "metadata_modified": "2024-06-14T14:49:50.171157",
+        "name": "lidar-composite-first-return-digital-surface-model-fz-dsm-2m",
+        "notes": "The LIDAR Composite First Return DSM (Digital Surface Model) is a raster elevation model covering ~99% of England at 2m spatial resolution. The first return DSM is produced from the first or only laser pulse returned to the sensor and includes heights of objects, such as vehicles, buildings and vegetation, as well as the terrain surface where the first or only return was the ground.\n\nProduced by the Environment Agency in 2022, the first return DSM is derived from data captured as part of our national LIDAR programme between 11 November 2016 and 5th May 2022. This programme divided England into ~300 blocks for survey over continuous winters from 2016 onwards. These surveys are merged together to create the first return LIDAR composite using a feathering technique along the overlaps to remove any small differences in elevation between surveys. Please refer to the metadata index catalgoues which show for any location which survey was used in the production of the LIDAR composite.\n\nThe first return DSM will not match in coverage or extent of the LIDAR composite last return digital surface model (LZ_DSM) as the last return DSM composite is produced from both the national LIDAR programme and Timeseries surveys.\n\nThe data is available to download as GeoTiff rasters in 5km tiles aligned to the OS National grid. The data is presented in metres, referenced to Ordinance Survey Newlyn and using the OSTN\u201915 transformation method. All individual LIDAR surveys going into the production of the composite had a vertical accuracy of +/-15cm RMSE. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2022. All rights reserved.",
+        "num_resources": 14,
+        "num_tags": 6,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-11-11"
+        ],
+        "temporal_coverage-to": [
+            "2022-05-05"
+        ],
+        "title": "LIDAR Composite First Return Digital Surface Model (FZ_DSM) - 2m",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2023-02-08\"}, {\"type\": \"revision\", \"value\": \"2023-12-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "54167602-36c8-4b2b-80ec-ebb6267b6b1e"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "f69da110-0346-43c5-aa09-8aa8b8f7dbf9"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228597",
+                "description": "External version on Defra Data Services Platform Survey Platform",
+                "format": "",
+                "hash": "",
+                "id": "ce7dbd48-aea6-4521-9ebf-4e88f152c812",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.176872",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey_Download",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/DefraDataDownload/?Mode=survey",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228600",
+                "description": "LIDAR Composite First Return Digital Surface Model (DSM) - 2m - 2022 - Public ESRI REST Endpoint",
+                "format": "",
+                "hash": "",
+                "id": "725c630a-5831-4872-98a7-61eb26ac54cd",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.176961",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LIDARCompositeFirstReturnDigitalSurfaceModel(DSM)_2m_2022_PublicESRIRESTEndpoint",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/image/rest/services/SURVEY/LIDARCompositeFirstReturnDSM2m2022/MapServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228602",
+                "description": "LIDAR Composite First Return Digital Surface Model (DSM) - 2m - 2022 - WMS",
+                "format": "",
+                "hash": "",
+                "id": "3c1e4419-d1fe-4afc-acf9-62192e931238",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177030",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LIDARCompositeFirstReturnDigitalSurfaceModel(DSM)_2m_2022_WMS",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-surface-model-first-return-dsm-2m-2022/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228603",
+                "description": "LIDAR Composite First Return DSM - 2022 - 2m - Aspect - Image Service Endpoint",
+                "format": "",
+                "hash": "",
+                "id": "16f3dce8-8d8a-4467-9d7d-a1a512183fc9",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177095",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LIDARCompositeFirstReturnDSM2022_2m_AspectImageServiceEndpoint",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/image/rest/services/SURVEY/LIDAR_Composite_2m_First_Return_DSM_2022_Aspect/ImageServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228603",
+                "description": "LIDAR Composite First Return DSM - 2022 - 2m - Elevation - Image Service Endpoint",
+                "format": "",
+                "hash": "",
+                "id": "1b28d676-282b-4021-8684-ddcf7c10b99b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177160",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LIDARCompositeFirstReturnDSM2022_2m_ElevationImageServiceEndpoint",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/image/rest/services/SURVEY/LIDAR_Composite_2m_First_Return_DSM_2022_Elevation/ImageServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228604",
+                "description": "LIDAR Composite First Return DSM - 2022 - 2m - Hillshade - Image Service Endpoint",
+                "format": "",
+                "hash": "",
+                "id": "aad8fbfc-0af9-491b-89b8-477a47a14b2b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177223",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LIDARCompositeFirstReturnDSM2022_2m_HillshadeImageServiceEndpoint",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/image/rest/services/SURVEY/LIDAR_Composite_2m_First_Return_DSM_2022_Hillshade/ImageServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228605",
+                "description": "LIDAR Composite First Return DSM - 2022 - 2m - Slope - Image Service Endpoint",
+                "format": "",
+                "hash": "",
+                "id": "1d103175-7cd0-4c78-97fb-10b0a83c446b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177285",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LIDARCompositeFirstReturnDSM2022_2m_SlopeImageServiceEndpoint",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/image/rest/services/SURVEY/LIDAR_Composite_2m_First_Return_DSM_2022_Slope/ImageServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228606",
+                "description": "LIDAR Composite First Return DSM - 2022 - 2m - TSR - Image Service Endpoint",
+                "format": "",
+                "hash": "",
+                "id": "e2fb652f-1ecf-4829-b6d0-5ac75f993ce2",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177346",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LIDARCompositeFirstReturnDSM2022_2m_TSRImageServiceEndpoint",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/image/rest/services/SURVEY/LIDAR_Composite_2m_First_Return_DSM_2022_TSR/ImageServer",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228607",
+                "description": "Download the coverage metadata files",
+                "format": "",
+                "hash": "",
+                "id": "3e3f1747-9f17-433d-8ae5-9c04d26b4782",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177408",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Shapefile Index Catalogues - Download",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/DefraDataDownload/?mapService=SURVEY/LIDAR_Composite_First_Return_DSM_2m_2022&mode=spatial",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228608",
+                "description": "Coverage metadata files - Web Map Service",
+                "format": "",
+                "hash": "",
+                "id": "791a318d-8fed-498b-84eb-20f1a673e8ce",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177468",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Index Catalogues - WMS",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228609",
+                "description": "Coverage metadata files - Web Feature Service",
+                "format": "",
+                "hash": "",
+                "id": "71c5a1ec-8307-49bf-b7c9-9d61c2605047",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177529",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata Index Catalogues - WFS",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 10,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228610",
+                "description": "Survey Data Catalogue FAQs",
+                "format": "",
+                "hash": "",
+                "id": "0cb4aad2-431f-42b7-89f4-6e71711390d8",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177590",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey Data Catalogue FAQs",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 11,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://support.environment.data.gov.uk/space/DPK/15827049/Survey+Data+Catalogue",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228611",
+                "description": "LIDAR Composite First Return Digital Surface Model (DSM) - 2m - 2022 - WMTS",
+                "format": "",
+                "hash": "",
+                "id": "56dd716b-9680-4bcc-ba17-8fc2405cbd63",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177651",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "LIDAR Composite First Return Digital Surface Model (DSM) - 2m - 2022 - WMTS",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 12,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-surface-model-first-return-dsm-2m/wcs?request=GetCapabilities&service=WCS&version=2.0.1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:50.228612",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "5f64971f-8f94-4353-ac59-968632a5277d",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:50.177713",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "91804f3d-6a66-4056-94fb-2fa4a947604a",
+                "position": 13,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Elevation",
+                "id": "3daf450f-da9b-4dad-a339-66a66856defb",
+                "name": "Elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LIDAR",
+                "id": "591a7348-ac9a-4bf1-8b43-6ff3cd6e3613",
+                "name": "LIDAR",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "elevation",
+                "id": "99bac186-c0b3-4e2f-9593-649da4fff9f9",
+                "name": "elevation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "remote sensing",
+                "id": "a966b150-db31-4f8b-87f1-905c46d706ff",
+                "name": "remote sensing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "survey",
+                "id": "228f2437-16d2-4498-a53f-21273806fae3",
+                "name": "survey",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "86624850-0608-49bc-9951-a43d1edb818d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

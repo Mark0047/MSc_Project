@@ -1,0 +1,129 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "cb5e3b28-b8c6-47d8-b6b5-95c814555c77",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-12-19T17:37:10.435981",
+        "metadata_modified": "2018-12-13T12:55:17.021148",
+        "name": "public-slipways",
+        "notes": "Data showing the location of public slipways for the launching and recovery of various watercraft in Plymouth.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "00cb3d53-764a-466b-878d-6976afaf1bfe",
+            "name": "plymouth-city-council",
+            "title": "Plymouth City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:48:50.617663",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "00cb3d53-764a-466b-878d-6976afaf1bfe",
+        "private": false,
+        "state": "active",
+        "title": "Public slipways",
+        "type": "dataset",
+        "url": "http://www.plymouth.gov.uk/public_slipways.zip",
+        "version": "",
+        "extras": [
+            {
+                "key": "guid",
+                "value": "cb5e3b28-b8c6-47d8-b6b5-95c814555c77"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c56a6eee-9a4e-48c4-b854-bdad1b8f8cab"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-05-29"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://plymouth.thedata.place/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2018-05-29T14:58:55.464461\", \"harvest_source_title\": \"Dataplace harvest - Plymouth\", \"activity_occurred\": \"2018-12-13T12:55:16.981380\", \"activity\": \"harvest\", \"harvested_guid\": \"cb5e3b28-b8c6-47d8-b6b5-95c814555c77\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "cb5400c9-e7d1-4113-8d56-4af05dd0d07b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Dataplace harvest - Plymouth"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-02-27T08:47:05.345610",
+                "description": "Data showing the location of public slipways for the launching and recovery of various watercraft in Plymouth. Correct as of 2016. _Source: Plymouth City Council_",
+                "format": "CSV",
+                "hash": "",
+                "id": "9a74cc11-640b-4b3b-b932-c6f8000fbb5c",
+                "last_modified": "2016-02-27T13:47:05.317432",
+                "metadata_modified": "2016-02-27T08:47:05.345610",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Public Slipways - Plymouth 2016",
+                "package_id": "cb5e3b28-b8c6-47d8-b6b5-95c814555c77",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://plymouth.thedata.place/dataset/cb5e3b28-b8c6-47d8-b6b5-95c814555c77/resource/9a74cc11-640b-4b3b-b932-c6f8000fbb5c/download/public-slipways.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-02-27T08:47:31.177442",
+                "description": "Data showing the location of public slipways for the launching and recovery of various watercraft in Plymouth. Correct as of 2016. _Source: Plymouth City Council_",
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "1cdad277-a8f9-463a-9b84-bbd2fe25536b",
+                "last_modified": "2016-02-27T13:47:31.149423",
+                "metadata_modified": "2016-02-27T08:47:31.177442",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Public Slipways - Plymouth 2016",
+                "package_id": "cb5e3b28-b8c6-47d8-b6b5-95c814555c77",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://plymouth.thedata.place/dataset/cb5e3b28-b8c6-47d8-b6b5-95c814555c77/resource/1cdad277-a8f9-463a-9b84-bbd2fe25536b/download/public-slipways.geojson",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c56a6eee-9a4e-48c4-b854-bdad1b8f8cab"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "cb5400c9-e7d1-4113-8d56-4af05dd0d07b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Dataplace harvest - Plymouth"
+            }
+        ]
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "d6a7ff7e-b806-43f8-b66d-dcde5e91cdeb",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-02-10T15:31:45.581752",
+        "metadata_modified": "2017-06-23T16:37:00.074309",
+        "name": "earnings-data-by-area",
+        "notes": "Earnings data from the Annual Survey of Hours and Earnings, ONS",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "b37eb7e6-9a1a-4fbc-94e5-2d899818b990",
+            "name": "north-yorkshire-county-council",
+            "title": "North Yorkshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:45.764017",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "b37eb7e6-9a1a-4fbc-94e5-2d899818b990",
+        "private": false,
+        "state": "active",
+        "theme-primary": "mapping",
+        "theme-secondary": [],
+        "title": "Earnings Data by Area",
+        "type": "dataset",
+        "update_frequency": "Yearly",
+        "url": "",
+        "version": "",
+        "extras": [
+            {
+                "key": "coordinate_system",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "d6a7ff7e-b806-43f8-b66d-dcde5e91cdeb"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "a3fb5f8b-76b9-4936-b39d-0eac45b6dd78"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-04-29"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://hub.datanorthyorkshire.org/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2016-04-29T14:43:58.683784\", \"harvest_source_title\": \"DATA North Yorkshire\", \"activity_occurred\": \"2017-06-23T16:37:00.038490\", \"activity\": \"harvest\", \"harvested_guid\": \"d6a7ff7e-b806-43f8-b66d-dcde5e91cdeb\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "062d9872-dbef-4548-afa8-ab4fff7c0a03"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "DATA North Yorkshire"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-01-06T15:39:23.449952",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "c31909e7-aa3e-40d8-8e28-ec91a82a7925",
+                "last_modified": null,
+                "metadata_modified": "2015-01-06T15:39:23.449952",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Earnings data",
+                "package_id": "d6a7ff7e-b806-43f8-b66d-dcde5e91cdeb",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.neighbourhood.statistics.gov.uk/HTMLDocs/dvc126/index.html",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-04-29T12:09:59.756233",
+                "description": "The earnings estimates in the output table(s) will show the earnings in pounds for employees who are on adult rates of pay and whose pay was not affected by absence.\r\n\r\nThe quality of an estimate can be assessed by referring to its coefficient of variation (CV) which is shown next to the earnings estimate. The CV is the ratio of the standard error of an estimate to the estimate. Estimates with larger CVs will be less reliable than those with smaller CVs.\r\n\r\nIn their published spreadsheets, ONS use the following CV values to give an indication of the quality of an estimate:\r\n\r\n\r\nCV Value\tQuality of estimate\r\n5% or lower\tPrecise\r\nover 5%, up to 10%\tReasonable precise\r\nover 10%, up to 20%  \tAcceptable, but use with caution\r\nover 20%\tunreliable, figures suppressed",
+                "format": "API",
+                "hash": "",
+                "id": "a70913be-7b8a-4489-bbe3-785ad6d25889",
+                "last_modified": null,
+                "metadata_modified": "2016-04-29T12:09:59.756233",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Earnings by County and District",
+                "package_id": "d6a7ff7e-b806-43f8-b66d-dcde5e91cdeb",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.nomisweb.co.uk/api/v01/dataset/NM_30_1.data.csv?geography=1941962793,1946157113...1946157119&sex=1...4,8&item=2,6...15&pay=1&measures=20100,20701",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "a3fb5f8b-76b9-4936-b39d-0eac45b6dd78"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "062d9872-dbef-4548-afa8-ab4fff7c0a03"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "DATA North Yorkshire"
+            }
+        ]
+    }
+}

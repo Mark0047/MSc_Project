@@ -1,0 +1,167 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "25a162d9-a128-4572-b683-2ccb15bd9361",
+        "date_released": "2010-04-01",
+        "date_updated": "2010-04-01",
+        "geographic_coverage": "100000: England",
+        "geographic_granularity": "",
+        "id": "73740ffe-cecb-4cba-afb9-51ea996187a1",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2010-06-18T13:08:45.527911",
+        "metadata_modified": "2014-05-09T23:06:09.262046",
+        "name": "england-nhs-nhschoices-organisations-hospitals-patient-comments",
+        "notes": "Part of the performance ratings for a service provider on NHS Choices are contributions from patients or carers/relatives of patients at a particular organisation. The data files included here encompass:\r\n1) Overall ratings for Hospital services and facilities (an average rating out of 5), plus numbers who would recommend\r\n2) Individuals' comments regarding Hospitals and Responses from the service provider\r\n3) Individuals' comments and regarding GPs and Responses from the practice.\r\n",
+        "num_resources": 4,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "NHS England, NHS Choices, Hospitals, Patient Comments and Ratings",
+            "created_at": "2014-10-29T18:47:31Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/12894/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/12894/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "7cc5548c-3dad-4490-a306-86975d32d8e2",
+            "name": "nhs-choices",
+            "title": "NHS Choices",
+            "type": "organization",
+            "description": "NHS Choices is the online 'front door' to the NHS. It is the country's biggest health website and gives all the information you need to make choices about your health.\r\n\r\nNHS Choices is looked after by HSCIC.",
+            "image_url": "",
+            "created": "2012-06-27T14:52:29.514077",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "7cc5548c-3dad-4490-a306-86975d32d8e2",
+        "precision": "Subjective / 2 decimal places",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "temporal_granularity": "",
+        "theme-primary": "health",
+        "title": "NHS England, NHS Choices, Hospitals, Patient Comments and Ratings",
+        "type": "dataset",
+        "update_frequency": "monthly",
+        "url": "http://www.nhs.uk/aboutNHSChoices/professionals/developments/Pages/NHSChoicesDatasets.aspx",
+        "version": null,
+        "extras": [
+            {
+                "key": "categories",
+                "value": "NHS Geographies (SHAs, Trusts)"
+            },
+            {
+                "key": "external_reference",
+                "value": ""
+            },
+            {
+                "key": "last_major_modification",
+                "value": "2010-06-22T11:09:01.057979"
+            },
+            {
+                "key": "national_statistic",
+                "value": "no"
+            },
+            {
+                "key": "provider",
+                "value": "Department of Health"
+            },
+            {
+                "key": "taxonomy_url",
+                "value": "http://www.nhs.uk/aboutnhschoices/aboutnhschoices/termsandconditions/pages/patientfeedback.aspx"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "Ratings for hospital services and facilities",
+                "format": "XLS",
+                "id": "ba1595ac-c3b6-4b72-9a25-71ef03db388f",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "73740ffe-cecb-4cba-afb9-51ea996187a1",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://webarchive.nationalarchives.gov.uk/+/http://www.nhs.uk/aboutNHSChoices/professionals/developments/Documents/2010/Data/hospital-overall-ratings.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "Comments regarding hospitals and responses",
+                "format": "XLS",
+                "id": "ec1c6654-2f10-4277-aae8-2045dd4a4ebd",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "73740ffe-cecb-4cba-afb9-51ea996187a1",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://webarchive.nationalarchives.gov.uk/+/http://www.nhs.uk/aboutNHSChoices/professionals/developments/Documents/2010/Data/hospital-comments-report.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "Comments regarding GPs and responses",
+                "format": "XLS",
+                "id": "d18fb382-b444-4bba-b7ae-facc7918a5e1",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "73740ffe-cecb-4cba-afb9-51ea996187a1",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://webarchive.nationalarchives.gov.uk/+/http://www.nhs.uk/aboutNHSChoices/professionals/developments/Documents/2010/Data/gp-comments-and-responses.xls",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "Further Information",
+                "format": "HTML",
+                "id": "17d1e985-e4ee-4ed5-a958-576a5529d691",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "73740ffe-cecb-4cba-afb9-51ea996187a1",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.nhs.uk/NHSEngland/thenhs/about/Pages/authoritiesandtrusts.aspx",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

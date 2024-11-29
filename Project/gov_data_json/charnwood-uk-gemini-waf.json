@@ -1,0 +1,69 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "bece3977-5ce0-4cb1-b93e-554806bbdd25",
+        "metadata_created": "2019-01-23T11:43:28.193768",
+        "metadata_modified": "2019-01-23T11:43:28.193779",
+        "name": "charnwood-uk-gemini-waf",
+        "notes": "",
+        "organization": {
+            "id": "c73a8493-0c8b-4cd5-b24d-5b75d13d9f0f",
+            "name": "charnwood-borough-council",
+            "title": "Charnwood Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-05-12T16:13:49.466797",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c73a8493-0c8b-4cd5-b24d-5b75d13d9f0f",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Charnwood UK Gemini WAF",
+        "type": "harvest",
+        "url": "https://webmap.charnwood.gov.uk/INSPIRE/XML/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 54,
+            "last_job": {
+                "id": "9ac8674a-f5d8-48b2-bce6-6fa829072db9",
+                "created": "2018-10-05 10:23:57.921759",
+                "gather_started": "2018-10-05 10:24:04.026395",
+                "gather_finished": "2018-10-05 10:24:06.473272",
+                "finished": null,
+                "source_id": "bece3977-5ce0-4cb1-b93e-554806bbdd25",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 6,
+                    "errored": 3,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error importing Gemini document\n** ABORT! ** Import of this object is aborted because of errors associated with validation.\n\nValidating against \"ISO19139 XSD Schema (EDEN 2009-03-16)\" profile failed:\n\nDataset schema (gmx.xsd) Validation Error: Element 'gmd:URL': This element is not expected., line 1\n\n",
+                        "error_count": 2
+                    },
+                    {
+                        "message": "Error importing Gemini document\n** ABORT! ** Import of this object is aborted because of errors associated with validation.\n\nValidating against \"ISO19139 XSD Schema (EDEN 2009-03-16)\" profile failed:\n\nDataset schema (gmx.xsd) Validation Error: Element 'gmd:MD_TopicCategoryCode': [facet 'enumeration'] The value 'environment\n' is not an element of the set {'farming', 'biota', 'boundaries', 'climatologyMeteorologyAtmosphere', 'economy', 'elevation', 'environment', 'geoscientificInformation', 'health', 'imageryBaseMapsEarthCover', 'intelligenceMilitary', 'inlandWaters', 'location', 'oceans', 'planningCadastre', 'society', 'structure', 'transportation', 'utilitiesCommunication'}., line 293\n\n",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 10
+        }
+    }
+}

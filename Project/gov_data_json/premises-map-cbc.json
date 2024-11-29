@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "536fa542-24f2-42f1-b4f8-5965ef403153",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-09-10T10:21:25.647278",
+        "metadata_modified": "2019-12-21T23:56:50.242070",
+        "name": "premises-map-cbc",
+        "notes": "<p>A link to our interactive map showing temporary events notices, club and premises licences. \u00a0<br /><br />Data can be downloaded from the map page as follows:\u00a0</p>\r\n<p class=\"MsoPlainText\">Click 'Vertical View' button in 'Views' menu on left of bar above map.<br />Select 'Query Builder' tab<br />In drop down menu 'Query in' select 'Visible area of map' or 'All data'.<br />In drop down menu 'From' select type of licence<br />In drop down menu 'Sort by' select 'Businessname' for an alphabetical list<br />Click 'Go'<br />From drop down menu 'Export to CSV' at foot of query builder select 'All pages' then save file.</p>\r\n<p class=\"MsoPlainText\">\u00a0</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "140fad04-d552-4757-ac79-bc9a06ef635d",
+            "name": "colchester-borough-council",
+            "title": "Colchester Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-01-16T11:49:46.028151",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "140fad04-d552-4757-ac79-bc9a06ef635d",
+        "private": false,
+        "state": "active",
+        "title": "Premises Map",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.colchester.gov.uk/residents/premises-licences/premises-map"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "3000eefc-4de8-4164-8b27-4ba63bf6715f"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.colchester.gov.uk/residents/premises-licences/premises-map"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "premises-licences/premises-map"
+            },
+            {
+                "key": "la_function",
+                "value": ""
+            },
+            {
+                "key": "la_service",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2019-12-02"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://datashare.colchester.gov.uk/api/esdInventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2019-12-02T00:00:00\", \"harvest_source_title\": \"Colchester datashare website\", \"activity_occurred\": \"2019-12-21T23:56:50.055209\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.colchester.gov.uk/residents/premises-licences/premises-map\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-10T11:21:25.681040",
+                "description": "Premises Map - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "1437fa28-599b-4f9c-9723-440aeda0097e",
+                "last_modified": null,
+                "metadata_modified": "2015-09-10T11:21:25.681040",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "536fa542-24f2-42f1-b4f8-5965ef403153",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/premises-licences/premises-map/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/Download/premises-licences/premises-map",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:25:00.538278",
+                "description": "September 2016 - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "d2fea45d-be78-47fe-94c5-9db6a887906e",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:25:00.538278",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "536fa542-24f2-42f1-b4f8-5965ef403153",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://datashare.colchester.gov.uk/api/premises-licences/premises-map/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/premises-licences/premises-map/september-2016/CSV?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T23:25:00.538285",
+                "description": "September 2016 - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "66d625e5-19dd-45d2-8aa8-660a870dde5c",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T23:25:00.538285",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "536fa542-24f2-42f1-b4f8-5965ef403153",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/premises-licences/premises-map/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/download/premises-licences/premises-map/september-2016/XML?version=21/12/2019",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-08-04T10:05:41.399543",
+                "description": "September 2016 - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "0127c957-ebea-4d10-89c3-11c5728e39a8",
+                "last_modified": null,
+                "metadata_modified": "2018-08-04T10:05:41.399543",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "536fa542-24f2-42f1-b4f8-5965ef403153",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://datashare.colchester.gov.uk/api/premises-licences/premises-map/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/premises-licences/premises-map/september-2016?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-08-04T10:05:41.399548",
+                "description": "September 2016 - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "a6af3bf9-15da-4b9e-a470-8bd308cb2d12",
+                "last_modified": null,
+                "metadata_modified": "2018-08-04T10:05:41.399548",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "536fa542-24f2-42f1-b4f8-5965ef403153",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://datashare.colchester.gov.uk/api/premises-licences/premises-map/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://datashare.colchester.gov.uk/api/premises-licences/premises-map/september-2016?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3000eefc-4de8-4164-8b27-4ba63bf6715f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "674bd66c-5af7-4269-bb48-f419f63fec72"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Colchester datashare website"
+            }
+        ]
+    }
+}

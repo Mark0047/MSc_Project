@@ -1,0 +1,262 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "open.data@rpa.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "799f3d0c-3cf8-4584-b7f5-69b670f9f1e7",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-10-13T09:25:06.595540",
+        "metadata_modified": "2023-11-01T13:39:15.537330",
+        "name": "rpa-registered-common-land-rcl-layer",
+        "notes": "The Registered Common Land (RCL) Layer is an Administrative Boundary dataset which shows Rural Payments Agency land mapped as Registered Common Land. The RCL layer defines the extent of all registered common boundaries within England that are claimed on for subsidies and is better aligned to Ordnance Survey MasterMap and RPA parcel boundaries.\n\nRPA's implementation of the RCL layer has been used from 2015 onwards to support the payment of subsidies associated with commons and commons grazing rights; it is derived from the CRoW Registered Common Land dataset, and is continually updated to support payments. Attribution statement: \u00a9 Crown Copyright",
+        "num_resources": 3,
+        "num_tags": 5,
+        "organization": {
+            "id": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+            "name": "rural-payments-agency",
+            "title": "Rural Payments Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:53:21.853113",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2015-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2022-12-31"
+        ],
+        "title": "RPA Registered Common Land (RCL) Layer",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2015-01-01\"}, {\"type\": \"revision\", \"value\": \"2022-11-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "f57038f7-c0b4-47f8-8d7e-e56a373b1b90"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "d59691bc-9141-4688-8680-8f6903d63b44"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Rural Payments Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:39:15.578203",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "4241e858-b67f-4ceb-8a0b-d0efbe52f8c2",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:39:15.543021",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RPA Registered Common Land (RCL) Layer - Web Mapping Service (WMS)",
+                "package_id": "799f3d0c-3cf8-4584-b7f5-69b670f9f1e7",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/rpa-registered-common-land-layer/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:39:15.578206",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "6aedeb8b-9d52-4736-b977-22fd83b2eb16",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:39:15.543125",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RPA Registered Common Land (RCL) Layer - Web Feature Service (WFS)",
+                "package_id": "799f3d0c-3cf8-4584-b7f5-69b670f9f1e7",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/rpa-registered-common-land-layer/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:39:15.578208",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "c182f4e6-2d69-44fa-9cea-d6fa60fc93af",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:39:15.543207",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RPA Registered Common Land (RCL) Layer - Download full extent",
+                "package_id": "799f3d0c-3cf8-4584-b7f5-69b670f9f1e7",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/f57038f7-c0b4-47f8-8d7e-e56a373b1b90?download=true",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Administrative units",
+                "id": "8d20781b-12df-4d16-809a-b340746e0775",
+                "name": "Administrative units",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Geographical names",
+                "id": "14ee4297-a1ba-4d7f-8beb-da3936b2ea37",
+                "name": "Geographical names",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "boundaries",
+                "id": "9e776817-7265-4179-84fb-fbaf159755ee",
+                "name": "boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "farming",
+                "id": "55847ab7-8884-450c-9e99-471418a76631",
+                "name": "farming",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c068b4a2-1e15-4240-8b60-634ce06d9063"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ]
+    }
+}

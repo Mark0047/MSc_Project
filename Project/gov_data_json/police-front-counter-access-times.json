@@ -1,0 +1,99 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "4a30f558-1f12-425b-b420-d6670a9db662",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:20:15.394493",
+        "metadata_modified": "2024-11-16T22:02:33.878451",
+        "name": "police-front-counter-access-times",
+        "notes": "The Mayor's Office for Police and Crime is consulting on a new estate strategy. One of the proposals is to close 65 front counters, where the public can access the police in person.\n\nThis page contains links to two main outputs: 1. Travel times for each LSOA in London to front counters 2. Geocoded file of front counter locations Maps visualising the travel times before and after the proposed closures are available [here](http://www.frontcounters.org.uk/data.html).\n\n**Travel Times**\n\nThis dataset was commissioned to help Londoners see whether they would still be able to travel to a front counter using public transport in 45 minutes or less. LSOAs are a convenient way of splitting London up as they have roughly equal populations and the ONS uses them to aggregate all Census statistics leading to good interoperability. The timings were produced by WSYL Ltd (locatable.com) acting on behalf of Jenny Jones AM (as of Feb 2013).\n\nThe method of obtaining the data was a mixture of proprietary technology made by Locatable and the use of Transport for London's data feeds ([http://www.tfl.gov.uk/businessandpartners/syndication/default.aspx](http://www.tfl.gov.uk/businessandpartners/syndication/default.aspx)) for accurate public transport times. For every LSOA centre-point, the distance to the nearest open 24 hour and daytime police station was gauged. If either was more than a mile away (in a straight line), the TfL data was consulted for an accurate journey time. A walking pace of 2.5mph was assumed, which is conservative for a healthy adult. If the closest counter is proposed for closure, the next qualifying counter was found and the time to that location from the centre of the LSOA in question was determined.\n\nThe final dataset contains 1 line per LSOA, which includes the travel times to the nearest open police counter at:\n\n0400 on 03/03/13 with current status of police counters\n\n1200 on 03/03/13 with current status of police counters\n\n0400 on 03/03/13 with proposed status of police counters\n\n1200 on 03/03/13 with proposed status of police counters\n\n**Front Counter Locations**\n\nThese files were produced by WSYL Ltd (locatable.com) acting on behalf of Jenny Jones AM (as of Feb 2013). In the CSV file, each line describes one police front counter as it currently stands (in Feb 2013) and after the proposed reducton in service (some time after Match 2013, if approved). A counter may be open 24/7, during the daytime or \"voluneteer\" or \"temporary\". For most purposes volunteer, temporary and daytime are the same.\n\nThe geocoded counter locations were derived from the postcode of each counter's address, using the Ordnance Survey Open Code Point dataset ([http://www.ordnancesurvey.co.uk/oswebsite/products/code-point-open/](http://www.ordnancesurvey.co.uk/oswebsite/products/code-point-open/)). This is available under the terms of the OS Open Data License ([https://www.ordnancesurvey.co.uk/oswebsite/docs/licences/os-opendata-licence.pdf](https://www.ordnancesurvey.co.uk/oswebsite/docs/licences/os-opendata-licence.pdf)). The JSON file adheres to the Geo JSON specification ([http://www.geojson.org/](http://www.geojson.org/))\n\n**Download**\n\n[Travel times - csv (zipped)](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/lsoa-police-front-counter-travel-times-2013.zip)\n\n[Front counter locations - csv](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/police-counters.csv)\n\n[Front counter locations - json](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/police-counters.json)",
+        "num_resources": 0,
+        "num_tags": 3,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Police Front Counter Access Times",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/police-front-counter-access-times",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2013-02-26T15:08:43.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2014-07-07T10:35:28.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "23e61b05-8356-4cf5-a63d-09da14713b85"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "access",
+                "id": "4f3596ad-a61e-485c-af8a-f2f065a30a9e",
+                "name": "access",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "police",
+                "id": "2e51fdd4-bb93-47ca-9b80-1c6a68a6c374",
+                "name": "police",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "police-stations",
+                "id": "cded8102-bf0d-4e78-907f-1685fc5353a6",
+                "name": "police-stations",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "resources": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e9a87c30-572a-4cb6-bea0-03e47f1424e9"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

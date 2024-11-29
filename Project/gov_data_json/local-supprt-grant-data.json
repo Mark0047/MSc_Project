@@ -1,0 +1,203 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "48e95816-434b-4e3b-941a-086225d94f76",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2023-02-08T16:07:01.571130",
+        "metadata_modified": "2023-04-06T12:54:41.862758",
+        "name": "local-supprt-grant-data",
+        "notes": "<p style=\"font-family: sans-serif;\">The Local Support Grant (LSG) was a fund provided by the Department for Work and Pensions and administered by local authorities in England.</p><p style=\"font-family: sans-serif;\">The purpose of the grant was to support those households which had been economically affected by the COVID pandemic and sought to provide immediate short term relief in the form of awards to these people.</p><p style=\"font-family: sans-serif;\">The criteria for allocation of funds was dictated by the DWP and awards could be given to support the provision of food, payments of energy and water bills and other essential items required by households.</p><p style=\"font-family: sans-serif;\">The scheme ran from the 1st April 2021 through to the 30th September 2021.</p><p style=\"font-family: sans-serif; margin-bottom: 1em;\">This dataset is supported by the \"Local Support Grant Ward Data\" dataset which provides a lower level of detail than this summary set. This set shows how the fund was distributed between the categories provided by the DWP by the type of award made be that to a household / school, or via a third party organisation.</p>",
+        "num_resources": 2,
+        "num_tags": 6,
+        "organization": {
+            "id": "428e76b4-8690-4d64-8586-a4e748c487d5",
+            "name": "leicester-city-council",
+            "title": "Leicester City Council",
+            "type": "organization",
+            "description": "Leicester City Council is the unitary authority serving the people, communities and businesses of Leicester.",
+            "image_url": "",
+            "created": "2013-09-05T10:56:36.089623",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "428e76b4-8690-4d64-8586-a4e748c487d5",
+        "private": false,
+        "state": "active",
+        "title": "Local Supprt Grant Data",
+        "type": "dataset",
+        "url": "https://data.leicester.gov.uk/explore/dataset/lsg-data/",
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/lsg-data"
+            },
+            {
+                "key": "identifier",
+                "value": "lsg-data@leicester"
+            },
+            {
+                "key": "issued",
+                "value": "2022-07-06T13:04:30+00:00"
+            },
+            {
+                "key": "language",
+                "value": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]"
+            },
+            {
+                "key": "modified",
+                "value": "2022-07-06T13:04:30+00:00"
+            },
+            {
+                "key": "publisher_name",
+                "value": "Leicester City Council"
+            },
+            {
+                "key": "publisher_uri",
+                "value": "https://data.leicester.gov.uk/explore/?refine.publisher=Leicester+City+Council"
+            },
+            {
+                "key": "theme",
+                "value": "[\"https://data.leicester.gov.uk/explore/?refine.theme=Public+Safety+%26+Wellbeing\", \"https://data.leicester.gov.uk/explore/?refine.theme=Business+%26+Economy\"]"
+            },
+            {
+                "key": "uri",
+                "value": "https://data.leicester.gov.uk/api/v2.1/catalog/datasets/lsg-data"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "86e2fa3a-70e9-46b7-9c23-e286578c526b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/lsg-data/exports/json",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:07:01.577109",
+                "description": "Local Supprt Grant Data (json)",
+                "format": "https://www.iana.org/assignments/media-types/application/json",
+                "hash": "",
+                "id": "756e5907-d6d8-4efe-9816-279042879be3",
+                "issued": "2022-07-06T13:04:30+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-02-08T16:07:01.555359",
+                "mimetype": "https://www.iana.org/assignments/media-types/application/json",
+                "mimetype_inner": null,
+                "modified": "2022-07-06T13:04:30+00:00",
+                "name": "json",
+                "package_id": "48e95816-434b-4e3b-941a-086225d94f76",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/lsg-data-json",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/lsg-data/exports/json",
+                "url_type": null
+            },
+            {
+                "access_url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/lsg-data/exports/csv",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-02-08T16:07:01.577105",
+                "description": "Local Supprt Grant Data (csv)",
+                "format": "https://www.iana.org/assignments/media-types/text/csv",
+                "hash": "",
+                "id": "ee0e4561-5843-43e3-ab47-e08f47a58003",
+                "issued": "2022-07-06T13:04:30+00:00",
+                "language": "[\"http://id.loc.gov/vocabulary/iso639-1/en\"]",
+                "last_modified": null,
+                "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+                "metadata_modified": "2023-02-08T16:07:01.555202",
+                "mimetype": "https://www.iana.org/assignments/media-types/text/csv",
+                "mimetype_inner": null,
+                "modified": "2022-07-06T13:04:30+00:00",
+                "name": "csv",
+                "package_id": "48e95816-434b-4e3b-941a-086225d94f76",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "https://data.leicester.gov.uk/api/v2/catalog/datasets/lsg-data-csv",
+                "url": "https://data.leicester.gov.uk/api/explore/v2.1/catalog/datasets/lsg-data/exports/csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "COVID-19",
+                "id": "d4f92fad-a940-41b3-a1eb-60cee8940ddb",
+                "name": "COVID-19",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "COVID19",
+                "id": "59729fe8-e453-4571-9afc-50256192c09a",
+                "name": "COVID19",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Coronavirus",
+                "id": "9c62ea88-6443-42d5-bf20-b79002ab8e09",
+                "name": "Coronavirus",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Covid",
+                "id": "024f3a8e-9e07-427b-98e8-5aad0599fa12",
+                "name": "Covid",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Financial Support",
+                "id": "06bdb74c-8ac7-43fa-b450-ff61f7a8363e",
+                "name": "Financial Support",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Support",
+                "id": "8a1d08a7-c5b4-42c7-867b-0a5be512618a",
+                "name": "Support",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "86e2fa3a-70e9-46b7-9c23-e286578c526b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2ab6fbad-9e64-4a8c-824e-3e5ecb94f3bf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Leicester City Council Open Data"
+            }
+        ]
+    }
+}

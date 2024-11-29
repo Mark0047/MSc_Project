@@ -1,0 +1,128 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "31a863dd-99b2-44e3-b815-6f2b9bd92f1b",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "cc-by",
+        "license_title": "Creative Commons Attribution",
+        "license_url": "http://www.opendefinition.org/licenses/cc-by",
+        "metadata_created": "2015-04-10T16:20:49.628602",
+        "metadata_modified": "2022-08-23T16:10:59.290581",
+        "name": "guildford-inspire-service",
+        "notes": "Guildford Borough Council Inspire OGC Web Service",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "3286cdc8-7eb7-4786-82e8-11c1f4717c32",
+            "name": "guildford-borough-council",
+            "title": "Guildford Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-06-03T14:11:13.834178",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3286cdc8-7eb7-4786-82e8-11c1f4717c32",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "government",
+        "title": "Guildford INSPIRE service",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-04-10T17:20:49.681477",
+                "datafile-date": "",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "3cee9a06-0a8d-43b6-bad3-c2f4201b5241",
+                "last_modified": null,
+                "metadata_modified": "2022-06-27T07:50:55.490175",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Guildford INSPIRE WMS",
+                "package_id": "31a863dd-99b2-44e3-b815-6f2b9bd92f1b",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.guildford.gov.uk/getows.ashx?mapsource=GBC/Inspire&version=1.1.1&request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-04-10T17:20:49.681497",
+                "datafile-date": "",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "ed6539d9-22f0-4d1b-a285-c59011d9af79",
+                "last_modified": null,
+                "metadata_modified": "2022-06-27T07:50:20.956829",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Guildford INSPIRE WFS",
+                "package_id": "31a863dd-99b2-44e3-b815-6f2b9bd92f1b",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.guildford.gov.uk/getows.ashx?mapsource=GBC/Inspire&version=1.1.0&request=GetCapabilities&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "8d14f382-5549-481d-b65e-1c7c47405750"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a4310e6c-4366-4f80-895f-785565beb766"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "INSPIRE data for Guildford Borough Council"
+            }
+        ],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8d14f382-5549-481d-b65e-1c7c47405750"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "a4310e6c-4366-4f80-895f-785565beb766"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "INSPIRE data for Guildford Borough Council"
+            }
+        ]
+    }
+}

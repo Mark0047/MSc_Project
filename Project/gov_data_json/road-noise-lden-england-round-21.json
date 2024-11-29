@@ -1,0 +1,386 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "open@defra.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "f7ecba67-e651-4fe2-9623-5bcc2ccaa42e",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-07-19T09:24:13.070407",
+        "metadata_modified": "2024-06-15T07:05:32.593097",
+        "name": "road-noise-lden-england-round-21",
+        "notes": "Data indicating the level of noise according to the strategic noise mapping of road sources within areas with a population of at least 100,000 people (agglomerations) and along major traffic routes. Lden indicates a 24 hour annual average noise level with separate weightings for the evening and night periods. Noise levels are modeled on a 10m grid at a receptor height of 4m above ground, polygons are then produced by merging neighboring cells within the following noise classes: 75.0+ dB, 70.0-74.9 dB, 65.0-69.9 dB, 60.0-64.9 dB, 55.0-59.9 dB, <54.9 dB This data is a product of the strategic noise mapping analysis undertaken in 2012 to meet the requirements of the Environmental Noise Directive (Directive 2002/49/EC) and the Environmental Noise (England) Regulations 2006 (as amended). Attribution statement: \u00a9 Crown Copyright",
+        "num_resources": 9,
+        "num_tags": 3,
+        "organization": {
+            "id": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+            "name": "department-for-environment-food-and-rural-affairs",
+            "title": "Department for Environment, Food and Rural Affairs",
+            "type": "organization",
+            "description": "We are the UK government department responsible for policy and regulations on environmental, food and rural issues. Our priorities are to grow the rural economy, improve the environment and safeguard animal and plant health.\r\n\r\nDefra is a ministerial department, supported by 38 agencies and public bodies.\r\n\r\nhttps://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:39.115374",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2010-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Road Noise - Lden - England Round 2",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.8"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.8"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.7"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2015-08-11\"}, {\"type\": \"revision\", \"value\": \"2016-08-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "2ec0abc3-ec1d-459c-aa6e-573672e94da7"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "e218c721-cc45-4434-a57b-55d165841377"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Department for Environment, Food & Rural Affairs (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.8, 50], [-5.7, 50], [-5.7, 55.8], [1.8, 55.8], [1.8, 50]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "38d7636d-8011-41b3-aa60-77fd399c105a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Defra metadata catalogue harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:32.629870",
+                "description": "RoadNoiseLdenRound2-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "472ee575-d88a-461d-9da7-9ceed9ca1678",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:32.598404",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RoadNoiseLdenRound2-FGDB.zip",
+                "package_id": "f7ecba67-e651-4fe2-9623-5bcc2ccaa42e",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=44ba2c0a-b48e-402a-98e5-ffe1cacec983&fileName=RoadNoiseLdenRound2-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:32.629873",
+                "description": "RoadNoiseLdenRound2-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "32119758-5b6b-4715-b93d-87132a9e3f19",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:32.598520",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RoadNoiseLdenRound2-GML.zip",
+                "package_id": "f7ecba67-e651-4fe2-9623-5bcc2ccaa42e",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=44ba2c0a-b48e-402a-98e5-ffe1cacec983&fileName=RoadNoiseLdenRound2-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:32.629874",
+                "description": "RoadNoiseLdenRound2-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "d2a12445-ab67-441c-8f76-46c691b5da07",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:32.598594",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RoadNoiseLdenRound2-MID_MIF.zip",
+                "package_id": "f7ecba67-e651-4fe2-9623-5bcc2ccaa42e",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=44ba2c0a-b48e-402a-98e5-ffe1cacec983&fileName=RoadNoiseLdenRound2-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:32.629875",
+                "description": "RoadNoiseLdenRound2-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "f46645e7-b6bc-4a86-963c-9786b447fc4f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:32.598662",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RoadNoiseLdenRound2-SHP.zip",
+                "package_id": "f7ecba67-e651-4fe2-9623-5bcc2ccaa42e",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=44ba2c0a-b48e-402a-98e5-ffe1cacec983&fileName=RoadNoiseLdenRound2-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:32.629876",
+                "description": "RoadNoiseLdenRound2-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "11809605-2223-4bd1-8316-7d0cb6f3e4fb",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:32.598731",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "RoadNoiseLdenRound2-TAB.zip",
+                "package_id": "f7ecba67-e651-4fe2-9623-5bcc2ccaa42e",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=44ba2c0a-b48e-402a-98e5-ffe1cacec983&fileName=RoadNoiseLdenRound2-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:32.629877",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "5b32cd35-1107-4f14-acf9-02383d32bd77",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:32.598795",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RoadNoiseLdenRound2_Download",
+                "package_id": "f7ecba67-e651-4fe2-9623-5bcc2ccaa42e",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/2ec0abc3-ec1d-459c-aa6e-573672e94da7?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:32.629878",
+                "description": "Road Noise - Lden - England Round 2 WMS",
+                "format": "",
+                "hash": "",
+                "id": "00bd4139-2280-46a3-82f9-74e3451c279b",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:32.598860",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RoadNoiseLdenRound2_WMS",
+                "package_id": "f7ecba67-e651-4fe2-9623-5bcc2ccaa42e",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/road-noise-lden-england-round-2/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:32.629879",
+                "description": "Road Noise - Lden - England Round 2 WFS",
+                "format": "",
+                "hash": "",
+                "id": "bc7471f7-eb41-4229-9c9d-d100ec616f9f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:32.598923",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "RoadNoiseLdenRound2_WFS",
+                "package_id": "f7ecba67-e651-4fe2-9623-5bcc2ccaa42e",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/road-noise-lden-england-round-2/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-15T07:05:32.629880",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "a0c619b8-126e-47e6-9a5a-9dbe3be350ec",
+                "last_modified": null,
+                "metadata_modified": "2024-06-15T07:05:32.598984",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "f7ecba67-e651-4fe2-9623-5bcc2ccaa42e",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/road-noise-lden-england-round-2/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Transport networks",
+                "id": "83d966c8-b18a-4c8f-9d3f-6aa454713f70",
+                "name": "Transport networks",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "noise exposure",
+                "id": "fd8744d2-be03-47ba-a4d6-c785a5046eea",
+                "name": "noise exposure",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9774b84f-f2db-426b-a84d-be672d125d48"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "38d7636d-8011-41b3-aa60-77fd399c105a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Defra metadata catalogue harvest"
+            }
+        ]
+    }
+}

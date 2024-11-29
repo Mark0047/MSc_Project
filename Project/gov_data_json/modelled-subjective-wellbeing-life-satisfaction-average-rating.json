@@ -1,0 +1,134 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "wellbeing@communities.gsi.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "7b193f8a-569c-4d7b-b670-0bf89259f1bf",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2014-10-27T18:15:17.271101",
+        "metadata_modified": "2018-02-26T15:17:56.293524",
+        "name": "modelled-subjective-wellbeing-life-satisfaction-average-rating",
+        "notes": "Average (mean) rating for 'Life Satisfaction' by LSOA in the First ONS Annual Experimental Subjective Wellbeing survey, April 2011 - March 2012\n\nThe Department for Communities and Local Government (DCLG) has estimated the expected wellbeing of residents at Lower-layer Super Output Area (LSOA) level. The purpose is to illustrate the likely degree of variation between neighbourhoods. \r\n\r\nThese are modelled estimates for local areas based on national findings from the ONS Annual Population Survey 2011-2012. They are not the actual survey responses of people living in those areas [1].  As such, DCLG encourage local areas to test these expected findings against their own local knowledge and data.\r\n\r\nDCLG used CACI\u2019s ACORN geo-demographic segmentation to estimate the likely wellbeing characteristics of each neighbourhood. Analysis of the APS provided a national profile of wellbeing by ACORN Type, with estimates of average subjective wellbeing and low subjective wellbeing for each of the 56 Types. The national profile was then applied to localities, to reflect their composition according to ACORN Type [2]. \r\n\r\nThe method presumes the national profile of wellbeing for the ACORN types is broadly the same in each local authority. For all of the subjective wellbeing measures, DCLG tested this assumption broadly held across the nine regions. As a result, DCLG made a minimal number of adjustments to the profiles for life satisfaction, worthwhile, and happy yesterday, and determined that the method was not robust for modelling anxiety [3].  \r\n\r\nFeedback on the neighbourhood estimates and requests for further details of the methodology can sent to [wellbeing@communities.gsi.gov.uk](mailto:wellbeing@communities.gsi.gov.uk). \r\n\r\nIn October, DCLG will be producing wellbeing profiles to enable users to apply the same methodology using geo-demographic classifications: Experian\u2019s MOSAIC and ONS\u2019s Output Area Classification (OAC). \r\n\r\n[1] This is because sample sizes from the APS do not permit reliable estimates of subjective wellbeing below the 90 unitary authorities and counties reported in the [First ONS Annual Experimental Subjective Well-being Results](http://www.ons.gov.uk/ons/rel/wellbeing/measuring-subjective-wellbeing-in-the-uk/first-annual-ons-experimental-subjective-well-being-results/first-ons-annual-experimental-subjective-well-being-results.html).\r\n\r\n[2] ACORN is a segmentation based on shared characteristics of people\u2019s life-stage, income, profession and housing, as well as characteristics of places including whether they are [urban, suburban or rural](http://www.caci.co.uk/acorn-classification.aspx). Each respondent on the APS had been classified into one ACORN Type, based on the full postcode in which they live \u2013 approximately 16 addresses.) ACORN provided estimates of the population in each ACORN Type in each LSOA and local authority district.\r\n  \r\n[3] These adjustments were made only where there was reliable evidence (based on samples of more than 100 respondents) from APS that the national wellbeing ACORN profile was substantially different from the regional one, and where the implications for neighbourhood maps would be highly geographically clustered.\r\n",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "state": "active",
+        "theme-primary": "society",
+        "theme-secondary": [],
+        "title": "Modelled subjective wellbeing, 'Life Satisfaction', average rating",
+        "type": "dataset",
+        "url": "http://opendatacommunities.org/data/wellbeing-lsoa-life-satisfaction-mean",
+        "version": null,
+        "extras": [
+            {
+                "key": "contact_email",
+                "value": "wellbeing@communities.gsi.gov.uk"
+            },
+            {
+                "key": "data_issued",
+                "value": "2012-09-30T15:03:26+00:00"
+            },
+            {
+                "key": "data_modified",
+                "value": "2012-09-30T15:07:32+00:00"
+            },
+            {
+                "key": "dcat_publisher_uri",
+                "value": "http://reference.data.gov.uk/id/department/dclg"
+            },
+            {
+                "key": "dcat_subject",
+                "value": "http://opendatacommunities.org/def/concept/themes/societal-wellbeing"
+            },
+            {
+                "key": "guid",
+                "value": "http://opendatacommunities.org/data/wellbeing-lsoa-life-satisfaction-mean"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7dbe8793-d048-461b-8c9d-c89c84e5ec42"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://opendatacommunities.org/data.rdf\", \"harvest_source_type\": \"dcat_rdf\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Open Data Communities\", \"activity_occurred\": \"2018-02-26T15:17:56.192925\", \"activity\": \"harvest\", \"harvested_guid\": \"http://opendatacommunities.org/data/wellbeing-lsoa-life-satisfaction-mean\"}]"
+            },
+            {
+                "key": "metadata_uri",
+                "value": "http://opendatacommunities.org/data/wellbeing-lsoa-life-satisfaction-mean"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-18T09:21:19.792929",
+                "description": "",
+                "format": "SPARQL",
+                "hash": "",
+                "id": "f84a417f-64f1-42f8-b8ac-a34425e6a8de",
+                "last_modified": null,
+                "metadata_modified": "2015-08-18T09:21:19.792929",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SPARQL Endpoint",
+                "package_id": "7b193f8a-569c-4d7b-b670-0bf89259f1bf",
+                "position": 0,
+                "resource_type": "api",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/sparql",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-18T09:21:19.792940",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "10b76996-b90d-421d-ac8e-236b58e8f97d",
+                "last_modified": null,
+                "metadata_modified": "2015-08-18T09:21:19.792940",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset home page",
+                "package_id": "7b193f8a-569c-4d7b-b670-0bf89259f1bf",
+                "position": 1,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/data/wellbeing-lsoa-life-satisfaction-mean",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

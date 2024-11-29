@@ -1,0 +1,409 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "66b52ca7-21b8-48f1-9908-80b1f6cdf949",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-04-01T09:12:32.512639",
+        "metadata_modified": "2024-08-09T13:18:35.671644",
+        "name": "indicative-flood-risk-areas-people-sensitivity-grid5",
+        "notes": "PLEASE NOTE: this dataset has been retired. It has been superseded by data for Flood Risk Areas: https://environment.data.gov.uk/dataset/f3d63ec5-a21a-49fb-803a-0fa0fb7238b6\n\nThe Indicative Flood Risk Areas are primarily based on an aggregated 1km square grid Updated Flood Map for Surface Water (1 in 100 and 1000 annual probability rainfall), informally referred to as the \u201cblue square map\u201d. \n\nThis dataset is a component of Indicative Flood Risk Areas (shapefiles)\n\nA bundle download of all Indicative Flood Risk Areas spatial datasets is also available from this record. Please see individual records for full details and metadata on each product. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2016. All rights reserved.",
+        "num_resources": 10,
+        "num_tags": 3,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2016-12-31"
+        ],
+        "title": "Indicative Flood Risk Areas - People Sensitivity Grid",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2017-01-20\"}, {\"type\": \"revision\", \"value\": \"2017-01-20\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "324b785e-2361-40cd-9170-1f5ce0703452"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "139b589c-e0f3-4264-b462-3c30423cf905"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-08-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:35.718433",
+                "description": "SurfaceWaterFloodRiskExposureGrid-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c36a5755-cda9-4cba-9031-d22c469ce584",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:35.676546",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "SurfaceWaterFloodRiskExposureGrid-FGDB.zip",
+                "package_id": "66b52ca7-21b8-48f1-9908-80b1f6cdf949",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=91fb6d79-a553-48f0-89b5-ff5a11092c7a&fileName=SurfaceWaterFloodRiskExposureGrid-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:35.718435",
+                "description": "SurfaceWaterFloodRiskExposureGrid-GeoJSON.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "e486daa2-99ed-4805-952d-a6e142d35eea",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:35.676638",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "SurfaceWaterFloodRiskExposureGrid-GeoJSON.zip",
+                "package_id": "66b52ca7-21b8-48f1-9908-80b1f6cdf949",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=91fb6d79-a553-48f0-89b5-ff5a11092c7a&fileName=SurfaceWaterFloodRiskExposureGrid-GeoJSON.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:35.718436",
+                "description": "SurfaceWaterFloodRiskExposureGrid-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "6541c703-6005-462f-af0b-257c01f39ba6",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:35.676708",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "SurfaceWaterFloodRiskExposureGrid-GML.zip",
+                "package_id": "66b52ca7-21b8-48f1-9908-80b1f6cdf949",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=91fb6d79-a553-48f0-89b5-ff5a11092c7a&fileName=SurfaceWaterFloodRiskExposureGrid-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:35.718437",
+                "description": "SurfaceWaterFloodRiskExposureGrid-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "338ae35b-93bd-4bbd-8214-264f67855c7f",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:35.676775",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "SurfaceWaterFloodRiskExposureGrid-MID_MIF.zip",
+                "package_id": "66b52ca7-21b8-48f1-9908-80b1f6cdf949",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=91fb6d79-a553-48f0-89b5-ff5a11092c7a&fileName=SurfaceWaterFloodRiskExposureGrid-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:35.718438",
+                "description": "SurfaceWaterFloodRiskExposureGrid-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "65ea43fc-c8d1-4ed4-85af-f60c3b8926e7",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:35.676841",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "SurfaceWaterFloodRiskExposureGrid-SHP.zip",
+                "package_id": "66b52ca7-21b8-48f1-9908-80b1f6cdf949",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=91fb6d79-a553-48f0-89b5-ff5a11092c7a&fileName=SurfaceWaterFloodRiskExposureGrid-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:35.718439",
+                "description": "SurfaceWaterFloodRiskExposureGrid-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "98cd8ed5-dfd0-43bb-8488-963004c8eaff",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:35.676907",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "SurfaceWaterFloodRiskExposureGrid-TAB.zip",
+                "package_id": "66b52ca7-21b8-48f1-9908-80b1f6cdf949",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=91fb6d79-a553-48f0-89b5-ff5a11092c7a&fileName=SurfaceWaterFloodRiskExposureGrid-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:35.718440",
+                "description": "Surface Water Flood Risk Exposure Grid (People Sensitivity Grid) WMS",
+                "format": "",
+                "hash": "",
+                "id": "05ca2f6b-3625-4945-8157-e23db37fbf0c",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:35.676970",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SurfaceWaterFloodRiskExposureGrid_WMS",
+                "package_id": "66b52ca7-21b8-48f1-9908-80b1f6cdf949",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/surface-water-flood-risk-exposure-grid-people-sensitivity-grid/wms",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:35.718441",
+                "description": "Surface Water Flood Risk Exposure Grid (People Sensitivity Grid) WFS",
+                "format": "",
+                "hash": "",
+                "id": "fb9e28b1-5897-4f7d-a421-603f5581513d",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:35.677032",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SurfaceWaterFloodRiskExposureGrid_WFS",
+                "package_id": "66b52ca7-21b8-48f1-9908-80b1f6cdf949",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/surface-water-flood-risk-exposure-grid-people-sensitivity-grid/wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:35.718443",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "fcc9741d-9a7c-4855-ad1d-8e9c60013093",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:35.677121",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "IndicativeFloodRiskAreas_bundle_Download",
+                "package_id": "66b52ca7-21b8-48f1-9908-80b1f6cdf949",
+                "position": 8,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/324b785e-2361-40cd-9170-1f5ce0703452?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-09T13:18:35.718443",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "a2664742-2aa6-4706-a954-5d80af484bb0",
+                "last_modified": null,
+                "metadata_modified": "2024-08-09T13:18:35.677184",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "66b52ca7-21b8-48f1-9908-80b1f6cdf949",
+                "position": 9,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/surface-water-flood-risk-exposure-grid-people-sensitivity-grid/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Shapefile 2017",
+                "id": "29011b29-1290-4378-96d7-6a910a7303d2",
+                "name": "Shapefile 2017",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "flood",
+                "id": "90af076f-75b0-42fc-80aa-ac2ff7993443",
+                "name": "flood",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "549f32e8-3e27-403b-af6c-94edcbd88ef3"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

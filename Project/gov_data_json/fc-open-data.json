@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "0b9948c0-c517-4ed0-98fe-eea005cbebf5",
+        "metadata_created": "2019-01-23T10:38:14.765544",
+        "metadata_modified": "2023-11-01T14:52:23.544395",
+        "name": "fc-open-data",
+        "notes": "",
+        "organization": {
+            "id": "3c36a994-e314-4530-8598-fead586e44cc",
+            "name": "forestry-commission",
+            "title": "Forestry Commission",
+            "type": "organization",
+            "description": "The Forestry Commission is responsible for protecting and expanding Britain's woods and forests and for managing nearly 1 million hectares of public forest.\r\n\r\nForestry is a non-ministerial department of the Department for Environment, Food & Rural Affairs\r\n\r\nhttp://www.forestry.gov.uk/\r\n\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:49:08.456967",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "3c36a994-e314-4530-8598-fead586e44cc",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "FC Open Data",
+        "type": "harvest",
+        "url": "http://environment.data.gov.uk/discover/fc/csw",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 2622,
+            "last_job": {
+                "id": "6c7cd34d-f3ac-423b-b861-f925a42d853a",
+                "created": "2024-11-17 11:00:06.877799",
+                "gather_started": "2024-11-17 11:00:13.411742",
+                "gather_finished": "2024-11-17 11:00:52.292375",
+                "finished": "2024-11-17 11:06:22.433434",
+                "source_id": "0b9948c0-c517-4ed0-98fe-eea005cbebf5",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 418,
+                    "errored": 414,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}MD_Keywords': This element is not expected.",
+                        "error_count": 433
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 441
+        }
+    }
+}

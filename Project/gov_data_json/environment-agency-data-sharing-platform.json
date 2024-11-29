@@ -1,0 +1,69 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "552bd53a-8587-4019-9973-f93f1326f7cf",
+        "metadata_created": "2019-01-23T10:58:56.646629",
+        "metadata_modified": "2024-01-05T11:29:51.139086",
+        "name": "environment-agency-data-sharing-platform",
+        "notes": "",
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "Environment Agency Data Sharing Platform",
+        "type": "harvest",
+        "url": "http://environment.data.gov.uk/discover/ea/csw",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1130,
+            "last_job": {
+                "id": "d718a073-f9c4-406b-a60c-c182c15ddc1b",
+                "created": "2024-11-15 15:14:07.486876",
+                "gather_started": "2024-11-15 18:00:05.292901",
+                "gather_finished": "2024-11-15 18:01:59.052225",
+                "finished": "2024-11-15 18:12:13.425514",
+                "source_id": "552bd53a-8587-4019-9973-f93f1326f7cf",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 7,
+                    "not modified": 695,
+                    "errored": 649,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}MD_Keywords': This element is not expected.",
+                        "error_count": 648
+                    },
+                    {
+                        "message": "Error Message: \"The 'gmd:MD_DigitalTransferOptions' element has no child elements.\"  Error Location: \"/*[local-name()='MD_Metadata' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='distributionInfo' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_Distribution' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='transferOptions' and namespace-uri()='http://www.isotc211.org/2005/gmd']/*[local-name()='MD_DigitalTransferOptions' and namespace-uri()='http://www.isotc211.org/2005/gmd']\"  Error Assert: \"count(*) > 0 or namespace-uri() = 'http://www.isotc211.org/2005/gco' or namespace-uri() = 'http://www.isotc211.org/2005/gmx' or namespace-uri() = 'http://www.opengis.net/gml/3.2' or namespace-uri() = 'http://www.opengis.net/gml' or @codeList or @codeListValue or local-name() = 'MD_TopicCategoryCode' or local-name() = 'URL' or (@gco:nilReason = 'inapplicable' or @gco:nilReason = 'missing' or @gco:nilReason = 'template' or @gco:nilReason = 'unknown' or @gco:nilReason = 'withheld') or @xlink:href\":\n",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 773
+        }
+    }
+}

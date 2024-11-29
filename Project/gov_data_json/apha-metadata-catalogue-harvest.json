@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "155dcaa5-1587-4af5-b770-c2e07a18163e",
+        "metadata_created": "2019-01-23T10:40:41.226021",
+        "metadata_modified": "2023-11-01T13:22:27.909116",
+        "name": "apha-metadata-catalogue-harvest",
+        "notes": "",
+        "organization": {
+            "id": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+            "name": "animal-and-plant-health-agency",
+            "title": "Animal and Plant Health Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2015-02-04T13:40:13.046442",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+        "private": false,
+        "source_type": "gemini-csw",
+        "state": "active",
+        "title": "APHA Metadata Catalogue Harvest",
+        "type": "harvest",
+        "url": "http://environment.data.gov.uk/discover/apha/csw",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 44,
+            "last_job": {
+                "id": "ab59c4bb-b417-4c4a-8f06-2490b0e09e08",
+                "created": "2023-11-01 13:22:35.489190",
+                "gather_started": "2023-11-01 13:22:35.645777",
+                "gather_finished": "2023-11-01 13:23:25.666764",
+                "finished": "2023-11-01 13:34:08.939305",
+                "source_id": "155dcaa5-1587-4af5-b770-c2e07a18163e",
+                "status": "Finished",
+                "stats": {
+                    "added": 1,
+                    "updated": 826,
+                    "not modified": 0,
+                    "errored": 748,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}MD_Keywords': This element is not expected.",
+                        "error_count": 748
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 835
+        }
+    }
+}

@@ -1,0 +1,338 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "cd882fcd-47a3-4d0f-a92b-25f9ac894a3e",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-11-03T11:44:49.801175",
+        "metadata_modified": "2024-06-14T14:49:42.260357",
+        "name": "saltmarsh-habitat-map",
+        "notes": "A saltmarsh habitat map derived from airborne data. The habitat map is a polygon shapefile showing site relevant habitat classes \u2013 this is a merged product of multiple sites across multiple years.\n\nThe habitat map is derived from CASI (Compact Airborne Spectrographic Imager) multispectral data, LIDAR (Light Detection and Ranging) elevation data, and other GIS products. The classification also uses ground data collected after the CASI capture.\n\nThe ground data is used to identify the characteristics of the different habitats in the CASI and LIDAR data. These characteristics are then used to classify the different habitats and fit them into one of the predefined classes.\n\nThe collection of ground data used in the classification has some limitations. It is not collected at the same time as the CASI or LIDAR; it is normally within a couple of months of CASI capture, therefore some variations between the CASI data and situation on site at the time of ground data collection are possible. A good spatial coverage of ground data around the site is recommended, although not always practically achievable. For a class to be mapped, there must have been samples collected for it on site. If the class is not seen on site or samples are not collected for a class, it cannot be mapped.\n\nThe habitat map was created using a supervised classification, which means ground data were used to train the model. The classifications had a quantitative accuracy assessment carried out on them in the form of a confusion matrix using ground data set aside and not used in training the classifier. Alongside this aerial photography captured simultaneously with the CASI data was used to check and make final improvements to the habitat map. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2020. All rights reserved.",
+        "num_resources": 6,
+        "num_tags": 6,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2018-07-01"
+        ],
+        "temporal_coverage-to": [
+            "2020-09-01"
+        ],
+        "title": "Saltmarsh Habitat Map",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2018-07-01\"}, {\"type\": \"revision\", \"value\": \"2023-12-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "irregular"
+            },
+            {
+                "key": "guid",
+                "value": "672ae95f-cec8-425d-8417-abd30a8d3684"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "1a852c00-ee26-4723-9f00-f4fd43773136"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:42.317126",
+                "description": "Saltmarsh_Habitat_Map_Using_CASI_and_LIDAR.lyr download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "5217d579-0b2f-4d8a-93c8-d98e839c1a40",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:42.264826",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Saltmarsh_Habitat_Map_Using_CASI_and_LIDAR.lyr",
+                "package_id": "cd882fcd-47a3-4d0f-a92b-25f9ac894a3e",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ef1ce485-e7d4-4c52-95f3-8753fb56f0d9&fileName=Saltmarsh_Habitat_Map_Using_CASI_and_LIDAR.lyr",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:42.317129",
+                "description": "Saltmarsh_Habitat_Map_Using_CASI_and_LIDAR_Readme.pdf download on Defra Data Services Platform",
+                "format": "PDF",
+                "hash": "",
+                "id": "f15cfccc-3447-4a0f-8592-2ab81cae2709",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:42.264918",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Saltmarsh_Habitat_Map_Using_CASI_and_LIDAR_Readme.pdf",
+                "package_id": "cd882fcd-47a3-4d0f-a92b-25f9ac894a3e",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=ef1ce485-e7d4-4c52-95f3-8753fb56f0d9&fileName=Saltmarsh_Habitat_Map_Using_CASI_and_LIDAR_Readme.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:42.317131",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "d94b828a-d89e-41a8-84ff-f2be897bb0de",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:42.264988",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Survey Data - Download",
+                "package_id": "cd882fcd-47a3-4d0f-a92b-25f9ac894a3e",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/672ae95f-cec8-425d-8417-abd30a8d3684?download=true",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:42.317132",
+                "description": "Saltmarsh Habitat Map WMS",
+                "format": "",
+                "hash": "",
+                "id": "a717a6ce-5b0a-42f8-ab77-ba86112ea2f7",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:42.265054",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Saltmarsh Habitat Map WMS",
+                "package_id": "cd882fcd-47a3-4d0f-a92b-25f9ac894a3e",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/saltmarsh-habitat-map/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:42.317133",
+                "description": "Saltmarsh Habitat Map WFS",
+                "format": "",
+                "hash": "",
+                "id": "cefdc057-9d35-4ba9-896b-de9842dc7a7f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:42.265118",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Saltmarsh Habitat Map WFS",
+                "package_id": "cd882fcd-47a3-4d0f-a92b-25f9ac894a3e",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/saltmarsh-habitat-map/wfs?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:42.317134",
+                "description": "OGC API - Features service",
+                "format": "",
+                "hash": "",
+                "id": "04134385-5790-4268-89de-c8953a347915",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:42.265183",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OGC API - Features service",
+                "package_id": "cd882fcd-47a3-4d0f-a92b-25f9ac894a3e",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/spatialdata/saltmarsh-habitat-map/ogc/features/v1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environmental monitoring",
+                "id": "132c0c36-1ba5-4837-aba5-18ded1e94aa4",
+                "name": "environmental monitoring",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "habitats ",
+                "id": "a7aa8f83-975f-44fa-a4fb-87d91ada5db3",
+                "name": "habitats ",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "remote sensing",
+                "id": "a966b150-db31-4f8b-87f1-905c46d706ff",
+                "name": "remote sensing",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "saltmarsh",
+                "id": "68b55b2c-1c26-42e9-9f3f-af64a17ca06f",
+                "name": "saltmarsh",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "vegetation",
+                "id": "9a8895e3-067c-44f2-9b3d-5f7dcfdac7c4",
+                "name": "vegetation",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7632048a-20ef-4d4a-8a31-da08b0adf9f7"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

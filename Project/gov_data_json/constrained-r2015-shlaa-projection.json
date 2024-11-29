@@ -1,0 +1,137 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "e69980aa-c874-4121-8823-9ddf7df6a73c",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2017-03-23T09:14:17.525786",
+        "metadata_modified": "2017-11-09T15:02:55.838138",
+        "name": "constrained-r2015-shlaa-projection",
+        "notes": "These borough-level population projections form part of the GLA 2015 round population projections. They are produced using the GLA SHLAA-capped model and are constrained at the regional level to be consistent with the GLA long-term trend projection. The borough totals will therefore vary slightly from the main 2015 round GLA projections. These are bespoke projections designed for use in TfL modelling. For all other purposes users are advised to use the main 2015 round projections .",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "theme-primary": "society",
+        "theme-secondary": [],
+        "title": "Constrained R2015 SHLAA projection",
+        "type": "dataset",
+        "url": "http://data.london.gov.uk/dataset/constrained-r2015-shlaa-projection",
+        "version": null,
+        "extras": [
+            {
+                "key": "data_issued",
+                "value": "2016-10-17T08:41:21.000Z"
+            },
+            {
+                "key": "data_modified",
+                "value": "2016-11-03T11:58:34.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "e0771386-a933-4076-80f0-b90e325399d6"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "35947703-4317-4814-bddc-1ab378c7a674"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.london.gov.uk/data.json?slug=gla\", \"harvest_source_type\": \"data_json\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"London Datastore - GLA\", \"activity_occurred\": \"2017-11-09T15:02:55.795150\", \"activity\": \"harvest\", \"harvested_guid\": \"e0771386-a933-4076-80f0-b90e325399d6\"}]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:14:17.568788",
+                "description": "2015 round borough-level population projections produced using the SLAA-capped Average Household Size model and constrained at the regional level to the 2015 round long-term trend projection.",
+                "format": "CSV",
+                "hash": "",
+                "id": "9413ff6c-184c-4063-84a5-443c76c49be4",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:14:17.568788",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "2015 round SHLAA-capped AHS projection (long-term trend constrained)",
+                "package_id": "e69980aa-c874-4121-8823-9ddf7df6a73c",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://files.datapress.com/london/dataset/gla-constrained-household-projections---central-variant/2016-10-31T12:05:01/2015 round SHLAA-capped AHS projection (long-term trend constrained).csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:14:17.568816",
+                "description": "Borough summary table with data presented in thousands at 10-year intervals",
+                "format": "CSV",
+                "hash": "",
+                "id": "75c6d000-5225-4e9a-943e-135f5c3a6b94",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:14:17.568816",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Summary Table (rounded to nearest 1000)",
+                "package_id": "e69980aa-c874-4121-8823-9ddf7df6a73c",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://files.datapress.com/london/dataset/constrained-r2015-shlaa-projection/2016-10-31T12:27:32/Summary Table (rounded to nearest 1000).csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-03-23T09:14:17.568823",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "15685263-e75d-42d3-a3a2-aa4578cfdec0",
+                "last_modified": null,
+                "metadata_modified": "2017-03-23T09:14:17.568823",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Landing page",
+                "package_id": "e69980aa-c874-4121-8823-9ddf7df6a73c",
+                "position": 2,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://data.london.gov.uk/dataset/constrained-r2015-shlaa-projection",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

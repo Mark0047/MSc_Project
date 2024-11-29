@@ -1,0 +1,106 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "20cb3791-3a0e-4582-8981-58ebafe82619",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "1a34ec91-1b3f-4a60-8020-b52f9f0de975",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-10-02T08:36:49.433054",
+        "metadata_modified": "2016-10-02T08:36:54.844976",
+        "name": "organogram-office-for-national-statistics",
+        "notes": "Organogram (organisation chart) showing all staff roles. Names and salaries are also listed for the Senior Civil Servants.\r\n\r\nOrganogram data is released by all central government departments and their agencies since 2010. Snapshots for 31st March and 30th September are published by 6th June and 6th December each year. The published data is validated and released in CSV format and OGL-licensed for reuse. For more information about this series, see: http://guidance.data.gov.uk/organogram-data.html",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "d5b50862-3f2a-4b7b-ad85-841b6def43be",
+            "name": "office-for-national-statistics",
+            "title": "Office for National Statistics",
+            "type": "organization",
+            "description": "The Office for National Statistics (ONS) is the UK\u2019s largest independent producer of official statistics and is the recognised national statistical institute for the UK. It is responsible for collecting and publishing statistics related to the economy, population and society at national, regional and local levels. It also conducts the census in England and Wales every ten years. \r\n\r\nThe ONS plays a leading role in national and international good practice in the production of official statistics. It is the executive office of the UK Statistics Authority and although they are separate, they are still closely related.\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:40.553767",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d5b50862-3f2a-4b7b-ad85-841b6def43be",
+        "private": false,
+        "schema-vocabulary": "d3c0b23f-6979-45e4-88ed-d2ab59b005d0",
+        "state": "active",
+        "temporal_coverage-from": 2010,
+        "theme-primary": "government-spending",
+        "title": "Organogram of Staff Roles & Salaries",
+        "type": "dataset",
+        "update_frequency": "biannually",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "date",
+                "value": "31/03/2012"
+            },
+            {
+                "key": "import_source",
+                "value": "organograms_v2"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-02T09:36:53.112039",
+                "date": "2012-03-31",
+                "description": "Organogram - Junior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "c9b15601-63d0-42ab-b949-6bb2fb813c8b",
+                "last_modified": null,
+                "metadata_modified": "2016-10-02T09:36:53.112039",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "1a34ec91-1b3f-4a60-8020-b52f9f0de975",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/office-for-national-statistics/31/03/2012/office-for-national-statistics__31-03-2012__statistics_UK-Statistics-Authority-310312v8_1-junior.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-02T09:36:53.962232",
+                "date": "2012-03-31",
+                "description": "Organogram - Senior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "c7ab1386-7950-4359-84e7-a7798c0e4f03",
+                "last_modified": null,
+                "metadata_modified": "2016-10-02T09:36:53.962232",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "1a34ec91-1b3f-4a60-8020-b52f9f0de975",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/office-for-national-statistics/31/03/2012/office-for-national-statistics__31-03-2012__statistics_UK-Statistics-Authority-310312v8_1-senior.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

@@ -1,0 +1,362 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "5215432a-90f0-42bf-b9fc-8be5c2df0a48",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2024-09-21T20:00:51.766257",
+        "metadata_modified": "2024-09-28T21:00:46.715505",
+        "name": "osni-open-data-50k-transport-transport-points6",
+        "notes": "OSNI Open Data 50k Transport Points. The transport layer contains all motorways, A, B, C class and minor roads in Northern Ireland. \nOSNI 1:50,000 transport layer is a vector dataset providing information on roads, road names and railways for Northern Ireland. \nBy download or use of this dataset you agree to abide by the LPS Open Government Data License.<div><br /></div><div>Please Note for Open Data NI Users: Esri Rest API is not Broken, it will not open on its own in a Web Browser but can be copied and used in Desktop and Webmaps<br /></div>",
+        "num_resources": 7,
+        "num_tags": 14,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "OSNI Open Data - 50K Transport - Transport Points",
+        "type": "dataset",
+        "url": "https://osni-spatialni.opendata.arcgis.com/datasets/spatialni::osni-open-data-50k-transport-transport-points",
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=9a6d8545dd2c4d55bc17f23bf10c91cb&sublayer=1"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "1d8ae170-86f2-4c12-ab0d-8170a76924ac"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            },
+            {
+                "key": "identifier",
+                "value": "https://www.arcgis.com/home/item.html?id=9a6d8545dd2c4d55bc17f23bf10c91cb&sublayer=1"
+            },
+            {
+                "key": "issued",
+                "value": "2018-11-21"
+            },
+            {
+                "key": "modified",
+                "value": "2020-02-26"
+            },
+            {
+                "key": "spatial_text",
+                "value": "-7.3269,54.1982,-5.6396,55.2185"
+            },
+            {
+                "key": "theme",
+                "value": "[\"geospatial\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-22T08:45:17.191942",
+                "datastore_active": false,
+                "description": "",
+                "format": "WMS",
+                "hash": "",
+                "id": "01b832a2-5cbf-4874-8957-f4ad2a0b9faa",
+                "last_modified": null,
+                "metadata_modified": "2024-09-28T21:00:46.721684",
+                "mimetype": "application/vnd.ogc.wms_xml",
+                "mimetype_inner": null,
+                "name": "OGC WMS",
+                "package_id": "5215432a-90f0-42bf-b9fc-8be5c2df0a48",
+                "position": 0,
+                "requested": "False",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://services.spatialni.gov.uk/opendata/services/OSNIVector/OSNIOpenData_Transport_50K/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-22T08:45:17.191952",
+                "datastore_active": false,
+                "description": "",
+                "format": "SHP",
+                "hash": "",
+                "id": "de0a2782-6e0b-41c8-820d-bd1f508d54d2",
+                "last_modified": null,
+                "metadata_modified": "2024-09-28T21:00:46.722635",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "5215432a-90f0-42bf-b9fc-8be5c2df0a48",
+                "position": 1,
+                "requested": "False",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://osni-spatialni.opendata.arcgis.com/api/download/v1/items/9a6d8545dd2c4d55bc17f23bf10c91cb/shapefile?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-22T08:45:17.191955",
+                "datastore_active": false,
+                "description": "",
+                "format": "KML",
+                "hash": "",
+                "id": "9493b549-6192-45fa-841b-5cb8160a19de",
+                "last_modified": null,
+                "metadata_modified": "2024-09-28T21:00:46.723566",
+                "mimetype": "application/vnd.google-earth.kml+xml",
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "5215432a-90f0-42bf-b9fc-8be5c2df0a48",
+                "position": 2,
+                "requested": "True",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://osni-spatialni.opendata.arcgis.com/api/download/v1/items/9a6d8545dd2c4d55bc17f23bf10c91cb/kml?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-22T08:45:17.191958",
+                "datastore_active": false,
+                "description": "",
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "b3b55aa5-2a7c-4e8d-9d9a-7c9af3e248b3",
+                "last_modified": null,
+                "metadata_modified": "2024-09-28T21:00:46.724485",
+                "mimetype": "application/vnd.geo+json",
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "5215432a-90f0-42bf-b9fc-8be5c2df0a48",
+                "position": 3,
+                "requested": "True",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://osni-spatialni.opendata.arcgis.com/api/download/v1/items/9a6d8545dd2c4d55bc17f23bf10c91cb/geojson?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-22T08:45:17.191960",
+                "datastore_active": false,
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "50137086-8d56-4fb8-9a41-ef72c94a01d8",
+                "last_modified": null,
+                "metadata_modified": "2024-09-28T21:00:46.725387",
+                "mimetype": "text/html",
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "5215432a-90f0-42bf-b9fc-8be5c2df0a48",
+                "position": 4,
+                "requested": "False",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://osni-spatialni.opendata.arcgis.com/datasets/spatialni::osni-open-data-50k-transport-transport-points",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-22T08:45:17.191962",
+                "datastore_active": false,
+                "description": "",
+                "format": "CSV",
+                "hash": "",
+                "id": "6334342c-215b-407c-b0a5-1c0c5d435b12",
+                "last_modified": null,
+                "metadata_modified": "2024-09-28T21:00:46.726283",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "5215432a-90f0-42bf-b9fc-8be5c2df0a48",
+                "position": 5,
+                "requested": "True",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://osni-spatialni.opendata.arcgis.com/api/download/v1/items/9a6d8545dd2c4d55bc17f23bf10c91cb/csv?layers=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-22T08:45:17.191964",
+                "datastore_active": false,
+                "description": "",
+                "format": "JSON",
+                "hash": "",
+                "id": "35b6cdf1-79f7-4f12-b275-23a480c1551e",
+                "last_modified": null,
+                "metadata_modified": "2024-09-28T21:00:46.727242",
+                "mimetype": "application/json",
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "5215432a-90f0-42bf-b9fc-8be5c2df0a48",
+                "position": 6,
+                "requested": "False",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "uri": "None",
+                "url": "https://services.spatialni.gov.uk/opendata/rest/services/OSNIVector/OSNIOpenData_Transport_50K/MapServer/1",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "50K",
+                "id": "43e94a2b-23bd-4539-bba2-d87fb03d0180",
+                "name": "50K",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Administrative",
+                "id": "c711e06c-f00a-47fa-b2a8-54a22e52b015",
+                "name": "Administrative",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LPS",
+                "id": "3f801728-cc2a-49e4-8bce-65a8a8590da0",
+                "name": "LPS",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NI",
+                "id": "0ea44d82-5681-4b3a-bd97-4a711e2a42e5",
+                "name": "NI",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Network",
+                "id": "6f219419-bc3d-467a-91bf-5ec8376f60ac",
+                "name": "Network",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Northern Ireland",
+                "id": "24c60a29-f10f-4579-8dc5-d425ae455b1e",
+                "name": "Northern Ireland",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "OSNI",
+                "id": "615fc2ab-10d1-4591-b983-f17b6272e561",
+                "name": "OSNI",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "OpenData",
+                "id": "6bc85120-d8ca-4fe1-91fa-d1831be59c7d",
+                "name": "OpenData",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Railways",
+                "id": "d4465247-c6e2-4b02-8eb0-0b985a54c5e9",
+                "name": "Railways",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "SpatialNI",
+                "id": "828b5ffc-be3d-469c-b66b-f496ede9f3ce",
+                "name": "SpatialNI",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Stations",
+                "id": "b774fb6b-2ecf-4512-8285-88dc8e41db0f",
+                "name": "Stations",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Train",
+                "id": "523228f1-25be-4cd2-b197-e63470c3a1ba",
+                "name": "Train",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Transport",
+                "id": "3518fa70-3ee9-4152-b45d-5727372975e9",
+                "name": "Transport",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "open data",
+                "id": "1a504da1-ad7e-4eac-8da5-fd489a1cf968",
+                "name": "open data",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "d1164ed4-e29d-431c-9831-b835b8d6cccf"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

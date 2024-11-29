@@ -1,0 +1,127 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "opendata@cambridgeshire.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "cc4bdf0c-9390-48a9-95fa-9283d0b6f71c",
+        "isopen": false,
+        "licence-custom": "https://www.ordnancesurvey.co.uk/business-government/licensing-agreements/eu-inspire-end-user-licence",
+        "license_id": "other-nc",
+        "license_title": "Other (Non-Commercial)",
+        "metadata_created": "2015-03-16T16:20:12.719653",
+        "metadata_modified": "2023-02-24T17:38:23.510360",
+        "name": "cambridgeshire-county-council-property-assets2",
+        "notes": "All land and property in use by Cambridgeshire County Council, whether owned or leased.\r\n\r\nBy using or accessing this data you will be deemed to have accepted the [Public Sector End User Licence - INSPIRE](https://www.ordnancesurvey.co.uk/business-government/licensing-agreements/eu-inspire-end-user-licence).",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "d0149ce5-e526-4c09-8230-c8cc6a687f6a",
+            "name": "cambridgeshire-county-council",
+            "title": "Cambridgeshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:31.613796",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d0149ce5-e526-4c09-8230-c8cc6a687f6a",
+        "private": false,
+        "schema-vocabulary": "120a04c9-3f60-4f73-a575-bda4ee170f0f",
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "title": "Cambridgeshire County Council Land And Property Assets",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-04-18T09:55:34.408911",
+                "datafile-date": "",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "fc889968-ba00-4420-bcd3-365a48242772",
+                "last_modified": null,
+                "metadata_modified": "2022-03-01T16:05:26.511433",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "cc4bdf0c-9390-48a9-95fa-9283d0b6f71c",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cambridgeshire.gov.uk/getows.ashx?mapsource=ccc/inspire&version=1.1.1&request=getcapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-04-18T09:55:34.408939",
+                "datafile-date": "2023-02-24",
+                "description": null,
+                "format": "WFS",
+                "hash": "",
+                "id": "e840e151-3a4d-4042-92e1-8a62822ae302",
+                "last_modified": null,
+                "metadata_modified": "2023-02-24T17:26:02.323808",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "cc4bdf0c-9390-48a9-95fa-9283d0b6f71c",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.cambridgeshire.gov.uk/getows.ashx?mapsource=ccc/inspire&version=1.1.0&service=WFS&REQUEST=GetFeature&TYPENAME=land_and_property_assets",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "e65fa731-1b88-416b-a851-3e04a5c6beda"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ed14a8f5-e101-4f09-94f4-9a9dad16a579"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire County Council"
+            }
+        ],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "e65fa731-1b88-416b-a851-3e04a5c6beda"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ed14a8f5-e101-4f09-94f4-9a9dad16a579"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire County Council"
+            }
+        ]
+    }
+}

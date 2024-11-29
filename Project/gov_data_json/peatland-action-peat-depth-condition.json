@@ -1,0 +1,382 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "patricia.bruneau@nature.scot",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "ddda0dff-5213-4e77-b527-e42eeb6dd413",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-11-02T10:23:00.293155",
+        "metadata_modified": "2024-08-29T09:11:40.375044",
+        "name": "peatland-action-peat-depth-condition",
+        "notes": "NatureScot (NS) has prepared a consolidated spatial dataset of peat depth measurement collected across Scotland. The information was collected during peat depth surveys conducted as part of various assessments carried out on sites that formed part of the Peatland ACTION project (2013-2023).\n\nSurveys were conducted using the Peat depth survey guidance (https://www.nature.scot/sites/default/files/2017-10/Guidance-Peatland-Action-Peat-depth-survey-2017-18-A2210297.pdf) issued by Peatland Action program. The current version of the dataset provides all available data on 9th March 2023. Additional datasets will be added to the database when they become available.\n\nThe surveys were conducted at a spatial resolution of 100m over a wide geographical spread of the sites across Scotland.",
+        "num_resources": 9,
+        "num_tags": 3,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Peatland ACTION - Peat depth / Condition",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available under the Open Government Licence \\nAcknowledgment:  Contains SNH information licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.71"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.87"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.63"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.80"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2024-07-22\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "82e2ad6e-b97e-4f4c-80b7-679e15c55d25"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "00242454-3571-48f1-b535-2a4edfc69c0c"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-22T12:14:28.923Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (custodian)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.71, 54.63], [-8.80, 54.63], [-8.80, 60.87], [-0.71, 60.87], [-0.71, 54.63]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:11:40.418442",
+                "description": "Peatland Action - Peat depth",
+                "format": "",
+                "hash": "",
+                "id": "fb909a57-008b-4952-920f-54c9aef81540",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:11:40.386425",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "peatlandactiondepth",
+                "package_id": "ddda0dff-5213-4e77-b527-e42eeb6dd413",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/peatlandaction/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:11:40.418444",
+                "description": "Peatland Action - Peat condition",
+                "format": "",
+                "hash": "",
+                "id": "ddc28f76-f273-423b-a20a-805d82aaa233",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:11:40.386518",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "peatlandactioncond",
+                "package_id": "ddda0dff-5213-4e77-b527-e42eeb6dd413",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/peatlandaction/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:11:40.418445",
+                "description": "Peatland Action peat depth and condition (for download)",
+                "format": "",
+                "hash": "",
+                "id": "f11c53b1-a473-4435-b137-5d01ad7026d2",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:11:40.386586",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "peatlandaction:peatlandactionpoints",
+                "package_id": "ddda0dff-5213-4e77-b527-e42eeb6dd413",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "OGC:WFS-1.0.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/peatlandaction/wfs?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:11:40.418446",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "73a4bdae-f936-46d5-bd23-939f3f4b0e00",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:11:40.386653",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI Shapefile (EPSG:27700)",
+                "package_id": "ddda0dff-5213-4e77-b527-e42eeb6dd413",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/PAPDCPT_SCOTLAND_SHP_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:11:40.418447",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c85c66be-e472-413f-a923-d37ee862311c",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:11:40.386719",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI File geodatabase (EPSG:27700)",
+                "package_id": "ddda0dff-5213-4e77-b527-e42eeb6dd413",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/PAPDCPT_SCOTLAND_GDB_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:11:40.418448",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "25fcfed9-6dc2-4162-b916-92a7db29b3bc",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:11:40.386785",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Geopackage (EPSG:27700)",
+                "package_id": "ddda0dff-5213-4e77-b527-e42eeb6dd413",
+                "position": 5,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/PAPDCPT_SCOTLAND_GPKG_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:11:40.418449",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "4e2a4743-1b90-41a7-8a7a-ae1e9237efab",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:11:40.386850",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GML (EPSG:4258)",
+                "package_id": "ddda0dff-5213-4e77-b527-e42eeb6dd413",
+                "position": 6,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/PAPDCPT_SCOTLAND_GML_4258.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:11:40.418450",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "2823686e-e634-413d-b424-09baedeaefb3",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:11:40.386914",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoJSON (EPSG:4326)",
+                "package_id": "ddda0dff-5213-4e77-b527-e42eeb6dd413",
+                "position": 7,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/PAPDCPT_SCOTLAND_GEOJSON_4326.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-29T09:11:40.418451",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "d69da9ea-e6eb-4b9b-b77e-b7f7868ec349",
+                "last_modified": null,
+                "metadata_modified": "2024-08-29T09:11:40.386976",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot OpenData Hub",
+                "package_id": "ddda0dff-5213-4e77-b527-e42eeb6dd413",
+                "position": 8,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.nature.scot/datasets/peatland-action-peat-depth-and-condition/explore",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Geology",
+                "id": "4aa03215-7870-4625-996a-f6a03df048bd",
+                "name": "Geology",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Soil",
+                "id": "2de8cd8d-8f9b-41cf-9307-87138d2f372a",
+                "name": "Soil",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "peat",
+                "id": "952848ed-7fa5-48ca-9793-21bb39bce560",
+                "name": "peat",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "1002c15b-bf4d-46d9-ab96-6b815c828c3c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

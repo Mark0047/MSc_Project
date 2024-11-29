@@ -1,0 +1,126 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "967fae61-6e57-4b04-9c6d-56e9de5a33e5",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-02-19T04:34:57.007512",
+        "metadata_modified": "2020-04-12T08:25:01.750977",
+        "name": "minecraft-cambridge1",
+        "notes": "<p>Minecraft map and data of Cambridge</p>\n<p>Info for Collusion Maker Challenge: <a href=\"http://www.collusion.org.uk/Maker-Challenge#MinecraftCambridge\">http://www.collusion.org.uk/Maker-Challenge#MinecraftCambridge</a></p>\n<p>Minecraft-Cambridge combines LIDAR sensor data from the UK Environment Agency: <a href=\"http://data.gov.uk/dataset/lidar-digital-surface-model\">http://data.gov.uk/dataset/lidar-digital-surface-model</a> with human-sensed OpenStreetMap data (\u00a9 OpenStreetMap contributors) to make a prototype Cambridge city world in Minecraft.</p>\n<p>Minecraft content and materials are trademarks and copyrights of Mojang. Minecraft-Cambridge (with the exception of Mojang-owned stuff) is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</p>\n<p><a href=\"http://minecraft.pravigo.org/\">http://minecraft.pravigo.org/</a></p>\n",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+            "id": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+            "name": "cambridgeshire-insight",
+            "title": "Cambridgeshire Insight",
+            "type": "organization",
+            "description": "The Cambridgeshire Insight Partnership is made up of public, health and community bodies to provide a shared research knowledge base for the Cambridgeshire area. It allows users an easy way to access and share data, information and research for deeper insights about their local area. See more at https://cambridgeshireinsight.org.uk",
+            "image_url": "",
+            "created": "2014-05-19T12:10:18.790087",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+        "private": false,
+        "state": "active",
+        "title": "Minecraft Cambridge",
+        "type": "dataset",
+        "url": "https://data.cambridgeshireinsight.org.uk/dataset/minecraft-cambridge",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2018-07-30"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2018-09-27"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Cambridgeshire Research Group"
+            },
+            {
+                "key": "guid",
+                "value": "c0d2c5e8-aeac-405e-b48a-f9b052eee17c"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "04296c06-24a0-42d4-bfb9-9b5aa5915dff"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-12T08:25:02.010797",
+                "description": "<p>Zip file of the Minecraft Cambridge world used Info for Collusion Maker Challenge 2015</p>\n<p>Data used:</p>\n<p>LIDAR data from the Environment Agency available via data.gov.uk with \"Use limitation depending on license\". <a href=\"http://data.gov.uk/dataset/lidar-digital-surface-model\">http://data.gov.uk/dataset/lidar-digital-surface-model</a> Very straightforward process to get the data.</p>\n<p>The Minecraft model uses the 1m Digital Surface Map (DSM) and Digital Terrain Map (DTM) Roads paths and building data from OpenStreetMap <a href=\"http://www.openstreetmap.org/\">http://www.openstreetmap.org/</a></p>\n<p><strong>Various Open Source tools</strong></p>\n<ul>\n<li>QGIS - to process the raw heightmap data <a href=\"http://www2.qgis.org\">http://www2.qgis.org</a></li>\n<li>More QGIS - to filter and rasterize the OpenStreetMap into various masks to try to identify buildings, roads, railways, water and trees (railway to follow) <a href=\"http://www2.qgis.org\">http://www2.qgis.org</a></li>\n<li>ImageMagick - to do some conversion on the exported map images (tif to png) <a href=\"http://www.imagemagick.org/\">http://www.imagemagick.org/</a></li>\n<li>Paint.NET (not open source but free to download)- to tidy up by hand the generated masks (I clearly could have done more here!) <a href=\"http://www.getpaint.net/index.html\">http://www.getpaint.net/index.html</a></li>\n<li>WorldPainter (with scripting) - to create a terrain from the heightmap and masks <a href=\"http://worldpainter.net\">http://worldpainter.net</a></li>\n<li>MCEdit - not used in the final version but could be used to improve the model - e.g. replace the tree height data with nice minecraft trees. <a href=\"http://www.mcedit.net/\">http://www.mcedit.net/</a></li>\n<li>MapCrafter - to create a SimCity style view. <a href=\"http://mapcrafter.org/index\">http://mapcrafter.org/index</a></li>\n</ul>\n<p>More details at: <a href=\"http://minecraft.pravigo.org/\">http://minecraft.pravigo.org/</a></p>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/PQ8_87EEh90\" frameborder=\"0\" allowfullscreen=\"\"></iframe>",
+                "format": "ZIP",
+                "hash": "",
+                "id": "d7e9fcd3-717f-4a04-8351-5b8e339035f5",
+                "last_modified": null,
+                "metadata_modified": "2020-04-12T08:25:02.010797",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Minecraft Cambridge world ",
+                "package_id": "967fae61-6e57-4b04-9c6d-56e9de5a33e5",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/richhall-minecraft-cambridge-e367d82.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "LIDAR",
+                "id": "591a7348-ac9a-4bf1-8b43-6ff3cd6e3613",
+                "name": "LIDAR",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Minecraft",
+                "id": "6db8d91b-c63e-4aad-9cb6-68dbef52cfa8",
+                "name": "Minecraft",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "04296c06-24a0-42d4-bfb9-9b5aa5915dff"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ]
+    }
+}

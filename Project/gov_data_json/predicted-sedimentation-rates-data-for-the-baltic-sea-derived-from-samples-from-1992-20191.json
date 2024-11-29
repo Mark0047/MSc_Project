@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "53cd9fca-b0b6-4d15-b63f-8c299d4dbe28",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:24:36.899795",
+        "metadata_modified": "2024-09-10T08:24:36.899798",
+        "name": "predicted-sedimentation-rates-data-for-the-baltic-sea-derived-from-samples-from-1992-20191",
+        "notes": "Spatial prediction of the sediment accumulation rate, provided as a .geotif \nfile (as an average linear rate in cm yr-1 since 1986) for the Baltic Sea \ncreated using a machine learning approach. Predicted rates of sediment \naccumulation vary from 0.08-1.67 cm yr-1. Field measurements were acquired \nbetween 1992 and 2012 as compiled by EMODnet Geology. Predictor variables were \nderived from 2003 to 2018 from various sources including EMODnet Bathymetry, \nCopernicus and Cefas staff. Modelling subsequently occurred in 2019 by Cefas. \nFurther detail on the data sources are provided in the associated manuscript.\n\nFor additional details regarding how this layer was generated see the \npublication associated with this data: \n`https://doi.org/10.1016/j.csr.2020.104325`_\n\n\n.. _`https://doi.org/10.1016/j.csr.2020.104325`:\n    https://doi.org/10.1016/j.csr.2020.104325",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1992-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2019-03-31"
+        ],
+        "title": "Predicted sedimentation rates data for the Baltic Sea derived from samples from 1992 - 2019",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "35.00"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "70.00"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50.00"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "10.00"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2020-12-17\"}, {\"type\": \"revision\", \"value\": \"2024-07-24\"}, {\"type\": \"creation\", \"value\": \"2020-11-19\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "CEFAS5f614dc5-be0c-4379-8dad-33dce560813b"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ae45e7f1-6990-4106-a914-d22292ede407"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-24T11:39:44"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "European Commission"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor); European Commission (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[35.00, 50.00], [10.00, 50.00], [10.00, 70.00], [35.00, 70.00], [35.00, 50.00]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:24:36.902615",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: Binary download.",
+                "format": "",
+                "hash": "",
+                "id": "7b855955-68d1-477d-ad8c-6551d3aa4140",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:24:36.897519",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "53cd9fca-b0b6-4d15-b63f-8c299d4dbe28",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/20933",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "ae45e7f1-6990-4106-a914-d22292ede407"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

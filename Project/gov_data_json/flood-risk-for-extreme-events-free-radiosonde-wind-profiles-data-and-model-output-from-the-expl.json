@@ -1,0 +1,394 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "badc@rl.ac.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "c63e11b6-4bcb-4110-92c8-1c9bf9b5c26f",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-09-12T09:16:58.192362",
+        "metadata_modified": "2017-07-17T17:46:37.214091",
+        "name": "flood-risk-for-extreme-events-free-radiosonde-wind-profiles-data-and-model-output-from-the-expl",
+        "notes": "The Exploitation of new data sources, data assimilation and ensemble techniques for storm and flood forecasting Project is a NERC Flood Risk for Extreme Events (FREE) Research Programme project (Round 1 - NE/E002137/1 - Duration January 2007 - April 2010) led by Prof AJ Illingworth, University of Reading. This project investigates possible methods of producing ensemble weather forecasts at high-resolution. These ensembles will be used with raingauge and river flow to improve methods of flood forecasting. The dataset includes radiosonde and wind profiles in England and Wales derived using Doppler radar returns from insects. The radial velocity measurements from insects were converted into VAD profiles by fitting a sinusoid to radial velocities at constant range. All measured profiles have been interpolated to the instrument location. \nModel output files from experiments assimilating radial winds from insects are also available.\n\nFloods in the UK are often caused by extreme rainfall events. At present, weather forecasts can give an indication of a threat of severe storms which might cause flash floods, but are unable to say precisely when and where the downpours will occur, due to the complex range of processes and space-time scales involved. The first stage is to predict the air motions leading to convergence and ascent at a certain location where the precipitation will be initiated, then the development of the precipitation needs to be forecast, and hydrological models used to produce accurate, quantitative, probabilistic flood predictions. Data assimilation is a sophisticated mathematical technique that combines observations with model predictions to give an analysis of the current state of the atmosphere. This analysis may be used to initialise a weather forecast. Although precipitation is well observed by weather radar, attempts to assimilate radar data have had little success; by the time the rain develops the forecast model state is too far from the truth and the air motions are inconsistent with the position of the first radar precipitation echo.\n\nWe propose to overcome this problem by assimilating new types of data from weather radars. These provide information on the evolving humidity fields and air motions in the lower atmosphere so that the model can accurately track the developing storm before precipitation appears. The model used will be a new Met Office model that can be run with a resolution (i.e., grid-spacing) of order 1-4km. This enables storm-cloud motions to be explicitly calculated, rather than treated as a sub-grid-scale effect. Furthermore, current operational forecast models are only updated with observations every few hours; in the new approach the model will be updated much more frequently. This should yield weather forecasts with improved locations (in space-time) for rainfall events.\n\nInitialisation errors are not the only cause of inaccuracies in storm-scale weather forecasts. Models are often run only for a small region of the world, and the data on the boundaries of this area provided from a larger-scale model. These data are known as lateral boundary conditions. Errors in these lateral boundary conditions and modelling errors also contribute to the errors in the forecast. Even if these errors were reduced, the nonlinear nature of the storm dynamics ensures that there is a limit, beyond which the value of deterministic forecasts becomes questionable. After that point it becomes important to determine the uncertainties in the forecast precipitation, so an ensemble approach is required. (An ensemble is a collection of perturbed forecasts that may be considered as a statistical sample of the forecast probability distribution.)\n\nThe appropriate construction of a storm-scale ensemble is an open question. We propose a structured approach where perturbations will be designed on the basis of physical insight into convective forcing mechanisms. The resulting probabilistic rainfall forecasts can be interfaced to hydrological models used for flood forecasting. For the first time, this project will allow different scales of application of these methods to be supported: ranging from localised flash flooding of small catchments, through to indicative first-alert forecasting with UK-coverage and forecasting of river discharges to the sea. The project will also assess the impacts of improvements in numerical weather prediction on flood forecast performance.\n\nIn this project we anticipate fruitful interactions between the different disciplines of observations and measurement, meteorology and hydrology. Radar assimilation software development and ensemble forecasts will take place using Met Office models, so improvements can be implemented operationally very easily. The use of operational radars makes this project well placed to take advantage of data from any extreme events occurring during the period of the study.",
+        "num_resources": 10,
+        "num_tags": 0,
+        "organization": {
+            "id": "9ea160c4-4e17-4b49-af74-155c64fa0df6",
+            "name": "centre-for-environmental-data-analysis",
+            "title": "Centre for Environmental Data Analysis",
+            "type": "organization",
+            "description": "The Centre for Environmental Data Analysis (CEDA) serves the environmental science community through four data centres, data analysis environments, and participation in a host of relevant research projects.\r\n\r\nWe aim to support environmental science, further environmental data archival practices, and develop and deploy new technologies to enhance access to data. Additionally we provide services to aid large scale data analysis.\r\n\r\nYou can learn more about our data centres, our data processing services, and project work using the links in the menu above. \r\n\r\nIf you have a particular project or data management issue that you would like to consult CEDA on please contact us and a member of the CEDA team will be happy to assist.\r\n\r\nThe Centre for Environmental Data Analysis, based within the RAL Space department of the Science and Technology Facilities Council's Rutherford Appleton Laboratory, hosts a range of activities associated with environmental data archives. \r\n\r\nThese activities include running a number of key environmental data centres for the environmental research community as well as being in the vanguard of the development of data archival and delivery practices and technologies. ",
+            "image_url": "",
+            "created": "2016-09-07T11:21:57.789587",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9ea160c4-4e17-4b49-af74-155c64fa0df6",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2007-06-19T00:00:00"
+        ],
+        "temporal_coverage-to": [
+            "2009-06-29T00:00:00"
+        ],
+        "theme-primary": "environment",
+        "theme-secondary": [],
+        "title": "Flood Risk for Extreme Events (FREE): Radiosonde, Wind Profiles Data and Model Output from the Exploitation of new data sources, data assimilation and ensemble techniques for storm and flood forecasting project",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Public; Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "4.41954"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.11007"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.53098"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.56493"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2008-12-10T03:19:11\"}, {\"type\": \"creation\", \"value\": \"2008-12-10T03:19:11\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "20d07cb8-4443-4eda-aa81-f68eb02b89a6"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "ffab114c-bc94-4e3d-b501-7fd3b2638c8c"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "20d07cb8-4443-4eda-aa81-f68eb02b89a6"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Public; Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-07-17"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "British Atmospheric Data Centre"
+            },
+            {
+                "key": "resource-type",
+                "value": "series"
+            },
+            {
+                "key": "responsible-party",
+                "value": " (author, ceda_officer); STFC Rutherford Appleton Laboratory (ceda_officer); British Atmospheric Data Centre (publisher, distributer, point_of_contact, metadata_owner, curator, custodian); University of Reading (author)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[4.41954, 49.53098],[4.41954, 61.11007], [-8.56493, 61.11007], [-8.56493, 49.53098], [4.41954, 49.53098]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0abe2b7a-d5c1-4873-981e-90289db5716c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Centre for Environmental Data Analysis (CEDA)"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-09-12T10:16:58.249853",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "6a26f273-4c51-441d-acae-584feea4c7a5",
+                "last_modified": null,
+                "metadata_modified": "2016-09-12T10:16:58.249853",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset Homepage",
+                "package_id": "c63e11b6-4bcb-4110-92c8-1c9bf9b5c26f",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://catalogue.ceda.ac.uk/uuid/f37b798c177e7de3c07426b4fc619d13",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-09-12T10:16:58.249912",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "ed1ceff8-e42e-47fd-a061-68743d297a77",
+                "last_modified": null,
+                "metadata_modified": "2016-09-12T10:16:58.249912",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Radar meteorology at Reading",
+                "package_id": "c63e11b6-4bcb-4110-92c8-1c9bf9b5c26f",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.met.rdg.ac.uk/radar/index.html",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-12-19T12:01:06.690118",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "eaccf861-3cbf-4806-9083-09f25137f58c",
+                "last_modified": null,
+                "metadata_modified": "2016-12-19T12:01:06.690118",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Data inputs to FREE projects",
+                "package_id": "c63e11b6-4bcb-4110-92c8-1c9bf9b5c26f",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://badc.nerc.ac.uk/artefacts/badc_datadocs/free/Data_inputs_to_FREE_projects.html",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-12-19T12:01:06.690149",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "c3f9bc44-847c-485b-bb58-67f4e9908ebd",
+                "last_modified": null,
+                "metadata_modified": "2016-12-19T12:01:06.690149",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Implementation Plan",
+                "package_id": "c63e11b6-4bcb-4110-92c8-1c9bf9b5c26f",
+                "position": 3,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://badc.nerc.ac.uk/artefacts/badc_datadocs/free/FREE_implementplan.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-12-19T12:01:06.690156",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "8cd1e843-76fe-48e8-a32f-e16182854cf7",
+                "last_modified": null,
+                "metadata_modified": "2016-12-19T12:01:06.690156",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "FREE Projects and Contacts",
+                "package_id": "c63e11b6-4bcb-4110-92c8-1c9bf9b5c26f",
+                "position": 4,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://badc.nerc.ac.uk/artefacts/badc_datadocs/free/projects_contacts.html",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-12-19T12:01:06.690162",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "c9b0a530-3bf9-4d8d-affe-fb9df9669a26",
+                "last_modified": null,
+                "metadata_modified": "2016-12-19T12:01:06.690162",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "The science of flooding",
+                "package_id": "c63e11b6-4bcb-4110-92c8-1c9bf9b5c26f",
+                "position": 5,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://badc.nerc.ac.uk/artefacts/badc_datadocs/free/FREE_scienceplan.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-12-19T12:01:06.690168",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "c97d9a4d-bbd1-4d3d-9ebc-f8faa633e99f",
+                "last_modified": null,
+                "metadata_modified": "2016-12-19T12:01:06.690168",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Summary Progress Report May 2008",
+                "package_id": "c63e11b6-4bcb-4110-92c8-1c9bf9b5c26f",
+                "position": 6,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://badc.nerc.ac.uk/artefacts/badc_datadocs/free/FREE_200805progress-report.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-12-19T12:01:06.690174",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "40c43117-1bf5-4d90-94b3-00c3272e18fe",
+                "last_modified": null,
+                "metadata_modified": "2016-12-19T12:01:06.690174",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Other FREE projects",
+                "package_id": "c63e11b6-4bcb-4110-92c8-1c9bf9b5c26f",
+                "position": 7,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://badc.nerc.ac.uk/artefacts/badc_datadocs/free/free_intro.html",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-12-19T12:01:06.690180",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "8df6ed2c-c306-4b93-be81-5f41d7fa13a7",
+                "last_modified": null,
+                "metadata_modified": "2016-12-19T12:01:06.690180",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Progress Report October 2008",
+                "package_id": "c63e11b6-4bcb-4110-92c8-1c9bf9b5c26f",
+                "position": 8,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://badc.nerc.ac.uk/artefacts/badc_datadocs/free/FREE_200810progress-report.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-12-19T12:01:06.690185",
+                "description": "information",
+                "format": "",
+                "hash": "",
+                "id": "2c333b78-a30a-487e-bb39-9142bc3c0c34",
+                "last_modified": null,
+                "metadata_modified": "2016-12-19T12:01:06.690185",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Instructions for FREE data providers",
+                "package_id": "c63e11b6-4bcb-4110-92c8-1c9bf9b5c26f",
+                "position": 9,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://badc.nerc.ac.uk/artefacts/badc_datadocs/free/submission.html",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "ffab114c-bc94-4e3d-b501-7fd3b2638c8c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0abe2b7a-d5c1-4873-981e-90289db5716c"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Centre for Environmental Data Analysis (CEDA)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "2a5608f9-273c-4749-bf16-1e5e9a2299ba",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-10-19T15:25:18.708880",
+        "metadata_modified": "2024-11-16T22:02:10.220959",
+        "name": "green-roofs-in-the-central-activities-zone",
+        "notes": "Overview\n========\n\nAn updated spatial data set for existing green roofs has been produced for London's [Central Activities Zone](https://www.london.gov.uk/what-we-do/planning/implementing-london-plan/supplementary-planning-guidance/central-activities-zone) (CAZ) using 2015 aerial imagery. The CAZ makes up around two per cent of London's total area.\n\nMethod\n======\n\nArcMap GIS software was used to map green roofs installations. The aerial imagery was loaded into the software in true colour (RGB) and infrared (IR) composites, along with the CAZ boundary and London 500x500m Ordnance Survey grid to aid locating.\n\n  \n\nRGB images are useful for both roof types with IR being very good for identifying vegetation. IR allows for easy identification of vegetation due to it reflecting strongly in the near infrared (NIR) and appearing deep red in colour (healthy vegetation).\n\nChallenges and solutions\n========================\n\nThe problem of judging elevation from aerial imagery, particularly of buildings with only a few stories can be partially overcome by comparing the location with Google Maps Earth view. This\u00a0includes a digital elevation model that makes it easier to judge whether a green area is raised or at street level.\u00a0\n\n  \n\nA number of small roof terraces in the CAZ have very dense vegetation along the edge of the roof. Where this kind of greening is spatially significant, the vegetation itself has been mapped rather than the full extent of the roof, in order to produce a more appropriate and accurate green area value.\u00a0\n\n  \n\nBuilding shadows can mask the texture and colour of the roof. The use of NIR helps with green roof identification, as the contrast of the red of the vegetation with the surrounding area is far higher than in RGB, making the shadow less impactful.\n\n  \n\nSome roofs that appear very uniformly green in RGB may be Astroturf as opposed to a living green roof. This can usually be identified by inspecting the roof in IR, as it will not give the distinctive deep/bright red colours of living vegetation, displaying instead as blue-purple.\u00a0\n\n  \n\nEven analysing a small area of London, such as the CAZ, takes a long time. This is the main reason why this study methodology has not been extended beyond the CAZ.",
+        "num_resources": 2,
+        "num_tags": 3,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Green roofs in the Central Activities Zone",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/green-roofs",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2017-10-13T11:56:30"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2018-10-22T14:19:49.676Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "6f1e7121-0082-4bd8-acc1-7e9deff1be23"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:12:04.462975",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "5cc84def-b88b-4d19-925b-97d16cd8f908",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:57:24.037770",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Green Roofs CAZ GIS files.zip",
+                "package_id": "2a5608f9-273c-4749-bf16-1e5e9a2299ba",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/green-roofs/039be167-8008-4261-83a8-8151b4a8a470/Green%2520Roofs%2520CAZ%25202015%2520imagery.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:12:04.462993",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "87d2a731-8f8e-420b-a07b-c0a40cb1d4fa",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:57:24.037961",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "Green roof location by size.pdf",
+                "package_id": "2a5608f9-273c-4749-bf16-1e5e9a2299ba",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/green-roofs/80a752b2-7681-4de6-a678-5b65b93482e9/Green%2520roof%2520location%2520by%2520size.pdf",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Biodiversity",
+                "id": "f2b93f5f-6797-432f-bf7d-b7f2996ccc13",
+                "name": "Biodiversity",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Greening",
+                "id": "e9040f4e-3f6a-441f-8b2a-400bba05d482",
+                "name": "Greening",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Sustainable Drainage",
+                "id": "663db8f8-7680-44c9-993b-daeeef1fb788",
+                "name": "Sustainable Drainage",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5006ed72-5fa9-43dd-a7f8-31c2a63a2c29"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

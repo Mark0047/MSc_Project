@@ -1,0 +1,99 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a5ae5b67-98f9-47fd-93dc-0ec6335fb36b",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-03-31T15:49:14.297698",
+        "metadata_modified": "2024-11-17T13:02:11.863312",
+        "name": "camden-parking-bay-csv-to-geojson-converter",
+        "notes": "The Parking Bay dataset was created in the open data portal several years ago and only exports the data as point GeoJSON.\n\nThis Python3 Script downloads Camden Council parking bay data as CSV and converts it into line/polygon GeoJSON using either the EPSG:27700 or EPSG:4326 projection (see line #25); the projection clause is not included in the file so may need to be specified when importing the file into a GIS.\n\nThe script file will need renaming from .txt to .py.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+            "name": "london-borough-of-camden",
+            "title": "London Borough of Camden",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:32.040042",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "679a9f85-9a24-4ed3-ae5b-be180fff321d",
+        "private": false,
+        "state": "active",
+        "title": "Camden Parking Bay CSV to GeoJSON Converter",
+        "type": "dataset",
+        "url": "https://opendata.camden.gov.uk/d/qecn-n8he",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2023-03-31"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2023-03-31"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "opendata.camden.gov.uk"
+            },
+            {
+                "key": "guid",
+                "value": "https://opendata.camden.gov.uk/api/views/qecn-n8he"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-03-31T15:49:14.303223",
+                "description": null,
+                "format": "",
+                "hash": "",
+                "id": "6608c542-6429-4a55-9981-df3e5ac2009f",
+                "last_modified": null,
+                "metadata_modified": "2023-03-31T15:49:14.294620",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "a5ae5b67-98f9-47fd-93dc-0ec6335fb36b",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.camden.gov.uk/download/qecn-n8he/text/plain",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3b52caf8-0f44-404c-b0c1-bdbefeecf417"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8a82ef54-e704-498c-b662-141c854a4b5d"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Camden Open Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "open.data@rpa.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "43f44b73-dc6d-4969-b7b0-c1f3d0f15439",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-02-18T14:33:10.463310",
+        "metadata_modified": "2023-11-01T13:39:22.313010",
+        "name": "cattle-deaths-by-breed-type-sex-and-age-group-2010",
+        "notes": "This dataset as reported to the Rural Payments Agency includes Under 12 Months cattle aged 12 months exactly or under,'12 to 15 Months' includes cattle aged between 12 months and 1 day and 15 months exactly, etc., over 72 Months' includes cattle aged between 72 months and 1 day or over. Attribution statement: \u00a9 Rural Payments Agency",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+            "name": "rural-payments-agency",
+            "title": "Rural Payments Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:53:21.853113",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2010-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2010-12-31"
+        ],
+        "title": "Cattle Deaths by Breed Type Sex and age group 2010",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2013-06-17\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "c46461a9-11f2-4aa6-9bcb-df47f65cddcb"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "0b209b1d-be61-45b3-9a63-96e9f5f2775c"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Rural Payments Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:39:22.354888",
+                "description": "Resource locator",
+                "format": "CSV",
+                "hash": "",
+                "id": "577cc8e3-ea71-4ba5-b9d5-b6f48ff40c7c",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:39:22.319687",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "43f44b73-dc6d-4969-b7b0-c1f3d0f15439",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/data.defra.gov.uk/AnimalWelfare/cattle-deaths-by-breed-type-sex-and-age-group_2010.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Milk Quota",
+                "id": "d83044c8-bdf2-4364-b137-6f9c30134ac9",
+                "name": "Milk Quota",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "animal husbandry",
+                "id": "9a07ec7f-1687-489c-8847-c34a77bc1ace",
+                "name": "animal husbandry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c21ed347-d7b1-45c3-9267-83af2bfc5689"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ]
+    }
+}

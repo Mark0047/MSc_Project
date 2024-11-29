@@ -1,0 +1,178 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "09f49820-7e00-4979-ac6f-9142880e140a",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-07-28T08:29:47.105548",
+        "metadata_modified": "2023-09-11T20:00:08.634489",
+        "name": "deaths-from-all-causes",
+        "notes": "This data shows premature deaths (Age under 75), numbers and rates by gender, as 3-year moving-averages.\r\n\r\nAll-Cause Mortality rates are a summary indicator of population health status.  All-cause mortality is related to Life Expectancy, and both may be influenced by health inequalities.\r\n\r\nDirectly Age-Standardised Rates (DASR) are shown in the data (where numbers are sufficient) so that death rates can be directly compared between areas.  The DASR calculation applies Age-specific rates to a Standard (European) population to cancel out possible effects on crude rates due to different age structures among populations, thus enabling direct comparisons of rates.\r\n\r\nA limitation on using mortalities as a proxy for prevalence of health conditions is that mortalities may give an incomplete view of health conditions in an area, as ill-health might not lead to premature death.\r\n\r\nData source: Office for Health Improvement and Disparities (OHID), Public Health Outcomes Framework (PHOF) indicator ID 108.  This data is updated annually.\r\n",
+        "num_resources": 4,
+        "num_tags": 2,
+        "organization": {
+            "id": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+            "name": "lincolnshire-county-council",
+            "title": "Lincolnshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:38:51.868332",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+        "private": false,
+        "state": "active",
+        "title": "Deaths from All Causes",
+        "type": "dataset",
+        "url": "https://fingertips.phe.org.uk/profile/public-health-outcomes-framework",
+        "version": "",
+        "extras": [
+            {
+                "key": "Statistics at OHID - weblink:",
+                "value": "https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities/about/statistics"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "93bf9caa-2589-443d-983f-5e3cdf0688fc"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-05-08T12:53:50.686033",
+                "datastore_active": true,
+                "description": "Dataset for Deaths age under 75 from All Causes.  Data for 2010-2012 and onwards has been Directly Age-Standardised to the 2013 European Standard Population. This means earlier data would not be comparable (because that was Standardised to the earlier 1976 version of European Standard Population).",
+                "format": "CSV",
+                "hash": "",
+                "id": "e5f589b8-1536-4cd6-94d3-08bae6acf339",
+                "last_modified": "2023-09-08T11:11:52.594601",
+                "metadata_modified": "2023-09-11T20:00:08.650754",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Deaths from All Causes",
+                "package_id": "09f49820-7e00-4979-ac6f-9142880e140a",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/09f49820-7e00-4979-ac6f-9142880e140a/resource/e5f589b8-1536-4cd6-94d3-08bae6acf339/download/deathsallcauses1.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-05-08T12:57:55.475625",
+                "datastore_active": true,
+                "description": "Metadata for Deaths from All Causes dataset.   This file contains Metadata (information about a dataset). It shows the schema for dataset fields and their contents. This file should be used along with the dataset, to aid correct interpretation of the data.",
+                "format": "CSV",
+                "hash": "",
+                "id": "95d3bc73-2278-48e3-a09c-71b65cb0e239",
+                "last_modified": null,
+                "metadata_modified": "2017-05-08T12:57:55.475625",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata",
+                "package_id": "09f49820-7e00-4979-ac6f-9142880e140a",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/09f49820-7e00-4979-ac6f-9142880e140a/resource/95d3bc73-2278-48e3-a09c-71b65cb0e239/download/metadatadeathsallcauses.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-06-20T15:18:31.290139",
+                "datastore_active": false,
+                "description": "Office for Health Improvement and Disparities (OHID) - data and profiles on key health issues. For data and profiles of key Health conditions in local areas, see the links for Local Authority Health profiles, and Local Health.",
+                "format": "HTML",
+                "hash": "",
+                "id": "1d99e9c9-f3ac-4704-b5b7-69ebb0dca061",
+                "last_modified": null,
+                "metadata_modified": "2022-03-11T18:50:06.635608",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OHID: Public Health Outcomes Framework (PHOF)",
+                "package_id": "09f49820-7e00-4979-ac6f-9142880e140a",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://fingertips.phe.org.uk/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-04-12T13:07:47.165013",
+                "datastore_active": false,
+                "description": "Key documents and information on the Health and Wellbeing of Lincolnshire\u2019s population.  Its resources include the Lincolnshire Joint Strategic Needs Assessment (JSNA).",
+                "format": "HTML",
+                "hash": "",
+                "id": "a2403154-eb17-40bc-b369-a31b8f9cec17",
+                "last_modified": null,
+                "metadata_modified": "2023-05-11T20:33:35.003169",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Lincolnshire Health Intelligence Hub",
+                "package_id": "09f49820-7e00-4979-ac6f-9142880e140a",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lhih.org.uk/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "deaths",
+                "id": "65020601-e619-4bd2-b632-b88109bd174e",
+                "name": "deaths",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "health",
+                "id": "6a1869cc-7df6-4484-b185-eb045d8570e6",
+                "name": "health",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "93bf9caa-2589-443d-983f-5e3cdf0688fc"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ]
+    }
+}

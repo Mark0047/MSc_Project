@@ -1,0 +1,184 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "adam.cd.wood@gmail.com",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "b68a3890-9060-45aa-b1ca-32d98d8aee7e",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-11-11T11:09:35.120092",
+        "metadata_modified": "2024-06-19T11:20:09.317461",
+        "name": "fuel-poverty-index-scotland1",
+        "notes": "This dataset is a Scottish Fuel Poverty Index created in the summer of 2023 by EDINA@University of Edinburgh as part of their student internship programme. The user guide provides descriptions of each data variable used in creating the index. The basic rationale was to replicate for Scotland work that had been conducted previously but only in respect to England and Wales. The two indices are not strictly directly comparable due to data availability and spatial granularity but provide standalone snapshots of relative fuel poverty across Great Britain. The Scottish Index is fully open source and for purposes of transparency and repeatability this guide provides an open methodology and is accompanied by the underlying data. Data are provided in good faith \u2019as is\u2019 and is the sole product of student effort as part of mentoring activities conducted by EDINA at the University. Each variable that was used in the Index was normalised relative to the individual values for that variable - which means the values presented in the underlying FPI data table do not represent the actual numbers for each local authority - merely the percentage relative to the other local authorities in Scotland. A separate file \u201dFuel-poverty-index-raw-data-with-calc.csv\u201d is available which contains the raw percentages used for the index along with a table containing the calculations used to obtain the final score and the main FPI data table.\n\nFuel Poverty Index Excel: This file contains each Scottish local authority's ability to pay score, demand score and final score which were all obtained from the several different variables. The raw data for these variables can be found in the Raw Data file and an explanation for each variable can be found in the User Guide document. The scores are between 1 to 100 and are normalised relative to each other. This means the final scores do not represent the actual physical values for each area.\n\nFuel Poverty Index csv: This file contains the normalised processed data that makes up the Scottish fuel poverty index with variables being in range of 1 to 100. Some variables have been weighted depending on how important they are to the index. The final scores rating each Scottish local authority from 1 to 100 are also included.\n\nRaw data: This file contains the raw unprocessed data that the index was created from for all Scottish local authorities. \n\nUser Guide: This file contains the documentation of the process to create the index as well as descriptions of what each column in the Fuel Poverty Index csv file contain. This file also provides some examples of the visualisation created from the index\n\nFuel Poverty Index Shapefile: This folder contains the .shp shape file comprising all the data from Fuel Poverty Index csv, in addition to also having the geospatial polygons associated with each local authority boundary. For the best viewing, the British National Grid EPSG 27700 coordinate system should be used.",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Fuel Poverty Index - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on public access\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.32254"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.74784"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.38113"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.02985"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2023-11-16\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "cf93af62-e1a2-43f3-b05f-0366961f9b00"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "161ab0b9-861d-4c8e-8dd4-7e8a86bb9c28"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-16T15:41:15"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Improvement Service (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.32254, 54.38113], [-8.02985, 54.38113], [-8.02985, 60.74784], [0.32254, 60.74784], [0.32254, 54.38113]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:20:09.346052",
+                "description": "A link to the CKAN metadata record on the Spatial Hub.",
+                "format": "",
+                "hash": "",
+                "id": "0c39e7fb-a964-45f4-8af9-272603dab1cf",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:20:09.328230",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fuel Poverty Index - Scotland",
+                "package_id": "b68a3890-9060-45aa-b1ca-32d98d8aee7e",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.spatialhub.scot/dataset/fuel_poverty_index-is",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Statistical units",
+                "id": "5c1fe287-ebfd-4a64-9580-29baa322a3d0",
+                "name": "Statistical units",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "9c278a32-faec-4234-95c5-d10be1b6b9d2"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

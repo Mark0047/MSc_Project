@@ -1,0 +1,282 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "6cdebf5d-c69b-4480-8c9c-53ab8a816b9d",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-03-23T09:18:12.510858",
+        "metadata_modified": "2024-11-16T22:00:43.923527",
+        "name": "statistical-gis-boundary-files-for-london",
+        "notes": "The [Zip](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/statistical-gis-boundaries-london.zip) folder contains a range of key GIS boundary files for ESRI and Map Info covering Greater London.\n\nThe folder includes:\n\n\\- Output Area (OA) 2011,\n\n\\- Lower Super Output Area (LSOA) 2004 and 2011,\n\n\\- Middle Super Output Area (MSOA) 2004 and 2011,\n\n\\- London Wards (two files: City of London merged into single area and split into seperate wards). There are separate download file for 2014 & 2018 boundaries.\n\n\\- London Boroughs\n\nNote: The OA to MSOA boundaries have been generalised to reduce file size/loading time.\n\nOn maps created using these boundaries the copyright must be stated. This is: \"Contains National Statistics data \u00a9 Crown copyright and database right \\[2015\\]\" and \"Contains Ordnance Survey data \u00a9 Crown copyright and database right \\[2015\\]\"\n\nFor more information about boundary data sharing read these [Terms and Conditions of Supply.](https://s3-eu-west-1.amazonaws.com/londondatastore-upload/Geography-licensing.pdf)",
+        "num_resources": 5,
+        "num_tags": 14,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Statistical GIS Boundary Files for London",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2013-10-30T10:55:43"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-10-11T14:07:53.119Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "38460723-837c-44ec-b9f0-1ebe939de89a"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:10:34.007791",
+                "description": "Contains Borough, Ward, MSOA, LSOA and OA boundaries as at 2011",
+                "format": "ZIP",
+                "hash": "",
+                "id": "252c89a6-ab18-4345-9e43-32f40c6381e0",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:42.575589",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "statistical-gis-boundaries-london.zip",
+                "package_id": "6cdebf5d-c69b-4480-8c9c-53ab8a816b9d",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/statistical-gis-boundary-files-london/9ba8c833-6370-4b11-abdc-314aa020d5e0/statistical-gis-boundaries-london.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:10:34.007813",
+                "description": "New 2014 boundaries affecting Hackney, Kensington and Chelsea, and Tower Hamlets. Came into effect on election day (22 May 2014)",
+                "format": "ZIP",
+                "hash": "",
+                "id": "0327ef6d-5456-40a4-9811-a1495ef64ec9",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:42.575711",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "London-wards-2014.zip",
+                "package_id": "6cdebf5d-c69b-4480-8c9c-53ab8a816b9d",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/statistical-gis-boundary-files-london/b381c92b-9120-45c6-b97e-0f7adc567dd2/London-wards-2014.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-11-30T00:10:34.007819",
+                "description": "New 2018 boundaries affecting Bexley, Croydon, Redbridge, and Southwark. Came into effect on election day (3 May 2018)",
+                "format": "ZIP",
+                "hash": "",
+                "id": "9194ba0d-ce16-449b-bfab-af14a4ddb972",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:42.575811",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "London-wards-2018.zip",
+                "package_id": "6cdebf5d-c69b-4480-8c9c-53ab8a816b9d",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/statistical-gis-boundary-files-london/08d31995-dd27-423c-a987-57fe8e952990/London-wards-2018.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-05T16:00:30.604457",
+                "description": "Contains LSOA 2021 boundaries grouped by Boroughs",
+                "format": "ZIP",
+                "hash": "",
+                "id": "b6fc521e-38fc-41f7-8abb-89d12b232e19",
+                "last_modified": null,
+                "metadata_modified": "2024-10-05T16:00:30.538955",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "statistical-lsoa2021-boundaries-london-borough.zip",
+                "package_id": "6cdebf5d-c69b-4480-8c9c-53ab8a816b9d",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/statistical-gis-boundary-files-london/2a5e50ac-c22e-4d68-89e2-85f1e0ff9057/LB_LSOA2021_shp.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-10-12T17:00:29.405211",
+                "description": "Contains MSOA 2021 boundaries grouped by Boroughs",
+                "format": "ZIP",
+                "hash": "",
+                "id": "dc98ca5f-dfa8-4421-8c2f-80e013bfce58",
+                "last_modified": null,
+                "metadata_modified": "2024-10-12T17:00:29.342675",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "statistical-msoa2021-boundaries-london-borough",
+                "package_id": "6cdebf5d-c69b-4480-8c9c-53ab8a816b9d",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/statistical-gis-boundary-files-london/f6d9340a-2ccb-46ad-846b-c9122b4b5d1f/LB_MSOA2021_shp.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "2001",
+                "id": "0cbfe133-0a0e-416f-84cb-9a40897fa131",
+                "name": "2001",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "2011",
+                "id": "1167c79d-b406-4e16-afcf-66104c661599",
+                "name": "2011",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "areas",
+                "id": "d46ea5fb-9a07-4142-b331-87d271f17795",
+                "name": "areas",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "boundaries",
+                "id": "9e776817-7265-4179-84fb-fbaf159755ee",
+                "name": "boundaries",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "boundary",
+                "id": "9533a88f-e402-4ff1-8eb7-f79e95b9b6a0",
+                "name": "boundary",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "census",
+                "id": "2360fc5f-914e-4352-9c76-7b4e15fa55ee",
+                "name": "census",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "esri",
+                "id": "80a643cb-dcae-4475-894f-071fb880f0e3",
+                "name": "esri",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "gis",
+                "id": "6dc05bc9-8b85-4254-8c23-1bbc2a9dfab6",
+                "name": "gis",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "map",
+                "id": "5ae583ff-867a-475b-9d4d-db1e70d0f56e",
+                "name": "map",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mapinfo",
+                "id": "40898d9b-518a-4a0d-9aa6-591be2f35aa0",
+                "name": "mapinfo",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "mapping",
+                "id": "30d25a52-1974-410f-b063-19b46af2aa5e",
+                "name": "mapping",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "shape",
+                "id": "d65dde85-b5b5-402d-9628-69dba17b678c",
+                "name": "shape",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "shapefile",
+                "id": "1a033c54-4174-46de-bf8a-fa1e03ac40b9",
+                "name": "shapefile",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "shapefiles",
+                "id": "e709e5ab-429f-4b02-9d52-7559976f8f50",
+                "name": "shapefiles",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c9045977-3b4a-4706-ae45-641ea46c1dac"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

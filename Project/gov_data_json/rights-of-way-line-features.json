@@ -1,0 +1,143 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "webgis@dudley.gov.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "a46af282-3ac5-4a25-9b63-0e356febb135",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2016-06-03T15:26:27.052012",
+        "metadata_modified": "2024-09-25T11:16:44.633027",
+        "name": "rights-of-way-line-features",
+        "notes": "Rights of Way (Definitive) line features maintained by Dudley MBC. General public enquires based on this mapping should be referred to the Development Section of Economic Regeneration on 01384 815424.",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "4794adf4-223f-4bc0-ae17-4a276ca55004",
+            "name": "dudley-metropolitan-borough-council",
+            "title": "Dudley Metropolitan Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-10-16T13:11:34.097590",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4794adf4-223f-4bc0-ae17-4a276ca55004",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "",
+        "title": "Rights of Way Line Features",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-25T09:16:00.008113",
+                "datafile-date": "",
+                "description": null,
+                "format": "",
+                "hash": "",
+                "id": "d7d66742-4d4c-4239-ba21-69ada3c7a921",
+                "last_modified": null,
+                "metadata_modified": "2024-09-25T11:16:23.698902",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Rights of Way Line Features Download",
+                "package_id": "a46af282-3ac5-4a25-9b63-0e356febb135",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.dudley.gov.uk/getows.ashx?mapsource=mapsources/inspire&service=WMS&language=English&request=GetCapabilities&version=1.1.0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-25T09:16:00.008115",
+                "datafile-date": "",
+                "description": null,
+                "format": "",
+                "hash": "",
+                "id": "08b1f324-7570-41fa-8053-3561934cadb8",
+                "last_modified": null,
+                "metadata_modified": "2024-09-25T11:16:02.390724",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Rights of Way Line Features View",
+                "package_id": "a46af282-3ac5-4a25-9b63-0e356febb135",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.dudley.gov.uk/getows.ashx?mapsource=mapsources/inspire&service=WFS&language=English&version=1.1.0&request=GetFeature&typename=row_lines",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Rights of Way",
+                "id": "5ab4d069-d587-4b0e-a526-407643b27120",
+                "name": "Rights of Way",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Transport networks",
+                "id": "83d966c8-b18a-4c8f-9d3f-6aa454713f70",
+                "name": "Transport networks",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "226e4d66-1f6d-4b51-aed7-7c753936f037"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "f76302f9-ad74-4b15-a05b-3b1d4dbb25b2"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "dudley-inspire-gemini23"
+            }
+        ],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "226e4d66-1f6d-4b51-aed7-7c753936f037"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "f76302f9-ad74-4b15-a05b-3b1d4dbb25b2"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "dudley-inspire-gemini23"
+            }
+        ]
+    }
+}

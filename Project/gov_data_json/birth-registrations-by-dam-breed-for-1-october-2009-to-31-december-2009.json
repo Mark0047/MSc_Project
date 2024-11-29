@@ -1,0 +1,202 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "open.data@rpa.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "87a5c4dd-dd8e-4a8c-93ca-5ed6ef1d0f45",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-07-04T10:13:45.895966",
+        "metadata_modified": "2023-11-01T13:38:58.250732",
+        "name": "birth-registrations-by-dam-breed-for-1-october-2009-to-31-december-2009",
+        "notes": "This dataset as reported to the Rural Payments Agency contains cattle passport applications received for live and dead animals, Cattle born in Great Britain, Applications received by all sources (Cattle Tracing System Online, Cattle Tracing System Web Services Standard Interface System email and paper). Attribution statement: \u00a9 Rural Payments Agency",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+            "name": "rural-payments-agency",
+            "title": "Rural Payments Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:53:21.853113",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2009-10-01"
+        ],
+        "temporal_coverage-to": [
+            "2009-12-31"
+        ],
+        "title": "Birth registrations by dam breed for 1 October 2009 to 31 December 2009",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2013-11-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "8d63b882-d666-4eef-9d0d-82f5d145ad10"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "93205075-8e0f-4b26-be5b-a6170c008cdb"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Rural Payments Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:38:58.309128",
+                "description": "Resource locator",
+                "format": "CSV",
+                "hash": "",
+                "id": "9ae26b8b-b3a8-442e-987e-402dd04cbb3c",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:38:58.257049",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "87a5c4dd-dd8e-4a8c-93ca-5ed6ef1d0f45",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/data.defra.gov.uk/AnimalWelfare/birth-registrations-by-dam-breed-for_1-october-2009-to-31-december-2009.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Cattle Data",
+                "id": "cdc9ed64-601b-4449-924a-25436338b8c2",
+                "name": "Cattle Data",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "animal husbandry",
+                "id": "9a07ec7f-1687-489c-8847-c34a77bc1ace",
+                "name": "animal husbandry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "06dea1e3-b80d-418c-8ac0-f20aafadeab9"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ]
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "d262d8d9-21f5-48ff-aa5d-fb9003abdbc3",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-07-11T13:39:30.162599",
+        "metadata_modified": "2024-06-12T12:01:54.916870",
+        "name": "live-births-number-and-rate",
+        "notes": "Live Births registered annually in Lincolnshire and Districts.  The figures are shown as a Number and also as a Rate per 1000 women age 15-44 (inclusive), which is called the General Fertility Rate (GFR).\r\n\r\nThis ONS data is shown by the mother's area of usual residence, so in some cases a live birth might occur in an area but not be included in its figures.  Low values below 5 are suppressed, so some figures may be missing (particularly for smaller geographies), and thus not tally to the numbers shown for larger areas.\r\n\r\nThis dataset is updated annually. Source: Office for National Statistics (ONS)\r\n",
+        "num_resources": 3,
+        "num_tags": 3,
+        "organization": {
+            "id": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+            "name": "lincolnshire-county-council",
+            "title": "Lincolnshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:38:51.868332",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+        "private": false,
+        "state": "active",
+        "title": "Live Births",
+        "type": "dataset",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths",
+        "version": "",
+        "extras": [
+            {
+                "key": "Other Source",
+                "value": "www.nomisweb.co.uk"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b6bc54c9-05c5-40ab-900b-c6a8c89d3d40"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-04-05T13:33:34.595803",
+                "datastore_active": true,
+                "description": "Dataset for Live Births registered annually in Lincolnshire and Districts",
+                "format": "CSV",
+                "hash": "",
+                "id": "1deb08c9-3303-4116-b6e2-94f0da87bb38",
+                "last_modified": "2024-05-21T09:45:34.805148",
+                "metadata_modified": "2024-06-12T12:01:54.922400",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Live Births",
+                "package_id": "d262d8d9-21f5-48ff-aa5d-fb9003abdbc3",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/d262d8d9-21f5-48ff-aa5d-fb9003abdbc3/resource/1deb08c9-3303-4116-b6e2-94f0da87bb38/download/livebirths2022wip.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-04-04T08:18:31.090709",
+                "datastore_active": true,
+                "description": "Metadata for Live Births dataset.  This file contains Metadata (information about a dataset). It shows the schema for dataset fields and their contents. This file should be used along with the dataset, to aid correct interpretation of the data.\r\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "bc68ae1d-ef31-44c5-a0d2-5dc9695ca7a6",
+                "last_modified": null,
+                "metadata_modified": "2017-04-04T08:18:31.090709",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata",
+                "package_id": "d262d8d9-21f5-48ff-aa5d-fb9003abdbc3",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/d262d8d9-21f5-48ff-aa5d-fb9003abdbc3/resource/bc68ae1d-ef31-44c5-a0d2-5dc9695ca7a6/download/metadatalivebirths.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-08-01T13:33:16.079773",
+                "datastore_active": false,
+                "description": "Includes datasets for Wards, NHS Clinical Commissioning Groups, and LSOA areas",
+                "format": "HTML",
+                "hash": "",
+                "id": "adeb3a44-f770-4815-9134-f2e5cbfb8372",
+                "last_modified": null,
+                "metadata_modified": "2019-08-01T13:33:16.079773",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Office for National Statistics (Nomis)",
+                "package_id": "d262d8d9-21f5-48ff-aa5d-fb9003abdbc3",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.nomisweb.co.uk",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "births",
+                "id": "342e4589-f297-4bef-b9d6-ce984bd1f5aa",
+                "name": "births",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "health",
+                "id": "6a1869cc-7df6-4484-b185-eb045d8570e6",
+                "name": "health",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "population",
+                "id": "40739b84-20b5-415f-87f6-7ab11b26d2b3",
+                "name": "population",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3923be48-f47a-4002-bed9-e38665c493d5"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ]
+    }
+}

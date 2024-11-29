@@ -1,0 +1,226 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "1a9cc2ea-1dcb-4e36-b46c-c9b075c42cb5",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-04-13T16:03:24.306014",
+        "metadata_modified": "2024-11-16T10:03:00.501701",
+        "name": "pipeline-points-wgs841",
+        "notes": "<p>NSTA Infrastructure Data is a set of data reported to the\nNSTA by relevant persons pursuant to Section 34 of the 2016 Energy Act. The\ndata represents physical structures and facilities installed on the UKCS in\nfulfilment of relevant persons\u2019 licence, field operations or pipeline works\nauthorisation (PWA) related activities. The data is currently updated on a 6\nmonthly cycle (April / October). Data includes surface installations, subsea\ninfrastructure, pipelines and pipeline freespans.</p><p>Warning: Due to the 254 character limit of shapefile downloads, some attributes within this dataset will be truncated when downloading as a shapefile.</p>",
+        "num_resources": 6,
+        "num_tags": 3,
+        "organization": {
+            "id": "34f903d4-91d8-4571-be4f-79362d39fba7",
+            "name": "north-sea-transition-authority",
+            "title": "North Sea Transition Authority",
+            "type": "organization",
+            "description": "We regulate and influence the oil and gas, offshore hydrogen, and carbon storage industries. We help drive North Sea energy transition, realising the significant potential of the UK Continental Shelf as a critical energy and carbon abatement resource. We hold industry to account on halving upstream emissions by 2030.",
+            "image_url": "",
+            "created": "2016-10-05T17:02:18.742739",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "34f903d4-91d8-4571-be4f-79362d39fba7",
+        "private": false,
+        "state": "active",
+        "title": "Pipeline Points (WGS84)",
+        "type": "dataset",
+        "url": "https://opendata-nstauthority.hub.arcgis.com/datasets/NSTAUTHORITY::pipeline-points-wgs84",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2021-09-24T15:21:16.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-01-24T17:26:59.000Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Oil and Gas Authority"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=de6cbb70debf40958bb9192b3bfee8c4&sublayer=2"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-17T07:04:08.945416",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "efd7a341-f575-47a1-86b2-2690bb7fffe9",
+                "last_modified": null,
+                "metadata_modified": "2024-09-17T07:04:08.914481",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "1a9cc2ea-1dcb-4e36-b46c-c9b075c42cb5",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/datasets/NSTAUTHORITY::pipeline-points-wgs84",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-13T16:03:24.308285",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "ab01b9af-cc46-4a73-9377-b2f4c323f50f",
+                "last_modified": null,
+                "metadata_modified": "2024-04-13T16:03:24.297429",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "1a9cc2ea-1dcb-4e36-b46c-c9b075c42cb5",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.nstauthority.co.uk/arcgis/rest/services/Public_WGS84/UKCS_Offshore_Infrastructure_WGS84/FeatureServer/2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-13T16:03:24.308286",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "c29c1c2e-aa4d-4447-a4b2-1dc6a3e2af43",
+                "last_modified": null,
+                "metadata_modified": "2024-04-13T16:03:24.297511",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "1a9cc2ea-1dcb-4e36-b46c-c9b075c42cb5",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/de6cbb70debf40958bb9192b3bfee8c4/csv?layers=2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-13T16:03:24.308287",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "bd876656-23fa-4c80-a742-df84f3c27120",
+                "last_modified": null,
+                "metadata_modified": "2024-04-13T16:03:24.297590",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "1a9cc2ea-1dcb-4e36-b46c-c9b075c42cb5",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/de6cbb70debf40958bb9192b3bfee8c4/geojson?layers=2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-13T16:03:24.308288",
+                "description": null,
+                "format": "ZIP",
+                "hash": "",
+                "id": "fb420462-043e-4f71-a018-319b641d5c77",
+                "last_modified": null,
+                "metadata_modified": "2024-04-13T16:03:24.297669",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Shapefile",
+                "package_id": "1a9cc2ea-1dcb-4e36-b46c-c9b075c42cb5",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/de6cbb70debf40958bb9192b3bfee8c4/shapefile?layers=2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-13T16:03:24.308289",
+                "description": null,
+                "format": "KML",
+                "hash": "",
+                "id": "d08df582-6df2-4c78-aa50-bd24c4fd036f",
+                "last_modified": null,
+                "metadata_modified": "2024-04-13T16:03:24.297749",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "KML",
+                "package_id": "1a9cc2ea-1dcb-4e36-b46c-c9b075c42cb5",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata-nstauthority.hub.arcgis.com/api/download/v1/items/de6cbb70debf40958bb9192b3bfee8c4/kml?layers=2",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Infrastructure",
+                "id": "d83aef33-38f2-41eb-b313-1bb76288d05d",
+                "name": "Infrastructure",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "NSTA",
+                "id": "0fbb247b-6334-45e0-9b58-27dec05d5cbb",
+                "name": "NSTA",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Offshore Oil and Gas",
+                "id": "c5d1ea76-be57-4716-9a96-06f3a974b55a",
+                "name": "Offshore Oil and Gas",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8df70066-7bc5-4fde-9339-23b5fb781963"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "60366fe9-e095-400a-bdd1-262083d3d5ca"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "NSTA Open Data"
+            }
+        ]
+    }
+}

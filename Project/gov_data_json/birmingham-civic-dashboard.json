@@ -1,0 +1,113 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": null,
+        "date_released": "2011-10-06",
+        "date_update_future": "2011-10-13",
+        "date_updated": "2011-10-12",
+        "geographic_coverage": "100000: England",
+        "geographic_granularity": "postcode sector",
+        "id": "38f2c8cd-7bb3-4746-85d6-77ff64b5c85e",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2011-10-12T16:34:59.592510",
+        "metadata_modified": "2014-05-09T21:45:36.727869",
+        "name": "birmingham-civic-dashboard",
+        "notes": "The Birmingham Civic Dashboard receives a report of the requests that come in from members of the public for services from Birmingham City Council each day. It then produces a number of visualisations of that data, such as showing them on a map.\r\nIt also provides access to the base data in json and csv formats",
+        "num_resources": 2,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "Birmingham Civic Dashboard",
+            "created_at": "2014-10-30T11:57:29Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/17723/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/17723/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "25cdd7f0-4acc-4c27-b317-0edee995acfd",
+            "name": "birmingham-city-council",
+            "title": "Birmingham City Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:29.274275",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "25cdd7f0-4acc-4c27-b317-0edee995acfd",
+        "precision": "",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "2011-10-06",
+        "temporal_coverage-to": "date",
+        "temporal_granularity": "hour",
+        "theme-primary": "mapping",
+        "theme-secondary": [
+            "Government"
+        ],
+        "title": "Birmingham Civic Dashboard",
+        "type": "dataset",
+        "update_frequency": "daily",
+        "url": "http://civicdashboard.org.uk/",
+        "version": null,
+        "extras": [
+            {
+                "key": "taxonomy_url",
+                "value": "http://civicdashboard.org.uk/about"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": "",
+                "description": "json file listing contacts",
+                "format": "JSON",
+                "id": "405c5220-6627-434b-9e41-dc538a082771",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "38f2c8cd-7bb3-4746-85d6-77ff64b5c85e",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://civicdashboard.org.uk/index.json",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "description": "csv file listing contacts",
+                "format": "CSV",
+                "id": "2ee628eb-d2db-4553-8601-b152746acbd3",
+                "last_modified": null,
+                "metadata_modified": null,
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "38f2c8cd-7bb3-4746-85d6-77ff64b5c85e",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://civicdashboard.org.uk/contacts.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

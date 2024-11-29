@@ -1,0 +1,256 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "eidc@ceh.ac.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a995fbd8-ff75-4281-a391-168a1d843d8d",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2012-03-22T08:56:03.972732",
+        "metadata_modified": "2016-03-08T21:04:37.667154",
+        "name": "pontbren-streamflow-data",
+        "notes": "This dataset contains data collected from a network of 13 stream flow monitoring sites located across the Pontbren study site in mid-Wales, UK. The network was established between 2004-2010 as part of the Pontbren Catchment Study Land Use and Management Multi-Scale Experimental Programme. Data are not available for all sites for the entirety of this duration. 10 of the 13 sites were monitored using bed-mounted acoustic Doppler monitoring systems (Starflows), 2 are monitored using v-notch weir plates with pressure transducers and 1 site simply has a pressure transducer recording stage height. The sub-folders within the main Pontbren streamflow datset folder contain data from the individual monitoring sites. Stage discharge relationships were developed for all sites including those monitored using acoustic Doppler monitoring systems. It is necessary in a lot of cases to use the stage discharge relationship developed in each site to get a better estimate of flow than that provided by the acoustic Doppler monitoring system itself. Data are provided in the form of .txt files and the tipping bucket data is generally split into 6 month blocks. Associated with each data point in the .txt file is a quality assurance code, QA code, in the adjacent column. Details of the dataset, the quality assurance coding system, monitoring locations and stage discharge relationship parameters are provided in the supporting documentation.",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "866f4088-ae4f-43b8-ba8c-6d3141a327f2",
+            "name": "eidc",
+            "title": "Environmental Information Data Centre",
+            "type": "organization",
+            "description": "<p>The <a href=\"https://www.eidc.ac.uk/\" target=\"_blank\">Environmental Information Data Centre (EIDC)</a> is the UK's national data centre for terrestrial and freshwater sciences.</p>\r\n\r\n<p>The EIDC is one of the network of Natural Environment Research Council (NERC) data centres that provide a focal point for its scientific data and information.</p>\r\n\r\n<p>The EIDC is hosted by <a href=\"http://www.ceh.ac.uk/\" target=\"_blank\">the UK Centre for Ecology & Hydrology (UKCEH)</a>, a world-class, independent, not-for-profit research organisation focusing on land and freshwater ecosystems and their interaction with the atmosphere. UKCEH integrates UK-wide observation systems and curiosity driven research, from the smallest scale of genetic diversity to large-scale, whole-Earth systems. We work across disciplines and facilitate academic, public, private and voluntary sector partnerships. UKCEH\u2019s extensive, long-term monitoring, analysis and modelling deliver UK and global environmental data, providing early warnings of change and management solutions for our land and freshwaters.</p>",
+            "image_url": "2020-01-09-092402.7201059E2F5F93-AA00-4DD2-8727-97F0F63FD4CB.png",
+            "created": "2012-06-27T14:54:40.370760",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "866f4088-ae4f-43b8-ba8c-6d3141a327f2",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2005-04-04"
+        ],
+        "temporal_coverage-to": [
+            "2010-12-31"
+        ],
+        "theme-primary": "environment",
+        "theme-secondary": [],
+        "title": "Pontbren streamflow data",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Licence terms and conditions apply (http://eidc.ceh.ac.uk/administration-folder/tools/ceh-standard-licence-texts/standard-click-through/plain)\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-3.391"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.656"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.632"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.447"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2012-04-02\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "968441d3-ce4e-4117-959f-40f36a6a0305"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "87f7dcf8-7a5c-4521-9906-93f2f3bac2e3"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://catalogue.ceh.ac.uk/documents/gemini/waf/968441d3-ce4e-4117-959f-40f36a6a0305.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Licence terms and conditions apply (http://eidc.ceh.ac.uk/administration-folder/tools/ceh-standard-licence-texts/standard-click-through/plain)"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-03-08"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "EIDC (custodian); Centre for Ecology & Hydrology (resourceProvider, pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-3.391, 52.632],[-3.391, 52.656], [-3.447, 52.656], [-3.447, 52.632], [-3.391, 52.632]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "4326"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-27T17:38:27.790608",
+                "description": "The Flood Risk Management Research Consortium website. Click on, Data generated by FRMRC, for report",
+                "format": "HTML",
+                "hash": "",
+                "id": "27c14ccb-6814-4cc8-8039-8c3062b89537",
+                "last_modified": null,
+                "metadata_modified": "2015-08-27T17:38:27.790608",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "FRMRC website",
+                "package_id": "a995fbd8-ff75-4281-a391-168a1d843d8d",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://web.sbe.hw.ac.uk/frmrc/data.htm?pane=1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-27T17:38:27.790623",
+                "description": "Wheater, H., Reynolds, B., McIntyre, N., Marshall, M., Jackson, B., Frogbrook, Z., Solloway, I., Francis, O. and Chell, J. 2008. Impacts of upland management on flood risk: multi-scale modelling on methodology and results from the Pontbren Experiment. FRMRC Research Report UR 16. December 2008.",
+                "format": "HTML",
+                "hash": "",
+                "id": "ede9139c-3655-4137-8edf-937202279632",
+                "last_modified": null,
+                "metadata_modified": "2015-08-27T17:38:27.790623",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Report",
+                "package_id": "a995fbd8-ff75-4281-a391-168a1d843d8d",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://nora.nerc.ac.uk/5890/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-27T17:38:27.790629",
+                "description": "Marshall, M.R., Francis, O.J., Frogbrook, Z.L., Jackson, B.M., McIntyre, N., Reynolds, B., Solloway, I., Wheater, H.S. and Chell, J. 2009. The impact of upland land management on flooding: results from an improved pasture hillslope. Hydrological Processes, 23, 464-475.",
+                "format": "HTML",
+                "hash": "",
+                "id": "73f2b333-a80a-4a56-8e5a-667339af5292",
+                "last_modified": null,
+                "metadata_modified": "2015-08-27T17:38:27.790629",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Paper",
+                "package_id": "a995fbd8-ff75-4281-a391-168a1d843d8d",
+                "position": 2,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://nora.nerc.ac.uk/5879/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-27T17:38:27.790634",
+                "description": "Get a copy of this data",
+                "format": "HTML",
+                "hash": "",
+                "id": "bb87a289-f718-4bcd-86f2-883a3903c954",
+                "last_modified": null,
+                "metadata_modified": "2015-08-27T17:38:27.790634",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download the data",
+                "package_id": "a995fbd8-ff75-4281-a391-168a1d843d8d",
+                "position": 3,
+                "resource_locator_function": "order",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://catalogue.ceh.ac.uk/download?fileIdentifier=968441d3-ce4e-4117-959f-40f36a6a0305",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-27T17:38:27.790638",
+                "description": "Documents available to assist with re-use of this dataset.",
+                "format": "PDF",
+                "hash": "",
+                "id": "24ba7687-fbc0-487e-b57c-9c090fbd8a24",
+                "last_modified": null,
+                "metadata_modified": "2015-08-27T17:38:27.790638",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Supporting documents",
+                "package_id": "a995fbd8-ff75-4281-a391-168a1d843d8d",
+                "position": 4,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://eidc.ceh.ac.uk/metadata/968441d3-ce4e-4117-959f-40f36a6a0305/zip_export",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

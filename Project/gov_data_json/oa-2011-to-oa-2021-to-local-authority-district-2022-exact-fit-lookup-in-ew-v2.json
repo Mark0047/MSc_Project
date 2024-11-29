@@ -1,0 +1,275 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "6cf42e73-d792-46d9-a771-39e3b5f7a608",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-09-20T22:01:46.087510",
+        "metadata_modified": "2024-11-17T07:02:30.195276",
+        "name": "oa-2011-to-oa-2021-to-local-authority-district-2022-exact-fit-lookup-in-ew-v2",
+        "notes": "<span style='box-sizing:border-box; max-width:100%; color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'>This is an exact-fit lookup file between Output Areas as at December 2011 and Output Areas as at December 2021 and Local Authority Districts as at December 2022 in England and Wales. This product has been provided with a 'change indicator' field, that define the lookup between 2011 and 2021 OA. This field indicates which output areas / super output areas have changed between 2011 and 2021.\u00a0</span><div><font color='#000000' face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:17px;'><br /></span></font></div><div><font color='#000000' face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:17px;'>This is a version 2 of the file as there has been 9 changes in the Change Indicator field from splits to complex<br /></span></font><div><span style='box-sizing:border-box; max-width:100%; color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'><br /></span></div><div><span style='box-sizing:border-box; max-width:100%; color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'>There are four designated categories to describe the changes, and these are as follows:</span></div><div><span style='box-sizing:border-box; max-width:100%; color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'><br /></span></div><div><span style='box-sizing:border-box; max-width:100%; color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'>U - No Change from 2011 to 2021. This means that direct comparisons can be made between these 2011 and 2021 OA.\u00a0</span></div><div><span style='box-sizing:border-box; max-width:100%; color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'>S - Split. This means that the 2011 OA has been split into two or more 2021 OA. There will be one record for each of the 2021 OA that the 2011 OA has been split into. This means direct comparisons can be made between estimates for the single 2011 OA and the estimates from the aggregated 2021 OA.</span></div><div><span style='box-sizing:border-box; max-width:100%; color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'>M - Merged. 2011 OA have been merged with another one or more 2011 OA to form a single 2021 OA. This means direct comparisons can be made between the aggregated 2011 OAs\u2019 estimates and the single 2021 OA\u2019s estimates.</span></div><div><span style='box-sizing:border-box; max-width:100%; color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'>X - The relationship between 2011 and 2021 OA is irregular and fragmented. This has occurred where 2011 OA have been redesigned because of local authority district boundary changes, or to improve their social homogeneity. These can\u2019t be easily mapped to equivalent 2021 OA like the regular splits (S) and merges (M), and therefore like for like comparisons of estimates for 2011 OA and 2021 OA are not possible.\u00a0\u00a0</span></div><div><span style='box-sizing:border-box; max-width:100%; color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'><br /></span></div><div><span style='box-sizing:border-box; max-width:100%; color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'>Field Names \u2013 OA11CD, CHNGIND, OA21CD, LAD22CD, LAD22NM, LAD22NMW\u00a0</span></div><div><span style='box-sizing:border-box; max-width:100%; color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'>Field Types \u2013 Text, Text, Text, Text, Text, Text</span></div><div><span style='color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:17px;'>Field Lengths \u2013 9, 1, 9, 9, 35, 24</span></div></div>",
+        "num_resources": 4,
+        "num_tags": 16,
+        "organization": {
+            "id": "d5b50862-3f2a-4b7b-ad85-841b6def43be",
+            "name": "office-for-national-statistics",
+            "title": "Office for National Statistics",
+            "type": "organization",
+            "description": "The Office for National Statistics (ONS) is the UK\u2019s largest independent producer of official statistics and is the recognised national statistical institute for the UK. It is responsible for collecting and publishing statistics related to the economy, population and society at national, regional and local levels. It also conducts the census in England and Wales every ten years. \r\n\r\nThe ONS plays a leading role in national and international good practice in the production of official statistics. It is the executive office of the UK Statistics Authority and although they are separate, they are still closely related.\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:40.553767",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "d5b50862-3f2a-4b7b-ad85-841b6def43be",
+        "private": false,
+        "state": "active",
+        "title": "OA (2011) to OA (2021) to Local Authority District (2022) Exact Fit Lookup in EW (V2)",
+        "type": "dataset",
+        "url": "https://open-geography-portalx-ons.hub.arcgis.com/datasets/ons::oa-2011-to-oa-2021-to-local-authority-district-2022-exact-fit-lookup-in-ew-v2",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2023-03-29T15:17:29.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2023-03-30T07:35:32.496Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Office for National Statistics"
+            },
+            {
+                "key": "guid",
+                "value": "https://www.arcgis.com/home/item.html?id=e5cad65c2a3e4c49afb79ad4fc4d6a67&sublayer=0"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-19T08:15:15.740567",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "e96c5c14-59e7-4cc2-9930-10357dc256b8",
+                "last_modified": null,
+                "metadata_modified": "2024-09-19T08:15:15.655651",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS Hub Dataset",
+                "package_id": "6cf42e73-d792-46d9-a771-39e3b5f7a608",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://open-geography-portalx-ons.hub.arcgis.com/datasets/ons::oa-2011-to-oa-2021-to-local-authority-district-2022-exact-fit-lookup-in-ew-v2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-20T22:01:46.105202",
+                "description": null,
+                "format": "ArcGIS GeoServices REST API",
+                "hash": "",
+                "id": "5cab177b-1e14-4668-b2c5-74ebc399c024",
+                "last_modified": null,
+                "metadata_modified": "2023-09-20T22:01:46.057216",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "ArcGIS GeoService",
+                "package_id": "6cf42e73-d792-46d9-a771-39e3b5f7a608",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/OA11_OA21_LAD22_EW_LU_Exact_fit_V2/FeatureServer/0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T22:01:42.256282",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "fc2de615-3a11-40d7-9cc6-46f0e73fef24",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T22:01:42.120232",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CSV",
+                "package_id": "6cf42e73-d792-46d9-a771-39e3b5f7a608",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://open-geography-portalx-ons.hub.arcgis.com/api/download/v1/items/e5cad65c2a3e4c49afb79ad4fc4d6a67/csv?layers=0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-02-08T22:01:42.256287",
+                "description": null,
+                "format": "GeoJSON",
+                "hash": "",
+                "id": "20c5902d-aea3-4fe1-8357-d1a7865b9185",
+                "last_modified": null,
+                "metadata_modified": "2024-02-08T22:01:42.120325",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GeoJSON",
+                "package_id": "6cf42e73-d792-46d9-a771-39e3b5f7a608",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://open-geography-portalx-ons.hub.arcgis.com/api/download/v1/items/e5cad65c2a3e4c49afb79ad4fc4d6a67/geojson?layers=0",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "2021",
+                "id": "3c639fe3-9869-4e15-9779-367bc71bfae1",
+                "name": "2021",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "2021_Census",
+                "id": "72e86ec0-5919-4608-8c47-1fefd746fca9",
+                "name": "2021_Census",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Census Lookups",
+                "id": "701618f9-ead9-4c93-9a58-be67e40566e6",
+                "name": "Census Lookups",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "DEC_2021",
+                "id": "38dfdda9-5012-4a77-9d58-506cb2cf35b3",
+                "name": "DEC_2021",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "England and Wales",
+                "id": "d275e21e-e8a8-46d8-861c-64503f438509",
+                "name": "England and Wales",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LAD",
+                "id": "fcb53e8e-5513-4757-8719-d4bcda8a0c43",
+                "name": "LAD",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LUP_CEN",
+                "id": "853ff047-07fe-43a5-abc6-a5dd379d606c",
+                "name": "LUP_CEN",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LUP_EXACT_OA11_OA21",
+                "id": "d2c174a3-ba36-46f7-b6b7-866a5324d4b3",
+                "name": "LUP_EXACT_OA11_OA21",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LUP_OA_2021",
+                "id": "b40f6f6e-4ea1-412c-bbc7-f669f15b4ccb",
+                "name": "LUP_OA_2021",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "LUP_OA_2021_LAD",
+                "id": "3c14ecff-57bf-4607-9e9e-a75c59bff208",
+                "name": "LUP_OA_2021_LAD",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Local Authority",
+                "id": "f18f21f7-537e-4e39-a08b-279cd89bdcbd",
+                "name": "Local Authority",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Local Authority District",
+                "id": "bfe81116-433c-4c49-ba35-7dc95b933c6c",
+                "name": "Local Authority District",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Local Authority Districts",
+                "id": "a875b8b6-2e63-4eb5-801c-9111a07c5ff2",
+                "name": "Local Authority Districts",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Output Area",
+                "id": "14c80c7e-37a2-4c1e-a7f5-317a95e59e77",
+                "name": "Output Area",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Output Areas",
+                "id": "39595f17-8b4d-4d63-a1ab-ddf8bc4377ee",
+                "name": "Output Areas",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Version 2",
+                "id": "5e9971b4-7443-45e0-bb10-4644ab3a6787",
+                "name": "Version 2",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "27c121c3-9673-4615-b269-8bec038c95c9"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "d17fefd3-f723-4e12-becd-6b938795a9b3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "open-geography-portalx"
+            }
+        ]
+    }
+}

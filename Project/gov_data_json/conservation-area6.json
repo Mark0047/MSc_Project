@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "conservation@sthelens.gov.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "4ba5d912-ce2f-4670-981f-3cbaf3df26c4",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2022-12-01T10:54:19.547205",
+        "metadata_modified": "2024-04-29T15:43:37.239500",
+        "name": "conservation-area6",
+        "notes": "Polygon data displaying the location of Conservation Areas within St Helens MBC. Table fields include unique reference and name.",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+            "name": "st-helens-council",
+            "title": "St Helens Council",
+            "type": "organization",
+            "description": "(St Helens Metropolitan Borough Council)",
+            "image_url": "",
+            "created": "2012-06-27T14:50:48.582845",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "228796a3-b43f-4602-88c5-f52cc1f6f224",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2000-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2000-01-01"
+        ],
+        "title": "Conservation Area",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations apply\", \"Use according to license\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.5758"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.5358"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.3842"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.8267"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2022-07-28T16:00:00\"}, {\"type\": \"revision\", \"value\": \"2021-07-18T15:03:41\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "e12e6b97373f67a3c834a58366e9a5f3298f96d0dc4ec4b5821191b8cb5a7a89"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7c5c0947-fb0e-4473-82a2-6796fead70af"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-04-02T13:42:40"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": "onGoing"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "St Helens MBC (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.5758, 53.3842], [-2.8267, 53.3842], [-2.8267, 53.5358], [-2.5758, 53.5358], [-2.5758, 53.3842]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "EPSG:27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96423a5d-c812-4893-9e69-a565d00f87c0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "St Helens Council INSPIRE Metadata CSW"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-29T15:43:37.267283",
+                "description": "conservation_area",
+                "format": "",
+                "hash": "",
+                "id": "574d4a9e-40f8-475a-8fac-8cce7e7f73a8",
+                "last_modified": null,
+                "metadata_modified": "2024-04-29T15:43:37.245031",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": ":conservation_area",
+                "package_id": "4ba5d912-ce2f-4670-981f-3cbaf3df26c4",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.sthelens.gov.uk/getows.ashx?mapsource=mapsources/inspire&version=1.1.0&service=WFS&request=GetFeature&TypeName=conservation_area",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-04-29T15:43:37.267286",
+                "description": "conservation_area",
+                "format": "",
+                "hash": "",
+                "id": "81481009-53da-4ea3-a53c-7eaf8cdfbcfb",
+                "last_modified": null,
+                "metadata_modified": "2024-04-29T15:43:37.245135",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "conservation_area",
+                "package_id": "4ba5d912-ce2f-4670-981f-3cbaf3df26c4",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://maps.sthelens.gov.uk/getows.ashx?MAPSOURCE=mapsources/inspire&service=WMS&request=GetCapabilities",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Location",
+                "id": "34de5497-97a6-4765-afb0-010add38f5d7",
+                "name": "Location",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Protected sites",
+                "id": "04acf8d9-6f39-474f-baf4-4ed8df70bc21",
+                "name": "Protected sites",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7affcff1-d9b3-4393-91fa-b759ce83b9cd"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "96423a5d-c812-4893-9e69-a565d00f87c0"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "St Helens Council INSPIRE Metadata CSW"
+            }
+        ]
+    }
+}

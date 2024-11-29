@@ -1,0 +1,117 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": false,
+        "creator_user_id": "23f5eacf-6039-4352-9bd5-98ab0809d432",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "geographic_coverage": "100000: England",
+        "id": "818da09c-accf-48a2-9be5-179974dc2b62",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-07-08T13:39:30.623265",
+        "metadata_modified": "2017-10-19T10:50:33.618571",
+        "name": "abeyance-and-dispersal-gps",
+        "notes": "Abeyance and Dispersal GP Codes \r\n\r\nContains: \r\n\r\nUsually, when a GP retires or leaves a practice, a successor is appointed prior to the departure of the \r\noutgoing GP. In such cases, if the GP in question holds their own 'list' of patients on the Practice and \r\nNHAIS systems, these are transferred to the new GP (referred to as the successor) using bulk \r\ntransfer processes. There are, however, two circumstances where this is not possible: \r\n\r\nWhere a successor has yet to be appointed, the NHAIS system currently offers the facility to set the \r\nindividual GP list to 'abeyance'. This leaves the patients technically registered with the departing GP \r\nuntil a successor can be obtained. In practice, the patients are usually still treated by the remaining \r\npartners in the practice, or sometimes a locum is employed temporarily by the practice. This process \r\nensures the practice list is still calculated appropriately for payment. \r\n\r\nWhen a successor is not actively being sought, the NHAIS dispersal function is used; patients \r\nregistered with the GP are written to advising them to register with a new GP. \r\nIn order to ensure that NSTS and PDS are correct, it is necessary to set up Abeyance/Dispersal \r\ncodes; these take the form of GP Practitioner format codes which relate to a practice rather than an \r\nindividual GP, and ODS has responsibility for this. \r\n",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "2a638dd6-7ad6-4081-8de3-732200f553fa",
+            "name": "nhs-digital",
+            "title": "NHS Digital",
+            "type": "organization",
+            "description": "NHS Digital is the national provider of information, data and IT systems for health and social care.\r\n\r\nIt was previously called 'The Health and Social Care Information Centre (HSCIC)'",
+            "image_url": "",
+            "created": "2013-08-30T11:29:36.442429",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2a638dd6-7ad6-4081-8de3-732200f553fa",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "",
+        "temporal_coverage-to": "",
+        "theme-primary": "health",
+        "theme-secondary": [
+            ""
+        ],
+        "title": "Abeyance and Dispersal GPs",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-07-08T14:39:30.660077",
+                "description": "ODS news and change notification",
+                "format": "HTML",
+                "hash": "",
+                "id": "e61a4560-0ed1-478b-aba3-edc6874ee337",
+                "last_modified": null,
+                "metadata_modified": "2015-07-08T14:39:30.660077",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "818da09c-accf-48a2-9be5-179974dc2b62",
+                "position": 0,
+                "resource_type": "documentation",
+                "scraper_url": "",
+                "size": null,
+                "state": "active",
+                "url": "https://digital.nhs.uk/organisation-data-service/news-and-updates",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-07-08T14:39:30.660088",
+                "description": "Abeyance and Dispersal GPs",
+                "format": "ZIP",
+                "hash": "",
+                "id": "7faad7c6-9b12-466b-b281-d90fc3c7f882",
+                "last_modified": null,
+                "metadata_modified": "2015-07-08T14:39:30.660088",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "818da09c-accf-48a2-9be5-179974dc2b62",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://digital.nhs.uk/media/385/eabeydispgp/zip/eabeydispgp",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

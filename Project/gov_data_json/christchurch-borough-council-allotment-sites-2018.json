@@ -1,0 +1,205 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GIS@christchurchandeastdorset.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "5e5ff7ac-0e4b-4b39-bbf5-8cc0d41f8d78",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-03-27T15:20:25.545082",
+        "metadata_modified": "2018-02-22T09:53:47.125888",
+        "name": "christchurch-borough-council-allotment-sites-2018",
+        "notes": "Christchurch Borough Council Allotment Sites 2018",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "921cb31a-e838-464c-a78b-4992348e3507",
+            "name": "christchurch-borough-council",
+            "title": "Christchurch Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:37.409677",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "921cb31a-e838-464c-a78b-4992348e3507",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "Christchurch Borough Council Allotment Sites 2018",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.68468"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "50.7513"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50.7325"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-1.79029"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2014-12-09\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": ""
+            },
+            {
+                "key": "guid",
+                "value": "3d9e9a9b-9993-46a9-841c-8e83c838fb94"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "06deeb72-2a8d-4ba5-9ffe-5c0c5ec2efcc"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.astuntechnology.com/christchurch/ChristchurchBoroughCouncilAllotmentSites2018.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Ordnance Survey End User Licence"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-02-22"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Christchurch Borough Council and East Dorset District Council Partnership (distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.68468, 50.7325],[-1.68468, 50.7513], [-1.79029, 50.7513], [-1.79029, 50.7325], [-1.68468, 50.7325]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "f654f698-d5da-4de0-8803-54edba3e855e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Christchurch Borough Council INSPIRE Service"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-02-12T12:40:36.668405",
+                "description": "Christchurch Borough Council INSPIRE View Service (WMS)",
+                "format": "WMS",
+                "hash": "",
+                "id": "fb687ab2-46c5-41d9-a7c6-c18c81394e9d",
+                "last_modified": null,
+                "metadata_modified": "2018-02-12T12:40:36.668405",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "View",
+                "package_id": "5e5ff7ac-0e4b-4b39-bbf5-8cc0d41f8d78",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC: WMS",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://geowessex.astuntechnology.com/getows.ashx?mapsource=GeoWessex/christchurchandeastdorset&service=WMS&version=1.1.1&Request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-02-12T12:40:36.668413",
+                "description": "Christchurch Borough Council INSPIRE Download Service (WFS)",
+                "format": "",
+                "hash": "",
+                "id": "77176c9e-bccb-4b5d-aaa2-183b59308bf5",
+                "last_modified": null,
+                "metadata_modified": "2018-02-12T12:40:36.668413",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Download",
+                "package_id": "5e5ff7ac-0e4b-4b39-bbf5-8cc0d41f8d78",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC: WFS",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://geowessex.astuntechnology.com/getows.ashx?mapsource=GeoWessex/christchurchandeastdorset&service=WFS&version=1.1.0&Request=GetFeature&TypeName=cbc_allotments",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "06deeb72-2a8d-4ba5-9ffe-5c0c5ec2efcc"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "f654f698-d5da-4de0-8803-54edba3e855e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Christchurch Borough Council INSPIRE Service"
+            }
+        ]
+    }
+}

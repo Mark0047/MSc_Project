@@ -1,0 +1,202 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "aphaopendata@apha.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "ffe6c5a4-e7f4-434d-9479-944aa0489db3",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-06-24T16:55:45.926372",
+        "metadata_modified": "2023-11-01T13:29:14.171493",
+        "name": "age-of-bse-cases-at-onset-by-year-gb",
+        "notes": "Youngest and oldest cases by year of onset (for passive surveillance cases) and by year of slaughter (for active surveillance cases) (GB) Attribution statement: \u00a9Crown Copyright, APHA 2016",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+            "name": "animal-and-plant-health-agency",
+            "title": "Animal and Plant Health Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2015-02-04T13:40:13.046442",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1986-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2015-12-31"
+        ],
+        "title": "Age of BSE cases at onset by year (GB)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.78"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.86"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.86"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.45"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2016-01-06\"}, {\"type\": \"publication\", \"value\": \"2016-01-06\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "26116561-a9c0-4a97-a373-01bb7eb1b88f"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "b88fbe3e-53b9-4e5f-affc-acdf00b1a302"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Animal & Plant Health Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.78, 49.86], [-8.45, 49.86], [-8.45, 60.86], [1.78, 60.86], [1.78, 49.86]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "155dcaa5-1587-4af5-b770-c2e07a18163e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "APHA Metadata Catalogue Harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:29:14.206870",
+                "description": "Resource locator",
+                "format": "CSV",
+                "hash": "",
+                "id": "f61d31e2-804a-4cf2-9cd5-ef94d7578e05",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:29:14.177566",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "ffe6c5a4-e7f4-434d-9479-944aa0489db3",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.defra.gov.uk/Agriculture/APHA0261-Age_of_BSE_cases_at_onset_by_year_(GB).csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "statistics",
+                "id": "8c698bb4-2710-484f-b359-24911320640f",
+                "name": "statistics",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "surveillance",
+                "id": "152602b6-3112-4e17-b994-8b4ff3311969",
+                "name": "surveillance",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "841d9f1e-6583-471f-af44-940dbba48621"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "155dcaa5-1587-4af5-b770-c2e07a18163e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "APHA Metadata Catalogue Harvest"
+            }
+        ]
+    }
+}

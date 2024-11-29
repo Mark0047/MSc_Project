@@ -1,0 +1,214 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "spatialhub@improvementservice.org.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "df3974f8-f64d-4a61-a668-ee0a2d8ddcaf",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-04-30T20:02:59.538125",
+        "metadata_modified": "2024-09-06T17:14:14.186763",
+        "name": "local-development-plans-scotland",
+        "notes": "This metadata record refers to the polygon dataset. The point and polyline datasets are obsolete prototypes, for the moment, and this record will be corrected as these datasets are republished.\n\nThe Local Development Plan dataset is a composition of Local Development Plans supplied by local authorities and national parks in Scotland. It is intended to provide a spatial overview of common policies across Scotland. The authoritative data source is the originating data supplied by the planning authority and the authoritative plan is that which is published as approved and adopted by the planning authority, which may not be in a digital format. \n\nDevelopment plans set out the long term vision for where development should and shouldn\u2019t happen in the places they cover. The local development plan is the principal land use planning document used in assessing applications for planning permission, based upon national, regional and local policies and proposals. It is the most significant material consideration in determining such applications and reference to the local development plan is essential for most types of proposed development. The main spatial element is typically the policies and proposals map, which is created from the data that is also used in this dataset. Some policies will be plan-wide, and not reproduced spatially, so this dataset contains policy data that is linked to a discrete area within the planning authority area. \n\nIn addition to the local development plan, reference should be made to National Planning Framework 4 and supplementary guidance that is included in the development plan. \n\nUpdate and reference to other datasets\n\nThis dataset will be updated as and when development plans are replaced and formally adopted by authorities, on a minimum quarterly basis in operational terms each year. Local development plans are currently replaced on a five year basis and will be further modified by the forthcoming Planning Act, likely moving to a ten year cycle with interim updates, although it is not yet clear on how updates will be prepared. If proposed and draft plans (and other datasets, such as issues reports) are published on the Spatial Hub, this will be as a separate dataset. \n\nThis dataset should be used in conjunction with other planning related datasets available on the Spatial Hub, notably planning applications, conservation areas, housing land and employment land. There may be some duplication with related layers, due to the ways that particular authorities may share data, and this will be resolved on a layer-by-layer basis as this dataset (and others) are developed. This is also true for some national datasets, such as statutory designations for natural heritage: these typically originate with other agencies although they are often published as part of a local development plan. This will also be resolved, in data architecture terms, through dialogue with these key agencies.\n\nGeometries\n\nThere are three layers within this dataset, for point, polyline and polygon features. Not all authorities capture all three feature types.\n\n\nCategorisation\n\nThe dataset has a basic taxonomy of \"type\" which is a short description of the type of land use, where this can be identified, from the attribute data. Other attributes refer to \"feature_name\", a reproduction of what is provided that best fits the name of a site or area, similar for \"reference\" where such data is provided, and also \"year\" and \"status\" for the year of plan adoption, draft publication or proposal or similar.\n\nKnown Issues\n\nThis is an early release of the dataset, which will change further following consultation with users, planning authorities and other stakeholders. In the longer term, a move towards common standards and categorisation will be promoted. \n\nFurther Information\n\nThe definitive description is contained within the published Development Plan Scheme for each planning authority, available online. \n\nReference can also be made to Scottish Government policy on development plans: \n\nhttps://www.gov.scot/policies/planning-architecture/development-plans/",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Local Development Plans - Scotland",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Limitations on public access\", \"Use of the data is available to any organisation that is a member of the PSGA (Public Sector Geospatial Agreement) or any UK academic institution via Edina's subscription Digimap service. It is not currently commercially available.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "0.3225"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "60.7478"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.3811"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-8.0298"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2024-09-06\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "quarterly"
+            },
+            {
+                "key": "guid",
+                "value": "8e13ad58-41f2-4308-a3a8-5ffe8593e731"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "5f28298e-60fa-4cde-8bf8-0315216bde81"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-09-06T08:57:48.29Z"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "The Improvement Service (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[0.3225, 54.3811], [-8.0298, 54.3811], [-8.0298, 60.7478], [0.3225, 60.7478], [0.3225, 54.3811]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-06T17:14:14.223306",
+                "description": "A link to the CKAN metadata record on the Spatial Hub.  A direct link to the OGC Web Feature Service and Web Map Service is available here.",
+                "format": "",
+                "hash": "",
+                "id": "d0727f68-50ec-403b-ad75-2120fdb48ab1",
+                "last_modified": null,
+                "metadata_modified": "2024-09-06T17:14:14.192745",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Development Plans - Scotland",
+                "package_id": "df3974f8-f64d-4a61-a668-ee0a2d8ddcaf",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.spatialhub.scot/dataset/local_development_plans-is",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-06T17:14:14.223309",
+                "description": "EDINA Digimap Service",
+                "format": "",
+                "hash": "",
+                "id": "286f4e5b-02fc-4d4d-9b8b-17d748f96822",
+                "last_modified": null,
+                "metadata_modified": "2024-09-06T17:14:14.192828",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "EDINA Digimap Service",
+                "package_id": "df3974f8-f64d-4a61-a668-ee0a2d8ddcaf",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.spatialdata.gov.scot:443/geonetwork/srv/api/records/8e13ad58-41f2-4308-a3a8-5ffe8593e731/formatters/xml",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Area management/restriction/regulation zones and r",
+                "id": "85a96129-b6e5-46e1-8dd8-75fd5990e434",
+                "name": "Area management/restriction/regulation zones and r",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Land use",
+                "id": "1eab7f9d-d799-4488-9bb9-10a31d1ab298",
+                "name": "Land use",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "142787a5-587e-4591-b208-022caa247960"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

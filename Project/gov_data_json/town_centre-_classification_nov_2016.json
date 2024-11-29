@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "ac43e6fa-dc1c-4304-a48d-2b1856199b0e",
+        "frequency": "MANUAL",
+        "id": "977f2c6d-f0ca-456f-a8ab-7860fe21e3a7",
+        "metadata_created": "2019-11-29T15:44:10.894196",
+        "metadata_modified": "2019-11-29T15:44:10.894202",
+        "name": "town_centre-_classification_nov_2016",
+        "notes": "",
+        "organization": {
+            "id": "c9dab5a4-1305-45a8-b4a7-c22d4bc25a50",
+            "name": "hyndburn-borough-council",
+            "title": "Hyndburn Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:24:48.729435",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c9dab5a4-1305-45a8-b4a7-c22d4bc25a50",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "UKME WAF",
+        "type": "harvest",
+        "url": "\u2022Hyndburn_Borough_Council_Town_Centre_Classification_Nov_2016.xml",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1,
+            "last_job": {
+                "id": "b2516049-a0a2-410e-9733-c4adb02963f0",
+                "created": "2019-11-29 15:44:36.284984",
+                "gather_started": "2019-11-29 15:44:36.866668",
+                "gather_finished": "2019-11-29 15:44:36.873176",
+                "finished": "2019-11-29 15:44:36.873176",
+                "source_id": "977f2c6d-f0ca-456f-a8ab-7860fe21e3a7",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: \u2022Hyndburn_Borough_Council_Town_Centre_Classification_Nov_2016.xml: MissingSchema(\"Invalid URL '\\\\xe2\\\\x80\\\\xa2Hyndburn_Borough_Council_Town_Centre_Classification_Nov_2016.xml': No schema supplied. Perhaps you meant http://\\xe2\\x80\\xa2Hyndburn_Borough_Council_Town_Centre_Classification_Nov_2016.xml?\",)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 0
+        }
+    }
+}

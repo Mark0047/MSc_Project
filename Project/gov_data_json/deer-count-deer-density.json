@@ -1,0 +1,352 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "donald.fraser@nature.scot",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "6b7d1623-cf08-440c-b5e2-7100aa32d7bb",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2023-10-20T21:08:23.412869",
+        "metadata_modified": "2024-06-19T11:14:57.411926",
+        "name": "deer-count-deer-density",
+        "notes": "Deer group locations and sizes are used in assessing deer populations living on the \u2018open range\u2019. \u2018Open range\u2019 generally means open areas of habitat used mainly by red deer (for example, heather moorland). From the outset it is important to be clear that although the terms \u2018count\u2019 or \u2018census\u2019 are used, open range counting enables a population estimate to be made, but with associated error margins. Research has shown that, normally, estimates will vary by between 5 and 16%. In other words if you count 415 deer then the population estimate is at best between 348 and 481 (or at very best between 394 and 435). Open range population counts (and their resulting estimates) are therefore most likely to be useful for setting broad targets or giving an index of deer numbers as opposed to very precise population models. They are also useful for indicating trends in a series of counts.\nCount information can be obtained by joining table DEER_COUNT_INDEX based on COUNT_ID columns.\nBoth Helicopter and ground counts are included in the data. The majority of the data were collected in \u2018white ground\u2019 conditions where the contrast between deer and the background of snow is maximised enabling deer to be more easily spotted.\nSummer counts of 'Priority' sites are also included where sites have been counted more intensively.\nAttribute Name / Item Name / Description\nDIGI_CALVS / Digital Calves / DIGI = counted from a digital photo\nSUM_STAGS / SUM Stags / DIGI + VIS combined\nSUM_HINDS / SUM Hinds / DIGI + VIS combined\nSUM_CALVES / SUM Calves / DIGI + VIS combined\nSUM_UNCL / SUM Unclassified / DIGI + VIS combined UNCL = unclassified \u2013 so generally hinds and calves combined.\nSUM_TOTAL / SUM Total / Overall total for that group (not necessarily for the 1km2 as there may be 3 or 4 groups in the 1km2 at that point in time.\nCOUNT_ID / COUNT_ID / Provides link to accompanying csv file.\nDIGI_HINDS / Digital Hinds / DIGI = counted from a digital photo\nVIS_TOTAL / Visual Total / VIS = counted visually during the count\nDIGI_UNCL / Digital Unclassified / DIGI = counted from a digital photo UNCL = unclassified \u2013 so generally hinds and calves combined.\nDIGI_TOTAL / Digital Total / DIGI = counted from a digital photo\nVIS_STAG / Visual Stag / VIS = counted visually during the count\nVIS_HINDS / Visual Hinds / VIS = counted visually during the count\nVIS_CALVS / Visual Calves / VIS = counted visually during the count\nVIS_UNCL / Visual Unclassified / VIS = counted visually during the count UNCL = unclassified \u2013 so generally hinds and calves combined.\nDIGI_STAG / Digital Stag / DIGI = counted from a digital photo",
+        "num_resources": 8,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "title": "Deer Count - Deer Density",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available under the Open Government Licence (http://www.nationalarchives.gov.uk/doc/open-government-licence)\", \"Available under the Open Government Licence (http://www.nationalarchives.gov.uk/doc/open-government-licence)\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "15.227695"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "65.171944"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "45.501382"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-28.171997"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2010-10-29\"}, {\"type\": \"revision\", \"value\": \"2021-11-23\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "6c329424-ce0e-4595-84c5-39b3a2339ab2"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "fddfc34a-ac21-4f7d-bd2b-f0bea6ee3c8e"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-10-20T11:01:27"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[15.227695, 45.501382], [-28.171997, 45.501382], [-28.171997, 65.171944], [15.227695, 65.171944], [15.227695, 45.501382]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:57.443916",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "c2ca81eb-c27a-401b-86d6-8f68088af82f",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:57.417428",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI shapefile (EPSG:27700)",
+                "package_id": "6b7d1623-cf08-440c-b5e2-7100aa32d7bb",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DCD_SCOTLAND_SHP_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:57.443919",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "843e7276-c0c5-4675-900b-db6a61a0f0fd",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:57.417530",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI file geodatabase (EPSG:27700)",
+                "package_id": "6b7d1623-cf08-440c-b5e2-7100aa32d7bb",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DCD_SCOTLAND_GDB_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:57.443920",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "d73c06ee-1245-48d0-b3c2-0319dc8470eb",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:57.417605",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GML (EPSG:4258)",
+                "package_id": "6b7d1623-cf08-440c-b5e2-7100aa32d7bb",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DCD_SCOTLAND_GML_4258.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:57.443920",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3438f2f4-2db2-4f6b-9bd1-2764c80e5e13",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:57.417675",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoPackage (EPSG:27700)",
+                "package_id": "6b7d1623-cf08-440c-b5e2-7100aa32d7bb",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DCD_SCOTLAND_GPKG_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:57.443921",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "f1b5efb7-0d7f-435e-b626-dd4f0d8180b3",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:57.417742",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoJson (EPSG:4326)",
+                "package_id": "6b7d1623-cf08-440c-b5e2-7100aa32d7bb",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DCD_SCOTLAND_GEOJSON_4326.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:57.443922",
+                "description": "dcd",
+                "format": "",
+                "hash": "",
+                "id": "96e71b59-c871-48f9-b4b9-decacd84b362",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:57.417808",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "dcd",
+                "package_id": "6b7d1623-cf08-440c-b5e2-7100aa32d7bb",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wms?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:57.443923",
+                "description": "habitatsandspecies:dcd",
+                "format": "",
+                "hash": "",
+                "id": "97a23693-6ad6-4fb9-a3da-19d65cb93bca",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:57.417873",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "habitatsandspecies:dcd",
+                "package_id": "6b7d1623-cf08-440c-b5e2-7100aa32d7bb",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS-1.0.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/habitatsandspecies/wfs?request=GetCapabilities&service=wfs",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:57.443924",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "b41fe2d5-8996-46af-869c-05b9d3a67429",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:57.417935",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot OpenData Hub",
+                "package_id": "6b7d1623-cf08-440c-b5e2-7100aa32d7bb",
+                "position": 7,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.nature.scot/datasets/snh::deer-counts-deer-density",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Habitats and biotopes",
+                "id": "a6591241-3108-42a5-b540-46a56883592e",
+                "name": "Habitats and biotopes",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Species distribution",
+                "id": "0eed55a5-d9d8-4bcd-aa03-9a84030d9fbf",
+                "name": "Species distribution",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "b97b9cb8-5571-44ee-8dff-606a1545c0cd"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

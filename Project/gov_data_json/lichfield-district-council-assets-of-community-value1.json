@@ -1,0 +1,202 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@lichfielddc.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "983533cb-9b06-4d63-be0f-8d595342dfff",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-09-18T11:40:04.779707",
+        "metadata_modified": "2024-08-23T12:09:46.164427",
+        "name": "lichfield-district-council-assets-of-community-value1",
+        "notes": "The assets of community value of Lichfield District Council. Captured as boundaries against the Ordnance Survey OSMastermap layer.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "13fc54d5-4060-4ba5-ad73-3d407190e790",
+            "name": "lichfield-district-council",
+            "title": "Lichfield District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:44.003697",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "13fc54d5-4060-4ba5-ad73-3d407190e790",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "title": "Lichfield District Council Assets of Community Value",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Local Government Public Sector Mapping Agreement.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.679409"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.707147"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.680363"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-1.842084"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2016-06-29\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "92923168-9df8-45f5-8400-8b794c5a601a"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "751036e5-93c3-429e-b318-ed5eecd8614f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "e46d8dde-ee2e-4fe6-89e2-1caa9f7d3e3f"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/13fc54d5-4060-4ba5-ad73-3d407190e790/116-Assets_Community_Value.xml"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Public Sector INSPIRE WMS End User Licence. (http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html)"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2016-06-29"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Lichfield District Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Lichfield District Council (owner, pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.679409, 52.680363],[-1.679409, 52.707147], [-1.842084, 52.707147], [-1.842084, 52.680363], [-1.679409, 52.680363]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-19T15:50:18.236477",
+                "datafile-date": "",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "883815e9-ec2d-4fbb-bfaf-da2d8de210d7",
+                "last_modified": null,
+                "metadata_modified": "2024-08-23T12:07:50.498208",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Lichfield District Counil INSPIRE OGC WMS Service",
+                "package_id": "983533cb-9b06-4d63-be0f-8d595342dfff",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis.lichfielddc.gov.uk/arcgis/rest/services/PUBLIC/InspireLDC/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-19T15:50:18.236495",
+                "datafile-date": "",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "0535e8a2-a140-4904-a22e-4756766b0655",
+                "last_modified": null,
+                "metadata_modified": "2024-08-23T12:08:27.815723",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Lichfield District Council - how to nominate for a bid or asset",
+                "package_id": "983533cb-9b06-4d63-be0f-8d595342dfff",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.lichfielddc.gov.uk/downloads/download/37/community-rights---how-to-nominate-or-bid-for-an-asset",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "751036e5-93c3-429e-b318-ed5eecd8614f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "e46d8dde-ee2e-4fe6-89e2-1caa9f7d3e3f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

@@ -1,0 +1,183 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "info.services@ashford.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "b736e328-be1f-417f-a1ed-eb9fa360af05",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-01-09T08:20:18.598105",
+        "metadata_modified": "2016-02-10T17:08:32.690219",
+        "name": "ashford-borough-council-inspire-wfs",
+        "notes": "This interactive World Feature Service (WFS) displays geographically maintained or monitored areas in the borough of Ashford, Kent. ArcGIS polygon layers have been created for the map display and represent the extents of certain environmental, historical and regulated areas managed by Ashford Borough Council.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "e8e3e2e4-97ab-4798-ada8-950ff3ccaaff",
+            "name": "ashford-borough-council",
+            "title": "Ashford Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-10-22T10:15:45.070660",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e8e3e2e4-97ab-4798-ada8-950ff3ccaaff",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "government",
+        "title": "Ashford Borough Council Inspire WFS",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No limitations on public access apply.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.0265350362"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.2722259227"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.0483011315"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "0.6900787374"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[{\"href\": [\"https://locationmde.data.gov.uk/metadata-harvesting/e8e3e2e4-97ab-4798-ada8-950ff3ccaaff/\"], \"uuid\": [], \"title\": []}]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2014-11-19\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "e5e3c261-3c67-413e-8b40-e6ce7eefa134"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "cbae744b-1af5-4749-825d-044b60e6eb05"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/e8e3e2e4-97ab-4798-ada8-950ff3ccaaff/341-ABCInspire_WFS.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "ISO 19115 (UK GEMINI)"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-01-09"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Ashford Borough Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "service"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Ashford Borough Council (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[1.0265350362, 51.0483011315],[1.0265350362, 51.2722259227], [0.6900787374, 51.2722259227], [0.6900787374, 51.0483011315], [1.0265350362, 51.0483011315]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": "download"
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2679c413-4b26-42c9-9d95-68786c98ff4e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-05T23:21:50.535301', 'cache_filepath': u'/media/hulk/ckan_resource_cache/d4/d4bb6f1b-b3a9-4c10-8966-9d0cc9a9736b/WFSServer', 'last_success': '2016-02-05T23:21:50.535301', 'size': u'28181', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': None, 'hash': u'8b60fc36b6bc7b6e24e5eefc92020fc87401a5b3', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2016-02-01T14:31:46.427023', 'mimetype': u'text/xml', 'cache_url': u'http://data.gov.uk/data/resource_cache/d4/d4bb6f1b-b3a9-4c10-8966-9d0cc9a9736b/WFSServer', 'created': '2015-01-09T08:20:23.239687', 'first_failure': None}",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-01-09T08:20:18.675116",
+                "description": "Resource locator",
+                "format": "WFS",
+                "hash": "",
+                "id": "d4bb6f1b-b3a9-4c10-8966-9d0cc9a9736b",
+                "last_modified": null,
+                "metadata_modified": "2015-01-09T08:20:18.675116",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "b736e328-be1f-417f-a1ed-eb9fa360af05",
+                "position": 0,
+                "qa": "{'updated': '2016-02-06T19:54:10.053051', 'openness_score': 0, 'archival_timestamp': '2016-02-05T23:21:50.535301', 'format': u'WFS', 'created': '2015-01-09T08:20:23.411426', 'resource_timestamp': None, 'openness_score_reason': u'License not open'}",
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://newmaps.ashford.gov.uk/ArcGIS/services/abc_Inspire/MapServer/WFSServer",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "cbae744b-1af5-4749-825d-044b60e6eb05"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2679c413-4b26-42c9-9d95-68786c98ff4e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

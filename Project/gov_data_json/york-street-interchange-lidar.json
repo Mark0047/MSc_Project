@@ -1,0 +1,157 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "6d4ddfef-2bd8-4e78-8c5f-38cefdc7a9df",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-01-06T14:51:46.844491",
+        "metadata_modified": "2018-02-24T00:40:26.582611",
+        "name": "york-street-interchange-lidar",
+        "notes": "The LIDAR data encompassed the area around York Street where the junction of the M2, M3 and Westlink converge.  The LIDAR survey was carried out to enable measurement of elevation on the York Street Interchange scheme.  The raw LIDAR data is a series of points stored as x, y, z where x and y are longitude and latitude; z is the elevation in meters or feet.  The survey was carried out between July and September 2012 by Fugro-BKS Limited on behalf of DfI Roads to aid the design of the Interchange scheme at York Street.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "theme-primary": "mapping",
+        "theme-secondary": [
+            "Transport"
+        ],
+        "title": "York Street Interchange LIDAR",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "additional_info",
+                "value": "See B8484 York Street Interchange Survey Report for more information."
+            },
+            {
+                "key": "contact_email",
+                "value": "Roads.SRITEastern@infrastructure-ni.gov.uk"
+            },
+            {
+                "key": "contact_name",
+                "value": "DfI, Eastern Division, Strategic Road Improvements"
+            },
+            {
+                "key": "frequency",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "6d4ddfef-2bd8-4e78-8c5f-38cefdc7a9df"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "5167f183-aabc-4bda-9bab-37d6a3329de0"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "lineage",
+                "value": "BKS Topographical LIDAR aerial survey carried out at end of 2012 and data received from Survey company on 28/02/13."
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-02-19"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"https://www.opendatani.gov.uk/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2018-02-19T14:40:14.813629\", \"harvest_source_title\": \"OpenDataNI\", \"activity_occurred\": \"2018-02-24T00:40:26.534163\", \"activity\": \"harvest\", \"harvested_guid\": \"6d4ddfef-2bd8-4e78-8c5f-38cefdc7a9df\"}]"
+            },
+            {
+                "key": "topic_category",
+                "value": "[\"boundaries\", \"transportation\"]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-08-09T14:32:13.593047",
+                "description": "Zip file (2.5GB) containing part 1 of the raw LIDAR point cloud data in XYZ format",
+                "format": "ZIP",
+                "hash": "",
+                "id": "244ccef2-3eab-4c61-ac35-72852dc87749",
+                "last_modified": null,
+                "metadata_modified": "2016-08-09T14:32:13.593047",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "York Street Interchange 1",
+                "package_id": "6d4ddfef-2bd8-4e78-8c5f-38cefdc7a9df",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendatani.blob.core.windows.net/infrastructurelidar/York-Street-1.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-08-09T14:33:00.327346",
+                "description": "Zip file (2.84GB) containing part 2 of the raw point cloud LIDAR data in XYZ format",
+                "format": "ZIP",
+                "hash": "",
+                "id": "80b202f0-f05b-4a55-bca6-dd9d9f4f19a6",
+                "last_modified": null,
+                "metadata_modified": "2016-08-09T14:33:00.327346",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "York Street Interchange 2",
+                "package_id": "6d4ddfef-2bd8-4e78-8c5f-38cefdc7a9df",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendatani.blob.core.windows.net/infrastructurelidar/York-Street-2.zip",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5167f183-aabc-4bda-9bab-37d6a3329de0"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "",
+        "contact-name": "",
+        "contact-phone": "",
+        "core-dataset": false,
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "date_released": "2014-07-10",
+        "date_updated": "2015-08-13",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "geographic_coverage": "100000: England",
+        "geographic_granularity": "Country",
+        "id": "a7ccaf29-1915-45dc-aeeb-8524ef94fa5a",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2014-07-10T08:40:17.008751",
+        "metadata_modified": "2018-04-17T14:22:53.993461",
+        "name": "balance_sheet_analysis_and_farming_performance",
+        "notes": "This release presents the main results from an analysis of the profitability and resilience of farms in England using data from the Farm Business Survey. Six measures have been examined; liabilities, net worth, gearing ratios, liquidity, net interest payments as a proportion of Farm Business Income and Return on Capital Employed (ROCE).\r\n\r\n\r\nLink to main notice: https://www.gov.uk/government/collections/farm-business-survey#documents\r\nSurvey details\r\n\u00a0\r\nThe Farm Business Survey (FBS) is an annual survey providing information on the financial position and physical and economic performance of farm businesses in England. The sample of around 1,900 farm businesses covers all regions of England and all types of farming with the data being collected by face to face interview with the farmer. Results are weighted to represent the whole population of farm businesses that have at least 25 thousand Euros of standard output as recorded in the annual June Survey of Agriculture and Horticulture.  In 2012 there were just over 56 thousand farm businesses meeting this criteria. \r\n\u00a0\r\nThe data used for this analysis is from only those farms present in the Farm Business Survey (FBS) for 2010/11 to 2012/13. Those entering or leaving the survey in this period have been excluded. The sub sample consists of around 1490 farms. \r\n\u00a0\r\nFor further information about the Farm Business Survey please see: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs/series/farm-business-survey\r\n\u00a0\r\nData analysis\r\nThe results from the FBS relate to farms which have a standard output of at least 25,000 Euros. Initial weights are applied to the FBS records based on the inverse sampling fraction for each design stratum (farm type by farm size). These weights are then adjusted (calibration weighting) so that they can produce unbiased estimators of a number of different target variables. \r\n\u00a0\r\nAll data in this release is based on farms present in the FBS for 2010/11 to 2012/13 and that have complete returns on their assets and liabilities. Those entering or leaving the survey in this period have been excluded.  This sub sample consists of around 1490 farms. The results for this subsample have been reweighted using a method that preserves marginal totals for populations according to farm type and farm size groups. As such, farm population totals for other classifications (e.g. regions) will not be in-line with results using the main FBS weights, nor will any results produced for variables derived from the rest of the FBS (e.g. farm business income).\r\n\u00a0\r\nMeasures represent a three year average from 2010-2013, presented in 2012/2013 prices (uprated according to RPI inflation).  This helps to stabilise the fluctuations in income that can significantly change the financial position of a farm from year to year. \r\n\u000b\u00a0\r\nAccuracy and reliability of the results\r\n\u00a0\r\nWe show 95% confidence intervals against the results. These show the range of values that may apply to the figures. They mean that we are 95% confident that this range contains the true value. They are calculated as the standard errors (se) multiplied by 1.96 to give the 95% confidence interval (95% CI). The standard errors only give an indication of the sampling error. They do not reflect any other sources of survey errors, such as non-response bias. \r\n\u00a0\r\nFor the Farm Business Survey, the confidence limits shown are appropriate for comparing groups within the same year only; they should not be used for comparing with previous years since they do not allow for the fact that many of the same farms will have contributed to the Farm Business Survey in both years.\r\n\u00a0\r\nWe have also shown error bars on the figures in this notice. These error bars represent the 95% confidence intervals (as defined above).\r\n\u00a0\r\nFor the FBS, where figures are based on less than 5 observations these have been suppressed to prevent disclosure and where they are based on less than 15 observations these have been highlighted in the tables.\r\n\u00a0\r\nAvailability of results\r\n\u00a0\u00a0\r\nDefra statistical notices can be viewed on the Food and Farming Statistics pages on the Defra website at https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs/about/statistics. This site also shows details of future publications, with pre-announced dates. \r\n\r\nDefinitions\r\n\r\nMean\r\nThe mean (average) is found by adding up the weighted variable of interest (e.g. liabilities or net worth) for each individual farm in the population for analysis and dividing the result by the corresponding weighted number of farms. In this report average is usually taken to refer to the mean.\r\n\u00a0\r\nPercentiles\r\nThese are the values which divide the population for analysis, when ranked by an output variable (e.g. ROCE or net worth), into 100 equal-sized groups. For example, twenty five per cent of the population would have incomes below the 25th percentile.\r\n\u00a0\r\nMedian\r\nThe median divides the population, when ranked by an output variable, into two equal sized groups. The median of the whole population is the same as the 50th percentile. \r\n\u00a0\r\nFarm Type\r\nWhere reference is made to the type of farm in this document, this refers to the \u2018robust type\u2019, which is a standardised farm classification system. \r\n\u00a0\r\nFarm Sizes\r\nFarm sizes are based on the estimated labour requirements for the business, rather than its land area. The farm size bands used within the detailed results tables which accompany this publication are shown in the table below. Standard Labour Requirement (SLR) is defined as the theoretical number of workers required each year to run a business, based on its cropping and livestock activities.\r\n\u00a0\r\nFarm size\t\tDefinition\r\nSpare & Part time\tLess than 1 SLR\r\nSmall\t\t1 to less than 2 SLR\r\nMedium\t\t2 to less than 3 SLR\r\nLarge\t\t3 to less than 5 SLR\r\nVery Large\t\t5 or more SLR\r\n\u00a0\r\nAssets\r\nAssets include milk and livestock quotas, as well as land, buildings (including the farm house), breeding livestock, and machinery and equipment. For tenanted farmers, assets can include farm buildings, cottages, quotas, etc., where these are owned by the occupier. Personal possessions (e.g. jewellery, furniture, and possibly private cash) are not included.\r\n\u00a0\r\nNet worth\r\nNet worth represents the residual claim or interest of the owner in the business.  It is the balance sheet value of assets available to the owner of the business after all other claims against these assets have been met. Net worth takes total liabilities from total assets, including tenant type capital and land.  This describes the wealth of a farm if all of their liabilities were called in.\u000b\u00a0\r\nLiabilities\r\nLiabilities are the total debt (short and long term) of the farm business including monies owed. It includes mortgages, long term loans and monies owed for hire purchase, leasing and overdrafts.\r\n\u00a0\r\nTenant type capital \r\nTenant type capital comprises assets normally provided by tenants and includes livestock, machinery, crops and produce in store, stocks of bought and home-grown feeding stuffs and fodder, seeds, fertilisers, pesticides, medicines, fuel and other purchased materials, work in progress (tillages or cultivations), cash and other assets needed to run the business. Orchards, other permanent crops, such as soft fruit and hop gardens and glasshouses, are also generally considered to be tenant-type capital.\r\n\u00a0\r\nReturn on capital employed (ROCE) \r\nReturn on capital employed (ROCE) is a measure of the return that a business makes from the available capital. ROCE provides a more holistic view than profit margins, focusing on efficient use of capital and low costs and allowing an equal comparison across farms of differing sizes. It is calculated as economic profit divided by capital employed.\r\n\u00a0\r\nLiquidity ratio \r\nThe liquidity ratio shows the ability of a farm to finance its immediate financial demands from its current assets, such as cash, savings or stock. It is calculated as current assets divided by the current liabilities of the farms.\r\n\u00a0\r\nGearing ratio \r\nThe gearing ratio gives a farm\u2019s liabilities as a proportion of its assets\r\n\u00a0\r\nFarm business income (FBI)\r\nFarm Business Income (FBI) for sole traders and partnerships represents the financial return to all unpaid labour (farmers and spouses, non-principal partners and directors and their spouses and family workers) and on all their capital invested in the farm business, including land and buildings.  For corporate businesses it represents the financial return on the shareholders capital invested in the farm business. Note that prior to 2008/09 directors remuneration was not deducted in the calculation of farm business income.  It is used when assessing the impact of new policies or regulations on the individual farm business.  Although Farm Business Income is equivalent to financial Net Profit, in practice they are likely to differ because Net Profit is derived from financial accounting principles whereas Farm Business Income is derived from management accounting principles.  For example in financial accounting output stocks are usually valued at cost of production, whereas in management accounting they are usually valued at market price.  In financial accounting depreciation is usually calculated at historic cost whereas in management accounting it is often calculated at replacement cost.\r\n\u00a0\r\nNet Farm Income (NFI)\r\nNet Farm Income (NFI) is intended as a consistent measure of the profitability of tenant-type farming which allows farms of different business organisation, tenure and indebtedness to be compared.  It represents the return to the farmer and spouse alone for their manual and managerial labour and on the tenant-type capital invested in the farm business.\r\n\u00a0\r\nTo represent the return to farmer and spouse alone, a notional deduction is made for any unpaid labour provided by non-principal partners and directors, their spouses and by others; this unpaid labour is valued at average local market rates for manual agricultural work.\r\n\u00a0\r\nTo confine the measure to the tenant-type activities and assets of the business, an imputed rent is deducted for owner-occupied land and buildings and for landlord-type improvements made by the tenant.  No deduction is made for interest payments on any farming loans, overdrafts or mortgages; interest earned on financial assets is also excluded.\r\n\u00a0\r\nUtilised Agricultural Area (UAA)\r\nUtilised Agricultural Area (UAA) is the crop area, including fodder, set-aside land, temporary and permanent grass and rough grazing in sole occupation (but not shared rough grazing) i.e. the agricultural area of the farm.  It includes bare land and forage let out for less than one year.",
+        "num_resources": 3,
+        "num_tags": 0,
+        "odi-certificate": {
+            "status": "final",
+            "source": "Automatically awarded by ODI",
+            "certification_type": "automatically awarded",
+            "level": "bronze",
+            "title": "Balance sheet analysis and farming performance",
+            "created_at": "2014-10-29T16:28:30Z",
+            "jurisdiction": "GB",
+            "certificate_url": "https://certificates.theodi.org/en/datasets/10683/certificate",
+            "badge_url": "https://certificates.theodi.org/en/datasets/10683/certificate/badge.png",
+            "cert_title": "Bronze level certificate"
+        },
+        "organization": {
+            "id": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+            "name": "department-for-environment-food-and-rural-affairs",
+            "title": "Department for Environment, Food and Rural Affairs",
+            "type": "organization",
+            "description": "We are the UK government department responsible for policy and regulations on environmental, food and rural issues. Our priorities are to grow the rural economy, improve the environment and safeguard animal and plant health.\r\n\r\nDefra is a ministerial department, supported by 38 agencies and public bodies.\r\n\r\nhttps://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:39.115374",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "a7059f6a-7fb4-4e0f-9c7a-8cd9079780d3",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": "2010-04-06",
+        "temporal_coverage-to": "2013-04-05",
+        "theme-primary": "business-and-economy",
+        "theme-secondary": [
+            "Environment",
+            "Society"
+        ],
+        "title": "Balance sheet analysis and farming performance",
+        "type": "dataset",
+        "unpublished": false,
+        "update_frequency": "",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "categories",
+                "value": "Agriculture and Environment"
+            },
+            {
+                "key": "external_reference",
+                "value": "ONSHUB"
+            },
+            {
+                "key": "import_source",
+                "value": "ONS-ons_data_1_days_to_2014-07-10"
+            },
+            {
+                "key": "its-dataset",
+                "value": "false"
+            },
+            {
+                "key": "register",
+                "value": "false"
+            },
+            {
+                "key": "series",
+                "value": "Balance sheet analysis and farming performance"
+            },
+            {
+                "key": "sla",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-13T12:05:59.685125",
+                "description": "Link to web page on Gov.UK",
+                "format": "HTML",
+                "hash": "",
+                "id": "cefe5be4-63e6-41ab-a030-407d7b38f35b",
+                "last_modified": null,
+                "metadata_modified": "2015-08-13T12:05:59.685125",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "a7ccaf29-1915-45dc-aeeb-8524ef94fa5a",
+                "position": 0,
+                "resource_type": "documentation",
+                "scraper_url": "",
+                "size": null,
+                "state": "active",
+                "url": "https://www.gov.uk/government/statistics/balance-sheet-analysis-and-farming-performance-england-201011-20122013",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-13T12:05:59.685149",
+                "description": "Balance sheet analysis and farming performance - England 2010/11 - 2012/2013",
+                "format": "CSV",
+                "hash": "",
+                "id": "f39b8b35-8be0-4db3-91f8-9f3c67203c85",
+                "last_modified": null,
+                "metadata_modified": "2015-08-13T12:05:59.685149",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "a7ccaf29-1915-45dc-aeeb-8524ef94fa5a",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://data.defra.gov.uk/statistics_2015/food/fbs_balanceshtanalysis_dataset_10july14.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-13T12:11:53.007918",
+                "description": "Notes for Balance sheet analysis and farming performance - England 2010/11 - 2012/2013",
+                "format": "ODT",
+                "hash": "",
+                "id": "38c60ad0-7a72-4a89-925c-da8dc3f01104",
+                "last_modified": null,
+                "metadata_modified": "2015-08-13T12:11:53.007918",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "a7ccaf29-1915-45dc-aeeb-8524ef94fa5a",
+                "position": 2,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://data.defra.gov.uk/statistics_2015/food/notestoaccompany_balancesheetanalysisandfarmingperformance_england2010to2013_dataset.odt",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

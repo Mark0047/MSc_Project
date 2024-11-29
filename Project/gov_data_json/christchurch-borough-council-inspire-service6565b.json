@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MANUAL",
+        "id": "f654f698-d5da-4de0-8803-54edba3e855e",
+        "metadata_created": "2019-01-23T11:33:56.178923",
+        "metadata_modified": "2019-01-23T11:33:56.178933",
+        "name": "christchurch-borough-council-inspire-service6565b",
+        "notes": "",
+        "organization": {
+            "id": "921cb31a-e838-464c-a78b-4992348e3507",
+            "name": "christchurch-borough-council",
+            "title": "Christchurch Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:37.409677",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "921cb31a-e838-464c-a78b-4992348e3507",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "Christchurch Borough Council INSPIRE Service",
+        "type": "harvest",
+        "url": "http://inspire.astuntechnology.com/christchurch",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 14,
+            "last_job": {
+                "id": "4b377949-82a2-425b-9b74-95e66e225ad3",
+                "created": "2018-02-22 09:53:07.543888",
+                "gather_started": "2018-02-22 09:53:11.824596",
+                "gather_finished": "2018-02-22 09:53:13.960229",
+                "finished": "2018-02-22 09:54:14.888366",
+                "source_id": "f654f698-d5da-4de0-8803-54edba3e855e",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 12,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Content is not a valid Gemini document without the gmd:MD_Metadata element (http://inspire.astuntechnology.com/christchurch/index.html)",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 12
+        }
+    }
+}

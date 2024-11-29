@@ -1,0 +1,196 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "f8389c5f-cb73-4480-9dda-40bdccd8349f",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-12-21T08:48:17.018996",
+        "metadata_modified": "2020-04-12T08:17:11.984264",
+        "name": "mill-road-cambridge-monitoring-air-quality",
+        "notes": "<p>Cambridge City Council has been awarded grant funding from Defra to purchase new equipment to monitor air quality in and around and the Mill Road area. This data is also been used to understand the impact of the Mill Road bridge closure over the course of the summer of 2019.</p>\n<p><strong>This open data release is linked to the monitoring of traffic and pedestrian counts around Mill Road. The traffic data can be accessed here: <a href=\"https://data.cambridgeshireinsight.org.uk/dataset/mill-road-closure-traffic-sensor-data\">https://data.cambridgeshireinsight.org.uk/dataset/mill-road-closure-traffic-sensor-data</a></strong></p>\n<p>The data is available from the 08/07/2019 to 27/10/2019.</p>\n<p><em><strong>****Please note- Data for sensors\u00a0189245 and 292245 was unable to be extracted for the most recently release. This is being investigated****</strong></em></p>\n<p>The data in this release is broken down by hourly increments.\u00a0</p>\n<p><strong>Please note that this is the raw data without any verification / correction factors applied.</strong></p>\n<p>The data extracts are broken down by pollutent:</p>\n<ul><li>NO2- Nitrogen Dioxide</li>\n<li>PM2.5:Particulate Matter 2.5</li>\n<li>PM10: Particulate Matter 10</li>\n</ul><p><strong>Field Descriptions:</strong></p>\n<p>Serial Number_Pollutant_<strong>PreScaled-\u00a0</strong>un-calibrated (prior to ratification)</p>\n<p>Serial Number_Pollutant_<strong>Scaled-\u00a0</strong>calibrated\u00a0<strong>\u00a0(This is the raw data without any verification / correction factors applied.)</strong></p>\n<p>Serial Number_Pollutant_<strong>Unit-\u00a0</strong>unit measurement</p>\n<p>Serial Number_Pollutant_<strong>Slope-\u00a0</strong>slope of the line used in linear regression to calibrate the monitor (not used in pre-scaled results)</p>\n<p>Serial Number_Pollutant_<strong>Offset-\u00a0</strong>\u2013 data offset of the line used in the linear regression to calibrate the monitor (not used in pre-scaled results)</p>\n",
+        "num_resources": 4,
+        "num_tags": 3,
+        "organization": {
+            "id": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+            "name": "cambridgeshire-insight",
+            "title": "Cambridgeshire Insight",
+            "type": "organization",
+            "description": "The Cambridgeshire Insight Partnership is made up of public, health and community bodies to provide a shared research knowledge base for the Cambridgeshire area. It allows users an easy way to access and share data, information and research for deeper insights about their local area. See more at https://cambridgeshireinsight.org.uk",
+            "image_url": "",
+            "created": "2014-05-19T12:10:18.790087",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "9210eb47-4a5e-4c4a-9edd-8f8466a21f0e",
+        "private": false,
+        "state": "active",
+        "title": "Mill Road Cambridge: Monitoring Air Quality",
+        "type": "dataset",
+        "url": "https://data.cambridgeshireinsight.org.uk/dataset/mill-road-cambridge-monitoring-air-quality",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2019-08-28"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2019-10-29"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Cambridge City Council, Smart Cambridge"
+            },
+            {
+                "key": "guid",
+                "value": "63ae928d-a310-4763-921a-dfe23db1651c"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "64be4466-fdba-4b7a-9b35-984aa0124a38"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T08:48:17.042030",
+                "description": "<p>A list of locations of Air Quality Monitoring Sensors monitoring the impact of the Mill Road Bridge closure including Easting/Northing and Latitude/Longitude fields.</p>\n<p><strong>This dataset also includes the serial number of each sensor, which is the key idenifier in the raw extract.</strong></p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "438a603d-3454-4242-bdfa-1613bb170fc2",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T08:48:17.042030",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Mill  Road Trial: Sensor Point Location",
+                "package_id": "f8389c5f-cb73-4480-9dda-40bdccd8349f",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/Sensor%20Location_PointLocation_0.CSV",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T08:48:17.042036",
+                "description": "<p style=\"text-align: center;\"><strong>Pollutent Description:</strong></p>\n<p>Airborne Particulate Matter (PM) includes a wide range of particle sizes and different chemical constituents. It consists of both primary components, which are emitted directly into the atmosphere, and secondary components, which are formed within the atmosphere as a result of chemical reactions. Of greatest concern to public health are the particles small enough to be inhaled into the deepest parts of the lung. Air Quality Objectives are in place for the protection of human health for PM10 and PM2.5 \u2013 particles of less than 10 and 2.5 micrometres in diameter, respectively.</p>\n<p>The data is available from 08/07/19 to 28/10/19.</p>\n<p>Initially, the data will be updated at weekly intervals and monthly thereafter.</p>\n<p>The data in this release file is broken down by hourly increments.</p>\n<p><strong>The fields within the dataset are based around the individual serial numbers of the sensors. The location of the sensors, including the individual serial numbers, can be accessed here:\u00a0<a href=\"https://data.cambridgeshireinsight.org.uk/dataset/mill-road-cambridge-air-quality-monitoring/resource/c887ac0d-a812-4ebd-bb37-e4fa689ae9a9\">https://data.cambridgeshireinsight.org.uk/dataset/mill-road-cambridge-air-quality-monitoring/resource/c887ac0d-a812-4ebd-bb37-e4fa689ae9a9</a></strong></p>\n<p><em><strong>****Please note- Data for sensors\u00a0189245 and 292245 was unable to be extracted for the most recently release. This is being investigated****</strong></em></p>\n<p style=\"text-align: center;\"><strong>Field Descriptions:</strong></p>\n<p>Serial Number_Pollutant_<strong>PreScaled</strong>- un-calibrated (prior to ratification)</p>\n<p>Serial Number_Pollutant_<strong>Scaled</strong>- calibrated\u00a0 (This is the raw data without any verification / correction factors applied.)</p>\n<p>Serial Number_Pollutant_<strong>Unit</strong>- unit measurement</p>\n<p>Serial Number_Pollutant_<strong>Slope</strong>- slope of the line used in linear regression to calibrate the monitor (not used in pre-scaled results)</p>\n<p>Serial Number_Pollutant_<strong>Offset</strong>- \u2013 data offset of the line used in the linear regression to calibrate the monitor (not used in pre-scaled results)</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "429792ed-778d-4549-b124-57aca5e117b0",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T08:48:17.042036",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Mill Road Air Quality: PM 10",
+                "package_id": "f8389c5f-cb73-4480-9dda-40bdccd8349f",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/PM10%20hourly%20raw%20080719_271019.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T08:48:17.042039",
+                "description": "<p style=\"text-align: center;\"><strong>Pollutent Description</strong></p>\n<p><span style=\"color: rgb(94, 102, 111); font-family: Montserrat; font-size: 16px;\">Airborne Particulate Matter (PM) includes a wide range of particle sizes and different chemical constituents. It consists of both primary components, which are emitted directly into the atmosphere, and secondary components, which are formed within the atmosphere as a result of chemical reactions. Of greatest concern to public health are the particles small enough to be inhaled into the deepest parts of the lung. Air Quality Objectives are in place for the protection of human health for PM10 and PM2.5 \u2013 particles of less than 10 and 2.5 micrometres in diameter, respectively.</span></p>\n<p><font color=\"#5e666f\" face=\"Montserrat\"><span style=\"font-size: 16px;\">The data is available from 08/07/19 to 28/10/19</span></font></p>\n<p>The data in this release file is broken down by hourly increments.</p>\n<p><em><strong>****Please note- Data for sensors\u00a0189245 and 292245 was unable to be extracted for the most recently release. This is being investigated****</strong></em></p>\n<p><strong>The fields within the dataset are based around the individual serial numbers of the sensors. The location of the sensors, including the individual serial numbers, can be accessed here:\u00a0<a href=\"https://data.cambridgeshireinsight.org.uk/dataset/mill-road-cambridge-air-quality-monitoring/resource/c887ac0d-a812-4ebd-bb37-e4fa689ae9a9\">https://data.cambridgeshireinsight.org.uk/dataset/mill-road-cambridge-air-quality-monitoring/resource/c887ac0d-a812-4ebd-bb37-e4fa689ae9a9</a></strong></p>\n<p style=\"text-align: center;\"><strong>Field Descriptions:</strong></p>\n<p>Serial Number_Pollutant_<strong>PreScaled</strong>- un-calibrated (prior to ratification)</p>\n<p>Serial Number_Pollutant_<strong>Scaled</strong>- calibrated\u00a0 (This is the raw data without any verification / correction factors applied.)</p>\n<p>Serial Number_Pollutant_<strong>Unit</strong>- unit measurement</p>\n<p>Serial Number_Pollutant_<strong>Slope</strong>- slope of the line used in linear regression to calibrate the monitor (not used in pre-scaled results)</p>\n<p>Serial Number_Pollutant_<strong>Offset-</strong> \u2013 data offset of the line used in the linear regression to calibrate the monitor (not used in pre-scaled results)</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "60b187ba-146d-437b-9522-ce9df80ba6bf",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T08:48:17.042039",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Mill Road Air Quality: PM 2.5",
+                "package_id": "f8389c5f-cb73-4480-9dda-40bdccd8349f",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/PM2.5%20hourly%20raw%20080719_271019.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-21T08:48:17.042040",
+                "description": "<p style=\"text-align: center;\"><strong>Pollutent Description</strong></p>\n<p>Combustion processes emit a mixture of nitrogen oxides (NOX), primarily nitric oxide (NO) which is quickly oxidised in the atmosphere to nitrogen dioxide (NO2). Nitrogen dioxide has a variety of environmental and health impacts. It is a respiratory irritant which may exacerbate asthma and possibly increase susceptibility to infections. In the presence of sunlight, it reacts with hydrocarbons to produce photochemical pollutants such as ozone. NO2 can be further oxidised in air to acidic gases, which contribute towards the generation of acid rain.</p>\n<p><span style=\"color: rgb(94, 102, 111); font-family: Montserrat; font-size: 16px;\">The data is available from 08/07/19 to 28/10/19.</span></p>\n<p>The data in this release file is broken down by hourly increments.</p>\n<p><strong>The fields within the dataset are based around the individual serial numbers of the sensors. The location of the sensors, including the individual serial numbers, can be accessed here:\u00a0<a href=\"https://data.cambridgeshireinsight.org.uk/dataset/mill-road-cambridge-air-quality-monitoring/resource/c887ac0d-a812-4ebd-bb37-e4fa689ae9a9\">https://data.cambridgeshireinsight.org.uk/dataset/mill-road-cambridge-air-quality-monitoring/resource/c887ac0d-a812-4ebd-bb37-e4fa689ae9a9</a></strong></p>\n<p><em><strong>****Please note- Data for sensors\u00a0189245 and 292245 was unable to be extracted for the most recently release. This is being investigated****</strong></em></p>\n<p style=\"text-align: center;\"><strong style=\"text-align: center;\">Field Descriptions:</strong></p>\n<p>Serial Number_Pollutant_<strong>PreScaled</strong>- un-calibrated (prior to ratification)</p>\n<p>Serial Number_Pollutant_<strong>Scaled-</strong> calibrated\u00a0 (This is the raw data without any verification / correction factors applied.)</p>\n<p>Serial Number_Pollutant_<strong>Unit-</strong> unit measurement</p>\n<p>Serial Number_Pollutant_<strong>Slope</strong>- slope of the line used in linear regression to calibrate the monitor (not used in pre-scaled results)</p>\n<p>Serial Number_Pollutant_<strong>Offset</strong>- \u2013 data offset of the line used in the linear regression to calibrate the monitor (not used in pre-scaled results)</p>\n",
+                "format": "CSV",
+                "hash": "",
+                "id": "e80ebf82-2bcf-4269-bd72-82ba24350a1b",
+                "last_modified": null,
+                "metadata_modified": "2019-12-21T08:48:17.042040",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Mill Road Air Quality NO2",
+                "package_id": "f8389c5f-cb73-4480-9dda-40bdccd8349f",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cambridgeshireinsight.org.uk/sites/default/files/NO2%20hourly%20raw%20080719_271019.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Environment",
+                "id": "db7de4be-adbc-4ab6-9cec-d555c287d2d7",
+                "name": "Environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "air",
+                "id": "17ec8eed-aeb1-4159-a40f-76ed08695d03",
+                "name": "air",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "air quality",
+                "id": "1ad4bad4-0836-4d1b-a28b-abafbf998cee",
+                "name": "air quality",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "64be4466-fdba-4b7a-9b35-984aa0124a38"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "73dabe2a-32da-47df-8fa5-8d9583a848db"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cambridgeshire Insight Data"
+            }
+        ]
+    }
+}

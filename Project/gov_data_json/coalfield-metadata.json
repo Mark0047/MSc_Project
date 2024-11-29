@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fdc88a14-07ef-4dd9-9a15-b752b1381d86",
+        "frequency": "MANUAL",
+        "id": "3679eaed-75bb-4342-b4cf-15b15a5a7bd1",
+        "metadata_created": "2019-04-25T11:28:45.310540",
+        "metadata_modified": "2019-04-25T13:22:36.061546",
+        "name": "coalfield-metadata",
+        "notes": "Geo6 xml metadata",
+        "organization": {
+            "id": "62474397-ebd4-48ca-9358-13756ca91221",
+            "name": "coal-authority",
+            "title": "Coal Authority",
+            "type": "organization",
+            "description": "The Coal Authority owns, on behalf of the country, the vast majority of the coal in Great Britain and licenses coal mining. It also manages the effects of past coal mining, including subsidence damage claims which are not the responsibility of licensed coal mine operators; deals with mine water pollution and other coal legacy issues and provides access to the mining information it holds. Its powers were extended in 2011 to enable it to deal with non-coal mine water pollution and subsidence when the necessary funding is made available.\r\n\r\nThe Coal Authority is an executive non-departmental public body of the Department of Energy & Climate Change\r\n\r\nhttps://www.gov.uk/coalauthority\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:50:09.782171",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "62474397-ebd4-48ca-9358-13756ca91221",
+        "private": false,
+        "source_type": "gemini-single",
+        "state": "active",
+        "title": "Coalfield metadata",
+        "type": "harvest",
+        "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/797541/Coalfield.xml",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 6,
+            "last_job": {
+                "id": "1dfdef87-d877-4e3f-9bc2-a55c36109eae",
+                "created": "2019-04-25 13:22:46.204589",
+                "gather_started": "2019-04-25 13:22:46.699567",
+                "gather_finished": "2019-04-25 13:22:46.775601",
+                "finished": "2019-04-25 13:22:49.671078",
+                "source_id": "3679eaed-75bb-4342-b4cf-15b15a5a7bd1",
+                "status": "Finished",
+                "stats": {
+                    "added": 1,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Dataset schema (gmx.xsd) Validation Error:\nElement '{http://www.isotc211.org/2005/gmd}MD_TopicCategoryCode': [facet 'enumeration'] The value 'coal' is not an element of the set {'farming', 'biota', 'boundaries', 'climatologyMeteorologyAtmosphere', 'economy', 'elevation', 'environment', 'geoscientificInformation', 'health', 'imageryBaseMapsEarthCover', 'intelligenceMilitary', 'inlandWaters', 'location', 'oceans', 'planningCadastre', 'society', 'structure', 'transportation', 'utilitiesCommunication'}.\nElement '{http://www.isotc211.org/2005/gmd}MD_TopicCategoryCode': 'coal' is not a valid value of the atomic type '{http://www.isotc211.org/2005/gmd}MD_TopicCategoryCode_Type'.",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 0
+        }
+    }
+}

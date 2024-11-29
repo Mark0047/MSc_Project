@@ -1,0 +1,134 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "ODC@communities.gsi.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "3832fc72-ec45-46cf-9a8f-6b4e7553dfd1",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-10-09T09:10:15.404527",
+        "metadata_modified": "2018-02-26T15:11:00.651165",
+        "name": "core-social-housing-lettings-la-owned-reason-for-housing",
+        "notes": "This dataset contains responses to the question: In the tenant\u2019s view what was the main reason the household left their last settled home?\n\nThese data are for new social housing lettings at the local authority area level, and are derived from record level data recorded through the COntinous REcording of social housing lettings. They cover new General Needs lettings, at social rent levels, owned by Local Authorities (LAs). All figures are unweighted and are therefore not fully consistent with the weighted social rent data at national level in the 'Social Housing Lettings in England' statistical release.\r\n\r\nSome Local Authority areas are missing from the Local Authority owned datasets due to there being either no LA owned lettings in that area, or there being too few lettings in an area for the data to be released, as it is deemed disclosive.\r\n\r\nData are given for the tenant\u2019s reason for housing, as reported by the tenant. Some categories have been combined into \u2018Other\u2019 for disclosure purposes due to their sensitive nature and/or risk of re-identification.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+            "name": "department-for-communities-and-local-government",
+            "title": "Ministry of Housing, Communities and Local Government",
+            "type": "organization",
+            "description": "The Ministry of Housing, Communities and Local Government's (formerly the Department for Communities and Local Government) job is to create great places to live and work, and to give more power to local people to shape what happens in their area.\r\n\r\nhttps://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:48:38.548677",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "48f370c9-7ab9-4550-9722-8c9477020fc7",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "theme-secondary": [],
+        "title": "CORE - Social housing lettings (LA owned) - Reason for housing",
+        "type": "dataset",
+        "url": "http://opendatacommunities.org/data/housing-market/core/tenancies/reason-for-housing",
+        "version": null,
+        "extras": [
+            {
+                "key": "contact_email",
+                "value": "ODC@communities.gsi.gov.uk"
+            },
+            {
+                "key": "data_issued",
+                "value": "2015-10-06T08:33:07+00:00"
+            },
+            {
+                "key": "data_modified",
+                "value": "2018-02-08T13:41:23+00:00"
+            },
+            {
+                "key": "dcat_publisher_uri",
+                "value": "http://reference.data.gov.uk/id/department/dclg"
+            },
+            {
+                "key": "dcat_subject",
+                "value": "http://opendatacommunities.org/def/concept/folders/themes/housing-market http://opendatacommunities.org/def/concept/folders/organisations/department-for-communities-and-local-government"
+            },
+            {
+                "key": "guid",
+                "value": "http://opendatacommunities.org/data/housing-market/core/tenancies/reason-for-housing"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c7c3ffff-7d4e-4b76-b128-f93f4e1d8452"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "license_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://opendatacommunities.org/data.rdf\", \"harvest_source_type\": \"dcat_rdf\", \"harvested_metadata_modified\": null, \"harvest_source_title\": \"Open Data Communities\", \"activity_occurred\": \"2018-02-26T15:11:00.585551\", \"activity\": \"harvest\", \"harvested_guid\": \"http://opendatacommunities.org/data/housing-market/core/tenancies/reason-for-housing\"}]"
+            },
+            {
+                "key": "metadata_uri",
+                "value": "http://opendatacommunities.org/data/housing-market/core/tenancies/reason-for-housing"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-02-26T15:11:00.680312",
+                "description": "",
+                "format": "SPARQL",
+                "hash": "",
+                "id": "875ddc0d-ab6c-441d-b3ed-2fb13c5e4c03",
+                "last_modified": null,
+                "metadata_modified": "2018-02-26T15:11:00.680312",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "SPARQL Endpoint",
+                "package_id": "3832fc72-ec45-46cf-9a8f-6b4e7553dfd1",
+                "position": 0,
+                "resource_type": "api",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/sparql",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-10-09T10:10:15.443594",
+                "description": "",
+                "format": "HTML",
+                "hash": "",
+                "id": "4fc0e56f-09f6-4523-8d10-784c1631c721",
+                "last_modified": null,
+                "metadata_modified": "2015-10-09T10:10:15.443594",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Dataset home page",
+                "package_id": "3832fc72-ec45-46cf-9a8f-6b4e7553dfd1",
+                "position": 1,
+                "resource_type": "documentation",
+                "size": null,
+                "state": "active",
+                "url": "http://opendatacommunities.org/data/housing-market/core/tenancies/reason-for-housing",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

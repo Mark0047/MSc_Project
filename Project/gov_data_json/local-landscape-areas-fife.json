@@ -1,0 +1,239 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "corporate.gis@fife.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "9cae5b95-4c55-4038-930c-950c907e3239",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2014-10-24T09:53:45.406902",
+        "metadata_modified": "2021-02-03T06:38:14.079378",
+        "name": "local-landscape-areas-fife",
+        "notes": "Dataset provides details of areas where the scenery is highly valued locally and designated to ensure that the landscape is not damaged by inappropriate development. The designations raise awareness of the landscape qualities that make the particular areas distinctive, and have associated policies to safeguard their valued features. They aim to promote understanding of the distinctive character and special qualities of the landscape, ensuring that there is careful consideration of development and the impacts that may result on that landscape, while supporting positive change and opportunities for enjoyment, maintenance and enhancement of the distinctive character.",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2008"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Local Landscape Areas - Fife",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"No conditions apply\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.43565229"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "56.5465285"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "55.93622256"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.9420143500000004"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2012-08-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "696e4b5a-5d1e-4096-99fb-fb1da7b1f925"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "8f98556f-1bed-420d-a6fb-2f1fee07ee44"
+            },
+            {
+                "key": "licence",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2021-02-02"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Fife Council (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.43565229, 55.93622256], [-3.9420143500000004, 55.93622256], [-3.9420143500000004, 56.5465285], [-2.43565229, 56.5465285], [-2.43565229, 55.93622256]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-03T06:38:14.382215",
+                "description": "Fife WMS: For all datasets published",
+                "format": "",
+                "hash": "",
+                "id": "607d929d-6d65-42ed-8f34-2b16abaff0df",
+                "last_modified": null,
+                "metadata_modified": "2021-02-03T06:38:14.382215",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Fife WMS",
+                "package_id": "9cae5b95-4c55-4038-930c-950c907e3239",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/wms?version=1.1.0&request=Getcapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-03T06:38:14.382221",
+                "description": "WFS Feature Extract: Local Landscape Areas",
+                "format": "",
+                "hash": "",
+                "id": "a5e9c6c3-4845-471b-9f0a-91da0056a800",
+                "last_modified": null,
+                "metadata_modified": "2021-02-03T06:38:14.382221",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Landscape Areas WFS",
+                "package_id": "9cae5b95-4c55-4038-930c-950c907e3239",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:LOCAL_LANDSCAPE_AREAS&maxFeatures=10000&outputFormat=GML2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-02-03T06:38:14.382224",
+                "description": "ESRI Shapefile Dowload: Local Landscape Areas",
+                "format": "",
+                "hash": "",
+                "id": "7db876b6-eec3-48f1-8556-75ff65bf2eed",
+                "last_modified": null,
+                "metadata_modified": "2021-02-03T06:38:14.382224",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Landscape Areas ESRI Shapefile",
+                "package_id": "9cae5b95-4c55-4038-930c-950c907e3239",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://arcgisweb.fife.gov.uk/geoserver/fife/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=fife:LOCAL_LANDSCAPE_AREAS&outputformat=SHAPE-ZIP",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "local landscape areas",
+                "id": "6bc087dc-6ece-4b81-833b-4f6310608d9c",
+                "name": "local landscape areas",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "special landscape areas",
+                "id": "745ef101-47bf-4177-9fa6-a3458cb30517",
+                "name": "special landscape areas",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "8f98556f-1bed-420d-a6fb-2f1fee07ee44"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

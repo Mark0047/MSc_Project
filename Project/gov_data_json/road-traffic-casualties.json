@@ -1,0 +1,224 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "a1a3439a-1120-4ea2-89e7-b4c8391499e5",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2017-11-11T13:51:01.073123",
+        "metadata_modified": "2024-07-12T13:00:22.244925",
+        "name": "road-traffic-casualties",
+        "notes": "This dataset shows numbers of people Killed or Seriously Injured (KSI) in Road Traffic Collisions by calendar year for Lincolnshire and districts.\r\n\r\nThe dataset shows:\r\n\r\n-\tNumbers of people KSI in road collisions\r\n\r\n-\tKSI numbers of children age 0-15\r\n\r\n-\tNumbers of KSI casualties from collisions involving drivers age 17-24 and age 60 and over\r\n\r\n-\tAnnual total numbers of fatalities from road collisions\r\n\r\nNumbers below 5 have been removed, and where needed one or more further counts of 5 or greater have also been removed.  This generally only affects district figures but means some figures for districts will not add up to the Lincolnshire total.\r\n\r\nThe data is updated annually in May.  Source: Lincolnshire Road Safety Partnership (LRSP).  For any enquiries about this publication contact [stayingalive@lincolnshire.gov.uk](mailto:stayingalive@lincolnshire.gov.uk)\r\n",
+        "num_resources": 5,
+        "num_tags": 6,
+        "organization": {
+            "id": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+            "name": "lincolnshire-county-council",
+            "title": "Lincolnshire County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2014-11-21T11:38:51.868332",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "bd84ff88-84c1-4f95-8f45-7938dd3df601",
+        "private": false,
+        "state": "active",
+        "title": "Road Traffic Casualties",
+        "type": "dataset",
+        "url": "https://www.lincolnshire.gov.uk/lincolnshire-road-safety-partnership",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-07-20T11:11:58.762674",
+                "datastore_active": true,
+                "description": "Dataset for Road Traffic Casualties",
+                "format": "CSV",
+                "hash": "",
+                "id": "b85557c4-ef12-422d-8b47-530528e8120e",
+                "last_modified": "2024-06-25T11:41:38.201243",
+                "metadata_modified": "2024-07-12T13:00:22.259998",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Road Traffic Casualties",
+                "package_id": "a1a3439a-1120-4ea2-89e7-b4c8391499e5",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/a1a3439a-1120-4ea2-89e7-b4c8391499e5/resource/b85557c4-ef12-422d-8b47-530528e8120e/download/roadtr1.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-07-20T11:13:21.298906",
+                "datastore_active": true,
+                "description": "Metadata for Road Traffic Casualties dataset.  This file contains Metadata (information about a dataset). It shows the schema for dataset fields and their contents. This file should be used along with the dataset, to aid correct interpretation of the data.",
+                "format": "CSV",
+                "hash": "",
+                "id": "790a6ca5-2469-4ccd-b457-7606739daeeb",
+                "last_modified": "2018-06-07T12:15:35.939604",
+                "metadata_modified": "2017-07-20T11:13:21.298906",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Metadata",
+                "package_id": "a1a3439a-1120-4ea2-89e7-b4c8391499e5",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lincolnshire.ckan.io/dataset/a1a3439a-1120-4ea2-89e7-b4c8391499e5/resource/790a6ca5-2469-4ccd-b457-7606739daeeb/download/metadata_roadtrafficcasualties.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-07-20T11:48:31.090788",
+                "datastore_active": false,
+                "description": "Statistics published by the Department for Transport (DfT)",
+                "format": "HTML",
+                "hash": "",
+                "id": "ba89c911-c459-47a5-aa05-3fa5fb4025c2",
+                "last_modified": null,
+                "metadata_modified": "2017-07-20T11:48:31.090788",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Road Accident and Safety statistics",
+                "package_id": "a1a3439a-1120-4ea2-89e7-b4c8391499e5",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.gov.uk/government/collections/road-accidents-and-safety-statistics",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-04-28T09:51:28.891371",
+                "datastore_active": false,
+                "description": "Office for Health Improvement and Disparities (OHID) - data and profiles on key health issues.  For data and profiles of key Health conditions in local areas, see the links for Local Authority Health profiles, and Local Health.",
+                "format": "HTML",
+                "hash": "",
+                "id": "00ad2dae-3787-423e-a6bf-cd091415a212",
+                "last_modified": null,
+                "metadata_modified": "2022-03-11T18:50:20.763844",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "OHID: Public Health Outcomes Framework (PHOF)",
+                "package_id": "a1a3439a-1120-4ea2-89e7-b4c8391499e5",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://fingertips.phe.org.uk/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-04-12T13:04:35.151481",
+                "datastore_active": false,
+                "description": "Key documents and information on the Health and Wellbeing of Lincolnshire\u2019s population.  Its resources include the Lincolnshire Joint Strategic Needs Assessment (JSNA).",
+                "format": "HTML",
+                "hash": "",
+                "id": "7388d8e6-8350-4125-8b37-b728f4ba6648",
+                "last_modified": null,
+                "metadata_modified": "2023-05-11T20:34:00.500057",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Lincolnshire Health Intelligence Hub",
+                "package_id": "a1a3439a-1120-4ea2-89e7-b4c8391499e5",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lhih.org.uk/",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "children",
+                "id": "5319c3a7-964a-494a-91eb-b854f5afad61",
+                "name": "children",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "deaths",
+                "id": "65020601-e619-4bd2-b632-b88109bd174e",
+                "name": "deaths",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "health",
+                "id": "6a1869cc-7df6-4484-b185-eb045d8570e6",
+                "name": "health",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "older people",
+                "id": "af46bd57-c9ef-4885-91a6-90ff9a1c87a3",
+                "name": "older people",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "road safety",
+                "id": "31d5ffb7-fb91-4e15-9765-67467d5a94b6",
+                "name": "road safety",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "transport",
+                "id": "b5992ed4-3223-4881-9d1c-bb2b381132d6",
+                "name": "transport",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "0ea71e00-6b45-434e-9391-080c96f034de"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0ea71e00-6b45-434e-9391-080c96f034de"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "3c395b31-3f04-40ef-8772-0d1ba5f24455"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Lincolnshire Open Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,229 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "AskGIS@richmond.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "63668b53-2072-479b-abba-22cad6e309b7",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-02-27T16:20:26.670006",
+        "metadata_modified": "2017-07-25T12:11:55.035149",
+        "name": "map-data-lbrut",
+        "notes": "This service provides access toa  wide range of map data provided by teh London Borough of Richmond upon Thames.\n\nIt includes \n\n1) The Local Plan which  sets out the priorities for the development of the borough of LBRUT and will be used for making decisions on planning applications. It consists of a number of planning documents and guidance.\n2) Community Infrastructure Levy zones - banded areas for this levy.\n3)  Schools - a copy of the DofEducation data within LBRUT\n4)  Conservation Areas",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "7b9bddac-ab08-4b8f-a561-2bee115032fc",
+            "name": "london-borough-of-richmond-upon-thames",
+            "title": "London Borough of Richmond Upon Thames",
+            "type": "organization",
+            "description": "richmond.gov.uk",
+            "image_url": "",
+            "created": "2012-06-27T14:48:51.301192",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "7b9bddac-ab08-4b8f-a561-2bee115032fc",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [],
+        "temporal_coverage-to": [],
+        "theme-primary": "mapping",
+        "theme-secondary": [],
+        "title": "Map data LBRUT",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"None\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.4"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.55"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "51.38"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-0.2"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2017-02-02\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "787b26f4-b78f-48b0-9c3e-f75eb607db98"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "5c2df5e2-41d6-4ab4-968d-3bb7d768f8af"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/7b9bddac-ab08-4b8f-a561-2bee115032fc/133-Local_Plan_LBR_01.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Released under Open Government Licence (OGL) (v3)"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-07-25"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "London Borough of Richmond Upon Thames"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "London Borough of Richmond Upon Thames (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.4, 51.38],[-0.4, 51.55], [-0.2, 51.55], [-0.2, 51.38], [-0.4, 51.38]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "01f6243f-2264-42b1-bf75-85f89baefc5f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-07-21T11:25:25.682722",
+                "description": "download",
+                "format": "WMS",
+                "hash": "",
+                "id": "e2b2b7ef-b718-42a6-ad07-e025509c11f9",
+                "last_modified": null,
+                "metadata_modified": "2017-07-21T11:25:25.682722",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "local_plan_lbrut",
+                "package_id": "63668b53-2072-479b-abba-22cad6e309b7",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://gis.richmond.gov.uk/mapserver/LBRUTa",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-07-21T11:25:25.682746",
+                "description": "information",
+                "format": "WMS",
+                "hash": "",
+                "id": "30212855-ed6d-4729-a45b-5216fc91aecc",
+                "last_modified": null,
+                "metadata_modified": "2017-07-21T11:25:25.682746",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "local_plan_lbrut_search",
+                "package_id": "63668b53-2072-479b-abba-22cad6e309b7",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://gis.richmond.gov.uk/mapserver/LBRUTa",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-07-21T11:25:25.682754",
+                "description": "search",
+                "format": "WMS",
+                "hash": "",
+                "id": "463fcbe4-2b8d-477b-baf3-715ec6304774",
+                "last_modified": null,
+                "metadata_modified": "2017-07-21T11:25:25.682754",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "local_plan_search",
+                "package_id": "63668b53-2072-479b-abba-22cad6e309b7",
+                "position": 2,
+                "resource_locator_function": "search",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://gis.richmond.gov.uk/mapserver/LBRUTa",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "5c2df5e2-41d6-4ab4-968d-3bb7d768f8af"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "01f6243f-2264-42b1-bf75-85f89baefc5f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

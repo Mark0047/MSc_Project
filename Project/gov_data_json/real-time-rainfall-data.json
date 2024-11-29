@@ -1,0 +1,253 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "DSPcustomerforum@environment-agency.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "e70328b3-1a75-458e-8402-9ab3ce15aae1",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-02-10T10:31:46.335526",
+        "metadata_modified": "2024-06-14T14:49:06.601441",
+        "name": "real-time-rainfall-data",
+        "notes": "This record is for Approval for Access product AfA501 for approximately 1000 automatic rainfall data from the Environment Agency rainfall API. \n\nThe data is available on an update cycle which varies across the country, typically updated daily but updated faster is rainfall is detected. This is update frequency is usually increased during times of flooding, etc. \n\nReadings are transferred via telemetry to internal and external systems in or close to real-time. \n\nMeasurement of the rainfall is taken in millimetres (mm) accumulated over 15 minutes. Note that rainfall data is recorded in GMT, so during British Summer Time (BST) data may appear to be an hour old.  Data comes from a network of over 1000 gauges across England. Data shown is raw data collected from the gauges and is subject to quality control procedures. As a result, values may change after publication on this website. \n\nContinuous rainfall information is also stored on our hydrometric archive, Wiski, and can be provided in non real-time on request through our customer contact centre. This raw rainfall data is provided to the Met Office for quality control along with all the data from our registered daily storage gauges (c.1400). The quality controlled dataset is covered in AfA148 Quality Controlled Daily and Monthly Raingauge Data from Environment Agency Gauges.\n\nData from a small selection of Met Office raingauges are included in our open data feed. This data is also available from the Met Office as open data. Attribution statement: \u00a9 Environment Agency copyright and/or database right 2016. All rights reserved.\nContains public sector information licensed under the Open Government Licence",
+        "num_resources": 2,
+        "num_tags": 7,
+        "organization": {
+            "id": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+            "name": "environment-agency",
+            "title": "Environment Agency",
+            "type": "organization",
+            "description": "The Environment Agency (EA) protects and improves the environment and promotes sustainable development. It plays a central role in implementing the government's environmental strategy in England. The Environment Agency plays a lead role in managing flood risk and works to minimise the impact of flooding.\r\n\r\nEA is an executive non-departmental public body of the Department for Environment, Food & Rural Affairs\r\n\r\nhttps://www.gov.uk/government/organisations/environment-agency\r\n",
+            "image_url": "",
+            "created": "2012-06-27T14:51:35.391725",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "11c51f05-a8bf-4f58-9b95-7ab55f9546d7",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2017-01-23"
+        ],
+        "temporal_coverage-to": [
+            "2099-12-31"
+        ],
+        "title": "Real-time Rainfall Data",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2017-01-23\"}, {\"type\": \"revision\", \"value\": \"2021-03-12\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "continual"
+            },
+            {
+                "key": "guid",
+                "value": "d0ab9696-3447-41c0-863e-9818136dbb85"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "92f605e1-e89d-4362-948f-a69fc34942cb"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-06-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Environment Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:06.659060",
+                "description": "Rainfall Linked Data API",
+                "format": "",
+                "hash": "",
+                "id": "1eb7a1e3-784d-42cc-a352-c263a4b1e8ca",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:06.608625",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Rainfall_Linked_Data_API",
+                "package_id": "e70328b3-1a75-458e-8402-9ab3ce15aae1",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://environment.data.gov.uk/flood-monitoring/doc/rainfall",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-14T14:49:06.659063",
+                "description": "Daily Rainfall Archive Data downloads",
+                "format": "",
+                "hash": "",
+                "id": "6b9af7ab-2920-4b78-8c9c-6bbd0a5ebd1c",
+                "last_modified": null,
+                "metadata_modified": "2024-06-14T14:49:06.608719",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Daily_Rainfall_Archive",
+                "package_id": "e70328b3-1a75-458e-8402-9ab3ce15aae1",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/flood-monitoring/archive",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Rainfall",
+                "id": "d1019fcc-0d04-4778-8257-394f74a2b6c3",
+                "name": "Rainfall",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Raingauge",
+                "id": "74b05816-d1c1-46c1-9b9e-6692deb31107",
+                "name": "Raingauge",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "hydrometry",
+                "id": "e2eb96f8-8c0b-4b36-a287-55612ea8b8e3",
+                "name": "hydrometry",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "monitoring",
+                "id": "ad6d585b-0e96-411a-89e8-13f62277d149",
+                "name": "monitoring",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "rain",
+                "id": "7d36c6f6-2050-412b-8f06-de3e7369cd58",
+                "name": "rain",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "telemetry",
+                "id": "c7fff5f1-abce-48a9-bafc-21faa20d9c33",
+                "name": "telemetry",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "1d441a64-a481-489b-845b-fe1ad5c99e09"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "552bd53a-8587-4019-9973-f93f1326f7cf"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Environment Agency Data Sharing Platform"
+            }
+        ]
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@cheshireeast.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "fb1817d0-ae21-4b87-9a52-4861991a9414",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2015-01-28T18:20:59.457166",
+        "metadata_modified": "2017-12-19T13:02:11.944927",
+        "name": "ground-maintenance-region",
+        "notes": "Historic dataset. Has not been accurately updated for approximately 5 years and the accuracy of the data cannot be verified.",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+            "name": "cheshire-east-council",
+            "title": "Cheshire East Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-11-04T10:02:35.362710",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "e434e8fa-0f1b-4c75-96da-f8fdb2ef1837",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "1970-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2015-07-31"
+        ],
+        "title": "Ground Maintenance region",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.156700"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.230190"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.079361"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.456535"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"1970-01-01\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "000"
+            },
+            {
+                "key": "guid",
+                "value": "2238"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "72161e49-d757-4ea1-b828-2d37877e7a6a"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://maps.cheshire.gov.uk/ce/gemini3/2238.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Public Sector End User Licence - INSPIRE"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-01-28"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": " (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-2.156700, 53.079361],[-2.156700, 53.230190], [-2.456535, 53.230190], [-2.456535, 53.079361], [-2.156700, 53.079361]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::Nat. Grid GB"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "87ad4f9b-d8f2-4a30-81ea-4cb2b3d39116"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-01-28T18:20:59.526982",
+                "description": "Resource locator",
+                "format": "WMS",
+                "hash": "",
+                "id": "786a297b-b1c7-424d-b363-c096581b4ca2",
+                "last_modified": null,
+                "metadata_modified": "2015-01-28T18:20:59.526982",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cheshire East Council Web Map Service",
+                "package_id": "fb1817d0-ae21-4b87-9a52-4861991a9414",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://maps.cheshire.gov.uk/ArcGIS/services/CE/public_wms/MapServer/WmSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-01-28T18:20:59.527006",
+                "description": "Resource locator",
+                "format": "WFS",
+                "hash": "",
+                "id": "91d39805-020d-4886-9483-455d2ce71a7b",
+                "last_modified": null,
+                "metadata_modified": "2015-01-28T18:20:59.527006",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cheshire East Council Web Feature Service",
+                "package_id": "fb1817d0-ae21-4b87-9a52-4861991a9414",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://maps.cheshire.gov.uk/ArcGIS/services/CE/public_wfs/MapServer/WFSServer?request=GetCapabilities&service=WFS",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "72161e49-d757-4ea1-b828-2d37877e7a6a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "87ad4f9b-d8f2-4a30-81ea-4cb2b3d39116"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Cheshire East Council INSPIRE Spatial DataSets"
+            }
+        ]
+    }
+}

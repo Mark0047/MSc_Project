@@ -1,0 +1,306 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@halton.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "25491571-fd66-4da9-b97a-9399ac694954",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-03-31T12:10:23.858613",
+        "metadata_modified": "2021-03-30T23:00:38.727891",
+        "name": "halton-polling-districts",
+        "notes": "Dataset showing Polling Districts within the Councils administrative area. Areas recorded as polygons",
+        "num_resources": 6,
+        "num_tags": 1,
+        "organization": {
+            "id": "810e4428-6037-4fc9-9c41-2c457691ac76",
+            "name": "halton-borough-council",
+            "title": "Halton Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-10-28T17:27:27.976123",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "810e4428-6037-4fc9-9c41-2c457691ac76",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2015-03-31T13:00:00"
+        ],
+        "temporal_coverage-to": [],
+        "title": "Halton Polling Districts",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-2.59524"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "53.40254544757"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "53.30503"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-2.83247"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2015-03-31\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "014ab3ca-da8d-46cd-9e91-22aa340cfbc6"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c1eb3ec4-e0cf-4970-a6b8-b4b1b6d39765"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence for public sector information\", \"http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"]"
+            },
+            {
+                "key": "licence_url",
+                "value": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-09-28T12:00:00"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Halton Borough Council (distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-2.59524, 53.30503], [-2.83247, 53.30503], [-2.83247, 53.40254544757], [-2.59524, 53.40254544757], [-2.59524, 53.30503]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::4326"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "dd7bccd6-c439-4d6c-9219-18d4ef15b981"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Halton Borough Council INSPIRE Metadata"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-30T23:00:39.022720",
+                "description": "OGC Compliant WMS Service",
+                "format": "",
+                "hash": "",
+                "id": "a22b679e-8843-4196-9b53-86a58191f2c1",
+                "last_modified": null,
+                "metadata_modified": "2021-03-30T23:00:39.022720",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Halton Borough Council INSPIRE WMS Service",
+                "package_id": "25491571-fd66-4da9-b97a-9399ac694954",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WMS-1.1.0-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.halton.gov.uk/geoserver/inspire/wms?",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-30T23:00:39.022726",
+                "description": "OGC Compliant WFS Service",
+                "format": "",
+                "hash": "",
+                "id": "7446df03-b88c-40b2-b324-4475d7f860c2",
+                "last_modified": null,
+                "metadata_modified": "2021-03-30T23:00:39.022726",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Halton Borough Council INSPIRE WFS Service",
+                "package_id": "25491571-fd66-4da9-b97a-9399ac694954",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "OGC:WFS-2.0.0-http-get-map",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.halton.gov.uk/geoserver/wfs?service=WFS&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-30T23:00:39.022729",
+                "description": "Polling Districts GeoTiff",
+                "format": "",
+                "hash": "",
+                "id": "1447225f-199b-4678-8706-cafb94536b62",
+                "last_modified": null,
+                "metadata_modified": "2021-03-30T23:00:39.022729",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Polling Districts GeoTiff",
+                "package_id": "25491571-fd66-4da9-b97a-9399ac694954",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.halton.gov.uk/geoserver/inspire/wms?service=WMS&version=1.1.0&request=GetMap&layers=inspire:polling_districts&styles=&bbox=-2.83247,53.30503,-2.59524,53.40254544757&width=1348&height=330&srs=EPSG:4326&format=image%2Fgeotiff",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-30T23:00:39.022731",
+                "description": "OGC Compliant GML 3.2",
+                "format": "",
+                "hash": "",
+                "id": "79dc0848-7d07-4625-ac33-1180db0ba5e3",
+                "last_modified": null,
+                "metadata_modified": "2021-03-30T23:00:39.022731",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Polling Districts GML 3.2",
+                "package_id": "25491571-fd66-4da9-b97a-9399ac694954",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.halton.gov.uk/geoserver/inspire/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=inspire:polling_districts&maxFeatures=50&outputFormat=application%2Fgml%2Bxml%3B+version%3D3.2",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-30T23:00:39.022732",
+                "description": "KML Format",
+                "format": "",
+                "hash": "",
+                "id": "e02886f3-d5d0-4c7d-a840-c8c2c7b2b5fd",
+                "last_modified": null,
+                "metadata_modified": "2021-03-30T23:00:39.022732",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Polling Districts KML",
+                "package_id": "25491571-fd66-4da9-b97a-9399ac694954",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.halton.gov.uk/geoserver/inspire/wms/kml?layers=inspire:polling_districts",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-30T23:00:39.022734",
+                "description": "GeoJSON Format",
+                "format": "",
+                "hash": "",
+                "id": "48bcaee4-7a4a-4920-8c05-af3524f05330",
+                "last_modified": null,
+                "metadata_modified": "2021-03-30T23:00:39.022734",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Polling Districts GeoJSON",
+                "package_id": "25491571-fd66-4da9-b97a-9399ac694954",
+                "position": 5,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.halton.gov.uk/geoserver/inspire/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=inspire:polling_districts&maxFeatures=500&outputFormat=json",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Polling Districts",
+                "id": "2834f373-a767-4e6c-9ae8-6c7fe5a9aad6",
+                "name": "Polling Districts",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c1eb3ec4-e0cf-4970-a6b8-b4b1b6d39765"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "dd7bccd6-c439-4d6c-9219-18d4ef15b981"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Halton Borough Council INSPIRE Metadata"
+            }
+        ]
+    }
+}

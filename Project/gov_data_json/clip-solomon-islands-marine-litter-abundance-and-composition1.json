@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "201b4bff-00cc-4db0-b379-26ce9c247170",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:23:32.282804",
+        "metadata_modified": "2024-09-10T08:23:32.282808",
+        "name": "clip-solomon-islands-marine-litter-abundance-and-composition1",
+        "notes": "This dataset contains 2 csv files. The file Solomon_Marine_Litter_Data.csv \ncontains data on litter found on marine beaches in Solomon Islands between \nNovember 2018 and January 2019. The number of itemsis reported for each \nlitter category. The list of litter categories was obtain merging OSPAR and \nTangaroa Blue protocols with the addition of region-specific items, which are \nmarked with '*'. An array of metadata (location names, survey date, GPS \ncoordinates in decimal degrees) is also reported per each data point. \n\nThe file Solomon_Marine_Litter_Metadata.csv reports other metadata \ncollected during the surveys following the OSPAR protocol to describe \nfactors potentially influencing litter characteristics. A READ-ME text file \ncontains a legend of the columns of the csv files. \n\n\n\nThis dataset contains 3 csv files. One file contains data on marine litter \nabundance and composition expressed in number of items per category. One file \ncontains location names and GPS coordinates in decimal degrees. One file \ncontains metadata collected during the clean-ups. A READ-ME text file contains \ndescription of columns content for the three csv files. Marine litter items \nwere collected during beach clean-ups on Guadalcanal Island (Solomon Islands) \nbetween November 2018 and January 2019. Category list was obtain merging OSPAR \nand Tangaroa Blue protocols with the addition of region-specific items.",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2018-11-24"
+        ],
+        "temporal_coverage-to": [
+            "2019-01-24"
+        ],
+        "title": "CLiP Solomon Islands Marine Litter Abundance and Composition",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "170.00"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "0.00"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "-10.00"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "150.00"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2019-04-15\"}, {\"type\": \"revision\", \"value\": \"2024-07-12\"}, {\"type\": \"creation\", \"value\": \"2019-04-15\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "CEFAS2a94279f-d3f0-4877-8bc0-3f07e04a5df4"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "c731cee1-8145-4234-81a1-a3cd0ab6efd0"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-12T12:46:56"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS)"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor, owner); Department for Environment, Food and Rural Affairs (DEFRA) (owner)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[170.00, -10.00], [150.00, -10.00], [150.00, 0.00], [170.00, 0.00], [170.00, -10.00]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:23:32.292404",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: Binary download, CSV, ESRI Shapefile. The data can also be accessed via the WFS and WMS protocols.",
+                "format": "",
+                "hash": "",
+                "id": "34836547-c56e-4164-9610-e01bdda4cc7a",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:23:32.279628",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "201b4bff-00cc-4db0-b379-26ce9c247170",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/19774",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "c731cee1-8145-4234-81a1-a3cd0ab6efd0"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

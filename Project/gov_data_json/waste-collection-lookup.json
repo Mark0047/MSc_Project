@@ -1,0 +1,137 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "2f926089-dc31-4896-b5b6-657382df1b7e",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-02-16T16:53:40.722359",
+        "metadata_modified": "2021-11-29T19:21:48.942655",
+        "name": "waste-collection-lookup",
+        "notes": "Link to CYC's online application to find out refuse and recycling collections dates by postcode. \r\n\r\nAlso includes the public API and API documentation for retrieving collection data by UPRN.\r\n",
+        "num_resources": 3,
+        "num_tags": 0,
+        "organization": {
+            "id": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+            "name": "city-of-york-council",
+            "title": "City of York Council",
+            "type": "organization",
+            "description": "Corporate Open Data platform - http://www.yorkopendata.org/\r\n\r\nCorporate map browser - http://maps.york.gov.uk/localviewexternal/sites/lv/",
+            "image_url": "",
+            "created": "2013-11-25T13:21:35.161579",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "21f3491f-5b0f-4395-8bb9-990f9cc4d274",
+        "private": false,
+        "state": "active",
+        "title": "Waste Collection Lookup",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-09-25T16:03:13.119244",
+                "datastore_active": false,
+                "description": "CYC's online application for retrieving details about refuse and recycling collections dates, by postcode.",
+                "format": "URL",
+                "hash": "",
+                "id": "3f5bcd23-34f8-4a04-9e37-ae805f3804db",
+                "last_modified": null,
+                "metadata_modified": "2021-11-29T19:21:48.949956",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Refuse / Recycling Collection Lookup",
+                "package_id": "2f926089-dc31-4896-b5b6-657382df1b7e",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://doitonline.york.gov.uk/DoItOnline/Pages/NeighbourhoodServices/RefusePostcodeLookup.aspx",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-02-12T14:16:45.943471",
+                "datastore_active": false,
+                "description": "Example call to the API __https://waste-api.york.gov.uk/api/Collections/GetBinCollectionDataForUprn/100050535540__",
+                "format": "API",
+                "hash": "",
+                "id": "18e9eaaf-3fac-41cb-b43f-9ff815956600",
+                "last_modified": null,
+                "metadata_modified": "2021-11-29T19:21:48.950093",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "API",
+                "package_id": "2f926089-dc31-4896-b5b6-657382df1b7e",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://waste-api.york.gov.uk/api/Collections/GetBinCollectionDataForUprn/{uprn}",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-02-12T14:26:49.090808",
+                "datastore_active": false,
+                "description": "Document listing available API calls and arguments to use for each call",
+                "format": "PDF",
+                "hash": "",
+                "id": "91b2852b-c779-4f4d-9ef4-3c2fdfa2a565",
+                "last_modified": "2021-11-29T11:33:59.343774",
+                "metadata_modified": "2021-11-29T19:21:48.950202",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "API Documentation",
+                "package_id": "2f926089-dc31-4896-b5b6-657382df1b7e",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.yorkopendata.org/dataset/2f926089-dc31-4896-b5b6-657382df1b7e/resource/91b2852b-c779-4f4d-9ef4-3c2fdfa2a565/download/waste-services-api-v-3.0.0.pdf",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "36dce715-c813-491a-82a9-12374b060e78"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "36dce715-c813-491a-82a9-12374b060e78"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4ec45354-b7dc-48c1-a22f-c5938e88695b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "York Open Data"
+            }
+        ]
+    }
+}

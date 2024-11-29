@@ -1,0 +1,218 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "e557f54f-54db-4525-94d6-2e0bbd2ed836",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2015-05-29T15:11:29.682518",
+        "metadata_modified": "2020-08-11T13:36:31.232736",
+        "name": "gp-surgeries-nsc",
+        "notes": "<p>Information on all GP surgeries in North Somerset</p>",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+            "name": "north-somerset-council",
+            "title": "North Somerset Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:01.609923",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "5342bc0e-e3eb-4f6c-9d58-ef614bcdd205",
+        "private": false,
+        "state": "active",
+        "title": "GP surgeries",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "http://www.n-somerset.gov.uk/health/gp-surgeries"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4102d9d1-d851-4fad-9888-a0421a8d729f"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://www.n-somerset.gov.uk/health/gp-surgeries"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "inventory_identifier",
+                "value": "health/gp-surgeries"
+            },
+            {
+                "key": "la_function",
+                "value": "http://id.esd.org.uk/function/64"
+            },
+            {
+                "key": "la_service",
+                "value": ""
+            },
+            {
+                "key": "metadata-date",
+                "value": "2020-08-11"
+            },
+            {
+                "key": "metadata_provenance",
+                "value": "[{\"harvest_source_url\": \"http://data.n-somerset.gov.uk/api/esdinventory\", \"harvest_source_type\": \"inventory\", \"harvested_metadata_modified\": \"2020-08-11T00:00:00\", \"harvest_source_title\": \"North Somerset Council\", \"activity_occurred\": \"2020-08-11T13:36:30.978464\", \"activity\": \"harvest\", \"harvested_guid\": \"http://www.n-somerset.gov.uk/health/gp-surgeries\"}]"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:11:29.734742",
+                "description": "GP surgeries - Download",
+                "format": "HTML",
+                "hash": "",
+                "id": "8c064475-de23-44bc-a662-f8f187c6a003",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:11:29.734742",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "e557f54f-54db-4525-94d6-2e0bbd2ed836",
+                "position": 0,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/health/gp-surgeries/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/Download/health/gp-surgeries",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-11T13:36:31.589403",
+                "description": "GP Surgeries - Download",
+                "format": "CSV",
+                "hash": "",
+                "id": "eb09b0e6-5516-42cd-9a7f-ecbacbe230b8",
+                "last_modified": null,
+                "metadata_modified": "2020-08-11T13:36:31.589403",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "e557f54f-54db-4525-94d6-2e0bbd2ed836",
+                "position": 1,
+                "resource_type": "documentation",
+                "schema-type": "csvlint",
+                "schema-url": "http://data.n-somerset.gov.uk/api/health/gp-surgeries/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/health/gp-surgeries/gp-surgeries/CSV?version=11/08/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-08-11T13:36:31.589411",
+                "description": "GP Surgeries - Download",
+                "format": "XML",
+                "hash": "",
+                "id": "4625df9c-bd0f-4fd4-aeac-413ad5f87d2b",
+                "last_modified": null,
+                "metadata_modified": "2020-08-11T13:36:31.589411",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "e557f54f-54db-4525-94d6-2e0bbd2ed836",
+                "position": 2,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/health/gp-surgeries/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/download/health/gp-surgeries/gp-surgeries/XML?version=11/08/2020",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:11:29.734786",
+                "description": "GP Surgeries - Service",
+                "format": "JSON",
+                "hash": "",
+                "id": "f0db0769-411e-4675-b962-214a68c8e20d",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:11:29.734786",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "e557f54f-54db-4525-94d6-2e0bbd2ed836",
+                "position": 3,
+                "resource_type": "documentation",
+                "schema-type": "None",
+                "schema-url": "http://data.n-somerset.gov.uk/api/health/gp-surgeries/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/health/gp-surgeries/gp-surgeries?format=JSON",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-05-29T16:11:29.734794",
+                "description": "GP Surgeries - Service",
+                "format": "XML",
+                "hash": "",
+                "id": "ad1fcf22-9cfd-4257-bbfc-d534cf13f878",
+                "last_modified": null,
+                "metadata_modified": "2015-05-29T16:11:29.734794",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "e557f54f-54db-4525-94d6-2e0bbd2ed836",
+                "position": 4,
+                "resource_type": "documentation",
+                "schema-type": "xsd",
+                "schema-url": "http://data.n-somerset.gov.uk/api/health/gp-surgeries/definition",
+                "size": null,
+                "state": "active",
+                "url": "http://data.n-somerset.gov.uk/api/health/gp-surgeries/gp-surgeries?format=XML",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4102d9d1-d851-4fad-9888-a0421a8d729f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "eace833b-a700-4d67-a78b-d361a356a912"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "North Somerset Council"
+            }
+        ]
+    }
+}

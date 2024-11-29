@@ -1,0 +1,268 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@lichfielddc.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "91416ca4-7eca-45d5-a825-75621e6a44c6",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2015-03-05T12:19:00.999102",
+        "metadata_modified": "2024-08-23T11:55:17.325964",
+        "name": "lichfield-district-council-rural-settlements-list",
+        "notes": "List of Rural Settlements under Section 42b of the Local Government Finance Act 1988 as at 31st December 2016. Captured against Ordnance Survey open data sets. All data released is open sourced with all restricted data removed.",
+        "num_resources": 5,
+        "num_tags": 0,
+        "organization": {
+            "id": "13fc54d5-4060-4ba5-ad73-3d407190e790",
+            "name": "lichfield-district-council",
+            "title": "Lichfield District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:44.003697",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "13fc54d5-4060-4ba5-ad73-3d407190e790",
+        "private": false,
+        "state": "active",
+        "theme-primary": "mapping",
+        "title": "Lichfield District Council Rural Settlements List",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The licensor grants a worldwide royalty free, perpetual, non-exclusive license to use the information subject to the terms and conditions of the license.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.616337"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.787890"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.584467"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-1.928483"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2015-03-05\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "annually"
+            },
+            {
+                "key": "guid",
+                "value": "f50895ea-25ed-49e4-894c-ed310e781602"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "39f601eb-d4f4-42f4-bbf8-f9ed512fe944"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "e46d8dde-ee2e-4fe6-89e2-1caa9f7d3e3f"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/13fc54d5-4060-4ba5-ad73-3d407190e790/116-Rural_Settlements_2.xml"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-01-18"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Lichfield District Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Lichfield District Council (owner, pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.616337, 52.584467],[-1.616337, 52.787890], [-1.928483, 52.787890], [-1.928483, 52.584467], [-1.616337, 52.584467]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-24T12:23:03.757882",
+                "description": "information",
+                "format": "WMS",
+                "hash": "",
+                "id": "2e5526ef-6b96-44b6-acd2-1bd2570fff0a",
+                "last_modified": null,
+                "metadata_modified": "2015-08-24T12:23:03.757882",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Lichfield District Council INSPIRE OGC WMS Service",
+                "package_id": "91416ca4-7eca-45d5-a825-75621e6a44c6",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://gis.lichfielddc.gov.uk/arcgis/services/PUBLIC/InspireLDC/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-24T12:23:03.757914",
+                "description": "information",
+                "format": "HTML",
+                "hash": "",
+                "id": "28489a06-d6ee-4776-afe8-302413f1b849",
+                "last_modified": null,
+                "metadata_modified": "2015-08-24T12:23:03.757914",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Boundaries Interactive Viewer",
+                "package_id": "91416ca4-7eca-45d5-a825-75621e6a44c6",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://lichfielddc.maps.arcgis.com/apps/webappviewer/index.html?id=3d1162fac3c24b3b827cc7b0480d419c",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-01-18T12:14:48.304355",
+                "description": "download",
+                "format": "",
+                "hash": "",
+                "id": "ea568b90-7c39-4cb8-8f97-8de35ed25cb1",
+                "last_modified": null,
+                "metadata_modified": "2017-01-18T12:14:48.304355",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Rural Settlements PDF 2016",
+                "package_id": "91416ca4-7eca-45d5-a825-75621e6a44c6",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.lichfielddc.gov.uk/Inspire-data-sets/Lichfield%20District%20Council%20Rural%20Settlement/Rural%202016/Rural%20Settlement%20December%202016.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-01-18T12:14:48.304390",
+                "description": "download",
+                "format": "",
+                "hash": "",
+                "id": "4fdb1396-75c4-4407-9703-2ec7d7966264",
+                "last_modified": null,
+                "metadata_modified": "2017-01-18T12:14:48.304390",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Rural Settlements Shapefile 2016",
+                "package_id": "91416ca4-7eca-45d5-a825-75621e6a44c6",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.lichfielddc.gov.uk/Inspire-data-sets/Lichfield%20District%20Council%20Rural%20Settlement/Rural%202016/Lichfield%20District%20Council%20Rural%20Settlements%202016.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-01-18T12:14:48.304397",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "7cea383a-caea-4a2c-bcb0-2b49b4cfbe24",
+                "last_modified": null,
+                "metadata_modified": "2017-01-18T12:14:48.304397",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Rural Settlements CSV 2016",
+                "package_id": "91416ca4-7eca-45d5-a825-75621e6a44c6",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.lichfielddc.gov.uk/Inspire-data-sets/Lichfield%20District%20Council%20Rural%20Settlement/Rural%202016/Rural%20Settlements%20List%20-%202016.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "39f601eb-d4f4-42f4-bbf8-f9ed512fe944"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "e46d8dde-ee2e-4fe6-89e2-1caa9f7d3e3f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "20cb3791-3a0e-4582-8981-58ebafe82619",
+        "geographic_coverage": "111100: United Kingdom (England, Scotland, Wales, Northern Ireland)",
+        "id": "941059be-f255-4bbb-b8d1-ffb266e28ca9",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-09-30T23:14:37.274032",
+        "metadata_modified": "2016-09-30T23:14:39.914715",
+        "name": "organogram-national-college-for-school-leadership",
+        "notes": "Organogram (organisation chart) showing all staff roles. Names and salaries are also listed for the Senior Civil Servants.\r\n\r\nOrganogram data is released by all central government departments and their agencies since 2010. Snapshots for 31st March and 30th September are published by 6th June and 6th December each year. The published data is validated and released in CSV format and OGL-licensed for reuse. For more information about this series, see: http://guidance.data.gov.uk/organogram-data.html",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "35e9aea4-c29a-46c3-b816-070f2d9ebd90",
+            "name": "national-college-for-school-leadership",
+            "title": "National College for School Leadership",
+            "type": "organization",
+            "description": "Existed between 2009 and 2011 as the \"National College for Leadership of Schools and Children's Services\".\r\n\r\nBefore and after it was known as the \"National College for School Leadership\". In April 2013 it merged with the Teaching Agency to become the \"National College for Teaching and Leadership\".",
+            "image_url": "",
+            "created": "2016-02-23T21:30:39.956279",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "35e9aea4-c29a-46c3-b816-070f2d9ebd90",
+        "private": false,
+        "schema-vocabulary": "d3c0b23f-6979-45e4-88ed-d2ab59b005d0",
+        "state": "active",
+        "temporal_coverage-from": 2010,
+        "theme-primary": "government-spending",
+        "title": "Organogram of Staff Roles & Salaries",
+        "type": "dataset",
+        "update_frequency": "biannually",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "date",
+                "value": "30/09/2011"
+            },
+            {
+                "key": "import_source",
+                "value": "organograms_v2"
+            },
+            {
+                "key": "mandate",
+                "value": "[\"https://www.gov.uk/government/news/letter-to-government-departments-on-opening-up-data\"]"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T00:14:38.296209",
+                "date": "2011-09-30",
+                "description": "Organogram - Junior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "8c808910-cec6-4bc9-8792-324de8025ebc",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T00:14:38.296209",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "941059be-f255-4bbb-b8d1-ffb266e28ca9",
+                "position": 0,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/national-college-for-school-leadership/30/09/2011/national_college_for_school_leadership-2011-09-30-organogram-junior.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-10-01T00:14:39.120479",
+                "date": "2011-09-30",
+                "description": "Organogram - Senior CSV data",
+                "format": "CSV",
+                "hash": "",
+                "id": "5bbce279-430f-4d2f-aac4-a17a4141f514",
+                "last_modified": null,
+                "metadata_modified": "2016-10-01T00:14:39.120479",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "941059be-f255-4bbb-b8d1-ffb266e28ca9",
+                "position": 1,
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://s3-eu-west-1.amazonaws.com/datagovuk-production-ckan-organogram/legacy/organogram/national-college-for-school-leadership/30/09/2011/national_college_for_school_leadership-2011-09-30-organogram-senior.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": []
+    }
+}

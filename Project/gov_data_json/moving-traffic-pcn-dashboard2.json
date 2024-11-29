@@ -1,0 +1,164 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "56482159-437c-4d1a-b036-fc02516073a0",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-03-31T01:27:11.799272",
+        "metadata_modified": "2024-11-17T13:02:57.485137",
+        "name": "moving-traffic-pcn-dashboard2",
+        "notes": "The Moving Traffic Penalty Charge Notice (PCN) Dashboard contains details of all moving traffic PCNs issued in the London Borough of Barnet since 9 February 2016. Analysis of issued PCNs can be carried out by filtering the following fields;\u00a0\u00a0\u00a0\u00a0\u00a0\n\n  Day of the week\n  Year\n  Issue Date of PCN\n  Controlled Parking Zone\n  Contravention code\n  Street name\n  Issue time\n  Hours\n\n\n    \n\nUsers can select the criteria by which to filter their search within each section. In some cases, selecting an option in one field may limit the options remaining available in other fields.\nTo see the raw data behind each line in the table on the left, double-click in the field containing the relevant figure.\nWe have also provided the raw data used to build the dashboard as a machine-readable csv file.",
+        "num_resources": 2,
+        "num_tags": 5,
+        "organization": {
+            "id": "27322301-90d6-4837-9563-899fd280e921",
+            "name": "london-borough-of-barnet",
+            "title": "London Borough of Barnet",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:52.167987",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "27322301-90d6-4837-9563-899fd280e921",
+        "private": false,
+        "state": "active",
+        "title": "Moving Traffic PCN Dashboard",
+        "type": "dataset",
+        "url": "https://open.barnet.gov.uk/dataset/2r84e",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2016-10-10T11:31:27.000Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2024-04-25T14:44:29.588Z"
+            },
+            {
+                "key": "guid",
+                "value": "2r84e"
+            },
+            {
+                "key": "language",
+                "value": ""
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7d0ae7e7-7fa0-41ac-b572-bcae76deab5c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "06f2be65-b3b8-46d1-a67c-02e426c7cc03"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Open Barnet"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T13:02:57.526010",
+                "description": "",
+                "format": "",
+                "hash": "",
+                "id": "4b089b1f-8d83-4f34-b8c4-ec43a54c96b0",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T13:02:57.495512",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "MTC PCN raw data 2016-2024.csv",
+                "package_id": "56482159-437c-4d1a-b036-fc02516073a0",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-17T13:02:57.526012",
+                "description": "",
+                "format": "",
+                "hash": "",
+                "id": "0d6c2597-f2d9-4cc0-9daa-0ff3c93e0aa1",
+                "last_modified": null,
+                "metadata_modified": "2024-11-17T13:02:57.495592",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "MTC PCN Dashboard 2016-2024.xlsm",
+                "package_id": "56482159-437c-4d1a-b036-fc02516073a0",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Fines",
+                "id": "dabcb1fc-65d9-447f-abfd-85e6a2699ef6",
+                "name": "Fines",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Moving traffic",
+                "id": "ae558b6f-3ce6-44ac-88d7-cec52bc227e9",
+                "name": "Moving traffic",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "PCN",
+                "id": "d7575d74-5727-404c-ac9f-5ab872a3aed4",
+                "name": "PCN",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Parking",
+                "id": "58536eb5-c113-46d5-a2aa-993a144a05f7",
+                "name": "Parking",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Penalty Charge Notice",
+                "id": "77b213ed-de8e-47d7-b93e-f750ab9576af",
+                "name": "Penalty Charge Notice",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7d0ae7e7-7fa0-41ac-b572-bcae76deab5c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "06f2be65-b3b8-46d1-a67c-02e426c7cc03"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Open Barnet"
+            }
+        ]
+    }
+}

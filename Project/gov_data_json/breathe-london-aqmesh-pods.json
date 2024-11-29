@@ -1,0 +1,128 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "0b8fbdcc-a795-49cc-8c1a-c453e1050c94",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2019-12-27T04:51:14.307272",
+        "metadata_modified": "2024-11-16T22:01:54.946894",
+        "name": "breathe-london-aqmesh-pods",
+        "notes": "The Breathe London stationary network is made up of 100\u00a0[AQMesh](https://www.aqmesh.com/)\u00a0pods, each containing a collection of small sensor-based air quality monitors that offer near real-time localised air quality information. They measure nitrogen dioxide (NO\u2082) and nitric oxide (NO) using electrochemical sensors; particulate matter (PM) in various size cuts (PM\u2082.\u2085 and PM10\u00a0are reported) using a light-scattering optical particle counter; and carbon dioxide (CO\u2082) using a non-dispersive infrared absorbance sensor. In some locations, the pods measure ozone (O3), also using electrochemical sensors. The pods measure temperature, humidity and air pressure for the purposes of correction for environmental conditions. Each sensor pod is set up to collect data continuously for 10-second intervals and to create an average every 1-15 minutes, synchronised to the top of each hour.\n\nMore information can be found on the [Breathe London website](https://www.breathelondon.org).",
+        "num_resources": 2,
+        "num_tags": 1,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Breathe London AQMesh pods",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/breathe-london-aqmesh-pods",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2019-08-14T11:06:56.257Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2020-01-02T16:23:32.814Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "799428e9-4956-4f66-9893-e2c91a6f9995"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-01-10T04:40:36.632540",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "217cfa82-05de-4b30-a20c-1dca1c0ff971",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:47.974081",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "monitoring_data",
+                "package_id": "0b8fbdcc-a795-49cc-8c1a-c453e1050c94",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/breathe-london-aqmesh-pods/267507cc-9740-4ea7-be05-4d6ae16a5e4a/stationary_data.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2019-12-27T04:51:14.324688",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "d6c72726-c79c-4292-b6a3-d1c291feb203",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:54:47.974208",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "meta_data",
+                "package_id": "0b8fbdcc-a795-49cc-8c1a-c453e1050c94",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/breathe-london-aqmesh-pods/b910476d-250e-41e9-a925-974a61b7f061/meta_data.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "air-quality",
+                "id": "d425ed32-1f19-485a-93d7-69eb4848c0d5",
+                "name": "air-quality",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3bc59bc0-6951-4078-9ffd-d9eda6287ea1"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

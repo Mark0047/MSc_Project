@@ -1,0 +1,249 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@bodc.ac.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "c4e6c4f4-0791-4ee6-ab88-10d5b8adf093",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:22:31.884489",
+        "metadata_modified": "2024-11-10T09:03:55.412805",
+        "name": "gebco-grid-global-terrain-model-for-oceans-and-land-at-30-arc-second-intervals-produced-by-gene",
+        "notes": "The GEBCO Grid is a global terrain model for oceans and land at 30 arc-second intervals which was developed and first released in 2009 by the General Bathymetric Chart of the Oceans (GEBCO) as GEBCO 08. The current release is GEBCO 2014, released in December 2014 and updated in March 2015. GEBCO is an international group of experts who work on the development of a range of bathymetric (accurate mapping of the sea floor) data sets and data products. The bathymetric portion of the grid is largely based on a database of ship-track soundings with interpolation between soundings guided by satellite-derived gravity data. Data sets developed by other methods are also included where they improve the grid. The land portion of the grid is largely based on the US Geological Survey's SRMT30 data set, developed with data from the US National Aeronautics and Space Administration (NASA) Shuttle Radar Topographic Mission (SRTM). For the area around Antarctica, the land data are taken from the Bedmap2 data set. The grid is accompanied by a Source Identifier (SID) Grid which identifies which cells in the GEBCO Grid are based on soundings or existing grids and which have been interpolated. The data sets are updated as new bathymetric compilations are made available. Both grids are freely available to download, in netCDF; data GeoTiff and Esri ASCII raster formats, from the web. Free software is available for viewing and accessing data from the grids in netCDF and ASCII data formats. The grids are also included as part of the GEBCO Digital Atlas DVD.",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2009-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2015-03-18"
+        ],
+        "title": "GEBCO Grid Global terrain model for oceans and land at 30 arc-second intervals  produced by General Bathymetric Chart of the Oceans (GEBCO)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Data are freely available\", \"No conditions apply\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "180.00"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "90.00"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "-90.00"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-180.00"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2018-01-24\"}, {\"type\": \"creation\", \"value\": \"2018-02-08\"}, {\"type\": \"revision\", \"value\": \"2018-02-09\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "64c8493d6bd95d93b7e04fb868fd568e"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "0534313b-ee36-4035-8b9f-92f6738db4f1"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-11-07T15:16:02"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": "British Oceanographic Data Centre"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "British Oceanographic Data Centre (owner, originator, custodian, distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[180.00, -90.00], [-180.00, -90.00], [-180.00, 90.00], [180.00, 90.00], [180.00, -90.00]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-10T09:03:55.446244",
+                "description": "Access the gridded bathymetric (GEBCO) data delivery service. This allows grid files for a user-defined or global area to be auto-delivered for each of the GEBCO grids.",
+                "format": "",
+                "hash": "",
+                "id": "4ec2d9c7-fdbc-4111-946b-11a332bbc395",
+                "last_modified": null,
+                "metadata_modified": "2024-11-10T09:03:55.420668",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "BODC online data delivery service",
+                "package_id": "c4e6c4f4-0791-4ee6-ab88-10d5b8adf093",
+                "position": 0,
+                "resource_locator_function": "order",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.bodc.ac.uk/data/hosted_data_systems/gebco_gridded_bathymetry_data/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-10T09:03:55.446246",
+                "description": "Access the website for the General Bathymetric Chart of the Oceans (GEBCO)",
+                "format": "",
+                "hash": "",
+                "id": "c3e43d0b-8ed8-41fd-bcd4-e5580eb8cdfc",
+                "last_modified": null,
+                "metadata_modified": "2024-11-10T09:03:55.420745",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GEBCO web site",
+                "package_id": "c4e6c4f4-0791-4ee6-ab88-10d5b8adf093",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://www.gebco.net/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-10T09:03:55.446247",
+                "description": "Access an Adobe PDF copy of the GEBCO World Map which shows the bathymetry of the world's ocean floor in the form of a shaded relief colour map.",
+                "format": "",
+                "hash": "",
+                "id": "81ac8173-60f3-4293-8989-6407f2f3d02d",
+                "last_modified": null,
+                "metadata_modified": "2024-11-10T09:03:55.420803",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GEBCO World Map",
+                "package_id": "c4e6c4f4-0791-4ee6-ab88-10d5b8adf093",
+                "position": 2,
+                "resource_locator_function": "order",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.bodc.ac.uk/projects/international/gebco/gebco_world_map/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-11-10T09:03:55.446248",
+                "description": "Information on how to access the GEBCO Web Map Service (WMS).",
+                "format": "",
+                "hash": "",
+                "id": "264a8344-d4ba-4fc9-b44e-08a96b120c50",
+                "last_modified": null,
+                "metadata_modified": "2024-11-10T09:03:55.420860",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GEBCO Web Map Service (WMS)",
+                "package_id": "c4e6c4f4-0791-4ee6-ab88-10d5b8adf093",
+                "position": 3,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.gebco.net/data_and_products/gebco_web_services/web_map_service/",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "7b08142e-9bb6-475f-a0d4-c310ac419b84"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

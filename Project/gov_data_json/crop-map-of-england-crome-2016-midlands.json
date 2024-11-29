@@ -1,0 +1,356 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "open.data@rpa.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "21c91d36-1770-475e-99ce-5c54ea4b3eae",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2017-12-19T11:37:32.535186",
+        "metadata_modified": "2023-11-01T13:41:32.035684",
+        "name": "crop-map-of-england-crome-2016-midlands",
+        "notes": "The Crop Map of England (CROME) Midlands is a polygon vector dataset mainly containing the crop types of England. The dataset contains approximately 32 million hexagonal cells classifying England into over 20 main crop types, grassland, and non-agricultural land covers, such as Woodland, Water Bodies, Fallow Land and other non-agricultural land covers. The classification was created automatically using supervised classification (Random Forest Classification) from the combination of Sentinel-1 and Sentinel-2 images during the period late January 2016 \u2013 August 2016. The dataset was created to aid the classification of crop types from optical imagery, which can be affected by cloud cover. The results were checked against survey data collected by field inspectors and visually validated. refer to the CROME specification document Attribution statement: \u00a9 Rural Payments Agency",
+        "num_resources": 8,
+        "num_tags": 2,
+        "organization": {
+            "id": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+            "name": "rural-payments-agency",
+            "title": "Rural Payments Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:53:21.853113",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "96f60a15-47c3-4877-9ddc-8d379523b7a1",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2016-01-01"
+        ],
+        "temporal_coverage-to": [
+            "2016-08-31"
+        ],
+        "title": "Crop Map of England (CROME) 2016 - Midlands",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "2.072"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.816"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "49.943"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-6.236"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2017-08-30\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "98121d33-dc2a-41b2-b678-778ff28fd3ee"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "7babcf47-1b14-4924-932d-d352c563bf1f"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Rural Payments Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[2.072, 49.943], [-6.236, 49.943], [-6.236, 55.816], [2.072, 55.816], [2.072, 49.943]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:41:32.073408",
+                "description": "AllCROME_ZONES_LUCODES.lyr download on Defra Data Services Platform",
+                "format": "",
+                "hash": "",
+                "id": "cca3015a-e177-462d-8694-3b17a98aa860",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:41:32.041618",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "AllCROME_ZONES_LUCODES.lyr",
+                "package_id": "21c91d36-1770-475e-99ce-5c54ea4b3eae",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=828dc9f9-5708-4b75-aef4-d0015894e012&fileName=AllCROME_ZONES_LUCODES.lyr",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:41:32.073412",
+                "description": "CropMapOfEngland2016Midlands-FGDB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "0c7e093e-42fa-4d04-8ed8-e23495c5a0e1",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:41:32.041724",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016Midlands-FGDB.zip",
+                "package_id": "21c91d36-1770-475e-99ce-5c54ea4b3eae",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=828dc9f9-5708-4b75-aef4-d0015894e012&fileName=CropMapOfEngland2016Midlands-FGDB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:41:32.073413",
+                "description": "CropMapOfEngland2016Midlands-GML.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "3029b5b1-c0f6-4081-b443-a3f158fce6f6",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:41:32.041810",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016Midlands-GML.zip",
+                "package_id": "21c91d36-1770-475e-99ce-5c54ea4b3eae",
+                "position": 2,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=828dc9f9-5708-4b75-aef4-d0015894e012&fileName=CropMapOfEngland2016Midlands-GML.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:41:32.073414",
+                "description": "CropMapOfEngland2016Midlands-MID_MIF.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "118a168d-34e3-481e-916c-dfaf0e72b12e",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:41:32.041891",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016Midlands-MID_MIF.zip",
+                "package_id": "21c91d36-1770-475e-99ce-5c54ea4b3eae",
+                "position": 3,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=828dc9f9-5708-4b75-aef4-d0015894e012&fileName=CropMapOfEngland2016Midlands-MID_MIF.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:41:32.073415",
+                "description": "CropMapOfEngland2016Midlands-SHP.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "da1c4bd6-d8ed-4e5e-825d-f065ba280796",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:41:32.041971",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016Midlands-SHP.zip",
+                "package_id": "21c91d36-1770-475e-99ce-5c54ea4b3eae",
+                "position": 4,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=828dc9f9-5708-4b75-aef4-d0015894e012&fileName=CropMapOfEngland2016Midlands-SHP.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:41:32.073415",
+                "description": "CropMapOfEngland2016Midlands-TAB.zip download on Defra Data Services Platform",
+                "format": "ZIP",
+                "hash": "",
+                "id": "f4011d31-d816-427e-a8a3-3cc36fa01c3c",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:41:32.042051",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016Midlands-TAB.zip",
+                "package_id": "21c91d36-1770-475e-99ce-5c54ea4b3eae",
+                "position": 5,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=828dc9f9-5708-4b75-aef4-d0015894e012&fileName=CropMapOfEngland2016Midlands-TAB.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:41:32.073416",
+                "description": "RPA CROME_Specification_v07.pdf download on Defra Data Services Platform",
+                "format": "PDF",
+                "hash": "",
+                "id": "51e97f96-c88a-4617-89fc-d3e77cda82d1",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:41:32.042130",
+                "mimetype": "application/pdf",
+                "mimetype_inner": null,
+                "name": "RPA CROME_Specification_v07.pdf",
+                "package_id": "21c91d36-1770-475e-99ce-5c54ea4b3eae",
+                "position": 6,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/api/file/download?fileDataSetId=828dc9f9-5708-4b75-aef4-d0015894e012&fileName=RPA CROME_Specification_v07.pdf",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:41:32.073417",
+                "description": "Download data by area of interest",
+                "format": "",
+                "hash": "",
+                "id": "db3007cc-15dc-400c-be49-31034c6ce986",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:41:32.042207",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "CropMapOfEngland2016Midlands_Download",
+                "package_id": "21c91d36-1770-475e-99ce-5c54ea4b3eae",
+                "position": 7,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://environment.data.gov.uk/explore/98121d33-dc2a-41b2-b678-778ff28fd3ee?download=true",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land cover",
+                "id": "13c054fd-aa73-4884-809f-2c972a391330",
+                "name": "land cover",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "6746bd14-3a64-4ad9-bf40-0156e19c1ed5"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2d6d48b7-5427-4aa0-97ef-976b8713123e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "RPA metadata catalogue harvest"
+            }
+        ]
+    }
+}

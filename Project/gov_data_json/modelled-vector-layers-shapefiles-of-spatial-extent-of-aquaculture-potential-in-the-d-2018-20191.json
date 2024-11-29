@@ -1,0 +1,172 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data.manager@cefas.co.uk",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "id": "fd445b02-56c4-43dc-834b-9731d4aef418",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2024-09-10T08:27:37.909536",
+        "metadata_modified": "2024-09-10T08:27:37.909539",
+        "name": "modelled-vector-layers-shapefiles-of-spatial-extent-of-aquaculture-potential-in-the-d-2018-20191",
+        "notes": "Polygon shapefiles converted from modelled raster layers of aquaculture \npotential, with values ranging between 0 (representing no potential) and 1 \n(representing full potential). The underlying raster layers were derived by \ncombining conservation, legislative, human infrastructure features and \nactivity boundaries with environmental requirements for specific aquaculture \nspecies/system combinations. The polygon boundaries delineate aquaculture \npotential areas with a modelled raster classification of 0.5 or higher (i.e. \n50% of threshold values are optimum for the specific species/system \ncombination).",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "c756c8da-f176-4640-950e-9c00b9e404df",
+            "name": "marine-environmental-data-information-network",
+            "title": "Marine Environmental Data & Information Network",
+            "type": "organization",
+            "description": "MEDIN is a partnership of UK organisations committed to improving access to marine data. Our partners are both public and private sector.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:56.935179",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c756c8da-f176-4640-950e-9c00b9e404df",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2018-04-01"
+        ],
+        "temporal_coverage-to": [
+            "2019-12-31"
+        ],
+        "title": "Modelled vector layers (shapefiles) of spatial extent of aquaculture potential in the Dorset & East Devon Fisheries Local Action Group area, 2018-2019",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.50"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "51.00"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50.25"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.50"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2020-05-14\"}, {\"type\": \"revision\", \"value\": \"2024-07-24\"}, {\"type\": \"creation\", \"value\": \"2020-03-04\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "notPlanned"
+            },
+            {
+                "key": "guid",
+                "value": "CEFASe54ac4aa-7f8b-48e9-b4a4-efb951d3f416"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "4c67e0dd-b2fa-48ca-b496-b8dc9dd92769"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-24T11:36:45"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Centre for Environment, Fisheries and Aquaculture Science, Lowestoft Laboratory (CEFAS) (originator, custodian, distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-1.50, 50.25], [-3.50, 50.25], [-3.50, 51.00], [-1.50, 51.00], [-1.50, 50.25]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-09-10T08:27:37.912936",
+                "description": "The Cefas Data Portal contains metadata records and data sets available to download and connect to in support of our commitment to open science. Data is available in the following formats: Binary download, CSV, ESRI Shapefile. The data can also be accessed via the WFS and WMS protocols.",
+                "format": "",
+                "hash": "",
+                "id": "ebeb124d-5e55-41a3-8615-e11aa94a232a",
+                "last_modified": null,
+                "metadata_modified": "2024-09-10T08:27:37.907204",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Cefas Data Portal",
+                "package_id": "fd445b02-56c4-43dc-834b-9731d4aef418",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.cefas.co.uk/view/20411",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "4c67e0dd-b2fa-48ca-b496-b8dc9dd92769"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "885ee504-c712-4f8d-9034-1c230bcd88a6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Marine Environmental Data Information Network (MEDIN) WAF hosted by MARIS (Netherlands)"
+            }
+        ]
+    }
+}

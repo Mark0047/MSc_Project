@@ -1,0 +1,349 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "data_supply@nature.scot",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "aa22f329-a639-450b-8922-0d0708c65611",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2014-07-18T08:34:44.124822",
+        "metadata_modified": "2024-06-19T11:14:33.409830",
+        "name": "deer-management-group-boundaries",
+        "notes": "Boundary of all Deer Management Groups in Scotland. For more information go to https://www.nature.scot/professional-advice/land-and-sea-management/managing-wildlife/managing-deer",
+        "num_resources": 8,
+        "num_tags": 1,
+        "organization": {
+            "id": "c924c995-e063-4f30-bbd3-61418486f0a9",
+            "name": "scottish-government-spatial-data-infrastructure",
+            "title": "Scottish Government SpatialData.gov.scot",
+            "type": "organization",
+            "description": "SpatialData.gov.scot is Scotland\u2019s catalogue of geospatial data. Here you can find, share and reuse spatial data provided by Scottish public sector organisations.",
+            "image_url": "",
+            "created": "2012-06-27T14:54:43.880607",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "c924c995-e063-4f30-bbd3-61418486f0a9",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2002"
+        ],
+        "temporal_coverage-to": [
+            "2014"
+        ],
+        "title": "Deer Management Group boundaries",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Available under the Open Government Licence v3.0\", \"Contains SNH information licensed under the Open Government Licence v3.0.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-0.53202"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "61.46459"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "54.53297"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-7.75714"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2010-07-16\"}, {\"type\": \"revision\", \"value\": \"2024-03-22\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "irregular"
+            },
+            {
+                "key": "guid",
+                "value": "5fdc1379-80a7-40ca-a21a-2f8596875936"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "48481601-f5cd-41b3-9c33-fe0cb2d6db15"
+            },
+            {
+                "key": "licence",
+                "value": "[]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-03-22T10:16:42"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "NatureScot (distributor)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-0.53202, 54.53297], [-7.75714, 54.53297], [-7.75714, 61.46459], [-0.53202, 61.46459], [-0.53202, 54.53297]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "urn:ogc:def:crs:EPSG::27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:33.442578",
+                "description": "dmg",
+                "format": "",
+                "hash": "",
+                "id": "b8a9b02a-fa77-4cf5-a3cc-fdf2a43a8f3a",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:33.415594",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "dmg",
+                "package_id": "aa22f329-a639-450b-8922-0d0708c65611",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WMS-1.3.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/administrative/wms?request=GetCapabilities&service=WMS&version=1.3.0",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:33.442581",
+                "description": "administrative:dmg",
+                "format": "",
+                "hash": "",
+                "id": "eb185f1a-adad-4cb7-9b36-a4d0a17b8170",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:33.415686",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "administrative:dmg",
+                "package_id": "aa22f329-a639-450b-8922-0d0708c65611",
+                "position": 1,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "OGC:WFS-1.0.0-http-get-capabilities",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://ogc.nature.scot/geoserver/administrative/wfs?request=GetCapabilities&service=WFS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:33.442582",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "a44b3836-a6c3-4a67-be37-0d9f174d6d5e",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:33.415759",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI Shapefile (EPSG:27700)",
+                "package_id": "aa22f329-a639-450b-8922-0d0708c65611",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DMG_SCOTLAND_SHP_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:33.442583",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "fb74fddf-fefd-48b3-97f2-3ecb306120f4",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:33.415827",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "ESRI File geodatabase (EPSG:27700)",
+                "package_id": "aa22f329-a639-450b-8922-0d0708c65611",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DMG_SCOTLAND_GDB_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:33.442584",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "e7df04e5-d886-427c-ade2-657621efe883",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:33.415894",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "Geopackage (EPSG:27700)",
+                "package_id": "aa22f329-a639-450b-8922-0d0708c65611",
+                "position": 4,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DMG_SCOTLAND_GPKG_27700.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:33.442585",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "e5a3dabd-46cc-48b7-8b25-157a55e88956",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:33.415962",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GML (EPSG:4258)",
+                "package_id": "aa22f329-a639-450b-8922-0d0708c65611",
+                "position": 5,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DMG_SCOTLAND_GML_4258.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:33.442586",
+                "description": "Resource locator",
+                "format": "ZIP",
+                "hash": "",
+                "id": "dc4ae4a0-c125-46c3-8de9-f3840af7da89",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:33.416027",
+                "mimetype": "application/zip",
+                "mimetype_inner": null,
+                "name": "GeoJSON (EPSG:4326)",
+                "package_id": "aa22f329-a639-450b-8922-0d0708c65611",
+                "position": 6,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "WWW:DOWNLOAD-1.0-http--download",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis-downloads.nature.scot/DMG_SCOTLAND_GEOJSON_4326.zip",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-06-19T11:14:33.442587",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "f5392046-6069-4f2f-8a30-555f36ed7575",
+                "last_modified": null,
+                "metadata_modified": "2024-06-19T11:14:33.416088",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NatureScot OpenData Hub",
+                "package_id": "aa22f329-a639-450b-8922-0d0708c65611",
+                "position": 7,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "WWW:LINK-1.0-http--link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://opendata.nature.scot/datasets/deer-management-groups/explore",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Area management/restriction/regulation zones and r",
+                "id": "85a96129-b6e5-46e1-8dd8-75fd5990e434",
+                "name": "Area management/restriction/regulation zones and r",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "fbf27378-8e02-450d-8c5b-89feb5dfcc0f"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "c9eeaa17-2291-4170-93ca-aec634aa0d63"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "SpatialData.gov.scot"
+            }
+        ]
+    }
+}

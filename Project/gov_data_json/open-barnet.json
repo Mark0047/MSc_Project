@@ -1,0 +1,73 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "DAILY",
+        "id": "06f2be65-b3b8-46d1-a67c-02e426c7cc03",
+        "metadata_created": "2019-01-23T10:37:01.319957",
+        "metadata_modified": "2019-01-23T10:37:01.319964",
+        "name": "open-barnet",
+        "notes": "",
+        "organization": {
+            "id": "27322301-90d6-4837-9563-899fd280e921",
+            "name": "london-borough-of-barnet",
+            "title": "London Borough of Barnet",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:52.167987",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "27322301-90d6-4837-9563-899fd280e921",
+        "private": false,
+        "source_type": "dcat_json",
+        "state": "active",
+        "title": "Open Barnet",
+        "type": "harvest",
+        "url": "https://open.barnet.gov.uk/data.json?slug=london-borough-of-barnet",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 3022,
+            "last_job": {
+                "id": "8e5b1103-c5e1-4775-b2d1-924ccf8e7cc8",
+                "created": "2024-11-17 13:00:06.957895",
+                "gather_started": "2024-11-17 13:00:24.433860",
+                "gather_finished": "2024-11-17 13:00:28.105050",
+                "finished": "2024-11-17 13:04:17.859170",
+                "source_id": "06f2be65-b3b8-46d1-a67c-02e426c7cc03",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 308,
+                    "not modified": 0,
+                    "errored": 4,
+                    "deleted": 0
+                },
+                "object_error_summary": [
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/create.py\", line 200, in package_create\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"Barnet & King George V\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 2
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/create.py\", line 200, in package_create\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"#invoices\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    },
+                    {
+                        "message": "Error importing dataset : ValidationError(None) / Traceback (most recent call last):\n  File \"/usr/lib/ckan/venv/lib/python3.11/site-packages/ckanext/dcat/harvesters/_json.py\", line 286, in import_stage\n    package_id = p.toolkit.get_action(action)(context, package_dict)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/__init__.py\", line 580, in wrapped\n    result = _action(context, data_dict, **kw)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/ckan/venv/src/ckan/ckan/logic/action/create.py\", line 200, in package_create\n    raise ValidationError(errors)\nckan.logic.ValidationError: None - {'tags': ['Tag \"Kelly\\'s Directories\" can only contain alphanumeric characters, spaces (\" \"), hyphens (\"-\"), underscores (\"_\") or dots (\".\")']}\n",
+                        "error_count": 1
+                    }
+                ],
+                "gather_error_summary": []
+            },
+            "total_datasets": 308
+        }
+    }
+}

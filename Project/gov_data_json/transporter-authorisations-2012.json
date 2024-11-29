@@ -1,0 +1,202 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "aphaopendata@apha.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "83c128f8-955d-4910-aaf2-087b0c5f8b81",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2016-06-24T12:46:16.929359",
+        "metadata_modified": "2023-11-01T13:24:44.751454",
+        "name": "transporter-authorisations-2012",
+        "notes": "This dataset provides a list of requests for Transporter Authorisations issued in accordance with Council Regulation (EC) No 1/2005 enforced in England by the Welfare of Animals (Transport) (England) Order 2006. The dataset contains the date the application was received, the type of Transporter Authorisation being applied for, the animal species/commodity the authorisation will permit transport of, the date the Transporter Authorisation was issued and if the application was cancelled. There are two different types of Transporter Authorisation that can be applied for which are: Type 1 short journey authorisation for journeys over 65km and up to eight hours duration or a Type 2 long journey authorisation for all journeys over 65km, including those over eight hours duration. There are then five different types of application that can be submitted which are: 'T1 - New' for a new Type 1 short journey authorisation, 'T1 - Renew' for the renewal of an existing Type 1 short journey authorisation, 'T2 - New' for a new Type 2 long journey authorisation, 'T2 - Renew' for the renewal of an existing Type 2 long journey authorisation, 'T2 - T1 Downgrade' where a transporter is applying to downgrade their current Type 2 long journey authorisation to a Type 1 short journey authorisation. The column that lists animal species/commodity is not completed for all authorisations. This column was added to the dataset during 2015 and has not been retrospectively populated for any authorisations already issued at that point in time. This dataset is for applications for transporters with an address in England only. Attribution statement: \u00a9Crown Copyright, APHA 2016",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+            "id": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+            "name": "animal-and-plant-health-agency",
+            "title": "Animal and Plant Health Agency",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2015-02-04T13:40:13.046442",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "2614e2b2-d1cf-4fc4-8e41-1f4d2b4f11f5",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2012-01-03"
+        ],
+        "temporal_coverage-to": [
+            "2013-11-20"
+        ],
+        "title": "Transporter Authorisations 2012",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"There are no public access constraints to this data. Use of this data is subject to the licence identified.\", \"There are no public access constraints to this data. Use of this data is subject to the licence identified.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "1.8"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "55.8"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "50"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-5.7"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2016-06-10\"}, {\"type\": \"publication\", \"value\": \"2016-06-10\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "unknown"
+            },
+            {
+                "key": "guid",
+                "value": "98156618-ae47-486a-b2bb-ebf685347bdc"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "cc8eb08f-e3c7-43f5-a8bc-ce19fb586a90"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Open Government Licence\"]"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-11-01"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "progress",
+                "value": ""
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Animal & Plant Health Agency (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[1.8, 50], [-5.7, 50], [-5.7, 55.8], [1.8, 55.8], [1.8, 50]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "155dcaa5-1587-4af5-b770-c2e07a18163e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "APHA Metadata Catalogue Harvest"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-11-01T13:24:44.790213",
+                "description": "Resource locator",
+                "format": "CSV",
+                "hash": "",
+                "id": "c3adfc1b-4880-4ff3-b219-66cd18625e8e",
+                "last_modified": null,
+                "metadata_modified": "2023-11-01T13:24:44.759006",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "83c128f8-955d-4910-aaf2-087b0c5f8b81",
+                "position": 0,
+                "resource_locator_function": "",
+                "resource_locator_protocol": "http",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "http://data.defra.gov.uk/Agriculture/APHA0481-Transporter_Authorisations_2012.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "environment",
+                "id": "aaa2ee64-885c-4ff1-b881-c097ee97eda8",
+                "name": "environment",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "export",
+                "id": "4b66c913-561f-4420-8caf-ff94e8c35705",
+                "name": "export",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "export licence",
+                "id": "16dd91a9-5a0a-4060-9c61-2da329cefd9f",
+                "name": "export licence",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "785d64a2-7713-4642-8b8e-361fce17504e"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "155dcaa5-1587-4af5-b770-c2e07a18163e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "APHA Metadata Catalogue Harvest"
+            }
+        ]
+    }
+}

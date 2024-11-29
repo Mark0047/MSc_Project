@@ -1,0 +1,168 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "codelist": "",
+        "contact-email": "gis@northyorkmoors.org.uk",
+        "contact-name": "",
+        "contact-phone": "",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "foi-email": "",
+        "foi-name": "",
+        "foi-phone": "",
+        "foi-web": "",
+        "id": "c1154978-cf34-46b2-860c-b40416405e8c",
+        "isopen": true,
+        "licence-custom": "",
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2017-12-04T13:15:50.478452",
+        "metadata_modified": "2023-12-18T16:33:52.206983",
+        "name": "nymnpa-brownfield-land-register",
+        "notes": "A register of sites in North York Moors National Park that are brownfield and considered to be suitable for housing development for the purposes of the brownfield land registers introduced by the Town and Country Planning (Brownfield Land Register) Regulations 2017. The list includes both sites with and without current planning permission.",
+        "num_resources": 3,
+        "num_tags": 2,
+        "organization": {
+            "id": "5608ab19-4e8e-4d16-b90a-f7382fd9f8d7",
+            "name": "north-york-moors-national-park-authority",
+            "title": "North York Moors National Park Authority",
+            "type": "organization",
+            "description": "North York Moors National Park Authority",
+            "image_url": "",
+            "created": "2013-01-29T13:43:16.250691",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "5608ab19-4e8e-4d16-b90a-f7382fd9f8d7",
+        "private": false,
+        "schema-vocabulary": "",
+        "state": "active",
+        "theme-primary": "",
+        "title": "NYMNPA Brownfield Land Register",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-12-14T14:12:00.702109",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "617a2643-a00f-4952-aea0-f402bdd863d5",
+                "last_modified": null,
+                "metadata_modified": "2022-01-17T12:02:44.858690",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "North York Moors National Park Authority INSPIRE WMS Service",
+                "package_id": "c1154978-cf34-46b2-860c-b40416405e8c",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "revision_id": "0ccaa259-881f-4717-b0d3-647787787e99",
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.northyorkmoors.org.uk/geoserver/nymnpa_inspire/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-12-14T14:12:00.702115",
+                "description": "Resource locator",
+                "format": "",
+                "hash": "",
+                "id": "0d86a44a-44c8-4f19-babf-444ad41c81be",
+                "last_modified": null,
+                "metadata_modified": "2022-01-17T12:02:44.858817",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "North York Moors National Park Authority INSPIRE WFS Service",
+                "package_id": "c1154978-cf34-46b2-860c-b40416405e8c",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "revision_id": "0ccaa259-881f-4717-b0d3-647787787e99",
+                "size": null,
+                "state": "active",
+                "url": "https://inspire.northyorkmoors.org.uk/geoserver/nymnpa_inspire/ows?service=WFS&request=GetCapabilities",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2022-01-18T09:47:55.686259",
+                "datafile-date": "2023-12-18",
+                "description": null,
+                "format": "CSV",
+                "hash": "",
+                "id": "5bd0d6a5-9533-4b1b-9dc5-1f8fde72e08c",
+                "last_modified": null,
+                "metadata_modified": "2023-12-18T13:30:24.185759",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "Brownfield Register CSV",
+                "package_id": "c1154978-cf34-46b2-860c-b40416405e8c",
+                "position": 2,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.northyorkmoors.org.uk/__data/assets/file/0030/481737/brownfield-land.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "Brownfield sites",
+                "id": "9a7bf5ee-cdfe-4a61-8829-84fe962c3543",
+                "name": "Brownfield sites",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land_use_planning",
+                "id": "85042a49-a177-4c08-8198-d467ec072053",
+                "name": "land_use_planning",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "0b998812-0864-47f9-93e9-2398978ef526"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "41206885-4784-421d-8b17-73bf3dabb41b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "0b998812-0864-47f9-93e9-2398978ef526"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "41206885-4784-421d-8b17-73bf3dabb41b"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

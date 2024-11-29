@@ -1,0 +1,65 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "config": "",
+        "creator_user_id": "fe27eda4-4fcf-46e5-8818-5fdb2b0a52f9",
+        "frequency": "MONTHLY",
+        "id": "f1f03fa1-fee7-4c9c-8ca4-67a1e7178a5d",
+        "metadata_created": "2019-01-23T11:35:51.088953",
+        "metadata_modified": "2024-02-01T14:19:07.656192",
+        "name": "london-borough-of-hammersmith-and-fulham-datastore",
+        "notes": "Location Metadata Editor WAF - https://locationmde.data.gov.uk",
+        "organization": {
+            "id": "138b9d88-2b87-46bd-8eb5-f1cb30744058",
+            "name": "london-borough-of-hammersmith-and-fulham",
+            "title": "London Borough of Hammersmith and Fulham",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2013-10-24T12:53:06.809748",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "138b9d88-2b87-46bd-8eb5-f1cb30744058",
+        "private": false,
+        "source_type": "gemini-waf",
+        "state": "active",
+        "title": "London Borough of Hammersmith and Fulham datastore",
+        "type": "harvest",
+        "url": "https://locationmde.data.gov.uk/metadata-harvesting/138b9d88-2b87-46bd-8eb5-f1cb30744058/",
+        "resources": [],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "status": {
+            "job_count": 1617,
+            "last_job": {
+                "id": "14d11aa2-b9af-425a-bfd7-3139cbb5490a",
+                "created": "2024-11-02 18:00:05.939483",
+                "gather_started": "2024-11-02 18:00:27.525839",
+                "gather_finished": "2024-11-02 18:00:47.556618",
+                "finished": "2024-11-02 18:00:47.556618",
+                "source_id": "f1f03fa1-fee7-4c9c-8ca4-67a1e7178a5d",
+                "status": "Finished",
+                "stats": {
+                    "added": 0,
+                    "updated": 0,
+                    "not modified": 0,
+                    "errored": 1,
+                    "deleted": 0
+                },
+                "object_error_summary": [],
+                "gather_error_summary": [
+                    {
+                        "message": "Unable to get content for URL: https://locationmde.data.gov.uk/metadata-harvesting/138b9d88-2b87-46bd-8eb5-f1cb30744058/: ConnectTimeout(MaxRetryError(\"HTTPSConnectionPool(host='locationmde.data.gov.uk', port=443): Max retries exceeded with url: /metadata-harvesting/138b9d88-2b87-46bd-8eb5-f1cb30744058/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb7e4416c90>, 'Connection to locationmde.data.gov.uk timed out. (connect timeout=20)'))\"))",
+                        "error_count": 1
+                    }
+                ]
+            },
+            "total_datasets": 12
+        }
+    }
+}

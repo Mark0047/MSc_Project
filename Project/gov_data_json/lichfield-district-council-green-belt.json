@@ -1,0 +1,245 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "enquiries@lichfielddc.gov.uk",
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "26e4c778-d992-4329-91ff-14c8dde5abdc",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+        "metadata_created": "2014-09-25T12:50:09.101998",
+        "metadata_modified": "2024-08-20T09:30:33.894753",
+        "name": "lichfield-district-council-green-belt",
+        "notes": "The green belt of Lichfield District Council. Captured as boundaries against open source base mapping. All data released is open source with all restricted data removed.",
+        "num_resources": 4,
+        "num_tags": 0,
+        "organization": {
+            "id": "13fc54d5-4060-4ba5-ad73-3d407190e790",
+            "name": "lichfield-district-council",
+            "title": "Lichfield District Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:48:44.003697",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "13fc54d5-4060-4ba5-ad73-3d407190e790",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "title": "Lichfield District Council Green Belt",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"The licensor grants a worldwide royalty free, perpetual, non-exclusive license to use the information subject to the terms and conditions of the license.\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-1.686248"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.748862"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.586955"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-1.961853"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"revision\", \"value\": \"2015-03-03\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "040f68b1-ff05-4727-8e29-ba9a0e228de0"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "041da004-6693-4e36-a89f-d97673b0065b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "e46d8dde-ee2e-4fe6-89e2-1caa9f7d3e3f"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "https://locationmde.data.gov.uk/metadata-harvesting/13fc54d5-4060-4ba5-ad73-3d407190e790/116-Green_Belt.xml"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2015-08-20"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": "Lichfield District Council"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Lichfield District Council (owner, pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.686248, 52.586955],[-1.686248, 52.748862], [-1.961853, 52.748862], [-1.961853, 52.586955], [-1.686248, 52.586955]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-20T16:01:45.213511",
+                "datafile-date": "",
+                "description": null,
+                "format": "WMS",
+                "hash": "",
+                "id": "5b738e36-a0a9-4d26-91ba-f914b32b3f24",
+                "last_modified": null,
+                "metadata_modified": "2024-08-20T09:12:10.131800",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Lichfield District Council INSPIRE OGC WMS Service",
+                "package_id": "26e4c778-d992-4329-91ff-14c8dde5abdc",
+                "position": 0,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://gis.lichfielddc.gov.uk/arcgis/rest/services/PUBLIC/InspireLDC/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-20T16:01:45.213530",
+                "datafile-date": "",
+                "description": null,
+                "format": "SHP",
+                "hash": "",
+                "id": "ffad8321-8e1d-4c42-8c4e-5ff3333fdd0c",
+                "last_modified": null,
+                "metadata_modified": "2024-08-20T09:25:52.933270",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Green Belt review documents",
+                "package_id": "26e4c778-d992-4329-91ff-14c8dde5abdc",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.lichfielddc.gov.uk/downloads/download/142/green-belt-review",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-20T16:01:45.213536",
+                "datafile-date": "",
+                "description": null,
+                "format": "PDF",
+                "hash": "",
+                "id": "cce075e1-18f1-49d4-aa31-c0f3baf93ad0",
+                "last_modified": null,
+                "metadata_modified": "2024-08-20T09:25:09.186795",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Lichfield District Local Plan Document",
+                "package_id": "26e4c778-d992-4329-91ff-14c8dde5abdc",
+                "position": 2,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://www.lichfielddc.gov.uk/downloads/file/235/local-plan-strategy",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2015-08-20T16:01:45.213541",
+                "datafile-date": "",
+                "description": null,
+                "format": "HTML",
+                "hash": "",
+                "id": "1694c416-1cdc-42af-9173-85215fd4b9cb",
+                "last_modified": null,
+                "metadata_modified": "2024-08-20T09:30:33.903157",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Local Plan Interactive Viewer",
+                "package_id": "26e4c778-d992-4329-91ff-14c8dde5abdc",
+                "position": 3,
+                "resource-type": "data-link",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://lichfielddc.maps.arcgis.com/apps/webappviewer/index.html?id=427d1e51689b4d2395d2289e912b8f74",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "041da004-6693-4e36-a89f-d97673b0065b"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "e46d8dde-ee2e-4fe6-89e2-1caa9f7d3e3f"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UKME WAF"
+            }
+        ]
+    }
+}

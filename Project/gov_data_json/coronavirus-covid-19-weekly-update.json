@@ -1,0 +1,233 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "992f3d28-d917-485f-8c7e-8fd47594a554",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "metadata_created": "2020-05-22T06:06:04.769083",
+        "metadata_modified": "2024-11-16T22:01:17.716354",
+        "name": "coronavirus-covid-19-weekly-update",
+        "notes": "Dataset no longer updated\n\nDue to changes in the collection and availability of data on COVID-19, this dataset is no longer updated. Latest information about COVID-19 is available via the [UKHSA data dashboard](https://ukhsa-dashboard.data.gov.uk/).\n\nThe UK government publish daily data, updated weekly, on COVID-19 cases, vaccinations, hospital admissions and deaths. This note provides a summary of the key data for London from this release. Data are published through the [UK Coronavirus Dashboard](https://coronavirus.data.gov.uk/), last updated on 23 March 2023.\n\nThis update contains:\n\n*   Data on the number of cases identified daily through Pillar 1 and Pillar 2 testing at the national, regional and local authority level\n*   Data on the number of people who have been vaccinated against COVID-19\n*   Data on the number of COVID-19 patients in Hospital\n*   Data on the number of people who have died within 28 days of a COVID-19 diagnosis\n*   Data for London and London boroughs and data disaggregated by age group\n\nData on [weekly deaths related to COVID-19](https://data.london.gov.uk/dataset/coronavirus--covid-19--deaths), published by the Office for National Statistics and NHS, is also available.\n\nKey Points\n----------\n\n*   On 23 March 2023 the daily number of people tested positive for COVID-19 in London was reported as **2,775**\n*   On 23 March 2023 it was newly reported that **94** people in London died within 28 days of a positive COVID-19 test\n*   The total number of COVID-19 cases identified in London to date is **3,146,752** comprising **15.2 percent** of the England total of **20,714,868** cases\n*   In the most recent week of complete data (12 March 2023 - 18 March 2023) **2,951** new cases were identified in London, a rate of **33 cases per 100,000 population**. This compares with **2,883** cases and a rate of **32** for the previous week\n*   In England as a whole, **29,426** new cases were identified in the most recent week of data, a rate of **52 cases per 100,000 population**. This compares with **26,368** cases and a rate of **47** for the previous week\n*   Up to and including 22 March 2023 **6,452,895** people in London had received the first dose of a COVID-19 vaccine and **6,068,578** had received two doses\n*   Up to and including 22 March 2023 **4,435,586** people in London had received either a third vaccine dose or a booster dose\n*   On 22 March 2023 there were **1,370** COVID-19 patients in London hospitals. This compares with **1,426** patients on 15 March 2023.\n*   On 22 March 2023 there were **70** COVID-19 patients in mechanical ventilation beds in London hospitals. This compares with **72** patients on 15 March 2023.\n\n**Update: From 1st July updates are weekly** From Friday 1 July 2022, this page will be updated weekly rather than daily. This change results from a change to the UK government COVID-19 Dashboard which will move to weekly reporting. Weekly updates will be published every Thursday. Daily data up to the most recent available will continue to be added in each weekly update.\n\nData summary\n------------",
+        "num_resources": 7,
+        "num_tags": 1,
+        "organization": {
+            "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+            "name": "greater-london-authority",
+            "title": "Greater London Authority",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:02.054509",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+        "private": false,
+        "state": "active",
+        "title": "Coronavirus (COVID-19) Weekly Update",
+        "type": "dataset",
+        "url": "https://data.london.gov.uk/dataset/coronavirus--covid-19--cases",
+        "version": null,
+        "extras": [
+            {
+                "key": "dcat_issued",
+                "value": "2020-04-22T16:11:52.242Z"
+            },
+            {
+                "key": "dcat_modified",
+                "value": "2023-03-29T05:56:27.737Z"
+            },
+            {
+                "key": "dcat_publisher_name",
+                "value": "Greater London Authority (GLA)"
+            },
+            {
+                "key": "guid",
+                "value": "6a443e4e-e219-42f4-9c65-e819456f0b74"
+            },
+            {
+                "key": "language",
+                "value": ""
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2020-07-10T07:02:04.056993",
+                "description": "[Source](https://coronavirus.data.gov.uk/)",
+                "format": "CSV",
+                "hash": "",
+                "id": "3549a5f4-3e00-491a-b8bf-500114d20785",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:12.587875",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "phe_cases_london_boroughs.csv",
+                "package_id": "992f3d28-d917-485f-8c7e-8fd47594a554",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/coronavirus--covid-19--cases/151e497c-a16e-414e-9e03-9e428f555ae9/phe_cases_london_boroughs.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:41:27.725594",
+                "description": "[Source](https://coronavirus.data.gov.uk/)",
+                "format": "CSV",
+                "hash": "",
+                "id": "cbf2dc1a-6456-4086-8380-e45dff726d14",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:12.588009",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "phe_healthcare.csv",
+                "package_id": "992f3d28-d917-485f-8c7e-8fd47594a554",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/coronavirus--covid-19--cases/87ee8ecb-00e3-4ed1-beb8-56cc043ef0df/phe_healthcare.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:41:27.725601",
+                "description": "[Source](https://coronavirus.data.gov.uk/)",
+                "format": "CSV",
+                "hash": "",
+                "id": "5343dbba-3b2f-45eb-a384-2566b8b7e7c5",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:12.588110",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "phe_healthcare_admissions_age.csv",
+                "package_id": "992f3d28-d917-485f-8c7e-8fd47594a554",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/coronavirus--covid-19--cases/ad037e43-0f09-473a-8d62-b576de380af6/phe_healthcare_admissions_age.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-03-26T15:41:27.725605",
+                "description": "[Source](https://coronavirus.data.gov.uk/)",
+                "format": "CSV",
+                "hash": "",
+                "id": "d9a34472-d963-4dc8-8a3a-fdebfc1f3ff4",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:12.588300",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "phe_cases_age_london.csv",
+                "package_id": "992f3d28-d917-485f-8c7e-8fd47594a554",
+                "position": 3,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/coronavirus--covid-19--cases/d15e692d-5e58-4b6e-80f2-78df6f8b148b/phe_cases_age_london.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-06-04T21:33:24.534446",
+                "description": "[Source](https://coronavirus.data.gov.uk/)",
+                "format": "CSV",
+                "hash": "",
+                "id": "4a9d61c3-6fbe-4a13-8fd2-988343de5aa7",
+                "last_modified": null,
+                "metadata_modified": "2021-08-20T17:56:12.588483",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "phe_vaccines_age_london_boroughs.csv",
+                "package_id": "992f3d28-d917-485f-8c7e-8fd47594a554",
+                "position": 4,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/coronavirus--covid-19--cases/ae4d5fc9-5448-49a6-810f-910f7cbc9fd2/phe_vaccines_age_london_boroughs.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-12-20T18:02:09.170145",
+                "description": "[Source](https://coronavirus.data.gov.uk/)",
+                "format": "CSV",
+                "hash": "",
+                "id": "aa7ec5a4-a139-4a30-9239-a8e02c7ef2d7",
+                "last_modified": null,
+                "metadata_modified": "2021-12-20T18:02:09.017451",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "phe_deaths_london_boroughs.csv",
+                "package_id": "992f3d28-d917-485f-8c7e-8fd47594a554",
+                "position": 5,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/coronavirus--covid-19--cases/ff60cf44-852e-425e-960c-869920dcdd0d/phe_deaths_london_boroughs.csv",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2021-12-20T18:02:09.170150",
+                "description": "[Source](https://coronavirus.data.gov.uk/)",
+                "format": "CSV",
+                "hash": "",
+                "id": "06108d19-1752-4770-bb39-56fcabf3fa3d",
+                "last_modified": null,
+                "metadata_modified": "2021-12-20T18:02:09.017612",
+                "mimetype": "text/csv",
+                "mimetype_inner": null,
+                "name": "phe_deaths_age_london.csv",
+                "package_id": "992f3d28-d917-485f-8c7e-8fd47594a554",
+                "position": 6,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://data.london.gov.uk/download/coronavirus--covid-19--cases/5bc806fe-e192-4f90-be51-b5688c9ddb5b/phe_deaths_age_london.csv",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "COVID-19",
+                "id": "d4f92fad-a940-41b3-a1eb-60cee8940ddb",
+                "name": "COVID-19",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "309e3d79-e931-4c5d-b1c7-424c56bdbe24"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "London Datastore - GLA"
+            }
+        ]
+    }
+}

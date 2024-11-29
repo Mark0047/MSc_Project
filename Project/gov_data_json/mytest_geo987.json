@@ -1,0 +1,187 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "GISTeam@kent.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "f59d43ec-e283-4669-b0dc-ad74aff1a606",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2017-12-13T15:40:18.149877",
+        "metadata_modified": "2017-12-13T15:40:20.998180",
+        "name": "mytest_geo987",
+        "notes": "MytesT_geo123",
+        "num_resources": 1,
+        "num_tags": 0,
+        "organization": {
+            "id": "567678ed-130e-465b-910e-c10df8dc3ad1",
+            "name": "kent-county-council",
+            "title": "Kent County Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:50:16.078976",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "567678ed-130e-465b-910e-c10df8dc3ad1",
+        "private": false,
+        "state": "active",
+        "temporal_coverage-from": [
+            "2017-11-22"
+        ],
+        "temporal_coverage-to": [
+            "2017-11-22"
+        ],
+        "theme-primary": "environment",
+        "theme-secondary": [],
+        "title": "MytesT_geo987",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"(d) the confidentiality of commercial or industrial information, where such confidentiality is provided for by national or Community   law to protect a legitimate economic interest, including the public interest in maintaining statistical confidentiality and tax secrecy;\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "180"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "90"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "-90"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-180"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2017-11-22\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "{B3E19606-2B84-46B9-BD7A-E2CE6E03A665}"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "61a955d9-ad01-4658-a774-0145fcda9c1d"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "{B3E19606-2B84-46B9-BD7A-E2CE6E03A665}"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "conditions unknown"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2017-11-22"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "KCC (pointOfContact)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[180, -90],[180, 90], [-180, 90], [-180, -90], [180, -90]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "27700"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0dc93cc9-b762-4986-a51b-523aed4f922a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Kent County Council Inspire Catalog"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2017-12-13T15:40:18.263196",
+                "description": "download",
+                "format": "WMS",
+                "hash": "",
+                "id": "b30c7eb3-52a9-4c6b-abd6-079e435c7525",
+                "last_modified": null,
+                "metadata_modified": "2017-12-13T15:40:18.263196",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "",
+                "package_id": "f59d43ec-e283-4669-b0dc-ad74aff1a606",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "https://webapps.kent.gov.uk/arcgis2/services/INSPIRE/Inspire/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                "url_type": null,
+                "wms_base_urls": "http://webapps.kent.gov.uk/arcgis2/services/INSPIRE/Inspire/MapServer/WmsServer"
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "61a955d9-ad01-4658-a774-0145fcda9c1d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0dc93cc9-b762-4986-a51b-523aed4f922a"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Kent County Council Inspire Catalog"
+            }
+        ]
+    }
+}

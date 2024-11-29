@@ -1,0 +1,203 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "contact-email": "gis@fareham.gov.uk",
+        "creator_user_id": "431b5956-7b87-41ba-8fc5-a4a8b681b797",
+        "id": "544ae040-b01d-4ee5-8483-a46da97ad29d",
+        "isopen": false,
+        "license_id": "",
+        "license_title": "",
+        "metadata_created": "2018-12-12T15:21:29.119965",
+        "metadata_modified": "2019-11-05T09:56:30.569868",
+        "name": "fbc-council-housing",
+        "notes": "Dataset shows council housing assets in the Borough of Fareham",
+        "num_resources": 2,
+        "num_tags": 0,
+        "organization": {
+            "id": "c8da4839-ebfa-4dd9-8900-aaaf56a44771",
+            "name": "fareham-borough-council",
+            "title": "Fareham Borough Council",
+            "type": "organization",
+            "description": "",
+            "image_url": "",
+            "created": "2012-06-27T14:49:32.925733",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "c8da4839-ebfa-4dd9-8900-aaaf56a44771",
+        "private": false,
+        "state": "active",
+        "theme-primary": "towns-and-cities",
+        "title": "FBC Council Housing",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "UKLP",
+                "value": "True"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/end-user-licence.html\"]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-3.6286900000000006"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "52.34992"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "52.24624"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-3.7914300000000005"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2011-12-20\"}]"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "guid",
+                "value": "99076ca9-7c1b-4a51-bcc9-fb0f35833f0f"
+            },
+            {
+                "key": "harvest_source_reference",
+                "value": "http://inspire.misoportal.com/metadata/files/Fareham_Borough_Council/FBCCouncilHousing.xml"
+            },
+            {
+                "key": "import_source",
+                "value": "harvest"
+            },
+            {
+                "key": "licence",
+                "value": "Personal Use; PSMA Sharing Constraint. This data is restricted under the Ordnance Survey (OS) Public Sector Mapping Agreement (PSMA). Click on Download to request access.; No Conditions Apply"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2018-12-12"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng"
+            },
+            {
+                "key": "provider",
+                "value": ""
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "responsible-party",
+                "value": "Fareham Borough Council (resourceProvider)"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-3.6286900000000006, 52.24624],[-3.6286900000000006, 52.34992], [-3.7914300000000005, 52.34992], [-3.7914300000000005, 52.24624], [-3.6286900000000006, 52.24624]]]}"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "fafec903-80df-4336-a357-ee8445d74c6a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ef48834e-8169-4016-8597-81ead874db32"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Fareham Borough Council"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-12-12T15:21:29.218418",
+                "description": "information",
+                "format": "WMS",
+                "hash": "",
+                "id": "3f32fef6-f951-4e55-8142-a928e7da0e49",
+                "last_modified": null,
+                "metadata_modified": "2018-12-12T15:21:29.218418",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE View Service",
+                "package_id": "544ae040-b01d-4ee5-8483-a46da97ad29d",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://inspire.misoportal.com/geoserver/fareham_borough_council_councilhousing/wms?request=getCapabilities",
+                "url_type": null,
+                "wms_base_urls": "http://inspire.misoportal.com:80/geoserver/fareham_borough_council_councilhousing/ows"
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2018-12-12T15:21:29.218449",
+                "datafile-date": "2018-12-12",
+                "description": "download",
+                "format": "HTML",
+                "hash": "",
+                "id": "45f3f7ed-78fa-4c3b-bb0d-11c4e62ba1a1",
+                "last_modified": null,
+                "metadata_modified": "2018-12-12T15:21:29.218449",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "INSPIRE Download Service",
+                "package_id": "544ae040-b01d-4ee5-8483-a46da97ad29d",
+                "position": 1,
+                "resource-type": "data-link",
+                "resource_type": "file",
+                "size": null,
+                "state": "active",
+                "url": "http://misoportal.com/portal/api/request-licenced-data/2628",
+                "url_type": null
+            }
+        ],
+        "tags": [],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "fafec903-80df-4336-a357-ee8445d74c6a"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ef48834e-8169-4016-8597-81ead874db32"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Fareham Borough Council"
+            }
+        ]
+    }
+}

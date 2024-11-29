@@ -1,0 +1,173 @@
+{
+    "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+        "id": "411c9fc1-1192-4efe-8456-44eafc362387",
+        "isopen": true,
+        "license_id": "uk-ogl",
+        "license_title": "UK Open Government Licence (OGL)",
+        "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+        "metadata_created": "2016-03-31T09:37:31.919820",
+        "metadata_modified": "2024-06-08T06:00:45.087321",
+        "name": "highway-network1",
+        "notes": "This dataset contains centreline information regarding roads in Northern Ireland that are adopted and maintained by DfI Roads.  Use the ADOPTION_STATUS_NAME column to filter the data and to show current adopted road sections.  \r\nNote this is a 'live' link and is updated each evening to include any new road sections. \r\nA map displaying the adopted roads can be accessed via: https://dfi-ni.maps.arcgis.com/apps/webappviewer/index.html?id=f8a42fc35a3d48788e651a1d47865ce1 ",
+        "num_resources": 3,
+        "num_tags": 5,
+        "organization": {
+            "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+            "name": "open-data-ni",
+            "title": "OpenDataNI",
+            "type": "organization",
+            "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+            "image_url": "",
+            "created": "2016-02-19T11:29:30.452048",
+            "is_organization": true,
+            "approval_status": "pending",
+            "state": "active"
+        },
+        "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+        "private": false,
+        "state": "active",
+        "title": "Highway Network",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-03-03T10:07:53.219056",
+                "datastore_active": true,
+                "description": "CSV Data Table",
+                "format": "CSV",
+                "hash": "",
+                "id": "869f6acb-92a3-4d24-aa76-63d5cee81440",
+                "last_modified": null,
+                "metadata_modified": "2023-09-20T22:19:41.732700",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Highway Network ",
+                "package_id": "411c9fc1-1192-4efe-8456-44eafc362387",
+                "position": 0,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://dfi.highway-iams.uk/OpenData/HIGHWAY_NETWORK.CSV",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2016-03-03T10:08:39.376211",
+                "datastore_active": false,
+                "description": "XML Data Table",
+                "format": "XML",
+                "hash": "",
+                "id": "0e31ba4a-b3c4-4249-98c5-ee6d973ee164",
+                "last_modified": null,
+                "metadata_modified": "2023-09-20T22:19:41.732784",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Highway Network ",
+                "package_id": "411c9fc1-1192-4efe-8456-44eafc362387",
+                "position": 1,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://dfi.highway-iams.uk/OpenData/HIGHWAY_NETWORK.XML",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T12:15:44.321098",
+                "datastore_active": false,
+                "description": "Read-only Map ",
+                "format": "Esri Map",
+                "hash": "",
+                "id": "f50c8ced-1962-4f7f-b424-bc37745e133c",
+                "last_modified": null,
+                "metadata_modified": "2023-09-20T22:19:41.733965",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Highway Network",
+                "package_id": "411c9fc1-1192-4efe-8456-44eafc362387",
+                "position": 2,
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "url": "https://dfi-ni.maps.arcgis.com/apps/webappviewer/index.html?id=dbe5a304b97445798947c6bd8251f0b3",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "DRD",
+                "id": "6f3fe3f6-5950-47f6-9c1f-04e0964eeb21",
+                "name": "DRD",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Highway",
+                "id": "e3208f21-c29f-402c-b156-04de5c790e6d",
+                "name": "Highway",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Network",
+                "id": "6f219419-bc3d-467a-91bf-5ec8376f60ac",
+                "name": "Network",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Roads",
+                "id": "4d7fd33b-500b-4bf9-beb3-e0cd31a27287",
+                "name": "Roads",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "Transport",
+                "id": "3518fa70-3ee9-4152-b45d-5727372975e9",
+                "name": "Transport",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "extras": [
+            {
+                "key": "harvest_object_id",
+                "value": "ee3a98a8-8577-40a3-a3d3-ecf17422334c"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "harvest": [
+            {
+                "key": "harvest_object_id",
+                "value": "3cb2f996-0e45-4840-a275-9631243a8780"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "OpenDataNI"
+            }
+        ]
+    }
+}
