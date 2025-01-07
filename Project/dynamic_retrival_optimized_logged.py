@@ -13,10 +13,10 @@ import hashlib
 
 
 
-DATA_FOLDER = "./Project/gov_data_json"       
-TEMP_DOWNLOAD_DIR = "./Project/temp_files"   
-SNAPSHOT_DIR = "./Project/snapshot"          
-CACHE_DIR = "./Project/cache"                
+DATA_FOLDER = "./gov_data_json"       
+TEMP_DOWNLOAD_DIR = "./temp_files"   
+SNAPSHOT_DIR = "./snapshot"          
+CACHE_DIR = "./cache"                
 
 
 os.makedirs(TEMP_DOWNLOAD_DIR, exist_ok=True)
