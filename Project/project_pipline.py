@@ -331,7 +331,7 @@ def handle_query(
         if idx < len(metadata_snapshot)
     ]
     
-    print('relevant_metadata--------------------',relevant_metadata)
+    # print('relevant_metadata--------------------',relevant_metadata)
 
     # Build list of documents to fetch if not processed
     documents_to_fetch = []
@@ -344,7 +344,7 @@ def handle_query(
     # Possibly expand if we want more than `top_k_metadata`
     # (Your existing approach might do an additional pass if you didn't get enough docs)
     if len(documents_to_fetch) < top_k_metadata:
-        needed = top_k_metadata - len(documents_to_fetch)
+        top_k_metadata - len(documents_to_fetch)
         # e.g., fetch more from metadata_faiss again, etc.
         # omitted for brevity, but you can replicate your logic
 
@@ -370,7 +370,7 @@ def handle_query(
     if len(indices) > 0:
         for idx_list, dist_list in zip(indices, distances):
             for i, dist in zip(idx_list, dist_list):
-                if i < len(document_metadata):
+                if i> 0 and i < len(document_metadata):
                     print('document_metadata[i]---------------', document_metadata)
                     text_chunk = document_metadata[i]["text"]
                     top_chunks.append((text_chunk, dist))
