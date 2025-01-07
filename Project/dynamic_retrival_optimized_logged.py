@@ -313,6 +313,7 @@ def fetch_top_k_metadata(query_embedding, metadata_faiss, top_k):
     """
     distances, indices = metadata_faiss.search(query_embedding, top_k)
     top_indices = indices[0]
+    print('top_indices-------',indices )
     return top_indices
 
 def handle_query(query, metadata_faiss, document_faiss, document_metadata, processed_files):
