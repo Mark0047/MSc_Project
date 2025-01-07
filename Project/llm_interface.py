@@ -70,7 +70,7 @@ class HuggingFaceLLM(LLMInterface):
                  task="text2text-generation", 
                  device=0):
         """
-        device=-1 means CPU. 
+        device=-1 means CPU
         If you have a GPU, set device=0 (or another GPU index).
         """
         self.model_name = model_name
