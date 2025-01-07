@@ -459,8 +459,6 @@ def main():
         handle_query(query, metadata_faiss, document_faiss, document_metadata, processed_files)
         
 
-
-
 import argparse
 
 if __name__ == "__main__":
@@ -473,3 +471,4 @@ if __name__ == "__main__":
         help="Maximum number of metadata files to process"
     )
     args = parser.parse_args()
+    main()
