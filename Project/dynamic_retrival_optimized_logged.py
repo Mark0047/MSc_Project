@@ -344,7 +344,7 @@ def handle_query(query, metadata_faiss, document_faiss, document_metadata, proce
         file_name = meta.get('file_name')
         if url and file_name and file_name not in processed_files:
             documents_to_fetch.append({'url': url, 'file_name': file_name})
-    
+    print('documents_to_fetch------------------------', documents_to_fetch)
     
     required_documents = TOP_K_METADATA - len(documents_to_fetch)
     if required_documents > 0:
