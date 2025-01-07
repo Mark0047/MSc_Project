@@ -193,7 +193,7 @@ def process_metadata_file(file_name):
         metadata_entry = {
             'package_id': package_id,
             'file_name': file_name,
-            'url': "",  
+            'url': result.get('url', ''),  
             'relevant_fields': relevant_fields
         }
         
@@ -334,18 +334,16 @@ def handle_query(query, metadata_faiss, document_faiss, document_metadata, proce
 
     
     relevant_metadata = [metadata_snapshot[idx] for idx in top_indices[0] if idx < len(metadata_snapshot)]
-    # print('relevant_metadata-----', relevant_metadata)
-    # print('processed_files-----', processed_files)
+    print('relevant_metadata-----', relevant_metadata)
+    
     documents_to_fetch = []
-    for data in relevant_metadata:
-        for meta in data:
-            print('data-----',  data)
+    for meta in relevant_metadata:
         
-            url = meta.get('url')
-            file_name = meta.get('file_name')
-            print('url----------',url)
-            if url and file_name and file_name not in processed_files:
-                documents_to_fetch.append({'url': url, 'file_name': file_name})
+       
+        url = meta.get('url')
+        file_name = meta.get('file_name')
+        if url and file_name and file_name not in processed_files:
+            documents_to_fetch.append({'url': url, 'file_name': file_name})
     print('documents_to_fetch------------------------', documents_to_fetch)
     
     required_documents = TOP_K_METADATA - len(documents_to_fetch)
