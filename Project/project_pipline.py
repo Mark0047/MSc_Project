@@ -369,6 +369,7 @@ def handle_query(
         for idx_list, dist_list in zip(indices, distances):
             for i, dist in zip(idx_list, dist_list):
                 if i < len(document_metadata):
+                    print('document_metadata[i]---------------', document_metadata)
                     text_chunk = document_metadata[i]["text"]
                     top_chunks.append((text_chunk, dist))
 
