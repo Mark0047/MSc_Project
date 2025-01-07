@@ -454,8 +454,37 @@ def rag_query_all_llms(
 
 
 def main():
-    # (1) Load or build your metadata_faiss, document_faiss, etc.
-    # ...
+    # 0) Initialize or Load existing snapshots
+    metadata_faiss = initialize_faiss_index(metadata_faiss_index_path, EMBEDDING_DIMENSION)
+    document_faiss = initialize_faiss_index(document_faiss_index_path, EMBEDDING_DIMENSION)
+
+    metadata_snapshot = load_json(metadata_snapshot_path)
+    document_metadata = load_json(document_snapshot_path) or []
+    if not metadata_snapshot:
+        metadata_snapshot = []
+    processed_files = set(load_json(processed_files_tracker) or [])
+
+    # If no metadata yet, build the metadata index
+    if len(metadata_snapshot) == 0:
+        print("Building metadata FAISS index from local JSON files...")
+        build_metadata_faiss_index(metadata_faiss, metadata_snapshot)
+        save_faiss_index(metadata_faiss, metadata_faiss_index_path)
+        save_json(metadata_snapshot, metadata_snapshot_path)
+        print("Done building metadata index.")
+    else:
+        print("Metadata index loaded with", len(metadata_snapshot), "items.")
+
+    if not document_metadata:
+        print("No document metadata found, starting empty.")
+    else:
+        print("Loaded", len(document_metadata), "document metadata entries.")
+
+    if not processed_files:
+        print("No processed files found, starting fresh.")
+    else:
+        print("Already processed", len(processed_files), "files.")
+
+    print("System ready for queries.")
     
     # (2) Create an instance of MultiLLM, adding whatever LLMs you want:
     multi_llm = MultiLLM([
