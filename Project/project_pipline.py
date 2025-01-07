@@ -330,6 +330,8 @@ def handle_query(
         for idx in top_indices[0]
         if idx < len(metadata_snapshot)
     ]
+    
+    print('relevant_metadata--------------------',relevant_metadata)
 
     # Build list of documents to fetch if not processed
     documents_to_fetch = []
