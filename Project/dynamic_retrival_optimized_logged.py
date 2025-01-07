@@ -334,7 +334,7 @@ def handle_query(query, metadata_faiss, document_faiss, document_metadata, proce
 
     
     relevant_metadata = [metadata_snapshot[idx] for idx in top_indices[0] if idx < len(metadata_snapshot)]
-    
+    print('relevant_metadata-----', relevant_metadata)
     
     documents_to_fetch = []
     for meta in relevant_metadata:
