@@ -312,8 +312,8 @@ def fetch_top_k_metadata(query_embedding, metadata_faiss, top_k):
     Fetch the top K metadata entries based on the query embedding.
     """
     distances, indices = metadata_faiss.search(query_embedding, top_k)
-    top_indices = indices
-    print('top_indices-------',indices )
+    top_indices = indices[0]
+    print('top_indices-------',indices[0] )
     return top_indices
 
 def handle_query(query, metadata_faiss, document_faiss, document_metadata, processed_files):
