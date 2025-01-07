@@ -29,6 +29,7 @@ tokenizer = AutoTokenizer.from_pretrained(EMBEDDING_MODEL_NAME)
 embedding_model = AutoModel.from_pretrained(EMBEDDING_MODEL_NAME)
 
 if torch.cuda.is_available():
+    print('------------------Running on gpu')
     embedding_model = embedding_model.to('cuda')
 
 
