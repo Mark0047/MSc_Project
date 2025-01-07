@@ -339,7 +339,7 @@ def handle_query(query, metadata_faiss, document_faiss, document_metadata, proce
     documents_to_fetch = []
     for data in relevant_metadata:
         for meta in data:
-            
+            print('data-----',  data)
         
             url = meta.get('url')
             file_name = meta.get('file_name')
