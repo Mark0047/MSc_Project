@@ -202,12 +202,19 @@ def process_metadata_file(file_name):
         print(f"Error processing metadata file {file_name}: {e}")
         return None
 
-def build_metadata_faiss_index(metadata_faiss, document_metadata):
+def build_metadata_faiss_index(metadata_faiss, document_metadata, max_files=3000):
     """
-    Build the metadata FAISS index from local metadata files.
+    Build the metadata FAISS index from local metadata files, processing only up to `max_files`.
     """
+    # Load all metadata files
     metadata_files = load_metadata_files()
-    print(f"Found {len(metadata_files)} metadata files. Processing...")
+    
+    # Limit to `max_files` unless user provides a specific number
+    if max_files and max_files > 0:
+        metadata_files = metadata_files[:max_files]
+    
+    print(f"Found {len(metadata_files)} metadata files. Processing up to {max_files}...")
+
 
     with ThreadPoolExecutor(max_workers=THREAD_POOL_WORKERS) as executor:
         futures = {executor.submit(process_metadata_file, file_name): file_name for file_name in metadata_files}
@@ -454,5 +461,15 @@ def main():
 
 
 
+import argparse
+
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    # Add an optional argument for max_files
+    parser.add_argument(
+        "--max_files", 
+        type=int, 
+        default=3000, 
+        help="Maximum number of metadata files to process"
+    )
+    args = parser.parse_args()
