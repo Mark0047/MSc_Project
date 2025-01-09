@@ -78,7 +78,7 @@ class HuggingFaceLLM(LLMInterface):
         self.device = device
         self._name = f"HF-{model_name}"
         try:  
-            self.pipe = pipeline(task, model=model_name)
+            self.pipe = pipeline(task, model=model_name, device = device)
         except Exception as e:
             raise RuntimeError(f"Error loading Hugging Face model '{model_name}': {e}")
 

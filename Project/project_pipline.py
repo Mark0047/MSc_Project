@@ -371,7 +371,7 @@ def handle_query(
         for idx_list, dist_list in zip(indices, distances):
             for i, dist in zip(idx_list, dist_list):
                 if i > 0 and i < len(document_metadata):
-                    print('document_metadata[i]---------------', document_metadata)
+                    # print('document_metadata[i]---------------', document_metadata)
                     text_chunk = document_metadata[i]["text"]
                     top_chunks.append((text_chunk, dist))
 
@@ -491,10 +491,22 @@ def main():
     
     # (2) Create an instance of MultiLLM, adding whatever LLMs you want:
     multi_llm = MultiLLM([
-        ChatGPTLLM(
-            openai_api_key= os.getenv("OPENAI_API_KEY"), 
-            model_name="gpt-3.5-turbo"
+        HuggingFaceLLM(
+            model_name="google/flan-t5-large", 
+            task="text2text-generation",
+            device=0  # Use GPU if available; set to -1 for CPU
         ),
+        HuggingFaceLLM(
+            model_name="tiiuae/falcon-7b-instruct",
+            task="text2text-generation",
+            device=0
+        ),
+        HuggingFaceLLM(
+            model_name="meta-llama/Llama-2-7b-chat-hf",
+            task="text-generation",  # Using text-generation for chat model
+            device=0
+        ),
+        # Add more HuggingFaceLLM instances here if you want to include additional models.
         HuggingFaceLLM(
             model_name="google/flan-t5-xxl",  # or "tiiuae/falcon-7b-instruct"
             task="text2text-generation",
