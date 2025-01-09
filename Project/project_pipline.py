@@ -370,7 +370,7 @@ def handle_query(
     if len(indices) > 0:
         for idx_list, dist_list in zip(indices, distances):
             for i, dist in zip(idx_list, dist_list):
-                if i> 0 and i < len(document_metadata):
+                if i > 0 and i < len(document_metadata):
                     print('document_metadata[i]---------------', document_metadata)
                     text_chunk = document_metadata[i]["text"]
                     top_chunks.append((text_chunk, dist))
@@ -492,7 +492,7 @@ def main():
     # (2) Create an instance of MultiLLM, adding whatever LLMs you want:
     multi_llm = MultiLLM([
         ChatGPTLLM(
-            openai_api_key="YOUR_OPENAI_API_KEY", 
+            openai_api_key= os.getenv("OPENAI_API_KEY"), 
             model_name="gpt-3.5-turbo"
         ),
         HuggingFaceLLM(
