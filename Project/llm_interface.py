@@ -1,9 +1,8 @@
-# llm_interface.py
-
 import os
 import openai
 import requests
 from transformers import pipeline
+from openai import ChatCompletion  # Explicitly import ChatCompletion
 
 class LLMInterface:
     """
@@ -46,7 +45,7 @@ class ChatGPTLLM(LLMInterface):
             "Please provide your answer below. If the context does not have the answer, say so."
         )
 
-        response = openai.ChatCompletion.create(
+        response = ChatCompletion.create(  # Use the explicitly imported ChatCompletion
             model=self.model_name,
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -61,9 +60,6 @@ class ChatGPTLLM(LLMInterface):
 class HuggingFaceLLM(LLMInterface):
     """
     Wrapper for a Hugging Face model using transformers pipelines.
-    Best possible model for summarization or QA (as of now) 
-    might be something like 'google/flan-t5-xxl' or 'facebook/bart-large-mnli' for classification.
-    For general Q&A or summarization, let's pick 'google/flan-t5-xxl' or 'tiiuae/falcon-7b-instruct' if you have GPU.
     """
     def __init__(self, 
                  model_name="google/flan-t5-xxl",  # or 'tiiuae/falcon-7b-instruct'
@@ -78,7 +74,7 @@ class HuggingFaceLLM(LLMInterface):
         self.device = device
         self._name = f"HF-{model_name}"
         try:  
-            self.pipe = pipeline(task, model=model_name)
+            self.pipe = pipeline(task, model=model_name, device=device)
         except Exception as e:
             raise RuntimeError(f"Error loading Hugging Face model '{model_name}': {e}")
 
@@ -148,7 +144,7 @@ class MultiLLM:
     """
     def __init__(self, llms=None):
         """
-        :param llms: A list of LLMInterface objects (e.g. [ChatGPTLLM(...), HuggingFaceLLM(...), GeminiLLM(...)])
+        :param llms: A list of LLMInterface objects (e.g. [ChatGPTLLM(...), HuggingFaceLLM(...), GeminiLLM(...)]
         """
         self.llms = llms if llms is not None else []
 
