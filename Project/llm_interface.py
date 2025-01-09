@@ -1,8 +1,8 @@
 import os
 import requests
 from transformers import pipeline
-from openai import OpenAI
-client = OpenAI()
+import openai
+client = openai.OpenAI()
 
 
 class LLMInterface:
