@@ -194,7 +194,7 @@ def process_metadata_file(file_name):
         print(f"Error processing metadata file {file_name}: {e}")
         return None
 
-def build_metadata_faiss_index(metadata_faiss, document_metadata, max_files=3000):
+def build_metadata_faiss_index(metadata_faiss, document_metadata, max_files=40000):
     """
     Build the metadata FAISS index from local metadata files, processing only up to `max_files`.
     """
