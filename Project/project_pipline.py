@@ -12,7 +12,7 @@ import hashlib
 import torch
 
 # Ensure CUDA is available
-assert torch.cuda.is_available(), "CUDA is not available. Check your CUDA installation."
+# assert torch.cuda.is_available(), "CUDA is not available. Check your CUDA installation."
 
 
 # ---------------------------------------------------------------------
