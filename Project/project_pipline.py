@@ -519,6 +519,11 @@ def main():
         #     task="text-generation",  # Using text-generation for chat model
         #     device=0
         # ),
+        HuggingFaceLLM(
+            model_name="TinyPixel/Llama-2-7B-bf16-sharded",
+            task="text-generation",  # Using text-generation for chat model
+            device=0
+        ),
         # Add more HuggingFaceLLM instances here if you want to include additional models.
         HuggingFaceLLM(
             model_name="google/flan-t5-xxl",  # or "tiiuae/falcon-7b-instruct"
