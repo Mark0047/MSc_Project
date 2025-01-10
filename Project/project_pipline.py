@@ -146,56 +146,70 @@ def load_metadata_files():
     """
     metadata_files = [f for f in os.listdir(DATA_FOLDER) if f.endswith(".json")]
     return metadata_files
+global files_processed
 files_processed = 0
 def process_metadata_file(file_name):
     """
     Process a single metadata JSON file and return its embedding and relevant info.
+    Only processes files with at least one CSV resource.
     """
+
     file_path = os.path.join(DATA_FOLDER, file_name)
     try:
         with open(file_path, "r") as f:
             metadata = json.load(f)
         result = metadata.get('result', {})
-        if result.get('format', '').lower() != 'csv':
+        resources = result.get('resources', [])
+
+        # Filter for CSV resources
+        csv_resources = [res for res in resources if res.get('format', '').lower() == 'csv']
+        if not csv_resources:
             return None
-        
+
         relevant_fields = [
             result.get('title', ''),
             result.get('notes', ''),
             result.get('description', ''),
             " ".join([tag.get('name', '') for tag in result.get('tags', [])])
         ]
-        metadata_text = " ".join([str(field) for field in relevant_fields if field])
-        
+        metadata_text = " ".join(field for field in relevant_fields if field)
+
         if not metadata_text.strip():
             return None  
-        
-        
+
         package_id = result.get('id')
         if not package_id:
             return None  
-        
+
         cached_embedding = load_cached_metadata_embedding(package_id)
         if cached_embedding is not None:
             embedding = cached_embedding
         else:
             embedding = embed_text(metadata_text)
             cache_metadata_embedding(package_id, embedding)
-        
-        
+
         metadata_entry = {
             'package_id': package_id,
             'file_name': file_name,
-            'url': result.get('url', ''),  
-            'relevant_fields': relevant_fields
+            'url': result.get('url', ''),
+            'relevant_fields': relevant_fields,
+            # Store CSV resource info for later download
+            'csv_resources': [
+                {
+                    'url': res.get('url', ''),
+                    'file_name': f"{res.get('id', '')}.csv"  # Derive file name; adjust as needed
+                }
+                for res in csv_resources
+            ]
         }
-        
+
         files_processed += 1
-        
         return embedding, metadata_entry
+
     except Exception as e:
         print(f"Error processing metadata file {file_name}: {e}")
         return None
+
 
 def build_metadata_faiss_index(metadata_faiss, document_metadata, max_files=40000):
     """
@@ -352,10 +366,11 @@ def handle_query(
     # Build list of documents to fetch if not processed
     documents_to_fetch = []
     for meta in relevant_metadata:
-        url = meta.get("url")
-        file_name = meta.get("file_name")
-        if url and file_name and file_name not in processed_files:
-            documents_to_fetch.append({"url": url, "file_name": file_name})
+        for resource in meta.get('csv_resources', []):
+            url = resource.get("url")
+            file_name = resource.get("file_name")
+            if url and file_name and file_name not in processed_files:
+                documents_to_fetch.append({"url": url, "file_name": file_name})
 
     # Possibly expand if we want more than `top_k_metadata`
     # (Your existing approach might do an additional pass if you didn't get enough docs)
