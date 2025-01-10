@@ -10,6 +10,7 @@ from tqdm import tqdm
 import torch
 import hashlib
 import torch
+import sys
 
 
 
@@ -146,8 +147,7 @@ def load_metadata_files():
     """
     metadata_files = [f for f in os.listdir(DATA_FOLDER) if f.endswith(".json")]
     return metadata_files
-global files_processed
-files_processed = 0
+
 def process_metadata_file(file_name):
     """
     Process a single metadata JSON file and return its embedding and relevant info.
@@ -203,7 +203,7 @@ def process_metadata_file(file_name):
             ]
         }
 
-        files_processed += 1
+        # files_processed += 1
         return embedding, metadata_entry
 
     except Exception as e:
@@ -211,7 +211,7 @@ def process_metadata_file(file_name):
         return None
 
 
-def build_metadata_faiss_index(metadata_faiss, document_metadata, max_files=40000):
+def build_metadata_faiss_index(metadata_faiss, document_metadata, max_files=54178, files_processed = 0):
     """
     Build the metadata FAISS index from local metadata files, processing only up to `max_files`.
     """
@@ -220,7 +220,7 @@ def build_metadata_faiss_index(metadata_faiss, document_metadata, max_files=4000
     
     # Limit to `max_files` unless user provides a specific number
     if max_files and max_files > 0:
-        metadata_files = metadata_files[:max_files]
+        metadata_files = metadata_files
     
     print(f"Found {len(metadata_files)} metadata files. Processing up to {max_files}...")
 
@@ -233,8 +233,12 @@ def build_metadata_faiss_index(metadata_faiss, document_metadata, max_files=4000
                 embedding, metadata_entry = result
                 metadata_faiss.add(embedding)
                 document_metadata.append(metadata_entry)
+                files_processed += 1
+                # if files_processed > max_files:
+                #     break
     print('Total files processed: ', files_processed)
     print("Metadata FAISS index built successfully.")
+    
 
 
 
@@ -506,6 +510,8 @@ def main():
         save_faiss_index(metadata_faiss, metadata_faiss_index_path)
         save_json(metadata_snapshot, metadata_snapshot_path)
         print("Done building metadata index.")
+        return
+        # sys.exit()
     else:
         print("Metadata index loaded with", len(metadata_snapshot), "items.")
 
