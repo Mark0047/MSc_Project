@@ -55,9 +55,9 @@ processed_files_tracker = os.path.join(SNAPSHOT_DIR, "processed_files.json")
 metadata_cache_dir = os.path.join(CACHE_DIR, "metadata_embeddings")
 os.makedirs(metadata_cache_dir, exist_ok=True)
 
-CHUNK_SIZE = 512
+CHUNK_SIZE = 10000
 TOP_K_METADATA = 10
-THREAD_POOL_WORKERS = 5
+THREAD_POOL_WORKERS = 10
 
 
 
@@ -588,7 +588,7 @@ def main():
             processed_files=processed_files,
             multi_llm=multi_llm,
             top_k_metadata=10,
-            top_k_docs=3
+            top_k_docs=1
         )
 
         # (4) Print out the answers from each model
@@ -611,3 +611,5 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     main()
+    
+#  14525
