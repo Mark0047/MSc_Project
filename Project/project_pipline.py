@@ -55,8 +55,8 @@ processed_files_tracker = os.path.join(SNAPSHOT_DIR, "processed_files.json")
 metadata_cache_dir = os.path.join(CACHE_DIR, "metadata_embeddings")
 os.makedirs(metadata_cache_dir, exist_ok=True)
 
-CHUNK_SIZE = 5560
-TOP_K_METADATA = 10
+CHUNK_SIZE = 512
+# TOP_K_METADATA = 10
 THREAD_POOL_WORKERS = 10
 
 
