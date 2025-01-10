@@ -512,6 +512,11 @@ def main():
             task="text2text-generation",
             device=0  # or 0 if you have GPU
         ),
+        HuggingFaceLLM(
+            model_name="EleutherAI/gpt-j-6b",  
+            task="text2text-generation",
+            device=0  # or 0 if you have GPU
+        ),
         GeminiLLM(
             api_url="https://gemini.googleapis.com/v1/complete",
             api_key="YOUR_GEMINI_API_KEY"
