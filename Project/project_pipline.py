@@ -582,7 +582,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--max_files", 
         type=int, 
-        default=3000, 
+        default=40000, 
         help="Maximum number of metadata files to process"
     )
     args = parser.parse_args()
