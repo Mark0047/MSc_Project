@@ -146,7 +146,7 @@ def load_metadata_files():
     """
     metadata_files = [f for f in os.listdir(DATA_FOLDER) if f.endswith(".json")]
     return metadata_files
-
+files_processed = 0
 def process_metadata_file(file_name):
     """
     Process a single metadata JSON file and return its embedding and relevant info.
@@ -190,6 +190,8 @@ def process_metadata_file(file_name):
             'relevant_fields': relevant_fields
         }
         
+        files_processed += 1
+        
         return embedding, metadata_entry
     except Exception as e:
         print(f"Error processing metadata file {file_name}: {e}")
@@ -217,7 +219,7 @@ def build_metadata_faiss_index(metadata_faiss, document_metadata, max_files=4000
                 embedding, metadata_entry = result
                 metadata_faiss.add(embedding)
                 document_metadata.append(metadata_entry)
-    
+    print('Total files processed: '+ files_processed)
     print("Metadata FAISS index built successfully.")
 
 
