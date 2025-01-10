@@ -3,6 +3,7 @@ import requests
 from transformers import pipeline
 import openai
 import google.generativeai as genai
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 
@@ -149,25 +150,43 @@ class MultiLLM:
     """
     def __init__(self, llms=None):
         """
-        :param llms: A list of LLMInterface objects (e.g. [ChatGPTLLM(...), HuggingFaceLLM(...), GeminiLLM(...)])
+        :param llms: A list of LLMInterface objects 
+                    (e.g. [ChatGPTLLM(...), HuggingFaceLLM(...), GeminiLLM(...)] )
         """
         self.llms = llms if llms is not None else []
 
-    def add_llm(self, llm: LLMInterface):
+    def add_llm(self, llm):
         self.llms.append(llm)
 
     def get_all_responses(self, query: str, context: str) -> dict:
         """
-        Call each LLM in self.llms, collecting their answers in a dict:
+        Call each LLM in self.llms concurrently using threads, 
+        collecting their answers in a dict:
         {
           LLMName: answer_str,
           ...
         }
         """
         answers = {}
-        for llm in self.llms:
+
+        # Helper function to call get_response for a single llm
+        def fetch_response(llm):
             name = llm.get_name()
             ans = llm.get_response(query, context)
-            print('Answer from %s : %s' % ans % name)
-            answers[name] = ans
+            print(f'Answer from {name}: {ans}')
+            return name, ans
+
+        # Use ThreadPoolExecutor to query all LLMs concurrently
+        with ThreadPoolExecutor(max_workers=len(self.llms)) as executor:
+            # Submit tasks for all LLMs
+            futures = [executor.submit(fetch_response, llm) for llm in self.llms]
+            
+            # As each future completes, store the result
+            for future in as_completed(futures):
+                try:
+                    name, ans = future.result()
+                    answers[name] = ans
+                except Exception as e:
+                    print(f"Error occurred when fetching response: {e}")
+        
         return answers
