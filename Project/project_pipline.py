@@ -9,6 +9,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 import torch
 import hashlib
+import torch
+
+# Ensure CUDA is available
+assert torch.cuda.is_available(), "CUDA is not available. Check your CUDA installation."
+
 
 # ---------------------------------------------------------------------
 # SET YOUR GLOBALS (paths, embedding model, etc.) 
