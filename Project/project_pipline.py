@@ -514,11 +514,11 @@ def main():
             task="text2text-generation",
             device=0
         ),
-        HuggingFaceLLM(
-            model_name="meta-llama/Llama-2-7b-chat-hf",
-            task="text-generation",  # Using text-generation for chat model
-            device=0
-        ),
+        # HuggingFaceLLM(
+        #     model_name="meta-llama/Llama-2-7b-chat-hf",
+        #     task="text-generation",  # Using text-generation for chat model
+        #     device=0
+        # ),
         # Add more HuggingFaceLLM instances here if you want to include additional models.
         HuggingFaceLLM(
             model_name="google/flan-t5-xxl",  # or "tiiuae/falcon-7b-instruct"
