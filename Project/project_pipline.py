@@ -463,10 +463,10 @@ def rag_query_all_llms(
 
     # Combine into one big context
     context = "\n\n".join(top_chunks)
-    print("Context: ", context)
+    # print("Context: ", context)
     # Ask all LLMs
     answers = {}
-    # answers = multi_llm.get_all_responses(query, context)
+    answers = multi_llm.get_all_responses(query, context)
     return answers
 
 
