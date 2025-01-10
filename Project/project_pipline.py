@@ -156,7 +156,8 @@ def process_metadata_file(file_name):
         with open(file_path, "r") as f:
             metadata = json.load(f)
         result = metadata.get('result', {})
-        
+        if result.get('format', '').lower() != 'csv':
+            return None
         
         relevant_fields = [
             result.get('title', ''),
