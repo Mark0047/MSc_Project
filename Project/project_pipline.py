@@ -11,6 +11,12 @@ import torch
 import hashlib
 import torch
 
+
+
+
+import struct 
+print(struct.calcsize("P") * 8)
+
 # Ensure CUDA is available
 # assert torch.cuda.is_available(), "CUDA is not available. Check your CUDA installation."
 
