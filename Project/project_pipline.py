@@ -520,6 +520,7 @@ def main():
         GeminiLLM(
             api_url="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash",
             api_key= os.environ.get("GEMINI_API_KEY")
+            #  export GEMINI_API_KEY=''
         )
     ])
 

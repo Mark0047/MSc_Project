@@ -2,7 +2,6 @@ import os
 import requests
 from transformers import pipeline
 import openai
-client = openai.OpenAI()
 import google.generativeai as genai
 
 
@@ -47,7 +46,7 @@ class ChatGPTLLM(LLMInterface):
             f"Context:\n{context}\n\n"
             "Please provide your answer below. If the context does not have the answer, say so."
         )
-
+        client = openai.OpenAI()
         response = client.chat.completions.create(
             model=self.model_name,
             messages=[
