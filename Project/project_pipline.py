@@ -518,8 +518,8 @@ def main():
             device=0  # or 0 if you have GPU
         ),
         GeminiLLM(
-            api_url="https://gemini.googleapis.com/v1/complete",
-            api_key="YOUR_GEMINI_API_KEY"
+            api_url="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash",
+            api_key= os.environ.get("GEMINI_API_KEY")
         )
     ])
 

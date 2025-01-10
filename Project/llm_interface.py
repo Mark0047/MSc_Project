@@ -113,7 +113,7 @@ class GeminiLLM(LLMInterface):
     A mock/hypothetical wrapper for Google Gemini (not publicly released as of 2024).
     This is just a placeholder to illustrate how you'd structure calls to a different service.
     """
-    def __init__(self, api_url="https://gemini.googleapis.com/v1/complete", api_key=None):
+    def __init__(self, api_url="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash", api_key=None):
         self.api_url = api_url
         self.api_key = api_key
         self._name = "Gemini-Alpha"
