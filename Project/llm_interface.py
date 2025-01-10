@@ -168,5 +168,6 @@ class MultiLLM:
         for llm in self.llms:
             name = llm.get_name()
             ans = llm.get_response(query, context)
+            print('Answer from %s : %s' % ans % name)
             answers[name] = ans
         return answers
