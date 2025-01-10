@@ -98,7 +98,7 @@ class HuggingFaceLLM(LLMInterface):
             "Answer as best you can based on the context above. If the context doesn't contain the answer, say so."
         )
         try:
-            result = self.pipe(prompt, max_length=10000, do_sample=False)
+            result = self.pipe(prompt, max_length=10000, max_new_tokens = 15000 , do_sample=False)
             if isinstance(result, list) and len(result) > 0:
                 # For text2text-generation or similar
                 text = result[0].get('generated_text', '') or result[0].get('text', '')
