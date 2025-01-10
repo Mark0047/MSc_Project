@@ -34,6 +34,8 @@ embedding_model = AutoModel.from_pretrained(EMBEDDING_MODEL_NAME)
 if torch.cuda.is_available():
     print("Running on GPU")
     embedding_model = embedding_model.to("cuda")
+else:
+    print('Check CUDA')
 
 EMBEDDING_DIMENSION = 1024
 metadata_faiss_index_path = os.path.join(SNAPSHOT_DIR, "metadata_faiss.index")
