@@ -3,6 +3,8 @@ import requests
 from transformers import pipeline
 import openai
 client = openai.OpenAI()
+import google.generativeai as genai
+
 
 
 class LLMInterface:
@@ -120,23 +122,23 @@ class GeminiLLM(LLMInterface):
         return self._name
 
     def get_response(self, query: str, context: str) -> str:
-        # Hypothetical usage example
-        headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
-        payload = {
-            "model": "gemini-alpha",
-            "prompt": (
-                "You are an AI assistant specialized in explaining UK Open Government Data.\n\n"
-                f"Context:\n{context}\n\n"
-                f"Query: {query}\n"
-                "Answer as accurately as you can."
-            )
-        }
+        genai.configure(self.api_key)
+        # headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
+        # payload = {
+        #     "model": "gemini-alpha",
+        #     "prompt": (
+        #         ".\n\n"
+        #         f"Context:\n{context}\n\n"
+        #         f"Query: {query}\n"
+        #         "Answer as accurately as you can."
+        #     )
+        # }
         try:
-            resp = requests.post(self.api_url, headers=headers, json=payload, timeout=15)
-            if resp.status_code == 200:
-                result = resp.json()
-                return result.get("answer", "No 'answer' field in Gemini response.")
-            return f"Gemini responded with status code {resp.status_code}"
+                
+            model = genai.GenerativeModel(model_name="gemini-1.5-flash",
+                system_instruction="You are an AI assistant specialized in explaining UK Open Government Data")
+            response = model.generate_content(f"Based on the following information, {context}, answer the question: {query}")
+            return response.text
         except Exception as e:
             return f"Error calling Gemini API: {e}"
 
