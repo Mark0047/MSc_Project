@@ -219,7 +219,7 @@ def build_metadata_faiss_index(metadata_faiss, document_metadata, max_files=4000
                 embedding, metadata_entry = result
                 metadata_faiss.add(embedding)
                 document_metadata.append(metadata_entry)
-    print('Total files processed: '+ files_processed)
+    print('Total files processed: ', files_processed)
     print("Metadata FAISS index built successfully.")
 
 
