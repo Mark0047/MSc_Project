@@ -102,7 +102,7 @@ def load_cached_metadata_embedding(package_id):
 
 def read_csv_file(file_path):
     try:
-        df = pd.read_csv(file_path)
+        df = pd.read_csv(file_path, on_bad_lines='skip')
         return df.to_string(index=False)
     except Exception as e:
         print(f"Error reading CSV file {file_path}: {e}")
@@ -509,32 +509,32 @@ def main():
             task="text2text-generation",
             device=0  # Use GPU if available; set to -1 for CPU
         ),
-        HuggingFaceLLM(
-            model_name="tiiuae/falcon-7b-instruct",
-            task="text2text-generation",
-            device=0
-        ),
         # HuggingFaceLLM(
-        #     model_name="meta-llama/Llama-2-7b-chat-hf",
+        #     model_name="tiiuae/falcon-7b-instruct",
+        #     task="text2text-generation",
+        #     device=0
+        # ),
+        # # HuggingFaceLLM(
+        # #     model_name="meta-llama/Llama-2-7b-chat-hf",
+        # #     task="text-generation",  # Using text-generation for chat model
+        # #     device=0
+        # # ),
+        # HuggingFaceLLM(
+        #     model_name="TinyPixel/Llama-2-7B-bf16-sharded",
         #     task="text-generation",  # Using text-generation for chat model
         #     device=0
         # ),
-        HuggingFaceLLM(
-            model_name="TinyPixel/Llama-2-7B-bf16-sharded",
-            task="text-generation",  # Using text-generation for chat model
-            device=0
-        ),
-        # Add more HuggingFaceLLM instances here if you want to include additional models.
-        HuggingFaceLLM(
-            model_name="google/flan-t5-xxl",  # or "tiiuae/falcon-7b-instruct"
-            task="text2text-generation",
-            device=0  # or 0 if you have GPU
-        ),
-        HuggingFaceLLM(
-            model_name="EleutherAI/gpt-j-6b",  
-            task="text2text-generation",
-            device=0  # or 0 if you have GPU
-        ),
+        # # Add more HuggingFaceLLM instances here if you want to include additional models.
+        # HuggingFaceLLM(
+        #     model_name="google/flan-t5-xxl",  # or "tiiuae/falcon-7b-instruct"
+        #     task="text2text-generation",
+        #     device=0  # or 0 if you have GPU
+        # ),
+        # HuggingFaceLLM(
+        #     model_name="EleutherAI/gpt-j-6b",  
+        #     task="text2text-generation",
+        #     device=0  # or 0 if you have GPU
+        # ),
         GeminiLLM(
             api_url="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash",
             api_key= os.environ.get("GEMINI_API_KEY")
