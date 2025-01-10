@@ -121,7 +121,7 @@ class GeminiLLM(LLMInterface):
         return self._name
 
     def get_response(self, query: str, context: str) -> str:
-        genai.configure(self.api_key)
+        genai.configure(api_key=self.api_key)
         # headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
         # payload = {
         #     "model": "gemini-alpha",
